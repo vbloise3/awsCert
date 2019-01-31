@@ -2,3 +2,48 @@
 .chalice/venv/
 awsCertUi/.oldgit
 awsCertUi/.oldgitignore
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+awsCertUi/dist
+awsCertUi/mp
+awsCertUi/out-tsc
+
+# dependencies
+awsCertUi/node_modules
+
+# profiling files
+awsCertUi/chrome-profiler-events.json
+awsCertUi/speed-measure-plugin.json
+
+# IDEs and editors
+awsCertUi/.idea
+awsCertUi/.project
+awsCertUi/.classpath
+awsCertUi/.c9/
+awsCertUi/*.launch
+awsCertUi/.settings/
+awsCertUi/*.sublime-workspace
+
+# IDE - VSCode
+awsCertUi/.vscode/*
+awsCertUi/!.vscode/settings.json
+awsCertUi/!.vscode/tasks.json
+awsCertUi/!.vscode/launch.json
+awsCertUi/!.vscode/extensions.json
+
+# misc
+awsCertUi/.sass-cache
+awsCertUi/connect.lock
+awsCertUi/coverage
+awsCertUi/libpeerconnection.log
+awsCertUi/npm-debug.log
+awsCertUi/yarn-error.log
+awsCertUi/testem.log
+awsCertUi/typings
+
+# System Files
+awsCertUi/.DS_Store
+awsCertUi/Thumbs.db
+
