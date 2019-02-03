@@ -1,0 +1,5 @@
+git add .
+git commit -m "some message"
+git push -u origin master
+
+git master: https://github.com/vbloise3/vbloiseResume3.git

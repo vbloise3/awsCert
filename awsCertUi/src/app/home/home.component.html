@@ -1,0 +1,53 @@
+<div fxLayout="row wrap">
+  <mat-sidenav-container fxFlex [class.m2app-dark]="isDarkTheme">
+
+    <mat-sidenav #sidenav mode="side" class="app-sidenav mat-elevation-z15" fxFlex style="border-right-style: none;">
+      <table>
+        <tr>
+          <div *ngIf="currentPath == '/'"><td><span class="smallTextBottom"><a [routerLink]="['/1']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>My Resume</a></span></td></div>
+          <div *ngIf="currentPath != '/'"><td><span class="smallTextBottom"><a [routerLink]="['/']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>My Resume</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/personalInterests'"><td><span class="smallTextBottom"><a [routerLink]="['/2']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Personal Interests</a></span></td></div>
+          <div *ngIf="currentPath != '/personalInterests'"><td><span class="smallTextBottom"><a [routerLink]="['/personalInterests']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Personal Interests</a></span></td></div>
+        </tr>
+      </table>
+    </mat-sidenav>
+
+    <mat-toolbar color="primary" style="height: 4em;">
+      <button class="app-icon-button" (click)="sidenav.toggle()">
+        <i class="material-icons app-toolbar-menu">menu</i>
+      </button>
+
+      <img class="mdCardImg md-card-sm-image transparentProfilePic">
+
+      <span class="textBottom xxLargerFont">&nbsp;Vincent Bloise</span>
+
+      <span class="app-toolbar-filler"></span>
+      <span class="smallTextBottom"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
+                    &nbsp;<a href="mailto:vbloise3@gmail.com?Subject=Resume" target="_top" style="color: white"><i class="material-icons md-18 iconBottom">email</i>vbloise3@gmail.com</a></span>
+      <!--button md-button (click)="isDarkTheme = !isDarkTheme">TOGGLE DARK THEME    </button-->
+    </mat-toolbar>
+
+    <div class="app-content">
+
+      <mat-card class="shadowCard">
+        <h1 class="h1Blue">Summary of Qualifications</h1>
+        <mat-card>
+          <!--a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-03-26&ci=AWS00385314"-->
+          <img class="mdCertImg certPic">
+          <!--/a-->
+          <ul>
+            <li class="bullet11">AWS Certified Solutions Architect – achieved June 4, 2018</li>
+            <li class="bullet11">Over 25 years in the Information Technology field including over 15 years in management roles</li>
+            <li class="bullet11">Strong leadership and communication skills with experience managing distributed, international teams that include off-shore resources</li>
+            <li class="bullet11">Leader of organizational improvement across IT and business units</li>
+            <li class="bullet11">Collaborative leader with skills to engage contributors from multiple IT and business units to solve technical and business problems</li>
+            <li class="bullet11">Staying on top of tech trends, I have maintained strong skills in Java, JavaScript, TypeScript, Angular, NodeJS, Python, AWS services, and Material Design.</li>
+            <li class="bullet11">Proven attractor of top talent through mentoring and career coaching by supporting team members in developing their technical, business, and interpersonal professional skills.</li>
+          </ul>
+        </mat-card>
+      </mat-card>
+    </div>
+  </mat-sidenav-container>
+</div>
