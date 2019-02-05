@@ -1,0 +1,187 @@
+<div fxLayout="row wrap">
+  <mat-toolbar color="primary" style="height: 4em;">
+
+    <img class="mdCardImg md-card-sm-image transparentProfilePic">
+
+    <span class="textBottom xxLargerFont">Practice</span>
+
+    <span class="app-toolbar-filler"></span>
+    <!--span class="smallTextBottom"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
+                    &nbsp;<a href="mailto:vbloise3@gmail.com?Subject=Resume" target="_top" style="color: white"><i class="material-icons md-18 iconBottom">email</i>vbloise3@gmail.com</a></span-->
+  </mat-toolbar>
+  <span class="app-toolbar-filler" style="padding: 1em;"></span>
+  <mat-card class="shadowCard" style="float: right;margin-bottom: 1em;margin-top: 1em;">
+    <form #QandACategoriesForm="ngForm" class="example-container" (ngSubmit)="submitSubcategories(QandACategoriesForm)" [formGroup]="options">
+      <div style="display: inline-block">
+        <mat-checkbox
+          name="S3"
+          value="S3"
+          (change)="updateSubcategoriesChecked($event, 'S3')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">S3</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="CloudFront"
+          value="CloudFront"
+          (change)="updateSubcategoriesChecked($event, 'CloudFront')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">CloudFront</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="IAM"
+          value="IAM"
+          (change)="updateSubcategoriesChecked($event, 'IAM')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">IAM</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Cloud Foundation"
+          value="Cloud Foundation"
+          (change)="updateSubcategoriesChecked($event, 'Cloud Foundation')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Cloud Foundation</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Define AWS Cloud"
+          value="Define AWS Cloud"
+          (change)="updateSubcategoriesChecked($event, 'Define AWS Cloud')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Define AWS Cloud</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Security"
+          value="Security"
+          (change)="updateSubcategoriesChecked($event, 'Security')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Security</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="EC2"
+          value="EC2"
+          (change)="updateSubcategoriesChecked($event, 'EC2')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">EC2</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Lambda"
+          value="Lambda"
+          (change)="updateSubcategoriesChecked($event, 'Lambda')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Lambda</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Route 53"
+          value="Route 53"
+          (change)="updateSubcategoriesChecked($event, 'Route 53')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Route 53</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Databases"
+          value="Databases"
+          (change)="updateSubcategoriesChecked($event, 'Databases')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Databases</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="VPC"
+          value="VPC"
+          (change)="updateSubcategoriesChecked($event, 'VPC')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">VPC</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Application Services"
+          value="Application Services"
+          (change)="updateSubcategoriesChecked($event, 'Application Services')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Application Services</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Architecture"
+          value="Architecture"
+          (change)="updateSubcategoriesChecked($event, 'Architecture')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Architecture</mat-label>&nbsp;&nbsp;
+        <mat-checkbox
+          name="Test Example Questions"
+          value="Test Example Questions"
+          (change)="updateSubcategoriesChecked($event, 'Test Example Questions')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Test Example Questions</mat-label>
+        &nbsp;&nbsp;
+        <button mat-button type="submit" color="primary">Submit</button>
+      </div>
+    </form>
+    <h1 class="h1Blue">Answer the following question:</h1>
+    <mat-card class="question-card">
+      <div class="example-container">
+        <form #QandAForm="ngForm" class="example-container" (ngSubmit)="submitAnswer(QandAForm)" [formGroup]="options">
+          <mat-label><span class="underlined">Category:</span>&nbsp;<span class="colorBlue">{{getCategory}}</span></mat-label>
+          <mat-placeholder></mat-placeholder>
+          <mat-label><span class="underlined">Sub-category:</span>&nbsp;<span class="colorBlue">{{getSubcategory}}</span></mat-label>
+          <mat-placeholder></mat-placeholder>
+          <!--mat-label><span class="underlined">Question Type:</span>&nbsp;<span class="colorBlue">{{getQuestionType}}</span></mat-label>
+          <mat-placeholder></mat-placeholder-->
+          <mat-label><span class="underlined">Question:</span>&nbsp;<span class="colorBlue largerText"><p class="questionWidth">{{getQuestion}}</p></span></mat-label>
+          <mat-placeholder></mat-placeholder>
+          <div *ngIf="getSelectCount == 0">
+            <label><span class="underlined">Your answer{{getPlural}}</span>&nbsp;</label>
+            <mat-placeholder></mat-placeholder>
+            <mat-form-field>
+              <div class="wideInput">
+                <input id="getTextAnswer" class="wideInput" [ngClass]="{'correctAnswer': textAnswerCorrectOrNot === 'true', 'wrongAnswer': textAnswerCorrectOrNot === 'false'}"
+                       formControlName="textAnswer" matInput placeholder="Enter your answer" ngModel required>
+              </div>
+            </mat-form-field>
+            <label *ngIf="textAnswerCorrectOrNot == 'false'"><br/>Correct Answer:&nbsp;<span class="correctAnswer">{{getCorrectAnswer}}</span></label>
+          </div>
+          <div *ngIf="getSelectCount == 1">
+            <label><span class="underlined">Select {{getSelectCountText}} answer{{getPlural}}</span>&nbsp;</label>
+            <mat-radio-group layout="row" formControlName="selectedAnswer">
+              <span class="displayOnNewLine">
+                <mat-placeholder></mat-placeholder>
+                <mat-radio-button ng-style="{'display':'inline-block'}" *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
+                  <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
+                </mat-radio-button>
+              </span>
+            </mat-radio-group>
+          </div>
+          <div *ngIf="getSelectCount > 1">
+            <label><span class="underlined">Select {{getSelectCountText}} answer{{getPlural}}</span>&nbsp;</label>
+            <span class="displayOnNewLine">
+                <mat-placeholder></mat-placeholder>
+                <span *ngFor="let answerValue of getAnswers; let i = index">
+                    <mat-checkbox
+                      name="{{answerValue}}"
+                      value="{{answerValue}}"
+                      (change)="change($event, answerValue)">
+                      <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
+                    </mat-checkbox>
+                  &nbsp;&nbsp;
+                </span>
+            </span>
+          </div>
+          <div class="actions">
+            <div *ngIf="!nextQuestion">
+              <button mat-button type="submit" color="primary" [disabled]="!QandAForm.form.valid">Submit</button>
+            </div>
+            <div *ngIf="nextQuestion">
+              <button mat-button type="submit" color="primary" [disabled]="!QandAForm.form.valid">Next Question</button>
+            </div>
+          </div>
+        </form>
+        <div *ngIf="correctAnswerIndicator != 'neutral'">
+          <p [ngClass]="(correctAnswerBool)?'correctAnswer':'wrongAnswer'">{{correctAnswerIndicator}}</p>
+        </div>
+        <div>
+          <p class="gradeText"> Grade so far: {{totalCorrect}} of {{totalAnswered}} &nbsp;&mdash;&nbsp; <span [ngClass]="(passing)?'percentPassing':'percentFailing'">{{totalCorrectPercent}}%</span></p>
+        </div>
+        <hr/>
+        <div>
+          <p class="gradeText"> Questions: {{totalAnswered}} of {{numberOfQuestions}} &nbsp;&mdash;&nbsp; <span>{{totalTakenPercent}}%</span></p>
+        </div>
+      </div>
+    </mat-card>
+  </mat-card>
+</div>
