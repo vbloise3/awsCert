@@ -131,7 +131,7 @@
             <mat-form-field>
               <div class="wideInput">
                 <input id="getTextAnswer" class="wideInput" [ngClass]="{'correctAnswer': textAnswerCorrectOrNot === 'true', 'wrongAnswer': textAnswerCorrectOrNot === 'false'}"
-                       formControlName="textAnswer" matInput placeholder="Enter your answer" ngModel required>
+                       formControlName="textAnswer" matInput placeholder="Enter your answer" > <!-- ngModel required -->
               </div>
             </mat-form-field>
             <label *ngIf="textAnswerCorrectOrNot == 'false'"><br/>Correct Answer:&nbsp;<span class="correctAnswer">{{getCorrectAnswer}}</span></label>
