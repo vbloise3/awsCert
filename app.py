@@ -1,7 +1,16 @@
-from chalice import Chalice
+import chalice
+import boto3
+import chalicelib.constants
+import chalicelib.c2pQuestions
+import chalicelib.questions
+from boto3.dynamodb.conditions import Key, Attr
+from botocore.exceptions import ClientError
 
-app = Chalice(app_name='awsCert')
+app = chalice.Chalice(app_name='awsCert')
 
+dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
+table = dynamodb.Table('C2PQandA')
+yose = 9
 
 @app.route('/')
 def index():
@@ -11,6 +20,31 @@ def index():
 @app.route('/email/{email}/password/{password}', cors=True)
 def hello_email_password(email, password):
     return {'email': email, 'password': password}
+
+
+@app.route('/questions/{question_id}', cors=True)
+def get_question(question_id):
+    table = chalicelib.questions.QuestionsTable()
+    question = table.get_question(question_id)
+    if not question:
+        raise chalice.NotFoundError('Requested resource does not exist')
+    return {
+        'question_id': question.question_id,
+        'question': question.question,
+        'possible_answers': question.possible_answers
+    }
+
+
+@app.route('/getAllQandAs', cors=True)
+def get_all_q_and_as_c2p():
+    #table = chalicelib.questions.QuestionsTable()
+    print("in getAllQandAs")
+    table.get_item(
+        Key={
+            'id': 1
+        }
+    )
+    return {'table': yose}
 
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.

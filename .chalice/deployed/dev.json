@@ -2,9 +2,9 @@
   "schema_version": "2.0",
   "resources": [
     {
-      "role_name": "awsCert-dev",
-      "role_arn": "arn:aws:iam::001178231653:role/awsCert-dev",
-      "name": "default-role",
+      "role_name": "awsCert-dev-api_handler",
+      "role_arn": "arn:aws:iam::001178231653:role/awsCert-dev-api_handler",
+      "name": "api_handler_role",
       "resource_type": "iam_role"
     },
     {
@@ -15,7 +15,7 @@
     {
       "name": "rest_api",
       "rest_api_id": "ootlilufzd",
-      "rest_api_url": "https://ootlilufzd.execute-api.us-east-2.amazonaws.com/api/",
+      "rest_api_url": "https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/",
       "resource_type": "rest_api"
     }
   ],
