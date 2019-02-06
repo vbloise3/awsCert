@@ -3,14 +3,12 @@ import boto3
 import chalicelib.constants
 import chalicelib.c2pQuestions
 import chalicelib.questions
-from boto3.dynamodb.conditions import Key, Attr
-from botocore.exceptions import ClientError
+from boto3.dynamodb.conditions import Key
 
 app = chalice.Chalice(app_name='awsCert')
 
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-table = dynamodb.Table('C2PQandA')
-yose = 9
+c2p_table = dynamodb.Table('C2PQandA')
 
 @app.route('/')
 def index():
@@ -37,14 +35,17 @@ def get_question(question_id):
 
 @app.route('/getAllQandAs', cors=True)
 def get_all_q_and_as_c2p():
-    #table = chalicelib.questions.QuestionsTable()
-    print("in getAllQandAs")
-    table.get_item(
-        Key={
-            'id': 1
-        }
+    myhashkey = '2BJpQT9u0ZBQJBE4KlreGz2NvSX6vZqU'
+    print("in get all q and as")
+    response = c2p_table.query(
+        KeyConditionExpression=Key('id').eq(myhashkey)
     )
-    return {'table': yose}
+    items = response['Items']
+    if items:
+        return items[0]
+    else:
+        return []
+    return response
 
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.

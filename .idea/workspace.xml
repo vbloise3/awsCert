@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.chalice/policy-dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.chalice/policy-prod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chalicelib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chalicelib/c2pQuestions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chalicelib/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chalicelib/questions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chalicelib/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.chalice/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.chalice/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.chalice/deployed/dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/.chalice/deployed/dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/awsCert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/awsCert.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.chalice/policy-dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/.chalice/policy-dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +20,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="387">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.chalice/policy-dev.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -441,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.chalice/policy-dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chalicelib/c2pQuestions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -465,10 +455,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.chalice/policy-dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="387">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
