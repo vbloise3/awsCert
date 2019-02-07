@@ -73,9 +73,6 @@ def get_all_q_and_as_c2p():
     #   ExpressionAttributeValues provides value substitution.
     #     You use this because you can't use literals in any expression, including
     #     KeyConditionExpression. You can use the expression attribute value :yyyy to address this.
-    while 'LastEvaluatedKey' in response:
-        response = c2p_table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
-        items.extend(response['Items'])
 
     return items
 
