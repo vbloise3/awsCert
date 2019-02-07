@@ -35,7 +35,10 @@ def get_question(question_id):
 
 @app.route('/getAllQandAs', cors=True)
 def get_all_q_and_as_c2p():
+    # FilterExpression specifies a condition that returns only items that
+    #    satisfy the condition. All other items are discarded.
     fe = Attr('info.subcategory').contains('Architecture') | Attr('info.subcategory').contains('Architecting')
+    # ProjectionExpression specifies the attributes you want in the scan result.
     # pe = "#id, category, info.subcategory"
     # Expression Attribute Names for Projection Expression only.
     # ean = { "#id": "id", }
@@ -45,15 +48,33 @@ def get_all_q_and_as_c2p():
     # )
     response = c2p_table.scan(
         Select='ALL_ATTRIBUTES',
-        FilterExpression=fe
+        FilterExpression=fe,
         # ProjectionExpression=pe,
         # ExpressionAttributeNames=ean
     )
+    while 'LastEvaluatedKey' in response:
+        response = c2p_table.scan(
+            # ProjectionExpression=pe,
+            FilterExpression=fe,
+            # ExpressionAttributeNames=ean,
+            ExclusiveStartKey=response['LastEvaluatedKey']
+        )
     items = response['Items']
     # return items
 
+    # The scan method returns a subset of the items each time, called a page.
+    #   The LastEvaluatedKey value in the response is then passed to the scan method via
+    #   the ExclusiveStartKey parameter. When the last page is returned, LastEvaluatedKey is not part of the response.
+    # Note
+    #   ExpressionAttributeNames provides name substitution. We use this because
+    #     id is a reserved word in DynamoDB, you can't use it directly in
+    #     any expression, including KeyConditionExpression.
+    #     You can use the expression attribute name #id to address this.
+    #   ExpressionAttributeValues provides value substitution.
+    #     You use this because you can't use literals in any expression, including
+    #     KeyConditionExpression. You can use the expression attribute value :yyyy to address this.
     while 'LastEvaluatedKey' in response:
-        response = table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
+        response = c2p_table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
         items.extend(response['Items'])
 
     return items
