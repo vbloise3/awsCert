@@ -3,7 +3,7 @@ import boto3
 import chalicelib.constants
 import chalicelib.c2pQuestions
 import chalicelib.questions
-from boto3.dynamodb.conditions import Key
+from boto3.dynamodb.conditions import Key, Attr
 
 app = chalice.Chalice(app_name='awsCert')
 
@@ -35,17 +35,28 @@ def get_question(question_id):
 
 @app.route('/getAllQandAs', cors=True)
 def get_all_q_and_as_c2p():
-    myhashkey = '2BJpQT9u0ZBQJBE4KlreGz2NvSX6vZqU'
-    print("in get all q and as")
-    response = c2p_table.query(
-        KeyConditionExpression=Key('id').eq(myhashkey)
+    fe = Attr('info.subcategory').contains('Architecture') | Attr('info.subcategory').contains('Architecting')
+    # pe = "#id, category, info.subcategory"
+    # Expression Attribute Names for Projection Expression only.
+    # ean = { "#id": "id", }
+    esk = None
+    # response = c2p_table.scan(
+    #    FilterExpression=Attr('info.subcategory').eq('Define AWS Cloud') | Attr('info.subcategory').eq('EC2')
+    # )
+    response = c2p_table.scan(
+        Select='ALL_ATTRIBUTES',
+        FilterExpression=fe
+        # ProjectionExpression=pe,
+        # ExpressionAttributeNames=ean
     )
     items = response['Items']
-    if items:
-        return items[0]
-    else:
-        return []
-    return response
+    # return items
+
+    while 'LastEvaluatedKey' in response:
+        response = table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
+        items.extend(response['Items'])
+
+    return items
 
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.
