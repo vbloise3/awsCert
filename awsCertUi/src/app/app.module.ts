@@ -24,6 +24,7 @@ import { BaseComponent } from './base/base.component';
 import { DynamoDbserviceService } from './services/dynamo-dbservice';
 import { C2pQuestionComponent } from './c2p-question/c2p-question.component';
 import { Ca2QuestionComponent } from './ca2-question/ca2-question.component';
+import {DataService} from "./data.service";
 
 const appRoutes: Routes = [
   {
@@ -96,7 +97,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [DynamoDbserviceService],
+  providers: [DynamoDbserviceService, DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

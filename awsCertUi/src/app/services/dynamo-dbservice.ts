@@ -10,7 +10,7 @@ const serviceDeleteOneItem = '/api/deleteQandA';
 const serviceDeleteTable = '/api/deleteTable';
 const serviceListBucketContents = '/api/listBucketContents';
 const serviceGetAllItems = '/api/c2pqandas';
-const serviceGetAllArchItems = '/api/cA2qandas';
+const serviceGetAllArchItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAs';
 
 export interface QandA {
   id: string;
