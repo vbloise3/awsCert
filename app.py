@@ -1,14 +1,14 @@
 import chalice
 import boto3
 import chalicelib.constants
-import chalicelib.c2pQuestions
+import chalicelib.ca2Questions
 import chalicelib.questions
 from boto3.dynamodb.conditions import Key, Attr
 
 app = chalice.Chalice(app_name='awsCert')
 
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-c2p_table = dynamodb.Table('C2PQandA')
+ca2_table = dynamodb.Table('CA2QandA')
 
 @app.route('/')
 def index():
@@ -34,26 +34,26 @@ def get_question(question_id):
 
 
 @app.route('/getAllQandAs', cors=True)
-def get_all_q_and_as_c2p():
+def get_all_q_and_as_ca2():
     # FilterExpression specifies a condition that returns only items that
     #    satisfy the condition. All other items are discarded.
-    fe = Attr('info.subcategory').contains('Architecture') | Attr('info.subcategory').contains('Architecting')
+    fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
     # ProjectionExpression specifies the attributes you want in the scan result.
     # pe = "#id, category, info.subcategory"
     # Expression Attribute Names for Projection Expression only.
     # ean = { "#id": "id", }
     esk = None
-    # response = c2p_table.scan(
+    # response = ca2_table.scan(
     #    FilterExpression=Attr('info.subcategory').eq('Define AWS Cloud') | Attr('info.subcategory').eq('EC2')
     # )
-    response = c2p_table.scan(
+    response = ca2_table.scan(
         Select='ALL_ATTRIBUTES',
         FilterExpression=fe,
         # ProjectionExpression=pe,
         # ExpressionAttributeNames=ean
     )
     while 'LastEvaluatedKey' in response:
-        response = c2p_table.scan(
+        response = ca2_table.scan(
             # ProjectionExpression=pe,
             FilterExpression=fe,
             # ExpressionAttributeNames=ean,
