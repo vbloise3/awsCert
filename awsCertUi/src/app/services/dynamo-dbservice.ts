@@ -114,11 +114,11 @@ export class DynamoDbserviceService {
     });
     // alert('getting this url: ' + url);
     let headers = new HttpHeaders();
-    headers = headers.set('If-Modified-Since', '0');
+    /*headers = headers.set('If-Modified-Since', '0');
     headers = headers.append('Cache-control', 'no-cache');
     headers = headers.append('Cache-control', 'no-store');
     headers = headers.append('Expires', '0');
-    headers = headers.append('Pragma', 'no-cache');
+    headers = headers.append('Pragma', 'no-cache');*/
     resultData = this.http.get(url, { headers: headers });
     // alert('loadInitialData service result: ' + JSON.stringify(resultData));
     return resultData;

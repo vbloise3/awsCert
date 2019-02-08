@@ -123,8 +123,9 @@ export class Ca2QuestionComponent implements OnInit {
     this.qandaArray = [];
     theReturnedJSON = this.dynamoDBservice.getAllArchItems(this.checked).subscribe( qandas => {
       this.qandas = JSON.stringify(qandas);
-      // alert('the first returned Q and As: ' + qandas.Items[0].id);
-      // alert('the count of returned q and as: ' + qandas.Count);
+      alert("returned qandas: " + qandas);
+      alert('the first returned Q and As: ' + this.qandas.Items[0].id);
+      // alert('the count of returned q and as: ' + this.qandas.Count);
       // Iterate over the qandas to load up questions array.
       let counter = 0, answerCounter = 0;
       const outerThis = this;

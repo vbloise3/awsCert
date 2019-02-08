@@ -84,20 +84,20 @@ def get_all_q_and_as_ca2():
 def get_all_q_and_as_ca2(parameters):
     yose = parameters
     fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
-    response = ca2_table.scan(
+    responses = ca2_table.scan(
         Select='ALL_ATTRIBUTES',
         FilterExpression=fe,
         # ProjectionExpression=pe,
         # ExpressionAttributeNames=ean
     )
-    while 'LastEvaluatedKey' in response:
-        response = ca2_table.scan(
+    while 'LastEvaluatedKey' in responses:
+        responses = ca2_table.scan(
             # ProjectionExpression=pe,
             FilterExpression=fe,
             # ExpressionAttributeNames=ean,
-            ExclusiveStartKey=response['LastEvaluatedKey']
+            ExclusiveStartKey=responses['LastEvaluatedKey']
         )
-    items = response['Items']
+    items = responses['Items']
     #return {
     #    'headers': {
     #        'Content-Type': 'application/json',
