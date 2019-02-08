@@ -98,14 +98,8 @@ def get_all_q_and_as_ca2(parameters):
             ExclusiveStartKey=responses['LastEvaluatedKey']
         )
     items = responses['Items']
-    #return {
-    #    'headers': {
-    #        'Content-Type': 'application/json',
-    #        'Access-Control-Allow-Origin': '*'
-    #    },
-    #    'body': items
-    #}
-    return items
+    returned_items = json.dumps(items, separators=(',', ':'))
+    return returned_items
 
 
 def response(message, status_code):
