@@ -5,12 +5,14 @@ import chalicelib.ca2Questions
 import chalicelib.questions
 from boto3.dynamodb.conditions import Key, Attr
 import json
+from urllib import unquote
 
 
 app = chalice.Chalice(app_name='awsCert')
 
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-ca2_table = dynamodb.Table('CA2QandA')
+ca2_table = dynamodb.Table(chalicelib.constants.CA2QUESTIONS_TABLE_NAME)
+c2p_table = dynamodb.Table(chalicelib.constants.C2PQUESTIONS_TABLE_NAME)
 
 
 @app.route('/', cors=True)
@@ -36,11 +38,11 @@ def get_question(question_id):
     }
 
 
-@app.route('/getAllQandAs', cors=True)
-def get_all_q_and_as_ca2():
+@app.route('/getAllQandAsC2p', cors=True)
+def get_all_q_and_as_c2p():
     # FilterExpression specifies a condition that returns only items that
     #    satisfy the condition. All other items are discarded.
-    fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
     # ProjectionExpression specifies the attributes you want in the scan result.
     # pe = "#id, category, info.subcategory"
     # Expression Attribute Names for Projection Expression only.
@@ -49,20 +51,20 @@ def get_all_q_and_as_ca2():
     # response = ca2_table.scan(
     #    FilterExpression=Attr('info.subcategory').eq('Define AWS Cloud') | Attr('info.subcategory').eq('EC2')
     # )
-    response = ca2_table.scan(
-        Select='ALL_ATTRIBUTES',
-        FilterExpression=fe,
+    responses = c2p_table.scan(
+        Select='ALL_ATTRIBUTES'
+        # FilterExpression=fe,
         # ProjectionExpression=pe,
         # ExpressionAttributeNames=ean
     )
-    while 'LastEvaluatedKey' in response:
-        response = ca2_table.scan(
+    while 'LastEvaluatedKey' in responses:
+        responses = ca2_table.scan(
             # ProjectionExpression=pe,
             FilterExpression=fe,
             # ExpressionAttributeNames=ean,
-            ExclusiveStartKey=response['LastEvaluatedKey']
+            ExclusiveStartKey=responses['LastEvaluatedKey']
         )
-    items = response['Items']
+    items = responses['Items']
     # return items
 
     # The scan method returns a subset of the items each time, called a page.
@@ -82,8 +84,17 @@ def get_all_q_and_as_ca2():
 
 @app.route('/getAllQandAs/{parameters}', cors=True)
 def get_all_q_and_as_ca2(parameters):
-    yose = parameters
-    fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    # now need to parse parameters and use in fe
+    parameters = unquote(parameters)
+    # print("splitting parameters: " + parameters[0] + ' ' + parameters[1])
+    parsed_parameters = parameters.split(":")
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    # remove last empty list item
+    del parsed_parameters[-1]
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    print("parsed_parameters.length " + str(len(parsed_parameters)))
+    # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    fe = Attr('info.subcategory').is_in(parsed_parameters)
     responses = ca2_table.scan(
         Select='ALL_ATTRIBUTES',
         FilterExpression=fe,

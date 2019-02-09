@@ -9,7 +9,7 @@ const serviceUpdateOneItem = '/api/updateQandA';
 const serviceDeleteOneItem = '/api/deleteQandA';
 const serviceDeleteTable = '/api/deleteTable';
 const serviceListBucketContents = '/api/listBucketContents';
-const serviceGetAllItems = '/api/c2pqandas';
+const serviceGetAllItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAsC2p';
 const serviceGetAllArchItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAs';
 
 export interface QandA {
@@ -94,11 +94,11 @@ export class DynamoDbserviceService {
     const url = serviceGetAllItems;
     // alert('getting this url: ' + url);
     let headers = new HttpHeaders();
-    headers = headers.set('If-Modified-Since', '0');
+    /*headers = headers.set('If-Modified-Since', '0');
     headers = headers.append('Cache-control', 'no-cache');
     headers = headers.append('Cache-control', 'no-store');
     headers = headers.append('Expires', '0');
-    headers = headers.append('Pragma', 'no-cache');
+    headers = headers.append('Pragma', 'no-cache');*/
     resultData = this.http.get(url, { headers: headers });
     // alert('loadInitialData service result: ' + JSON.stringify(resultData));
     return resultData;
@@ -106,12 +106,15 @@ export class DynamoDbserviceService {
 
   getAllArchItems(subcategories) {
     let resultData;
-    let url = serviceGetAllArchItems;
+    let url = serviceGetAllArchItems + '/';
     // add parameters to url
     // url = url + '/S3/CloudFront/IAM';
     subcategories.forEach(function (subcategoryItem) {
-      url = url + '/' + encodeURI(subcategoryItem);
+      /*url = url + '/' + encodeURI(subcategoryItem);*/
+      url = url + encodeURI(subcategoryItem) + ':';
     });
+    // remove last :
+    // url = url.substring(0, url.length - 1);
     // alert('getting this url: ' + url);
     let headers = new HttpHeaders();
     /*headers = headers.set('If-Modified-Since', '0');

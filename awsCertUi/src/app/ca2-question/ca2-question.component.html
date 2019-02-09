@@ -1,9 +1,30 @@
 <div fxLayout="row wrap">
-  <mat-toolbar color="primary" style="height: 4em;">
+  <mat-sidenav-container fxFlex [class.m2app-dark]="isDarkTheme">
 
+    <mat-sidenav #sidenav mode="side" class="app-sidenav mat-elevation-z15" fxFlex style="border-right-style: none;">
+      <table>
+        <tr>
+          <div *ngIf="currentPath == '/'"><td><span class="smallTextBottom"><a [routerLink]="['/1']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>Home</a></span></td></div>
+          <div *ngIf="currentPath != '/'"><td><span class="smallTextBottom"><a [routerLink]="['/']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>Home</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/c2ppractice'"><td><span class="smallTextBottom"><a [routerLink]="['/2']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Cloud Practitioner</a></span></td></div>
+          <div *ngIf="currentPath != '/c2ppractice'"><td><span class="smallTextBottom"><a [routerLink]="['/c2ppractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Cloud Practitioner</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/3']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
+          <div *ngIf="currentPath != '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/ca2practice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
+        </tr>
+      </table>
+    </mat-sidenav>
+
+    <mat-toolbar color="primary" style="height: 4em;">
+      <button class="app-icon-button" (click)="sidenav.toggle()">
+        <i class="material-icons app-toolbar-menu">menu</i>
+      </button>
     <img class="mdCardImg md-card-sm-image transparentProfilePic">
 
-    <span class="textBottom xxLargerFont">Practice</span>
+    <span class="textBottom xxLargerFont">AWS Certified Architect Associate Exam Practice Questions</span>
 
     <span class="app-toolbar-filler"></span>
     <!--span class="smallTextBottom"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
@@ -184,4 +205,5 @@
       </div>
     </mat-card>
   </mat-card>
+  </mat-sidenav-container>
 </div>

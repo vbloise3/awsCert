@@ -4,7 +4,11 @@
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalicelib/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/chalicelib/constants.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,49 +22,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/data.service.ts">
+      <file leaf-file-name="c2p-question.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="345">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="n#style#0;n#mat-toolbar#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynamo-dbservice.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="23" selection-end-column="15" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ca2-question.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
+                <element signature="n#style#0;n#mat-toolbar#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +49,11 @@
       <file leaf-file-name="ca2-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#mat-toolbar#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +67,7 @@
       <find>c2p</find>
       <find>resetEverything</find>
       <find>items</find>
+      <find>alert</find>
       <find>getAllArchItems</find>
     </findStrings>
     <replaceStrings>
@@ -107,19 +91,21 @@
         <option value="$PROJECT_DIR$/awsCertUi/src/app/base/base.component.html" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/awsCertUi/package.json" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" />
         <option value="$PROJECT_DIR$/.chalice/config.json" />
         <option value="$PROJECT_DIR$/chalicelib/questions.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.chalice/policy-dev.json" />
         <option value="$PROJECT_DIR$/chalicelib/c2pQuestions.py" />
-        <option value="$PROJECT_DIR$/chalicelib/constants.py" />
         <option value="$PROJECT_DIR$/chalicelib/ca2Questions.py" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/data.service.ts" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.ts" />
+        <option value="$PROJECT_DIR$/chalicelib/constants.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" />
       </list>
     </option>
   </component>
@@ -192,6 +178,14 @@
               <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="c2p-question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
+              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ca2-question" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,7 +194,7 @@
               <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17606000" />
+    <option name="totallyTimeSpent" value="21076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1892" height="978" extended-state="0" />
@@ -266,9 +260,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3291714" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3291714" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.3291714" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25243244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25243244" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -351,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.chalice/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -384,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="94" column="38" lean-forward="true" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        <state relative-caret-position="426">
+          <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -393,13 +377,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
           <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#mat-toolbar#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="125" column="42" lean-forward="true" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="42" />
+        <state relative-caret-position="110">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
@@ -452,16 +449,6 @@
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/base/base.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/base/base.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -506,27 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1711">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="196" selection-start-line="7" selection-start-column="196" selection-end-line="7" selection-end-column="196" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chalicelib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -561,32 +527,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,31 +553,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chalicelib/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        <state relative-caret-position="-291">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="117" column="7" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/base/base.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7980">
+          <caret line="532" column="31" lean-forward="true" selection-start-line="532" selection-start-column="31" selection-end-line="532" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#mat-toolbar#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#mat-toolbar#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="n#style#0;n#mat-toolbar#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

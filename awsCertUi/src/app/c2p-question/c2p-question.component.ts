@@ -71,7 +71,7 @@ export class C2pQuestionComponent implements OnInit {
       // Iterate over the qandas to load up questions array.
       let counter = 0, answerCounter = 0;
       const outerThis = this;
-      qandas.Items.forEach(function (qandaItem) {
+      qandas.forEach(function (qandaItem) {
         outerThis.qandaArray[counter] = qandaItem;
         // alert(counter + ' ' + JSON.stringify(outerThis.qandaArray[counter]));
         counter++;
