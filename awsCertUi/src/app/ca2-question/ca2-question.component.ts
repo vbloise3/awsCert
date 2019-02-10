@@ -3,6 +3,7 @@ import { DynamoDbserviceService, Movie, QandA, Answer } from '../services/dynamo
 import { NgForm, FormBuilder, FormGroup, FormControl } from '@angular/forms';
 import { MatCheckbox } from '@angular/material';
 import { NgClass } from '@angular/common';
+import { Router, Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-ca2-question',
@@ -11,6 +12,8 @@ import { NgClass } from '@angular/common';
 })
 export class Ca2QuestionComponent implements OnInit {
   options: FormGroup;
+  isDarkTheme: boolean = false;
+  currentPath = '';
 
   qandas: any = '';
   qandaArray: any = [];
@@ -56,17 +59,25 @@ export class Ca2QuestionComponent implements OnInit {
   checked: boolean[] = [];
   numberOfQuestions = 0;
 
-  constructor(private dynamoDBservice: DynamoDbserviceService, fb: FormBuilder) {
+  constructor(private dynamoDBservice: DynamoDbserviceService, fb: FormBuilder, private _router: Router) {
     this.options = fb.group({
       hideRequired: false,
       selectedAnswer: 'auto',
       tc: new FormControl(),
       textAnswer: new FormControl(),
     });
+    this.currentPath = this._router.url;
   }
 
   ngOnInit() {
 
+  }
+
+  getCurrentPath() {
+    if (this.currentPath === '/')
+      return true;
+    else
+      return false;
   }
 
   resetEverything() {

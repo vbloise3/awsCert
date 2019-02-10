@@ -10,7 +10,7 @@ const serviceDeleteOneItem = '/api/deleteQandA';
 const serviceDeleteTable = '/api/deleteTable';
 const serviceListBucketContents = '/api/listBucketContents';
 const serviceGetAllItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAsC2p';
-const serviceGetAllArchItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAs';
+const serviceGetAllArchItems = 'https://ootlilufzd.execute-api.us-east-2.amazonaws.com/dev/getAllQandAsArch';
 
 export interface QandA {
   id: string;
@@ -89,11 +89,15 @@ export class DynamoDbserviceService {
     return resultData;
   }
 
-  getAllItems() {
+  getAllItems(subcategories) {
     let resultData;
-    const url = serviceGetAllItems;
+    let url = serviceGetAllItems + '/';
     // alert('getting this url: ' + url);
     let headers = new HttpHeaders();
+    subcategories.forEach(function (subcategoryItem) {
+      /*url = url + '/' + encodeURI(subcategoryItem);*/
+      url = url + encodeURI(subcategoryItem) + ':';
+    });
     /*headers = headers.set('If-Modified-Since', '0');
     headers = headers.append('Cache-control', 'no-cache');
     headers = headers.append('Cache-control', 'no-store');

@@ -3,6 +3,7 @@ import { DynamoDbserviceService, Movie, QandA, Answer } from '../services/dynamo
 import { NgForm, FormBuilder, FormGroup, FormControl } from '@angular/forms';
 import { MatCheckbox } from '@angular/material';
 import { NgClass } from '@angular/common';
+import { Router, Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-c2p-question',
@@ -11,6 +12,8 @@ import { NgClass } from '@angular/common';
 })
 export class C2pQuestionComponent implements OnInit {
   options: FormGroup;
+  isDarkTheme: boolean = false;
+  currentPath = '';
 
   qandas: any = '';
   qandaArray: any = [];
@@ -51,19 +54,23 @@ export class C2pQuestionComponent implements OnInit {
   totalAnswered = 0;
   totalCorrect = 0;
   totalCorrectPercent = '0';
+  totalTakenPercent = '0';
   passing = false;
+  checked: boolean[] = [];
+  numberOfQuestions = 0;
 
-  constructor(private dynamoDBservice: DynamoDbserviceService, fb: FormBuilder) {
+  constructor(private dynamoDBservice: DynamoDbserviceService, fb: FormBuilder, private _router: Router) {
     this.options = fb.group({
       hideRequired: false,
       selectedAnswer: 'auto',
       tc: new FormControl(),
       textAnswer: new FormControl(),
     });
+    this.currentPath = this._router.url;
   }
 
   ngOnInit() {
-    let theReturnedJSON: any;
+    /*let theReturnedJSON: any;
     theReturnedJSON = this.dynamoDBservice.getAllItems().subscribe( qandas => {
       this.qandas = JSON.stringify(qandas);
       // alert('the first returned Q and As: ' + qandas.Items[0].id);
@@ -99,8 +106,125 @@ export class C2pQuestionComponent implements OnInit {
       this.getScreenElements();
       // as user clicks the submit button (question answered) and the next button
       // (move to the next question)
+    });*/
+  }
+
+  getCurrentPath() {
+    if (this.currentPath === '/')
+      return true;
+    else
+      return false;
+  }
+
+  /************* Reset class attributes *****************/
+  resetEverything() {
+    this.qandas = '';
+    this.qandaArray = [];
+    this.qandaAnswers = [];
+    this.buckets = '';
+    this.theBucketList = '';
+    this.s3BucketName = '';
+    this.getId = '';
+    this.getCategory = '';
+    this.getSubcategory = '';
+    this.getQuestionType = '';
+    this.getSelectCount = 0;
+    this.getSelectCountText = '';
+    this.getPlural = '';
+    this.getQuestion = '';
+    this.getAnswers = [];
+    this.getAnswerCount = 0;
+    this.getCorrectAnswer = [];
+    this.getCorrectAnswerCount = 0;
+    this.getTextAnswer = '';
+    this.textAnswerCorrectOrNot = 'neutral';
+    this.currentQuestion = 0;
+    this.updateSubcategory = '';
+    this.updateCategory = '';
+    this.updateQuestionType = '';
+    this.updateQuestion = '';
+    this.deleteSubcategory = '';
+    this.deleteCategory = '';
+    this.deleteQuestionType = '';
+    this.deleteQuestion = '';
+    this.deletedTable = '';
+    this.user = new User();
+    this.selectedValue = [];
+    this.nextQuestion = false;
+    this.correctOrNot = [];
+    this.correctAnswerIndicator = 'neutral';
+    this.correctAnswerBool = false;
+    this.totalAnswered = 0;
+    this.totalCorrect = 0;
+    this.totalCorrectPercent = '0';
+    this.totalTakenPercent = '0';
+    this.passing = false;
+    // this.checked = [];
+    this.numberOfQuestions = 0;
+  }
+
+  /************ Added categories *****************/
+  submitSubcategories(form: NgForm) {
+    const theQandaSubcategories = form.value;
+    // alert('number checked ' + this.checked.length);
+    this.resetEverything();
+    let theReturnedJSON: any;
+    this.qandaArray = [];
+    theReturnedJSON = this.dynamoDBservice.getAllItems(this.checked).subscribe( qandas => {
+      this.qandas = JSON.stringify(qandas);
+      // alert("returned qandas: " + qandas);
+      // alert('the first returned Q and As: ' + qandas.Items[0].id);
+      // alert('the count of returned q and as: ' + this.qandas.Count);
+      // Iterate over the qandas to load up questions array.
+      let counter = 0, answerCounter = 0;
+      const outerThis = this;
+      qandas.forEach(function (qandaItem) {
+        outerThis.qandaArray[counter] = qandaItem;
+        // alert(counter + ' ' + JSON.stringify(outerThis.qandaArray[counter]));
+        counter++;
+      });
+      // then use a counter to step through the array elements, after shuffling the array
+      this.shuffle(this.qandaArray);
+      // shuffle answer array for each question
+      this.qandaArray.forEach(function (qandaItem) {
+        answerCounter = 0;
+        // clear out the answers holder array
+        while (outerThis.qandaAnswers.length > 0) {
+          outerThis.qandaAnswers.pop();
+        }
+        // done clearing out answers holder array
+        qandaItem.info.answers.forEach(function (theAnswer) {
+          outerThis.qandaAnswers[answerCounter] = theAnswer;
+          answerCounter++;
+        });
+        // alert('the answers: ' + outerThis.qandaAnswers);
+        outerThis.shuffle(outerThis.qandaAnswers);
+        // alert('the answers: ' + outerThis.qandaAnswers);
+        qandaItem.info.answers = outerThis.qandaAnswers.slice();
+      });
+      // end shuffle answer arrays
+      this.numberOfQuestions = this.qandaArray.length;
+      this.getScreenElements();
+      // as user clicks the submit button (question answered) and the next button
+      // (move to the next question)
     });
   }
+
+  // for selected subcategories
+  updateSubcategoriesChecked(event, value) {
+    // this.checked = [];
+    if ( event.checked ) {
+      this.checked.push(value);
+    } else {
+      const index = this.checked.indexOf(value);
+      if (index !== -1) {
+        this.checked.splice(index, 1);
+      }
+    }
+    // alert('the check subcategory ' + this.checked[event]);
+  }
+  // end for selected subcategories
+
 
   submitAnswer(form: NgForm) {
     const theQanda = form.value;

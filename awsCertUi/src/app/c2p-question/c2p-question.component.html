@@ -24,17 +24,55 @@
       </button>
     <img class="mdCardImg md-card-sm-image transparentProfilePic">
 
-    <span class="textBottom xxLargerFont">AWS Certified Cloud Practitioner Practice Questions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span class="textBottom xxLargerFont">AWS Certified Cloud Practitioner Practice Questions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
       <span class="app-toolbar-filler"></span>
-      <span class="smallTextBottom" style="float: right;"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
-                    &nbsp;<a href="mailto:vbloise3@gmail.com?Subject=Resume" target="_top" style="color: white"><i class="material-icons md-18 iconBottom">email</i>vbloise3@gmail.com</a></span>
+      <!--span class="smallTextBottom" style="float: right;"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
+                    &nbsp;<a href="mailto:vbloise3@gmail.com?Subject=Resume" target="_top" style="color: white"><i class="material-icons md-18 iconBottom">email</i>vbloise3@gmail.com</a></span-->
       <!--button md-button (click)="isDarkTheme = !isDarkTheme">TOGGLE DARK THEME    </button-->
   </mat-toolbar>
   <span class="app-toolbar-filler" style="padding: 1em;"></span>
   <mat-card class="shadowCard" style="margin-bottom: 1em;margin-top: 1em;">
+    <form #QandACategoriesForm="ngForm" class="example-container" (ngSubmit)="submitSubcategories(QandACategoriesForm)" [formGroup]="options">
+      <div style="display: inline-block">
+        <mat-checkbox
+          name="Technology"
+          value="Technology"
+          (change)="updateSubcategoriesChecked($event, 'Technology')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Technology</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Billing and Pricing"
+          value="Billing and Pricing"
+          (change)="updateSubcategoriesChecked($event, 'Billing and Pricing')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Billing and Pricing</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Architecting"
+          value="Architecting"
+          (change)="updateSubcategoriesChecked($event, 'Architecting')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Architecting</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Security"
+          value="Security"
+          (change)="updateSubcategoriesChecked($event, 'Security')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Security</mat-label>
+        &nbsp;&nbsp;
+        <mat-checkbox
+          name="Define AWS Cloud"
+          value="Define AWS Cloud"
+          (change)="updateSubcategoriesChecked($event, 'Define AWS Cloud')">
+        </mat-checkbox>
+        <mat-label style="padding: 0.5em;">Define AWS Cloud</mat-label>
+        &nbsp;&nbsp;
+        <button mat-button type="submit" color="primary">Submit</button>
+      </div>
+    </form>
     <h1 class="h1Blue">Answer the following question:</h1>
     <mat-card class="question-card">
       <div class="example-container">
@@ -53,7 +91,7 @@
             <mat-form-field>
               <div class="wideInput">
                 <input id="getTextAnswer" class="wideInput" [ngClass]="{'correctAnswer': textAnswerCorrectOrNot === 'true', 'wrongAnswer': textAnswerCorrectOrNot === 'false'}"
-                       formControlName="textAnswer" matInput placeholder="Enter your answer" ngModel required>
+                       formControlName="textAnswer" matInput placeholder="Enter your answer" > <!--ngModel required-->
               </div>
             </mat-form-field>
             <label *ngIf="textAnswerCorrectOrNot == 'false'"><br/>Correct Answer:&nbsp;<span class="correctAnswer">{{getCorrectAnswer}}</span></label>
@@ -98,6 +136,10 @@
         </div>
         <div>
           <p class="gradeText"> Grade so far: {{totalCorrect}} of {{totalAnswered}} &nbsp;&mdash;&nbsp; <span [ngClass]="(passing)?'percentPassing':'percentFailing'">{{totalCorrectPercent}}%</span></p>
+        </div>
+        <hr/>
+        <div>
+          <p class="gradeText"> Questions: {{totalAnswered}} of {{numberOfQuestions}} &nbsp;&mdash;&nbsp; <span>{{totalTakenPercent}}%</span></p>
         </div>
       </div>
     </mat-card>

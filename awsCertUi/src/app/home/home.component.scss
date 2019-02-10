@@ -274,8 +274,42 @@ ul {
   content: url("../../../../public/images/VinceBloiseTransparent.png");
 }
 
+.c2pGuideLogoPic {
+  content: url("../../../../public/images/cloud_practitioner_guide_logo.jpeg");
+}
+
+.c2pCertifiedBadgePic {
+  content: url("../../../../public/images/certified_cloud_practitioner_badge.png");
+}
+
+.archCertifiedLogoPic {
+  content: url("../../../../public/images/architect_associate_logo.png");
+}
+
+.devCertifiedLogoPic {
+  content: url("../../../../public/images/certified_developer_associate.png");
+}
+
+.awsCertificationsPic {
+  content: url("../../../../public/images/aws-certifications.png");
+}
+
 .certPic {
   content: url("../../../../public/images/AWS_Certified_Logo_294x230_Color.png");
+}
+
+.centerPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerCertLogoPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 /* ------------------fxLayout Example Styles----------------------- */

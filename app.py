@@ -38,8 +38,8 @@ def get_question(question_id):
     }
 
 
-@app.route('/getAllQandAsC2p', cors=True)
-def get_all_q_and_as_c2p():
+@app.route('/getAllQandAsC2p/{parameters}', cors=True)
+def get_all_q_and_as_c2p(parameters):
     # FilterExpression specifies a condition that returns only items that
     #    satisfy the condition. All other items are discarded.
     # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
@@ -47,13 +47,24 @@ def get_all_q_and_as_c2p():
     # pe = "#id, category, info.subcategory"
     # Expression Attribute Names for Projection Expression only.
     # ean = { "#id": "id", }
+    # now need to parse parameters and use in fe
+    parameters = unquote(parameters)
+    # print("splitting parameters: " + parameters[0] + ' ' + parameters[1])
+    parsed_parameters = parameters.split(":")
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    # remove last empty list item
+    del parsed_parameters[-1]
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    print("parsed_parameters.length " + str(len(parsed_parameters)))
+    # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    fe = Attr('info.subcategory').is_in(parsed_parameters)
     esk = None
     # response = ca2_table.scan(
     #    FilterExpression=Attr('info.subcategory').eq('Define AWS Cloud') | Attr('info.subcategory').eq('EC2')
     # )
     responses = c2p_table.scan(
-        Select='ALL_ATTRIBUTES'
-        # FilterExpression=fe,
+        Select='ALL_ATTRIBUTES',
+        FilterExpression=fe,
         # ProjectionExpression=pe,
         # ExpressionAttributeNames=ean
     )
@@ -65,7 +76,8 @@ def get_all_q_and_as_c2p():
             ExclusiveStartKey=responses['LastEvaluatedKey']
         )
     items = responses['Items']
-    # return items
+    returned_items = json.dumps(items, separators=(',', ':'))
+    return returned_items
 
     # The scan method returns a subset of the items each time, called a page.
     #   The LastEvaluatedKey value in the response is then passed to the scan method via
@@ -79,10 +91,8 @@ def get_all_q_and_as_c2p():
     #     You use this because you can't use literals in any expression, including
     #     KeyConditionExpression. You can use the expression attribute value :yyyy to address this.
 
-    return items
 
-
-@app.route('/getAllQandAs/{parameters}', cors=True)
+@app.route('/getAllQandAsArch/{parameters}', cors=True)
 def get_all_q_and_as_ca2(parameters):
     # now need to parse parameters and use in fe
     parameters = unquote(parameters)
