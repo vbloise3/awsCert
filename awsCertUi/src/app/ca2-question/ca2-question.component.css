@@ -257,6 +257,10 @@ ul {
   content: url("../../../../public/images/AWS_Certified_Logo_294x230_Color.png");
 }
 
+.wrap-mat-radio-label {
+  white-space: normal;
+}
+
 /* ------------------fxLayout Example Styles----------------------- */
 .containerX {
   border: solid 1px #b6b6b6;
