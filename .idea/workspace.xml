@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildDeploy.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buildDeploy.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/base/base.component.html">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="273">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -73,7 +73,6 @@
         <option value="$PROJECT_DIR$/awsCertUi/src/index.html" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.scss" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/base/base.component.html" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/awsCertUi/package.json" />
         <option value="$PROJECT_DIR$/.chalice/config.json" />
         <option value="$PROJECT_DIR$/chalicelib/questions.py" />
@@ -92,6 +91,7 @@
         <option value="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -239,12 +239,12 @@
       <workItem from="1548972828407" duration="6601000" />
       <workItem from="1549223818514" duration="4666000" />
       <workItem from="1549414633199" duration="586000" />
-      <workItem from="1549836197941" duration="4387000" />
+      <workItem from="1549836197941" duration="5064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23741000" />
+    <option name="totallyTimeSpent" value="24418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1892" height="978" extended-state="0" />
@@ -528,10 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="196" selection-start-line="7" selection-start-column="196" selection-end-line="7" selection-end-column="196" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -542,17 +542,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
         </state>
       </provider>
     </entry>
