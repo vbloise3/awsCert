@@ -25,6 +25,7 @@ import { DynamoDbserviceService } from './services/dynamo-dbservice';
 import { C2pQuestionComponent } from './c2p-question/c2p-question.component';
 import { Ca2QuestionComponent } from './ca2-question/ca2-question.component';
 import {DataService} from "./data.service";
+import { CdaQuestionComponent } from './cda-question/cda-question.component';
 
 const appRoutes: Routes = [
   {
@@ -38,6 +39,10 @@ const appRoutes: Routes = [
   {
     path: 'ca2practice',
     component: Ca2QuestionComponent
+  },
+  {
+    path: 'cdapractice',
+    component: CdaQuestionComponent
   },
   {
     path: '',
@@ -60,6 +65,10 @@ const appRoutes: Routes = [
     component: Ca2QuestionComponent
   },
   {
+    path: '4',
+    component: CdaQuestionComponent
+  },
+  {
     path: '',
     redirectTo: '',
     pathMatch: 'full'
@@ -77,7 +86,8 @@ const appRoutes: Routes = [
     C2pDynamoDbComponent,
     OnlyNumberDirective,
     C2pQuestionComponent,
-    Ca2QuestionComponent
+    Ca2QuestionComponent,
+    CdaQuestionComponent
   ],
   imports: [
     BrowserModule,

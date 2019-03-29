@@ -15,6 +15,10 @@
           <div *ngIf="currentPath == '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/3']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
           <div *ngIf="currentPath != '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/ca2practice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
         </tr>
+        <tr>
+          <div *ngIf="currentPath == '/cdapractice'"><td><span class="smallTextBottom"><a [routerLink]="['/4']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Developer Associate</a></span></td></div>
+          <div *ngIf="currentPath != '/cdapractice'"><td><span class="smallTextBottom"><a [routerLink]="['/cdapractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Developer Associate</a></span></td></div>
+        </tr>
       </table>
     </mat-sidenav>
 

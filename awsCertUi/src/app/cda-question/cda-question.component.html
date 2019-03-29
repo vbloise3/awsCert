@@ -1,0 +1,133 @@
+<div fxLayout="row wrap">
+  <mat-sidenav-container fxFlex [class.m2app-dark]="isDarkTheme">
+
+    <mat-sidenav #sidenav mode="side" class="app-sidenav mat-elevation-z15" fxFlex style="border-right-style: none;">
+      <table>
+        <tr>
+          <div *ngIf="currentPath == '/'"><td><span class="smallTextBottom"><a [routerLink]="['/1']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>Home</a></span></td></div>
+          <div *ngIf="currentPath != '/'"><td><span class="smallTextBottom"><a [routerLink]="['/']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">description</i>Home</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/c2ppractice'"><td><span class="smallTextBottom"><a [routerLink]="['/2']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Cloud Practitioner</a></span></td></div>
+          <div *ngIf="currentPath != '/c2ppractice'"><td><span class="smallTextBottom"><a [routerLink]="['/c2ppractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Cloud Practitioner</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/3']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
+          <div *ngIf="currentPath != '/ca2practice'"><td><span class="smallTextBottom"><a [routerLink]="['/ca2practice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Architect Associate</a></span></td></div>
+        </tr>
+        <tr>
+          <div *ngIf="currentPath == '/cdapractice'"><td><span class="smallTextBottom"><a [routerLink]="['/4']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Developer Associate</a></span></td></div>
+          <div *ngIf="currentPath != '/cdapractice'"><td><span class="smallTextBottom"><a [routerLink]="['/cdapractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Developer Associate</a></span></td></div>
+        </tr>
+      </table>
+    </mat-sidenav>
+
+    <mat-toolbar color="primary" style="height: 4em;">
+      <button class="app-icon-button" (click)="sidenav.toggle()">
+        <i class="material-icons app-toolbar-menu">menu</i>
+      </button>
+      <img class="mdCardImg md-card-sm-image transparentProfilePic">
+
+      <span class="textBottom xxLargerFont">AWS Certified Developer Associate Exam Practice Questions</span>
+
+      <span class="app-toolbar-filler"></span>
+      <!--span class="smallTextBottom"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
+                      &nbsp;<a href="mailto:vbloise3@gmail.com?Subject=Resume" target="_top" style="color: white"><i class="material-icons md-18 iconBottom">email</i>vbloise3@gmail.com</a></span-->
+    </mat-toolbar>
+    <span class="app-toolbar-filler" style="padding: 1em;"></span>
+    <mat-card class="shadowCard" style="margin-bottom: 1em;margin-top: 1em;">
+      <form #QandACategoriesForm="ngForm" class="example-container" (ngSubmit)="submitSubcategories(QandACategoriesForm)" [formGroup]="options">
+        <div style="display: inline-block">
+                   &nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-checkbox
+            name="IAM"
+            value="IAM"
+            (change)="updateSubcategoriesChecked($event, 'IAM')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">IAM</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Cloud Foundation"
+            value="Cloud Foundation"
+            (change)="updateSubcategoriesChecked($event, 'Cloud Foundation')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Cloud Foundation</mat-label>
+          &nbsp;&nbsp;
+
+          &nbsp;&nbsp;
+          <button mat-button type="submit" color="primary">Submit</button>
+        </div>
+      </form>
+      <h1 class="h1Blue">Answer the following question:</h1>
+      <mat-card class="question-card">
+        <div class="example-container">
+          <form #QandAForm="ngForm" class="example-container" (ngSubmit)="submitAnswer(QandAForm)" [formGroup]="options">
+            <mat-label><span class="underlined">Category:</span>&nbsp;<span class="colorBlue">{{getCategory}}</span></mat-label>
+            <mat-placeholder></mat-placeholder>
+            <mat-label><span class="underlined">Sub-category:</span>&nbsp;<span class="colorBlue">{{getSubcategory}}</span></mat-label>
+            <mat-placeholder></mat-placeholder>
+            <!--mat-label><span class="underlined">Question Type:</span>&nbsp;<span class="colorBlue">{{getQuestionType}}</span></mat-label>
+            <mat-placeholder></mat-placeholder-->
+            <mat-label><span class="underlined">Question:</span>&nbsp;<span class="colorBlue largerText"><p class="questionWidth">{{getQuestion}}</p></span></mat-label>
+            <mat-placeholder></mat-placeholder>
+            <div *ngIf="getSelectCount == 0">
+              <label><span class="underlined">Your answer{{getPlural}}</span>&nbsp;</label>
+              <mat-placeholder></mat-placeholder>
+              <mat-form-field>
+                <div class="wideInput">
+                  <input id="getTextAnswer" class="wideInput" [ngClass]="{'correctAnswer': textAnswerCorrectOrNot === 'true', 'wrongAnswer': textAnswerCorrectOrNot === 'false'}"
+                         formControlName="textAnswer" matInput placeholder="Enter your answer" > <!-- ngModel required -->
+                </div>
+              </mat-form-field>
+              <label *ngIf="textAnswerCorrectOrNot == 'false'"><br/>Correct Answer:&nbsp;<span class="correctAnswer">{{getCorrectAnswer}}</span></label>
+            </div>
+            <div *ngIf="getSelectCount == 1">
+              <label><span class="underlined">Select {{getSelectCountText}} answer{{getPlural}}</span>&nbsp;</label>
+              <mat-radio-group layout="row" formControlName="selectedAnswer">
+              <span class="displayOnNewLine">
+                <mat-placeholder></mat-placeholder>
+                <mat-radio-button ng-style="{'display':'inline-block'}" *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
+                  <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
+                </mat-radio-button>
+              </span>
+              </mat-radio-group>
+            </div>
+            <div *ngIf="getSelectCount > 1">
+              <label><span class="underlined">Select {{getSelectCountText}} answer{{getPlural}}</span>&nbsp;</label>
+              <span class="displayOnNewLine">
+                <mat-placeholder></mat-placeholder>
+                <span *ngFor="let answerValue of getAnswers; let i = index">
+                    <mat-checkbox
+                      name="{{answerValue}}"
+                      value="{{answerValue}}"
+                      (change)="change($event, answerValue)">
+                      <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
+                    </mat-checkbox>
+                  &nbsp;&nbsp;
+                </span>
+            </span>
+            </div>
+            <div class="actions">
+              <div *ngIf="!nextQuestion">
+                <button mat-button type="submit" color="primary" [disabled]="!QandAForm.form.valid">Submit</button>
+              </div>
+              <div *ngIf="nextQuestion">
+                <button mat-button type="submit" color="primary" [disabled]="!QandAForm.form.valid">Next Question</button>
+              </div>
+            </div>
+          </form>
+          <div *ngIf="correctAnswerIndicator != 'neutral'">
+            <p [ngClass]="(correctAnswerBool)?'correctAnswer':'wrongAnswer'">{{correctAnswerIndicator}}</p>
+          </div>
+          <div>
+            <p class="gradeText"> Grade so far: {{totalCorrect}} of {{totalAnswered}} &nbsp;&mdash;&nbsp; <span [ngClass]="(passing)?'percentPassing':'percentFailing'">{{totalCorrectPercent}}%</span></p>
+          </div>
+          <hr/>
+          <div>
+            <p class="gradeText"> Questions: {{totalAnswered}} of {{numberOfQuestions}} &nbsp;&mdash;&nbsp; <span>{{totalTakenPercent}}%</span></p>
+          </div>
+        </div>
+      </mat-card>
+    </mat-card>
+  </mat-sidenav-container>
+</div>
