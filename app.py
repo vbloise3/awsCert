@@ -3,6 +3,7 @@ import boto3
 import chalicelib.constants
 import chalicelib.ca2Questions
 import chalicelib.questions
+import chalicelib.cdaQuestions
 from boto3.dynamodb.conditions import Key, Attr
 import json
 from urllib import unquote
@@ -13,6 +14,7 @@ app = chalice.Chalice(app_name='awsCert')
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
 ca2_table = dynamodb.Table(chalicelib.constants.CA2QUESTIONS_TABLE_NAME)
 c2p_table = dynamodb.Table(chalicelib.constants.C2PQUESTIONS_TABLE_NAME)
+cda_table = dynamodb.Table(chalicelib.constants.CDAQUESTIONS_TABLE_NAME)
 
 
 @app.route('/', cors=True)
@@ -113,6 +115,37 @@ def get_all_q_and_as_ca2(parameters):
     )
     while 'LastEvaluatedKey' in responses:
         responses = ca2_table.scan(
+            # ProjectionExpression=pe,
+            FilterExpression=fe,
+            # ExpressionAttributeNames=ean,
+            ExclusiveStartKey=responses['LastEvaluatedKey']
+        )
+    items = responses['Items']
+    returned_items = json.dumps(items, separators=(',', ':'))
+    return returned_items
+
+
+@app.route('/getAllQandAsDev/{parameters}', cors=True)
+def get_all_q_and_as_cda(parameters):
+    # now need to parse parameters and use in fe
+    parameters = unquote(parameters)
+    # print("splitting parameters: " + parameters[0] + ' ' + parameters[1])
+    parsed_parameters = parameters.split(":")
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    # remove last empty list item
+    del parsed_parameters[-1]
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    print("parsed_parameters.length " + str(len(parsed_parameters)))
+    # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    fe = Attr('info.subcategory').is_in(parsed_parameters)
+    responses = cda_table.scan(
+        Select='ALL_ATTRIBUTES',
+        FilterExpression=fe,
+        # ProjectionExpression=pe,
+        # ExpressionAttributeNames=ean
+    )
+    while 'LastEvaluatedKey' in responses:
+        responses = cda_table.scan(
             # ProjectionExpression=pe,
             FilterExpression=fe,
             # ExpressionAttributeNames=ean,
