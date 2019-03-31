@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "IAM allows you to manage ______ and their access to the AWS console",
+      "answers": [
+        "users",
+        "roles",
+        "groups",
+        "policies"
+      ],
+      "correctAnswer": ["users"]
+    }
+  },
+  {
+    "id": "2",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "IAM gives you which of these",
+      "answers": [
+        "Centralized control of your AWS account",
+        "Shared access to your AWS account",
+        "Granular permissions",
+        "Access to your WAF"
+      ],
+      "correctAnswer": ["Centralized control of your AWS account",
+      "Shared access to your AWS account",
+      "Granular permissions"]
+    }
+  }
+]
