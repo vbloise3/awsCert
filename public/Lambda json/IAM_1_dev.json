@@ -32,5 +32,105 @@
       "Shared access to your AWS account",
       "Granular permissions"]
     }
+  },
+  {
+    "id": "3",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "IAM gives you which of these",
+      "answers": [
+        "Enables identity federation (including Active Directory, Facebook, Linkedin, etc.)",
+        "Allows multi-factor authentication",
+        "Provides temporary access for users/devices and services",
+        "Provides temporary access from external services"
+      ],
+      "correctAnswer": ["Enables identity federation (including Active Directory, Facebook, Linkedin, etc.)",
+        "Allows multi-factor authentication",
+        "Provides temporary access for users/devices and services"]
+    }
+  },
+  {
+    "id": "4",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "IAM gives you which of these",
+      "answers": [
+        "Allows you to set up your own password rotation policy",
+        "Integrates with many different AWS services",
+        "Supports PCI (Payment Card Industry) DSS compliance",
+        "Provides key management service"
+      ],
+      "correctAnswer": ["Allows you to set up your own password rotation policy",
+        "Integrates with many different AWS services",
+        "Supports PCI (Payment Card Industry) DSS compliance"]
+    }
+  },
+  {
+    "id": "5",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, when you think end users or people, with which of these are you working?",
+      "answers": [
+        "Users",
+        "Groups",
+        "Roles",
+        "Policies"
+      ],
+      "correctAnswer": ["Users"]
+    }
+  },
+  {
+    "id": "6",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, when you have a collection of users under one set of permissions, with which of these are you working?",
+      "answers": [
+        "Users",
+        "Groups",
+        "Roles",
+        "Policies"
+      ],
+      "correctAnswer": ["Groups"]
+    }
+  },
+  {
+    "id": "7",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, when you create roles and then assign them to AWS resources, with which of these are you working?",
+      "answers": [
+        "Users",
+        "Groups",
+        "Roles",
+        "Policies"
+      ],
+      "correctAnswer": ["Roles"]
+    }
+  },
+  {
+    "id": "8",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, when you have a document that defines one (or more) permissions; can be attached to either a user, a group, or a role, with which of these are you working?",
+      "answers": [
+        "Users",
+        "Groups",
+        "Roles",
+        "Policies"
+      ],
+      "correctAnswer": ["Policies"]
+    }
   }
 ]
