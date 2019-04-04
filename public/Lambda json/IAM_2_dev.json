@@ -1,0 +1,318 @@
+[
+  {
+    "id": "9",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "The IAM dashboard gives you a sign in link in the form of a url with ______ as the first part of the url",
+      "answers": [
+        "your customer #",
+        "your account email",
+        "a random string",
+        "your default VPC zone"
+      ],
+      "correctAnswer": ["your customer #"]
+    }
+  },
+  {
+    "id": "10",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "You can customize your sign in link to replace the customer # part of the url with a more readable name",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "11",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "You use ______ to assign permissions to sets of users",
+      "answers": [
+        "groups",
+        "policies",
+        "roles",
+        "elastic ip addresses"
+      ],
+      "correctAnswer": ["groups"]
+    }
+  },
+  {
+    "id": "12",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "You can activate ______ on your user's accounts for further security",
+      "answers": [
+        "MFA",
+        "Security Keys",
+        "a firewall",
+        "MAF"
+      ],
+      "correctAnswer": ["MFA"]
+    }
+  },
+  {
+    "id": "13",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 4",
+      "question": "IAM dashboard gives you a checklist telling you to",
+      "answers": [
+        "Delete your root access keys",
+        "Activate MFA on your root account",
+        "Use groups to assign permissions",
+        "Apply an IAM password policy",
+        "Build a Web Application Firewall"
+      ],
+      "correctAnswer": ["Delete your root access keys",
+        "Activate MFA on your root account",
+        "Use groups to assign permissions",
+        "Apply an IAM password policy"]
+    }
+  },
+  {
+    "id": "14",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "With MFA you can use either a ______ or a ______",
+      "answers": [
+        "virtual MFA device",
+        "hardware MFA device",
+        "Custom-written mobile app",
+        "Proprietary web site",
+        "AWS MFA Service"
+      ],
+      "correctAnswer": ["virtual MFA device",
+        "hardware MFA device"]
+    }
+  },
+  {
+    "id": "15",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "an example of a virtual MFA device is",
+      "answers": [
+        "Google Authenticator on your iPhone",
+        "an RSA SecureID token fob",
+        "an RSA SecureID dongle",
+        "a QR Reader on your iPhone"
+      ],
+      "correctAnswer": ["Google Authenticator on your iPhone"]
+    }
+  },
+  {
+    "id": "16",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "Two types of access for users are",
+      "answers": [
+        "programatic access",
+        "AWS Management Console access",
+        "mobile device access",
+        "biometric access"
+      ],
+      "correctAnswer": ["programatic access",
+        "AWS Management Console access"]
+    }
+  },
+  {
+    "id": "17",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, programatic access",
+      "answers": [
+        "enables an access key ID and a secret access key for AWS API, CLI, SDK, and other development tools",
+        "enables a password that allows users to sign-in to the AWS console",
+        "enables an MFA key for AWS API, CLI, SDK, and other development tools",
+        "enables a link that allows users to sign-in to the AWS console"
+      ],
+      "correctAnswer": ["enables an access key ID and a secret access key for AWS API, CLI, SDK, and other development tools"]
+    }
+  },
+  {
+    "id": "18",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With IAM, AWS Management Console access",
+      "answers": [
+        "enables an access key ID and a secret access key for AWS API, CLI, SDK, and other development tools",
+        "enables a password that allows users to sign-in to the AWS console",
+        "enables an MFA key for AWS API, CLI, SDK, and other development tools",
+        "enables a link that allows users to sign-in to the AWS console"
+      ],
+      "correctAnswer": ["enables a password that allows users to sign-in to the AWS console"]
+    }
+  },
+  {
+    "id": "19",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "What are the three ways to add permissions to a user",
+      "answers": [
+        "Add the user to a group with the permissions you want",
+        "Copy permissions from another user",
+        "Attach existing policies directly",
+        "Attach a permissions template to the user"
+      ],
+      "correctAnswer": ["Add the user to a group with the permissions you want",
+        "Copy permissions from another user",
+        "Attach existing policies directly"]
+    }
+  },
+  {
+    "id": "20",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 4",
+      "question": "These are examples of secure ways of granting permissions through IAM roles to entities that you trust",
+      "answers": [
+        "IAM user in another account",
+        "Application code running on an EC2 instance that needs to perform actions on AWS resources",
+        "An AWS service that needs to act on resources in your account to provide its features",
+        "Users from a corporate directory who use identity federation with SAML",
+        "Users from a corporate directory who use a proprietary database to hold user ids and passwords"
+      ],
+      "correctAnswer": ["IAM user in another account",
+        "Application code running on an EC2 instance that needs to perform actions on AWS resources",
+        "An AWS service that needs to act on resources in your account to provide its features",
+        "Users from a corporate directory who use identity federation with SAML"]
+    }
+  },
+  {
+    "id": "21",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "IAM roles issue keys that are valid for ______, making them a more secure way to grant access",
+      "answers": [
+        "short durations",
+        "extended durations",
+        "a user-defined period",
+        "ever"
+      ],
+      "correctAnswer": ["short durations"]
+    }
+  },
+  {
+    "id": "22",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "IAM is",
+      "answers": [
+        "universal",
+        "defined per region",
+        "configurable to specific regions or sets of regions",
+        "defined per AZ"
+      ],
+      "correctAnswer": ["universal"]
+    }
+  },
+  {
+    "id": "23",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "The root account is the account created",
+      "answers": [
+        "when you first setup your AWS account",
+        "when you specifically create a root user",
+        "when you convert an existing user to the root user",
+        "when delete all other users in the account"
+      ],
+      "correctAnswer": ["when you first setup your AWS account"]
+    }
+  },
+  {
+    "id": "24",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "The root account has ______ by default",
+      "answers": [
+        "complete admin access",
+        "admin access to specific resources you define",
+        "power-user access",
+        "base user account access"
+      ],
+      "correctAnswer": ["complete admin access"]
+    }
+  },
+  {
+    "id": "25",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "The root account id is",
+      "answers": [
+        "the email account you used when you first setup your AWS account",
+        "the user id you used when you first setup your AWS account",
+        "the account number of the account",
+        "the name of the holder of the email account you used when you first setup your AWS account"
+      ],
+      "correctAnswer": ["the email account you used when you first setup your AWS account"]
+    }
+  },
+  {
+    "id": "26",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "New users have ______ when they are first created",
+      "answers": [
+        "no permissions",
+        "administrator defined permissions",
+        "account default permissions",
+        "default user permissions"
+      ],
+      "correctAnswer": ["no permissions"]
+    }
+  },
+  {
+    "id": "27",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "New users are assigned ______ and ______ when first created",
+      "answers": [
+        "an access key ID",
+        "a secret access key",
+        "a KMS key",
+        "a secure certificate"
+      ],
+      "correctAnswer": ["an access key ID",
+        "a secret access key"]
+    }
+  }
+]
