@@ -1,0 +1,172 @@
+Modules that are near replicas of Solutions Architect exam Modules
+  Chapter 2 - IAM
+  Chapter 3 - EC2
+  Parts of Chapter 5 - serverless websites, alexa skill
+
+Exam blueprint
+  Domain 1: Deployment 22%
+  Domain 2: Security 26%
+  Domain 3: Development with AWS Services 30%
+  Domain 4: Refactoring 10%
+  Domain 5: Monitoring and Troubleshooting 12%
+
+White Papers
+  Understand the Blue/Green Deployments Paper
+
+Results
+  Score from 100 to 1000 with a minimum passing score of 720
+
+Exam
+  130 minutes
+  65 questions
+  Results given immediately
+  Passing: 720 out of 1000
+  $150
+  Multiple choice
+  Qualification valid for 2 years
+  Scenario based questions
+
+IAM 101
+  - IAM allows you to manage users and their level of access to the AWS console.
+  - IAM gives you
+    - Centralized control of your AWS account
+    - Shared access to your AWS account
+    - Granular permissions
+    - Enables identity federation (including Active Directory, Facebook, Linkedin, etc.)
+    - Allows multi-factor authentication
+    - Provides temporary access for users/devices and services
+    - Allows you to set up your own password rotation policy
+    - Integrates with many different AWS services
+    - Supports PCI (Payment Card Industry) DSS compliance
+
+  - Critical terms
+    - Users - end users (think people)
+    - Groups - a collection of users under one set of permissions
+    - Roles - create roles and then assign them to AWS resources
+    - Policies - a document that defines one (or more) permissions; can be attached to either a user, a group, or a role
+
+IAM 101 Lab
+  - The IAM dashboard gives you a sign in link in the form of a url with your customer # as the first part of the url
+  - You can customize your sign in link to replace the customer # part of the url with a more readable name
+  - You use groups to assign permissions to sets of users
+  - You can activate MFA on your user's accounts for further security
+  - IAM dashboard gives you a checklist telling you to
+    - Delete your root access keys
+    - Activate MFA on your root account
+    - Use groups to assign permissions
+    - Apply an IAM password policy
+  - With MFA you can use either a virtual MFA device or a hardware MFA device
+    - an example of a virtual MFA device is Google Authenticator on your iPhone
+  - Two types of access for users
+    - programatic access: enables an access key ID and a secret access key for AWS API, CLI, SDK, and other development tools
+    - AWS Management Console access: enables a password that allows users to sign-in to the AWS console
+  - Three ways to add permissions to a user:
+    - Add the user to a group with the permissions you want
+    - Copy permissions from another user
+    - Attach existing policies directly
+  - IAM roles are a secure way to grant permissions to entities that you trust. Examples:
+    - IAM user in another account
+    - Application code running on an EC2 instance that needs to perform actions on AWS resources
+    - An AWS service that needs to act on resources in your account to provide its features
+    - Users from a corporate directory who use identity federation with SAML
+  - IAM roles issue keys that are valid for short durations, making them a more secure way to grant access
+IAM 101 Summary
+  - IAM is universal, so it doesn't apply to specific regions
+  - The root account is the account created when you first setup your AWS account
+  - The root account has complete admin access
+  - The root account id is the email account you used when you first setup your AWS account
+  - New users have no permissions when they are first created
+  - New users are assigned an access key ID and secret access key when first created
+
+EC2 101
+  - EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the Cloud
+  - Can pay for EC2 by the hour or even by the second
+  - EC2 Options
+    - On Demand Instances - allows you to pay a fixed rate by the hour (or by the second) with no commitment
+      - Linux instances are charged by the second
+      - Windows instances are charged by the hour
+    - Reserved Instances - provides you with a capacity reservation, and offer a significant discount on the hourly charge for an instances
+      - 1 year or 3 year terms
+    - Spot Instances - enables you to bid whatever price you want for instance capacity, providing for even greater savings if your applications have flexible start and end times
+    - Dedicated Hosts - Physical EC2 server dedicated for your use. Dedicated hosts can help you reduce costs by allowing you to use your existing server-bound software licenses
+  - Use cases for the pricing models
+    - One Demand Instances
+      - users who want the low cost and flexibility of EC2 without any up-front payment or long-term commitment
+      - applications with short term, spiky, or unpredictable workloads that cannot be interrupted
+      - applications being developed or tested on EC2 for the first times
+    - Reserved Instances
+      - applications with steady state or predictable usage
+      - applications that require reserved capacity
+      - users can make up-front payments to reduce the total computing costs even further
+      - standard RIs (up to 75% off on-demand)
+      - Convertible RIs (up to 54% off on-demand) feature the capability to change the attributes of the RI as long as the exchange results in the creation of an RI of equal or greater value
+      - Scheduled RIs are available to launch within the time window you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, week, or month
+    - Spot instances
+      - applications that have flexible start and end times
+      - applications that are only feasible at very low compute prices
+      - users with an urgent need for large amounts of additional computing capacity
+    - Dedicated Hosts
+      - useful for regulatory requirements that may not support multi-tenant virtualization
+      - great for licensing which does not support multi-tenancy or cloud deployments
+      - can be purchased on-demand (hourly)
+      - can be purchased as a reservation for up to 70% off the on-demand price
+  - EC2 Instance types
+    - F1 - Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data
+    - I3 - High Speed Storage - NoSQL databases, Data Warehousing
+    - G3 - Graphics Intensive - Video Encoding, 3D Application Streaming
+    - H1 - High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS
+    - T2 - Lowest Cost, General Purpose - Web Servers, Small databases
+    - D2 - Dense Storage - File servers, data warehousing/Hadoop
+    - R4 - Memory Optimized - Memory intensive apps, databases
+    - M5 - General Purpose - Application Servers
+    - C5 - Compute Optimized - CPU intensive apps, databases
+    - P3 - Graphics/General Purpose GPU - Machine learning, Bit Coin mining
+    - X1 - Memory Optimized - SAP HANA/Apache Spark
+  - How to remember the instance types
+    - FIGHTDRMCPX
+      - F for FGPA
+      - I for IOPS
+      - G for Graphics
+      - H for High Disk Throughput
+      - T for cheap general purpose (think T2 Micro)
+      - D for Density
+      - R for RAM
+      - M for main choice for general purpose apps
+      - C for compute
+      - P for graphics (think pics)
+      - X for extreme memory
+  - EBS - Elastic Block Storage
+    - a virtual disk in the cloud
+    - allows you to create storage volumes and attach them to EC2 instances
+    - placed in a specific AZ
+    - automatically replicated
+    - can put a file system on top of them, run a database on them, install applications on them
+    - the EBS volume where you OS is installed is called the root device
+    - EBS Volume Types
+      - SSD
+        - General Purpose SSD (also called GP2)
+          - General purpose, balances price and performance
+          - ratio of 3 IOPS per GB with up to 10,000 IOPS and the ability to burst up to 3,000 IOPS for extended periods of time for volumes at 3,334 GiB and above
+        - Provisioned IOPS SSD (also called IO1)
+          - Designed for I/O intensive applications such as large relational or NoSQL databases
+          - Use if you need more than 10,000 IOPS
+          - Can provision up to 20,000 IOPS per volume
+          - Highest performance SSD volumes for mission-critical, low-latency or high-throughput workloads
+      - Magnetic
+        - Throughput Optimized HDD (also called ST1)
+          - used for big data
+          - used for data warehouses
+          - used for log processing
+          - cannot be a boot volume
+        - Cold HDD (also called SC1)
+          - Lowest cost storage for infrequently accessed workloads
+          - used for file servers
+          - cannot be a boot volume
+        - Magnetic (Standard)
+          - Lowest cost per gigabyte of all the EBS types that are bootable
+          - Previous generation
+          - Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important
+  - Exam Tips
+    - If a spot instance is terminated by Amazon, you will not be charged for a partial hour of usage
+    - If you terminate an instance yourself, you will be charged for the complete hour in which the instance ran
+  
