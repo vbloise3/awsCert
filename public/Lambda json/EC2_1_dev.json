@@ -1,0 +1,1448 @@
+[
+  {
+    "id": "28",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "EC2 (Elastic Compute Cloud) is ______",
+      "answers": [
+        "a web service that provides resizable compute capacity in the Cloud",
+        "a physical server in the cloud",
+        "a set of servers configured for your account",
+        "the only way to get virtual compute capacity on AWS"
+      ],
+      "correctAnswer": ["a web service that provides resizable compute capacity in the Cloud"]
+    }
+  },
+  {
+    "id": "29",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "You can pay for EC2 by the ______ or even by the ______",
+      "answers": [
+        "Hour",
+        "Second",
+        "Minute",
+        "Day"
+      ],
+      "correctAnswer": ["Hour",
+        "Second"]
+    }
+  },
+  {
+    "id": "30",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 4",
+      "question": "What are the four EC2 purchase options?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts"]
+    }
+  },
+  {
+    "id": "31",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 instance type allows you to pay a fixed rate by the hour (or by the second) with no commitment?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["On Demand Instances"]
+    }
+  },
+  {
+    "id": "32",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 instance type provides you with a capacity reservation, and offer a significant discount on the hourly charge for an instances?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Reserved Instances"]
+    }
+  },
+  {
+    "id": "33",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 instance type enables you to bid whatever price you want for instance capacity, providing for even greater savings if your applications have flexible start and end times?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Spot Instances"]
+    }
+  },
+  {
+    "id": "34",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 instance type provides a physical EC2 server dedicated for your use. Can help you reduce costs by allowing you to use your existing server-bound software licenses?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Dedicated Hosts"]
+    }
+  },
+  {
+    "id": "35",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "With On-Demand instances, ______ instances are charged by the second",
+      "answers": [
+        "Linux Instances",
+        "Windows Instances",
+        "Mac Instances"
+      ],
+      "correctAnswer": ["Linux Instances"]
+    }
+  },
+  {
+    "id": "36",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "With On-Demand instances, ______ instances are charged by the hour",
+      "answers": [
+        "Linux Instances",
+        "Windows Instances",
+        "Mac Instances"
+      ],
+      "correctAnswer": ["Windows Instances"]
+    }
+  },
+  {
+    "id": "37",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "With Reserved instances, you can get either ______ year or ______ year terms",
+      "answers": [
+        "one",
+        "three",
+        "two",
+        "four"
+      ],
+      "correctAnswer": ["one",
+        "three"]
+    }
+  },
+  {
+    "id": "38",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users who want the low cost and flexibility of EC2 without any up-front payment or long-term commitment should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["On Demand Instances"]
+    }
+  },
+  {
+    "id": "39",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications with short term, spiky, or unpredictable workloads that cannot be interrupted should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["On Demand Instances"]
+    }
+  },
+  {
+    "id": "40",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications being developed or tested on EC2 for the first time should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["On Demand Instances"]
+    }
+  },
+  {
+    "id": "41",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications with steady state or predictable usage should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Reserved Instances"]
+    }
+  },
+  {
+    "id": "42",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications that require reserved capacity should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Reserved Instances"]
+    }
+  },
+  {
+    "id": "43",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with with this type of EC2 instance can make up-front payments to reduce the total computing costs even further?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Reserved Instances"]
+    }
+  },
+  {
+    "id": "44",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with with this type of EC2 reserved instance can save up to 75% off on-demand?",
+      "answers": [
+        "Standard",
+        "Convertible",
+        "Scheduled",
+        "Dedicated",
+        "Leased"
+      ],
+      "correctAnswer": ["Standard"]
+    }
+  },
+  {
+    "id": "45",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with with this type of EC2 reserved instance can save up to 54% off on-demand and feature the capability to change the attributes of the RI as long as the exchange results in the creation of an RI of equal or greater value?",
+      "answers": [
+        "Standard",
+        "Convertible",
+        "Scheduled",
+        "Dedicated",
+        "Leased"
+      ],
+      "correctAnswer": ["Convertible"]
+    }
+  },
+  {
+    "id": "46",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "You can change the attributes of a convertible RI as long as the exchange results in the creation of an RI of ______ or ______ value?",
+      "answers": [
+        "equal",
+        "greater",
+        "lesser",
+        "not equal"
+      ],
+      "correctAnswer": ["equal",
+        "greater"]
+    }
+  },
+  {
+    "id": "47",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "______ RIs are available to launch within the time window you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, week, or month?",
+      "answers": [
+        "Standard",
+        "Convertible",
+        "Scheduled",
+        "Dedicated",
+        "Leased"
+      ],
+      "correctAnswer": ["Scheduled"]
+    }
+  },
+  {
+    "id": "48",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications that have flexible start and end times should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Spot Instances"]
+    }
+  },
+  {
+    "id": "49",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with applications that are only feasible at very low compute prices should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Spot Instances"]
+    }
+  },
+  {
+    "id": "50",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Users with an urgent need for large amounts of additional computing capacity should select which type of EC2 instance?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Spot Instances"]
+    }
+  },
+  {
+    "id": "51",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EC2 instance is great for licensing which does not support multi-tenancy or cloud deployments?",
+      "answers": [
+        "On Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "Lease Instances"
+      ],
+      "correctAnswer": ["Dedicated Hosts"]
+    }
+  },
+  {
+    "id": "52",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Dedicated Hosts can be purchased on-demand (hourly)?",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "53",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Dedicated Hosts can be purchased as a reservation for up to 70% off the on-demand price?",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "54",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the F1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data"]
+    }
+  },
+  {
+    "id": "55",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the I3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["High Speed Storage - NoSQL databases, Data Warehousing"]
+    }
+  },
+  {
+    "id": "56",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the G3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Graphics Intensive - Video Encoding, 3D Application Streaming"]
+    }
+  },
+  {
+    "id": "57",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the H1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS"]
+    }
+  },
+  {
+    "id": "58",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the T2 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Lowest Cost, General Purpose - Web Servers, Small databases"]
+    }
+  },
+  {
+    "id": "59",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the D2 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Dense Storage - File servers, data warehousing/Hadoop"]
+    }
+  },
+  {
+    "id": "60",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the R4 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Memory Optimized - Memory intensive apps, databases"]
+    }
+  },
+  {
+    "id": "61",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the M5 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["General Purpose - Application Servers"]
+    }
+  },
+  {
+    "id": "62",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the C5 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Compute Optimized - CPU intensive apps, databases"]
+    }
+  },
+  {
+    "id": "63",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the P3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Graphics/General Purpose GPU - Machine learning, Bit Coin mining"]
+    }
+  },
+  {
+    "id": "64",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which best describes the X1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array - genomics research, financial analysis, real-time video processing, big data",
+        "High Speed Storage - NoSQL databases, Data Warehousing",
+        "Graphics Intensive - Video Encoding, 3D Application Streaming",
+        "High Disk Throughput - MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS",
+        "Lowest Cost, General Purpose - Web Servers, Small databases",
+        "Dense Storage - File servers, data warehousing/Hadoop",
+        "Memory Optimized - Memory intensive apps, databases",
+        "General Purpose - Application Servers",
+        "Compute Optimized - CPU intensive apps, databases",
+        "Graphics/General Purpose GPU - Machine learning, Bit Coin mining",
+        "Memory Optimized - SAP HANA/Apache Spark"
+      ],
+      "correctAnswer": ["Memory Optimized - SAP HANA/Apache Spark"]
+    }
+  },
+  {
+    "id": "65",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for genomics research, financial analysis, real-time video processing, big data?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["F1 - Field Programmable Gate Array"]
+    }
+  },
+  {
+    "id": "66",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for NoSQL databases, Data Warehousing?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["I3 - High Speed Storage"]
+    }
+  },
+  {
+    "id": "67",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for Video Encoding, 3D Application Streaming?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["G3 - Graphics Intensive"]
+    }
+  },
+  {
+    "id": "68",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["H1 - High Disk Throughput"]
+    }
+  },
+  {
+    "id": "69",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for Web Servers, Small databases?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["T2 - Lowest Cost, General Purpose"]
+    }
+  },
+  {
+    "id": "70",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for File servers, data warehousing/Hadoop?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["D2 - Dense Storage"]
+    }
+  },
+  {
+    "id": "71",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for Memory intensive apps, databases?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["R4 - Memory Optimized"]
+    }
+  },
+  {
+    "id": "72",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for Application Servers?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["M5 - General Purpose"]
+    }
+  },
+  {
+    "id": "73",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for CPU intensive apps, databases?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["C5 - Compute Optimized"]
+    }
+  },
+  {
+    "id": "74",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for Machine learning, Bit Coin mining?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["P3 - Graphics/General Purpose GPU"]
+    }
+  },
+  {
+    "id": "75",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type is used for SAP HANA/Apache Spark workloads?",
+      "answers": [
+        "F1 - Field Programmable Gate Array",
+        "I3 - High Speed Storage",
+        "G3 - Graphics Intensive",
+        "H1 - High Disk Throughput",
+        "T2 - Lowest Cost, General Purpose",
+        "D2 - Dense Storage",
+        "R4 - Memory Optimized",
+        "M5 - General Purpose",
+        "C5 - Compute Optimized",
+        "P3 - Graphics/General Purpose GPU",
+        "X1 - Memory Optimized"
+      ],
+      "correctAnswer": ["X1 - Memory Optimized"]
+    }
+  },
+  {
+    "id": "75",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Field Programmable Gate Array?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["F1"]
+    }
+  },
+  {
+    "id": "76",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: High Speed Storage?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["I3"]
+    }
+  },
+  {
+    "id": "77",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Graphics Intensive?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["G3"]
+    }
+  },
+  {
+    "id": "78",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: High Disk Throughput?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["H1"]
+    }
+  },
+  {
+    "id": "79",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Lowest Cost, General Purpose?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["T2"]
+    }
+  },
+  {
+    "id": "80",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Dense Storage?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["D2"]
+    }
+  },
+  {
+    "id": "81",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Memory Optimized?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["R4"]
+    }
+  },
+  {
+    "id": "82",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: General Purpose?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["M5"]
+    }
+  },
+  {
+    "id": "83",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Compute Optimized?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["C5"]
+    }
+  },
+  {
+    "id": "84",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Graphics/General Purpose GPU?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["P3"]
+    }
+  },
+  {
+    "id": "85",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which EC2 Instance type: Memory Optimized?",
+      "answers": [
+        "F1",
+        "I3",
+        "G3",
+        "H1",
+        "T2",
+        "D2",
+        "R4",
+        "M5",
+        "C5",
+        "P3",
+        "X1"
+      ],
+      "correctAnswer": ["X1"]
+    }
+  },
+  {
+    "id": "86",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the F1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Field Programmable Gate Array"]
+    }
+  },
+  {
+    "id": "86",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the I3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["High Speed Storage"]
+    }
+  },
+  {
+    "id": "87",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the G3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Graphics Intensive"]
+    }
+  },
+  {
+    "id": "88",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the H1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["High Disk Throughput"]
+    }
+  },
+  {
+    "id": "89",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the T2 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Lowest Cost, General Purpose"]
+    }
+  },
+  {
+    "id": "90",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the D2 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Dense Storage"]
+    }
+  },
+  {
+    "id": "91",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the R4 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Memory Optimized"]
+    }
+  },
+  {
+    "id": "92",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the M5 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["General Purpose"]
+    }
+  },
+  {
+    "id": "93",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the C5 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Compute Optimized"]
+    }
+  },
+  {
+    "id": "94",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the P3 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Graphics/General Purpose GPU"]
+    }
+  },
+  {
+    "id": "95",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which describes the X1 EC2 Instance type?",
+      "answers": [
+        "Field Programmable Gate Array",
+        "High Speed Storage",
+        "Graphics Intensive",
+        "High Disk Throughput",
+        "Lowest Cost, General Purpose",
+        "Dense Storage",
+        "Memory Optimized",
+        "General Purpose",
+        "Compute Optimized",
+        "Graphics/General Purpose GPU",
+        "Memory Optimized Large"
+      ],
+      "correctAnswer": ["Memory Optimized Large"]
+    }
+  }
+]

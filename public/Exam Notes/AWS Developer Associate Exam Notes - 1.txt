@@ -93,7 +93,7 @@ EC2 101
     - One Demand Instances
       - users who want the low cost and flexibility of EC2 without any up-front payment or long-term commitment
       - applications with short term, spiky, or unpredictable workloads that cannot be interrupted
-      - applications being developed or tested on EC2 for the first times
+      - applications being developed or tested on EC2 for the first time
     - Reserved Instances
       - applications with steady state or predictable usage
       - applications that require reserved capacity
@@ -135,7 +135,7 @@ EC2 101
       - C for compute
       - P for graphics (think pics)
       - X for extreme memory
-  - EBS - Elastic Block Storage
+  - EBS - Elastic Block Storage (RESUME HERE)
     - a virtual disk in the cloud
     - allows you to create storage volumes and attach them to EC2 instances
     - placed in a specific AZ
@@ -169,4 +169,3 @@ EC2 101
   - Exam Tips
     - If a spot instance is terminated by Amazon, you will not be charged for a partial hour of usage
     - If you terminate an instance yourself, you will be charged for the complete hour in which the instance ran
-  
