@@ -1,0 +1,511 @@
+[
+  {
+    "id": "96",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 4",
+      "question": "Elastic Block Storage ______",
+      "answers": [
+        "is a virtual disk in the cloud",
+        "allows you to create storage volumes and attach them to EC2 instances",
+        "is placed in a specific AZ",
+        "is automatically replicated",
+        "is the only way to get virtual compute capacity on AWS"
+      ],
+      "correctAnswer": ["is a virtual disk in the cloud",
+        "allows you to create storage volumes and attach them to EC2 instances",
+        "is placed in a specific AZ",
+        "is automatically replicated"]
+    }
+  },
+  {
+  "id": "97",
+  "category": "Cloud Concepts",
+  "info": {
+    "subcategory": "EC2",
+    "questionType": "multiple choice 3",
+    "question": "With Elastic Block Storage you ______",
+    "answers": [
+      "can put a file system on top of them",
+      "can run a database on them",
+      "can install applications on them",
+      "can use all types for boot volume",
+      "cannot install an OS on them"
+      ],
+      "correctAnswer": ["can put a file system on top of them",
+        "can run a database on them",
+        "can install applications on them"]
+    }
+  },
+  {
+    "id": "98",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "The EBS volume where you OS is installed is called the ______",
+      "answers": [
+        "root device",
+        "main volume",
+        "restricted volume",
+        "write only volume"
+      ],
+      "correctAnswer": ["root device"]
+    }
+  },
+  {
+    "id": "99",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "What are the EBS types?",
+      "answers": [
+        "SSD",
+        "Magnetic",
+        "RAID",
+        "Arrayed"
+      ],
+      "correctAnswer": ["SSD",
+        "Magnetic"]
+    }
+  },
+  {
+    "id": "100",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "What are the 2 types of SSD EBS volumes?",
+      "answers": [
+        "General Purpose",
+        "Provisioned IOPS",
+        "Throughput Optimized",
+        "Cold",
+        "Magnetic"
+      ],
+      "correctAnswer": ["General Purpose",
+        "Provisioned IOPS"]
+    }
+  },
+  {
+    "id": "101",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume balances price and performance?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["General Purpose SSD"]
+    }
+  },
+  {
+    "id": "102",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume has a ratio of 3 IOPS per GB with up to 10,000 IOPS and the ability to burst up to 3,000 IOPS for extended periods of time for volumes at 3,334 GiB and above?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["General Purpose SSD"]
+    }
+  },
+  {
+    "id": "103",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume is designed for I/O intensive applications such as large relational or NoSQL databases?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Provisioned IOPS SSD"]
+    }
+  },
+  {
+    "id": "104",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume do you use if you need more than 10,000 IOPS?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Provisioned IOPS SSD"]
+    }
+  },
+  {
+    "id": "105",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "With which type of EBS volume can you provision up to 20,000 IOPS per volume?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Provisioned IOPS SSD"]
+    }
+  },
+  {
+    "id": "106",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume gives you the highest performance SSD volumes for mission-critical, low-latency or high-throughput workloads?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Provisioned IOPS SSD"]
+    }
+  },
+  {
+    "id": "107",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume would you use for big data?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Throughput Optimized HDD"]
+    }
+  },
+  {
+    "id": "108",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume would you use for data warehouses?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Throughput Optimized HDD"]
+    }
+  },
+  {
+    "id": "109",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume would you use for log processing?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Throughput Optimized HDD"]
+    }
+  },
+  {
+    "id": "110",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "Which types of the magnetic EBS volumes cannot be a boot volume?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Throughput Optimized HDD",
+        "Cold HDD"]
+    }
+  },
+  {
+    "id": "111",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume gives you the lowest cost storage for infrequently accessed workloads?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Cold HDD"]
+    }
+  },
+  {
+    "id": "112",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume is used for file servers?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Cold HDD"]
+    }
+  },
+  {
+    "id": "113",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume gives you the lowest cost per gigabyte of all the EBS types that are bootable?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Magnetic (Standard)"]
+    }
+  },
+  {
+    "id": "113",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume is from the previous generation?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Magnetic (Standard)"]
+    }
+  },
+  {
+    "id": "114",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which type of EBS volume is ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important?",
+      "answers": [
+        "General Purpose SSD",
+        "Provisioned IOPS SSD",
+        "Throughput Optimized HDD",
+        "Cold HDD",
+        "Magnetic (Standard)"
+      ],
+      "correctAnswer": ["Magnetic (Standard)"]
+    }
+  },
+  {
+    "id": "115",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "If a spot instance is terminated by Amazon ______",
+      "answers": [
+        "you will not be charged for a partial hour of usage",
+        "you will be charged for a partial hour of usage",
+        "you will not be charged for any hours of usage",
+        "you will be charged for all hours of usage"
+      ],
+      "correctAnswer": ["you will not be charged for a partial hour of usage"]
+    }
+  },
+  {
+    "id": "116",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "If you terminate a spot instance yourself ______",
+      "answers": [
+        "you will be charged for the complete hour in which the instance ran",
+        "you will not be charged for the complete hour in which the instance ran",
+        "you will not be charged for any hours of usage",
+        "you will be charged for all hours of usage"
+      ],
+      "correctAnswer": ["you will be charged for the complete hour in which the instance ran"]
+    }
+  },
+  {
+    "id": "117",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "EC2 instances are created from ______",
+      "answers": [
+        "Amazon Machine Images (AMIs)",
+        "Elastic Load Balancers",
+        "SSH commands",
+        "RDP scripts"
+      ],
+      "correctAnswer": ["Amazon Machine Images (AMIs)"]
+    }
+  },
+  {
+    "id": "118",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "Detailed CloudWatch detailed monitoring monitors every ______, versus every ______ for default monitoring",
+      "answers": [
+        "1 minute for detailed monitoring",
+        "5 minutes for default monitoring",
+        "30 seconds for detailed monitoring",
+        "2 minutes  for detailed monitoring",
+        "10 minutes for default monitoring",
+        "30 minutes for default monitoring"
+      ],
+      "correctAnswer": ["1 minute for detailed monitoring",
+        "5 minutes for default monitoring"]
+    }
+  },
+  {
+    "id": "119",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Use the EC2 ______ under Advanced Details to create a bootstrap script",
+      "answers": [
+        "User Data section",
+        "Configure Bootstrap section",
+        "Server Data section",
+        "Boot Data section"
+      ],
+      "correctAnswer": ["User Data section"]
+    }
+  },
+  {
+    "id": "120",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "The EC2 Security Group is ______ controlling traffic in and out to your EC2 instance",
+      "answers": [
+        "a virtual firewall",
+        "a hardware firewall",
+        "a network firewall",
+        "a network controller"
+      ],
+      "correctAnswer": ["a virtual firewall"]
+    }
+  },
+  {
+    "id": "121",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "The EC2 Security Group is a virtual firewall controlling traffic ______ to your EC2 instance",
+      "answers": [
+        "in and out",
+        "in only",
+        "out only",
+        "logins"
+      ],
+      "correctAnswer": ["in and out"]
+    }
+  },
+  {
+    "id": "122",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "You need ______ to launch an EC2 instance",
+      "answers": [
+        "a public key and private key pair",
+        "a public key",
+        "a private key",
+        "a key management service"
+      ],
+      "correctAnswer": ["a public key and private key pair"]
+    }
+  },
+  {
+    "id": "123",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "The public key to an EC2 instance is like the ______",
+      "answers": [
+        "lock for your EC2 instance",
+        "key to open the lock for your EC2 instance",
+        "lock and key for you EC2 instance",
+        "first of two keys for your EC2 instance"
+      ],
+      "correctAnswer": ["lock for your EC2 instance"]
+    }
+  },
+  {
+    "id": "124",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "The private key to an EC2 instance is like the ______",
+      "answers": [
+        "lock for your EC2 instance",
+        "key to open the lock for your EC2 instance",
+        "lock and key for you EC2 instance",
+        "first of two keys for your EC2 instance"
+      ],
+      "correctAnswer": ["key to open the lock for your EC2 instance"]
+    }
+  }
+]

@@ -135,7 +135,7 @@ EC2 101
       - C for compute
       - P for graphics (think pics)
       - X for extreme memory
-  - EBS - Elastic Block Storage (RESUME HERE)
+  - EBS - Elastic Block Storage 
     - a virtual disk in the cloud
     - allows you to create storage volumes and attach them to EC2 instances
     - placed in a specific AZ
