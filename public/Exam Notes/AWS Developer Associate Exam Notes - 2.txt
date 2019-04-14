@@ -5,5 +5,24 @@ EC2 Lab
   - The EC2 Security Group is a virtual firewall controlling traffic in and out to your EC2 instance
   - You need a public key and private key pair to launch an EC2 instance
   - The public key to an EC2 instance is like the lock and the private key is the key to the lock
-Elastic Load Balancers
-  -
+Elastic Load Balancers (START HERE)
+  - Three types of load balancers
+     - Application Load Balancer: operates at OSI layer 7
+     - Network Load Balancer: operates at OSI layer 4; used for very fast performance routing; most expensive ELB
+     - Classic Load Balancer: legacy, no longer recommended
+  - Application load balancers
+     - best suited for http and https traffic
+     - operate at layer 7 and are application aware
+  - Network load balancers
+     - best suited for tcp traffic where extreme performance is required
+     - operate at the connection level (layer 4)
+     - capable of handling millions of requests per second
+     - maintains ultra-low latency
+  - Classic load balancers
+     - can load balance http/https applications
+     - use layer 7-specific features such as sticky sessions, but not as intelligent as application load balancer on layer 7
+     - can also function as strict layer 4 for applications that rely purely on tcp traffic
+     - if your application is having issues, the classic load balancer will respond with a 504 (gateway timeout) meaning the application is not responding within the idle timeout period
+       - remediate by scaling up or out
+  - X-Forwarded-For header
+     - used to get the user requesting ip address (the IPv4 address) that is behind the ELB
