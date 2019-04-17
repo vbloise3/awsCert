@@ -5,7 +5,7 @@ EC2 Lab
   - The EC2 Security Group is a virtual firewall controlling traffic in and out to your EC2 instance
   - You need a public key and private key pair to launch an EC2 instance
   - The public key to an EC2 instance is like the lock and the private key is the key to the lock
-Elastic Load Balancers (START HERE)
+Elastic Load Balancers
   - Three types of load balancers
      - Application Load Balancer: operates at OSI layer 7
      - Network Load Balancer: operates at OSI layer 4; used for very fast performance routing; most expensive ELB

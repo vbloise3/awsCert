@@ -1,0 +1,324 @@
+[
+  {
+    "id": "125",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 3",
+      "question": "What are the three types of Elastic Load Balancers?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer"]
+    }
+  },
+  {
+    "id": "126",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer operates at OSI layer 7?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Application Load Balancer"]
+    }
+  },
+  {
+    "id": "127",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer operates at OSI layer 4?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "128",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is used for very fast performance routing?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "129",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is the most expensive ELB?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "130",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is legacy and no longer recommended?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Classic Load Balancer"]
+    }
+  },
+  {
+    "id": "131",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is the best choice for http and https traffic?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Application Load Balancer"]
+    }
+  },
+  {
+    "id": "132",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer operates at layer 7 and is application aware?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Application Load Balancer"]
+    }
+  },
+  {
+    "id": "133",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is best suited for tcp traffic where extreme performance is required?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "134",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer operates at the connection level (layer 4)?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "135",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer is capable of handling millions of requests per second?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "136",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer maintains ultra-low latency?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Network Load Balancer"]
+    }
+  },
+  {
+    "id": "137",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer can load balance http/https applications?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Classic Load Balancer"]
+    }
+  },
+  {
+    "id": "138",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer uses layer 7-specific features such as sticky sessions, but is not as intelligent as application load balancer on layer 7?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Classic Load Balancer"]
+    }
+  },
+  {
+    "id": "139",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "Which type of Elastic Load Balancer can also function as strict layer 4 for applications that rely purely on tcp traffic?",
+      "answers": [
+        "Application Load Balancer",
+        "Network Load Balancer",
+        "Classic Load Balancer",
+        "Basic Load Balancer"
+      ],
+      "correctAnswer": ["Classic Load Balancer"]
+    }
+  },
+  {
+    "id": "140",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "If your application is having issues, the classic load balancer will respond with a ______ error?",
+      "answers": [
+        "504",
+        "404",
+        "204",
+        "500"
+      ],
+      "correctAnswer": ["504"]
+    }
+  },
+  {
+    "id": "141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "This error type means the application is not responding within the idle timeout period?",
+      "answers": [
+        "gateway timeout",
+        "network timeout",
+        "health check timeout",
+        "loop back timeout"
+      ],
+      "correctAnswer": ["gateway timeout"]
+    }
+  },
+  {
+    "id": "141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "This gateway timeout error code is ______?",
+      "answers": [
+        "504",
+        "404",
+        "204",
+        "500"
+      ],
+      "correctAnswer": ["504"]
+    }
+  },
+  {
+    "id": "141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "You remedy the gateway timeout (error code 504) by ______?",
+      "answers": [
+        "scaling up or out",
+        "restarting you EC2 instances",
+        "stopping and restarting your ELB",
+        "scaling down or in"
+      ],
+      "correctAnswer": ["scaling up or out"]
+    }
+  },
+  {
+    "id": "142",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ELB",
+      "questionType": "multiple choice 1",
+      "question": "This header type is used to get the user requesting ip address (the IPv4 address) that is behind your ELB?",
+      "answers": [
+        "X-Forwarded-For header",
+        "X-Forwarded-Proto header",
+        "X-Forwarded-Host header",
+        "Transfer-Encoding header"
+      ],
+      "correctAnswer": ["X-Forwarded-For header"]
+    }
+  }
+]

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="" />
+    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EC2_2_dev.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EC2_2_dev.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7605">
-              <caret line="507" column="67" selection-start-line="507" selection-start-column="67" selection-end-line="507" selection-end-column="67" />
+            <state relative-caret-position="474">
+              <caret line="509" column="3" lean-forward="true" selection-start-line="494" selection-start-column="2" selection-end-line="509" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ELB_1_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -149,6 +161,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_1_dev.json" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json" />
       </list>
     </option>
   </component>
@@ -335,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49952000" />
+    <option name="totallyTimeSpent" value="51412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -395,13 +408,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/tsconfig.app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -713,8 +719,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7605">
-          <caret line="507" column="67" selection-start-line="507" selection-start-column="67" selection-end-line="507" selection-end-column="67" />
+        <state relative-caret-position="474">
+          <caret line="509" column="3" lean-forward="true" selection-start-line="494" selection-start-column="2" selection-end-line="509" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
         </state>
       </provider>
     </entry>
