@@ -26,3 +26,30 @@ Elastic Load Balancers
        - remediate by scaling up or out
   - X-Forwarded-For header
      - used to get the user requesting ip address (the IPv4 address) that is behind the ELB
+Route 53 (START HERE)
+  - Route 53 is AWS's DNS service
+  - Route 53 allows you to map your domain names to
+     - EC2 Instances
+     - Load Balancers
+     - S3 Buckets
+     - CloudFront Distributions
+     - Elastic Beanstalk environments
+  - An A Record in Route 53 tells Route 53 where to route a request to the domain name associated with the A Record
+  - Record Set types
+     - A - IPv4 address
+     - CNAME - Canonical name
+     - MX - Mail Exchange
+     - AAAA - IPv6 address
+     - TXT - text
+     - PTR - pointer
+     - SRV - Service locator
+     - SPF - Sender Policy Framework
+     - NAPTR - Name Authority Pointer
+     - CAA - Certification Authority Authorization
+     - SOA - Start of Authority
+  - The Zone Apex Record, or naked domain name, is the domain without any prefix, such as vincebloise.com versus www.vincebloise.com
+  - When selecting an A Record, you can choose an Alias, which in Route 53 is an alias for an AWS resource
+  - An Alias in Route 53 is created at the Zone Apex, or naked domain name level
+  - An Alias in Route 53 is only supported by A and AAAA record set types
+AWS CLI
+  -

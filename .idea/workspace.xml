@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,19 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EC2_2_dev.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="509" column="3" lean-forward="true" selection-start-line="494" selection-start-column="2" selection-end-line="509" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ELB_1_dev.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ELB_1_dev.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
+            <state relative-caret-position="4770">
               <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
             </state>
           </provider>
@@ -73,13 +63,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            <state relative-caret-position="464">
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,9 +150,9 @@
         <option value="$PROJECT_DIR$/public/Lambda json/IAM_1_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/IAM_2_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_1_dev.json" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
       </list>
     </option>
   </component>
@@ -348,7 +339,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51412000" />
+    <option name="totallyTimeSpent" value="51534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -358,9 +349,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30266076" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30266076" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -683,26 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -717,6 +688,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4770">
+          <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -724,10 +702,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
