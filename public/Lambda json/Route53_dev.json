@@ -1,0 +1,484 @@
+[
+  {
+    "id": "143",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Route 53 is AWS's ______ service?",
+      "answers": [
+        "DNS",
+        "Access Management",
+        "Development Pipeline",
+        "KMS"
+      ],
+      "correctAnswer": ["DNS"]
+    }
+  },
+  {
+    "id": "144",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 5",
+      "question": "Route 53 allows you to map your domain names to?",
+      "answers": [
+        "EC2 Instances",
+        "Load Balancers",
+        "S3 Buckets",
+        "CloudFront Distributions",
+        "Elastic Beanstalk environments",
+        "Database Instances",
+        "VPC Subnets"
+      ],
+      "correctAnswer": ["EC2 Instances",
+        "Load Balancers",
+        "S3 Buckets",
+        "CloudFront Distributions",
+        "Elastic Beanstalk environments"]
+    }
+  },
+  {
+    "id": "145",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "A(n) ______ in Route 53 tells Route 53 where to route a request to the domain name associated with it?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "SOA",
+        "SPF",
+        "AAAA"
+      ],
+      "correctAnswer": ["A Record"]
+    }
+  },
+  {
+    "id": "146",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following are NOT Route 53 Record Set types?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "C Record"
+      ],
+      "correctAnswer": ["C Record"]
+    }
+  },
+  {
+    "id": "147",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following are NOT Route 53 Record Set types?",
+      "answers": [
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA",
+        "SPC"
+      ],
+      "correctAnswer": ["SPC"]
+    }
+  },
+  {
+    "id": "148",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents an IPv4 address?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["A Record"]
+    }
+  },
+  {
+    "id": "149",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Canonical name?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["CNAME"]
+    }
+  },
+  {
+    "id": "150",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Mail Exchange?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["MX"]
+    }
+  },
+  {
+    "id": "151",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents an IPv6 address?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["AAAA"]
+    }
+  },
+  {
+    "id": "152",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents text?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["TXT"]
+    }
+  },
+  {
+    "id": "153",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a pointer?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["PTR"]
+    }
+  },
+  {
+    "id": "154",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Service locator?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["SRV"]
+    }
+  },
+  {
+    "id": "155",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Sender Policy Framework?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["SPF"]
+    }
+  },
+  {
+    "id": "156",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Name Authority Pointer?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["NAPTR"]
+    }
+  },
+  {
+    "id": "157",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Certification Authority Authorization?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["CAA"]
+    }
+  },
+  {
+    "id": "158",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "Which Route 53 Record Set type represents a Start of Authority?",
+      "answers": [
+        "A Record",
+        "CNAME",
+        "MX",
+        "AAAA",
+        "TXT",
+        "PTR",
+        "SRV",
+        "SPF",
+        "NAPTR",
+        "CAA",
+        "SOA"
+      ],
+      "correctAnswer": ["SOA"]
+    }
+  },
+  {
+    "id": "159",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "The ______ is the domain without any prefix, such as vincebloise.com versus www.vincebloise.com?",
+      "answers": [
+        "A Record",
+        "Zone Apex Record",
+        "D Record",
+        "AAAA Record",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["Zone Apex Record"]
+    }
+  },
+  {
+    "id": "160",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "The ______ is the domain without any prefix, such as vincebloise.com versus www.vincebloise.com?",
+      "answers": [
+        "A Record",
+        "naked domain name",
+        "D Record",
+        "AAAA Record",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["naked domain name"]
+    }
+  },
+  {
+    "id": "161",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "In Route 53 a(n) ______ is an pointer or a reference to an AWS resource?",
+      "answers": [
+        "Alias",
+        "A Record",
+        "D Record",
+        "AAAA Record",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["Alias"]
+    }
+  },
+  {
+    "id": "162",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "When selecting a(n) ______ you can choose an Alias, which in Route 53 is an alias for an AWS resource?",
+      "answers": [
+        "Alias",
+        "A Record",
+        "D Record",
+        "MX",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["A Record"]
+    }
+  },
+  {
+    "id": "163",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "An Alias in Route 53 is created at the ______ level?",
+      "answers": [
+        "Zone Apex",
+        "A Record",
+        "D Record",
+        "AAAA Record",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["Zone Apex"]
+    }
+  },
+  {
+    "id": "164",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "An Alias in Route 53 is created at the ______ level?",
+      "answers": [
+        "naked domain name",
+        "A Record",
+        "D Record",
+        "AAAA Record",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["naked domain name"]
+    }
+  },
+  {
+    "id": "165",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "When selecting a(n) ______ you can choose an Alias, which in Route 53 is an alias for an AWS resource?",
+      "answers": [
+        "Alias",
+        "AAAA Record",
+        "D Record",
+        "MX",
+        "NAPTR Record"
+      ],
+      "correctAnswer": ["AAAA Record"]
+    }
+  },
+  {
+    "id": "166",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Route 53",
+      "questionType": "multiple choice 1",
+      "question": "An Alias in Route 53 is only supported by?",
+      "answers": [
+        "A Record set types",
+        "A and AAAA Record set types",
+        "AAAA Record set types",
+        "MX Record set types",
+        "NAPTR Record set types"
+      ],
+      "correctAnswer": ["A and AAAA Record set types"]
+    }
+  }
+]

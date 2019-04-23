@@ -26,7 +26,7 @@ Elastic Load Balancers
        - remediate by scaling up or out
   - X-Forwarded-For header
      - used to get the user requesting ip address (the IPv4 address) that is behind the ELB
-Route 53 (START HERE)
+Route 53
   - Route 53 is AWS's DNS service
   - Route 53 allows you to map your domain names to
      - EC2 Instances
@@ -52,4 +52,4 @@ Route 53 (START HERE)
   - An Alias in Route 53 is created at the Zone Apex, or naked domain name level
   - An Alias in Route 53 is only supported by A and AAAA record set types
 AWS CLI
-  -
+  - 
