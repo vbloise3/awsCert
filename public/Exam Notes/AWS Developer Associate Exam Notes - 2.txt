@@ -34,7 +34,7 @@ Route 53
      - S3 Buckets
      - CloudFront Distributions
      - Elastic Beanstalk environments
-  - An A Record in Route 53 tells Route 53 where to route a request to the domain name associated with the A Record
+  - An Alias in Route 53 tells Route 53 where to route a request to the domain name associated with the Alias
   - Record Set types
      - A - IPv4 address
      - CNAME - Canonical name
@@ -51,5 +51,22 @@ Route 53
   - When selecting an A Record, you can choose an Alias, which in Route 53 is an alias for an AWS resource
   - An Alias in Route 53 is created at the Zone Apex, or naked domain name level
   - An Alias in Route 53 is only supported by A and AAAA record set types
-AWS CLI
+AWS CLI (START HERE)
+  - Least Privilege - Always give your users the minimum amount of access required
+  - Create Groups - Assign your users to groups. Your users will automatically inherit the permissions of the group. The group's
+    permissions are assigned using policy documents.
+  - Secret Access Key - You will this key only once. If you do not save it, you can delete the Key Pair (Access Key and Secret Access Key)
+    and regenerate it. Once you generate a new key pair you will to run aws configure again.
+  - Do not use just one access key - Do not create just one access key and share it with all of your developers.
+    Create one key pair per developer.
+  - You can use the CLI on you PC - You can install the cli on your MAC, Linux, or Windows PC.
+
+EC2 with Roles
+  - Roles allow you to not have to use Access Key IDs and Secret Access keys
+  - Roles are preferred from a security perspective
+  - Roles are controlled by policies
+  - You can change a policy on a role and it will immediate affect on the EC2 instance
+  - You can attach and detach roles to running EC2 instances without having to stop or terminate the instance
+  - When you get a question asking which to choose: Access Keys or Roles, always choose Roles
+EC2 with Attached Encrypted EBS Volume
   - 
