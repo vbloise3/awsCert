@@ -1,0 +1,197 @@
+[
+  {
+    "id": "167",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Always give your users the minimum amount of access required is called ______",
+      "answers": [
+        "Least Privilege",
+        "No Privilege",
+        "Most Privilege",
+        "Best Privilege",
+        "Optimal Privilege"
+      ],
+      "correctAnswer": ["Least Privilege"]
+    }
+  },
+  {
+    "id": "168",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "group permissions are assigned using ______",
+      "answers": [
+        "policy documents",
+        "role documents",
+        "user permissions",
+        "IAM Rules"
+      ],
+      "correctAnswer": ["policy documents"]
+    }
+  },
+  {
+    "id": "169",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Your users will automatically inherit the permissions of their group",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "170",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Once you generate a new key pair you will not need to run aws configure again",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "171",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "You can delete the Access Key Pair (Access Key and Secret Access Key) and regenerate it",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "172",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "With access keys for your development staff you should ______",
+      "answers": [
+        "create just one access key and share it with all of your developers",
+        "Create one key pair per developer",
+        "Create one key pair and share it via you source code repository"
+      ],
+      "correctAnswer": ["Create one key pair per developer"]
+    }
+  },
+  {
+    "id": "173",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "______ allow you to not have to use Access Key IDs and Secret Access keys to access your EC2 instance",
+      "answers": [
+        "Roles",
+        "Groups",
+        "Segments",
+        "VPCs"
+      ],
+      "correctAnswer": ["Roles"]
+    }
+  },
+  {
+    "id": "174",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which are preferred from a security perspective?",
+      "answers": [
+        "Roles",
+        "Access Key pairs"
+      ],
+      "correctAnswer": ["Roles"]
+    }
+  },
+  {
+    "id": "174",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Which are preferred from a security perspective when granting access to an EC2 instance?",
+      "answers": [
+        "Roles",
+        "Access Key pairs"
+      ],
+      "correctAnswer": ["Roles"]
+    }
+  },
+  {
+    "id": "175",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "Roles are controlled by ______",
+      "answers": [
+        "Policies",
+        "Rules",
+        "Segments",
+        "VPCs"
+      ],
+      "correctAnswer": ["Policies"]
+    }
+  },
+  {
+    "id": "176",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "When change a policy on a role for an EC2 instance it will take affect ______",
+      "answers": [
+        "instantly",
+        "after a restart",
+        "after a shutdown",
+        "after about 5 minutes"
+      ],
+      "correctAnswer": ["instantly"]
+    }
+  },
+  {
+    "id": "177",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "You can attach and detach roles to running EC2 instances without having to stop or terminate the instance",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "178",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "When you get a question asking which to choose: Access Keys or Roles, always choose ______",
+      "answers": [
+        "Access Keys",
+        "Roles",
+        "neither"
+      ],
+      "correctAnswer": ["Roles"]
+    }
+  }
+]
