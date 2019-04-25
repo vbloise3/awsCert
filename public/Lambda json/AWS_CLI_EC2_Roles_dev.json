@@ -193,5 +193,122 @@
       ],
       "correctAnswer": ["Roles"]
     }
+  },
+  {
+    "id": "179",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "EBS volumes created from encrypted snapshots are ______",
+      "answers": [
+        "automatically encrypted",
+        "optionally encrypted",
+        "not encrypted",
+        "automatically unencrypted"
+      ],
+      "correctAnswer": ["automatically encrypted"]
+    }
+  },
+  {
+    "id": "180",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "EBS volumes created from unencrypted snapshots are ______",
+      "answers": [
+        "automatically encrypted",
+        "optionally encrypted",
+        "not encrypted",
+        "automatically unencrypted"
+      ],
+      "correctAnswer": ["automatically unencrypted"]
+    }
+  },
+  {
+    "id": "181",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "EBS volumes have to be in ______ as the EC2 instance to which they are attached",
+      "answers": [
+        "the same availability zone",
+        "the same VPC",
+        "the same region",
+        "the same account"
+      ],
+      "correctAnswer": ["the same availability zone"]
+    }
+  },
+  {
+    "id": "182",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 1",
+      "question": "You must ______ an EBS volume before creating a snapshot of it",
+      "answers": [
+        "unmount",
+        "mount",
+        "terminate",
+        "format"
+      ],
+      "correctAnswer": ["unmount"]
+    }
+  },
+  {
+    "id": "183",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "What are the two ways to encrypt an EBS root volume?",
+      "answers": [
+        "take a snapshot of the root EBS volume, then copy the snapshot and encrypt the copy, then create an image (AMI) from the encrypted snapshot",
+        "encrypt the root EBS volume using operating system level encryption",
+        "take a snapshot of the root EBS volume, then create an image (AMI) from the snapshot, then create the copy and encrypt it as you copy it",
+        "unmount the root volume, encrypt it, then mount the root volume again"
+      ],
+      "correctAnswer": ["take a snapshot of the root EBS volume, then copy the snapshot and encrypt the copy, then create an image (AMI) from the encrypted snapshot",
+        "encrypt the root EBS volume using operating system level encryption"]
+    }
+  },
+  {
+    "id": "184",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 2",
+      "question": "You can also encrypt a root EBS volume using the operating system level encryption through ______ or ______?",
+      "answers": [
+        "OS commands",
+        "tools like BitLocker in Windows",
+        "formatting the volume while encrypting it",
+        "tools like Disk Wipe in Windows"
+      ],
+      "correctAnswer": ["OS commands",
+        "tools like BitLocker in Windows"]
+    }
+  },
+  {
+    "id": "185",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2",
+      "questionType": "multiple choice 3",
+      "question": "You can encrypt additional attached EBS volumes using ______, ______, or ______?",
+      "answers": [
+        "the console",
+        "the CLI",
+        "AWS APIs",
+        "AWS SDKs",
+        "OS level tools"
+      ],
+      "correctAnswer": ["the console",
+        "the CLI",
+        "AWS APIs"]
+    }
   }
 ]

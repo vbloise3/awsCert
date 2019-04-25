@@ -68,7 +68,7 @@ EC2 with Roles
   - You can change a policy on a role and it will immediate affect on the EC2 instance
   - You can attach and detach roles to running EC2 instances without having to stop or terminate the instance
   - When you get a question asking which to choose: Access Keys or Roles, always choose Roles
-EC2 with Attached Encrypted EBS Volume (START HERE)
+EC2 with Attached Encrypted EBS Volume
   - EBS volumes created from encrypted snapshots are automatically encrypted
   - EBS volumes created from unencrypted snapshots are automatically unencrypted
   - EBS volumes have to be in the same availability zone as the EC2 instance to which they are attached
@@ -78,5 +78,5 @@ EC2 with Attached Encrypted EBS Volume (START HERE)
     Then create an image (AMI) from the encrypted snapshot.
   - You can also encrypt a root EBS volume using the operating system level encryption through commands or tools like BitLocker in Windows
   - You can encrypt additional attached EBS volumes using the console, the CLI, or API
-RDS 101
+RDS 101 (START HERE)
   - 
