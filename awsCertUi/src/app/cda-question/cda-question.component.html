@@ -66,6 +66,13 @@
             (change)="updateSubcategoriesChecked($event, 'Route 53')">
           </mat-checkbox>
           <mat-label style="padding: 0.5em;">Route 53</mat-label>
+
+          <mat-checkbox
+            name="RDS"
+            value="RDS"
+            (change)="updateSubcategoriesChecked($event, 'RDS')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">RDS</mat-label>
           &nbsp;&nbsp;
           <button mat-button type="submit" color="primary">Submit</button>
         </div>

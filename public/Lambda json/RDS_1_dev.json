@@ -1,0 +1,281 @@
+[
+  {
+    "id": "186",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "RDS is an ______ type database?",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache"
+      ],
+      "correctAnswer": ["OLTP"]
+    }
+  },
+  {
+    "id": "187",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 6",
+      "question": "The six relational database types in RDS are:",
+      "answers": [
+        "SQL Server",
+        "Oracle",
+        "MySQL Server",
+        "PostgreSQL",
+        "Aurora",
+        "MariaDB",
+        "MongoDB",
+        "DB2"
+      ],
+      "correctAnswer": ["SQL Server",
+        "Oracle",
+        "MySQL Server",
+        "PostgreSQL",
+        "Aurora",
+        "MariaDB"]
+    }
+  },
+  {
+    "id": "188",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Databases that contains collections (lie a table), documents (like a row), and key value pairs (like fields) are ______ databases",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache"
+      ],
+      "correctAnswer": ["No SQL"]
+    }
+  },
+  {
+    "id": "189",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Databases where you don't have to predefine the table structure are ______ databases",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache"
+      ],
+      "correctAnswer": ["No SQL"]
+    }
+  },
+  {
+    "id": "190",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Databases which are used for business intelligence are ______ databases",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache",
+        "Data Warehouse"
+      ],
+      "correctAnswer": ["Data Warehouse"]
+    }
+  },
+  {
+    "id": "191",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 5",
+      "question": "Tools that interrogate data warehouses are:",
+      "answers": [
+        "Cognos",
+        "Jaspersoft",
+        "SQL Server Reporting Services",
+        "Oracle Hyperion",
+        "SAP NetWeaver",
+        "DynamoDB",
+        "MongoDB"
+      ],
+      "correctAnswer": ["Cognos",
+        "Jaspersoft",
+        "SQL Server Reporting Services",
+        "Oracle Hyperion",
+        "SAP NetWeaver"]
+    }
+  },
+  {
+    "id": "192",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "______ are used to pull in very large and complex datasets",
+      "answers": [
+        "Relational Databases",
+        "Non Relational Databases",
+        "Data Warehouses",
+        "In-Memory Caches"
+      ],
+      "correctAnswer": ["Data Warehouses"]
+    }
+  },
+  {
+    "id": "193",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "______ are used by management to do queries on data (such as current performance vs targets, etc.)",
+      "answers": [
+        "Relational Databases",
+        "Non Relational Databases",
+        "Data Warehouses",
+        "In-Memory Caches"
+      ],
+      "correctAnswer": ["Data Warehouses"]
+    }
+  },
+  {
+    "id": "194",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "______ is extracted into data warehouses",
+      "answers": [
+        "production data",
+        "test data",
+        "proprietary data",
+        "vendor data"
+      ],
+      "correctAnswer": ["production data"]
+    }
+  },
+  {
+    "id": "195",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Use ______ to get OrderNumber 12345, pulls up one row: the transaction",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache",
+        "Data Warehouse"
+      ],
+      "correctAnswer": ["OLTP"]
+    }
+  },
+  {
+    "id": "196",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Use ______ to get Net Profit for EMEA and Pacific for the blah product, pulls large numbers of records",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache",
+        "Data Warehouse"
+      ],
+      "correctAnswer": ["OLAP"]
+    }
+  },
+  {
+    "id": "197",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "RedShift is an example which type of data store?",
+      "answers": [
+        "OLTP",
+        "OLAP",
+        "No SQL",
+        "In-Memory Cache",
+        "Data Warehouse"
+      ],
+      "correctAnswer": ["OLAP"]
+    }
+  },
+  {
+    "id": "198",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "______ is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud",
+      "answers": [
+        "ElastiCache",
+        "RedShift",
+        "Aurora",
+        "DynamoDB"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "199",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 2",
+      "question": "ElastiCache supports which two open-source in-memory caching engines",
+      "answers": [
+        "Memcached",
+        "Redis",
+        "VoltDB",
+        "gemfire"
+      ],
+      "correctAnswer": ["Memcached",
+        "Redis"]
+    }
+  },
+  {
+    "id": "200",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "The default port of MySQL is ______",
+      "answers": [
+        "3306",
+        "22",
+        "3389",
+        "443",
+        "80"
+      ],
+      "correctAnswer": ["3306"]
+    }
+  },
+  {
+    "id": "201",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "If the connection from your web server running on an EC2 instance fails to connect to your MySQL server instance (Unable to Connect to MySQL error) you need to ______",
+      "answers": [
+        "Open up port 3306 in the security group which the MySQL instance is in to the security group which your EC2 instance is in",
+        "Open up port 3306 in the security group which the EC2 instance is in to the security group which your MySQL instance is in",
+        "Open up port 3306 in the security group which the Application Server instance is in to the security group which your EC2 instance is in",
+        "Open up port 3389 in the security group which the EC2 instance is in to the security group which your MySQL instance is in",
+        "Open up port 443 in the security group which the Application Server instance is in to the security group which your MySQL instance is in"
+      ],
+      "correctAnswer": ["Open up port 3306 in the security group which the MySQL instance is in to the security group which your EC2 instance is in"]
+    }
+  }
+]

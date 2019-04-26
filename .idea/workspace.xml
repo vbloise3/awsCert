@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/RDS_1_dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Lambda json/AWS_CLI_EC2_Roles_dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/AWS_CLI_EC2_Roles_dev.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,22 +60,23 @@
       <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            <state relative-caret-position="408">
+              <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#3;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#mat-label#4;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AWS_CLI_EC2_Roles_dev.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/AWS_CLI_EC2_Roles_dev.json">
+      <file leaf-file-name="RDS_1_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/RDS_1_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="303" column="18" lean-forward="true" selection-start-line="303" selection-start-column="18" selection-end-line="303" selection-end-column="18" />
+            <state relative-caret-position="518">
+              <caret line="277" column="145" selection-start-line="277" selection-start-column="145" selection-end-line="277" selection-end-column="145" />
             </state>
           </provider>
         </entry>
@@ -154,9 +157,11 @@
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_1_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/ELB_1_dev.json" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/Route53_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/AWS_CLI_EC2_Roles_dev.json" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
+        <option value="$PROJECT_DIR$/public/Lambda json/RDS_dev.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/RDS_1_dev.json" />
       </list>
     </option>
   </component>
@@ -343,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58171000" />
+    <option name="totallyTimeSpent" value="61062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -353,9 +358,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30266076" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30266076" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -403,13 +408,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCertUi/.oldgitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="43" lean-forward="true" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/page-not-found/page-not-found.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -696,18 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#mat-label#3;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Route53_dev.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -727,8 +713,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/AWS_CLI_EC2_Roles_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="303" column="18" lean-forward="true" selection-start-line="303" selection-start-column="18" selection-end-line="303" selection-end-column="18" />
+        <state relative-caret-position="474">
+          <caret line="312" column="3" lean-forward="true" selection-start-line="294" selection-start-column="2" selection-end-line="312" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#3;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#4;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/RDS_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="277" column="145" selection-start-line="277" selection-start-column="145" selection-end-line="277" selection-end-column="145" />
         </state>
       </provider>
     </entry>

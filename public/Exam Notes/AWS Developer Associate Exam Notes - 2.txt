@@ -79,4 +79,35 @@ EC2 with Attached Encrypted EBS Volume
   - You can also encrypt a root EBS volume using the operating system level encryption through commands or tools like BitLocker in Windows
   - You can encrypt additional attached EBS volumes using the console, the CLI, or API
 RDS 101 (START HERE)
-  - 
+  - RDS is OLTP
+  - The relational database types in RDS:
+    - SQL Server
+    - Oracle
+    - MySQL Server
+    - PostgreSQL
+    - Aurora
+    - MariaDB
+  - Non Relational Databases
+    - Databases that contains collections (lie a table), documents (like a row), and key value pairs (like fields)
+    - Don't have to predefine the table structure
+  - Data Warehouses
+    - Used for business intelligence
+    - Data scientists use tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver to interrogate data warehouses
+    - Used to pull in very large and complex datasets
+    - Used by management to do queries on data (such as current performance vs targets, etc.)
+    - Production data extracted into the data warehouse
+  - OLTP vs OLAP
+    - Online Transaction Processing (OLTP) differs from Online Analytics Processing (OLAP) in terms of the types of queries you will run against them.
+    - OLTP: get OrderNumber 12345, pulls up one row: the transaction
+    - OLAP: get Net Profit for EMEA and Pacific for the blah product, pulls large numbers of records
+    - OLAP - RedShift
+  - ElastiCache
+    - A web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud
+    - Supports two open-source in-memory caching engines
+      - Memcached
+      - Redis
+  - MySQL default port 3306
+  - If connection from web server running on EC2 instance fails to connect to MySQL server instance (Unable to Connect to MySQL error):
+      - Open up port 3306 in the security group which the MySQL instance is in to the security group which your EC2 instance is in
+RDS Multi-AZ and Read Replicas (START HERE)
+  -
