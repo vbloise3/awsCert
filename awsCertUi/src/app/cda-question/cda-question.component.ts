@@ -553,6 +553,10 @@ export class CdaQuestionComponent implements OnInit {
       this.getSelectCount = 5;
       this.getPlural = 's';
       this.getSelectCountText = 'five';
+    } else if (this.getQuestionType === 'multiple choice 6') {
+      this.getSelectCount = 6;
+      this.getPlural = 's';
+      this.getSelectCountText = 'six';
     } else if (this.getQuestionType === 'text entry') {
       this.getSelectCount = 0;
       this.getPlural = '';
