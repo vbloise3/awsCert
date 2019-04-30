@@ -110,4 +110,59 @@ RDS 101 (START HERE)
   - If connection from web server running on EC2 instance fails to connect to MySQL server instance (Unable to Connect to MySQL error):
       - Open up port 3306 in the security group which the MySQL instance is in to the security group which your EC2 instance is in
 RDS Multi-AZ and Read Replicas (START HERE)
-  -
+  - There are two types of backups for AWS:
+    1) Automated backups
+    2) Database snapshots
+  - Automated backups allow you to recover your database to any point in time within a "retention period."
+    - the retention period can be between 1 and 35 days
+    - automated backups will take a full daily snapshot and will also store transaction logs throughout the day
+    - when you do a recovery, AWS will first choose the most recent daily backup, and then apply transaction logs relevant to that day
+      - this allows you to do a point in time recovery down to the second, within the retention period
+    - automated backups are enabled by default
+    - the backup data is stored in S3 and you get free storage space equal to the size of your database
+    - backups are taken within a defined window
+    - during the backup window, storage I/) may be suspended while you data is being backed up and you may experience elevated latency
+    - if you delete your RDS instance, your automated backups will also be deleted
+    - you can define a backup window of when to start the backup and the duration of the backup
+  - DB Snapshots are done manually (ie. they are user initiated.)
+    - DB Snapshots are stored even after you delete your original RDS instance, unlike automated backups
+  - Restoring backups
+    - Whenever you restore either an Automated Backup or a manual Snapshot, the restored version of the database will be a new RDS instance with a new DNS endpoint
+  - Encryption
+    - Encryption at rest is supported by MySQL, Oracle, SQL Server, PostgreSQL, MariaDB, and Aurora
+    - Encryption is done using the AWS key management service (KMS)
+    - Once your RDS instance is encrypted, the data stored at rest in the underlying storage is encrypted, as are its automated backups, read replicas, and snapshots
+    - At the present time encrypting an existing database is not supported
+    - To use RDS encryption for an existing database, you must first create a snapshot, make a copy of that snapshot and encrypt the copy
+  - Multi-AZ
+    - Changes to the master DB instance are synchronously replicated to the secondary DB instance
+    - Multi-AZ is used for disaster recovery only
+    - When dealing with RDS you never use ip addresses, you use the DNS endpoint names of your RDS instances
+    - When AWS fails over to the secondary RDS instance, it automatically changes the db hostname to the secondary instance's DNS endpoint name in you database configuration
+    - Multi-AZ allows you to have an exact copy of your production database in another AZ.
+    - AWS handles the replication for you, so when your production database is written to, this write will automatically be synchronized to the standby database
+    - In the event of planned database maintenance, DB instance failure, or an AZ failure, RDS will automatically failover to the standby so that database operations ca resume quickly without administrative intervention
+    - Multi-AZ is used for disaster recovery, not for improving performance; for performance improvement, use Read Replicas
+    - Aurora by default is spread across multiple AZs
+  - Read Replicas
+    - When you do writes to the master RDS instance, these writes are pushed out to the read replica copies of the database
+    - Can have up to 5 read replicas per production database
+    - Read replicas allow you to scale out, sending many of the reads to the read replicas
+    - You can have read replicas of read replicas, these will have some replication latency
+    - You can have a read replica in a different AZ, or even in a different region
+    - Read replicas allow you to have a read-only copy of your production database
+    - Read replicas are achieved by using Asynchronous replication from the primary RDS instance to the read replica.
+    - Use read replicas for very read-heavy database workloads
+    - Read replica database types available now: MySQL Server, PostgreSQL, MariaDB, Aurora
+    - Read replicas are used for scaling, not for DR
+    - Must have automatic backups turned on in order to deploy a read replica
+    - You can have up to 5 read replica copies of any database
+    - You can have read replicas of read replicas, but watch out for latency
+    - Each read replica will have its own DNS end point
+    - You can have read replicas that have Multi-AZ enabled
+    - You can create read replicas of Multi-AZ source databases
+    - Read replicas can be promoted to be their own databases. This breaks the replication
+    - You can have a read replica in another region
+    - You can enable encryption on your read replicas even if your primary DB instance is not encrypted
+Elasticache 101
+ -
