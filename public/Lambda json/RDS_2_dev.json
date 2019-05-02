@@ -1,0 +1,805 @@
+[
+  {
+    "id": "202",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of backups for AWS RDS?",
+      "answers": [
+        "Automated backups",
+        "Database snapshots",
+        "Manual backups",
+        "Aggregated backups",
+        "Sequential backups"
+      ],
+      "correctAnswer": ["Automated backups",
+        "Database snapshots"]
+    }
+  },
+  {
+    "id": "203",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Automated backups allow you to recover your database to a ______ any point in time within a ______",
+      "answers": [
+        "point in time, retention period",
+        "specific record, retention period",
+        "point in time, iteration period",
+        "specified day, batch cycle"
+      ],
+      "correctAnswer": ["point in time, retention period"]
+    }
+  },
+  {
+    "id": "204",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "The RDS automated backup retention period can be between ______",
+      "answers": [
+        "1 and 35 days",
+        "8 and 35 days",
+        "1 and 10 days",
+        "0 and 35 days"
+      ],
+      "correctAnswer": ["1 and 35 days"]
+    }
+  },
+  {
+    "id": "205",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "RDS automated backups will take a ______ and will also store ______ throughout the day",
+      "answers": [
+        "full daily snapshot, transaction logs",
+        "partial daily snapshot, transaction logs",
+        "sequential daily snapshot, transaction logs",
+        "full daily snapshot, transactions"
+      ],
+      "correctAnswer": ["full daily snapshot, transaction logs"]
+    }
+  },
+  {
+    "id": "206",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, when you do a recovery, AWS will first choose the ______, and then apply ______ relevant to that ______",
+      "answers": [
+        "most recent daily backup, transaction logs, day",
+        "most recent daily snapshot, transaction logs, minute",
+        "most recent daily backup, transactions, day",
+        "a selected daily backup, transaction logs, day"
+      ],
+      "correctAnswer": ["most recent daily backup, transaction logs, day"]
+    }
+  },
+  {
+    "id": "207",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS backups, what allows you to do a point in time recovery down to the second, within the retention period?",
+      "answers": [
+        "AWS first chooses the most recent daily backup, and then applies transaction logs relevant to that day",
+        "AWS first chooses the most recent weekly backup, and then applies transaction logs relevant to that week",
+        "AWS first the snapshot you select, and then applies transaction logs relevant to that day",
+        "AWS chooses the most recent daily backup"
+      ],
+      "correctAnswer": ["AWS first chooses the most recent daily backup, and then applies transaction logs relevant to that day"]
+    }
+  },
+  {
+    "id": "208",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, automated backups are enabled ______",
+      "answers": [
+        "by default",
+        "on demand",
+        "by reservation",
+        "in another region"
+      ],
+      "correctAnswer": ["by default"]
+    }
+  },
+  {
+    "id": "209",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, your backup data is stored in ______",
+      "answers": [
+        "S3",
+        "Glacier",
+        "Elasticache",
+        "another database"
+      ],
+      "correctAnswer": ["S3"]
+    }
+  },
+  {
+    "id": "210",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, you get free S3 backup storage space equal to the size of ______",
+      "answers": [
+        "your database",
+        "your database times 10",
+        "your account designated allowance",
+        "your purchased limit"
+      ],
+      "correctAnswer": ["your database"]
+    }
+  },
+  {
+    "id": "211",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, backups are taken within ______",
+      "answers": [
+        "a defined window",
+        "1 hour",
+        "5 hours",
+        "working hours"
+      ],
+      "correctAnswer": ["a defined window"]
+    }
+  },
+  {
+    "id": "212",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, during the backup window, storage I/0 may be ______ while you data is being backed up and you may experience ______",
+      "answers": [
+        "suspended, elevated latency",
+        "interrupted, elevated latency",
+        "suspended, reduced latency",
+        "halted, an outage"
+      ],
+      "correctAnswer": ["suspended, elevated latency"]
+    }
+  },
+  {
+    "id": "213",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, if you delete your RDS instance, your automated backups will not be deleted",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "214",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 2",
+      "question": "With RDS, what are two things you can define for your backup window?",
+      "answers": [
+        "when to start the backup",
+        "the duration of the backup",
+        "when to complete the backup",
+        "the end time of the backup",
+        "where to store the backup"
+      ],
+      "correctAnswer": ["when to start the backup",
+        "the duration of the backup"]
+    }
+  },
+  {
+    "id": "215",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, DB Snapshots are done ______",
+      "answers": [
+        "manually",
+        "automatically",
+        "on a schedule",
+        "remotely"
+      ],
+      "correctAnswer": ["manually"]
+    }
+  },
+  {
+    "id": "215",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, DB Snapshots are ______",
+      "answers": [
+        "user initiated",
+        "system initiated",
+        "initiated by AWS",
+        "started automatically"
+      ],
+      "correctAnswer": ["user initiated"]
+    }
+  },
+  {
+    "id": "216",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Which are stored even after you delete your original RDS instance?",
+      "answers": [
+        "DB Snapshots",
+        "automated backups",
+        "manual backups",
+        "system generated backups"
+      ],
+      "correctAnswer": ["DB Snapshots"]
+    }
+  },
+  {
+    "id": "217",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Whenever you restore either an Automated Backup or a manual Snapshot, the restored version of the database will be a(n) ______ with a(n) ______",
+      "answers": [
+        "new RDS instance, new DNS endpoint",
+        "new RDS instance, the same DNS endpoint",
+        "existing RDS instance, existing DNS endpoint",
+        "the original RDS instance, the original DNS endpoint"
+      ],
+      "correctAnswer": ["new RDS instance, new DNS endpoint"]
+    }
+  },
+  {
+    "id": "218",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 6",
+      "question": "Encryption at rest is supported by",
+      "answers": [
+        "MySQL",
+        "Oracle",
+        "SQL Server",
+        "PostgreSQL",
+        "MariaDB",
+        "Aurora",
+        "DB2",
+        "MongoDB",
+        "ElastiCache",
+        "DynamoDB"
+      ],
+      "correctAnswer": ["MySQL",
+        "Oracle",
+        "SQL Server",
+        "PostgreSQL",
+        "MariaDB",
+        "Aurora"]
+    }
+  },
+  {
+    "id": "219",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS, encryption is done using ______",
+      "answers": [
+        "KMS",
+        "EMS",
+        "IAM",
+        "AES256",
+        "AES128"
+      ],
+      "correctAnswer": ["KMS"]
+    }
+  },
+  {
+    "id": "220",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 4",
+      "question": "Once your RDS instance is encrypted, which of these are also encrypted?",
+      "answers": [
+        "the data stored at rest in the underlying storage",
+        "the RDS instance automated backups",
+        "the RDS instance read replicas",
+        "the RDS instance snapshots",
+        "the RDS instance manual backups"
+      ],
+      "correctAnswer": ["the data stored at rest in the underlying storage",
+        "the RDS instance automated backups",
+        "the RDS instance read replicas",
+        "the RDS instance snapshots"]
+    }
+  },
+  {
+    "id": "221",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "At the present time encrypting an existing database is _____",
+      "answers": [
+        "not supported",
+        "supported",
+        "optional",
+        "required"
+      ],
+      "correctAnswer": ["not supported"]
+    }
+  },
+  {
+    "id": "222",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "To use RDS encryption for an existing database, you must _____",
+      "answers": [
+        "first create a snapshot, make a copy of that snapshot and encrypt the copy",
+        "first create a backup, make a copy of that backup and encrypt the copy",
+        "first create a snapshot, then encrypt the snapshot",
+        "encrypt the existing database"
+      ],
+      "correctAnswer": ["first create a snapshot, make a copy of that snapshot and encrypt the copy"]
+    }
+  },
+  {
+    "id": "223",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS Multi-AZ, changes to the master DB instance are _____ replicated to the secondary DB instance",
+      "answers": [
+        "synchronously",
+        "asynchronously",
+        "retroactively",
+        "intermittently"
+      ],
+      "correctAnswer": ["synchronously"]
+    }
+  },
+  {
+    "id": "224",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "With RDS Multi-AZ is used for ______",
+      "answers": [
+        "disaster recovery only",
+        "performance",
+        "disaster recovery and/or performance",
+        "availability"
+      ],
+      "correctAnswer": ["disaster recovery only"]
+    }
+  },
+  {
+    "id": "225",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "When dealing with RDS you use ______ of your RDS instances to access them",
+      "answers": [
+        "the ip addresses",
+        "the DNS endpoint names",
+        "the ARNs",
+        "the tags"
+      ],
+      "correctAnswer": ["the DNS endpoint names"]
+    }
+  },
+  {
+    "id": "226",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "When AWS fails over to the secondary RDS instance, it automatically changes the ______ to the secondary instance ______ in you database configuration",
+      "answers": [
+        "db hostname, DNS endpoint name",
+        "db hostname, DNS endpoint ip address",
+        "db ip address, DNS endpoint ip address",
+        "db ARN, DNS endpoint ARN"
+      ],
+      "correctAnswer": ["db hostname, DNS endpoint name"]
+    }
+  },
+  {
+    "id": "227",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Multi-AZ allows you to have a(n) ______ of your production database in another AZ",
+      "answers": [
+        "exact copy",
+        "timestamped copy",
+        "relative copy",
+        "asynchronous copy"
+      ],
+      "correctAnswer": ["exact copy"]
+    }
+  },
+  {
+    "id": "228",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "AWS handles the replication for you, so when your production database is written to, this write will ______ to the standby database",
+      "answers": [
+        "automatically be synchronized",
+        "intermittently be synchronized",
+        "asynchronously be copied",
+        "be block copied"
+      ],
+      "correctAnswer": ["automatically be synchronized"]
+    }
+  },
+  {
+    "id": "229",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 3",
+      "question": "In the event of which of these will RDS automatically failover to the standby so that database operations can resume quickly without administrative intervention",
+      "answers": [
+        "planned database maintenance",
+        "DB instance failure",
+        "an AZ failure",
+        "a region failure"
+      ],
+      "correctAnswer": ["planned database maintenance",
+        "DB instance failure",
+        "an AZ failure"]
+    }
+  },
+  {
+    "id": "230",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Which is used for disaster recovery?",
+      "answers": [
+        "Multi-AZ",
+        "Read Replicas"
+      ],
+      "correctAnswer": ["Multi-AZ"]
+    }
+  },
+  {
+    "id": "231",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Which is used for improving performance?",
+      "answers": [
+        "Multi-AZ",
+        "Read Replicas"
+      ],
+      "correctAnswer": ["Read Replicas"]
+    }
+  },
+  {
+    "id": "232",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Aurora by default is ______",
+      "answers": [
+        "spread across multiple AZs",
+        "spread across multiple regions",
+        "contained within one AZ",
+        "not replicated"
+      ],
+      "correctAnswer": ["spread across multiple AZs"]
+    }
+  },
+  {
+    "id": "233",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "When you do writes to the master RDS instance, these writes are pushed out to the read replica copies of the database",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "234",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can have up to ______ read replicas per production database",
+      "answers": [
+        "2",
+        "5",
+        "10",
+        "15"
+      ],
+      "correctAnswer": ["5"]
+    }
+  },
+  {
+    "id": "235",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas allow you to ______, sending many of the reads to the read replicas",
+      "answers": [
+        "scale out",
+        "scale up",
+        "scale in",
+        "scale down"
+      ],
+      "correctAnswer": ["scale out"]
+    }
+  },
+  {
+    "id": "236",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can not have read replicas of read replicas",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "237",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas of read replicas will ______",
+      "answers": [
+        "have some replication latency",
+        "not have replication latency",
+        "have some replication redundancy"
+      ],
+      "correctAnswer": ["have some replication latency"]
+    }
+  },
+  {
+    "id": "238",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can have a read replica in ______, or even in ______",
+      "answers": [
+        "a different AZ, a different region",
+        "a different AZ, a different account",
+        "a different subnet, a different VPC"
+      ],
+      "correctAnswer": ["a different AZ, a different region"]
+    }
+  },
+  {
+    "id": "239",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas allow you to have a ______ of your production database",
+      "answers": [
+        "read-only copy",
+        "read/write copy",
+        "static copy"
+      ],
+      "correctAnswer": ["read-only copy"]
+    }
+  },
+  {
+    "id": "240",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas are achieved by using ______ replication from the primary RDS instance to the read replica",
+      "answers": [
+        "Asynchronous",
+        "Synchronous",
+        "Intermittent",
+        "Streaming"
+      ],
+      "correctAnswer": ["Asynchronous"]
+    }
+  },
+  {
+    "id": "241",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Use read replicas for ______ database workloads",
+      "answers": [
+        "very read-heavy",
+        "read and write heavy",
+        "very light read-only"
+      ],
+      "correctAnswer": ["very read-heavy"]
+    }
+  },
+  {
+    "id": "242",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 4",
+      "question": "Read replica database types available now:",
+      "answers": [
+        "MySQL",
+        "PostgreSQL",
+        "MariaDB",
+        "Aurora",
+        "DynamoDB",
+        "Oracle",
+        "SQL Server"
+      ],
+      "correctAnswer": ["MySQL",
+        "PostgreSQL",
+        "MariaDB",
+        "Aurora"]
+    }
+  },
+  {
+    "id": "243",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas are used for ______, not for ______",
+      "answers": [
+        "scaling, DR",
+        "DR, scaling"
+      ],
+      "correctAnswer": ["scaling, DR"]
+    }
+  },
+  {
+    "id": "244",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You Must have ______ turned on in order to deploy a read replica",
+      "answers": [
+        "automatic backups",
+        "manual snapshots",
+        "automated snapshots",
+        "manual backups"
+      ],
+      "correctAnswer": ["automatic backups"]
+    }
+  },
+  {
+    "id": "245",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Each read replica will have its own ______",
+      "answers": [
+        "DNS end point",
+        "ip address",
+        "SSH key pair",
+        "KMS key"
+      ],
+      "correctAnswer": ["DNS end point"]
+    }
+  },
+  {
+    "id": "246",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can have read replicas that have Multi-AZ enabled",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "247",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Read replicas can not be promoted to be their own databases",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "248",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "Promoting read replicas to be their own databases ______",
+      "answers": [
+        "breaks the replication",
+        "keeps the replication",
+        "repeats the replication"
+      ],
+      "correctAnswer": ["breaks the replication"]
+    }
+  },
+  {
+    "id": "249",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can not have a read replica in another region",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "250",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "RDS",
+      "questionType": "multiple choice 1",
+      "question": "You can enable encryption on your read replicas even if your primary DB instance is not encrypted",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  }
+]

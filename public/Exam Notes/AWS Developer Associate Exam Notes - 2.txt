@@ -109,7 +109,7 @@ RDS 101 (START HERE)
   - MySQL default port 3306
   - If connection from web server running on EC2 instance fails to connect to MySQL server instance (Unable to Connect to MySQL error):
       - Open up port 3306 in the security group which the MySQL instance is in to the security group which your EC2 instance is in
-RDS Multi-AZ and Read Replicas (START HERE)
+RDS Multi-AZ and Read Replicas
   - There are two types of backups for AWS:
     1) Automated backups
     2) Database snapshots
@@ -121,7 +121,7 @@ RDS Multi-AZ and Read Replicas (START HERE)
     - automated backups are enabled by default
     - the backup data is stored in S3 and you get free storage space equal to the size of your database
     - backups are taken within a defined window
-    - during the backup window, storage I/) may be suspended while you data is being backed up and you may experience elevated latency
+    - during the backup window, storage I/0 may be suspended while you data is being backed up and you may experience elevated latency
     - if you delete your RDS instance, your automated backups will also be deleted
     - you can define a backup window of when to start the backup and the duration of the backup
   - DB Snapshots are done manually (ie. they are user initiated.)
@@ -141,7 +141,7 @@ RDS Multi-AZ and Read Replicas (START HERE)
     - When AWS fails over to the secondary RDS instance, it automatically changes the db hostname to the secondary instance's DNS endpoint name in you database configuration
     - Multi-AZ allows you to have an exact copy of your production database in another AZ.
     - AWS handles the replication for you, so when your production database is written to, this write will automatically be synchronized to the standby database
-    - In the event of planned database maintenance, DB instance failure, or an AZ failure, RDS will automatically failover to the standby so that database operations ca resume quickly without administrative intervention
+    - In the event of planned database maintenance, DB instance failure, or an AZ failure, RDS will automatically failover to the standby so that database operations can resume quickly without administrative intervention
     - Multi-AZ is used for disaster recovery, not for improving performance; for performance improvement, use Read Replicas
     - Aurora by default is spread across multiple AZs
   - Read Replicas
@@ -164,5 +164,5 @@ RDS Multi-AZ and Read Replicas (START HERE)
     - Read replicas can be promoted to be their own databases. This breaks the replication
     - You can have a read replica in another region
     - You can enable encryption on your read replicas even if your primary DB instance is not encrypted
-Elasticache 101
+Elasticache 101 (START HERE)
  -
