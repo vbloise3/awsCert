@@ -1,0 +1,532 @@
+[
+  {
+    "id": "251",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "A web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud",
+      "answers": [
+        "ElastiCache",
+        "Redshift",
+        "Elastic Container Service",
+        "Elastic Compute Service"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "252",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based databases",
+      "answers": [
+        "ElastiCache",
+        "Redshift",
+        "Elastic Container Service",
+        "Elastic Compute Service"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Can be used to significantly improve latency  and throughput for many read-heavy application workloads",
+      "answers": [
+        "ElastiCache",
+        "Redshift",
+        "Elastic Container Service",
+        "Elastic Compute Service"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "254",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Used to improve read-heavy application workloads (such as social networking, gaming, media sharing, and Q&A portals) or compute-intensive workloads (such as a recommendation engine)",
+      "answers": [
+        "ElastiCache",
+        "Redshift",
+        "Elastic Container Service",
+        "Elastic Compute Service"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "255",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "Cached information may include the results of",
+      "answers": [
+        "I/O intensive database queries",
+        "computationally-intensive calculations",
+        "I/O intensive database writes",
+        "Network intensive backups"
+      ],
+      "correctAnswer": ["I/O intensive database queries",
+        "computationally-intensive calculations"]
+    }
+  },
+  {
+    "id": "256",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "The two types of ElastiCache",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached",
+        "Redis"]
+    }
+  },
+  {
+    "id": "257",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "a widely adopted memory object caching system",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "258",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "ElastiCache is protocol compliant with ______ so popular tools you use with existing ______ environments will work seamlessly with the service",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "259",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "260",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Supports Master/Slave replication and Multi-AZ which can be used to achieve cross-AZ redundancy",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "261",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you need multi-AZ redundancy with your cache, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "262",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Because of the replication and persistence features of ______, ElastiCache manages ______ more as a relational database",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "263",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "______ ElastiCache clusters are managed as stateful entities that include failover, similar to how RDS manages database failovere",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "264",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Because ______ is designed as a pure caching solution with no persistence, ElastiCache manages ______ nodes as a pool that can grow and shrink, similar to an EC2 Auto Scaling Group",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "265",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Individual ______ nodes are expendable, and ElastiCache provides additional capabilities here, such as automatic node replacement and Auto Discovery",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "265",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Is object caching your primary goal, for example offload your database? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "266",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Are you interested in as simple a caching model as possible? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "267",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Are you planning on running large scale cache nodes, and require multithreaded performance with utilization of multiple cores? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "268",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Do you want the ability to scale your cache horizontally as you grow? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "268",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Are you looking for more advanced data types, such as lists, hashes, and sets? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "269",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Does sorting and ranking datasets in memory help you, such as with leaderboards? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "270",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Is persistence of your key store important? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "271",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Do you want to run in multiple AWS AZs (Multi-AZ) with failover? use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "272",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Given a scenrio where a particular database is under a lot of stress/load, ______ is a good choice if your database is particularly read-heavy and not prone to frequent changing",
+      "answers": [
+        "ElastiCache",
+        "DynamoDB",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "273",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Given a scenrio where a particular database is under a lot of stress/load, ______ is a good choice if the reason your database is feeling stress is because management keep running OLAP transactions on it etc.",
+      "answers": [
+        "ElastiCache",
+        "DynamoDB",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redshift"]
+    }
+  },
+  {
+    "id": "274",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If object caching is your primary goal, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "275",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you want to keep your caching solution as simple as possible, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "276",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you want to scale your cache horizontally (scale out), use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Mamcached"]
+    }
+  },
+  {
+    "id": "277",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you have advanced data types, such as lists, hashes, and sets in your cache, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "278",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you are doing data sorting and ranking (such as leaderboards) in you cache, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "279",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you need data persistence in your caching solution, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "280",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you need Multi-AZ in your caching solution, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  },
+  {
+    "id": "281",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If Pub/Sub capabilities are needed in your caching solution, use ______",
+      "answers": [
+        "Mamcached",
+        "Redis",
+        "Redshift",
+        "Datagrid"
+      ],
+      "correctAnswer": ["Redis"]
+    }
+  }
+]

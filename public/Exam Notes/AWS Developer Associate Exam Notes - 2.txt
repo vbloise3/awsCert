@@ -164,5 +164,48 @@ RDS Multi-AZ and Read Replicas
     - Read replicas can be promoted to be their own databases. This breaks the replication
     - You can have a read replica in another region
     - You can enable encryption on your read replicas even if your primary DB instance is not encrypted
-Elasticache 101 (START HERE)
+ElastiCache 101
+ - ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud.
+ - improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based databases.
+ - can be used to significantly improve latency  and throughput for many read-heavy application workloads (such as social networking, gaming, media sharing, and Q&A portals)
+   or compute-intensive workloads (such as a recommendation engine)
+ - caching improves application performance by storing critical pieces of data in memory for low-latency access.
+ - cached information may include the results of I/O intensive database queries or the results of computationally-intensive calculations
+ - Types of ElastiCache
+   - Mamcached
+     - a widely adopted memory object caching system
+     - ElastiCache is protocol compliant with Memcached, so popular tools you use with existing Memcached environments will work seamlessly with the service
+   - Redis
+     - a popular open-source in-memory key-value store that supports data structures such as sorted sets and lists.
+     - ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross-AZ redundancy
+     - if you need multi-AZ redundancy, use Redis
+   - although Memcachd and Redis appear similar on the surface (in that they are both in-memory key stores), they are actually quite different in practice.
+     - Because of the replication and persistence features of Redis, ElastiCache manages Redis more as a relational database.
+     - Redis ElastiCache clusters are managed as stateful entities that include failover, similar to how RDS manages database failover
+     - Because Memcached is designed as a pure caching solution with no persistence, ElastiCache manages Memcached nodes as a pool that can grow and shrink, similar to an EC2 Auto Scaling Group
+     - Individual Memcached nodes are expendable, and ElastiCache provides additional capabilities here, such as automatic node replacement and Auto Discovery
+   - Memcached use cases
+     - is object caching your primary goal, for example offload your database?
+     - are you interested in as simple a caching model as possible?
+     - are you planning on running large scale cache nodes, and require multithreaded performance with utilization of multiple cores?
+     - do you want the ability to scale your cache horizontally as you grow?
+   - Redis use cases
+     - are you looking for more advanced data types, such as lists, hashes, and sets?
+     - does sorting and ranking datasets in memory help you, such as with leaderboards?
+     - is persistence of your key store important?
+     - do you want to run in multiple AWS AZs (Multi-AZ) with failover?
+ - Given a scenrio where a particular database is under a lot of stress/load:
+   - ElastiCache is a good choice if your database is particularly read-heavy and not prone to frequent changing
+   - Redshift is a good choice if the reason your database is feeling stress is because management keep running OLAP transactions on it etc.
+ - Use Memcached if
+   - object caching is your primary goal
+   - if you want to keep things as simple as possible
+   - if you want to scale your cache horizontally (scale out)
+ - Use Redis if:
+   - you have advanced data types, such as lists, hashes, and sets
+   - you are doing data sorting and ranking (such as leaderboards)
+   - you need data persistence
+   - you need Multi-AZ
+   - Pub/Sub capabilities are needed
+EC2 Summary (START HERE)
  -
