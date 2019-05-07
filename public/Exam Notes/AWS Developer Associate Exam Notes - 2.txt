@@ -208,4 +208,187 @@ ElastiCache 101
    - you need Multi-AZ
    - Pub/Sub capabilities are needed
 EC2 Summary (START HERE)
- -
+ - On Demand - allows you to pay a fixed rate by the hour (or by the second) with no commitment
+ - Reserved - provides you with a capacity reservation, and offers a significant discount on the hourly charge for an instance.
+   - 1 year or 3 year terms
+ - Spot - enables you to bid whatever price you want for an instance capacity, providing for even greater savings if your applications have flexible start and end times
+   - If a spot instance is terminated by Amazon, you will not be charged for a partial hour of usage
+   - If you terminate an instance, you will be charged for the complete hour in which the instance ran
+ - Dedicated hosts - physical EC2 server dedicated for your use.
+   - dedicated hosts can help you reduce costs by allowing you to use your existing server bound software licenses
+   - also helps with regulatory requirements, some governments don't want multi-tenant virtualization
+ - SSD Volumes
+   - General Purpose SSD
+     - balances price and performance for a wide variety of workloads
+   - Provisioned IOPS SSD
+     - highest performance SSD volume for mission-critical low-latency or high-throughput workloads
+     - anything over 10,000 IOPS you should use Provisioned IOPS SSD
+ - Magnetic Volumes
+   - Throughput Optimized HDD
+     - Low-cost HDD volume designed for frequently accessed, throughput intensive workloads
+     - Can't be a boot volume
+   - Cold HDD Volumes
+     - Lowest cost HDD volume designed for less frequently accessed workloads
+     - used for file servers, etc.
+     - Can't be a boot volume
+   - Magnetic Volumes
+     - Previous generation
+     - Can be a boot volume
+   - ELBs
+     - 3 types of load balancers
+       - Application Load Balancers
+       - Network Load Balancers
+       - Classic Load Balancers - if you see "elastic load balancer" they're talking about a classic load balancer
+     - 504 error means the gateway has timed out
+       - This means that the application is not responding within the idle timeout period
+       - Trouble shoot the application; is it the Web Server or Database Server
+     - If you need the IPv4 address of your end user, look for the X-Forwarded-For header
+   - Route 53
+     - Allows you to map your domain names to
+       - EC2 Instances
+       - Load balancers
+       - S3 Buckets
+   - CLI
+     - Least Privilege
+       - Always give your users the minimum amount of access required
+     - Create Groups
+       - Assign your users to groups
+       - Your users will automatically inherit the permissions of the group
+       - The group's permissions are assigned using policy documents
+     - Secret Access Key
+       - You will see the key only once
+       - You can delete the key pair and regenerate it, but you'll need to rerun aws configure
+     - Don't use just one access key pair and share it with all your developers.
+       - Instead, create one key-pair per developer
+ - Sample Questions:
+  - You are a developer for a genomics firm who are moving their infrastructure to AWS.
+    Their environment consists of a three tier web application, a web tier, an application tier and a relational database tier.
+    They have a separate fleet of virtual machines that are used to access large HPC clusters on the fly.
+    Their lab researches run multiple projects simultaneously and they will need to launch and de-commission 1,000's of nodes on-demand while
+    reducing the time required to complete genomic sequencing from weeks to days.
+    In order to stay competitive they need to do this at as low cost as possible, with no long term contracts.
+    These HPC clusters can run any time day or night and their workloads store information in S3, so the instances can be terminated at any time without any effect on the data.
+    What is the most COST EFFECTIVE ec2 pricing model for their requirements?
+    - Spot Instances (correct)
+    - Reserved Instances
+    - Dedicated Host Instances
+    - On-Demand Instances
+ - You work for a web analytics firm who have recently migrated their application to AWS.
+   The application sits behind an Elastic Load Balancer and it monitors user traffic to their website.
+   You have noticed that in the application logs you are no longer seeing your users public IP addresses,
+   instead you are seeing the private IP address of the elastic load balancer.
+   This data is critical for your business and you need to rectify the issue immediately. What should you do?
+     - Update the application to log the x-forwarded-for header to get your users public IPv4 addresses (correct)
+     - Install a CloudWatch logs agent on the EC2 instance behind the elastic load balancer to monitor the public IPv4 addresses and then stream this data to AWS Neptune
+     - Migrate the application to AWS Lambda instead of EC2 and put the lambda function behind a Network Load Balancer
+     - Migrate the application in front of a Network Load Balancer and then reverse proxy traffic to your RDS instance
+ - You work for an online gaming store which has a global world wide leaderboard for players of the game.
+   You need to implement a caching system for your leaderboard that has multiple availability zones in order to prevent an outage.
+   Which ElastiCache solution should you use?
+     - Redis (correct)
+     - Memcached
+     - ArangoDB
+     - Couchbase
+ - You work for a media production company that streams popular TV shows to millions of users.
+   They are migrating their web application from an in house solution to AWS.
+   They will have a fleet of over 10,000 webservers to meet the demand and will need a reliable layer 4 load balancing solution capable of handling millions of requests
+   per second. What AWS load balancing solution would be suit their needs?
+     - Network Load Balancer (correct)
+     - AWS Direct Connect
+     - Application Load Balancer
+     - Elastic Load Balancer
+ - You work for a government contractor who supply services that are critical to national security.
+   Because of this your corporate IT policy states that no multi-tenant virtualization is authorized within the company.
+   Despite this, they are interested in moving to AWS but they cannot violate corporate IT policy.
+   Which EC2 billing model would you recommend that they use to achieve this?
+     - Spot Instances
+     - On-demand Instances
+     - Reserved Instances
+     - Dedicated Host Instances (correct)
+ - Which of the following are valid types of load balancers? (Choose 3)
+     - Network Load Balancer (correct)
+     - Application Load Balancer (correct)
+     - Virtual Load Balancer
+     - Elastic Load Balancer (correct)
+ - You run the internal intranet for a corporate bank. The intranet consists of a number of webservers and a single relational database running Microsoft SQL Server.
+   Your peak demand occurs at 9am every week morning when users are first logging in to the intranet.
+   They can only log in using the company's internal network and it is not possible to access the intranet from any location other than within the office building for
+   security purposes. Management is considering a change and to move this environment to AWS where users will be able to access the intranet via a software VPN.
+   You have been asked to evaluate a migration to AWS and to identify the best EC2 billing model for your company's intranet.
+   You must keep costs low and to be able to scale at particular times of day. You must maintain availability of the intranet throughout office hours.
+   Management does not want to be locked in to any contracts in case for some reason they want to go back to hosting internally.
+   What EC2 billing model should you recommend?
+     - Spot Instances
+     - Reserved Instances
+     - Dedicated Host Instances
+     - On-demand Instances (correct)
+ - You have a three tier web application with a webserver tier, application tier and database tier.
+   The application is spread across multiple availability zones for redundancy and is in an autoscaling group with a minimum size of 2 and a maximum size of 10.
+   The application relies on connecting to an RDS multi-AZ database. When new instances are launched they download a connection string file which is saved in an encrypted
+   S3 bucket using a boot strap script. During a routine scaling event you notice that your new webservers are failing their health checks and are not coming in to service.
+   You investigate and discover that the EC2 - S3 read only role that the webservers rely on has no policies attached to it.
+   What steps should you take together to remediate this problem while maintaining the principle of least privilege? (Choose 2)
+     - Copy the role to a new AMI
+     - Create a snapshot of the EBS volume and then restart the instance
+     - Terminate the existing instances and allow new instances to come into service (correct)
+     - Attach the S3-Administrator policy
+     - Create a new role giving lambda permission to execute
+     - Attach the S3-Read Only policy to the role (correct)
+ - Individual instances are provisioned ______
+     - In Availability Zones (correct)
+     - In Regions
+     - Globally
+ - An new CIO joins your company and implements a new company policy that all EC2 instances must have encryption at rest.
+   What is the quickest and easiest way to apply this policy to your existing EC2 instances?
+     - Create an encrypted AMI of the EC2 volume using Windows Bitlocker.
+     - Create a snapshot of the EC2 volume. Then create a copy of that volume, checking the box to enable encryption.
+       Create an AMI of the copied snapshot and then redeploy the EC2 instance using the encrypted AMI. Delete the old EC2 instance. (correct)
+     - In the AWS console, click on the EC2 instances, click actions and click encrypt EBS volumes.
+     - Create an encrypted snapshot of the EC2 volume using the ecrypt on the fly option.
+       Create an AMI of the copied snapshot and then redeploy the EC2 instance using the encrypted AMI. Delete the old EC2 instance.
+ - You have a very popular blog site, which has recently had a surge in traffic.
+   You want to implement an ElastiCache solution to help take the load off the production database and you want to keep it as simple as possible.
+   You will need to scale your cache horizontally and object caching will be your primary goal. Which ElastiCache solution will best suit your needs?
+     - Redis
+     - Memcached (correct)
+     - Couchbase
+     - ArangoDB
+ - In order to enable encryption at rest using EC2 and Elastic Block Store, you must ______
+     - Configure encryption using the appropriate Operating Systems file system
+     - Configure encryption using X.509 certificates
+     - Configure encryption when creating the EBS volume (correct)
+     - Mount the EBS volume in to S3 and then encrypt the bucket using a bucket policy.
+ - You have an EC2 instance in a single availability zone connected to an RDS instance.
+   The EC2 instance needs to communicate to S3 to download some important configuration files from it.
+   You try the command aws s3 cp s3://yourbucket /var/www/html however you receive an error message.
+   You log in to Identity Access Management (IAM) and discover there is no role created to allow EC2 to communicate to S3.
+   You create the role and attach it to the existing EC2 instance. How fast will the changes take to propagate?
+     - The same duration as Cloudwatch standard monitoring – 5 minutes
+     - It depends on the region and availability zone
+     - Immediately (correct)
+     - The same duration as Cloudwatch detailed monitoring – 1 minute
+ - Your company has a web application on AWS. The application computes thousands of algorithms per second and is very CPU and disk intensive.
+   The application runs on a c4.8xlarge, the largest C class instance available.
+   The application stores it's data locally on a standard SSD disk. Your application starts to perform slow.
+   You check the logs and notice that your disk IO is routinely going above 16,000 IOPS. What should you do to remediate the issue?
+     - Migrate the EBS volume from a standard EBS volume to a magnetic volume
+     - Migrate the EBS volume from a standard EBS volume to a provisioned IOPS EBS volume (correct)
+     - Decrease the size of the EBS volume so as to increase its IOPS performance
+     - Change the instance family from a c4.8xlarge to an r4.8xlarge so that you have more memory available to cope with the increased IO
+ - You are the IT manager at a furniture retailer and they are considering moving their web application to AWS.
+   They currently colocate their servers in a colocation facility and the contract for this facility is now coming to an end.
+   Management are comfortable signing a 3 year contract and want to get the cheapest web servers as possible while still maintaining availability.
+   Their traffic is very steady and predictable. What EC2 pricing model would you recommend to maintain availability and to get the lowest cost price available?
+     - Dedicated Host Instances
+     - On-demand Instances
+     - Spot Instances
+     - Reserved Instances (crooect)
+ - You have a word press site hosted on EC2 with a MySQL database hosted on RDS.
+   The majority of your traffic is read traffic, there is only write traffic when you create a new blog.
+   One of your blogs has gone viral and your wordpress site is struggling to cope.
+   You check your cloudwatch metrics and notice your RDS instance is at 100% CPU utilization.
+   What two steps should you take to reduce the CPU utilization? (Choose 2)
+     - Create multiple RDS read replicas and point multiple EC2 instances to these read replicas thereby spreading the load (correct)
+     - Enable Multi-AZ on your RDS instances and point multiple EC2 instances to the new Multi-AZ instances thereby spreading the load
+     - Create an elasticache cluster and use this to cache your most frequently read blog posts (correct)
+     - Migrate from an Elastic Load Balancer to a Network Load Balancer so you can sustain more connections
