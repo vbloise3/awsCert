@@ -103,7 +103,7 @@
     "info": {
       "subcategory": "Test Example Questions",
       "questionType": "multiple choice 1",
-      "question": "You run the internal intranet for a corporate bank. The intranet consists of a number of webservers and a single relational database running Microsoft SQL Server. Your peak demand occurs at 9am every week morning when users are first logging in to the intranet. They can only log in using the company's internal network and it is not possible to access the intranet from any location other than within the office building for security purposes. Management is considering a change and to move this environment to AWS where users will be able to access the intranet via a software VPN. You have been asked to evaluate a migration to AWS and to identify the best EC2 billing model for your company's intranet. You must keep costs low and to be able to scale at particular times of day. You must maintain availability of the intranet throughout office hours. Management does not want to be locked in to any contracts in case for some reason they want to go back to hosting internally. What EC2 billing model should you recommend?",
+      "question": "You run the internal intranet for a corporate bank. The intranet consists of a number of webservers and a single relational database running Microsoft SQL Server. Your peak demand occurs at 9am every week morning when users are first logging in to the intranet. They can only log in using the companys internal network and it is not possible to access the intranet from any location other than within the office building for security purposes. Management is considering a change and to move this environment to AWS where users will be able to access the intranet via a software VPN. You have been asked to evaluate a migration to AWS and to identify the best EC2 billing model for your companys intranet. You must keep costs low and to be able to scale at particular times of day. You must maintain availability of the intranet throughout office hours. Management does not want to be locked in to any contracts in case for some reason they want to go back to hosting internally. What EC2 billing model should you recommend?",
       "answers": [
         "Spot Instances",
         "Reserved Instances",
@@ -119,7 +119,7 @@
     "info": {
       "subcategory": "Test Example Questions",
       "questionType": "multiple choice 2",
-      "question": "You have a three tier web application with a webserver tier, application tier and database tier. The application is spread across multiple availability zones for redundancy and is in an autoscaling group with a minimum size of 2 and a maximum size of 10. The application relies on connecting to an RDS multi-AZ database. When new instances are launched they download a connection string file which is saved in an encrypted S3 bucket using a boot strap script. During a routine scaling event you notice that your new webservers are failing their health checks and are not coming in to service. You investigate and discover that the EC2 - S3 read only role that the webservers rely on has no policies attached to it. What steps should you take together to remediate this problem while maintaining the principle of least privilege? (Choose 2)",
+      "question": "You have a three tier web application with a webserver tier, application tier and database tier. The application is spread across multiple availability zones for redundancy and is in an autoscaling group with a minimum size of 2 and a maximum size of 10. The application relies on connecting to an RDS multi-AZ database. When new instances are launched they download a connection string file which is saved in an encrypted S3 bucket using a boot strap script. During a routine scaling event you notice that your new webservers are failing their health checks and are not coming in to service. You investigate and discover that the EC2-S3 read only role that the webservers rely on has no policies attached to it. What steps should you take together to remediate this problem while maintaining the principle of least privilege? (Choose 2)",
       "answers": [
         "Copy the role to a new AMI",
         "Create a snapshot of the EBS volume and then restart the instance",
@@ -203,10 +203,10 @@
       "questionType": "multiple choice 1",
       "question": "You have an EC2 instance in a single availability zone connected to an RDS instance. The EC2 instance needs to communicate to S3 to download some important configuration files from it. You try the command aws s3 cp s3://yourbucket /var/www/html however you receive an error message. You log in to Identity Access Management (IAM) and discover there is no role created to allow EC2 to communicate to S3. You create the role and attach it to the existing EC2 instance. How fast will the changes take to propagate?",
       "answers": [
-        "The same duration as Cloudwatch standard monitoring – 5 minutes",
+        "The same duration as Cloudwatch standard monitoring - 5 minutes",
         "It depends on the region and availability zone",
         "Immediately",
-        "The same duration as Cloudwatch detailed monitoring – 1 minute"
+        "The same duration as Cloudwatch detailed monitoring - 1 minute"
       ],
       "correctAnswer": ["Immediately"]
     }
@@ -217,7 +217,7 @@
     "info": {
       "subcategory": "Test Example Questions",
       "questionType": "multiple choice 1",
-      "question": "Your company has a web application on AWS. The application computes thousands of algorithms per second and is very CPU and disk intensive. The application runs on a c4.8xlarge, the largest C class instance available. The application stores it's data locally on a standard SSD disk. Your application starts to perform slow. You check the logs and notice that your disk IO is routinely going above 16,000 IOPS. What should you do to remediate the issue?",
+      "question": "Your company has a web application on AWS. The application computes thousands of algorithms per second and is very CPU and disk intensive. The application runs on a c4.8xlarge, the largest C class instance available. The application stores its data locally on a standard SSD disk. Your application starts to perform slow. You check the logs and notice that your disk IO is routinely going above 16,000 IOPS. What should you do to remediate the issue?",
       "answers": [
         "Migrate the EBS volume from a standard EBS volume to a magnetic volume",
         "Migrate the EBS volume from a standard EBS volume to a provisioned IOPS EBS volume",
