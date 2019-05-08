@@ -207,7 +207,7 @@ ElastiCache 101
    - you need data persistence
    - you need Multi-AZ
    - Pub/Sub capabilities are needed
-EC2 Summary (START HERE)
+EC2 Summary
  - On Demand - allows you to pay a fixed rate by the hour (or by the second) with no commitment
  - Reserved - provides you with a capacity reservation, and offers a significant discount on the hourly charge for an instance.
    - 1 year or 3 year terms

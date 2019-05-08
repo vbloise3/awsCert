@@ -1,0 +1,82 @@
+S3 101
+  - S3 provides developers and IT teams with secure, durable, highly-scalable object storage
+  - S3 has a simple web service interface to store and retrieve any amount of data from anywhere on the web
+  - S3 is not for operating systems or Databases
+  - S3 is a safe place to store your files
+  - S3 is object storage based, not block storage based
+  - With S3, your data is spread across multiple devices and facilities
+  - S3 is object based - i.e. allows you to upload files
+  - S3 files can be from 0 Bytes to 5 TB
+  - S3 has unlimited storage
+  - With S3, files are stored in buckets, which are similar to folders
+  - S3 has a universal name space, that is, bucket names must be unique globally; similar to a DNS address
+  - When you upload a file into S3 you will receive an HTTP 200 code if the upload was successful
+  - S3 Data Consistency: two modes
+    - Read after Write consistency for PUTS of new objects
+    - Eventual consistency for overwrite PUTS and DELETES (can take some time to propagate)
+  - S3 is a simple key-value store
+    - S3 is object based; objects consist of the following:
+      - a Key, which is simply the name of the object
+      - a Value, which is simply the data, which is made up of a series of bytes
+      - a Version ID, which is important for versioning
+      - Metadata, which is data about the data you are storing
+      - Subresources, which are bucket-specific configuration:
+        - Bucket policies
+        - Access Control Lists
+        - Cross Origin Resource Sharing (CORS); files located in one bucket to access files located in another bucket
+        - Transfer Acceleration, which is a service which allows you to accelerate file transfers when upload many files into S3
+  - S3 is built for 99.99% availability
+  - Amazon guarantees 99.9% availability
+  - Amazon guarantees 99.999999999% durability for S3 information (11 9s)
+  - S3 has tiered storage available
+  - S3 has lifecycle management
+  - S3 has versioning
+  - S3 has encryption
+  - You can secure access to your data using:
+    - Access Control Lists
+    - Bucket Policies
+  - S3 Storage Tiers
+    - Regular S3
+      - 99.99% availability, 99.999999999% durability, stored redundantly across multiple devices in multiple facilities;
+        designed to sustain a loss of 2 facilities concurrently
+    - S3 IA (Infrequently Accessed)
+      - For data that is accessed less frequently, but requires rapid access when needed
+      - Lower fee than S3, but you are charged a retrieval fee every time you retrieve the data
+    - One-Zone IA
+      - Same as IA however data is stored in a single AZ only
+      - Still 99.999999999% durability
+      - Only 99.5% availability
+      - Costs 20% less than regular IA
+    - Reduced Redundancy Storage
+      - Designed to provide 99.99% durability and 99.99% availability of objects over a given year
+      - Used for data that can be recreated if lost, e.g. thumbnails
+    - Glacier
+      - Very inexpensive, but used for archival only
+      - Optimized for data that is infrequently accessed
+      - It takes 3 to 5 hours to restore data from Glacier
+    - S3 Intelligent Tiering
+      - Suitable for data which has unknown or unpredictable access patterns
+      - 2 Tiers
+        - frequent access
+        - infrequent access
+      - Automatically moves your data to the most cost-effective tier based on how frequently you access each object within a bucket
+      - If an object is not accessed for 30 consecutive days, it gets automatically moved to the infrequent access tier
+      - As soon as an object in the infrequent access tier is accessed, it is moved to the frequent access tier
+      - 99.99999999999% durability
+      - 99.9% availability over a given year
+      - Helps optimize cost
+      - No fees for accessing your data but a small monthly fee for monitoring/automation $0.0025 per 1,000 objects
+ - S3 Charges
+   - Storage per GB
+   - Requests (Get, Put, Copy, etc.)
+   - Storage Management pricing
+     - Inventory, Analytics, and Object Tags
+   - Data management pricing
+     - Data transferred out of S3
+     - Free to transfer in to S3
+   - Transfer Acceleration
+     - Use of CloudFront to optimize transfers
+ - Exam Tips
+   - Example S3 bucket url: https://s3-eu-west-1.amazonaws.com/bucketname
+S3 Security
+ -

@@ -1,0 +1,761 @@
+[
+  {
+    "id": "298",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 has a simple ______ to store and retrieve any amount of data from anywhere on the web",
+      "answers": [
+        "web service interface",
+        "url",
+        "DNS name",
+        "specification"
+      ],
+      "correctAnswer": ["web service interface"]
+    }
+  },
+  {
+    "id": "299",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "S3 is not used for",
+      "answers": [
+        "operating systems",
+        "databases",
+        "files",
+        "blobs"
+      ],
+      "correctAnswer": ["operating systems",
+        "databases"]
+    }
+  },
+  {
+    "id": "300",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 is a safe place to store your",
+      "answers": [
+        "operating systems",
+        "databases",
+        "files",
+        "blobs"
+      ],
+      "correctAnswer": ["files"]
+    }
+  },
+  {
+    "id": "301",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 is ______ storage",
+      "answers": [
+        "object storage based",
+        "block storage based",
+        "binary storage based",
+        "streaming storage based"
+      ],
+      "correctAnswer": ["object storage based"]
+    }
+  },
+  {
+    "id": "302",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3, your data is",
+      "answers": [
+        "spread across multiple devices and facilities",
+        "stored in one facility",
+        "stored on one device"
+      ],
+      "correctAnswer": ["spread across multiple devices and facilities"]
+    }
+  },
+  {
+    "id": "303",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 files can be from ______",
+      "answers": [
+        "0 Bytes to 5 TB",
+        "1 Byte to 5 TB",
+        "0 Bytes to 10 TB",
+        "0 Bytes to 5 MB"
+      ],
+      "correctAnswer": ["0 Bytes to 5 TB"]
+    }
+  },
+  {
+    "id": "304",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 has ______",
+      "answers": [
+        "unlimited storage",
+        "unlimited file size",
+        "a limit to the number of files per account",
+        "a limit to the number of files per account, but can be raised via a call to AWS"
+      ],
+      "correctAnswer": ["unlimited storage"]
+    }
+  },
+  {
+    "id": "305",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "When you upload a file into S3 you will receive an HTTP ______ code if the upload was successful",
+      "answers": [
+        "200",
+        "404",
+        "100",
+        "500"
+      ],
+      "correctAnswer": ["200"]
+    }
+  },
+  {
+    "id": "306",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "What are the two mode of S3 Data Consistency",
+      "answers": [
+        "Read after Write consistency for PUTS of new objects",
+        "Eventual consistency for overwrite PUTS and DELETES",
+        "Read after Write consistency for overwrite PUTS and DELETES",
+        "Eventual consistency for PUTS of new objects"
+      ],
+      "correctAnswer": ["Read after Write consistency for PUTS of new objects",
+        "Eventual consistency for overwrite PUTS and DELETES"]
+    }
+  },
+  {
+    "id": "307",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Eventual consistency for overwrite PUTS and DELETES ______",
+      "answers": [
+        "can take some time to propagate",
+        "propagates immediately",
+        "blocks until propagated",
+        "may not always propagate"
+      ],
+      "correctAnswer": ["can take some time to propagate"]
+    }
+  },
+  {
+    "id": "308",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 is a simple ______",
+      "answers": [
+        "key-value store",
+        "hash store",
+        "binary tree store",
+        "linear store"
+      ],
+      "correctAnswer": ["key-value store"]
+    }
+  },
+  {
+    "id": "309",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 5",
+      "question": "S3 objects consist of the following 5 attributes",
+      "answers": [
+        "a Key",
+        "a Value",
+        "a Version ID",
+        "Metadata",
+        "Subresources",
+        "relational consistency"
+      ],
+      "correctAnswer": ["a Key",
+        "a Value",
+        "a Version ID",
+        "Metadata",
+        "Subresources"]
+    }
+  },
+  {
+    "id": "310",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 4",
+      "question": "S3 object subresources contain thes 4 configuration items",
+      "answers": [
+        "Bucket policies",
+        "Access Control Lists",
+        "Cross Origin Resource Sharing (CORS)",
+        "Transfer Acceleration",
+        "alias names"
+      ],
+      "correctAnswer": ["Bucket policies",
+        "Access Control Lists",
+        "Cross Origin Resource Sharing (CORS)",
+        "Transfer Acceleration"]
+    }
+  },
+  {
+    "id": "311",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "The S3 CORS attribute allows ______",
+      "answers": [
+        "files located in one bucket to access files located in another bucket",
+        "you to block files located in one bucket from accessing files located in another bucket",
+        "you to block resources in another origin"
+      ],
+      "correctAnswer": ["files located in one bucket to access files located in another bucket"]
+    }
+  },
+  {
+    "id": "312",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 is built for ______ availability",
+      "answers": [
+        "99.99%",
+        "99.9%",
+        "99%",
+        "100%"
+      ],
+      "correctAnswer": ["99.99%"]
+    }
+  },
+  {
+    "id": "313",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Amazon guarantees ______ S3 availability",
+      "answers": [
+        "99.99%",
+        "99.9%",
+        "99%",
+        "100%"
+      ],
+      "correctAnswer": ["99.9%"]
+    }
+  },
+  {
+    "id": "314",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Amazon guarantees ______ durability for S3 information",
+      "answers": [
+        "99.99%",
+        "99.9%",
+        "99%",
+        "99.999999999%"
+      ],
+      "correctAnswer": ["99.999999999%"]
+    }
+  },
+  {
+    "id": "315",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 4",
+      "question": "S3 has ____",
+      "answers": [
+        "tiered storage available",
+        "lifecycle management",
+        "versioning",
+        "encryption",
+        "detachable storage"
+      ],
+      "correctAnswer": ["tiered storage available",
+        "lifecycle management",
+        "versioning",
+        "encryption"]
+    }
+  },
+  {
+    "id": "316",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "You can secure access to your S3 data using",
+      "answers": [
+        "Access Control Lists",
+        "Bucket Policies",
+        "versioning",
+        "encryption",
+        "detachable storage"
+      ],
+      "correctAnswer": ["Access Control Lists",
+        "Bucket Policies"]
+    }
+  },
+  {
+    "id": "317",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 6",
+      "question": "What are the 6 S3 storage tiers",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "318",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier has 99.99% availability, 99.999999999% durability, stored redundantly across multiple devices in multiple facilities",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Regular S3"]
+    }
+  },
+  {
+    "id": "318",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is designed to sustain a loss of 2 facilities concurrently",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Regular S3"]
+    }
+  },
+  {
+    "id": "319",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is for data that is accessed less frequently, but requires rapid access when needed",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 IA (Infrequently Accessed)"]
+    }
+  },
+  {
+    "id": "320",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is at a lower fee than S3, but you are charged a retrieval fee every time you retrieve the data",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 IA (Infrequently Accessed)"]
+    }
+  },
+  {
+    "id": "321",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is the same as IA however data is stored in a single AZ only",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["One-Zone IA"]
+    }
+  },
+  {
+    "id": "322",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier has only 99.5% availability",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["One-Zone IA"]
+    }
+  },
+  {
+    "id": "323",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier costs 20% less than regular IA",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["One-Zone IA"]
+    }
+  },
+  {
+    "id": "324",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is designed to provide 99.99% durability and 99.99% availability of objects over a given year",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Reduced Redundancy Storage"]
+    }
+  },
+  {
+    "id": "325",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is used for data that can be recreated if lost, e.g. thumbnails",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Reduced Redundancy Storage"]
+    }
+  },
+  {
+    "id": "326",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is very inexpensive, but used for archival only",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Glacier"]
+    }
+  },
+  {
+    "id": "327",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is optimized for data that is infrequently accessed",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["Glacier"]
+    }
+  },
+  {
+    "id": "328",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier is suitable for data which has unknown or unpredictable access patterns",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "329",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier automatically moves your data to the most cost-effective tier (frequent or infrequent) based on how frequently you access each object within a bucket",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "330",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier has the feature that if an object is not accessed for 30 consecutive days, it gets automatically moved to the infrequent access tier",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "331",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier has the feature that as soon as an object in the infrequent access tier is accessed, it is moved to the frequent access tier",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "332",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 storage tier has no fees for accessing your data but a small monthly fee for monitoring/automation $0.0025 per 1,000 objects",
+      "answers": [
+        "Regular S3",
+        "S3 IA (Infrequently Accessed)",
+        "One-Zone IA",
+        "Reduced Redundancy Storage",
+        "Glacier",
+        "S3 Intelligent Tiering",
+        "S3 Remote Storage"
+      ],
+      "correctAnswer": ["S3 Intelligent Tiering"]
+    }
+  },
+  {
+    "id": "333",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 5",
+      "question": "With S3 you are charged for which of these",
+      "answers": [
+        "Storage per GB",
+        "Requests - Reads",
+        "Storage Management pricing",
+        "Data management pricing",
+        "Transfer Acceleration",
+        "Requests - Writes"
+      ],
+      "correctAnswer": ["Storage per GB",
+        "Requests - Reads",
+        "Storage Management pricing",
+        "Data management pricing",
+        "Transfer Acceleration"]
+    }
+  },
+  {
+    "id": "334",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 3",
+      "question": "With S3 Storage Management pricing you are charged for which",
+      "answers": [
+        "Inventory",
+        "Analytics",
+        "Object Tags",
+        "Use of CloudFront to optimize transfers",
+        "Data transferred out of S3"
+      ],
+      "correctAnswer": ["Inventory",
+        "Analytics",
+        "Object Tags"]
+    }
+  },
+  {
+    "id": "335",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3 Data management pricing you are charged for which",
+      "answers": [
+        "Inventory",
+        "Analytics",
+        "Object Tags",
+        "Use of CloudFront to optimize transfers",
+        "Data transferred out of S3"
+      ],
+      "correctAnswer": ["Data transferred out of S3"]
+    }
+  },
+  {
+    "id": "335",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3 Data management pricing you are not charged for which",
+      "answers": [
+        "Inventory",
+        "Analytics",
+        "Object Tags",
+        "Use of CloudFront to optimize transfers",
+        "Data transferred out of S3",
+        "Data transfer in to S3"
+      ],
+      "correctAnswer": ["Data transfer in to S3"]
+    }
+  },
+  {
+    "id": "336",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3 Transfer Acceleration pricing you are charged for which",
+      "answers": [
+        "Inventory",
+        "Analytics",
+        "Object Tags",
+        "Use of CloudFront to optimize transfers",
+        "Data transferred out of S3",
+        "Data transfer in to S3"
+      ],
+      "correctAnswer": ["Use of CloudFront to optimize transfers"]
+    }
+  },
+  {
+    "id": "337",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "An example S3 bucket url follows which pattern",
+      "answers": [
+        "https://s3-regionname.amazonaws.com/bucketname",
+        "https://s3-regionname.awsamazon.com/bucketname",
+        "https://s3-bucketname.amazonaws.com/regionname",
+        "https://regionname.amazonaws.com/bucketname",
+        "https://s3.regionname.amazonaws.com/bucketname"
+      ],
+      "correctAnswer": ["https://s3-regionname.amazonaws.com/bucketname"]
+    }
+  }
+]
