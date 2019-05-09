@@ -79,4 +79,24 @@ S3 101
  - Exam Tips
    - Example S3 bucket url: https://s3-eu-west-1.amazonaws.com/bucketname
 S3 Security
+ - By default, all newly created buckets are private
+ - You can setup access control to your buckets using:
+   - Bucket Policies: applied at the bucket level
+   - Access Control Lists: applied at the object level
+ - S3 buckets can be configured to create access logs, which log all requests made to the S3 bucket. These logs can be written to another bucket
+ - Bucket policies are written in JSON
+ - All versions of a versioned S3 bucket are kept in the same bucket
+ - S3 object-level logging records any api level activity using AWS CloudTrail, at an additional cost
+ - S3 has two different types of encryption:
+   - AES-256: uses server-side encryption with AWS S3-Managed Keys (SSE-S3)
+   - AWS-KMS: uses server-side encryption with AWS KMS-Managed Keys (SSE-KMS)
+ - You can enable S3 CloudWatch request metrics, which monitor requests in your bucket for an additional cost
+   - gives performance metrics for S3
+ - S3 has public access settings
+   - Used to enforce that buckets do not allow public access to data.
+   - You can also configure S3 to block public access at the account level.
+ - You can grant public read-access to objects in the Access Control List
+ - You can encrypt at rest at the bucket level using bucket policies or the object level using access control lists
+ - If the bucket policy does not allow public access, you cannot upload an object into the bucket and make that object publicly accessible using the Access Control List
+S3 Encryption (START HERE)
  -

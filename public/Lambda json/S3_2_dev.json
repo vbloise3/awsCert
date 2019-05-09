@@ -1,0 +1,328 @@
+[
+  {
+    "id": "338",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "By default, all newly created buckets are ______",
+      "answers": [
+        "private",
+        "public",
+        "undefined",
+        "inaccessible"
+      ],
+      "correctAnswer": ["private"]
+    }
+  },
+  {
+    "id": "339",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "You can setup access control to your buckets using which 2 of these",
+      "answers": [
+        "Bucket Policies",
+        "Access Control Lists",
+        "Subnet Masks",
+        "IAM Policies"
+      ],
+      "correctAnswer": ["Bucket Policies",
+        "Access Control Lists"]
+    }
+  },
+  {
+    "id": "340",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 access control mechanism is applied at the bucket level?",
+      "answers": [
+        "Bucket Policies",
+        "Access Control Lists",
+        "Subnet Masks",
+        "IAM Policies"
+      ],
+      "correctAnswer": ["Bucket Policies"]
+    }
+  },
+  {
+    "id": "341",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 access control mechanism is applied at the object level?",
+      "answers": [
+        "Bucket Policies",
+        "Access Control Lists",
+        "Subnet Masks",
+        "IAM Policies"
+      ],
+      "correctAnswer": ["Access Control Lists"]
+    }
+  },
+  {
+    "id": "342",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 buckets can be configured to create ______, which log all requests made to the S3 bucket",
+      "answers": [
+        "access logs",
+        "control logs",
+        "api logs",
+        "CloudWatch logs"
+      ],
+      "correctAnswer": ["access logs"]
+    }
+  },
+  {
+    "id": "343",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 access logs can be written to ______",
+      "answers": [
+        "another bucket",
+        "DynamoDB",
+        "Kinesis Streams",
+        "CloudWatch logs"
+      ],
+      "correctAnswer": ["another bucket"]
+    }
+  },
+  {
+    "id": "344",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 Bucket policies are written in ______",
+      "answers": [
+        "JSON",
+        "SAML",
+        "XML",
+        "Java"
+      ],
+      "correctAnswer": ["JSON"]
+    }
+  },
+  {
+    "id": "345",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "All versions of a versioned bucket are kept in ______",
+      "answers": [
+        "the same bucket",
+        "a different bucket",
+        "CloudWatch logs",
+        "CloudTrail"
+      ],
+      "correctAnswer": ["the same bucket"]
+    }
+  },
+  {
+    "id": "346",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3, what do you use to record any api level activity using AWS CloudTrail, at an additional cost?",
+      "answers": [
+        "object-level logging",
+        "bucket-level logging",
+        "account-level logging",
+        "vpn-level logging"
+      ],
+      "correctAnswer": ["object-level logging"]
+    }
+  },
+  {
+    "id": "347",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 object-level logging records any api level activity using ______",
+      "answers": [
+        "AWS CloudTrail",
+        "AWS CloudWatch",
+        "AWS Kinesis",
+        "AWS DynamoDB"
+      ],
+      "correctAnswer": ["AWS CloudTrail"]
+    }
+  },
+  {
+    "id": "348",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "What are the two different types of encryption?",
+      "answers": [
+        "AES-256",
+        "AWS-KMS",
+        "AWS-CMS",
+        "AWS-SSE"
+      ],
+      "correctAnswer": ["AES-256",
+        "AWS-KMS"]
+    }
+  },
+  {
+    "id": "349",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 encryption uses server-side encryption with AWS S3-Managed Keys (SSE-S3)?",
+      "answers": [
+        "AES-256",
+        "AWS-KMS",
+        "AWS-CMS",
+        "AWS-SSE"
+      ],
+      "correctAnswer": ["AES-256"]
+    }
+  },
+  {
+    "id": "350",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which S3 encryption uses server-side encryption with AWS KMS-Managed Keys (SSE-KMS)?",
+      "answers": [
+        "AES-256",
+        "AWS-KMS",
+        "AWS-CMS",
+        "AWS-SSE"
+      ],
+      "correctAnswer": ["AWS-KMS"]
+    }
+  },
+  {
+    "id": "351",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3, what monitors requests in your bucket for an additional cost?",
+      "answers": [
+        "S3 CloudWatch request metrics",
+        "S3 CloudTrail request metrics",
+        "S3 request metrics"
+      ],
+      "correctAnswer": ["S3 CloudWatch request metrics"]
+    }
+  },
+  {
+    "id": "352",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3, which metric gives performance metrics for S3?",
+      "answers": [
+        "S3 CloudWatch request metrics",
+        "S3 CloudTrail request metrics",
+        "S3 request metrics"
+      ],
+      "correctAnswer": ["S3 CloudWatch request metrics"]
+    }
+  },
+  {
+    "id": "353",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "With S3, what is used to enforce that buckets do not allow public access to data?",
+      "answers": [
+        "public access settings",
+        "private access settings",
+        "account access settings",
+        "access settings"
+      ],
+      "correctAnswer": ["public access settings"]
+    }
+  },
+  {
+    "id": "354",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You can also configure S3 to block public access at the account level",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "355",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You can grant public read-access to objects in the ______",
+      "answers": [
+        "Access Control List",
+        "Bucket Policy"
+      ],
+      "correctAnswer": ["Access Control List"]
+    }
+  },
+  {
+    "id": "356",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You can encrypt at rest at the bucket level using ______",
+      "answers": [
+        "Access Control List",
+        "Bucket Policy"
+      ],
+      "correctAnswer": ["Bucket Policy"]
+    }
+  },
+  {
+    "id": "357",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You can encrypt at rest at the object level using ______",
+      "answers": [
+        "Access Control List",
+        "Bucket Policy"
+      ],
+      "correctAnswer": ["Access Control List"]
+    }
+  },
+  {
+    "id": "358",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If the bucket policy does not allow public access",
+      "answers": [
+        "you cannot upload an object into the bucket and make that object publicly accessible using the Access Control List",
+        "you can upload an object into the bucket and make that object publicly accessible using the Access Control List"
+      ],
+      "correctAnswer": ["you cannot upload an object into the bucket and make that object publicly accessible using the Access Control List"]
+    }
+  }
+]
