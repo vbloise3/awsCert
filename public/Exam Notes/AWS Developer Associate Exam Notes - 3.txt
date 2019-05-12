@@ -98,5 +98,32 @@ S3 Security
  - You can grant public read-access to objects in the Access Control List
  - You can encrypt at rest at the bucket level using bucket policies or the object level using access control lists
  - If the bucket policy does not allow public access, you cannot upload an object into the bucket and make that object publicly accessible using the Access Control List
-S3 Encryption (START HERE)
- -
+S3 Encryption
+ - In transit
+   - SSL/TLS (Transport Layer Security, will replace SSL)
+     - generally means using https to transmit data
+ - At Rest
+   - Server-side encryption - 3 types
+     - S3 managed keys - SSE-S3
+       - AWS manages the keys for you, rotate keys on a defined frequency
+       - uses AES-256 bit encryption
+     - AWS Key Management Service, managed keys - SSE-KMS
+       - AWS manages the keys for you
+       - uses an envelope key that encrypts your encryption key
+       - gives an audit trail which records the use of your encryption key
+       - can use your own key, or the default AWS key
+     - Server-side encryption with customer provided keys - SSE-C
+       - AWS manages the encryption and decryption but you manage your own keys
+ - Client-side encryption
+   - you encrypt the files yourself before you upload to S3
+ - Enforcement of S3 Encryption
+   - Every time a file is uploaded to S3, a PUT request is initiated
+   - If the file is to be encrypted at upload time, the x-amz-server-side-encryption parameter will be included in the request header
+     - two options are currently available
+       - x-amz-server-side-encryption: AES256 (SSE-S3 - S3 managed keys)
+       - x-amz-server-side-encryption: ams:kms (SSE-KMS - KMS managed keys)
+     - when this parameter is included in the header of the PUT request, it tells S3 to encrypt the object at the time of upload, using the specified encryption method
+     - you can enforce the use of server-side encryption by using a bucket policy which denies any S3 PUT request which does not include the x-amz-server-side-encryption
+       parameter in the request header
+CORS for S3 (START HERE)
+ - 

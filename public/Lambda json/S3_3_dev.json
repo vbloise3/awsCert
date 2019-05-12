@@ -1,0 +1,294 @@
+[
+  {
+    "id": "359",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of encryption for S3?",
+      "answers": [
+        "in-transit",
+        "at-rest",
+        "AES-256",
+        "AES-S3",
+        "AES-KMS",
+        "AES-C"
+      ],
+      "correctAnswer": ["in-transit",
+        "at-rest"]
+    }
+  },
+  {
+    "id": "360",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "When S3 data is encrypted in transit, what what is the encryption technique?",
+      "answers": [
+        "SSL/TLS",
+        "AES-256",
+        "AES-S3",
+        "AES-KMS",
+        "AES-C"
+      ],
+      "correctAnswer": ["SSL/TLS"]
+    }
+  },
+  {
+    "id": "361",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What is the replacement for SSL that will soon be in broad use?",
+      "answers": [
+        "TLS - Transport Layer Security",
+        "IMAP - Internet Message Access Protocol",
+        "LDAP - Lightweight Directory Access Protocol",
+        "DHCP - Dynamic Host Configuration Protocol"
+      ],
+      "correctAnswer": ["TLS - Transport Layer Security"]
+    }
+  },
+  {
+    "id": "362",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What are you using to transmit data when you encrypt in transit using SSL/TLS?",
+      "answers": [
+        "https",
+        "http",
+        "ssl",
+        "tcpip"
+      ],
+      "correctAnswer": ["https"]
+    }
+  },
+  {
+    "id": "363",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 3",
+      "question": "What are the 3 types of server-side encryption used with S3?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-S3",
+        "SSE-KMS",
+        "SSE-C"]
+    }
+  },
+  {
+    "id": "364",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which type of S3 server-side encryption uses AES-256 bit encryption?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-S3"]
+    }
+  },
+  {
+    "id": "365",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption does AWS manages the keys for you?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-S3"]
+    }
+  },
+  {
+    "id": "366",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption does AWS rotate keys on a defined frequency?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-S3"]
+    }
+  },
+  {
+    "id": "367",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption does AWS use an envelope key that encrypts your encryption key?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-KMS"]
+    }
+  },
+  {
+    "id": "368",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption does AWS give an audit trail which records the use of your encryption key?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-KMS"]
+    }
+  },
+  {
+    "id": "368",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption can you use your own key, or the default AWS key?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-KMS"]
+    }
+  },
+  {
+    "id": "369",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 server-side encryption does AWS manage the encryption and decryption but you manage your own keys?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "SSE-KSM",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-C"]
+    }
+  },
+  {
+    "id": "370",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "For which type of S3 encryption at rest do you encrypt the files yourself before you upload to S3?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "SSE-C",
+        "Client-side encryption",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["Client-side encryption"]
+    }
+  },
+  {
+    "id": "371",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Every time a file is uploaded to S3, a ______ request is initiated",
+      "answers": [
+        "PUT",
+        "CREATE",
+        "POST",
+        "GET",
+        "DELETE"
+      ],
+      "correctAnswer": ["PUT"]
+    }
+  },
+  {
+    "id": "372",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If the file is to be encrypted at upload time to S3, the ______ parameter will be included in the request header",
+      "answers": [
+        "x-amz-server-side-encryption",
+        "X-Forwarded-For",
+        "X-XSS-Protection",
+        "X-Content-Security-Policy",
+        "X-Frame-Options"
+      ],
+      "correctAnswer": ["x-amz-server-side-encryption"]
+    }
+  },
+  {
+    "id": "373",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 2",
+      "question": "What are the two options are currently available for S3 encryption at upload time using the x-amz-server-side-encryption header parameter?",
+      "answers": [
+        "x-amz-server-side-encryption:AES256",
+        "x-amz-server-side-encryption:ams:kms",
+        "x-amz-server-side-encryption:ams:c",
+        "x-amz-server-side-encryption:ams:s3",
+        "x-amz-server-side-encryption:ams:aes"
+      ],
+      "correctAnswer": ["x-amz-server-side-encryption:AES256",
+        "x-amz-server-side-encryption:ams:kms"]
+    }
+  },
+  {
+    "id": "374",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "you can enforce the use of server-side encryption by using a bucket policy which ______ in the request header",
+      "answers": [
+        "denies any S3 PUT request which does not include the x-amz-server-side-encryption parameter",
+        "allows any S3 PUT request which does not include the x-amz-server-side-encryption parameter",
+        "denies any S3 PUT request which does not include the X-Forwarded-For parameter",
+        "denies any S3 PUT request which does not include the X-XSS-Protection parameter",
+        "allows any S3 PUT request which does not include the X-Content-Security-Policy parameter"
+      ],
+      "correctAnswer": ["denies any S3 PUT request which does not include the x-amz-server-side-encryption parameter"]
+    }
+  }
+]
