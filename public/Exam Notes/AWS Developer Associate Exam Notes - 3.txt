@@ -125,5 +125,33 @@ S3 Encryption
      - when this parameter is included in the header of the PUT request, it tells S3 to encrypt the object at the time of upload, using the specified encryption method
      - you can enforce the use of server-side encryption by using a bucket policy which denies any S3 PUT request which does not include the x-amz-server-side-encryption
        parameter in the request header
-CORS for S3 (START HERE)
- - 
+CloudFront
+ - A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user based on the:
+   - geographic location of the user
+   - the origin of the web page
+   - a content delivery server
+ - Edge Locations are collections of servers in dispersed geographic locations
+   - used by CloudFront to cache web content close to geographically dispersed users
+   - can write content into Edge Locations (PUT an object to them) as well as read from them
+   - separate from AZs or Regions
+ - Origin
+   - the origin of all the files that the CDN will distribute
+   - Origins can be S3 buckets, EC2 instances, an ELB, or Route53
+ - Distribution
+   - the name given to the CDN
+   - consists of a collection of edge locations
+   - Two types of distributions
+     - Web Distribution
+       - Typically used for websites
+     - RTMP (Real Time Messaging Protocol)
+       - Used for media streaming
+       - Adobe Flash, multi-media content
+ - CloudFront also works with any non-AWS origin server
+ - CloudFront accelerates S3 Transfer Acceleration
+   - S3 Transfer Acceleration takes advantage of CloudFront's globally distributed edge locations
+   - When the data being transferred arrives at an edge location the remaining transfer moves over AWS's optimized network path
+ - You can clear cached objects from your CloudFront edge locations but you will be charged
+ - Can have multiple origins for a distribution
+ - You can clear your CloudFront cache by invalidating objects
+S3 Performance Optimization (START HERE)
+ -

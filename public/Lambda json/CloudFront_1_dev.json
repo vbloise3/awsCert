@@ -1,0 +1,365 @@
+[
+  {
+    "id": "375",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "A(n) ______ is a system of distributed servers (network) that deliver webpages and other web content to users",
+      "answers": [
+        "Content Delivery Network (CDN)",
+        "Edge Location",
+        "Origin",
+        "Distribution"
+      ],
+      "correctAnswer": ["Content Delivery Network (CDN)"]
+    }
+  },
+  {
+    "id": "376",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 3",
+      "question": "A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user based on which of these",
+      "answers": [
+        "the geographic location of the user",
+        "the origin of the web page",
+        "a content delivery server",
+        "an origin server"
+      ],
+      "correctAnswer": ["the geographic location of the user",
+        "the origin of the web page",
+        "a content delivery server"]
+    }
+  },
+  {
+    "id": "377",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "______ are collections of servers in dispersed geographic locations",
+      "answers": [
+        "Edge Locations",
+        "Origins",
+        "Distributions",
+        "CDNs"
+      ],
+      "correctAnswer": ["Edge Locations"]
+    }
+  },
+  {
+    "id": "378",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "Used by CloudFront to cache web content close to geographically dispersed users",
+      "answers": [
+        "Edge Locations",
+        "Origins",
+        "Distributions",
+        "CDNs"
+      ],
+      "correctAnswer": ["Edge Locations"]
+    }
+  },
+  {
+    "id": "379",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "You can write content into ______ (PUT an object to them) as well as read from them",
+      "answers": [
+        "Edge Locations",
+        "Origins",
+        "Distributions",
+        "CDNs"
+      ],
+      "correctAnswer": ["Edge Locations"]
+    }
+  },
+  {
+    "id": "380",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "______ are separate from AZs or Regions",
+      "answers": [
+        "Edge Locations",
+        "Origins",
+        "Distributions",
+        "CDNs"
+      ],
+      "correctAnswer": ["Edge Locations"]
+    }
+  },
+  {
+    "id": "381",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "The origin of all the files that the CDN will distribute",
+      "answers": [
+        "Edge Location",
+        "Origin",
+        "Distribution",
+        "CDN"
+      ],
+      "correctAnswer": ["Origin"]
+    }
+  },
+  {
+    "id": "382",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "______ can be S3 buckets, EC2 instances, an ELB, or Route53",
+      "answers": [
+        "Edge Locations",
+        "Origins",
+        "Distributions",
+        "CDNs"
+      ],
+      "correctAnswer": ["Origins"]
+    }
+  },
+  {
+    "id": "383",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "The name given to the CDN",
+      "answers": [
+        "Edge Location",
+        "Origin",
+        "Distribution",
+        "CDN"
+      ],
+      "correctAnswer": ["Distribution"]
+    }
+  },
+  {
+    "id": "384",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "The ______ consists of a collection of edge locations",
+      "answers": [
+        "Edge Location",
+        "Origin",
+        "Distribution",
+        "CDN"
+      ],
+      "correctAnswer": ["Distribution"]
+    }
+  },
+  {
+    "id": "385",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 2",
+      "question": "The Two types of distributions",
+      "answers": [
+        "Web Distribution",
+        "RTMP (Real Time Messaging Protocol) Distribution",
+        "Local Distribution",
+        "Cached Distribution"
+      ],
+      "correctAnswer": ["Web Distribution",
+        "RTMP (Real Time Messaging Protocol) Distribution"]
+    }
+  },
+  {
+    "id": "386",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "Which type of distribution is typically used for websites?",
+      "answers": [
+        "Web Distribution",
+        "RTMP (Real Time Messaging Protocol) Distribution",
+        "Local Distribution",
+        "Cached Distribution"
+      ],
+      "correctAnswer": ["Web Distribution"]
+    }
+  },
+  {
+    "id": "387",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "Which type of distribution is used for media streaming?",
+      "answers": [
+        "Web Distribution",
+        "RTMP (Real Time Messaging Protocol) Distribution",
+        "Local Distribution",
+        "Cached Distribution"
+      ],
+      "correctAnswer": ["RTMP (Real Time Messaging Protocol) Distribution"]
+    }
+  },
+  {
+    "id": "388",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "Which type of distribution is used for Adobe Flash, multi-media content?",
+      "answers": [
+        "Web Distribution",
+        "RTMP (Real Time Messaging Protocol) Distribution",
+        "Local Distribution",
+        "Cached Distribution"
+      ],
+      "correctAnswer": ["RTMP (Real Time Messaging Protocol) Distribution"]
+    }
+  },
+  {
+    "id": "389",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "CloudFront will not work with non-AWS origin servers",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "390",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "CloudFront can accelerate S3 Transfer Acceleration",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "391",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "S3 Transfer Acceleration takes advantage of CloudFront's ______",
+      "answers": [
+        "globally distributed edge locations",
+        "local edge locations",
+        "origins",
+        "distributions"
+      ],
+      "correctAnswer": ["globally distributed edge locations"]
+    }
+  },
+  {
+    "id": "391",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "S3 Transfer Acceleration takes advantage of CloudFront's ______",
+      "answers": [
+        "globally distributed edge locations",
+        "local edge locations",
+        "globally distributed origins",
+        "globally distributed distributions"
+      ],
+      "correctAnswer": ["globally distributed edge locations"]
+    }
+  },
+  {
+    "id": "392",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "With S3 Transfer Acceleration, when the data being transferred arrives at an edge location the remaining transfer moves over ______",
+      "answers": [
+        "AWS's optimized network path",
+        "a private network",
+        "your account's VPN Gateway",
+        "the internet"
+      ],
+      "correctAnswer": ["AWS's optimized network path"]
+    }
+  },
+  {
+    "id": "393",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "When you clear cached objects from your CloudFront edge locations ______",
+      "answers": [
+        "you will be charged",
+        "you will not be charged",
+        "you will be punished",
+        "your account will be terminated"
+      ],
+      "correctAnswer": ["you will be charged"]
+    }
+  },
+  {
+    "id": "394",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "You can clear cached objects from your CloudFront edge locations",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "395",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "You can have ______ origin(s) for a distribution",
+      "answers": [
+        "multiple",
+        "one"
+      ],
+      "correctAnswer": ["multiple"]
+    }
+  },
+  {
+    "id": "396",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "CloudFront",
+      "questionType": "multiple choice 1",
+      "question": "You can clear your CloudFront cache by ______",
+      "answers": [
+        "invalidating objects",
+        "deleting objects",
+        "touching objects",
+        "overwriting objects"
+      ],
+      "correctAnswer": ["invalidating objects"]
+    }
+  }
+]
