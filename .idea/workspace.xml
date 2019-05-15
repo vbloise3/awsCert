@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/CloudFront_1_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/S3_4_dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudFront_1_dev.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/CloudFront_1_dev.json">
+      <file leaf-file-name="S3_4_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/S3_4_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5385">
-              <caret line="359" column="28" selection-start-line="359" selection-start-column="28" selection-end-line="359" selection-end-column="28" />
+            <state relative-caret-position="-1079">
+              <caret line="256" column="13" lean-forward="true" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,6 +175,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/S3_3_dev.json" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/CloudFront_1_dev.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/S3_4_dev.json" />
       </list>
     </option>
   </component>
@@ -358,12 +358,12 @@
       <workItem from="1553040708438" duration="557000" />
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
-      <workItem from="1557188289107" duration="15295000" />
+      <workItem from="1557188289107" duration="18109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87966000" />
+    <option name="totallyTimeSpent" value="90780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -413,9 +413,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/directives/only-number.directive.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-dynamo-db/c2p-dynamo-db.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,6 +730,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/CloudFront_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="363" column="3" lean-forward="true" selection-start-line="348" selection-start-column="2" selection-end-line="363" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -750,10 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/CloudFront_1_dev.json">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/S3_4_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5385">
-          <caret line="359" column="28" selection-start-line="359" selection-start-column="28" selection-end-line="359" selection-end-column="28" />
+        <state relative-caret-position="-1079">
+          <caret line="256" column="13" lean-forward="true" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
         </state>
       </provider>
     </entry>

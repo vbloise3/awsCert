@@ -154,4 +154,94 @@ CloudFront
  - Can have multiple origins for a distribution
  - You can clear your CloudFront cache by invalidating objects
 S3 Performance Optimization (START HERE)
- -
+ - S3 is designed to support very high request rates
+   - If your S3 buckets are routinely receiving > 100 PUT/LIST/DELETE or > 300 GET requests per second, then there are some best practice
+     guidelines that will help optimize S3 Performance
+   - The guidance is based on the type of workload you are running
+     - GET-intensive workloads
+       - use CloudFront content delivery service to get best performance
+       - CloudFront will cache your most frequently accessed objects and will reduce latency for your GET requests
+     - Mixed Request Type Workloads
+       - a mix of GET, PUT, DELETE, GET Bucket - the key names you use for your objects can impact performance workloads
+       - S3 uses the key name to determine which partition an object will be stored in
+       - The use of sequential key names e.g. names prefixed with a timestamp or alphabetical sequence increases the likelihood
+         of having multiple objects stored on the same partition
+       - For heavy workloads this can cause I/O issues and contention
+       - By using a random prefix to key names (like a hex hash), you can force S3 to distribute your keys across multiple partitions, distributing the I/O workload
+Performance Update
+ - S3 can support at least 3,500 put requests per second
+ - S3 can support at least 5,500 get requests per second
+ - Now you no longer need to randomized key names to achieve faster performance
+ - Logical and sequential naming patterns can now be used without any performance implication
+S3 Summary
+ - S3 website url format http://bucketname.s3-website-regionname.amazonaws.com
+S3 Quiz
+ - S3 provides unlimited storage
+   - true (correct)
+   - false
+ - What is the HTTP code you would see once you successfully place a file in an S3 bucket?
+   - 524
+   - 200 (correct)
+   - 312
+   - 404
+ - You are hosting a static website in an S3 bucket that uses Java script to reference assets in another S3 bucket. For some reason, these assets are not displaying when users browse to the site. What could be the problem?
+   - You haven not enabled Cross Origin Resource Sharing (CORS) on the bucket where the assets are stored (correct)
+   - Amazon S3 does not support Javascript
+   - You cannot use one S3 bucket to reference another S3 bucket
+   - You need to open port 80 on the appropriate security group in which the S3 bucket is located
+ - The minimum file size allowed on S3 is 1 byte
+   - true
+   - false (correct)
+ - How does S3 determine which partition to use to store files?
+   - The bucket name determines which partition the file is stored in
+   - S3 automatically stores your files on a random partition
+   - The key name determines which partition the file is stored in (correct)
+   - By default, all files in the same bucket are stored on the same partition
+ - Your application is consistently reading and writing 100s of objects per second to S3 and your workload is steadily rising. What can you do to achieve the best performance from S3?
+   - Configure an additional bucket and distribute the files evenly between the two buckets
+   - Configure a CloudFront CDN and use the S3 bucket as the origin
+   - Add a hex hash prefix to the objects key name (correct)
+   - Add a hex hash suffix to the objects key name
+ - What is the maximum file size that can be stored on S3?
+   - 4TB
+   - 2TB
+   - 1TB
+   - 5TB (correct)
+ - You are using S3 in AP-Northeast to host a static website in a bucket called acloudguru. What would the new URL endpoint be?
+   - http://acloudguru.s3-website-ap-southeast-1.amazonaws.com
+   - https://s3-ap-northeast-1.amazonaws.com/acloudguru/
+   - http://acloudguru.s3-website-ap-northeast-1.amazonaws.com (correct)
+   - http://www.acloudguru.s3-website-ap-northeast-1.amazonaws.com
+ - When you first create an S3 bucket, this bucket is publicly accessible by default
+   - true
+   - false (correct)
+ - Which feature of AWS can you use to configure S3 to allow one S3 bucket to access files in another S3 bucket?
+   - IAM Role
+   - CORS (correct)
+   - Bucket ACL
+   - Bucket Policy
+ - If you want to enable a user to download your private data directly from S3, you can insert a pre-signed URL into a web page before giving it to your user.
+   - true (correct)
+   - false
+ - Which of the following encryption methods are supported in S3? (Choose 3)
+   - SSE-C (correct)
+   - SSE-AES
+   - SSE-KMS (correct)
+   - SSE-S3 (correct)
+ - What is the largest size file you can transfer to S3 using a PUT operation?
+   - 1GB
+   - 5GB (correct)
+   - 100MB
+   - 5TB
+ - If you encrypt a bucket on S3, what type of encryption does AWS use?
+   - International Data Encryption Algorithm (IDEA)
+   - Data Encryption Standard (DES)
+   - Advanced Encryption Standard (AES) 256 (correct)
+   - Advanced Encryption Standard (AES) 128
+ - Which of the following options allows users to have secure access to private files located in S3? (Choose 3)
+   - CloudFront Origin Access Identity (correct)
+   - Public S3 buckets
+   - CloudFront Signed URLs (correct)
+   - CloudFront Signed Cookies (correct)
+Serverless 101
+ -  

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "397",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If your S3 buckets are routinely receiving > ______ PUT/LIST/DELETE requests per second, you need to optimize for performance",
+      "answers": [
+        "100",
+        "1,000",
+        "10,000",
+        "300"
+      ],
+      "correctAnswer": ["100"]
+    }
+  },
+  {
+    "id": "398",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If your S3 buckets are routinely receiving > ______ GET requests per second, you need to optimize for performance",
+      "answers": [
+        "100",
+        "1,000",
+        "10,000",
+        "300"
+      ],
+      "correctAnswer": ["300"]
+    }
+  },
+  {
+    "id": "399",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which is the performance optimization guidance for GET-intensive workloads?",
+      "answers": [
+        "Use CloudFront content delivery service to get best performance",
+        "Use a random prefix to key names (like a hex hash), you can force S3 to distribute your keys across multiple partitions, distributing the I/O workload",
+        "Use of sequential key names e.g. names prefixed with a timestamp or alphabetical sequence to increase the likelihood of having multiple objects stored on the same partition",
+        "Use CloudTrail content delivery service to get best performance"
+      ],
+      "correctAnswer": ["Use CloudFront content delivery service to get best performance"]
+    }
+  },
+  {
+    "id": "400",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which is the performance optimization guidance for mixed request workloads?",
+      "answers": [
+        "Use CloudFront content delivery service to get best performance",
+        "Use a random prefix to key names (like a hex hash), you can force S3 to distribute your keys across multiple partitions, distributing the I/O workload",
+        "Use of sequential key names e.g. names prefixed with a timestamp or alphabetical sequence to increase the likelihood of having multiple objects stored on the same partition",
+        "Use CloudTrail content delivery service to get best performance"
+      ],
+      "correctAnswer": ["Use a random prefix to key names (like a hex hash), you can force S3 to distribute your keys across multiple partitions, distributing the I/O workload"]
+    }
+  },
+  {
+    "id": "401",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 uses the ______ to determine which partition an object will be stored in",
+      "answers": [
+        "key name",
+        "version ID",
+        "value",
+        "metadata"
+      ],
+      "correctAnswer": ["key name"]
+    }
+  },
+  {
+    "id": "402",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 can support at least ______ put requests per second",
+      "answers": [
+        "3,500",
+        "5,500",
+        "10,500",
+        "1,500"
+      ],
+      "correctAnswer": ["3,500"]
+    }
+  },
+  {
+    "id": "403",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 can support at least ______ get requests per second",
+      "answers": [
+        "3,500",
+        "5,500",
+        "10,500",
+        "1,500"
+      ],
+      "correctAnswer": ["5,500"]
+    }
+  },
+  {
+    "id": "404",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What is the S3 website url format?",
+      "answers": [
+        "http://bucketname.s3-website-regionname.amazonaws.com",
+        "http://regionname.s3-website-bucketname.amazonaws.com",
+        "http://bucketname.s3-website-regionname.awsamazon.com",
+        "http://bucketname.s3-regionname.amazonaws.com"
+      ],
+      "correctAnswer": ["http://bucketname.s3-website-regionname.amazonaws.com"]
+    }
+  },
+  {
+    "id": "405",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "S3 provides unlimited storage",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "406",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What is the HTTP code you would see once you successfully place a file in an S3 bucket?",
+      "answers": [
+        "524",
+        "200",
+        "312",
+        "404"
+      ],
+      "correctAnswer": ["200"]
+    }
+  },
+  {
+    "id": "407",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You are hosting a static website in an S3 bucket that uses Java script to reference assets in another S3 bucket. For some reason, these assets are not displaying when users browse to the site. What could be the problem?",
+      "answers": [
+        "You haven not enabled Cross Origin Resource Sharing (CORS) on the bucket where the assets are stored",
+        "Amazon S3 does not support Javascript",
+        "You cannot use one S3 bucket to reference another S3 bucket",
+        "You need to open port 80 on the appropriate security group in which the S3 bucket is located"
+      ],
+      "correctAnswer": ["You haven not enabled Cross Origin Resource Sharing (CORS) on the bucket where the assets are stored"]
+    }
+  },
+  {
+    "id": "408",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "The minimum file size allowed on S3 is 1 byte",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "409",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "How does S3 determine which partition to use to store files?",
+      "answers": [
+        "The bucket name determines which partition the file is stored in",
+        "S3 automatically stores your files on a random partition",
+        "The key name determines which partition the file is stored in",
+        "By default, all files in the same bucket are stored on the same partition"
+      ],
+      "correctAnswer": ["The key name determines which partition the file is stored in"]
+    }
+  },
+  {
+    "id": "410",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Your application is consistently reading and writing 100s of objects per second to S3 and your workload is steadily rising. What can you do to achieve the best performance from S3?",
+      "answers": [
+        "Configure an additional bucket and distribute the files evenly between the two buckets",
+        "Configure a CloudFront CDN and use the S3 bucket as the origin",
+        "Add a hex hash prefix to the objects key name",
+        "Add a hex hash suffix to the objects key name"
+      ],
+      "correctAnswer": ["Add a hex hash prefix to the objects key name"]
+    }
+  },
+  {
+    "id": "411",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What is the maximum file size that can be stored on S3?",
+      "answers": [
+        "4TB",
+        "2TB",
+        "1TB",
+        "5TB"
+      ],
+      "correctAnswer": ["5TB"]
+    }
+  },
+  {
+    "id": "412",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "You are using S3 in AP-Northeast to host a static website in a bucket called acloudguru. What would the new URL endpoint be?",
+      "answers": [
+        "http://acloudguru.s3-website-ap-southeast-1.amazonaws.com",
+        "https://s3-ap-northeast-1.amazonaws.com/acloudguru/",
+        "http://acloudguru.s3-website-ap-northeast-1.amazonaws.com",
+        "http://www.acloudguru.s3-website-ap-northeast-1.amazonaws.com"
+      ],
+      "correctAnswer": ["http://acloudguru.s3-website-ap-northeast-1.amazonaws.com"]
+    }
+  },
+  {
+    "id": "413",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "When you first create an S3 bucket, this bucket is publicly accessible by default",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "414",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "Which feature of AWS can you use to configure S3 to allow one S3 bucket to access files in another S3 bucket?",
+      "answers": [
+        "IAM Role",
+        "CORS",
+        "Bucket ACL",
+        "Bucket Policy"
+      ],
+      "correctAnswer": ["CORS"]
+    }
+  },
+  {
+    "id": "415",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If you want to enable a user to download your private data directly from S3, you can insert a pre-signed URL into a web page before giving it to your user.",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "416",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 3",
+      "question": "Which of the following encryption methods are supported in S3? (Choose 3)",
+      "answers": [
+        "SSE-C",
+        "SSE-KMS",
+        "SSE-S3",
+        "SSE-AES"
+      ],
+      "correctAnswer": ["SSE-C",
+        "SSE-KMS",
+        "SSE-S3"]
+    }
+  },
+  {
+    "id": "417",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "What is the largest size file you can transfer to S3 using a PUT operation?",
+      "answers": [
+        "1GB",
+        "5GB",
+        "100MB",
+        "5TB"
+      ],
+      "correctAnswer": ["5GB"]
+    }
+  },
+  {
+    "id": "418",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 1",
+      "question": "If you encrypt a bucket on S3, what type of encryption does AWS use?",
+      "answers": [
+        "International Data Encryption Algorithm (IDEA)",
+        "Data Encryption Standard (DES)",
+        "Advanced Encryption Standard (AES) 256",
+        "Advanced Encryption Standard (AES) 128"
+      ],
+      "correctAnswer": ["Advanced Encryption Standard (AES) 256"]
+    }
+  },
+  {
+    "id": "419",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "S3",
+      "questionType": "multiple choice 3",
+      "question": "Which of the following options allows users to have secure access to private files located in S3? (Choose 3)",
+      "answers": [
+        "CloudFront Origin Access Identity",
+        "CloudFront Signed URLs",
+        "CloudFront Signed Cookies",
+        "Public S3 buckets"
+      ],
+      "correctAnswer": ["CloudFront Origin Access Identity",
+        "CloudFront Signed URLs",
+        "CloudFront Signed Cookies"]
+    }
+  }
+]
