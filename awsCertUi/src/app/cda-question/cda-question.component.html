@@ -101,6 +101,13 @@
             (change)="updateSubcategoriesChecked($event, 'CloudFront')">
           </mat-checkbox>
           <mat-label style="padding: 0.5em;">CloudFront</mat-label>
+
+          <mat-checkbox
+            name="Lambda"
+            value="Lambda"
+            (change)="updateSubcategoriesChecked($event, 'Lambda')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Lambda</mat-label>
           &nbsp;&nbsp;
           <button mat-button type="submit" color="primary">Submit</button>
         </div>

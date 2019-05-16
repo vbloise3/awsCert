@@ -1,0 +1,258 @@
+[
+  {
+    "id": "420",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 2",
+      "question": "You can use lambda in the following ways:",
+      "answers": [
+        "As an event-driven compute service",
+        "As a compute service to run your code in response to HTTP requests",
+        "As a compute service to run long running batch jobs",
+        "As a compute service to sequentially process huge sequences of transactions within one instance of a running function"
+      ],
+      "correctAnswer": ["As an event-driven compute service",
+        "As a compute service to run your code in response to HTTP requests"]
+    }
+  },
+  {
+  "id": "421",
+  "category": "Cloud Concepts",
+  "info": {
+    "subcategory": "Lambda",
+    "questionType": "multiple choice 2",
+    "question": "Events that can kick off a lambda function:",
+    "answers": [
+      "Changes to data in an S3 bucket",
+      "Changes to data in an DynamoDB table",
+      "Changes to an EC2 instance",
+      "Changes to your VPC subnets"
+    ],
+    "correctAnswer": ["Changes to data in an S3 bucket",
+      "Changes to data in an DynamoDB table"]
+   }
+  },
+  {
+    "id": "422",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 2",
+      "question": "Lambda can run in response to HTTP requests using:",
+      "answers": [
+        "API Gateway",
+        "API calls using AWS SDKs",
+        "API calls using SOAP",
+        "API calls using Ajax"
+      ],
+      "correctAnswer": ["API Gateway",
+        "API calls using AWS SDKs"]
+    }
+  },
+  {
+    "id": "423",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 5",
+      "question": "Lambda code can be written in these languages:",
+      "answers": [
+        "Node.js",
+        "Java",
+        "Python",
+        "C#",
+        "Go",
+        "Fortran",
+        "Pascal"
+      ],
+      "correctAnswer": ["Node.js",
+        "Java",
+        "Python",
+        "C#",
+        "Go"]
+    }
+  },
+  {
+    "id": "424",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 2",
+      "question": "Lambda is priced across these two dimensions:",
+      "answers": [
+        "Number of requests",
+        "Duration",
+        "CPU usage",
+        "Network usage",
+        "VPC configuration",
+        "EC2 type used"
+      ],
+      "correctAnswer": ["Number of requests",
+        "Duration"]
+    }
+  },
+  {
+    "id": "425",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda pricing for the fist 1 million requests per month is ______",
+      "answers": [
+        "free",
+        "$0.20 per 100k requests",
+        "$0.00001667 per 100k requests",
+        "$0.00001667 per request"
+      ],
+      "correctAnswer": ["free"]
+    }
+  },
+  {
+    "id": "426",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda pricing for each 1 million requests after the first 1 million requests per month is ______",
+      "answers": [
+        "free",
+        "$0.20 per 100k requests",
+        "$0.00001667 per 100k requests",
+        "$0.00001667 per request",
+        "$0.20 per 1 million requests"
+      ],
+      "correctAnswer": ["$0.20 per 1 million requests"]
+    }
+  },
+  {
+    "id": "427",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda pricing for duration is calculated from the time your code begins executing until ______",
+      "answers": [
+        "it returns or otherwise terminates",
+        "it runs for 5 minutes",
+        "it runs for 10 minutes",
+        "another lambda request begins"
+      ],
+      "correctAnswer": ["it returns or otherwise terminates"]
+    }
+  },
+  {
+    "id": "428",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda pricing for duration is rounded up to the nearest ______",
+      "answers": [
+        "100ms",
+        "10ms",
+        "1ms",
+        "1,000ms"
+      ],
+      "correctAnswer": ["100ms"]
+    }
+  },
+  {
+    "id": "428",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda pricing for duration depends on the ______",
+      "answers": [
+        "amount of memory you allocate to your function",
+        "amount of CPUs you allocate to your function",
+        "amount of disk space you allocate to your function",
+        "amount of network bandwidth you allocate to your function"
+      ],
+      "correctAnswer": ["amount of memory you allocate to your function"]
+    }
+  },
+  {
+    "id": "428",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "With Lambda pricing for duration you are charged ______ for every GB-second used",
+      "answers": [
+        "$0.20",
+        "$0.00001667",
+        "$0.0000667",
+        "$0.000001667"
+      ],
+      "correctAnswer": ["$0.00001667"]
+    }
+  },
+  {
+    "id": "429",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda scales ______",
+      "answers": [
+        "up",
+        "out",
+        "sequentially",
+        "logarithmically"
+      ],
+      "correctAnswer": ["out"]
+    }
+  },
+  {
+    "id": "430",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Lambda scales ______",
+      "answers": [
+        "automatically",
+        "manually",
+        "sequentially",
+        "logarithmically"
+      ],
+      "correctAnswer": ["automatically"]
+    }
+  },
+  {
+    "id": "431",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "______ allow(s) you to debug lambda function chains",
+      "answers": [
+        "X-ray",
+        "unit tests",
+        "cucumber",
+        "end-to-end tests",
+        "CodeStar"
+      ],
+      "correctAnswer": ["X-ray"]
+    }
+  },
+  {
+    "id": "432",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "______ allow(s) you to debug lambda function chains",
+      "answers": [
+        "X-ray",
+        "unit tests",
+        "cucumber",
+        "end-to-end tests",
+        "CodeStar"
+      ],
+      "correctAnswer": ["X-ray"]
+    }
+  }
+]

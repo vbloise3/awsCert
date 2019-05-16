@@ -244,4 +244,32 @@ S3 Quiz
    - CloudFront Signed URLs (correct)
    - CloudFront Signed Cookies (correct)
 Serverless 101
- -  
+
+Lambda
+  - Lambda is a compute service where you can upload your code and create a lambda function
+  - AWS lambda takes care of provisioning and managing the servers that you use to run the code
+  - You don't have to worry about operating systems, patching, scaling, etc.
+  - You can use lambda in the following ways:
+     - As an event-driven compute service where lambda runs your code in response to events
+       - These events could be changes to data in an S3 bucket or an DynamoDB table
+     - As a compute service to run your code in response to HTTP requests using API Gateway or API calls using AWS SDKs.
+  - Lambda code can be written in these languages:
+    - Node.js
+    - Java
+    - Python
+    - C#
+    - Go
+  - Lambda is priced as follows:
+    - Number of requests
+      - first 1 million requests are free per month
+      - $0.20 per 1 million requests after the first 1 million requests
+    - Duration
+      - Duration is calculated from the time your code begins executing until it returns or otherwise terminates, rounded up to the nearest 100ms
+      - The price depends on the amount of memory you allocate to your function
+      - You are charged $0.00001667 for every GB-second used
+  - Lambda scales out (not up) automatically
+  - AWS X-ray allows you to debug lambda function chains
+  - Lambda can be used globally
+    - you can use a lambda function to back up S3 buckets across regions
+API Gateway
+ - 
