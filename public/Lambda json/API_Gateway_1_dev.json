@@ -1,0 +1,499 @@
+[
+  {
+    "id": "433",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 4",
+      "question": "API Gateway is a fully managed service that lets developers ______, ______, ______, and ______ APIs at any scale",
+      "answers": [
+        "publish",
+        "maintain",
+        "monitor",
+        "secure",
+        "remove",
+        "transfer"
+      ],
+      "correctAnswer": ["publish",
+        "maintain",
+        "monitor",
+        "secure"]
+    }
+  },
+  {
+    "id": "434",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 3",
+      "question": "You can use API Gateway to create APIs that access application ______, ______, or ______",
+      "answers": [
+        "code running on EC2 instances",
+        "code running in Lambda",
+        "code running in any other web application",
+        "code running a batch cycle",
+        "code running on snowball"
+      ],
+      "correctAnswer": ["code running on EC2 instances",
+        "code running in Lambda",
+        "code running in any other web application"]
+    }
+  },
+  {
+    "id": "435",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "API Gateway exposes ______ to define a(n) ______",
+      "answers": [
+        "HTTPS endpoints, RESTful API",
+        "HTTPS endpoints, SOAP API",
+        "HTTP endpoints, RESTful API",
+        "SSH endpoints, RESTful API",
+        "TCP/IP endpoints, API"
+      ],
+      "correctAnswer": ["HTTPS endpoints, RESTful API"]
+    }
+  },
+  {
+    "id": "436",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 2",
+      "question": "API Gateway serverless-ly connects to services like ______",
+      "answers": [
+        "Lambda",
+        "DynamoDB",
+        "CodeCommit",
+        "RDS",
+        "IAM"
+      ],
+      "correctAnswer": ["Lambda",
+        "DynamoDB"]
+    }
+  },
+  {
+    "id": "437",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "API Gateway can send each API endpoint to a(n) ______",
+      "answers": [
+        "different target",
+        "different source",
+        "different origin",
+        "original target",
+        "original origin"
+      ],
+      "correctAnswer": ["different target"]
+    }
+  },
+  {
+    "id": "438",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "API Gateway runs efficiently with ______",
+      "answers": [
+        "low cost",
+        "differentiated cost",
+        "incremental cost",
+        "no cost"
+      ],
+      "correctAnswer": ["low cost"]
+    }
+  },
+  {
+    "id": "439",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "API Gateway ______",
+      "answers": [
+        "scales effortlessly",
+        "scales through auto-scaling",
+        "scales manually",
+        "scales via Route53"
+      ],
+      "correctAnswer": ["scales effortlessly"]
+    }
+  },
+  {
+    "id": "440",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "With API Gateway you can track and control usage by ______",
+      "answers": [
+        "API key",
+        "API value",
+        "endpoint key",
+        "endpoint value"
+      ],
+      "correctAnswer": ["API key"]
+    }
+  },
+  {
+    "id": "441",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "With API Gateway you ______",
+      "answers": [
+        "can throttle requests to prevent attacks",
+        "can not throttle requests to prevent attacks"
+      ],
+      "correctAnswer": ["can throttle requests to prevent attacks"]
+    }
+  },
+  {
+    "id": "442",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "With API Gateway you can connect to ______ to log all requests for monitoring",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "Kinesis",
+        "ECS",
+        "EFS"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "443",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "With API Gateway you can maintain ______ of your API",
+      "answers": [
+        "multiple versions",
+        "one version",
+        "two versions",
+        "up to five versions"
+      ],
+      "correctAnswer": ["multiple versions"]
+    }
+  },
+  {
+    "id": "444",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 3",
+      "question": "To define an API in API Gateway you do these three things:",
+      "answers": [
+        "Define an API (container)",
+        "Define resources and nested resources (URL paths)",
+        "Deploy API to a stage",
+        "Define an API (service)",
+        "Deploy API to a server",
+        "Define resources and nested resources (URLs)"
+      ],
+      "correctAnswer": ["Define an API (container)",
+        "Define resources and nested resources (URL paths)",
+        "Deploy API to a stage"]
+    }
+  },
+  {
+    "id": "445",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 4",
+      "question": "For each API Gateway resource you:",
+      "answers": [
+        "Select supported HTTP methods (verbs)",
+        "Set security",
+        "Choose target (such as EC2, Lambda, DynamoDB, etc.)",
+        "Set request and response transformations",
+        "Set request format (JSON, XML, text)",
+        "Set request source"
+      ],
+      "correctAnswer": ["Select supported HTTP methods (verbs)",
+        "Set security",
+        "Choose target (such as EC2, Lambda, DynamoDB, etc.)",
+        "Set request and response transformations"]
+    }
+  },
+  {
+    "id": "446",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 3",
+      "question": "When you deploy an API to a stage, API Gateway ______, ______, and ______",
+      "answers": [
+        "uses API Gateway domain, by default",
+        "can use a custom domain",
+        "configures AWS Certificate Manager",
+        "sets the request and response timeouts",
+        "sets the request format (JSON, XML, text)",
+        "sets the request source"
+      ],
+      "correctAnswer": ["uses API Gateway domain, by default",
+        "can use a custom domain",
+        "configures AWS Certificate Manager"]
+    }
+  },
+  {
+    "id": "447",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "With API Gateway you can ______",
+      "answers": [
+        "cache your endpoint's response",
+        "not cache your endpoint's response",
+        "stage your endpoint's response",
+        "delete your endpoint's response"
+      ],
+      "correctAnswer": ["cache your endpoint's response"]
+    }
+  },
+  {
+    "id": "448",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "This allows scripts in a first web page to access data from a second web page only if both pages are served from the same origin",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Same-origin-policy"]
+    }
+  },
+  {
+    "id": "449",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "This is used to prevent cross-site scripting",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Same-origin-policy"]
+    }
+  },
+  {
+    "id": "450",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "This is enforced by web browsers",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Same-origin-policy"]
+    }
+  },
+  {
+    "id": "451",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "This relaxes the same-origin-policy",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Cross-Origin-Resource-Sharing (CORS)"]
+    }
+  },
+  {
+    "id": "452",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "This allows resources in a web page to be requested from a domain which is different from the domain which served the web page",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Cross-Origin-Resource-Sharing (CORS)"]
+    }
+  },
+  {
+    "id": "453",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "To determine if this is enabled the browser makes an HTTP OPTIONS call for a URL",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Cross-Origin-Resource-Sharing (CORS)"]
+    }
+  },
+  {
+    "id": "454",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "Using this the server returns a response that lists the domains approved for access from the URL",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Cross-Origin-Resource-Sharing (CORS)"]
+    }
+  },
+  {
+    "id": "455",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "When this is not enabled the server returns an error stating that the origin policy cannot be read at the remote resource, enable ______ on API Gateway",
+      "answers": [
+        "Same-origin-policy",
+        "Cross-Origin-Resource-Sharing (CORS)",
+        "Alternate-origin-policy",
+        "Similar-origin-policy"
+      ],
+      "correctAnswer": ["Cross-Origin-Resource-Sharing (CORS)"]
+    }
+  },
+  {
+    "id": "456",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which one of these is not a Lambda trigger service?",
+      "answers": [
+        "API Gateway",
+        "AWS IoT",
+        "Alexa Skills Kit",
+        "RDS"
+      ],
+      "correctAnswer": ["RDS"]
+    }
+  },
+  {
+    "id": "457",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which one of these is not a Lambda trigger service?",
+      "answers": [
+        "Alexa Smart Home",
+        "CloudFront",
+        "CloudWatch Events",
+        "OpsWorks"
+      ],
+      "correctAnswer": ["OpsWorks"]
+    }
+  },
+  {
+    "id": "458",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which one of these is not a Lambda trigger service?",
+      "answers": [
+        "CloudWatch Logs",
+        "CodeCommit",
+        "Cognito Sync Trigger",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodePipeline"]
+    }
+  },
+  {
+    "id": "459",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which one of these is not a Lambda trigger service?",
+      "answers": [
+        "DynamoDB",
+        "Kinesis",
+        "S3",
+        "SNS",
+        "SQS"
+      ],
+      "correctAnswer": ["SQS"]
+    }
+  },
+  {
+    "id": "459",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 5",
+      "question": "What are the API Gateway integration point types?",
+      "answers": [
+        "HTTP",
+        "Lambda Function",
+        "Mock",
+        "AWS Service",
+        "VPC Link",
+        "VPC Subnet",
+        "Elastic IP",
+        "VPS Security Group"
+      ],
+      "correctAnswer": ["HTTP",
+        "Lambda Function",
+        "Mock",
+        "AWS Service",
+        "VPC Link"]
+    }
+  },
+  {
+    "id": "459",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "API Gateway",
+      "questionType": "multiple choice 1",
+      "question": "An API Gateway mock integration point does which of these?",
+      "answers": [
+        "Returns a response purely using API Gateway mappings and transformations",
+        "Returns a response using predefined parameters",
+        "Returns a response using API Gateway request parameters",
+        "Returns the full, unfiltered API Gateway response"
+      ],
+      "correctAnswer": ["Returns a response purely using API Gateway mappings and transformations"]
+    }
+  }
+]

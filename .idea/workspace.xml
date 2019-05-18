@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Lambda_1_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/API_Gateway_1_dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" afterDir="false" />
@@ -22,7 +22,7 @@
       <file leaf-file-name="buildDeploy.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state>
               <caret line="16" column="81" selection-start-line="16" selection-end-line="16" selection-end-column="81" />
             </state>
           </provider>
@@ -31,7 +31,7 @@
       <file leaf-file-name="cda-question.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8295">
+            <state relative-caret-position="15">
               <caret line="558" column="36" selection-start-line="558" selection-start-column="36" selection-end-line="558" selection-end-column="36" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+            <state relative-caret-position="530">
+              <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -72,16 +72,17 @@
                 <element signature="n#style#0;n#mat-label#7;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#8;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#9;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#mat-label#10;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lambda_1_dev.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Lambda_1_dev.json">
+      <file leaf-file-name="API_Gateway_1_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/API_Gateway_1_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="244" column="28" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="28" />
+            <state relative-caret-position="481">
+              <caret line="493" column="33" selection-start-line="493" selection-start-column="33" selection-end-line="493" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -130,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/awsCertUi/angular.json" />
         <option value="$PROJECT_DIR$/awsCertUi/src/tsconfig.app.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/app.component.ts" />
@@ -181,6 +181,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/S3_4_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/Lambda_1_dev.json" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
+        <option value="$PROJECT_DIR$/public/Lambda json/API_Gateway_1_dev.json" />
       </list>
     </option>
   </component>
@@ -363,12 +364,12 @@
       <workItem from="1553040708438" duration="557000" />
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
-      <workItem from="1557188289107" duration="20661000" />
+      <workItem from="1557188289107" duration="24382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93332000" />
+    <option name="totallyTimeSpent" value="97053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -418,9 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chalicelib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.chalice/deployed/dev.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -493,6 +491,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="69" column="3" lean-forward="true" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,6 +501,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state>
           <caret line="16" column="81" selection-start-line="16" selection-end-line="16" selection-end-column="81" />
         </state>
       </provider>
@@ -662,16 +666,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8295">
-          <caret line="558" column="36" selection-start-line="558" selection-start-column="36" selection-end-line="558" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/RDS_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -748,15 +742,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Lambda_1_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="244" column="28" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="28" />
+        <state relative-caret-position="541">
+          <caret line="256" column="3" lean-forward="true" selection-start-line="240" selection-start-column="2" selection-end-line="256" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+        <state relative-caret-position="530">
+          <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -767,7 +761,25 @@
             <element signature="n#style#0;n#mat-label#7;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#8;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#9;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#10;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="558" column="36" selection-start-line="558" selection-start-column="36" selection-end-line="558" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/API_Gateway_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="493" column="33" selection-start-line="493" selection-start-column="33" selection-end-line="493" selection-end-column="33" />
         </state>
       </provider>
     </entry>
