@@ -271,7 +271,7 @@ Lambda
   - AWS X-ray allows you to debug lambda function chains
   - Lambda can be used globally
     - you can use a lambda function to back up S3 buckets across regions
-API Gateway (START HERE)
+API Gateway
  - API Gateway is a fully managed service that lets developers publish, maintain, monitor, and secure APIs at any scale
  - Can use API Gateway to create APIs that access application code running on EC2 instances, code running in Lambda, or any other web application
  - API Gateway exposes HTTPS endpoints to define a RESTful API
@@ -327,4 +327,55 @@ API Gateway (START HERE)
    - Mock: return a response purely using API Gateway mappings and transformations
    - AWS Service
    - VPC Link
- -
+Version Control with Lambda (START HERE)
+   - When you use versioning with Lambda, you can publish one or more versions of your Lambda function
+   - Each version of your Lambda function has a unique ARN
+   - After you publish a version it is immutable
+   - There are two types of ARNs associated with a Lambda function
+     - Qualified ARN - The function ARN with the version suffix
+       - arn:aws:lambda:aws-region:acct-id:function:hwlloworld:$LATEST
+     - Unqualified ARN - The function ARN without the suffix
+       - arn:aws:lambda:aws-region:acct-id:function:hwlloworld
+   - Alias
+     - After publishing your Lambda function, then create an alias to it, such as PROD, you can then use the PROD alias to invoke this version of the function
+     - If you make changes and publish this new version, you can point the PROD alias to the new version.
+     - If you decide to roll back to the old version, you just repoint the alias to the old version
+   - You can use versioning to create splits between traffic, such as blue/green deployments
+     - You cannot use $LATEST in version splitting
+Step Functions
+   - Step Functions allow you to visualize and test your serverless applications
+   - Provides a graphical console to arrange and visualize the components of your application as a series of steps
+   - Automatically triggers and tracks each step, and retries when there are errors
+   - Logs the state of each step, so you can diagnose and debug
+   - Can have sequential steps
+   - Can have branching steps
+   - Can have parallel steps
+   - Use Amazon States Language to create steps
+X-Ray
+   - X-Ray is a service that collects data about requests that your application serves, and provides tools you can use to view, filter, and gain insights into that data
+     to identify issues and opportunities for optimization
+   - For any traced request to your application, you can see details of the request and response, as well as calls your application makes to downstream
+     AWS resources, microservices, databases, and HTTP web APIs
+   - Use the X-Ray SDK inside your application
+      - the X-Ray SDK sends information (in JSON) to the X-Ray Daemon, which sends the JSON to the X-Ray API
+      - the X-Ray creates a visualization of the functioning of your app, which it displays in the X-Ray Console
+      - the AWS SDK and the AWS CLI can communicate directly with the X-Ray Daemon and/or the X-Ray API
+   - The X-Ray SDK provides
+      - Interceptors to add to your code to trace incomming HTTP requests
+      - Client handlers to instrument AWS SDK clients that your application uses to call other AWS services
+      - An HTTP client to use to instrument calls to other internal and external HTTP web services
+   - X-Ray integrates with the following AWS services
+      - Elastic Load Balancing
+      - Lambda
+      - API Gateway
+      - EC2
+      - Elastic Beanstalk
+   - X-Ray supported languages:
+      - Java
+      - Go
+      - Node.js
+      - Python
+      - Ruby
+      - .Net
+Advanced API Gateway
+  -

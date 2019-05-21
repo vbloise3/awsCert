@@ -1,0 +1,543 @@
+[
+  {
+    "id": "460",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "When you use versioning with Lambda, you can ______",
+      "answers": [
+        "publish one or more versions of your Lambda function",
+        "publish a version of your Lambda function",
+        "publish one or more versions of your API Gateway",
+        "publish one or more versions of your Lambda function and API Gateway"
+      ],
+      "correctAnswer": ["publish one or more versions of your Lambda function"]
+    }
+  },
+  {
+    "id": "461",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Each version of your Lambda function has a(n) ______",
+      "answers": [
+        "unique ARN",
+        "ARN",
+        "unique API Gateway",
+        "API Gateway"
+      ],
+      "correctAnswer": ["unique ARN"]
+    }
+  },
+  {
+    "id": "462",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "After you publish a version of your lambda function it is ______",
+      "answers": [
+        "immutable",
+        "modifiable",
+        "deletable",
+        "versionable"
+      ],
+      "correctAnswer": ["immutable"]
+    }
+  },
+  {
+    "id": "463",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of ARNs associated with a Lambda function?",
+      "answers": [
+        "Qualified ARN",
+        "Unqualified ARN",
+        "Versioned ARN",
+        "Certified ARN",
+        "Verified ARN",
+        "Dirty ARN"
+      ],
+      "correctAnswer": ["Qualified ARN",
+        "Unqualified ARN"]
+    }
+  },
+  {
+    "id": "464",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which is the lambda function ARN with the version suffix?",
+      "answers": [
+        "Qualified ARN",
+        "Unqualified ARN",
+        "Versioned ARN",
+        "Certified ARN",
+        "Verified ARN",
+        "Dirty ARN"
+      ],
+      "correctAnswer": ["Qualified ARN"]
+    }
+  },
+  {
+    "id": "464",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "Which is the lambda function ARN without the version suffix?",
+      "answers": [
+        "Qualified ARN",
+        "Unqualified ARN",
+        "Versioned ARN",
+        "Certified ARN",
+        "Verified ARN",
+        "Dirty ARN"
+      ],
+      "correctAnswer": ["Unqualified ARN"]
+    }
+  },
+  {
+    "id": "465",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "What is the structure of the lambda ARN?",
+      "answers": [
+        "arn:aws:lambda:regionname:acct-id:function:functionname",
+        "arn:aws:lambda:acct-id:regionname:function:functionname",
+        "arn:aws:lambda:functionname:acct-id:function:regionname",
+        "arn:lambda:aws:regionname:acct-id:function:functionname"
+      ],
+      "correctAnswer": ["arn:aws:lambda:regionname:acct-id:function:functionname"]
+    }
+  },
+  {
+    "id": "465",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "What is the structure to the versioned lambda ARN?",
+      "answers": [
+        "arn:aws:lambda:regionname:acct-id:function:functionname:$LATEST",
+        "arn:aws:lambda:acct-id:regionname:function:functionname:$LATEST",
+        "arn:aws:lambda:functionname:acct-id:function:regionname:$LATEST",
+        "arn:lambda:aws:regionname:acct-id:function:functionname:$LATEST"
+      ],
+      "correctAnswer": ["arn:aws:lambda:regionname:acct-id:function:functionname:$LATEST"]
+    }
+  },
+  {
+    "id": "466",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "You can use a(n) ______ to invoke a version of your function",
+      "answers": [
+        "alias",
+        "variable",
+        "pointer",
+        "version name"
+      ],
+      "correctAnswer": ["alias"]
+    }
+  },
+  {
+    "id": "467",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "You can use an alias to invoke a version of your function after you ______ it",
+      "answers": [
+        "publish",
+        "build",
+        "test",
+        "deploy"
+      ],
+      "correctAnswer": ["publish"]
+    }
+  },
+  {
+    "id": "468",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "If you decide to roll back to the old version, you just ______",
+      "answers": [
+        "repoint the alias to the old version",
+        "repoint the function to the old version",
+        "repoint the pointer to the old version",
+        "repoint the deploy to the old version"
+      ],
+      "correctAnswer": ["repoint the alias to the old version"]
+    }
+  },
+  {
+    "id": "469",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Lambda",
+      "questionType": "multiple choice 1",
+      "question": "You can use versioning to create ______",
+      "answers": [
+        "splits between traffic, such as blue/green deployments",
+        "parallel traffic, such as blue/green deployments",
+        "sequential traffic, such as blue/green deployments",
+        "random traffic, such as blue/green deployments"
+      ],
+      "correctAnswer": ["splits between traffic, such as blue/green deployments"]
+    }
+  },
+  {
+    "id": "470",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "Step Functions allow you to  ______ and ______ your serverless applications",
+      "answers": [
+        "visualize, test",
+        "print, test",
+        "stream, test",
+        "deploy, visuzlize"
+      ],
+      "correctAnswer": ["visualize, test"]
+    }
+  },
+  {
+    "id": "471",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "Step Functions provides a(n) ______ to arrange and visualize the components of your application as a series of steps",
+      "answers": [
+        "graphical console",
+        "printed view",
+        "streaming view",
+        "realtime view"
+      ],
+      "correctAnswer": ["graphical console"]
+    }
+  },
+  {
+    "id": "472",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "This automatically triggers and tracks each step of your application, and retries when there are errors",
+      "answers": [
+        "Step Functions",
+        "X-Ray",
+        "Simple Workflow",
+        "SQS"
+      ],
+      "correctAnswer": ["Step Functions"]
+    }
+  },
+  {
+    "id": "473",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "This logs the state of each step, so you can diagnose and debug",
+      "answers": [
+        "Step Functions",
+        "X-Ray",
+        "Simple Workflow",
+        "SQS"
+      ],
+      "correctAnswer": ["Step Functions"]
+    }
+  },
+  {
+    "id": "474",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 3",
+      "question": "What are the three types of steps you can have in your Step Functions flow?",
+      "answers": [
+        "sequential",
+        "branching",
+        "parallel",
+        "random",
+        "logarithmic",
+        "linear"
+      ],
+      "correctAnswer": ["sequential",
+        "branching",
+        "parallel"]
+    }
+  },
+  {
+    "id": "475",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "What is the language used to write Step Functions?",
+      "answers": [
+        "Amazon States Language",
+        "Amazon Steps Language",
+        "Amazon JSON Language",
+        "Amazon XML Language",
+        "Amazon YAML Language"
+      ],
+      "correctAnswer": ["Amazon States Language"]
+    }
+  },
+  {
+    "id": "476",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "______ is a service that collects data about requests that your application serves, and provides tools you can use to view, filter, and gain insights into that data to identify issues and opportunities for optimization",
+      "answers": [
+        "Step Functions",
+        "X-Ray",
+        "Simple Workflow",
+        "SQS"
+      ],
+      "correctAnswer": ["X-Ray"]
+    }
+  },
+  {
+    "id": "477",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 2",
+      "question": "For any traced request to your application, you can see which of these?",
+      "answers": [
+        "details of the request and response",
+        "calls your application makes to downstream AWS resources",
+        "URL of requesting resource",
+        "IP address of calling user"
+      ],
+      "correctAnswer": ["details of the request and response",
+        "calls your application makes to downstream AWS resources"]
+    }
+  },
+  {
+    "id": "478",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 4",
+      "question": "For which of these downstream application components can you see the details of call to when using X-Ray?",
+      "answers": [
+        "AWS resources",
+        "microservices",
+        "databases",
+        "HTTP web APIs",
+        "networks",
+        "VPCs"
+      ],
+      "correctAnswer": ["AWS resources",
+        "microservices",
+        "databases",
+        "HTTP web APIs"]
+    }
+  },
+  {
+    "id": "479",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "______ initiates the sending of information (in JSON) to the other X-Ray components",
+      "answers": [
+        "X-Ray SDK",
+        "X-Ray Daemon",
+        "X-Ray API",
+        "X-Ray Log"
+      ],
+      "correctAnswer": ["X-Ray SDK"]
+    }
+  },
+  {
+    "id": "480",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "______ sends the JSON to the X-Ray API",
+      "answers": [
+        "X-Ray SDK",
+        "X-Ray Daemon",
+        "X-Ray API",
+        "X-Ray Log"
+      ],
+      "correctAnswer": ["X-Ray Daemon"]
+    }
+  },
+  {
+    "id": "481",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "X-Ray creates a visualization of the functioning of your app, which it displays in the ______",
+      "answers": [
+        "X-Ray Console",
+        "X-Ray Daemon",
+        "X-Ray API",
+        "X-Ray Log"
+      ],
+      "correctAnswer": ["X-Ray Console"]
+    }
+  },
+  {
+    "id": "482",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "______ and ______ can communicate directly with the X-Ray Daemon and/or the X-Ray API",
+      "answers": [
+        "AWS SDK, AWS CLI",
+        "AWS SDK, AWS Console",
+        "AWS SQS, AWS CLI",
+        "AWS SNS, AWS CLI"
+      ],
+      "correctAnswer": ["AWS SDK, AWS CLI"]
+    }
+  },
+  {
+    "id": "483",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 3",
+      "question": "The X-Ray SDK provides which 3 of these?",
+      "answers": [
+        "Interceptors",
+        "Client handlers",
+        "An HTTP client",
+        "A TCP Client",
+        "A desktop client"
+      ],
+      "correctAnswer": ["Interceptors",
+        "Client handlers",
+        "An HTTP client"]
+    }
+  },
+  {
+    "id": "484",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "The X-Ray SDK uses ______ to add to your code to trace incoming HTTP requests",
+      "answers": [
+        "Interceptors",
+        "Client handlers",
+        "An HTTP client",
+        "A TCP Client",
+        "A desktop client"
+      ],
+      "correctAnswer": ["Interceptors"]
+    }
+  },
+  {
+    "id": "485",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "The X-Ray SDK uses ______ to instrument AWS SDK clients that your application uses to call other AWS services",
+      "answers": [
+        "Interceptors",
+        "Client handlers",
+        "An HTTP client",
+        "A TCP Client",
+        "A desktop client"
+      ],
+      "correctAnswer": ["Client handlers"]
+    }
+  },
+  {
+    "id": "486",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 1",
+      "question": "The X-Ray SDK uses ______ to instrument calls to other internal and external HTTP web services",
+      "answers": [
+        "Interceptors",
+        "Client handlers",
+        "An HTTP client",
+        "A TCP Client",
+        "A desktop client"
+      ],
+      "correctAnswer": ["An HTTP client"]
+    }
+  },
+  {
+    "id": "487",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 5",
+      "question": "X-Ray integrates with the following AWS services",
+      "answers": [
+        "Elastic Load Balancing",
+        "Lambda",
+        "API Gateway",
+        "EC2",
+        "Elastic Beanstalk",
+        "S3",
+        "Auto Scaling Groups",
+        "SQS",
+        "SNS"
+      ],
+      "correctAnswer": ["Elastic Load Balancing",
+        "Lambda",
+        "API Gateway",
+        "EC2",
+        "Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "487",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Step Functions & X-Ray",
+      "questionType": "multiple choice 6",
+      "question": "What are the X-Ray supported languages",
+      "answers": [
+        "Java",
+        "Go",
+        "Node.js",
+        "Python",
+        "Ruby",
+        ".Net",
+        "C++",
+        "C",
+        "Scala",
+        "Rails",
+        "PHP"
+      ],
+      "correctAnswer": ["Java",
+        "Go",
+        "Node.js",
+        "Python",
+        "Ruby",
+        ".Net"]
+    }
+  }
+]
