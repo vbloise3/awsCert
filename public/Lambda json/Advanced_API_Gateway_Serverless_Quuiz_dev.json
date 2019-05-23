@@ -284,7 +284,7 @@
       "question": "You have designed a serverless learning management system and you are ready to deploy your code in to a test-dev environment. The system uses a combination of Lambda, API Gateway, S3 and CloudFront and is architected to be highly available, fault tolerant and scalable. What are the three different ways you can deploy your code to lambda. (Choose 3)",
       "answers": [
         "Zip your code into a zip file and upload it via the Lambda console",
-        "Import your code to Amazon’s Glacier and change your Lambda execution handler to point to glacier",
+        "Import your code to Amazon Glacier and change your Lambda execution handler to point to glacier",
         "Copy and paste your code in to the integrated development environment (IDE) inside Lambda",
         "Upload your code to S3 and use a MySQL connection string to connect Lambda to your S3 bucket",
         "Write a CloudFormation template that will deploy your environment including your code"
