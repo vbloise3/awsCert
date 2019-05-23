@@ -327,7 +327,7 @@ API Gateway
    - Mock: return a response purely using API Gateway mappings and transformations
    - AWS Service
    - VPC Link
-Version Control with Lambda (START HERE)
+Version Control with Lambda
    - When you use versioning with Lambda, you can publish one or more versions of your Lambda function
    - Each version of your Lambda function has a unique ARN
    - After you publish a version it is immutable
@@ -361,7 +361,7 @@ X-Ray
       - the X-Ray creates a visualization of the functioning of your app, which it displays in the X-Ray Console
       - the AWS SDK and the AWS CLI can communicate directly with the X-Ray Daemon and/or the X-Ray API
    - The X-Ray SDK provides
-      - Interceptors to add to your code to trace incomming HTTP requests
+      - Interceptors to add to your code to trace incoming HTTP requests
       - Client handlers to instrument AWS SDK clients that your application uses to call other AWS services
       - An HTTP client to use to instrument calls to other internal and external HTTP web services
    - X-Ray integrates with the following AWS services
@@ -377,5 +377,75 @@ X-Ray
       - Python
       - Ruby
       - .Net
-Advanced API Gateway
-  -
+Advanced API Gateway (START HERE)
+  - You can use the API Gateway Import API feature to import an API from an external definition file into API Gateway
+  - Currently the API feature supports Swagger v2.0 definition files
+  - With the Import API, you can either create a new API by submitting a POST request that includes a Swagger definition in the payload and endpoint configuration,
+    or you can update an existing API by using a PUT request that contains a Swagger definition in the payload
+  - You can update an API by overwriting it with a new definition, or merge a definition with an existing API
+  - You specify the options using a mode query parameter in the request URL
+  - API Throttling
+    - by default API Gateway limits the steady-state request rate tp 10,000 requests per second (rps)
+    - The maximum concurrent requests is 5,000 requests across all APIs within an AWS account
+    - If you go over 10,000 requests per second or over 5,000 concurrent requests you will receive a 429 Too Many Requests error response
+  - SOAP Webservice Passthrough
+    - You can configure API Gateway as a SOAP web service passthrough
+Serverless Quiz
+  - Which of the following services does X-ray integrate with? (Choose 3)
+    - Lambda (correct)
+    - S3
+    - Elastic Load Balancer (correct)
+    - API Gateway (correct)
+ - You have launched a new web application on AWS using API Gateway, Lambda and S3. Someone posts a thread to reddit about your application and it starts to go viral. You start receiving 10,000 requests every second and you notice that most requests are similar. Your web application begins to struggle. What can you do to optimize performance of your application?
+   - Enable API Gateway caching to cache frequent requests (correct)
+   - Enable API Gateway Accelerator
+   - Migrate your API Gateway to a Network Load Balancer and enable session stickiness for all sessions
+   - Change your Route53 alias record to point to AWS Neptune and then configure Neptune to filter your API requests to genuine requests only
+ - You have created an application using serverless architecture using Lambda, Api Gateway, S3 and DynamoDB. Your boss asks you to do a major upgrade to API Gateway and you do this and deploy it to production. Unfortunately something has gone wrong and now your application is offline. What should you do to bring your application up as quickly as possible?
+   - Restore your previous API gateway configuration using an EBS snapshot
+   - Rollback your API Gateway to the previous stage (correct)
+   - Restart API Gateway for the new changes to take effect
+   - Delete the existing API Gateway
+ - You have created a serverless application which converts text into speech using a combination of S3, API Gateway, Lambda, Polly, DynamoDB and SNS. Your users complain that only some text is being converted, whereas longer amounts of text does not get converted. What could be the cause of this problem?
+   - Polly has built in censorship, so if you try and send it text that is deemed offensive, it will not generate an MP3
+   - You have placed your DynamoDB table in a single availability zone which is currently down, causing an outage
+   - AWS X-ray service is interfering with the application and should be disabled
+   - Your lambda function needs a longer execution time. You should check how long is needed in the fringe cases and increase the timeout inside the function to slightly longer than that (correct)
+ - How does API Gateway deal with legacy SOAP applications
+   - Converts the response from the application to XML
+   - Provides webservice passthrough for SOAP applications (correct)
+   - Converts the response from the application to REST
+   - Converts the response from the application to HTML
+ - You work for a gaming company that has built a serverless application on AWS using Lambda, API Gateway and DynamoDB. They release a new version of the lambda function and the application stops working. You need to get the application up and back online as fast as possible. What should you do?
+   - DynamoDB is not serverless and is causing the error. Migrate your database to RDS and redeploy the lambda function
+   - Create a CloudFormation template of the environment. Deploy this template to a separate region and then redirect Route53 to the new region
+   - The new function has some dependencies not available to lambda. Redeploy the application on EC2 and put the EC2 instances behind a network load balancer
+   - Roll your lambda function back to the previous version (correct)
+ - You are developing a new application using serverless infrastructure and are using services such as S3, DynamoDB, Lambda, API Gateway, CloudFront, CloudFormation and Polly. You deploy your application to production and your end users begin complaining about receiving a HTTP 429 error. What could be the cause of the error?
+   - Your cloudformation stack is not valid and is failing to deploy properly which is causing a HTTP 429 error
+   - You enabled API throttling for a rate limit of 1000 requests per second while in development and now that you have deployed to production your API Gateway is being throttled (correct)
+   - You have an S3 bucket policy which is preventing lambda from being able to write files to your bucket, generating a HTTP 429 error
+   - Your lambda function does not have sufficient permissions to read to DynamoDB and this is generating a HTTP 429 error
+ - You are a developer for a busy real estate company and you want to enable other real estate agents to the ability to show properties on your books, but skinned so that it looks like their own website. You decide the most efficient way to do this is to create is to expose your API to the public. The project works well, however one of your competitors starts abusing this, sending your API tens of thousands of requests per second. This generates a HTTP 429 error. Each agent connects to your API using individual API keys. What actions can you take to stop this behavior?
+   - Use AWS Shield Advanced API protection to block the requests
+   - Place an AWS Web Application Firewall in front of API gateway and filter the requests
+   - Deploy multiple API Gateways and give the agent access to another API Gateway
+   - Throttle the agents API access using the individual API Keys (correct)
+ - You have designed a serverless learning management system and you are ready to deploy your code in to a test-dev environment. The system uses a combination of Lambda, API Gateway, S3 and CloudFront and is architected to be highly available, fault tolerant and scalable. What are the three different ways you can deploy your code to lambda. (Choose 3)
+   - Zip your code into a zip file and upload it via the Lambda console (correct)
+   - Import your code to Amazon’s Glacier and change your Lambda execution handler to point to glacier
+   - Copy and paste your code in to the integrated development environment (IDE) inside Lambda (correct)
+   - Upload your code to S3 and use a MySQL connection string to connect Lambda to your S3 bucket
+   - Write a CloudFormation template that will deploy your environment including your code (correct)
+ - You have created a simple serverless website using S3, Lambda, API Gateway and DynamoDB. Your website will process the contact details of your customers, predict an expected delivery date of their order and store their order in DynamoDB. You test the website before deploying it into production and you notice that although the page executes, and the lambda function is triggered, it is unable to write to DynamoDB. What could be the cause of this issue?
+   - The availability zone that DynamoDB is hosted in is down
+   - You have written your function in python which is not supported as a run time environment for Lambda
+   - Your lambda function does not have the sufficient Identity Access Management (IAM) permissions to write to DynamoDB (correct)
+   - The availability zone that Lambda is hosted in is down
+ - You have an internal API that you use for your corporate network. Your company has decided to go all in on AWS to reduce their data center footprint. They will need to leverage their existing API within AWS. What is the most efficient way to do this.
+   - Use AWS API Import-Export feature of AWS Storage Gateway
+   - Recreate the API manually
+   - Use the Swagger Importer tool to import your API in to API Gateway (correct)
+   - Replicate your API to API Gateway using the API Replication Master
+Introduction to DynamoDB
+ -
