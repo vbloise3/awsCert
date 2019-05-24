@@ -1,0 +1,535 @@
+[
+  {
+    "id": "535",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB supports how many types of indexes?",
+      "answers": [
+        "2",
+        "1",
+        "3",
+        "5",
+        "DynamoDB does not support indexing"
+      ],
+      "correctAnswer": ["2"]
+    }
+  },
+  {
+    "id": "536",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of indexes DynamoDB supports?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index",
+        "Local Tertiary Index"
+      ],
+      "correctAnswer": ["Local Secondary Index",
+        "Global Secondary Index"]
+    }
+  },
+  {
+    "id": "536",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type can only be created when you are creating your table?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Local Secondary Index"]
+    }
+  },
+  {
+    "id": "537",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type cannot be added, removed, or modified once it has been created?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Local Secondary Index"]
+    }
+  },
+  {
+    "id": "538",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type has the same partition key as the table it indexes but has a different sort key than the table it indexes?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Local Secondary Index"]
+    }
+  },
+  {
+    "id": "539",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type gives you a different view of your data, organized according to an alternative sort key?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Local Secondary Index"]
+    }
+  },
+  {
+    "id": "540",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type can you create when you create your table, or add it later?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Global Secondary Index"]
+    }
+  },
+  {
+    "id": "541",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type has a different partition key as well as different sort key, and gives a completely different view of the data?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Global Secondary Index"]
+    }
+  },
+  {
+    "id": "542",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB index type speeds up any queries relating to the index alternative partition key and sort key?",
+      "answers": [
+        "Local Secondary Index",
+        "Global Secondary Index",
+        "Global Primary Index",
+        "Local Primary Index",
+        "Global Tertiary Index"
+      ],
+      "correctAnswer": ["Global Secondary Index"]
+    }
+  },
+  {
+    "id": "543",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "What are the two different ways of getting data out of a DynamoDB table?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query",
+        "Scan"]
+    }
+  },
+  {
+    "id": "545",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request finds items in the table based on the primary key and a distinct value to search for?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "546",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request can use an optional sort key name and value to refine the results?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "547",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "What types of DynamoDB request by default returns all the attributes for the items selected but you can use the ProjectionExpression parameter if you want to only return specific attributes?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query",
+        "Scan"]
+    }
+  },
+  {
+    "id": "547",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request has the results always sorted by the sort key?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "548",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request has ascending numeric order by default?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "549",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request has ascending ASCII character values order by default?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "550",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request can you reverse the order by setting the ScanIndexForward parameter to false?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "551",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request is eventually consistent by default?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "552",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request do you need to explicitly set to strongly consistent?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "553",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request examines every item in the table?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Scan"]
+    }
+  },
+  {
+    "id": "553",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request by default returns all data attributes?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Scan"]
+    }
+  },
+  {
+    "id": "553",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What type of DynamoDB request can you filter the results once it has been run?",
+      "answers": [
+        "Query",
+        "Scan",
+        "Select",
+        "Get",
+        "Batch Get"
+      ],
+      "correctAnswer": ["Scan"]
+    }
+  },
+  {
+    "id": "554",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB query type is more efficient?",
+      "answers": [
+        "Query",
+        "Scan"
+      ],
+      "correctAnswer": ["Query"]
+    }
+  },
+  {
+    "id": "555",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB query type dumps the entire table, then filters out the values to provide the desired result - removing the unwanted data?",
+      "answers": [
+        "Query",
+        "Scan"
+      ],
+      "correctAnswer": ["Scan"]
+    }
+  },
+  {
+    "id": "556",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB query type when used on a large table can use up the provisioned throughput for a large table in just a single operation?",
+      "answers": [
+        "Query",
+        "Scan"
+      ],
+      "correctAnswer": ["Scan"]
+    }
+  },
+  {
+    "id": "557",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "you can reduce the impact of a query or scan by setting ______",
+      "answers": [
+        "a smaller page size",
+        "a larger page size"
+      ],
+      "correctAnswer": ["a smaller page size"]
+    }
+  },
+  {
+    "id": "558",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "Avoid using scan operations if you can, design tables in a way that you can use ___ APIs",
+      "answers": [
+        "Query",
+        "Get",
+        "BatchGetItem",
+        "BatchQueryItems",
+        "BatchScanItems"
+      ],
+      "correctAnswer": ["Query",
+        "Get",
+        "BatchGetItem"]
+    }
+  },
+  {
+    "id": "559",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "By default, a scan operation processes data ______",
+      "answers": [
+        "sequentially",
+        "randomly",
+        "incrementally",
+        "bidirectionally"
+      ],
+      "correctAnswer": ["sequentially"]
+    }
+  },
+  {
+    "id": "560",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "By default, a scan operation returns ______ increments before moving on to retrieve the next ______ of data",
+      "answers": [
+        "1MB",
+        "1GB",
+        "1MB",
+        "1KB"
+      ],
+      "correctAnswer": ["1MB"]
+    }
+  },
+  {
+    "id": "560",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "A scan operation can only scan ______ at a time",
+      "answers": [
+        "1 partition",
+        "2 partitions",
+        "1 segment",
+        "1 table index"
+      ],
+      "correctAnswer": ["1 partition"]
+    }
+  },
+  {
+    "id": "561",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "You can configure DynamoDB to use ______ by logically dividing a table or index into segments and scanning each segment ______",
+      "answers": [
+        "Parallel scans, in parallel",
+        "Partial scans, in parallel",
+        "Multiple scans, in sequence",
+        "Single scans, in sequence"
+      ],
+      "correctAnswer": ["Parallel scans, in parallel"]
+    }
+  },
+  {
+    "id": "562",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "It is best to avoid ______ if your table or index is already incurring heavy read - write activity from other applications",
+      "answers": [
+        "parallel scans",
+        "sequential scans",
+        "single scans",
+        "multiple scans"
+      ],
+      "correctAnswer": ["parallel scans"]
+    }
+  }
+]

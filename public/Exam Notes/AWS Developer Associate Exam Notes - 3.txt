@@ -447,7 +447,7 @@ Serverless Quiz
    - Recreate the API manually
    - Use the Swagger Importer tool to import your API in to API Gateway (correct)
    - Replicate your API to API Gateway using the API Replication Master
-Introduction to DynamoDB (START HERE)
+Introduction to DynamoDB
  - DynamoDB supports both document and key-value data models
  - It is a great fit for mobile, web, gaming, ad-tech, IoT, and many others
  - DynamoDB is serverless
@@ -486,3 +486,45 @@ Introduction to DynamoDB (START HERE)
    - You can create an IAM role which allows you to obtain temporary access keys which can be used to access DynamoDB
    - You can use a special IAM Condition to an IAM policy to restrict user access to only their own records based on their partition key (i.e. userID)
      - the dynamodb:LeadingKeys parameter in the policy is used to allow users to access only the items where where the partition key value matches their userID
+DynamoDB Indexes - Deep Dive (START HERE)
+   - DynamoDB supports 2 types of indexes to speed up queries:
+     - Local Secondary Index
+       - can only be created when you are creating your table
+       - you cannot add, remove, or modify it once it has been created
+       - it has the same partition key as the table it indexes
+       - it has a different sort key than the table it indexes
+       - gives you a different view of your data, organized according to an alternative sort key
+       - any queries based on this index are much faster using the index than the main table
+     - Global Secondary Index
+       - can create when you create your table, or add it later
+       - different partition key as well as different sort key, gives a completely different view of the data
+       - speeds up any queries relating to this alternative partition key and sort key
+Scan versus Query API Call
+  - Two different ways of getting data out of a DynamoDB table:
+    - Query
+      - finds items in the table based on the primary key and a distinct value to search for
+      - can use an optional sort key name and value to refine the results
+      - by default returns all the attributes for the items selected but you can use the ProjectionExpression parameter if you want to only return specific attributes
+      - results are always sorted by the sort key
+      - numeric order by default is ascending
+      - ASCII character values ordered in ascending or by default
+      - you can reverse the order by setting the ScanIndexForward parameter to false
+      - eventually consistent by default
+      - need to explicitly set to strongly consistent
+    - Scan
+      - examines every item in the table
+      - by default returns all data attributes
+      - use the ProjectExpression parameter to only return the attributes you want
+      - can filter the results once it has been run
+  - Query or Scan
+    - query is more efficient than scan
+    - scan dumps the entire table, then filters out the values to provide the desired result - removing the unwanted data
+    - a scan on a large table can use up the provisioned throughput for a large table in just a single operation
+    - you can reduce the impact of a query or scan by setting a smaller page size which uses fewer read operations
+      - larger numbers of smaller read operations will allow other requests to succeed without throttling
+    - avoid using scan operations if you can
+      - design tables in a way that you can use the Query, Get, or BatchGetItem APIs
+    - by default, a scan operation processes data sequentially in returning 1MB increments before moving on to retrieve the next 1MB of data
+      - can only scan 1 partition at a time
+    - you can configure DynamoDB to use Parallel scans instead by logically dividing a table or index into segments and scanning each segment in parallel
+      - it is best to avoid parallel scans if your table or index is already incurring heavy read - write activity from other applications
