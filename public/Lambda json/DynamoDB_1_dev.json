@@ -1,0 +1,485 @@
+[
+  {
+    "id": "508",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB supports both ______ and ______ data models",
+      "answers": [
+        "document, key-value",
+        "relational, key-value",
+        "document, hash-value",
+        "relational, schema-free"
+      ],
+      "correctAnswer": ["document, key-value"]
+    }
+  },
+  {
+    "id": "509",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 5",
+      "question": "DynamoDB is a great fit for which of these?",
+      "answers": [
+        "mobile",
+        "web",
+        "gaming",
+        "ad-tech",
+        "IoT",
+        "transactional",
+        "ledger"
+      ],
+      "correctAnswer": ["mobile",
+        "web",
+        "gaming",
+        "ad-tech",
+        "IoT"]
+    }
+  },
+  {
+    "id": "510",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB is ______",
+      "answers": [
+        "serverless",
+        "multi-AZ",
+        "regional",
+        "relational"
+      ],
+      "correctAnswer": ["serverless"]
+    }
+  },
+  {
+    "id": "511",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB is ______",
+      "answers": [
+        "Fully Managed",
+        "user installed",
+        "managed on EC2 instances",
+        "relational"
+      ],
+      "correctAnswer": ["Fully Managed"]
+    }
+  },
+  {
+    "id": "512",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB can be configured to ______",
+      "answers": [
+        "auto-scale",
+        "manually scale",
+        "roll back",
+        "scale up"
+      ],
+      "correctAnswer": ["auto-scale"]
+    }
+  },
+  {
+    "id": "513",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB tables are stored on ______",
+      "answers": [
+        "SSD storage",
+        "HDD storage",
+        "Dynamic storage",
+        "Magnetic storage"
+      ],
+      "correctAnswer": ["SSD storage"]
+    }
+  },
+  {
+    "id": "514",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "The underlying hardware supporting your DynamoDB tables is spread across ______",
+      "answers": [
+        "3 geographically distinct datacenters",
+        "3 geographically distinct AZs",
+        "3 geographically distinct regions",
+        "2 geographically distinct datacenters"
+      ],
+      "correctAnswer": ["3 geographically distinct datacenters"]
+    }
+  },
+  {
+    "id": "515",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "DynamoDB has a choice of which two consistency models for reads?",
+      "answers": [
+        "Eventually consistent",
+        "Strongly consistent",
+        "Always consistent",
+        "Weakly consistent"
+      ],
+      "correctAnswer": ["Eventually consistent",
+        "Strongly consistent"]
+    }
+  },
+  {
+    "id": "516",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB consistency model provides consistency across all the copies of data is usually reached within a second?",
+      "answers": [
+        "Eventually consistent",
+        "Strongly consistent",
+        "Always consistent",
+        "Weakly consistent"
+      ],
+      "correctAnswer": ["Eventually consistent"]
+    }
+  },
+  {
+    "id": "517",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB consistency model when repeating a read after a short time should return the updated data (best performance)?",
+      "answers": [
+        "Eventually consistent",
+        "Strongly consistent",
+        "Always consistent",
+        "Weakly consistent"
+      ],
+      "correctAnswer": ["Eventually consistent"]
+    }
+  },
+  {
+    "id": "518",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB consistency model returns a result that reflects all writes that received a successful response prior to the read?",
+      "answers": [
+        "Eventually consistent",
+        "Strongly consistent",
+        "Always consistent",
+        "Weakly consistent"
+      ],
+      "correctAnswer": ["Strongly consistent"]
+    }
+  },
+  {
+    "id": "519",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "DynamoDB is made of of which of these?",
+      "answers": [
+        "Tables",
+        "Items",
+        "Attributes",
+        "rows",
+        "columns",
+        "indexes"
+      ],
+      "correctAnswer": ["Tables",
+        "Items",
+        "Attributes"]
+    }
+  },
+  {
+    "id": "520",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB elements are similar to a row of data?",
+      "answers": [
+        "Tables",
+        "Items",
+        "Attributes",
+        "rows",
+        "columns",
+        "indexes"
+      ],
+      "correctAnswer": ["Items"]
+    }
+  },
+  {
+    "id": "521",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB elements are similar to a column of data?",
+      "answers": [
+        "Tables",
+        "Items",
+        "Attributes",
+        "rows",
+        "columns",
+        "indexes"
+      ],
+      "correctAnswer": ["Attributes"]
+    }
+  },
+  {
+    "id": "522",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "DynamoDB documents can be written in which of these?",
+      "answers": [
+        "JSON",
+        "XML",
+        "HTML",
+        "YAML",
+        "CDL"
+      ],
+      "correctAnswer": ["JSON",
+        "XML",
+        "HTML"]
+    }
+  },
+  {
+    "id": "523",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB stores and retrieves data based on a ______",
+      "answers": [
+        "Primary Key",
+        "Random Key",
+        "Relational Key",
+        "Sequential Key",
+        "Sort Key"
+      ],
+      "correctAnswer": ["Primary Key"]
+    }
+  },
+  {
+    "id": "524",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "DynamoDB has two types of primary key",
+      "answers": [
+        "Partition Key",
+        "Composite Key",
+        "Relational Key",
+        "Sequential Key",
+        "Random Key",
+        "Sort Key"
+      ],
+      "correctAnswer": ["Partition Key",
+        "Composite Key"]
+    }
+  },
+  {
+    "id": "525",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "This type of DynamoDB primary key is input into an internal hash function which determines the partition or physical location on which the data is stored",
+      "answers": [
+        "Partition Key",
+        "Composite Key",
+        "Relational Key",
+        "Sequential Key",
+        "Random Key",
+        "Sort Key"
+      ],
+      "correctAnswer": ["Partition Key"]
+    }
+  },
+  {
+    "id": "526",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "If you use this type of DynamoDB primary key no two items can have the same key",
+      "answers": [
+        "Partition Key",
+        "Composite Key",
+        "Relational Key",
+        "Sequential Key",
+        "Random Key",
+        "Sort Key"
+      ],
+      "correctAnswer": ["Partition Key"]
+    }
+  },
+  {
+    "id": "527",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "This type of DynamoDB primary key is made up of a Partition Key plus a Sort Key",
+      "answers": [
+        "Partition Key",
+        "Composite Key",
+        "Relational Key",
+        "Sequential Key",
+        "Random Key",
+        "Sort Key"
+      ],
+      "correctAnswer": ["Composite Key"]
+    }
+  },
+  {
+    "id": "528",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB composite keys two items may have the same partition key but the must have different different ______",
+      "answers": [
+        "Sort keys",
+        "Composite keys",
+        "Relational keys",
+        "Sequential keys",
+        "Random keys"
+      ],
+      "correctAnswer": ["Sort keys"]
+    }
+  },
+  {
+    "id": "529",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB composite keys All items with the same partition key are stored together then sorted according to the ______",
+      "answers": [
+        "Sort key",
+        "Composite key",
+        "Relational key",
+        "Sequential key",
+        "Random key"
+      ],
+      "correctAnswer": ["Sort key"]
+    }
+  },
+  {
+    "id": "530",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB key allows you to store multiple items with the same partition key?",
+      "answers": [
+        "Partition key",
+        "Composite key",
+        "Relational key",
+        "Sequential key",
+        "Random key",
+        "Sort key"
+      ],
+      "correctAnswer": ["Composite key"]
+    }
+  },
+  {
+    "id": "531",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB authentication and access control is managed by ______",
+      "answers": [
+        "IAM Policies",
+        "IAM Roles",
+        "IAM Users",
+        "IAM Groups",
+        "KMS"
+      ],
+      "correctAnswer": ["IAM Policies"]
+    }
+  },
+  {
+    "id": "532",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What can you create to have specific permissions to access and create DynamoDB tables?",
+      "answers": [
+        "an IAM Policy",
+        "an IAM Role",
+        "an IAM User",
+        "an IAM Group"
+      ],
+      "correctAnswer": ["an IAM User"]
+    }
+  },
+  {
+    "id": "533",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What can you create to allow you to obtain temporary access keys which can be used to access DynamoDB?",
+      "answers": [
+        "an IAM Policy",
+        "an IAM Role",
+        "an IAM User",
+        "an IAM Group"
+      ],
+      "correctAnswer": ["an IAM Role"]
+    }
+  },
+  {
+    "id": "534",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "What can you add to an IAM policy to restrict user access to only their own records based on their partition key (i.e. userID)?",
+      "answers": [
+        "a special IAM Condition",
+        "an IAM Role",
+        "a special IAM Tag",
+        "a special IAM Rule"
+      ],
+      "correctAnswer": ["a special IAM Condition"]
+    }
+  },
+  {
+    "id": "535",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "The ______ parameter in the policy is used to allow users to access only the items where where the partition key value matches their userID",
+      "answers": [
+        "dynamodb:LeadingKeys",
+        "dynamodb:PrimaryKey",
+        "dynamodb:SortKey",
+        "dynamodb:Attributes",
+        "dynamodb:Select"
+      ],
+      "correctAnswer": ["dynamodb:LeadingKeys"]
+    }
+  }
+]

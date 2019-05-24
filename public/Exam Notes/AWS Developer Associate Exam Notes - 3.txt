@@ -377,7 +377,7 @@ X-Ray
       - Python
       - Ruby
       - .Net
-Advanced API Gateway (START HERE)
+Advanced API Gateway
   - You can use the API Gateway Import API feature to import an API from an external definition file into API Gateway
   - Currently the API feature supports Swagger v2.0 definition files
   - With the Import API, you can either create a new API by submitting a POST request that includes a Swagger definition in the payload and endpoint configuration,
@@ -385,7 +385,7 @@ Advanced API Gateway (START HERE)
   - You can update an API by overwriting it with a new definition, or merge a definition with an existing API
   - You specify the options using a mode query parameter in the request URL
   - API Throttling
-    - by default API Gateway limits the steady-state request rate tp 10,000 requests per second (rps)
+    - by default API Gateway limits the steady-state request rate to 10,000 requests per second (rps)
     - The maximum concurrent requests is 5,000 requests across all APIs within an AWS account
     - If you go over 10,000 requests per second or over 5,000 concurrent requests you will receive a 429 Too Many Requests error response
   - SOAP Webservice Passthrough
@@ -442,10 +442,47 @@ Serverless Quiz
    - You have written your function in python which is not supported as a run time environment for Lambda
    - Your lambda function does not have the sufficient Identity Access Management (IAM) permissions to write to DynamoDB (correct)
    - The availability zone that Lambda is hosted in is down
- - You have an internal API that you use for your corporate network. Your company has decided to go all in on AWS to reduce their data center footprint. They will need to leverage their existing API within AWS. What is the most efficient way to do this.
+ - You have an internal API that you use for your corporate network. Your company has decided to go all in on AWS to reduce their data center footprint. They will need to leverage their existing API within AWS. What is the most efficient way to do this?
    - Use AWS API Import-Export feature of AWS Storage Gateway
    - Recreate the API manually
    - Use the Swagger Importer tool to import your API in to API Gateway (correct)
    - Replicate your API to API Gateway using the API Replication Master
-Introduction to DynamoDB
- -
+Introduction to DynamoDB (START HERE)
+ - DynamoDB supports both document and key-value data models
+ - It is a great fit for mobile, web, gaming, ad-tech, IoT, and many others
+ - DynamoDB is serverless
+ - Fully Managed
+ - Can be configured to auto-scale
+ - DynamoDB tables are stored on SSD storage
+ - Underlying hardware supporting your DynamoDB tables is spread across 3 geographically distinct datacenters
+ - DynamoDB has a choice of two consistency models:
+   - Eventually consistent reads (default)
+     - Consistency across all the copies of data is usually reached within a second
+     - Repeating a read after a short time should return the updated data (best performance)
+   - Strongly consistent reads
+     - A strongly consistent read returns a result that reflects all writes that received a successful response prior to the read
+ - DynamoDB is made of of:
+   - Tables
+   - Items (think of a row of data)
+   - Attributes (think of a column of data)
+   - Supports key-value and document data structures
+   - Key = the name of the data, Value = the data itself
+   - Documents can be written in JSON, XML, or HTML
+ - DynamoDB stores and retrieves data based on a Primary Key
+ - 2 types of primary key:
+   - Partition Key: unique attribute (i.e. userID)
+     - The value of the Partition Key is input into an internal hash function which determines the partition or physical location on which the data is stored
+     - If you use the Partition Key as your Primary Key, then no two items can have the same Partition Key
+   - Composite Key: Partition Key + Sort Key
+     - The primary key is a composite key which is a consisting of:
+       - a partition key (i.e. userID)
+       - a sort key (i.e. the timestamp of the post)
+       - 2 items may have the same partition key but the must have different different sort keys
+       - All items with the same partition key are stored together then sorted according to the sort key
+       - Allows you to store multiple items with the same partition key
+ - Access Control to DynamoDB
+   - Authentication and access control is managed by IAM policies
+   - You can create an IAM user which has specific permissions to access and create DynamoDB tables
+   - You can create an IAM role which allows you to obtain temporary access keys which can be used to access DynamoDB
+   - You can use a special IAM Condition to an IAM policy to restrict user access to only their own records based on their partition key (i.e. userID)
+     - the dynamodb:LeadingKeys parameter in the policy is used to allow users to access only the items where where the partition key value matches their userID
