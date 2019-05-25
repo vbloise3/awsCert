@@ -1,0 +1,484 @@
+[
+  {
+    "id": "563",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB provisioned throughput is measured in ______",
+      "answers": [
+        "Capacity Units",
+        "Read Units",
+        "Write Units",
+        "Read-Write Units",
+        "IO Units"
+      ],
+      "correctAnswer": ["Capacity Units"]
+    }
+  },
+  {
+    "id": "564",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "When you create a table, you specify your requirements in terms of which two of these?",
+      "answers": [
+        "Read Capacity Units",
+        "Write Capacity Units",
+        "Throughput Capacity Units",
+        "Read-Write Capacity Units",
+        "IO Capacity Units"
+      ],
+      "correctAnswer": ["Read Capacity Units",
+        "Write Capacity Units"]
+    }
+  },
+  {
+    "id": "565",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "1 x write capacity unit = 1 x ______ write per second",
+      "answers": [
+        "1KB",
+        "2KB",
+        "3KB",
+        "4KB",
+        "5KB"
+      ],
+      "correctAnswer": ["1KB"]
+    }
+  },
+  {
+    "id": "566",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "1 x read capacity unit = ______ strongly consistent read(s) of ______ per second",
+      "answers": [
+        "1 x, 4KB",
+        "2 x, 1KB",
+        "3 x, 2KB",
+        "4 x, 1KB"
+      ],
+      "correctAnswer": ["1 x, 4KB"]
+    }
+  },
+  {
+    "id": "567",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "1 x read capacity unit = ______ eventually consistent read(s) of ______ per second",
+      "answers": [
+        "1 x, 4KB",
+        "2 x, 4KB",
+        "3 x, 2KB",
+        "4 x, 1KB"
+      ],
+      "correctAnswer": ["2 x, 4KB"]
+    }
+  },
+  {
+    "id": "568",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "If your application reads or writes larger items it will consume more ______ and will cost you more",
+      "answers": [
+        "capacity units",
+        "disk space",
+        "network traffic",
+        "memory"
+      ],
+      "correctAnswer": ["capacity units"]
+    }
+  },
+  {
+    "id": "568",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "DynamoDB On-Demand Capacity Charges apply for which three of these?",
+      "answers": [
+        "reading",
+        "writing",
+        "storing data",
+        "network traffic",
+        "memory used"
+      ],
+      "correctAnswer": ["reading",
+        "writing",
+        "storing data"]
+    }
+  },
+  {
+    "id": "569",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB On-Demand, you do not need to specify ______",
+      "answers": [
+        "requirements",
+        "API modules",
+        "response time",
+        "memory needed"
+      ],
+      "correctAnswer": ["requirements"]
+    }
+  },
+  {
+    "id": "570",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Based on the activity of your application, when using On-Demand capacity DynamoDB ______",
+      "answers": [
+        "instantly scales up and down",
+        "eventually scales up and down",
+        "does not scale",
+        "needs to scale manually"
+      ],
+      "correctAnswer": ["instantly scales up and down"]
+    }
+  },
+  {
+    "id": "571",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB On-Demand is great for ______",
+      "answers": [
+        "unpredictable workloads",
+        "predictable workloads",
+        "erratic workloads",
+        "minimal workloads"
+      ],
+      "correctAnswer": ["unpredictable workloads"]
+    }
+  },
+  {
+    "id": "572",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB On-Demand you pay ______",
+      "answers": [
+        "per request",
+        "per read capacity unit",
+        "per write capacity unit",
+        "per hour",
+        "per minute"
+      ],
+      "correctAnswer": ["per request"]
+    }
+  },
+  {
+    "id": "573",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 4",
+      "question": "DynamoDB On-Demand is good for which four of these?",
+      "answers": [
+        "unknown workloads",
+        "unpredictable application traffic",
+        "pay-per-use model",
+        "spiky, short-lived peaks",
+        "forecastable read and write capacity requirements",
+        "predicable application traffic",
+        "application traffic is consistent or increases gradually"
+      ],
+      "correctAnswer": ["unknown workloads",
+        "unpredictable application traffic",
+        "pay-per-use model",
+        "spiky, short-lived peaks"]
+    }
+  },
+  {
+    "id": "574",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "DynamoDB Provisioned Capacity is good for which three of these?",
+      "answers": [
+        "unknown workloads",
+        "unpredictable application traffic",
+        "pay-per-use model",
+        "spiky, short-lived peaks",
+        "forecastable read and write capacity requirements",
+        "predicable application traffic",
+        "application traffic is consistent or increases gradually"
+      ],
+      "correctAnswer": ["forecastable read and write capacity requirements",
+        "predicable application traffic",
+        "application traffic is consistent or increases gradually"]
+    }
+  },
+  {
+    "id": "575",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB you can change the ______ once per day",
+      "answers": [
+        "pricing model",
+        "schema",
+        "load",
+        "memory requirements",
+        "network requirements"
+      ],
+      "correctAnswer": ["pricing model"]
+    }
+  },
+  {
+    "id": "576",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "______ is a fully managed, clustered in-memory cache for DynamoDB",
+      "answers": [
+        "DynamoDB Accelerator (DAX)",
+        "ElastiCache",
+        "Redis",
+        "Memcached",
+        "Kinesis"
+      ],
+      "correctAnswer": ["DynamoDB Accelerator (DAX)"]
+    }
+  },
+  {
+    "id": "577",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DAX delivers up to ______ performance improvement",
+      "answers": [
+        "10x read",
+        "100x read",
+        "10x write",
+        "10x read-write",
+        "100x read-write"
+      ],
+      "correctAnswer": ["10x read"]
+    }
+  },
+  {
+    "id": "578",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DAX delivers ______ performance for ______ of requests per second",
+      "answers": [
+        "microsecond, millions",
+        "nanosecond, millions",
+        "millisecond, millions",
+        "microsecond, thousands",
+        "millisecond, thousands"
+      ],
+      "correctAnswer": ["microsecond, millions"]
+    }
+  },
+  {
+    "id": "579",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DAX is ideal for ______ and ______ workloads",
+      "answers": [
+        "read-heavy, bursty read",
+        "write-heavy, bursty read",
+        "write-heavy, bursty write",
+        "read-heavy, consistent read"
+      ],
+      "correctAnswer": ["read-heavy, bursty read"]
+    }
+  },
+  {
+    "id": "580",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "Examples of application types that are appropriate for use with DAX are which three of these",
+      "answers": [
+        "auction applications",
+        "gaming",
+        "retail sites during Black Friday promotions",
+        "applications that require strongly consistent reads",
+        "write intensive applications",
+        "applications that do not perform many read operations",
+        "applications that do not require microsecond response time"
+      ],
+      "correctAnswer": ["auction applications",
+        "gaming",
+        "retail sites during Black Friday promotions"]
+    }
+  },
+  {
+    "id": "581",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 4",
+      "question": "Examples of application types that are NOT appropriate for use with DAX are which four of these",
+      "answers": [
+        "auction applications",
+        "gaming",
+        "retail sites during Black Friday promotions",
+        "applications that require strongly consistent reads",
+        "write intensive applications",
+        "applications that do not perform many read operations",
+        "applications that do not require microsecond response time"
+      ],
+      "correctAnswer": ["applications that require strongly consistent reads",
+        "write intensive applications",
+        "applications that do not perform many read operations",
+        "applications that do not require microsecond response time"]
+    }
+  },
+  {
+    "id": "582",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DAX is a ______ caching service",
+      "answers": [
+        "write-through",
+        "read-through",
+        "write-twice",
+        "read-parallel"
+      ],
+      "correctAnswer": ["write-through"]
+    }
+  },
+  {
+    "id": "583",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DAX data is written to the cache as well as the back-end store ______",
+      "answers": [
+        "at the same time",
+        "in sequence",
+        "through a promise",
+        "through blocking"
+      ],
+      "correctAnswer": ["at the same time"]
+    }
+  },
+  {
+    "id": "584",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "If the item you are querying is in the cache (a cache hit), DAX returns ______ to the application",
+      "answers": [
+        "the cached result",
+        "the result from the table",
+        "the result from the API",
+        "the result from eith the table or the cache"
+      ],
+      "correctAnswer": ["the cached result"]
+    }
+  },
+  {
+    "id": "585",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "If the item is not in the cache (cache miss) then DAX performs an ______ against the DynamoDB table",
+      "answers": [
+        "eventually consistent GetItem operation",
+        "strongly consistent GetItem operation",
+        "eventually consistent GetAttribute operation",
+        "eventually consistent GetRow operation"
+      ],
+      "correctAnswer": ["eventually consistent GetItem operation"]
+    }
+  },
+  {
+    "id": "586",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Retrieval of data from DAX reduces the ______ on DynamoDB tables",
+      "answers": [
+        "read load",
+        "write load",
+        "read and write load",
+        "overall laod"
+      ],
+      "correctAnswer": ["read load"]
+    }
+  },
+  {
+    "id": "587",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DAX you may be able to reduce ______",
+      "answers": [
+        "provisioned read capacity",
+        "provisioned write capacity",
+        "provisioned read and write capacity",
+        "overall provisioned capacity"
+      ],
+      "correctAnswer": ["provisioned read capacity"]
+    }
+  },
+  {
+    "id": "588",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DAX improves response time for ______ reads only",
+      "answers": [
+        "eventually consistent",
+        "strongly consistent",
+        "eventually and strongly consistent",
+        "all read and write capacity"
+      ],
+      "correctAnswer": ["eventually consistent"]
+    }
+  },
+  {
+    "id": "589",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DAX you point your API calls at the ______ instead of your ______",
+      "answers": [
+        "DAX cluster, DynamoDB table",
+        "DAX cluster, DynamoDB index",
+        "DAX table, DynamoDB table",
+        "DAX table, DynamoDB index"
+      ],
+      "correctAnswer": ["DAX cluster, DynamoDB table"]
+    }
+  }
+]

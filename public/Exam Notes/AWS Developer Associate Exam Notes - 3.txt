@@ -486,7 +486,7 @@ Introduction to DynamoDB
    - You can create an IAM role which allows you to obtain temporary access keys which can be used to access DynamoDB
    - You can use a special IAM Condition to an IAM policy to restrict user access to only their own records based on their partition key (i.e. userID)
      - the dynamodb:LeadingKeys parameter in the policy is used to allow users to access only the items where where the partition key value matches their userID
-DynamoDB Indexes - Deep Dive (START HERE)
+DynamoDB Indexes - Deep Dive
    - DynamoDB supports 2 types of indexes to speed up queries:
      - Local Secondary Index
        - can only be created when you are creating your table
@@ -528,3 +528,49 @@ Scan versus Query API Call
       - can only scan 1 partition at a time
     - you can configure DynamoDB to use Parallel scans instead by logically dividing a table or index into segments and scanning each segment in parallel
       - it is best to avoid parallel scans if your table or index is already incurring heavy read - write activity from other applications
+DynamoDB Provisioned Throughput
+  - DynamoDB provisioned throughput is measured in Capacity Units
+  - When you create a table, you specify your requirements in terms of Read Capacity Units and Write Capacity Units
+  - 1 x write capacity unit = 1 x 1KB write per second
+  - 1 x read capacity unit = 1 x strongly consistent read of 4KB per second OR 2 x eventually consistent reads of 4KB per second (default)
+  - If your application reads or writes larger items it will consume more capacity units and will cost you more
+DynamoDB On-Demand Capacity
+  - Charges apply for: reading, writing, and storing data
+  - With On-Demand, you do not need to specify your requirements
+  - DynamoDB instantly scales up and down based on the activity of your application
+  - Great for unpredictable workloads
+  - You pay only for what you use, pay per request
+  - On-Demand good for:
+    - unknown workloads
+    - unpredictable application traffic
+    - pay-per-use model
+    - spiky, short-lived peaks
+  - Provisioned-Capacity good for:
+    - Forecastable read and write capacity requirements
+    - predicable application traffic
+    - application traffic is consistent or increases gradually
+  - Can change the pricing model once per day
+DynamoDB Accelerator (DAX)
+  - DynamoDB Accelerator (DAX) is a fully managed, clustered in-memory cache for DynamoDB
+  - Delivers up to 10x read performance improvement
+  - Microsecond performance for millions of requests per second
+  - Ideal for read-heavy and bursty read workloads
+    - auction applications
+    - gaming
+    - retail sites during Black Friday promotions
+  - DAX is a write-through caching service
+    - data is written to the cache as well as the back-end store at the same time
+  - Allows you to point your DynamoDB API calls at the DAX cluster
+  - If the item you are querying is in the cache (a cache hit), DAX returns the cached result to the application
+  - If the item is not in the cache (cache miss) then DAX performs an eventually consistent GetItem operation against the DynamoDB table
+  - Retrieval of data from DAX reduces the read load on DynamoDB tables
+  - May be able to reduce provisioned read capacity
+  - DAX improves response time for Eventually Consistent reads only
+  - Not suitable for DAX
+    - applications that require strongly consistent reads
+    - write intensive applications
+    - applications that do not perform many read operations
+    - applications that do not require microsecond response time
+  - Point your API calls at the DAX cluster instead of your DynamoDB table
+ElastiCache (START HERE)
+  -
