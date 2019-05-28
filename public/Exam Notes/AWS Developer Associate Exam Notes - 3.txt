@@ -572,7 +572,7 @@ DynamoDB Accelerator (DAX)
     - applications that do not perform many read operations
     - applications that do not require microsecond response time
   - Point your API calls at the DAX cluster instead of your DynamoDB table
-ElastiCache (START HERE)
+ElastiCache
   - In-memory cache in the cloud
   - Sits between application and database
   - Good if your database is particularly read-heavy and the data is not changing frequently
@@ -623,5 +623,23 @@ ElastiCache (START HERE)
   - DAX written specifically for DynamoDB and DAX only supports the write-through caching strategy
   - If you are using DynamoDB and you need to use lazy loading, you cannot use DAX, you have to use ElastiCache
   - DAX for DynamoDB, ElastiCache for RDS
-DynamoDB Transactions
+DynamoDB Transactions, introduced at re:Invent 2018
+  - ACID transactions (Atomic, Consistent, Isolated, Durable)
+  - read or write multiple items across multiple tables as an all or nothing operation
+  - check for a prerequisite condition before writing to table
+DynamoDB TTL
+  - DynamoDB TTL defines an expiry time for your data
+  - Expired items marked for deletion
+  - Great for removing irrelevant old data:
+    - session data
+    - event logs
+    - temporary data
+  - Reduces cost by automatically removing old data which is no longer relevant
+  - TTL is expressed in epoch time format, aka unix time, aka posix time (number of seconds that have elapsed sine 12:00 AM Jan 1 1970)
+  - Items are expired when the current time exceeds the TTL time value
+  - Items are deleted within the next 48 hours after the TTL expires
+  - You can filter out expired items from your queries and scans
+  - DynamoDB refers to the primary key as the HASH key when using the CLI
+  - Select an attribute in your table which holds the TTL value
+DynamoDB Streams (START HERE)
   -

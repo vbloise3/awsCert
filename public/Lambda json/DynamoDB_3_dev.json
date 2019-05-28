@@ -1,0 +1,268 @@
+[
+  {
+    "id": "618",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Transactions are ______ transactions",
+      "answers": [
+        "ACID",
+        "Relational",
+        "Key-Value",
+        "Serial"
+      ],
+      "correctAnswer": ["ACID"]
+    }
+  },
+  {
+    "id": "619",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Transactions allow you to ______",
+      "answers": [
+        "read or write multiple items across multiple tables as an all or nothing operation",
+        "read or write multiple items to a table as an all or nothing operation",
+        "read or write multiple items across multiple databases as an all or nothing operation",
+        "read or write multiple items across multiple tables as a series of operations"
+      ],
+      "correctAnswer": ["read or write multiple items across multiple tables as an all or nothing operation"]
+    }
+  },
+  {
+    "id": "620",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB Transactions you can check for ______ before writing to table",
+      "answers": [
+        "a prerequisite condition",
+        "available table size",
+        "database availability",
+        "schema compatability"
+      ],
+      "correctAnswer": ["a prerequisite condition"]
+    }
+  },
+  {
+    "id": "621",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB TTL defines an ______ for your data",
+      "answers": [
+        "expiry time",
+        "expiry date",
+        "expiry account",
+        "availability time"
+      ],
+      "correctAnswer": ["expiry time"]
+    }
+  },
+  {
+    "id": "622",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB TTL defines an expiry time for your data by ______",
+      "answers": [
+        "item in the table",
+        "attribute in the table",
+        "table",
+        "index in the table"
+      ],
+      "correctAnswer": ["item in the table"]
+    }
+  },
+  {
+    "id": "623",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB TTL expired items marked for ______",
+      "answers": [
+        "deletion",
+        "truncation",
+        "replication",
+        "update"
+      ],
+      "correctAnswer": ["deletion"]
+    }
+  },
+  {
+    "id": "624",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB TTL is great for removing ______",
+      "answers": [
+        "irrelevant old data",
+        "new data",
+        "redundant data",
+        "irrelevant data"
+      ],
+      "correctAnswer": ["irrelevant old data"]
+    }
+  },
+  {
+    "id": "625",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "Types of DynamoDB data to use with TTL:",
+      "answers": [
+        "session data",
+        "event logs",
+        "temporary data",
+        "transaction data",
+        "user data",
+        "reference data"
+      ],
+      "correctAnswer": ["session data",
+        "event logs",
+        "temporary data"]
+    }
+  },
+  {
+    "id": "626",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB ______ by automatically removing old data which is no longer relevant",
+      "answers": [
+        "reduces cost",
+        "increases cost",
+        "saves disk space",
+        "saves network traffic",
+        "alters write capacity units",
+        "alters read capacity units"
+      ],
+      "correctAnswer": ["reduces cost"]
+    }
+  },
+  {
+    "id": "627",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB TTL is expressed in ______ time format",
+      "answers": [
+        "epoch",
+        "GMT",
+        "local",
+        "Windows"
+      ],
+      "correctAnswer": ["epoch"]
+    }
+  },
+  {
+    "id": "628",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "With DynamoDB TTL epoch time is also known as which of these?",
+      "answers": [
+        "unix time",
+        "posix time",
+        "GMT time ",
+        "local time",
+        "Windows time"
+      ],
+      "correctAnswer": ["unix time",
+        "posix time"]
+    }
+  },
+  {
+    "id": "629",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB TTL items are expired when ______",
+      "answers": [
+        "the current time exceeds the TTL time value",
+        "the TTL time value exceeds the current time",
+        "the current time exceeds the GMT time",
+        "the current time exceeds the local time",
+        "the current time exceeds the Windows time"
+      ],
+      "correctAnswer": ["the current time exceeds the TTL time value"]
+    }
+  },
+  {
+    "id": "630",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB TTL items are deleted ______ the TTL expires",
+      "answers": [
+        "within the next 48 hours after",
+        "as soon as",
+        "within the next 5 minutes after",
+        "within the next 24 hours after",
+        "within the next few milliseconds hours after"
+      ],
+      "correctAnswer": ["within the next 48 hours after"]
+    }
+  },
+  {
+    "id": "631",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "You can filter out ______ from your queries and scans",
+      "answers": [
+        "expired items",
+        "deleted items",
+        "to be expired items",
+        "to be deleted items"
+      ],
+      "correctAnswer": ["expired items"]
+    }
+  },
+  {
+    "id": "632",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB refers to the primary key as the ______ key when using the CLI",
+      "answers": [
+        "HASH",
+        "Tuple",
+        "Index",
+        "BASH"
+      ],
+      "correctAnswer": ["HASH"]
+    }
+  },
+  {
+    "id": "633",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With DynamoDB TTL you select an ______ in your table which holds the TTL value",
+      "answers": [
+        "attribute",
+        "item",
+        "index",
+        "variable"
+      ],
+      "correctAnswer": ["attribute"]
+    }
+  }
+]
