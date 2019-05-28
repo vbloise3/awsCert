@@ -1,0 +1,535 @@
+[
+  {
+    "id": "590",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "ElastiCache is ______",
+      "answers": [
+        "in-memory cache in the cloud",
+        "in-memory cache on an EC2 instance",
+        "in-memory cache on S3",
+        "in-memory cache in DAX"
+      ],
+      "correctAnswer": ["in-memory cache in the cloud"]
+    }
+  },
+  {
+    "id": "591",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "ElastiCache sits between ______",
+      "answers": [
+        "application and database",
+        "memory and database",
+        "S32 and database",
+        "DAX and database"
+      ],
+      "correctAnswer": ["application and database"]
+    }
+  },
+  {
+    "id": "592",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "ElastiCache is good if your database is particularly ______ and the data is not changing frequently",
+      "answers": [
+        "read-heavy",
+        "write-heavy",
+        "read-write-heavy",
+        "compute-heavy"
+      ],
+      "correctAnswer": ["read-heavy"]
+    }
+  },
+  {
+    "id": "593",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 4",
+      "question": "Read-heavy workloads that work well with ElastiCache are which of these?",
+      "answers": [
+        "social networking",
+        "gaming",
+        "media sharing",
+        "Q&A portals",
+        "blockchain",
+        "bitcoin mining",
+        "ledger processing"
+      ],
+      "correctAnswer": ["social networking",
+        "gaming",
+        "media sharing",
+        "Q&A portals"]
+    }
+  },
+  {
+    "id": "594",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "A compute-heavy workload type of app that works well with ElastiCache is which of these?",
+      "answers": [
+        "recommendation engines",
+        "gaming",
+        "media sharing",
+        "Q&A portals",
+        "blockchain",
+        "bitcoin mining",
+        "ledger processing"
+      ],
+      "correctAnswer": ["recommendation engines"]
+    }
+  },
+  {
+    "id": "595",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "ElastiCache can be used to store results for which two of these?",
+      "answers": [
+        "I/O intensive database queries",
+        "output of compute-intensive calculations",
+        "streaming transformations",
+        "statistical analysis",
+        "blockchain ledger transactions"
+      ],
+      "correctAnswer": ["I/O intensive database queries",
+        "output of compute-intensive calculations"]
+    }
+  },
+  {
+    "id": "595",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of ElastiCache?",
+      "answers": [
+        "Memcached",
+        "Redis",
+        "Kinesis",
+        "DAX",
+        "Gemfire"
+      ],
+      "correctAnswer": ["Memcached",
+        "Redis"]
+    }
+  },
+  {
+    "id": "596",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 3",
+      "question": "Which best describe Memcached?",
+      "answers": [
+        "Widely adopted memory object caching system",
+        "Multi-threaded",
+        "No Multi-AZ capability",
+        "Open-source in-memory key-value store",
+        "Supports more complicated data structures",
+        "Supports master-slave replication and Multi-AZ for cross-AZ redundancy"
+      ],
+      "correctAnswer": ["Widely adopted memory object caching system",
+        "Multi-threaded",
+        "No Multi-AZ capability"]
+    }
+  },
+  {
+    "id": "596",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 3",
+      "question": "Which best describe Redis?",
+      "answers": [
+        "Widely adopted memory object caching system",
+        "Multi-threaded",
+        "No Multi-AZ capability",
+        "Open-source in-memory key-value store",
+        "Supports more complicated data structures",
+        "Supports master-slave replication and Multi-AZ for cross-AZ redundancy"
+      ],
+      "correctAnswer": ["Open-source in-memory key-value store",
+        "Supports more complicated data structures",
+        "Supports master-slave replication and Multi-AZ for cross-AZ redundancy"]
+    }
+  },
+  {
+    "id": "597",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "Examples of more complicated data structure that Redis supports?",
+      "answers": [
+        "sorted sets",
+        "lists",
+        "hash tables",
+        "queues",
+        "tuples",
+        "dictionaries"
+      ],
+      "correctAnswer": ["sorted sets",
+        "lists"]
+    }
+  },
+  {
+    "id": "598",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 2",
+      "question": "ElastiCache has two caching strategies:",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading",
+        "Write-Through"]
+    }
+  },
+  {
+    "id": "599",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy loads the data into the cache only when necessary",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "600",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy works so that if the requested data is in the cache, ElastiCache returns the data to the application",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "601",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy works so that if the data is not in the cache or has expired, ElastiCache returns a null",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "602",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy works so that if the data is not in the cache or has expired, ElastiCache returns a null then your application fetches the data from the database and writes the retrieved data to the cache",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "603",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy works so that only requested data is cached, which avoids filling up the cache with useless data",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "604",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy has a stale data problem: if data is only updated when there is a cache miss, it can become stale; does not automatically update if the data in the database changes",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "605",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "______ in ElastiCache specifies the number of seconds until the key (data) expires to avoid keeping stale data in the cache",
+      "answers": [
+        "TTL",
+        "TTD",
+        "TDL",
+        "CHG"
+      ],
+      "correctAnswer": ["TTL"]
+    }
+  },
+  {
+    "id": "606",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy treats an expired key as a cache miss and causes the application to retrieve the data from the database and subsequently write the data into the cache with a new TTL",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Lazy Loading"]
+    }
+  },
+  {
+    "id": "607",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "______ in ElastiCache does not eliminate stale data but helps to avoid it",
+      "answers": [
+        "TTL",
+        "Cache interval",
+        "Replacement interval",
+        "Write-Through"
+      ],
+      "correctAnswer": ["TTL"]
+    }
+  },
+  {
+    "id": "608",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy adds or updates data to the cache whenever data is written to the database",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "609",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy has the advantage that data in the cache is never stale",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "610",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy has the advantage that users are generally more tolerant of additional latency when updating data than when retrieving it",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "611",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy has a write penalty: every write involves write involves a write to the cache as well as a write to the database",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "612",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which ElastiCache caching strategy has a problem if a node fails and a new one is spun up, data is missing until added or updated in the database",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "613",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Whith ElastiCache, how do you solve the problem that if a node fails and a new one is spun up, data is missing until added or updated in the database",
+      "answers": [
+        "mitigate by implementing lazy loading in conjunction with write-through",
+        "mitigate by implementing write-through loading in conjunction with write-through",
+        "mitigate by implementing write loading in conjunction with write-through",
+        "mitigate by implementing DAX in conjunction with write-through"
+      ],
+      "correctAnswer": ["mitigate by implementing lazy loading in conjunction with write-through"]
+    }
+  },
+  {
+    "id": "614",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "DAX written specifically for DynamoDB and DAX only supports the ______ caching strategy",
+      "answers": [
+        "Lazy Loading",
+        "Write-Through",
+        "Pass-Through",
+        "Pass Loading",
+        "Write Loading",
+        "Lazy Writing"
+      ],
+      "correctAnswer": ["Write-Through"]
+    }
+  },
+  {
+    "id": "615",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "If you are using DynamoDB and you need to use lazy loading, which caching service should you use?",
+      "answers": [
+        "DAX",
+        "ElastiCache",
+        "Kinesis",
+        "Gemfire"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  },
+  {
+    "id": "616",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which is the best caching service for DynamoDB?",
+      "answers": [
+        "DAX",
+        "ElastiCache",
+        "Kinesis",
+        "Gemfire"
+      ],
+      "correctAnswer": ["DAX"]
+    }
+  },
+  {
+    "id": "617",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ElastiCache",
+      "questionType": "multiple choice 1",
+      "question": "Which is the best caching service for RDS?",
+      "answers": [
+        "DAX",
+        "ElastiCache",
+        "Kinesis",
+        "Gemfire"
+      ],
+      "correctAnswer": ["ElastiCache"]
+    }
+  }
+]
