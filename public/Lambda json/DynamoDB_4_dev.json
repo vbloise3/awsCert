@@ -1,0 +1,379 @@
+[
+  {
+    "id": "634",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Streams are ______",
+      "answers": [
+        "a time-ordered sequence of item level modifications",
+        "a date-ordered sequence of item level modifications",
+        "a time-ordered sequence of attribute level modifications",
+        "a date-ordered sequence of attribute level modifications"
+      ],
+      "correctAnswer": ["a time-ordered sequence of item level modifications"]
+    }
+  },
+  {
+    "id": "635",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Stream logs are ______",
+      "answers": [
+        "encrypted at rest",
+        "encrypted in flight",
+        "encrypted at rest and in flight",
+        "not encrypted"
+      ],
+      "correctAnswer": ["encrypted at rest"]
+    }
+  },
+  {
+    "id": "636",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Stream logs are ______ and the rolled off",
+      "answers": [
+        "stored for 24 hours only",
+        "stored for 12 hours only",
+        "stored for 2 hours only",
+        "stored for 1 hour only"
+      ],
+      "correctAnswer": ["stored for 24 hours only"]
+    }
+  },
+  {
+    "id": "637",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Stream logs are ______",
+      "answers": [
+        "accessed using a dedicated endpoint",
+        "accessed using the same endpoint as the DynamoDB table endpoint",
+        "accessed using a dedicated API Gateway",
+        "accessed using a dedicated API"
+      ],
+      "correctAnswer": ["accessed using a dedicated endpoint"]
+    }
+  },
+  {
+    "id": "638",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Stream is accessed via ______",
+      "answers": [
+        "an endpoint different from the endpoint used to access the DynamoDB table itself",
+        "accessed using the same endpoint as the DynamoDB table endpoint",
+        "accessed using a dedicated API Gateway",
+        "accessed using a dedicated API"
+      ],
+      "correctAnswer": ["an endpoint different from the endpoint used to access the DynamoDB table itself"]
+    }
+  },
+  {
+    "id": "639",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Using DynamoDB Streams, by default the ______ is recorded",
+      "answers": [
+        "primary key",
+        "entire item",
+        "secondary key",
+        "index"
+      ],
+      "correctAnswer": ["primary key"]
+    }
+  },
+  {
+    "id": "640",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Using DynamoDB Streams, ______ can be captured",
+      "answers": [
+        "before and after images",
+        "after change images",
+        "logs",
+        "transactions"
+      ],
+      "correctAnswer": ["before and after images"]
+    }
+  },
+  {
+    "id": "641",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Using DynamoDB Streams, you can store ______ before the change and the state of the item after the change",
+      "answers": [
+        "state of the item",
+        "state of the table",
+        "state of the database",
+        "state of the index"
+      ],
+      "correctAnswer": ["state of the item"]
+    }
+  },
+  {
+    "id": "642",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "DynamoDB Streams can be used for which of these?",
+      "answers": [
+        "auditing",
+        "archiving",
+        "replaying transactions to a different table",
+        "rolling back transactions",
+        "deleting transactions"
+      ],
+      "correctAnswer": ["auditing",
+        "archiving",
+        "replaying transactions to a different table"]
+    }
+  },
+  {
+    "id": "643",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB Streams are mainly used to ______ based on a change in the DynamoDB table",
+      "answers": [
+        "trigger events",
+        "delete items",
+        "replay transactions",
+        "roll back transactions",
+        "delete transactions"
+      ],
+      "correctAnswer": ["trigger events"]
+    }
+  },
+  {
+    "id": "644",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "You can use a DynamoDB stream to trigger a(n) ______",
+      "answers": [
+        "lambda function",
+        "API Gateway endpoint",
+        "Kinesis stream",
+        "update to the table"
+      ],
+      "correctAnswer": ["lambda function"]
+    }
+  },
+  {
+    "id": "645",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB stream events are recorded in ______",
+      "answers": [
+        "near real-time",
+        "real-time",
+        "eventual consistency",
+        "strong consistency"
+      ],
+      "correctAnswer": ["near real-time"]
+    }
+  },
+  {
+    "id": "646",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "When DynamoDB streams are used as an event source for Lambda, lambda ______",
+      "answers": [
+        "polls the stream",
+        "writes to the stream",
+        "reads from the stream",
+        "reads from S3"
+      ],
+      "correctAnswer": ["polls the stream"]
+    }
+  },
+  {
+    "id": "647",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "When DynamoDB streams are used as an event source for Lambda, it executes lambda code based on a(n) ______",
+      "answers": [
+        "streams event",
+        "API endpoint call",
+        "SQS message",
+        "SNS message"
+      ],
+      "correctAnswer": ["streams event"]
+    }
+  },
+  {
+    "id": "648",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "The Provisioned Throughput Exceeded Exception event is ______",
+      "answers": [
+        "ProvisionedThroughputExceededException",
+        "ProvisionedThroughputException",
+        "ProvisionedExceededException",
+        "ProvisionedCapacityThroughputExceededException"
+      ],
+      "correctAnswer": ["ProvisionedThroughputExceededException"]
+    }
+  },
+  {
+    "id": "649",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "The Provisioned Throughput Exceeded Exception happens when your ______ for the read-write capacity provisioned on your DynamoDB table",
+      "answers": [
+        "request rate is too high",
+        "request rate is too fast",
+        "request rate is too slow",
+        "request size is too large"
+      ],
+      "correctAnswer": ["request rate is too high"]
+    }
+  },
+  {
+    "id": "650",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "With the Provisioned Throughput Exceeded Exception the SDK will automatically ______",
+      "answers": [
+        "retry requests until successful",
+        "fail requests",
+        "log requests",
+        "queue requests"
+      ],
+      "correctAnswer": ["retry requests until successful"]
+    }
+  },
+  {
+    "id": "650",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 2",
+      "question": "If you are not using the AWS SDK you can try which of these?",
+      "answers": [
+        "retry requests until successful",
+        "reduce the request frequency",
+        "use Exponential Backoff",
+        "queue requests"
+      ],
+      "correctAnswer": ["reduce the request frequency",
+        "use Exponential Backoff"]
+    }
+  },
+  {
+    "id": "651",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "Exponential Backoff uses ______ between consecutive retries",
+      "answers": [
+        "progressively longer waits",
+        "progressively shorter waits",
+        "exponentially longer waits",
+        "exponentially shorter waits"
+      ],
+      "correctAnswer": ["progressively longer waits"]
+    }
+  },
+  {
+    "id": "652",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "When you get the Provisioned Throughput Exceeded Exception, if after one minute exponential backoff does not work, your request size may be exceeding the throughput for your ______",
+      "answers": [
+        "read-write capacity",
+        "indexing",
+        "table size",
+        "element schema"
+      ],
+      "correctAnswer": ["read-write capacity"]
+    }
+  },
+  {
+    "id": "653",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "When you get the Provisioned Throughput Exceeded Exception and after 1 minute exponential backoff does not work, if your application is mainly using GETs try using ______",
+      "answers": [
+        "DAX or ElastiCache",
+        "improved indexing",
+        "a different schema"
+      ],
+      "correctAnswer": ["DAX or ElastiCache"]
+    }
+  },
+  {
+    "id": "654",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 1",
+      "question": "When you get the Provisioned Throughput Exceeded Exception and after 1 minute exponential backoff does not work, if your application is mainly doing writes try ______",
+      "answers": [
+        "using DAX or ElastiCache",
+        "increasing your write throughput capacity",
+        "increasing your read throughput capacity",
+        "reindexing your table"
+      ],
+      "correctAnswer": ["increasing your write throughput capacity"]
+    }
+  },
+  {
+    "id": "655",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DynamoDB",
+      "questionType": "multiple choice 3",
+      "question": "All AWS SDKs use exponential backoff as well as many AWS services, such as which of these?",
+      "answers": [
+        "S3",
+        "CloudFormation",
+        "SES",
+        "SQS",
+        "CloudTrail",
+        "CloudWatch",
+        "Lambda"
+      ],
+      "correctAnswer": ["S3",
+        "CloudFormation",
+        "SES"]
+    }
+  }
+]

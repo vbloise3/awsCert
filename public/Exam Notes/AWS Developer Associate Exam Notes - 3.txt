@@ -641,5 +641,32 @@ DynamoDB TTL
   - You can filter out expired items from your queries and scans
   - DynamoDB refers to the primary key as the HASH key when using the CLI
   - Select an attribute in your table which holds the TTL value
-DynamoDB Streams (START HERE)
-  -
+DynamoDB Streams
+  - DynamoDB Streams are a time-ordered sequence of item level modifications (insert, update, delete)
+  - logs are encrypted at rest and stored for 24 hours only
+  - accessed using a dedicated endpoint, different from the endpoint used to access the DynamoDB table itself
+  - by default the primary key is recorded
+  - before and after images can be captured
+    - store state of the item before the change and the state of the item after the change
+  - can be used for auditing, archiving, replaying transactions to a different table
+  - mainly used to trigger events based on a change in the DynamoDB table
+    - can use a DynamDB stream to trigger a lambda function
+  - events are recorded in near real-time
+  - applications can take action based on the contents of the stream
+  - event source for Lambda
+    - lambda polls the stream
+    - executes lambda code based on a streams event
+Provisioned Throughput Exceeded and Exponential Backoff (START HERE)
+  - The Provisioned Throughput Exceeded Exception event is ProvisionedThroughputExceededException
+  - this happens when your request rate is too high for the read-write capacity provisioned on your DynamoDB table
+  - SDK will automatically retry the requests until successful
+  - If you are not using the SDK you can
+    - reduce the request frequency
+    - use Exponential Backoff
+  - Exponential Backoff uses progressively longer waits between consecutive retries
+  - If after one minute exponential backoff does not work, your request size may be exceeding the throughput for your read-write capacity
+    - if your application is mainly using GETs try using DAX or ElastiCache
+    - if your application is mainly doing writes try increasing your write throughput capacity
+  - All AWS SDKs and many AWS services (S3, CloudFormation, SES) use exponential backoff
+DynamoDB Summary
+  - 
