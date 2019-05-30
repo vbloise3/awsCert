@@ -1,0 +1,562 @@
+[
+  {
+    "id": "681",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "KMS is a ______ that makes it easy for you to create and control encryption keys used to encrypt your data",
+      "answers": [
+        "managed service",
+        "local service",
+        "EC2 service",
+        "S3 service"
+      ],
+      "correctAnswer": ["managed service"]
+    }
+  },
+  {
+    "id": "682",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 6",
+      "question": "KMS is integrated with other AWS services including which of these",
+      "answers": [
+        "EBS",
+        "S3",
+        "Redshift",
+        "Elastic Transcoder",
+        "WorkMail",
+        "RDS",
+        "Elastic Beanstalk",
+        "CloudHSM"
+      ],
+      "correctAnswer": ["EBS",
+        "S3",
+        "Redshift",
+        "Elastic Transcoder",
+        "WorkMail",
+        "RDS"]
+    }
+  },
+  {
+    "id": "683",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "KMS uses encryption keys that ______",
+      "answers": [
+        "you manage",
+        "AWS manages",
+        "AWS manages or you manage",
+        "you curate",
+        "AWS curates"
+      ],
+      "correctAnswer": ["you manage"]
+    }
+  },
+  {
+    "id": "684",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "KMS encryption keys are ______",
+      "answers": [
+        "regional",
+        "global",
+        "local",
+        "within an AZ"
+      ],
+      "correctAnswer": ["regional"]
+    }
+  },
+  {
+    "id": "685",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS you usually have a ______ and a ______ user types",
+      "answers": [
+        "key administrator, key encrypter",
+        "key creator, key deleter",
+        "key administrator, key definer",
+        "key deleter, key encrypter"
+      ],
+      "correctAnswer": ["key administrator, key encrypter"]
+    }
+  },
+  {
+    "id": "686",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS a key administrator user can ______",
+      "answers": [
+        "administer but not use the keys",
+        "administer and use the keys",
+        "Use but not administer keys",
+        "Neither administer or use keys"
+      ],
+      "correctAnswer": ["administer but not use the keys"]
+    }
+  },
+  {
+    "id": "687",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS a key encrypter user can ______",
+      "answers": [
+        "use the key to encrypt and decrypt data but not administer keys",
+        "administer and use the keys",
+        "Use but not administer keys",
+        "Neither administer or use keys"
+      ],
+      "correctAnswer": ["use the key to encrypt and decrypt data but not administer keys"]
+    }
+  },
+  {
+    "id": "688",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 5",
+      "question": "With KMS the Customer Master Key (CMK) has which attributes?",
+      "answers": [
+        "alias",
+        "creation date",
+        "description",
+        "key state",
+        "key material",
+        "key envelope",
+        "deletion date"
+      ],
+      "correctAnswer": ["alias",
+        "creation date",
+        "description",
+        "key state",
+        "key material"]
+    }
+  },
+  {
+    "id": "689",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 2",
+      "question": "With KMS the Customer Master Key (CMK) key state can have which two of these states?",
+      "answers": [
+        "enabled",
+        "disabled",
+        "deleted",
+        "created",
+        "voided",
+        "null"
+      ],
+      "correctAnswer": ["enabled",
+        "disabled"]
+    }
+  },
+  {
+    "id": "690",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 2",
+      "question": "With KMS the Customer Master Key (CMK) key material can be which two of these?",
+      "answers": [
+        "customer provided",
+        "AWS provided",
+        "vendor provided",
+        "other account provided",
+        "randomly generated"
+      ],
+      "correctAnswer": ["customer provided",
+        "AWS provided"]
+    }
+  },
+  {
+    "id": "691",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS the Customer Master Key (CMK) ______",
+      "answers": [
+        "can never be exported",
+        "can be exported"
+      ],
+      "correctAnswer": ["can never be exported"]
+    }
+  },
+  {
+    "id": "692",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "If you need to export your keys you need to use ______",
+      "answers": [
+        "CloudHSM",
+        "KMS",
+        "Client Side Encryption",
+        "S3 Encryption"
+      ],
+      "correctAnswer": ["CloudHSM"]
+    }
+  },
+  {
+    "id": "693",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 2",
+      "question": "With KMS you can create your material options in which two of these ways?",
+      "answers": [
+        "use KMS generated key material",
+        "use your own key material, which you import",
+        "use CloudHSM generated key material",
+        "use manually generated key material"
+      ],
+      "correctAnswer": ["use KMS generated key material",
+        "use your own key material, which you import"]
+    }
+  },
+  {
+    "id": "694",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS you can allow external accounts to use your KMS key to encrypt and decrypt data",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "695",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With KMS you can have an external account manage-administer your KMS keys",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "696",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS API use ______ to encrypt a file",
+      "answers": [
+        "aws kms encrypt",
+        "aws kms decrypt",
+        "aws kms re-encrypt",
+        "aws kms enable-key-rotation",
+        "aws encrypt",
+        "aws unencrypt",
+        "aws re-encrypt",
+        "aws enable-key-rotation"
+      ],
+      "correctAnswer": ["aws kms encrypt"]
+    }
+  },
+  {
+    "id": "697",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS API use ______ to decrypt a file",
+      "answers": [
+        "aws kms encrypt",
+        "aws kms decrypt",
+        "aws kms re-encrypt",
+        "aws kms enable-key-rotation",
+        "aws encrypt",
+        "aws unencrypt",
+        "aws re-encrypt",
+        "aws enable-key-rotation"
+      ],
+      "correctAnswer": ["aws kms decrypt"]
+    }
+  },
+  {
+    "id": "698",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS API use ______ to re-encrypt a file",
+      "answers": [
+        "aws kms encrypt",
+        "aws kms decrypt",
+        "aws kms re-encrypt",
+        "aws kms enable-key-rotation",
+        "aws encrypt",
+        "aws unencrypt",
+        "aws re-encrypt",
+        "aws enable-key-rotation"
+      ],
+      "correctAnswer": ["aws kms re-encrypt"]
+    }
+  },
+  {
+    "id": "699",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS API use ______ to enable key rotation",
+      "answers": [
+        "aws kms encrypt",
+        "aws kms decrypt",
+        "aws kms re-encrypt",
+        "aws kms enable-key-rotation",
+        "aws encrypt",
+        "aws unencrypt",
+        "aws re-encrypt",
+        "aws enable-key-rotation"
+      ],
+      "correctAnswer": ["aws kms enable-key-rotation"]
+    }
+  },
+  {
+    "id": "700",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS use the Customer Master Key to encrypt the ______",
+      "answers": [
+        "envelope key",
+        "the file",
+        "the HSM"
+      ],
+      "correctAnswer": ["envelope key"]
+    }
+  },
+  {
+    "id": "701",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "With the KMS use the Envelope Key to encrypt the ______",
+      "answers": [
+        "envelope key",
+        "the file",
+        "the HSM"
+      ],
+      "correctAnswer": ["the file"]
+    }
+  },
+  {
+    "id": "702",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "KMS Envelope Encryption ______",
+      "answers": [
+        "encrypts the key that encrypts your data",
+        "encrypts the envelope key",
+        "encrypts the HSM"
+      ],
+      "correctAnswer": ["encrypts the key that encrypts your data"]
+    }
+  },
+  {
+    "id": "703",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "Use the ______ to decrypt the envelop key using an encryption algorithm",
+      "answers": [
+        "KMS Customer Master Key",
+        "KMS Customer User Key",
+        "KMS CloudHSM Master Key",
+        "KMS Client Master Key"
+      ],
+      "correctAnswer": ["KMS Customer Master Key"]
+    }
+  },
+  {
+    "id": "704",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "To delete a KMS key first ______, then schedule it for deletion",
+      "answers": [
+        "disable it",
+        "copy it",
+        "erase it",
+        "destroy it"
+      ],
+      "correctAnswer": ["disable it"]
+    }
+  },
+  {
+    "id": "704",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "KMS",
+      "questionType": "multiple choice 1",
+      "question": "To delete a KMS key first disable it, then ______",
+      "answers": [
+        "schedule it for destruction",
+        "schedule it for deletion",
+        "schedule it for erasure",
+        "schedule it for termination"
+      ],
+      "correctAnswer": ["schedule it for deletion"]
+    }
+  },
+  {
+    "id": "705",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You would like KMS to rotate your encryption keys on a yearly basis, which API command can you use to configure this?",
+      "answers": [
+        "configure-key-rotation",
+        "enable-key-rotation",
+        "setup-key-rotation",
+        "chkconfig key-rotation on"
+      ],
+      "correctAnswer": ["enable-key-rotation"]
+    }
+  },
+  {
+    "id": "706",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following is a managed service that allows you to create and control the encryption keys used to encrypt your data?",
+      "answers": [
+        "KMS",
+        "RDS Encryption",
+        "S3 Encryption",
+        "CMS"
+      ],
+      "correctAnswer": ["KMS"]
+    }
+  },
+  {
+    "id": "707",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following is an encrypted key used by KMS to encrypt your data?",
+      "answers": [
+        "Customer Managed Key",
+        "Customer Master Key",
+        "Envelope Key",
+        "Encryption Key"
+      ],
+      "correctAnswer": ["Envelope Key"]
+    }
+  },
+  {
+    "id": "708",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following statements are correct? (Choose 2)",
+      "answers": [
+        "The Envelope Key or Data Key is used to encrypt and decrypt plain text files",
+        "The Customer Master Key is used to encrypt and decrypt the Envelope Key or Data Key",
+        "The Customer Master Key is used to encrypt and decrypt plain text files",
+        "The Envelope Key or Data Key is used to encrypt and decrypt the Customer Master Key"
+      ],
+      "correctAnswer": ["The Envelope Key or Data Key is used to encrypt and decrypt plain text files",
+      "The Customer Master Key is used to encrypt and decrypt the Envelope Key or Data Key"]
+    }
+  },
+  {
+    "id": "709",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on a project which requires a Key Management solution. Your security architect has confirmed that a multi-tenant solution is fine. Which solution do you recommend?",
+      "answers": [
+        "S3 Encryption",
+        "CloudHSM",
+        "KMS",
+        "Client Side Encryption"
+      ],
+      "correctAnswer": ["KMS"]
+    }
+  },
+  {
+    "id": "710",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following statements is correct in relation to KMS? (Choose 2)",
+      "answers": [
+        "You cannot export your customer master key",
+        "KMS encryption keys are regional",
+        "KMS encryption keys are global",
+        "You can export your customer master key"
+      ],
+      "correctAnswer": ["You cannot export your customer master key",
+      "KMS encryption keys are regional"]
+    }
+  },
+  {
+    "id": "711",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which command can you use to encrypt a plain text file using a CMK?",
+      "answers": [
+        "aws iam encrypt",
+        "aws kms encrypt",
+        "aws encrypt",
+        "aws kms-encrypt"
+      ],
+      "correctAnswer": ["aws kms encrypt"]
+    }
+  },
+  {
+    "id": "712",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You need to re-encrypt a file with a new customer master key, which API call can you use to do this?",
+      "answers": [
+        "enable-key-rotation",
+        "ecrypt and encrypt",
+        "re-encrypt",
+        "encrypt"
+      ],
+      "correctAnswer": ["re-encrypt"]
+    }
+  }
+]

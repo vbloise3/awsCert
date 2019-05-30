@@ -785,5 +785,86 @@ DynamoDB Test Questions
     - Elastic File Store
     - RDS
     - DynamoDB (correct)
-KMS 101
+KMS 101 (Start Here)
+  - KMS is a managed service that makes it easy for you to create and control encryption keys used to encrypt your data
+  - KMS is integrated with other AWS services including
+    - EBS
+    - S3
+    - Redshift
+    - Elastic Transcoder
+    - WorkMail
+    - RDS
+  - KMS uses encryption keys that you manage
+  - KMS encryption keys are regional
+  - Usually you have a key administrator (can administer but not use the keys) and a key encrypter (users that can use the key to encrypt and decrypt data), two separate users
+  - Customer Master key:
+    - CMK consists of:
+      - alias
+      - creation date
+      - description
+      - key state (enabled or disabled)
+      - key material (either customer provided or AWS provided)
+    - can never be exported
+    - if you need to export your keys you need to use CloudHSM
+  - KMS material options:
+    - use KMS generated key material
+    - use your own key material, which you import
+KMS API Calls
+  - Can allow external accounts to use your KMS key to encrypt and decrypt data
+  - Cannot have an external account manage-administer the KMS keys
+  - to encrypt use aws kms encrypt --key-id YOURKEYID filename
+  - to decrypt use aws kms decrypt
+  - to re-encrypt use aws re-encrypt
+  - to rotate keys use aws enable-key-rotation to rotate the key every year
+KMS Envelope Encryption
+  - Envelope encryption is the encryption of your envelope key (which is used to unencrypt your data)
+  - use the Customer Master Key to encrypt the envelope key, and the envelope key is what is used to encrypt the data
+  - Encrypting the key that encrypts your data
+  - Use KMS Master Key to unencrypt the envelop key using an encryption algorithm
+  - Customer Master Key used to decrypt the data key (envelope key)
+  - Envelope key is used to decrypt the data
+KMS Summary
+  - To delete a KMS key first disable it, then schedule it for deletion
+KMS Quiz Questions
+  - You would like KMS to rotate your encryption keys on a yearly basis, which API command can you use to configure this?
+    - configure-key-rotation
+    - enable-key-rotation (correct)
+    - setup-key-rotation
+    - chkconfig key-rotation on
+  - Which of the following is a managed service that allows you to create and control the encryption keys used to encrypt you data?
+    - KMS (correct)
+    - RDS Encryption
+    - S3 Encryption
+    - CMS
+  - Which of the following is an encrypted key used by KMS to encrypt your data?
+    - Customer Managed Key
+    - Customer Master Key
+    - Envelope Key (correct)
+    - Encryption Key
+  - Which of the following statements are correct? (Choose 2)
+    - The Envelope Key or Data Key is used to encrypt and decrypt plain text files (correct)
+    - The Customer Master Key is used to encrypt and decrypt the Envelope Key or Data Key (correct)
+    - The Customer Master Key is used to encrypt and decrypt plain text files
+    - The Envelope Key or Data Key is used to encrypt and decrypt the Customer Master Key
+  - You are working on a project which requires a Key Management solution. Your security architect has confirmed that a multi-tenant solution is fine. Which solution do you recommend?
+    - S3 Encryption
+    - CloudHSM
+    - KMS (correct)
+    - Client Side Encryption
+  - Which of the following statements is correct in relation to KMS? (Choose 2)
+    - You cannot export your customer master key (correct)
+    - KMS encryption keys are regional (correct)
+    - KMS encryption keys are global
+    - You can export your customer master key
+  - Which command can you use to encrypt a plain text file using a CMK?
+    - aws iam encrypt
+    - aws kms encrypt (correct)
+    - aws encrypt
+    - aws kms-encrypt
+  - You need to re-encrypt a file with a new customer master key, which API call can you use to do this?
+    - enable-key-rotation
+    - decrypt and encrypt
+    - re-encrypt (correct)
+    - encrypt
+SQS
   - 
