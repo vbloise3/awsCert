@@ -656,7 +656,7 @@ DynamoDB Streams
   - event source for Lambda
     - lambda polls the stream
     - executes lambda code based on a streams event
-Provisioned Throughput Exceeded and Exponential Backoff (START HERE)
+Provisioned Throughput Exceeded and Exponential Backoff
   - The Provisioned Throughput Exceeded Exception event is ProvisionedThroughputExceededException
   - this happens when your request rate is too high for the read-write capacity provisioned on your DynamoDB table
   - SDK will automatically retry the requests until successful
@@ -668,5 +668,122 @@ Provisioned Throughput Exceeded and Exponential Backoff (START HERE)
     - if your application is mainly using GETs try using DAX or ElastiCache
     - if your application is mainly doing writes try increasing your write throughput capacity
   - All AWS SDKs and many AWS services (S3, CloudFormation, SES) use exponential backoff
-DynamoDB Summary
+DynamoDB Test Questions
+  - Which DynamoDB feature can be used to define an expiry date and time for a data record in your table?
+    - Exponential Backoff
+    - TTL (correct)
+    - DynamoDB Expiry
+    - DynamoDB Streams
+  - DynamoDB is a No-SQL database provided by AWS
+    - true (correct)
+    - false
+  - What does the error ProvisionedThroughputExceededException mean in DynamoDB?
+    - The DynamoDB table has exceeded the allocated space
+    - You exceeded your maximum allowed provisioned throughput for a table or for one or more global secondary indexes (correct)
+    - Your EC2 instance has run out of CPU or memory
+    - The DynamoDB table is unavailable
+  - You have an application which reads 80 items of data every second. Each item consists of 3KB. Your application uses eventually consistent reads. What should you set the RCU read throughput to?
+    - 80 RCU
+    - 20 RCU
+    - 60 RCU
+    - 40 RCU (correct)
+  - Which of the following attributes would make a good Partition Key?
+    - WarehouseLocation
+    - ProductType
+    - Size
+    - ProductID (correct)
+  - Which of the following attributes would make a good Sort Key?
+    - OrderNumber
+    - CustomerID
+    - EmailAddress
+    - InvoiceDate (correct)
+  - You are running a query on your Customers table in DynamoBD, however you only want the query to return CustomerID and EmailAddress for each item in the table, how can you refine the query so that it only includes the required attributes?
+    - Use the ProjectionExpression parameter (correct)
+    - Run a query based on the Primary Key and filter the results using a Sort Key of EmailAddress
+    - Use a scan operation instead
+    - Create a Global Secondary Index which only includes the attributes you need and run the query on the Global Secondary Index
+  - Using the AWS portal, you are trying to Scale DynamoDB past its preconfigured maximums. Which service limit can you increase by raising a ticket to AWS support?
+    - Item Sizes
+    - Local Secondary Indexes
+    - Global Secondary Indexes
+    - Provisioned throughput limits (correct)
+  - Your DynamoDB table is throwing a ProvisionedThroughputExceeded error, what could be the problem?
+    - Your applications request rate is too high (correct)
+    - Your instance is too small
+    - You are experiencing network contention
+    - You are running out of disk space
+  - Which feature can you use to capture a time-ordered sequence of all the activity which occurs on your DynamoDB table - e.g. insert, update, delete?
+    - DynamoDB Streams (correct)
+    - CloudWatch
+    - CloudTrail
+    - Kinesis Streams
+  - In terms of performance, a scan is more efficient than a query
+    - true
+    - false (correct)
+  - By default, a DynamoDB query operation is used for which of the following?
+    - Return the entire contents of a table
+    - Find items in a table based on the Sort Key attribute
+    - Return the entire contents of a table filtered on the Primary Key attribute
+    - Find items in a table based on the Primary Key attribute (correct)
+  - Which of the following services provides in-memory write-through cache optimized for DynamoDB?
+    - DAX (correct)
+    - ElastiCache
+    - Read-replica
+    - CloudFront
+  - Your application is storing customer order data in DynamoDB. Which of the following pairs of attributes would make the best composite key to allow you to query DynamoDB efficiently to find a customer order that was placed on a specific day?
+    - CustomerID + ProductID
+    - CustomerID + OrderDate (correct)
+    - CustomerID + Size
+    - CustomerID + ProductCategory
+  - Which of the following services can be used to securely store confidential information like credentials and license codes so that they can be accessed by EC2 instances?
+    - DynamoDB
+    - Systems Manager Parameter Store (correct)
+    - IAM
+    - KMS
+  - You have an application that needs to read 25 items of 13KB in size per second. Your application uses eventually consistent reads. What should you set the read throughput to?
+    - 100 RCU
+    - 10 RCU
+    - 50 RCU (correct)
+    - 25 RCU
+  - What is the API call to retrieve multiple items from a DynamoDB table?
+    - BatchGet
+    - BatchGetItem (correct)
+    - BatchGetItems
+    - GetItems
+  - What is the difference between a Global Secondary Index and a Local Secondary Index (Choose 2)
+    - You can create a Global Secondary Index at any time but you can only create a Local Secondary Index at table creation time (correct)
+    - You can delete a Global Secondary Index at any time (correct)
+    - You can delete a Local Secondary Index at any time
+    - You can create a Local Secondary Index at any time but you can only create a Global Secondary Index at table creation time
+  - In DynamoDB, a scan operation is used for which of the following?
+    - Find items in a table based on the Primary Key attribute
+    - Find items in a table based on the Sort Key attribute
+    - Return the entire contents of a table (correct)
+    - Return the entire contents of a table filtered on the Primary Key attribute
+  - Which of the following approaches is used in AWS to improve flow control by retrying failed requests using progressively longer waits between retries?
+    - Backoff With Jitter
+    - Linear Backoff
+    - Exponential Backoff (correct)
+    - Exponential Retry
+  - You have a motion sensor which writes 600 items of data every minute. Each item consists of 5KB. What should you set the write throughput to?
+    - 20
+    - 50 (correct)
+    - 10
+    - 40
+  - Which of the following are ways of remediating a ProvisionedThroughputExceeded error from DynamoDB? (Choose 2)
+    - Exponential Backoff (correct)
+    - Increase the frequency of requests to the DynamoDB table
+    - Reduce the frequency of requests to the DynamoDB table (correct)
+    - Move your application to a larger instance type
+  - Your application is storing customer order data in a DynamoDB table. You need to run a query to find all the orders placed by a specific customer in the last month, which attributes would you use in your query?
+    - A composite Primary Key made up of the CustomerName and OrderDate
+    - The Partition Key of OrderDate and a Sort Key of CustomerID
+    - The Partition Key of CustomerID and a Sort Key of OrderDate (correct)
+    - The Partition Key of OrderDate and Sort Key of CustomerName
+  - Your low latency web application needs to store its session state in a scalable way so that it can be accessed quickly. Which service do you recommend?
+    - In memory on your EC2 instance
+    - Elastic File Store
+    - RDS
+    - DynamoDB (correct)
+KMS 101
   - 

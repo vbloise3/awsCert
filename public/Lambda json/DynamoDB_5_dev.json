@@ -1,0 +1,417 @@
+[
+  {
+    "id": "655",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which DynamoDB feature can be used to define an expiry date and time for a data record in your table?",
+      "answers": [
+        "Exponential Backoff",
+        "TTL",
+        "DynamoDB Expiry",
+        "DynamoDB Streams"
+      ],
+      "correctAnswer": ["TTL"]
+    }
+  },
+  {
+    "id": "656",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "DynamoDB is a No-SQL database provided by AWS",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "657",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What does the error ProvisionedThroughputExceededException mean in DynamoDB?",
+      "answers": [
+        "The DynamoDB table has exceeded the allocated space",
+        "You exceeded your maximum allowed provisioned throughput for a table or for one or more global secondary indexes",
+        "Your EC2 instance has run out of CPU or memory",
+        "The DynamoDB table is unavailable"
+      ],
+      "correctAnswer": ["You exceeded your maximum allowed provisioned throughput for a table or for one or more global secondary indexes"]
+    }
+  },
+  {
+    "id": "658",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have an application which reads 80 items of data every second. Each item consists of 3KB. Your application uses eventually consistent reads. What should you set the RCU read throughput to?",
+      "answers": [
+        "80 RCU",
+        "20 RCU",
+        "20 RCU",
+        "40 RCU"
+      ],
+      "correctAnswer": ["40 RCU"]
+    }
+  },
+  {
+    "id": "659",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following attributes would make a good Partition Key?",
+      "answers": [
+        "WarehouseLocation",
+        "ProductType",
+        "Size",
+        "ProductID"
+      ],
+      "correctAnswer": ["ProductID"]
+    }
+  },
+  {
+    "id": "660",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following attributes would make a good Sort Key?",
+      "answers": [
+        "OrderNumber",
+        "CustomerID",
+        "EmailAddress",
+        "InvoiceDate"
+      ],
+      "correctAnswer": ["InvoiceDate"]
+    }
+  },
+  {
+    "id": "661",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are running a query on your Customers table in DynamoBD, however you only want the query to return CustomerID and EmailAddress for each item in the table, how can you refine the query so that it only includes the required attributes?",
+      "answers": [
+        "Use the ProjectionExpression parameter",
+        "Run a query based on the Primary Key and filter the results using a Sort Key of EmailAddress",
+        "Use a scan operation instead",
+        "Create a Global Secondary Index which only includes the attributes you need and run the query on the Global Secondary Index"
+      ],
+      "correctAnswer": ["Use the ProjectionExpression parameter"]
+    }
+  },
+  {
+    "id": "662",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Using the AWS portal, you are trying to Scale DynamoDB past its preconfigured maximums. Which service limit can you increase by raising a ticket to AWS support?",
+      "answers": [
+        "Item Sizes",
+        "Local Secondary Indexes",
+        "Global Secondary Indexes",
+        "Provisioned throughput limits"
+      ],
+      "correctAnswer": ["Provisioned throughput limits"]
+    }
+  },
+  {
+    "id": "663",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your DynamoDB table is throwing a ProvisionedThroughputExceeded error, what could be the problem?",
+      "answers": [
+        "Your applications request rate is too high",
+        "Your instance is too small",
+        "You are experiencing network contention",
+        "You are running out of disk space"
+      ],
+      "correctAnswer": ["Your applications request rate is too high"]
+    }
+  },
+  {
+    "id": "664",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which feature can you use to capture a time-ordered sequence of all the activity which occurs on your DynamoDB table - e.g. insert, update, delete?",
+      "answers": [
+        "DynamoDB Streams",
+        "CloudWatch",
+        "CloudTrail",
+        "Kinesis Streams"
+      ],
+      "correctAnswer": ["DynamoDB Streams"]
+    }
+  },
+  {
+    "id": "665",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "In terms of performance, a scan is more efficient than a query",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "666",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "By default, a DynamoDB query operation is used for which of the following?",
+      "answers": [
+        "Return the entire contents of a table",
+        "Find items in a table based on the Sort Key attribute",
+        "Return the entire contents of a table filtered on the Primary Key attribute",
+        "Find items in a table based on the Primary Key attribute"
+      ],
+      "correctAnswer": ["Find items in a table based on the Primary Key attribute"]
+    }
+  },
+  {
+    "id": "667",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following services provides in-memory write-through cache optimized for DynamoDB?",
+      "answers": [
+        "CloudFront",
+        "DAX",
+        "ElastiCache",
+        "Read-replica"
+      ],
+      "correctAnswer": ["DAX"]
+    }
+  },
+  {
+    "id": "668",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following are recommended ways to optimize a query or scan in DynamoDB? (Choose 2)",
+      "answers": [
+        "Set your queries to be eventually consistent",
+        "Run parallel scans",
+        "Filter your results based on the Primary Key and Sort Key",
+        "Reduce the page size to return fewer items per results page"
+      ],
+      "correctAnswer": ["Run parallel scans",
+      "Reduce the page size to return fewer items per results page"]
+    }
+  },
+  {
+    "id": "669",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your application is storing customer order data in DynamoDB. Which of the following pairs of attributes would make the best composite key to allow you to query DynamoDB efficiently to find a customer order that was placed on a specific day?",
+      "answers": [
+        "CustomerID + ProductID",
+        "CustomerID + OrderDate",
+        "CustomerID + Size",
+        "CustomerID + ProductCategory"
+      ],
+      "correctAnswer": ["CustomerID + OrderDate"]
+    }
+  },
+  {
+    "id": "670",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following services can be used to securely store confidential information like credentials and license codes so that they can be accessed by EC2 instances?",
+      "answers": [
+        "DynamoDB",
+        "Systems Manager Parameter Store",
+        "IAM",
+        "KMS"
+      ],
+      "correctAnswer": ["Systems Manager Parameter Store"]
+    }
+  },
+  {
+    "id": "671",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have an application that needs to read 25 items of 13KB in size per second. Your application uses eventually consistent reads. What should you set the read throughput to?",
+      "answers": [
+        "100 RCU",
+        "10 RCU",
+        "50 RCU",
+        "25 RCU"
+      ],
+      "correctAnswer": ["50 RCU"]
+    }
+  },
+  {
+    "id": "672",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have an application that needs to read 25 items of 13KB in size per second. Your application uses strongly consistent reads. What should you set the read throughput to?",
+      "answers": [
+        "100 RCU",
+        "10 RCU",
+        "50 RCU",
+        "25 RCU"
+      ],
+      "correctAnswer": ["100 RCU"]
+    }
+  },
+  {
+    "id": "673",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the API call to retrieve multiple items from a DynamoDB table?",
+      "answers": [
+        "BatchGet",
+        "BatchGetItem",
+        "BatchGetItems",
+        "GetItems"
+      ],
+      "correctAnswer": ["BatchGetItem"]
+    }
+  },
+  {
+    "id": "674",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "What is the difference between a Global Secondary Index and a Local Secondary Index (Choose 2)",
+      "answers": [
+        "You can create a Global Secondary Index at any time but you can only create a Local Secondary Index at table creation time",
+        "You can delete a Global Secondary Index at any time",
+        "You can delete a Local Secondary Index at any time",
+        "You can create a Local Secondary Index at any time but you can only create a Global Secondary Index at table creation time"
+      ],
+      "correctAnswer": ["You can create a Global Secondary Index at any time but you can only create a Local Secondary Index at table creation time",
+        "You can delete a Global Secondary Index at any time"]
+    }
+  },
+  {
+    "id": "675",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "In DynamoDB, a scan operation is used for which of the following?",
+      "answers": [
+        "Find items in a table based on the Primary Key attribute",
+        "Find items in a table based on the Sort Key attribute",
+        "Return the entire contents of a table",
+        "Return the entire contents of a table filtered on the Primary Key attribute"
+      ],
+      "correctAnswer": ["Return the entire contents of a table"]
+    }
+  },
+  {
+    "id": "676",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following approaches is used in AWS to improve flow control by retrying failed requests using progressively longer waits between retries?",
+      "answers": [
+        "Backoff With Jitter",
+        "Linear Backoff",
+        "Exponential Backoff",
+        "Exponential Retry"
+      ],
+      "correctAnswer": ["Exponential Backoff"]
+    }
+  },
+  {
+    "id": "677",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a motion sensor which writes 600 items of data every minute. Each item consists of 5KB. What should you set the write throughput to?",
+      "answers": [
+        "20",
+        "50",
+        "10",
+        "40"
+      ],
+      "correctAnswer": ["50"]
+    }
+  },
+  {
+    "id": "678",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following are ways of remediating a ProvisionedThroughputExceeded error from DynamoDB? (Choose 2)",
+      "answers": [
+        "Exponential Backoff",
+        "Increase the frequency of requests to the DynamoDB table",
+        "Reduce the frequency of requests to the DynamoDB table",
+        "Move your application to a larger instance type"
+      ],
+      "correctAnswer": ["Exponential Backoff",
+      "Reduce the frequency of requests to the DynamoDB table"]
+    }
+  },
+  {
+    "id": "679",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your application is storing customer order data in a DynamoDB table. You need to run a query to find all the orders placed by a specific customer in the last month, which attributes would you use in your query?",
+      "answers": [
+        "A composite Primary Key made up of the CustomerName and OrderDate",
+        "The Partition Key of OrderDate and a Sort Key of CustomerID",
+        "The Partition Key of CustomerID and a Sort Key of OrderDate",
+        "The Partition Key of OrderDate and Sort Key of CustomerName"
+      ],
+      "correctAnswer": ["The Partition Key of CustomerID and a Sort Key of OrderDate"]
+    }
+  },
+  {
+    "id": "680",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your low latency web application needs to store its session state in a scalable way so that it can be accessed quickly. Which service do you recommend?",
+      "answers": [
+        "In memory on your EC2 instance",
+        "Elastic File Store",
+        "RDS",
+        "DynamoDB"
+      ],
+      "correctAnswer": ["DynamoDB"]
+    }
+  }
+]
