@@ -1,0 +1,531 @@
+[
+  {
+    "id": "713",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS is a web service that gives you access to a ______",
+      "answers": [
+        "distributed queue system",
+        "MQSeries queue",
+        "hash table",
+        "dictionary"
+      ],
+      "correctAnswer": ["distributed queue system"]
+    }
+  },
+  {
+    "id": "714",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "What can you add to an SQS architecture so that the consuming processors scale as the queue depth grows or shrinks?",
+      "answers": [
+        "auto-scaling group",
+        "ECS Fargate",
+        "EKS",
+        "Elastic Beanstalk"
+      ],
+      "correctAnswer": ["auto-scaling group"]
+    }
+  },
+  {
+    "id": "715",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS is which type of system?",
+      "answers": [
+        "pull based",
+        "push based",
+        "push-pull based",
+        "hub based"
+      ],
+      "correctAnswer": ["pull based"]
+    }
+  },
+  {
+    "id": "716",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS messages can contain up to ______ of text in any format",
+      "answers": [
+        "256K",
+        "512K",
+        "1G",
+        "128K"
+      ],
+      "correctAnswer": ["256K"]
+    }
+  },
+  {
+    "id": "716",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS messages can contain up to 256K of ______",
+      "answers": [
+        "text in any format",
+        "text in JSON format",
+        "text in XML format",
+        "text in plain text format"
+      ],
+      "correctAnswer": ["text in any format"]
+    }
+  },
+  {
+    "id": "717",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS App code can retrieve the messages using the ______",
+      "answers": [
+        "SQS API",
+        "AWS API",
+        "AWS API Gateway",
+        "SQS Gateway"
+      ],
+      "correctAnswer": ["SQS API"]
+    }
+  },
+  {
+    "id": "718",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS is great for when the consuming application code is ______",
+      "answers": [
+        "only intermittently attached to the network",
+        "using blockchain technology",
+        "doing bitcoin mining",
+        "a message random processor"
+      ],
+      "correctAnswer": ["only intermittently attached to the network"]
+    }
+  },
+  {
+    "id": "719",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS helps if the producing code produces work ______",
+      "answers": [
+        "faster than the consuming app code can handle",
+        "slower than the consuming app code can handle",
+        "at the exact same rate as the consuming app code can handle",
+        "at a random rate"
+      ],
+      "correctAnswer": ["faster than the consuming app code can handle"]
+    }
+  },
+  {
+    "id": "720",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 2",
+      "question": "There are two different types of queues:",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue",
+        "FIFO queue"]
+    }
+  },
+  {
+    "id": "721",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue is the default queue type?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "722",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue can handle nearly an unlimited number of transactions per second?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "723",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue guarantees that a message is delivered at least once?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "724",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue has the probability that more than one copy of a message might be delivered?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "725",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue works so that the messages might be delivered out of order?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "726",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue provides best-effort ordering?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["Standard queue"]
+    }
+  },
+  {
+    "id": "727",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue has the feature that messages will be delivered exactly once?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "728",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue has the feature that the order in which messages are sent and received is strictly preserved?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "729",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue has the feature that messages remain available until a consumer processes and deletes it?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "730",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue has the feature that duplicates are not introduced into the queue?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "731",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue supports message groups that allow multiple ordered message groups within a single queue?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "732",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "Which type of SQS queue is limited to 300 transactions per second (TPS)?",
+      "answers": [
+        "Standard queue",
+        "FIFO queue",
+        "LIFO queue",
+        "LAFO queue"
+      ],
+      "correctAnswer": ["FIFO queue"]
+    }
+  },
+  {
+    "id": "733",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS messages can be kept in the queue from ______ to ______?",
+      "answers": [
+        "1 minute, 14 days",
+        "1 minute, 1 day",
+        "1 second, 1 minute",
+        "1 second, 1 hour"
+      ],
+      "correctAnswer": ["1 minute, 14 days"]
+    }
+  },
+  {
+    "id": "734",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "The default SQS retention period is ______?",
+      "answers": [
+        "4 days",
+        "14 days",
+        "1 day",
+        "1 hour"
+      ],
+      "correctAnswer": ["4 days"]
+    }
+  },
+  {
+    "id": "735",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "SQS guarantees that your message will be will be processed ______?",
+      "answers": [
+        "at least once",
+        "more than once",
+        "as many times as needed",
+        "once per cycle"
+      ],
+      "correctAnswer": ["at least once"]
+    }
+  },
+  {
+    "id": "736",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS the amount of time that the message is invisible in the SQS queue after a consumer picks up that message is called what?",
+      "answers": [
+        "the Visibility Timeout",
+        "the Invisibility Timeout",
+        "the Timeout Period",
+        "the Message Timeout"
+      ],
+      "correctAnswer": ["the Visibility Timeout"]
+    }
+  },
+  {
+    "id": "737",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS if the consuming code finishes processing before the visibility timeout expires, the message will then be ______",
+      "answers": [
+        "deleted from the queue",
+        "copied from the queue",
+        "saved in the dead letter queue",
+        "moved to the audit queue"
+      ],
+      "correctAnswer": ["deleted from the queue"]
+    }
+  },
+  {
+    "id": "738",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS if the consuming code does not finish within the visibility timeout, the message will ______",
+      "answers": [
+        "become visible again and another consumer will process it",
+        "become visible again and have the visibility timeout set to a lesser value",
+        "become visible again and have the visibility timeout set to a greater value",
+        "become visible again and have the message moved to the audit queue"
+      ],
+      "correctAnswer": ["become visible again and another consumer will process it"]
+    }
+  },
+  {
+    "id": "739",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS the default visibility timeout is ______",
+      "answers": [
+        "30 seconds",
+        "60 seconds",
+        "1 day",
+        "1 hour"
+      ],
+      "correctAnswer": ["30 seconds"]
+    }
+  },
+  {
+    "id": "740",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS increase the visibility timeout if your application will take longer than ______ to process messages",
+      "answers": [
+        "30 seconds",
+        "60 seconds",
+        "1 day",
+        "1 hour"
+      ],
+      "correctAnswer": ["30 seconds"]
+    }
+  },
+  {
+    "id": "741",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS the maximum visibility timeout is ______",
+      "answers": [
+        "12 hours",
+        "60 seconds",
+        "1 day",
+        "1 hour"
+      ],
+      "correctAnswer": ["12 hours"]
+    }
+  },
+  {
+    "id": "742",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS if your application is projected to take more than ______ to process a message, SQS is not a good choice",
+      "answers": [
+        "12 hours",
+        "60 seconds",
+        "1 day",
+        "1 hour"
+      ],
+      "correctAnswer": ["12 hours"]
+    }
+  },
+  {
+    "id": "743",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS while the regular short polling returns immediately (even if the queue is empty), long polling does not return a response until ______",
+      "answers": [
+        "a message arrives in the queue or the long poll times out",
+        "the queue is empty or the long poll times out",
+        "a message arrives in the queue or the queue is empty",
+        "a message arrives in the queue or the queue is full"
+      ],
+      "correctAnswer": ["a message arrives in the queue or the long poll times out"]
+    }
+  },
+  {
+    "id": "744",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SQS",
+      "questionType": "multiple choice 1",
+      "question": "With SQS long polling can save you money because ______",
+      "answers": [
+        "you are not constantly polling an empty queue",
+        "you are using the timed poll",
+        "you are not constantly writing to the queue",
+        "you are not constantly waiting on an empty queue"
+      ],
+      "correctAnswer": ["you are not constantly polling an empty queue"]
+    }
+  }
+]

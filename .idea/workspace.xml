@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/KMS_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/SQS_dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 3.txt" afterDir="false" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="86" column="80" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="80" />
+            <state relative-caret-position="226">
+              <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -76,16 +76,17 @@
                 <element signature="n#style#0;n#mat-label#11;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#12;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#mat-label#13;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#mat-label#14;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KMS_dev.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/KMS_dev.json">
+      <file leaf-file-name="SQS_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/SQS_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="556" column="16" selection-start-line="556" selection-start-column="16" selection-end-line="556" selection-end-column="16" />
+            <state relative-caret-position="378">
+              <caret line="525" column="42" selection-start-line="525" selection-start-column="42" selection-end-line="525" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -136,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.chalice/policy-dev.json" />
         <option value="$PROJECT_DIR$/chalicelib/c2pQuestions.py" />
         <option value="$PROJECT_DIR$/chalicelib/ca2Questions.py" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/data.service.ts" />
@@ -185,8 +185,9 @@
         <option value="$PROJECT_DIR$/public/Lambda json/DynamoDB_3_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/DynamoDB_4_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/DynamoDB_5_dev.json" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/KMS_dev.json" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
+        <option value="$PROJECT_DIR$/public/Lambda json/SQS_dev.json" />
       </list>
     </option>
   </component>
@@ -212,9 +213,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="980" />
+    <option name="y" value="24" />
+    <option name="width" value="1894" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -370,24 +371,24 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="32304000" />
+      <workItem from="1558570060616" duration="35159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134513000" />
+    <option name="totallyTimeSpent" value="137368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="999" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28531855" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -425,7 +426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question-component/cda-question-component.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question-component/cda-question-component.component.ts" />
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,10 +761,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/KMS_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="560" column="3" selection-start-line="545" selection-start-column="2" selection-end-line="560" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="86" column="80" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="80" />
+        <state relative-caret-position="226">
+          <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -779,14 +786,15 @@
             <element signature="n#style#0;n#mat-label#11;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#12;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#mat-label#13;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-label#14;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/KMS_dev.json">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/SQS_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="556" column="16" selection-start-line="556" selection-start-column="16" selection-end-line="556" selection-end-column="16" />
+        <state relative-caret-position="378">
+          <caret line="525" column="42" selection-start-line="525" selection-start-column="42" selection-end-line="525" selection-end-column="42" />
         </state>
       </provider>
     </entry>
