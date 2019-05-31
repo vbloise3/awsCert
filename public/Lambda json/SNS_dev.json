@@ -1,0 +1,309 @@
+[
+  {
+    "id": "745",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "The AWS service provides developers with a capability to push messages from an application and immediately deliver them to subscribers or other applications",
+      "answers": [
+        "SNS",
+        "SQS",
+        "SES",
+        "MQSeries"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "746",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 4",
+      "question": "Besides pushing cloud notifications directly to mobile devices, SNS can also deliver notifications via ______",
+      "answers": [
+        "SMS text message",
+        "email",
+        "SQS queues",
+        "any HTTP endpoint",
+        "SOAP",
+        "SSH",
+        "RDP"
+      ],
+      "correctAnswer": ["SMS text message",
+        "email",
+        "SQS queues",
+        "any HTTP endpoint"]
+    }
+  },
+  {
+    "id": "747",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "SNS notifications can trigger ______",
+      "answers": [
+        "lambda functions",
+        "DDOS attacks",
+        "auto-scaling",
+        "DynamoDB reindexing"
+      ],
+      "correctAnswer": ["lambda functions"]
+    }
+  },
+  {
+    "id": "748",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "When a message is published to an SNS topic that has a lambda function subscribed to it, the lambda function is ______",
+      "answers": [
+        "invoked with the payload of the published message",
+        "invoked with the payload of the message id",
+        "invoked with the payload of the message location",
+        "invoked with the payload of the published topic"
+      ],
+      "correctAnswer": ["invoked with the payload of the published message"]
+    }
+  },
+  {
+    "id": "749",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "When a message is published to an SNS topic that has a lambda function subscribed to it, the lambda function receives the message payload as an ______",
+      "answers": [
+        "input parameter",
+        "input parameter linked list",
+        "input parameter tuple",
+        "input parameter hash"
+      ],
+      "correctAnswer": ["input parameter"]
+    }
+  },
+  {
+    "id": "750",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "SNS allows you to group multiple recipients using ______",
+      "answers": [
+        "topics",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies",
+        "IAM topics"
+      ],
+      "correctAnswer": ["topics"]
+    }
+  },
+  {
+    "id": "751",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "An SNS topic is an access point for allowing recipients to dynamically subscribe for identical copies of the same notification",
+      "answers": [
+        "identical copies of the same notification",
+        "individual notifications",
+        "groups of notifications",
+        "topics of notifications"
+      ],
+      "correctAnswer": ["identical copies of the same notification"]
+    }
+  },
+  {
+    "id": "752",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "One SNS topic can support delivery to ______ endpoint types",
+      "answers": [
+        "multiple",
+        "a single",
+        "a predefined set of",
+        "specific"
+      ],
+      "correctAnswer": ["multiple"]
+    }
+  },
+  {
+    "id": "752",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "When you publish once to an SNS topic, SNS delivers ______ copies of your message to each subscriber",
+      "answers": [
+        "appropriately formatted",
+        "single formatted",
+        "default formatted",
+        "raw"
+      ],
+      "correctAnswer": ["appropriately formatted"]
+    }
+  },
+  {
+    "id": "753",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "To prevent SNS messages from being lost, all messages published to SNS are stored ______",
+      "answers": [
+        "redundantly across multiple AZs",
+        "redundantly across multiple regions",
+        "redundantly across multiple data centers",
+        "redundantly across multiple EC2 instances"
+      ],
+      "correctAnswer": ["redundantly across multiple AZs"]
+    }
+  },
+  {
+    "id": "754",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 5",
+      "question": "Which of these are SNS benefits",
+      "answers": [
+        "instantaneous, push-based delivery (no polling)",
+        "simple APIs and easy integration with applications",
+        "flexible message delivery over multiple transport protocols",
+        "inexpensive, pay-as-you-go model with no up-front costs",
+        "web-based AWS management console offers the simplicity of a point-and-click interface",
+        "instantaneous, poll-based delivery (no pushing)",
+        "FIFO message delivery",
+        "LIFO message delivery"
+      ],
+      "correctAnswer": ["instantaneous, push-based delivery (no polling)",
+        "simple APIs and easy integration with applications",
+        "flexible message delivery over multiple transport protocols",
+        "inexpensive, pay-as-you-go model with no up-front costs",
+        "web-based AWS management console offers the simplicity of a point-and-click interface"]
+    }
+  },
+  {
+    "id": "755",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these provides push based messaging?",
+      "answers": [
+        "SNS",
+        "SQS",
+        "SES",
+        "S3",
+        "WorkMail"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "756",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these provides pull or poll based messaging?",
+      "answers": [
+        "SNS",
+        "SQS",
+        "SES",
+        "S3",
+        "WorkMail"
+      ],
+      "correctAnswer": ["SQS"]
+    }
+  },
+  {
+    "id": "757",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With SNS, how much do users pay for SNS requests?",
+      "answers": [
+        "$0.50 per 1 million",
+        "$0.06 per 100,000",
+        "$0.75 per 100",
+        "$2.00 per 100,000"
+      ],
+      "correctAnswer": ["$0.50 per 1 million"]
+    }
+  },
+  {
+    "id": "758",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With SNS, how much do users pay for notification deliveries over HTTP?",
+      "answers": [
+        "$0.50 per 1 million",
+        "$0.06 per 100,000",
+        "$0.75 per 100",
+        "$2.00 per 100,000"
+      ],
+      "correctAnswer": ["$0.06 per 100,000"]
+    }
+  },
+  {
+    "id": "759",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With SNS, how much do users pay for notification deliveries over SMS?",
+      "answers": [
+        "$0.50 per 1 million",
+        "$0.06 per 100,000",
+        "$0.75 per 100",
+        "$2.00 per 100,000"
+      ],
+      "correctAnswer": ["$0.75 per 100"]
+    }
+  },
+  {
+    "id": "760",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With SNS, how much do users pay for notification deliveries over email?",
+      "answers": [
+        "$0.50 per 1 million",
+        "$0.06 per 100,000",
+        "$0.75 per 100",
+        "$2.00 per 100,000"
+      ],
+      "correctAnswer": [
+        "$2.00 per 100,000"
+      ]
+    }
+  },
+  {
+    "id": "761",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "SNS follows the ______ messaging paradigm",
+      "answers": [
+        "pub-sub",
+        "hub-spoke",
+        "message-bus",
+        "round-robin"
+      ],
+      "correctAnswer": ["pub-sub"]
+    }
+  }
+]

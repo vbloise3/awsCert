@@ -904,4 +904,31 @@ SQS
     - While the regular short polling returns immediately (even if the queue is empty), long polling does not return a response until a message arrives in the queue or the long poll times out
     - long polling can save you money because you are not constantly polling an empty queue
 Simple Notification Service
+  - SNS is a web service that makes it easy to set up, operate, and send notifications from the cloud
+  - provides developers with a capability to push messages from an application and immediately deliver them to subscribers or other applications
+  - besides pushing cloud notifications directly to mobile devices, SNS can also deliver notifications via SMS text message or email to SQS queues or to any HTTP endpoint
+  - SNS notifications can trigger lambda functions
+    - when a message is published to an SNS topic that has a lambda function is subscriber to it, the lambda function is invoked with the payload of the published message
+    - the lambda function receives the message payload as an input parameter
+  - SNS allows you to group multiple recipients using topics
+  - An SNS topic is an access point for allowing recipients to dynamically subscribe for identical copies of the same notification
+  - One SNS topic can support delivery to multiple endpoint types
+  - When you publish once to an SNS topic, SNS delivers appropriately formatted copies of your message to each subscriber
+  - To prevent SNS messages from being lost, all messages published to SNS are stored redundantly across multiple AZs
+  - SNS benefits
+    - instantaneous, push-based delivery (no polling)
+    - simple APIs and easy integration with applications
+    - flexible message delivery over multiple transport protocols
+    - inexpensive, pay-as-you-go model with no up-front costs
+    - web-based AWS management console offers the simplicity of a point-and-click interface
+  - SNS vs SQS
+    - both are messaging services in AWS
+    - SNS - push
+    - SQS - polls (pulls)
+  - SNS pricing
+    - users pay $0.50 per 1 million SNS requests
+    - $0.06 per 100,000 notification deliveries over HTTP
+    - $0.75 per 100 notification deliveries over SMS
+    - $2.00 per 100,000 notification deliveries over email
+  - SNS follows the pub-sub messaging paradigm
   - 
