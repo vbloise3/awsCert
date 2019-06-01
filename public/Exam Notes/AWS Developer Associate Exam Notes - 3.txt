@@ -991,6 +991,31 @@ Kinesis 101
     - Kinesis Analytics
       - allows you to run SQL queries of the data in Kinesis Streams and-or Kinesis Firehose
       - the results of the SQL query can be stored in S3, Redshift, Elasticsearch Cluster
-      -
 Elastic Beanstalk 101
-  - 
+  - Elastic Beanstalk is a service for deploying and scaling web applications developed in many popular languages:
+    - Java
+    - .Net
+    - PHP
+    - Node.js
+    - Python
+    - Ruby
+    - Go
+    - Docker
+  - Deploys onto widely used application server platforms:
+    - Apache Tomcat
+    - Nginx
+    - Passenger
+    - IIS
+    - Puma
+  - Developers can focus on writing code and not worry about the underlying infrastructure needed to run the application
+  - A provisioning service similar to CloudFormation but done through the console versus using JSON
+  - You upload the code and Elastic Beanstalk will handle the deployment, capacity provisioning, load balancing, auto-scaling, and application health
+  - You retain full control of the underlying resources powering your application and you pay only for the AWS resources required to store and run your application
+  - Fastest and simplest way to deploy your application in AWS
+  - Automatically scales your application up and down
+  - You can select the EC2 instance type that is optimal for your application
+  - You can retain full administrative control over the resources powering your application, or have Elastic Beanstalk do it for you
+  - Managed platform updates feature automatically applies updates to your operating system, Java, PHP, Node.js, etc.
+  - Monitor and manage application health via a dashboard
+  - Integrated with CloudWatch and X-Ray for performance data and metrics
+  -

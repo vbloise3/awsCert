@@ -1,0 +1,254 @@
+[
+  {
+    "id": "787",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk is a service for ______ developed in many popular languages",
+      "answers": [
+        "deploying and scaling web applications",
+        "deploying and scaling analytics clusters",
+        "deploying and scaling batch services",
+        "deploying and scaling API Gateways",
+        "deploying and scaling REST services"
+      ],
+      "correctAnswer": ["deploying and scaling web applications"]
+    }
+  },
+  {
+    "id": "788",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which of these languages does Elastic Beanstalk not support?",
+      "answers": [
+        "Java",
+        ".NET",
+        "PHP",
+        "Node.js",
+        "Python",
+        "Ruby",
+        "Go",
+        "Docker",
+        "Rust"
+      ],
+      "correctAnswer": ["Rust"]
+    }
+  },
+  {
+    "id": "789",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 5",
+      "question": "Elastic Beanstalk deploys onto which of these widely used application server platforms?",
+      "answers": [
+        "Apache Tomcat",
+        "Nginx",
+        "PHP",
+        "Passenger",
+        "IIS",
+        "Puma",
+        "Tuxedo",
+        "Tntnet",
+        "ColdFusion"
+      ],
+      "correctAnswer": ["Apache Tomcat",
+        "Nginx",
+        "PHP",
+        "Passenger",
+        "IIS",
+        "Puma"]
+    }
+  },
+  {
+    "id": "790",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "With Elastic Beanstalk developers can focus on writing code and not worry about the ______ needed to run the application",
+      "answers": [
+        "underlying infrastructure",
+        "programming language",
+        "operating system",
+        "server type"
+      ],
+      "correctAnswer": ["underlying infrastructure"]
+    }
+  },
+  {
+    "id": "791",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk is a ______ similar to CloudFormation but done through the console versus using JSON",
+      "answers": [
+        "provisioning service",
+        "programming service",
+        "development environment",
+        "scripting language"
+      ],
+      "correctAnswer": ["provisioning service"]
+    }
+  },
+  {
+    "id": "792",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 5",
+      "question": "You upload the code and Elastic Beanstalk will handle which of these?",
+      "answers": [
+        "deployment",
+        "capacity provisioning",
+        "load balancing",
+        "auto-scaling",
+        "application health",
+        "application security",
+        "PII data"
+      ],
+      "correctAnswer": ["deployment",
+        "capacity provisioning",
+        "load balancing",
+        "auto-scaling",
+        "application health"]
+    }
+  },
+  {
+    "id": "793",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "You retain full control of the underlying resources powering your application and you pay ______",
+      "answers": [
+        "only for the AWS resources required to store and run your application",
+        "for the AWS resources required to store and run your application and for the Elastic Beanstalk service",
+        "for the AWS resources required to store and run your application and for the network traffic it consumes",
+        "for the AWS resources required to store and run your application and for the licenses of the OS and application server software you use"
+      ],
+      "correctAnswer": ["only for the AWS resources required to store and run your application"]
+    }
+  },
+  {
+    "id": "794",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "What is the fastest and simplest way to deploy your application in AWS",
+      "answers": [
+        "Elastic Beanstalk",
+        "Lambda",
+        "CloudFormation",
+        "OpsWorks"
+      ],
+      "correctAnswer": ["Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "795",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk automatically ______",
+      "answers": [
+        "scales your application up and down",
+        "scales your application to larger or smaller EC2 instances",
+        "scales your application to larger or smaller network bandwidth",
+        "scales your application to the right VPC"
+      ],
+      "correctAnswer": ["scales your application up and down"]
+    }
+  },
+  {
+    "id": "796",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "You can select the ______ that is optimal for your application",
+      "answers": [
+        "EC2 instance type",
+        "S3 bucket type",
+        "VPC type",
+        "network protocol"
+      ],
+      "correctAnswer": ["EC2 instance type"]
+    }
+  },
+  {
+    "id": "797",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "You can retain full administrative control over the ______, or have Elastic Beanstalk do it for you",
+      "answers": [
+        "resources powering your application",
+        "licenses of the software powering your application",
+        "VPC powering your application",
+        "network protocol your application runs on"
+      ],
+      "correctAnswer": ["resources powering your application"]
+    }
+  },
+  {
+    "id": "798",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "The Elastic Beanstalk ______ feature automatically applies updates to your operating system, Java, PHP, Node.js, etc.",
+      "answers": [
+        "Managed Platform Updates",
+        "Managed Updates",
+        "Managed Service",
+        "Managed Licensing"
+      ],
+      "correctAnswer": ["Managed Platform Updates"]
+    }
+  },
+  {
+    "id": "799",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "With Elastic Beanstalk you can monitor and manage application health via a ______",
+      "answers": [
+        "dashboard",
+        "log",
+        "data stream",
+        "console"
+      ],
+      "correctAnswer": ["dashboard"]
+    }
+  },
+  {
+    "id": "800",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "Elastic Beanstalk is integrated with which of these for performance data and metrics",
+      "answers": [
+        "CloudWatch",
+        "X-Ray",
+        "CloudStream",
+        "CloudTrail",
+        "Macie",
+        "IAM",
+        "KSM",
+        "WAF"
+      ],
+      "correctAnswer": ["CloudWatch",
+        "X-Ray"]
+    }
+  }
+]
