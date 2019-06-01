@@ -1,0 +1,294 @@
+[
+  {
+    "id": "771",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "What is data that is generated continuously by thousands of data sources, which typically send in the data records simultaneously and in small sizes (such as kilobytes)?",
+      "answers": [
+        "streaming data",
+        "transactional data",
+        "infrastructure data",
+        "configuration data"
+      ],
+      "correctAnswer": ["streaming data"]
+    }
+  },
+  {
+    "id": "772",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which one of these is not a typical streaming data source?",
+      "answers": [
+        "purchases from online stores (such as Amazon)",
+        "stock prices",
+        "game data (as the gamer plays)",
+        "social network data",
+        "geospatial data (such as uber.com)",
+        "IoT sensor data",
+        "transactional data"
+      ],
+      "correctAnswer": ["transactional data"]
+    }
+  },
+  {
+    "id": "773",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 3",
+      "question": "The three core kinesis services are:",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics"]
+    }
+  },
+  {
+    "id": "773",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services has data is stored in shards?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "774",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services has producers send data into shards?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "775",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services has consumers receive data from shards?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "776",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services operates such that once consumers have manipulated the data they can then store the data in AWS services like DynamoDB, S3, EMR, or Redshift?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "777",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services by default stores data for 24 hours?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "778",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services can increase retention to 7 days?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "779",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services consists of shards?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Streams"]
+    }
+  },
+  {
+    "id": "780",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services do not have shards, it is completely automated?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "781",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services can analyze data received using lambda in real time?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "782",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services functions such that once the data has been analyzed you can send it to S3?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "783",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services functions such that when data is received it is either analyzed using lambda or it is sent directly on to S3 and then optionally to other stores like Redshift?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "784",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services can also send data out of firehose directly to an Elasticsearch Cluster?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "785",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services allows you to run SQL queries of the data in Kinesis Streams and-or Kinesis Firehose?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Analytics"]
+    }
+  },
+  {
+    "id": "786",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Kinesis",
+      "questionType": "multiple choice 1",
+      "question": "Which of the three core kinesis services functions such that the results of the SQL query can be stored in S3, Redshift, Elasticsearch Cluster?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Firehose",
+        "Kinesis Analytics",
+        "Kinesis Visualizer",
+        "Kinesis Cluster"
+      ],
+      "correctAnswer": ["Kinesis Analytics"]
+    }
+  }
+]

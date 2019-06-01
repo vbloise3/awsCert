@@ -956,4 +956,41 @@ SES vs SNS
     - can fan out messages to large numbers of recipients (replicate and push messages to multiple endpoints and formats)
     - consumers must subscribe to a topic to receive notifications
 Kinesis 101
+  - Streaming data is data that is generated continuously by thousands of data sources, which typically send in the data records simultaneously and in small sizes (such as kilobytes)
+  - Typical streaming data sources:
+    - purchases from online stores (such as Amazon)
+    - stock prices
+    - game data (as the gamer plays)
+    - social network data
+    - geospatial data (such as uber.com)
+    - IoT sensor data
+  - Kinesis is a platform on AWS to which you can send your data
+  - Kinesis makes it easy to load and analyze streaming data, and also providing the ability for you to build your own custom applications
+  - The three core kinesis services:
+    - Kinesis Streams
+      - data is stored in shards
+      - producers send data into Kinesis Streams shards
+      - consumers receive data from Kinesis Streams shards
+      - once consumers have manipulated the streamed data they can then store the data in AWS services like DynamoDB, S3, EMR, or Redshift
+      - by default stores data for 24 hours
+      - can increase retention to 7 days
+      - Kinesis streams consist of shards
+        - 5 transactions per second for reads
+        - up to a maximum total data read rate of 2MB per second
+        - up to 1,000 records per second for writes
+        - up to a maximum total data write rate of 1MB per second (including partition keys)
+        - the data capacity of your stream is a function of the number of shards that you specify for the stream
+        - the total capacity of the stream is the sum of the capacities of the shards
+    - Kinesis Firehose
+      - producers send data into Kinesis Firehose
+      - do not have shards, it is completely automated
+      - can analyze data received by Kinesis Firehose using lambda in real time
+      - once the data has been analyzed you can send it to S3
+      - when data is received into firehose it is either analyzed using lambda or it is sent directly on to S3 and then optionally to other stores like Redshift
+      - can also send data out of firehose directly to an Elasticsearch Cluster
+    - Kinesis Analytics
+      - allows you to run SQL queries of the data in Kinesis Streams and-or Kinesis Firehose
+      - the results of the SQL query can be stored in S3, Redshift, Elasticsearch Cluster
+      -
+Elastic Beanstalk 101
   - 
