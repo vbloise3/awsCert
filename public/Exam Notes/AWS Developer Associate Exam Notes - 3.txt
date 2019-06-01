@@ -931,4 +931,29 @@ Simple Notification Service
     - $0.75 per 100 notification deliveries over SMS
     - $2.00 per 100,000 notification deliveries over email
   - SNS follows the pub-sub messaging paradigm
+SES vs SNS
+  - Simple Email Service is a scalable and highly available email service used to send emails using a pay as you go model
+  - Can also be used to receive emails
+    - received emails can be delivered automatically to an S3 bucket
+    - incoming emails can be used to trigger lambda functions and SNS notifications
+  - SES use cases:
+    - automated emails
+    - purchase confirmations
+    - shipping notifications
+    - order status updates
+    - marketing communications
+    - advertisements
+    - news letters
+  - SES
+    - email messaging service
+    - can trigger lambda functions or SNS notification
+    - can be used for both incoming and outgoing email
+    - an email address is all that is needed to start sending email messages
+  - SNS
+    - Pub-sub messaging service
+    - formats include SMS, HTTP, SQS, email
+    - can be used to trigger a lambda function
+    - can fan out messages to large numbers of recipients (replicate and push messages to multiple endpoints and formats)
+    - consumers must subscribe to a topic to receive notifications
+Kinesis 101
   - 

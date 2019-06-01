@@ -1,0 +1,184 @@
+[
+  {
+    "id": "762",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "______ is a scalable and highly available email service used to send emails using a pay as you go model",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SES"]
+    }
+  },
+  {
+    "id": "763",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 3",
+      "question": "When using SES to receive emails you can do which of these?",
+      "answers": [
+        "received emails can be delivered automatically to an S3 bucket",
+        "incoming emails can be used to trigger lambda functions",
+        "incoming emails can be used to trigger SNS notifications",
+        "received emails can be used to trigger kinesis streams"
+      ],
+      "correctAnswer": ["received emails can be delivered automatically to an S3 bucket",
+        "incoming emails can be used to trigger lambda functions",
+        "incoming emails can be used to trigger SNS notifications"]
+    }
+  },
+  {
+    "id": "763",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is not an SES use case?",
+      "answers": [
+        "automated emails",
+        "purchase confirmations",
+        "shipping notifications",
+        "order status updates",
+        "marketing communications",
+        "advertisements",
+        "news letters",
+        "mobile SMS message"
+      ],
+      "correctAnswer": ["mobile SMS message"]
+    }
+  },
+  {
+    "id": "764",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services is an email messaging service?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SES"]
+    }
+  },
+  {
+    "id": "765",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services can trigger lambda functions or SNS notification?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SES"]
+    }
+  },
+  {
+    "id": "766",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services can be used for both incoming and outgoing email?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SES"]
+    }
+  },
+  {
+    "id": "767",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With which of these services do you only need an email address to start sending email messages?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SES"]
+    }
+  },
+  {
+    "id": "768",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services is a pub-sub messaging service?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "769",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services uses formats including SMS, HTTP, SQS, email?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "770",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "Which of these services can fan out messages to large numbers of recipients (replicate and push messages to multiple endpoints and formats)?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "771",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "SNS",
+      "questionType": "multiple choice 1",
+      "question": "With which of these services do consumers have to subscribe to a topic to receive notifications?",
+      "answers": [
+        "SES",
+        "SNS",
+        "SQS",
+        "SMS"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  }
+]
