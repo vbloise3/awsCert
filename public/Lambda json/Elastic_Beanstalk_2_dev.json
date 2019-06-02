@@ -1,0 +1,561 @@
+[
+  {
+    "id": "801",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 4",
+      "question": "Elastic Beanstalk supports which four deployment policies",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable"]
+    }
+  },
+  {
+    "id": "802",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy deploys the new version to all instances simultaneously",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["All at once"]
+    }
+  },
+  {
+    "id": "803",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy has all of your instances are out of service while the deployment takes place",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["All at once"]
+    }
+  },
+  {
+    "id": "804",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that you will experience an outage while the deployment is taking place - not ideal for mission-critical production systems",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["All at once"]
+    }
+  },
+  {
+    "id": "805",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that if the update fails, you need to roll back the changes by re-deploying the original version to all your instances",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["All at once"]
+    }
+  },
+  {
+    "id": "806",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "Which Elastic Beanstalk deployment policies deploy the new version in batches",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling",
+      "Rolling with additional batch"]
+    }
+  },
+  {
+    "id": "807",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that each batch of instances is taken out of service while the deployment takes place",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling"]
+    }
+  },
+  {
+    "id": "808",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy is not ideal for performance sensitive systems",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling"]
+    }
+  },
+  {
+    "id": "809",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that if the update fails, you need to perform an additional rolling update to roll back the changes",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling"]
+    }
+  },
+  {
+    "id": "810",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy launches an additional batch of instances",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling with additional batch"]
+    }
+  },
+  {
+    "id": "811",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "Which Elastic Beanstalk deployment policy maintains full capacity during the deployment process",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling with additional batch",
+        "Immutable"]
+    }
+  },
+  {
+    "id": "812",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that if the update fails, you need to perform an additional update to roll back the changes",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Rolling with additional batch"]
+    }
+  },
+  {
+    "id": "813",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy deploys the new version to a fresh group of instances in their own new auto-scaling group",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Immutable"]
+    }
+  },
+  {
+    "id": "814",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that when the new instances pass their health checks, they are moved to your existing auto-scaling group, and finally, the old instances are terminated",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Immutable"]
+    }
+  },
+  {
+    "id": "815",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy works so that the impact of a failed update is far less, and the rollback process requires only terminating the new auto-scaling group",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Immutable"]
+    }
+  },
+  {
+    "id": "816",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk deployment policy is preferred option for mission-critical production systems",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Rolling with additional batch",
+        "Immutable",
+        "Mutable",
+        "Blue-Green",
+        "Canary"
+      ],
+      "correctAnswer": ["Immutable"]
+    }
+  },
+  {
+    "id": "817",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "You can customize your elastic beanstalk environment using Elastic Beanstalk ______",
+      "answers": [
+        "configuration files",
+        "with Systems Manager Parameter Store",
+        "with Secrets Manager",
+        "with DynamoDB"
+      ],
+      "correctAnswer": ["configuration files"]
+    }
+  },
+  {
+    "id": "818",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 5",
+      "question": "Elastic Beanstalk configuration files can contain or do which of these?",
+      "answers": [
+        "packages to install",
+        "create linux users and groups",
+        "run shell commands",
+        "specify services to enable",
+        "configure your load balancer",
+        "create IAM users and groups"
+      ],
+      "correctAnswer": ["packages to install",
+        "create linux users and groups",
+        "run shell commands",
+        "specify services to enable",
+        "configure your load balancer"]
+    }
+  },
+  {
+    "id": "819",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "Elastic Beanstalk configuration files are written in which of these?",
+      "answers": [
+        "YAML",
+        "JSON",
+        "XML",
+        "HTML"
+      ],
+      "correctAnswer": ["YAML",
+        "JSON"]
+    }
+  },
+  {
+    "id": "820",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk configuration files must have the ______ file extension?",
+      "answers": [
+        ".config",
+        ".json",
+        ".yaml",
+        ".yml"
+      ],
+      "correctAnswer": [".config"]
+    }
+  },
+  {
+    "id": "821",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk configuration files must be saved in folder called?",
+      "answers": [
+        ".ebextensions",
+        ".beanstalkextensions",
+        ".extensions",
+        ".ebconfig"
+      ],
+      "correctAnswer": [".ebextensions"]
+    }
+  },
+  {
+    "id": "822",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk .ebextensions folder must be in the ______",
+      "answers": [
+        "top-level directory of your application source code bundle",
+        "src directory of your application source code bundle",
+        "public directory of your application source code bundle",
+        "config directory of your application source code bundle"
+      ],
+      "correctAnswer": ["top-level directory of your application source code bundle"]
+    }
+  },
+  {
+    "id": "823",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "Elastic Beanstalk supports which two ways of integrating an RDS database with your Beanstalk environment?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "824",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration means the RDS instance is created within your Elastic Beanstalk environment?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch from within Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "825",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration means means the lifecycle of your database is tied to the lifecycle of your application environment, if you terminate the environment the database instance will also be terminated?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch from within Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "826",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration decouples the RDS instance from your Elastic Beanstalk environment?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch outside Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "827",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration allows you to connect multiple environments to the same database?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch outside Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "828",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration provides a wider choice of database types?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch outside Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "829",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "Which Elastic Beanstalk type of RDS database instance integration allows you to tear down your application environment without affecting the database instance?",
+      "answers": [
+        "Launch from within Elastic Beanstalk",
+        "Launch outside Elastic Beanstalk",
+        "Launch both inside and outside Elastic Beanstalk",
+        "Launch via CLI"
+      ],
+      "correctAnswer": ["Launch outside Elastic Beanstalk"]
+    }
+  },
+  {
+    "id": "830",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "To allow the EC2 instances in your Elastic Beanstalk environment to connect to an outside database you have to do which of these steps?",
+      "answers": [
+        "must add an additional security group to your environments auto-scaling group",
+        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",
+        "you will need to add additional IAM policies and rules to your environment",
+        "configure your EC2 instances to connect to the RDS instance"
+      ],
+      "correctAnswer": ["must add an additional security group to your environments auto-scaling group",
+        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",]
+    }
+  },
+  {
+    "id": "831",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "To allow the EC2 instances in your Elastic Beanstalk environment to connect to an outside database you have to do which of these steps?",
+      "answers": [
+        "must add an additional security group to your environments auto-scaling group",
+        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",
+        "you will need to add additional IAM policies and rules to your environment",
+        "configure your EC2 instances to connect to the RDS instance"
+      ],
+      "correctAnswer": ["must add an additional security group to your environments auto-scaling group",
+        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",]
+    }
+  }
+]
