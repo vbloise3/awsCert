@@ -65,7 +65,7 @@
     "info": {
       "subcategory": "Elastic Beanstalk",
       "questionType": "multiple choice 1",
-      "question": "Which Elastic Beanstalk deployment policy works so that you will experience an outage while the deployment is taking place - not ideal for mission-critical production systems",
+      "question": "Which Elastic Beanstalk deployment policy works so that you will experience an outage while the deployment is taking place, not ideal for mission-critical production systems",
       "answers": [
         "All at once",
         "Rolling",
@@ -785,7 +785,7 @@
     "info": {
       "subcategory": "Test Example Questions",
       "questionType": "multiple choice 1",
-      "question": "Which of these is a protocol NOT supported by SNS:",
+      "question": "Which of these is a protocol NOT supported by SNS",
       "answers": [
         "HTTP",
         "Email-JSON",
@@ -877,13 +877,13 @@
     "info": {
       "subcategory": "Test Example Questions",
       "questionType": "multiple choice 1",
-      "question": "You run a video-hosting website with two types of members: premium, fee-paying members; and free members. Each video that is uploaded is processed by a fleet of EC2 instances, which poll an SQS queue as videos are uploaded. However, you need to ensure that the videos uploaded by your premium, fee-paying members have a higher priority than those of your free members. How might you work with SQS to endure priority treatment of the premium members videos?",
+      "question": "You run a video-hosting website with two types of members: premium, fee-paying members, and free members. Each video that is uploaded is processed by a fleet of EC2 instances, which poll an SQS queue as videos are uploaded. However, you need to ensure that the videos uploaded by your premium, fee-paying members have a higher priority than those of your free members. How might you work with SQS to endure priority treatment of the premium members videos?",
       "answers": [
         "SQS allows you to set priorities on individual items within the queue, so simply set the fee paying members at a higher priority than your free members",
         "SQS would not be suitable for this scenario. It would be much better to use SNS to encode the videos",
-        "Create two SQS queues — one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."
+        "Create two SQS queues, one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."
       ],
-      "correctAnswer": ["Create two SQS queues — one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."]
+      "correctAnswer": ["Create two SQS queues, one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."]
     }
   },
   {

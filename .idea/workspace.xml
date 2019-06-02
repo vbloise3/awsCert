@@ -57,7 +57,7 @@
       <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="-781">
               <caret line="88" column="67" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -85,8 +85,8 @@
       <file leaf-file-name="Elastic_Beanstalk_2_dev.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/Elastic_Beanstalk_2_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="965" column="167" selection-start-line="965" selection-start-column="167" selection-end-line="965" selection-end-column="167" />
+            <state relative-caret-position="-809">
+              <caret line="879" column="317" selection-start-line="879" selection-start-column="317" selection-end-line="879" selection-end-column="317" />
             </state>
           </provider>
         </entry>
@@ -371,12 +371,12 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="47728000" />
+      <workItem from="1558570060616" duration="49922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149937000" />
+    <option name="totallyTimeSpent" value="152131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -386,9 +386,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -767,16 +767,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Elastic_Beanstalk_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="231" column="3" selection-start-line="216" selection-start-column="2" selection-end-line="231" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="-781">
           <caret line="88" column="67" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -800,10 +793,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Elastic_Beanstalk_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="224" column="20" lean-forward="true" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Elastic_Beanstalk_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="965" column="167" selection-start-line="965" selection-start-column="167" selection-end-line="965" selection-end-column="167" />
+        <state relative-caret-position="-809">
+          <caret line="879" column="317" selection-start-line="879" selection-start-column="317" selection-end-line="879" selection-end-column="317" />
         </state>
       </provider>
     </entry>
