@@ -538,7 +538,7 @@
         "configure your EC2 instances to connect to the RDS instance"
       ],
       "correctAnswer": ["must add an additional security group to your environments auto-scaling group",
-        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",]
+        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties"]
     }
   },
   {
@@ -547,15 +547,425 @@
     "info": {
       "subcategory": "Elastic Beanstalk",
       "questionType": "multiple choice 1",
-      "question": "To allow the EC2 instances in your Elastic Beanstalk environment to connect to an outside database you have to do which of these steps?",
+      "question": "Confidential information such as passwords, database connection strings, and license codes can be stored in ______",
       "answers": [
-        "must add an additional security group to your environments auto-scaling group",
-        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",
-        "you will need to add additional IAM policies and rules to your environment",
-        "configure your EC2 instances to connect to the RDS instance"
+        "Systems Manager Parameter Store",
+        "Secrets Manager Parameter Store",
+        "IAM Parameter Store",
+        "KMS Parameter Store"
       ],
-      "correctAnswer": ["must add an additional security group to your environments auto-scaling group",
-        "you will need to provide connection string configuration information to your application servers (endpoint, user name, password) using Elastic Beanstalk environment properties",]
+      "correctAnswer": ["Systems Manager Parameter Store"]
+    }
+  },
+  {
+    "id": "832",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 1",
+      "question": "With Systems Manager Parameter Store you can store values as plain text or you can encrypt the data using ______",
+      "answers": [
+        "KMS",
+        "Secrets Manager",
+        "IAM",
+        "Server-side Encryption"
+      ],
+      "correctAnswer": ["KMS"]
+    }
+  },
+  {
+    "id": "833",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 4",
+      "question": "You can use Systems Manager Parameter Store with the following services:",
+      "answers": [
+        "EC2",
+        "CloudFormation",
+        "Lambda",
+        "EC2 Run Commands",
+        "OpsWorks",
+        "Puppet"
+      ],
+      "correctAnswer": ["EC2",
+        "CloudFormation",
+        "Lambda",
+        "EC2 Run Commands"]
+    }
+  },
+  {
+    "id": "834",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Elastic Beanstalk",
+      "questionType": "multiple choice 2",
+      "question": "What are the two types of Kinesis Streams?",
+      "answers": [
+        "Video streams",
+        "Data streams",
+        "Raw streams",
+        "Text streams"
+      ],
+      "correctAnswer": ["Video streams",
+        "Data streams"]
+    }
+  },
+  {
+    "id": "835",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the default visibility timeout for a message in an SQS queue?",
+      "answers": [
+        "30 seconds",
+        "1 year",
+        "1 minute",
+        "15 minutes"
+      ],
+      "correctAnswer": ["30 seconds"]
+    }
+  },
+  {
+    "id": "836",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An SQS message can be delivered multiple times",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "837",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the maximum visibility timeout of an SQS message in a queue?",
+      "answers": [
+        "12 hours",
+        "1 hour",
+        "1 day",
+        "14 days"
+      ],
+      "correctAnswer": ["12 hours"]
+    }
+  },
+  {
+    "id": "838",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Elastic Beanstalk is object based storage",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "839",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What languages and development stacks are not currently supported by AWS Elastic Beanstalk?",
+      "answers": [
+        "Jetty for Jbos applications",
+        "Passenger for Ruby applications",
+        "Apache HTTP Server for PHP applications",
+        "Apache Tomcat for Java applications"
+      ],
+      "correctAnswer": ["Jetty for Jbos applications"]
+    }
+  },
+  {
+    "id": "840",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which native AWS service will act as a file system mounted on an S3 bucket?",
+      "answers": [
+        "Amazon S3",
+        "AWS Storage Gateway",
+        "Amazon Elastic Block Store",
+        "Amazon Elastic File System"
+      ],
+      "correctAnswer": ["AWS Storage Gateway"]
+    }
+  },
+  {
+    "id": "841",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "How large can an SQS message be?",
+      "answers": [
+        "64K",
+        "128K",
+        "512K",
+        "256K"
+      ],
+      "correctAnswer": ["256K"]
+    }
+  },
+  {
+    "id": "842",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "SNS messages cannot be customized by protocol type",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "843",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "SNS is pull-based rather than push-based",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "844",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your EC2 instances download jobs from an SQS queue. However, they are taking too long to process the messages. What API call can you use to extend the length of time to process the jobs?",
+      "answers": [
+        "ExtendMessageTime",
+        "AlterMessageTime",
+        "ChangeMessageVisibility",
+        "SetMessageVisibility"
+      ],
+      "correctAnswer": ["ChangeMessageVisibility"]
+    }
+  },
+  {
+    "id": "845",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the maximum long poll time out?",
+      "answers": [
+        "5 minutes",
+        "20 seconds",
+        "50 seconds",
+        "1 hour"
+      ],
+      "correctAnswer": ["20 seconds"]
+    }
+  },
+  {
+    "id": "846",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is a protocol NOT supported by SNS:",
+      "answers": [
+        "HTTP",
+        "Email-JSON",
+        "Email",
+        "FTP"
+      ],
+      "correctAnswer": ["FTP"]
+    }
+  },
+  {
+    "id": "847",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to decouple an application by utilizing SQS. The application dictates that messages on the queue can be delivered more than once, but must be delivered in the order that they have arrived, and also must allow for efficient, repeated polling of the queue. Which of the following options are most suitable?",
+      "answers": [
+        "Configure a standard SQS queue and use long polling",
+        "Configure a FIFO SQS queue and enable long polling",
+        "Configure a FIFO SQS queue and enable short polling",
+        "Configure a standard SQS queue and use default polling"
+      ],
+      "correctAnswer": ["Configure a FIFO SQS queue and enable long polling"]
+    }
+  },
+  {
+    "id": "848",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a list of email addresses to which you need to push emails on a periodic basis. What do you subscribe them to?",
+      "answers": [
+        "A Message",
+        "A Subreddit",
+        "A topic",
+        "A Subject"
+      ],
+      "correctAnswer": ["A topic"]
+    }
+  },
+  {
+    "id": "849",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You can use SNS in conjunction with SQS to fan a single message out to multiple SQS queues",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "850",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "SQS was the first service on the AWS platform?",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "851",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a fleet of EC2 instances that are constantly polling empty SQS queues, burning CPU cycles and costing your company money. What should you do?",
+      "answers": [
+        "Enable SQS Short Polling",
+        "Delete the entire EC2 fleet so that they no longer poll the queue",
+        "Consider using ElastiCache to cache the messages, rather than SQS",
+        "Enable SQS Long Polling"
+      ],
+      "correctAnswer": ["Enable SQS Long Polling"]
+    }
+  },
+  {
+    "id": "852",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You run a video-hosting website with two types of members: premium, fee-paying members; and free members. Each video that is uploaded is processed by a fleet of EC2 instances, which poll an SQS queue as videos are uploaded. However, you need to ensure that the videos uploaded by your premium, fee-paying members have a higher priority than those of your free members. How might you work with SQS to endure priority treatment of the premium members videos?",
+      "answers": [
+        "SQS allows you to set priorities on individual items within the queue, so simply set the fee paying members at a higher priority than your free members",
+        "SQS would not be suitable for this scenario. It would be much better to use SNS to encode the videos",
+        "Create two SQS queues — one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."
+      ],
+      "correctAnswer": ["Create two SQS queues — one for premium members, and one for free members. Program your EC2 fleet to poll the premium queue first and, if empty, to then poll your free members SQS queue."]
+    }
+  },
+  {
+    "id": "853",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 4",
+      "question": "AWS provides a number of security related managed services. From the options below, select which AWS service is related to protecting your infrastructure from which security issue. (Choose 4)",
+      "answers": [
+        "AWS Shield protects from SQL Injection attacks",
+        "AWS WAF protects from Cross Site Scripting attacks",
+        "Amazon Macie uses Machine Learning to protect sensitive data",
+        "AWS WAF blocks IP addresses based on rules",
+        "AWS Shield protects from Distributed Denial of Service attacks"
+      ],
+      "correctAnswer": ["AWS WAF protects from Cross Site Scripting attacks",
+        "Amazon Macie uses Machine Learning to protect sensitive data",
+        "AWS WAF blocks IP addresses based on rules",
+        "AWS Shield protects from Distributed Denial of Service attacks"]
+    }
+  },
+  {
+    "id": "854",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the maximum retention period for an SQS message?",
+      "answers": [
+        "1 hour",
+        "1 day",
+        "14 days",
+        "12 hours"
+      ],
+      "correctAnswer": ["14 days"]
+    }
+  },
+  {
+    "id": "855",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which Amazon service can you use in conjunction with SQS to fan out SQS messages to multiple queues?",
+      "answers": [
+        "SWF",
+        "ElastiCache",
+        "SNS",
+        "SES"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "856",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Unlike Cloud Formation, the use of Elastic Beanstalk is not free. And, in addition, you must pay for the resources it provisions.",
+      "answers": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "857",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are designing a new application that processes payments and delivers promotional emails to customers. You need to ensure that the payment process takes priority over the creation and delivery of emails. How might you use SQS to achieve this.",
+      "answers": [
+        "Use 1 SQS queue for the platform. Use the SetPriority API call to ensure that all payment SQS messages take priority over the promotional email messages.",
+        "Use 1 SQS queue for the platform. Use the HighPriority API call to ensure that all payment SQS messages take priority over the promotional email messages.",
+        "Use 2 SQS queues for the platform. Have the EC2 fleet poll the payment SQS queue first. If this queue is empty, then poll the promotional emails queue.",
+        "Use 2 SQS queues for the platform. Have the EC2 fleet poll the promotional emails SQS queue first. If this queue is empty, then poll the payment emails queue."
+      ],
+      "correctAnswer": ["Use 2 SQS queues for the platform. Have the EC2 fleet poll the payment SQS queue first. If this queue is empty, then poll the promotional emails queue."]
     }
   }
 ]
