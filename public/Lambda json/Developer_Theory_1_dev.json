@@ -396,7 +396,7 @@
         "is not encrypted by default",
         "can be encrypted by configuration"
       ],
-      "correctAnswer": ["encrypted in transit and at rest"]
+      "correctAnswer": ["is encrypted in transit and at rest"]
     }
   },
   {

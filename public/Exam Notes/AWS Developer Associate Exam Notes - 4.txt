@@ -30,5 +30,37 @@ CodeCommit 101
   - provides all the capabilities of git
   - data is encrypted in transit and at rest
     - connect to CodeCommit via https or ssh
-CodeDeploy 101
+CodeDeploy 101 (START HERE)
+  - automated deployment service which allows you to deploy your application code automatically to EC2 instances, on-premise systems, and lambda functions
+  - insures that all deployments are consistent because it removes all manual steps
+  - automatically scales with your infrastructure and integrates with various CI-CD tools (Jenkins, GitHub, Atlassian, AWS CodePipeline) as well as config management tools like Ansible, Puppet, and Chef
+  - two deployment approaches available:
+    - In-place
+      - the application is stopped on each instance and the latest revision is installed
+      - the instance is out of service during this time and your capacity will be reduced
+      - if the instances are behind a load balancer, you can configure the load balancer to stop sending requests to the instances which are being upgraded
+      - in-place is also known as a rolling update
+      - can only be used for EC2 and on-premise systems, it is not supported for lambda
+      - if you need to rollback your changes, the previous version of the application will need to be redeployed
+    - Blue-green
+      - new instances are provisioned and the latest revision is installed on the new instances
+      - blue represents the active deployment, green is the new release
+      - the new instances are registered with the elastic load balancer, traffic is then routed to the new instances and the original instances are eventually terminated
+      - advantage: the new instances can be created ahead of time and the code released to production by simply switching all traffic to the new servers
+      - switching back to the original environment is faster and more reliable and is just a case of routing the traffic back to the original servers
+      - no reduction in performance or capacity during the deployment
+  - code deploy terminology
+    - deployment group
+      - a set of EC2 instances or lambda functions to which a new revision of the software is to be deployed
+    - deployment
+      - the process and components used to apply a new revision
+    - deployment configuration
+      - a set of deployment rules as well as success-failure conditions used during deployment
+    - AppSpec file
+      - defines the deployment actions you want AWS CodeDeploy to execute
+    - revision
+      - everything needed to deploy the new version (AppSpec file, application files, executables, config files)
+    - application
+      - unique identifier for the application you want to deploy to ensure the correct combination of revision, deployment configuration, and deployment group are referenced during deployment
+  - uses a CodeDeploy agent on EC2 instances
   - 

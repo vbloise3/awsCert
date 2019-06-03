@@ -1,0 +1,402 @@
+[
+  {
+    "id": "884",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is an automated deployment service which allows you to deploy your application code automatically to EC2 instances, on-premise systems, and lambda functions?",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline",
+        "ftp"
+      ],
+      "correctAnswer": ["CodeDeploy"]
+    }
+  },
+  {
+    "id": "885",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 3",
+      "question": "CodeDeploy allows you to deploy to which of these?",
+      "answers": [
+        "EC2 instances",
+        "on-premise systems",
+        "lambda functions",
+        "S3 buckets"
+      ],
+      "correctAnswer": ["EC2 instances",
+        "on-premise systems",
+        "lambda functions"]
+    }
+  },
+  {
+    "id": "886",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these ensures that all deployments are consistent because it removes all manual steps?",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline",
+        "ftp"
+      ],
+      "correctAnswer": ["CodeDeploy"]
+    }
+  },
+  {
+    "id": "887",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these automatically scales with your infrastructure and integrates with various CI-CD tools (Jenkins, GitHub, Atlassian, AWS CodePipeline) as well as config management tools like Ansible, Puppet, and Chef?",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline",
+        "ftp"
+      ],
+      "correctAnswer": ["CodeDeploy"]
+    }
+  },
+  {
+    "id": "888",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "With CodeDeploy what are two deployment approaches available?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place",
+        "Blue-green"]
+    }
+  },
+  {
+    "id": "889",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches is the application stopped on each instance and the latest revision is installed?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "890",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches is the instance out of service during deployment and your capacity will be reduced?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "891",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches if the instances are behind a load balancer, you can configure the load balancer to stop sending requests to the instances which are being upgraded?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "892",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches is also known as a rolling update?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "893",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches can only be used for EC2 and on-premise systems, it is not supported for lambda?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "894",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches if you need to rollback your changes, the previous version of the application will need to be redeployed?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["In-place"]
+    }
+  },
+  {
+    "id": "895",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches are new instances provisioned and the latest revision is installed on the new instances?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["Blue-green"]
+    }
+  },
+  {
+    "id": "896",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With CodeDeploy blue-green deployment blue represents the ______?",
+      "answers": [
+        "active deployment",
+        "new release",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["active deployment"]
+    }
+  },
+  {
+    "id": "897",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With CodeDeploy blue-green deployment green represents the ______?",
+      "answers": [
+        "active",
+        "new release",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["new release"]
+    }
+  },
+  {
+    "id": "898",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches are the new instances registered with the elastic load balancer, traffic is then routed to the new instances and the original instances are eventually terminated?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["Blue-green"]
+    }
+  },
+  {
+    "id": "899",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches has the advantage that the new instances can be created ahead of time and the code released to production by simply switching all traffic to the new servers?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["Blue-green"]
+    }
+  },
+  {
+    "id": "900",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches has the advantage that switching back to the original environment is faster and more reliable and is just a case of routing the traffic back to the original servers?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["Blue-green"]
+    }
+  },
+  {
+    "id": "901",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With which of the two CodeDeploy deployment approaches has the advantage that there is no reduction in performance or capacity during the deployment?",
+      "answers": [
+        "In-place",
+        "Blue-green",
+        "Canary",
+        "Flash"
+      ],
+      "correctAnswer": ["Blue-green"]
+    }
+  },
+  {
+    "id": "902",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following CodeDeploy terms is a set of EC2 instances or lambda functions to which a new revision of the software is to be deployed?",
+      "answers": [
+        "deployment group",
+        "deployment",
+        "deployment configuration",
+        "AppSpec file",
+        "revision",
+        "application"
+      ],
+      "correctAnswer": ["deployment group"]
+    }
+  },
+  {
+    "id": "903",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following CodeDeploy terms is the process and components used to apply a new revision?",
+      "answers": [
+        "deployment group",
+        "deployment",
+        "deployment configuration",
+        "AppSpec file",
+        "revision",
+        "application"
+      ],
+      "correctAnswer": ["deployment"]
+    }
+  },
+  {
+    "id": "904",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following CodeDeploy terms is a set of deployment rules as well as success-failure conditions used during deployment?",
+      "answers": [
+        "deployment group",
+        "deployment",
+        "deployment configuration",
+        "AppSpec file",
+        "revision",
+        "application"
+      ],
+      "correctAnswer": ["deployment configuration"]
+    }
+  },
+  {
+    "id": "905",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following CodeDeploy terms is everything needed to deploy the new version (AppSpec file, application files, executables, config files)?",
+      "answers": [
+        "deployment group",
+        "deployment",
+        "deployment configuration",
+        "AppSpec file",
+        "revision",
+        "application"
+      ],
+      "correctAnswer": ["revision"]
+    }
+  },
+  {
+    "id": "906",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following CodeDeploy terms is a unique identifier for the application you want to deploy to ensure the correct combination of revision, deployment configuration, and deployment group are referenced during deployment?",
+      "answers": [
+        "deployment group",
+        "deployment",
+        "deployment configuration",
+        "AppSpec file",
+        "revision",
+        "application"
+      ],
+      "correctAnswer": ["application"]
+    }
+  },
+  {
+    "id": "907",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "CodeDeploy uses a(n) ______ on EC2 instances to run CodeDeploy?",
+      "answers": [
+        "CodeDeploy agent",
+        "CodeDeploy installer",
+        "CodeDeploy script",
+        "CodeDeploy Spec.yaml"
+      ],
+      "correctAnswer": ["CodeDeploy agent"]
+    }
+  }
+]
