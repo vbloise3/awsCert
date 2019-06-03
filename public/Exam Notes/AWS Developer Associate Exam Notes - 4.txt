@@ -1,0 +1,34 @@
+What is CI/CD
+  - Continuous Integration
+    - Code changes trigger an automated build
+    - build runs automated tests
+  - Continuous Delivery/Deployment
+    - Continuous Delivery
+      - continuous delivery is a deployment practice where merged changes are automatically built, tested, and prepared for release into staging and eventually production environments
+      - there is usually a manual decision process to initiate deployment of the new code
+    - Continuous Deployment
+      - automatically deploys the new code following successful testing, eliminating any manual steps
+      - the new code is automatically released as soon as it passes the stages of your release process (build, test, package)
+      - continuous deployment also automates the release process
+  - CodeCommit is the code repository
+  - CodeBuild is the build management system
+  - CodeDeploy is the deployment system
+  - CodePipeline coordinates the CI/CD pipeline
+  - Continuous Integration is about integrating or merging code changes frequently
+  - Continuous Delivery is about automating the build, test, deploy functions (usually requires human intervention)
+  - Continuous Deployment fully automates the entire release process
+CodeCommit 101
+  - fully managed source control service that enables companies to host secure and highly scalable private git repositories
+  - centralized repository for all your code, binaries, images, and libraries
+  - tracks and manages code changes
+  - maintains version history
+  - manages updates from multiple sources
+  - enables collaboration
+  - users create a branch of the master repository which they can update independently
+  - saved changes which are ready to be applied to the repository are known as commits
+  - when the branch code is ready to be added to the master repository, the branch is merged into the master
+  - provides all the capabilities of git
+  - data is encrypted in transit and at rest
+    - connect to CodeCommit via https or ssh
+CodeDeploy 101
+  - 

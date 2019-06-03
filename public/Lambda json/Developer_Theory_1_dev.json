@@ -1,0 +1,419 @@
+[
+  {
+    "id": "858",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these provide the feature of code changes triggering an automated build",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Integration"]
+    }
+  },
+  {
+    "id": "859",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these provide the feature of build runing automated tests",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Integration"]
+    }
+  },
+  {
+    "id": "860",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is a deployment practice where merged changes are automatically built, tested, and prepared for release into staging and eventually production environments",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Delivery"]
+    }
+  },
+  {
+    "id": "861",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these has the restriction that there is usually a manual decision process to initiate deployment of the new code",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Delivery"]
+    }
+  },
+  {
+    "id": "862",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these has the feature that automatically deploys the new code following successful testing, eliminating any manual steps",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Deployment"]
+    }
+  },
+  {
+    "id": "863",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these has the feature that the new code is automatically released as soon as it passes the stages of your release process (build, test, package)",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Deployment"]
+    }
+  },
+  {
+    "id": "864",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these automates the release process",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Deployment"]
+    }
+  },
+  {
+    "id": "865",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is the code repository",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "866",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is the build management system",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeBuild"]
+    }
+  },
+  {
+    "id": "867",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is the deployment system",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeDeploy"]
+    }
+  },
+  {
+    "id": "868",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which of these coordinates the CI/CD pipeline",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodePipeline"]
+    }
+  },
+  {
+    "id": "869",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ is about integrating or merging code changes frequently",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Integration"]
+    }
+  },
+  {
+    "id": "870",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ is about automating the build, test, deploy functions (usually requires human intervention)",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Delivery"]
+    }
+  },
+  {
+    "id": "871",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ fully automates the entire release process",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "Continuous Testing"
+      ],
+      "correctAnswer": ["Continuous Deployment"]
+    }
+  },
+  {
+    "id": "872",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ is a fully managed source control service that enables companies to host secure and highly scalable private git repositories",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "873",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ is a centralized repository for all your code, binaries, images, and libraries",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "874",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ tracks and manages code changes",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "875",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ maintains version history",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "876",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ manages updates from multiple sources",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "877",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ enables collaboration",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "878",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ allows users to create a branch of the master repository which they can update independently",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "879",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With CodeCommit saved changes which are ready to be applied to the repository are known as ______",
+      "answers": [
+        "commits",
+        "pushes",
+        "pulls",
+        "branches"
+      ],
+      "correctAnswer": ["commits"]
+    }
+  },
+  {
+    "id": "880",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With CodeCommit when branch code is ready to be added to the master repository, the branch is merged into the ______",
+      "answers": [
+        "master",
+        "branch",
+        "pull",
+        "commit"
+      ],
+      "correctAnswer": ["master"]
+    }
+  },
+  {
+    "id": "881",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ provides all the capabilities of git",
+      "answers": [
+        "CodeCommit",
+        "CodeBuild",
+        "CodeDeploy",
+        "CodePipeline"
+      ],
+      "correctAnswer": ["CodeCommit"]
+    }
+  },
+  {
+    "id": "882",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "With CodeCommit, data ______",
+      "answers": [
+        "is encrypted in transit and at rest",
+        "is not encrypted",
+        "is not encrypted by default",
+        "can be encrypted by configuration"
+      ],
+      "correctAnswer": ["encrypted in transit and at rest"]
+    }
+  },
+  {
+    "id": "883",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "You connect to CodeCommit via which of these?",
+      "answers": [
+        "https",
+        "ssh",
+        "http",
+        "ftp"
+      ],
+      "correctAnswer": ["https",
+        "ssh"]
+    }
+  }
+]
