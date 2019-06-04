@@ -1,0 +1,4 @@
+{
+  ":v1": {"S": "You have an application that needs to read 25 items of 13KB in size per second. Your application uses strongly consistent reads. What should you set the read throughput to?"}
+
+}
