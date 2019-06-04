@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Developer_Theory_2_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/Developer_Theory_3_dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Lambda json/Developer_Theory_1_dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/Developer_Theory_1_dev.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Developer_Theory_2_dev.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_2_dev.json">
+      <file leaf-file-name="Developer_Theory_3_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_3_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="396" column="29" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="29" />
+            <state relative-caret-position="481">
+              <caret line="701" column="40" selection-start-line="701" selection-start-column="40" selection-end-line="701" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -141,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" />
         <option value="$USER_HOME$/code/my-portfolio/upload-portfolio-lambda.py" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.scss" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/app.module.ts" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/Developer_Theory_1_dev.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/Developer_Theory_2_dev.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/Developer_Theory_3_dev.json" />
       </list>
     </option>
   </component>
@@ -217,9 +216,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
-    <option name="width" value="1894" />
-    <option name="height" value="978" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -375,24 +374,24 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="54111000" />
+      <workItem from="1558570060616" duration="56878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156320000" />
+    <option name="totallyTimeSpent" value="159087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28531855" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -430,13 +429,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -778,6 +770,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_2_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="400" column="3" lean-forward="true" selection-start-line="385" selection-start-column="2" selection-end-line="400" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -805,10 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_2_dev.json">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_3_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="396" column="29" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="29" />
+        <state relative-caret-position="481">
+          <caret line="701" column="40" selection-start-line="701" selection-start-column="40" selection-end-line="701" selection-end-column="40" />
         </state>
       </provider>
     </entry>

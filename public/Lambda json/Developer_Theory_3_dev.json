@@ -1,0 +1,707 @@
+[
+  {
+    "id": "908",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "CodePipeline allows you to model your release process as a workflow or pipeline made up of different ______",
+      "answers": [
+        "tasks",
+        "steps",
+        "sets",
+        "lists"
+      ],
+      "correctAnswer": ["tasks"]
+    }
+  },
+  {
+    "id": "909",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "CodePipeline allows you to model your release process using the CodePipeline which of these?",
+      "answers": [
+        "GUI",
+        "CLI",
+        "SDK",
+        "libraries",
+        "modules"
+      ],
+      "correctAnswer": ["GUI",
+        "CLI"]
+    }
+  },
+  {
+    "id": "910",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 5",
+      "question": "CodePipeline integrates with which of these?",
+      "answers": [
+        "lambda",
+        "Elastic Beanstalk",
+        "CloudFormation",
+        "ECS",
+        "third party tools",
+        "Kinesis",
+        "CloudWatch"
+      ],
+      "correctAnswer": ["lambda",
+        "Elastic Beanstalk",
+        "CloudFormation",
+        "ECS",
+        "third party tools"]
+    }
+  },
+  {
+    "id": "911",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "CodePipeline integrates with which of these third party tools?",
+      "answers": [
+        "GitHub",
+        "Jenkins",
+        "Bamboo",
+        "BitBucket",
+        "Jira"
+      ],
+      "correctAnswer": ["GitHub",
+        "Jenkins"]
+    }
+  },
+  {
+    "id": "912",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The CodePipeline pipeline automatically stops if one of the stages fails, such as a unit test failure, and then the change is ______",
+      "answers": [
+        "rolled back",
+        "redeployed",
+        "halted",
+        "deleted"
+      ],
+      "correctAnswer": ["rolled back"]
+    }
+  },
+  {
+    "id": "913",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ file is used to define parameters that will be used for a CodeDeploy deployment",
+      "answers": [
+        "AppSepc",
+        "BuildSpec",
+        "DeploySpec",
+        "DeployConfig"
+      ],
+      "correctAnswer": ["AppSepc"]
+    }
+  },
+  {
+    "id": "914",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "For lambda deployments, the AppSpec file may be written in which of these?",
+      "answers": [
+        "YAML",
+        "JSON",
+        "XML",
+        "HTML"
+      ],
+      "correctAnswer": ["YAML",
+        "JSON"]
+    }
+  },
+  {
+    "id": "915",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 3",
+      "question": "For lambda deployments, the AppSpec file contains which of these fields?",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["version",
+        "resources",
+        "hooks"]
+    }
+  },
+  {
+    "id": "916",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For lambda deployments, the AppSpec file field is reserved for future use, currently the only allowed value is 0.0",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["version"]
+    }
+  },
+  {
+    "id": "917",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For lambda deployments, the AppSpec file field contains the name and properties of the lambda function to deploy",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["resources"]
+    }
+  },
+  {
+    "id": "918",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For lambda deployments, the AppSpec file field specifies lambda functions to run at set points in the deployment lifecycle to validate the deployment such as validation tests to run before allowing traffic to be sent to your newly deployed lambda instances",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["hooks"]
+    }
+  },
+  {
+    "id": "919",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "For lambda deployments, what are the two hooks available for use in the AppSpec file?",
+      "answers": [
+        "BeforeAllowTraffic",
+        "AfterAllowTraffic",
+        "BeforeBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle"
+      ],
+      "correctAnswer": ["BeforeAllowTraffic",
+        "AfterAllowTraffic"]
+    }
+  },
+  {
+    "id": "920",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For lambda deployments, what hook is used to specify the tasks or functions you want to run before traffic is routed to the newly deployed lambda function such as test to validate that the function has been deployed correctly?",
+      "answers": [
+        "BeforeAllowTraffic",
+        "AfterAllowTraffic",
+        "BeforeBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle"
+      ],
+      "correctAnswer": ["BeforeAllowTraffic"]
+    }
+  },
+  {
+    "id": "921",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For lambda deployments, what hook is used to specify the tasks or functions you want to run after the traffic has been routed to the newly deployed lambda function such as test to validate that the function is accepting traffic correctly and is behaving as expected?",
+      "answers": [
+        "BeforeAllowTraffic",
+        "AfterAllowTraffic",
+        "BeforeBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle"
+      ],
+      "correctAnswer": ["AfterAllowTraffic"]
+    }
+  },
+  {
+    "id": "922",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "AppSpec files written for EC2 and On-premise deployments must be written in ______",
+      "answers": [
+        "YAML",
+        "JSON",
+        "XML",
+        "HTML"
+      ],
+      "correctAnswer": ["YAML"]
+    }
+  },
+  {
+    "id": "918",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 4",
+      "question": "For EC2 and On-premise deployments, the AppSpec file contains which of the following fields?",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["version",
+      "os",
+      "files",
+      "hooks"]
+    }
+  },
+  {
+    "id": "919",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file field that is reserved for future use, currently the only allowed value is 0.0",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["version"]
+    }
+  },
+  {
+    "id": "920",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file field that has the operating system version you are using",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["os"]
+    }
+  },
+  {
+    "id": "921",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file field that has the location of any application files that need to be copied and where they should be copied (source and destination folders)",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["files"]
+    }
+  },
+  {
+    "id": "922",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file field that allows you to specify scripts that need to be run at set points in the deployment lifecycle such as unzip application files prior to deployment, run functional tests on the newly deployed application, de-register and re-register instances with a load balancer",
+      "answers": [
+        "version",
+        "resources",
+        "hooks",
+        "os",
+        "files"
+      ],
+      "correctAnswer": ["hooks"]
+    }
+  },
+  {
+    "id": "923",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "What is the run order of hooks when using AppSpec with EC2 and On-premise",
+      "answers": [
+        "first BeforeBlockTraffic, BlockTraffic, AfterBlockTraffic then ApplicationStop, DownloadBundle, BeforeInstall, Install, AfterInstall, ApplicationStart, ValidateService then BeforeAllowTraffic, AllowTraffic, AfterAllowTraffic",
+        "first BeforeAllowTraffic, AllowTraffic, AfterAllowTraffic then ApplicationStop, DownloadBundle, BeforeInstall, Install, AfterInstall, ApplicationStart, ValidateService then BeforeBlockTraffic, BlockTraffic, AfterBlockTraffic"
+      ],
+      "correctAnswer": ["first BeforeBlockTraffic, BlockTraffic, AfterBlockTraffic then ApplicationStop, DownloadBundle, BeforeInstall, Install, AfterInstall, ApplicationStart, ValidateService then BeforeAllowTraffic, AllowTraffic, AfterAllowTraffic"]
+    }
+  },
+  {
+    "id": "924",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that runs tasks on instances before they are deregistered from a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["BeforeBlockTraffic"]
+    }
+  },
+  {
+    "id": "925",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that allows you to deregister instances from a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["BlockTraffic"]
+    }
+  },
+  {
+    "id": "926",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that allows you to run tasks on instances after they are deregistered from a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["AfterBlockTraffic"]
+    }
+  },
+  {
+    "id": "927",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that allows you to gracefully stop the application in preparation for deploying the new version",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["ApplicationStop"]
+    }
+  },
+  {
+    "id": "928",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that allows you to have the CodeDeploy agent copy the application version files to a temporary location",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["DownloadBundle"]
+    }
+  },
+  {
+    "id": "929",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that has details of any pre-installation scripts, such as backing up the current version, or decrypting files",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["BeforeInstall"]
+    }
+  },
+  {
+    "id": "930",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that has the CodeDeploy agent copy the application revision files from their temporary location to their correct location",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["Install"]
+    }
+  },
+  {
+    "id": "931",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that has details of any post-installation scripts, such as configuration tasks, change file permissions",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["AfterInstall"]
+    }
+  },
+  {
+    "id": "932",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that restarts any services that were stopped during ApplicationStop",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["ApplicationStart"]
+    }
+  },
+  {
+    "id": "933",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that has details of any tests to validate the service",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["ValidateService"]
+    }
+  },
+  {
+    "id": "934",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that runs tasks on instances before they are registered with a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["BeforeAllowTraffic"]
+    }
+  },
+  {
+    "id": "935",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that registers instances with a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["AllowTraffic"]
+    }
+  },
+  {
+    "id": "936",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the AppSpec file lifecycle hook that runs tasks on instances after they are registered with a load balancer",
+      "answers": [
+        "BeforeBlockTraffic",
+        "BlockTraffic",
+        "AfterBlockTraffic",
+        "ApplicationStop",
+        "DownloadBundle",
+        "BeforeInstall",
+        "Install",
+        "AfterInstall",
+        "ApplicationStart",
+        "ValidateService",
+        "BeforeAllowTraffic",
+        "AllowTraffic",
+        "AfterAllowTraffic"
+      ],
+      "correctAnswer": ["AfterAllowTraffic"]
+    }
+  },
+  {
+    "id": "937",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "For EC2 and On-premise deployments, the appspec.yml file must be placed in the ______ (the directory containing your application source code) otherwise the deployment will fail",
+      "answers": [
+        "root directory of your revision",
+        "src directory of your revision",
+        "public directory of your revision",
+        "lib directory of your revision"
+      ],
+      "correctAnswer": ["root directory of your revision"]
+    }
+  }
+]

@@ -30,9 +30,9 @@ CodeCommit 101
   - provides all the capabilities of git
   - data is encrypted in transit and at rest
     - connect to CodeCommit via https or ssh
-CodeDeploy 101 (START HERE)
+CodeDeploy 101
   - automated deployment service which allows you to deploy your application code automatically to EC2 instances, on-premise systems, and lambda functions
-  - insures that all deployments are consistent because it removes all manual steps
+  - ensures that all deployments are consistent because it removes all manual steps
   - automatically scales with your infrastructure and integrates with various CI-CD tools (Jenkins, GitHub, Atlassian, AWS CodePipeline) as well as config management tools like Ansible, Puppet, and Chef
   - two deployment approaches available:
     - In-place
@@ -63,4 +63,71 @@ CodeDeploy 101 (START HERE)
     - application
       - unique identifier for the application you want to deploy to ensure the correct combination of revision, deployment configuration, and deployment group are referenced during deployment
   - uses a CodeDeploy agent on EC2 instances
-  - 
+CodePipeline 101
+  - a fully managed continuous integration and continuous delivery service
+  - can orchestrate the build, test, and even deployment of your application every time there is a change to your code, based on a user defined software release process
+  - allows you to model your release process as a workflow or pipeline made up of different tasks
+  - you define what happens and where for each of the different stages of the workflow, and this can be modeled using the CodePipeline GUI or CLI
+  - integrates with CodeCommit, CodeBuild, CodeDeploy, lambda, Elastic Beanstalk, CloudFormation, ECS, as well as third party tools such as GitHub and Jenkins
+  - every code change pushed to your code repository automatically enters the workflow and triggers the set of actions defined for each stage of the pipeline
+  - the pipeline automatically stops if one of the stages fails, such as a unit test failure, and the change is rolled back
+Advanced CodeDeploy and the AppSpec File
+  - AppSepc file is used to define parameters that will be used for a CodeDeploy deployment
+  - file structure depends on whether you are deploying to lambda or EC2-On Premise
+  - for lambda deployments, the AppSpec file may be written in YAMML or JSON
+    - contains the following fields
+      - version
+        - reserver for future use, currently the only allowed value is 0.0
+      - resources
+        - the name and properties of the lambda function to deploy
+      - hooks
+        - specifies lambda functions to run at set points in the deployment lifecycle to validate the deployment such as validation tests to run before allowing traffic to be sent to your newly deployed lambda instances
+          - two hooks available when using AppSpec with lambda
+            - BeforeAllowTraffic
+              - used to specify the tasks or functions you want to run before traffic is routed to the newly deployed lambda function such as test to validate that the function has been deployed correctly
+            - AfterAllowTraffic
+              - used to specify the tasks or functions you want to run after the traffic has been routed to the newly deployed lambda function such as test to validate that the function is accepting traffic correctly and is behaving as expected
+  - for EC2 and On-premise deployments
+    - must be written in YAML
+    - contains the following fields
+      - version
+        - reserved for future use, currently the only allowed value is 0.0
+      - os
+        - the operating system version you are using
+      - files
+        - the location of any application files that need to be copied and where they should be copied (source and destination folders)
+      - hooks
+        - lifecycle event hooks allow you to specify scripts that need to be run at set points in the deployment lifecycle such as unzip application files prior to deployment, run functional tests on the newly deployed application, de-register and re-register instances with a load balancer
+          - run order of hooks when using AppSpec with EC2 and On-premise
+            - 1 first these
+              - BeforeBlockTraffic
+                - run tasks on instances before they are deregistered from a load balancer
+              - BlockTraffic
+                - deregister instances from a load balancer
+              - AfterBlockTraffic
+                - run tasks on instances after they are deregistered from a load balancer
+            - 2 then these
+              - ApplicationStop
+                - gracefully stop the application in preparation for deploying the new version
+              - DownloadBundle
+                - the CodeDeploy agent copies the application version files to a temporary location
+              - BeforeInstall
+                - details of any pre-installation scripts, such as backing up the current version, or decrypting files
+              - Install
+                - the CodeDeploy agent copies the application revision files from their temporary location to their correct location
+              - AfterInstall
+                - details of any post-installation scripts, such as configuration tasks, change file permissions
+              - ApplicationStart
+                - restarts any services that were stopped during ApplicationStop
+              - ValidateService
+                 - details of any tests to validate the service
+            - 3 last these
+              - BeforeAllowTraffic
+                - run tasks on instances before they are registered with a load balancer
+              - AllowTraffic
+                - register instances with a load balancer
+              - AfterAllowTraffic
+                - run tasks on instances after they are registered with a load balancer
+    - the appspec.yml file must be placed in the root directory of your revision (the directory containing your application source code) otherwise the deployment will fail
+Docker and CodeBuild (START HERE)
+  -
