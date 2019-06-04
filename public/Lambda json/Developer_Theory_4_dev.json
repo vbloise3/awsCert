@@ -1,0 +1,281 @@
+[
+  {
+    "id": "938",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "ECS is a fully managed clustered platform which allows you to run your own ______ in the cloud",
+      "answers": [
+        "Docker images",
+        "PCF images",
+        "programs",
+        "lambda functions"
+      ],
+      "correctAnswer": ["Docker images"]
+    }
+  },
+  {
+    "id": "939",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Docker command to build your Docker image to the ECR repository",
+      "answers": [
+        "docker build -t myimagerepo",
+        "docker tag myimagerepo:latest 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker push 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker build -i myimagerepo"
+      ],
+      "correctAnswer": ["docker build -t myimagerepo"]
+    }
+  },
+  {
+    "id": "940",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Docker command to tag (apply an alias) your Docker image to the ECR repository",
+      "answers": [
+        "docker build -t myimagerepo",
+        "docker tag myimagerepo:latest 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker push 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker build -i myimagerepo"
+      ],
+      "correctAnswer": ["docker tag myimagerepo:latest 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest"]
+    }
+  },
+  {
+    "id": "941",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Docker command to push your Docker image to the ECR repository",
+      "answers": [
+        "docker build -t myimagerepo",
+        "docker tag myimagerepo:latest 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker push 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest",
+        "docker build -i myimagerepo"
+      ],
+      "correctAnswer": ["docker push 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest"]
+    }
+  },
+  {
+    "id": "942",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Use ______ to define the build commands and settings used by CodeBuild to run your build",
+      "answers": [
+        "buildspec.yml",
+        "AppSpec.yml",
+        "AppBuild.yml",
+        "BuildApp.yml"
+      ],
+      "correctAnswer": ["buildspec.yml"]
+    }
+  },
+  {
+    "id": "943",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "you can override the settings in the buildspec.yml by ______ when you launch the build",
+      "answers": [
+        "adding your own commands in the console",
+        "adding your own commands using the CLI",
+        "adding your own commands using the SDK",
+        "editing the template"
+      ],
+      "correctAnswer": ["adding your own commands in the console"]
+    }
+  },
+  {
+    "id": "944",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "If your build fails, check the build logs in the CodeBuild console and you can also view the full CodeBuild log in ______",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "CloudFormation",
+        "OpsWorks"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "945",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "What is a service that allows you to manage, configure and provision your AWS infrastructure as code",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "CloudFormation",
+        "OpsWorks"
+      ],
+      "correctAnswer": ["CloudFormation"]
+    }
+  },
+  {
+    "id": "946",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "CloudFormation interprets the template and makes the appropriate ______ to create the resources you have defined",
+      "answers": [
+        "API calls",
+        "modifications",
+        "SDK calls",
+        "lambda function calls"
+      ],
+      "correctAnswer": ["API calls"]
+    }
+  },
+  {
+    "id": "947",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "CloudFormation supports which of these?",
+      "answers": [
+        "JSON",
+        "YAML",
+        "XML",
+        "HTTP"
+      ],
+      "correctAnswer": ["JSON",
+        "YAML"]
+    }
+  },
+  {
+    "id": "948",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "After creating the template, you upload it to CloudFormation using ______",
+      "answers": [
+        "S3",
+        "HTTPS",
+        "SSH",
+        "TCP"
+      ],
+      "correctAnswer": ["S3"]
+    }
+  },
+  {
+    "id": "949",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "______ is the only mandatory section of the CloudFormation template",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Resources"]
+    }
+  },
+  {
+    "id": "950",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ section of the CloudFormation templates used to input custom values into the stack",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Parameters"]
+    }
+  },
+  {
+    "id": "951",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ section of the CloudFormation templates used to provision resources based on environment",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Conditions"]
+    }
+  },
+  {
+    "id": "952",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ section of the CloudFormation templates is mandatory, and represents the AWS resources to create",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Resources"]
+    }
+  },
+  {
+    "id": "953",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ section of the CloudFormation templates is used to create custom mappings like Region to AMI",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Mappings"]
+    }
+  },
+  {
+    "id": "954",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ section of the CloudFormation templates is used to reference code located in S3, such as lambda functions, or reusable snippets of CloudFormation code",
+      "answers": [
+        "Resources",
+        "Parameters",
+        "Conditions",
+        "Mappings",
+        "Transforms"
+      ],
+      "correctAnswer": ["Transforms"]
+    }
+  }
+]

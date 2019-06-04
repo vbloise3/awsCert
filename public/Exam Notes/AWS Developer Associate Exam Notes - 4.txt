@@ -129,5 +129,42 @@ Advanced CodeDeploy and the AppSpec File
               - AfterAllowTraffic
                 - run tasks on instances after they are registered with a load balancer
     - the appspec.yml file must be placed in the root directory of your revision (the directory containing your application source code) otherwise the deployment will fail
-Docker and CodeBuild (START HERE)
-  -
+Docker and CodeBuild
+  - ECS is a fully managed clustered platform which allows you to run your own Docker images in the cloud
+  - Docker commands to build, tag (apply an alias), and push your Docker image to the ECR repository
+    - docker build -t myimagerepo
+    - docker tag myimagerepo:latest 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest
+    - docker push 725654345.dkr.ecr.region-name.amazonaws.com/myimagerepo:latest
+  - use buildspec.yml to define the build commands and settings used by CodeBuild to run your build
+  - you can override the settings in the buildspec.yml by adding your own commands in the console when you launch the build
+  - if your build fails, check the build logs in the CodeBuild console and you can also view the full CodeBuild log in CloudWatch
+CloudFormation
+  - a service that allows you to manage, configure and provision your AWS infrastructure as code
+  - resources are defined using a CloudFormation template
+  - CloudFormation interprets the template and makes the appropriate API calls to create the resources you have defined
+  - support YAML and JSON
+  - infrastructure is provisioned consistently, with fewer mistakes
+  - less time and effort than configuring manually
+  - can version control and peer review templates
+  - free to use (charged for what you create)
+  - can be used to manage updates and dependencies
+  - can be used to roll back and delete the entire stack
+  - YAML or JSON template used to describe the end-state of the infrastructure you are provisioning or changing
+  - after creating the template, you upload it to CloudFormation using S3
+  - CloudFormation reads the template and makes the API calls on your behalf
+  - the resulting resources are called a stack
+  - Resources is the only mandatory section of the CloudFormation template
+  - the Transform section is used to reference additional code stored in S3, allowing for code reuse such as a lambda function or template snippets
+  - the main sections of a CloudFormation template:
+    - Parameters
+      - input custom values into the stack
+    - Conditions
+      - provision resources based on environment
+    - Resources
+      - mandatory, the AWS resources to create
+    - Mappings
+      - create custom mappings like Region to AMI
+    - Transforms
+      - reference code located in S3, such as lambda functions, or reusable snippets of CloudFormation code
+Serverless Application Model (SAM) (START HERE)
+  - 
