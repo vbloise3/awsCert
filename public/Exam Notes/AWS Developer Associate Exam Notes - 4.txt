@@ -166,5 +166,25 @@ CloudFormation
       - create custom mappings like Region to AMI
     - Transforms
       - reference code located in S3, such as lambda functions, or reusable snippets of CloudFormation code
-Serverless Application Model (SAM) (START HERE)
-  - 
+Serverless Application Model (SAM)
+  - an extension to CloudFormation used to define serverless applications
+  - simplified syntax for defining serverless resources, APIs, lambda functions, DynamoDB tables
+  - use the SAM CLI to package your deployment code, upload it to S3 and deploy your serverless application
+  - SAM CLI commands used to package and deploy
+    - sam package
+      - packages your application and uploads to S3
+    - sam deploy
+      - deploys your serverless application using CloudFormation
+  - the Transform:AWS::Serverless-2016-10-31 line of the template tells CloudFormation that the template will create a SAM template
+CloudFormation Nested Stacks
+  - allow reuse of CloudFormation code for common use cases
+    - standard configuration for
+      - load balancer
+      - web server
+      - application server
+  - create a standard template for each common use case, store them in S3, and reference from within your CloudFormation template using the Stack resource type
+Developer Theory Summary
+  - read the white paper:
+    - https://d0.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf
+Dev Theory Quiz (START HERE)
+  -  

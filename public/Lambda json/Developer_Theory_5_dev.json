@@ -1,0 +1,185 @@
+[
+  {
+    "id": "955",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "What is an extension to CloudFormation used to define serverless applications?",
+      "answers": [
+        "SAM",
+        "CloudFormationServerless",
+        "AWS CDK",
+        "AWS CLI"
+      ],
+      "correctAnswer": ["SAM"]
+    }
+  },
+  {
+    "id": "956",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "What describes a simplified syntax for defining serverless resources, APIs, lambda functions, DynamoDB tables?",
+      "answers": [
+        "SAM",
+        "CloudFormationServerless",
+        "AWS CDK",
+        "AWS CLI"
+      ],
+      "correctAnswer": ["SAM"]
+    }
+  },
+  {
+    "id": "957",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 3",
+      "question": "What are three types of serverless resources you can define using SAM?",
+      "answers": [
+        "APIs",
+        "lambda functions",
+        "DynamoDB tables",
+        "VPCs",
+        "Storage Gateways"
+      ],
+      "correctAnswer": ["APIs",
+        "lambda functions",
+        "DynamoDB tables"]
+    }
+  },
+  {
+    "id": "958",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Use the ______ to package your deployment code, upload it to S3 and deploy your serverless application",
+      "answers": [
+        "SAM CLI",
+        "SAM SDK",
+        "SAM",
+        "CDK"
+      ],
+      "correctAnswer": ["SAM CLI"]
+    }
+  },
+  {
+    "id": "959",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 2",
+      "question": "What are the two SAM CLI commands used to package and deploy you serverless stack?",
+      "answers": [
+        "sam package",
+        "sam deploy",
+        "sam build",
+        "sam create"
+      ],
+      "correctAnswer": ["sam package",
+        "sam deploy"]
+    }
+  },
+  {
+    "id": "960",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which SAM CLI command packages your application and uploads to S3?",
+      "answers": [
+        "sam package",
+        "sam deploy",
+        "sam build",
+        "sam create"
+      ],
+      "correctAnswer": ["sam package"]
+    }
+  },
+  {
+    "id": "961",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "Which SAM CLI command deploys your serverless application using CloudFormation?",
+      "answers": [
+        "sam package",
+        "sam deploy",
+        "sam build",
+        "sam create"
+      ],
+      "correctAnswer": ["sam deploy"]
+    }
+  },
+  {
+    "id": "962",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "The ______ line of the template tells CloudFormation that the template will create a SAM template",
+      "answers": [
+        "Transform:AWS::Serverless-2016-10-31",
+        "Transforms:AWS::Serverless-2016-10-31",
+        "Serverless:AWS::Serverless-2016-10-31",
+        "Template:AWS::Serverless-2016-10-31"
+      ],
+      "correctAnswer": ["Transform:AWS::Serverless-2016-10-31"]
+    }
+  },
+  {
+    "id": "963",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "These allow reuse of CloudFormation code for common use cases",
+      "answers": [
+        "CloudFormation Nested Stacks",
+        "CloudFormation Embedded Stacks",
+        "CloudFormation Internal Stacks",
+        "CloudFormation Linked Stacks"
+      ],
+      "correctAnswer": ["CloudFormation Nested Stacks"]
+    }
+  },
+  {
+    "id": "964",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 3",
+      "question": "CloudFormation Nested Stacks can be used as standard configuration for which of these?",
+      "answers": [
+        "load balancer",
+        "web server",
+        "application server",
+        "VPC",
+        "subnets"
+      ],
+      "correctAnswer": ["load balancer",
+        "web server",
+        "application server"]
+    }
+  },
+  {
+    "id": "965",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Developer Theory",
+      "questionType": "multiple choice 1",
+      "question": "You create a standard template for each common use case, store them in S3, and reference from within your CloudFormation template using the ______ resource type",
+      "answers": [
+        "Stack",
+        "Nested",
+        "Internal",
+        "Serverless"
+      ],
+      "correctAnswer": ["Stack"]
+    }
+  }
+]
