@@ -186,5 +186,180 @@ CloudFormation Nested Stacks
 Developer Theory Summary
   - read the white paper:
     - https://d0.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf
-Dev Theory Quiz (START HERE)
-  -  
+Dev Theory Quiz
+  "question": "You are deploying an application to a number of EC2 instances using CodeDeploy. What is the name of the file used to specify source files and lifecycle hooks?",
+      "answers": [
+        "appspec.yml",
+        "appspec.json",
+        "buildspec.json",
+        "buildspec.yml"
+      ],
+      "correctAnswer": ["appspec.yml"]
+
+  "question": "You want to receive an email whenever a user pushes code to your CodeCommit repository, how can you configure this?",
+        "answers": [
+          "Configure Notifications in the console, this will create a CloudWatch Events rule to send a notification to an SNS topic which will trigger an email to be sent to the user",
+          "Configure a CloudWatch Events rule to send a message to SQS which will trigger an email to be sent whenever a user pushes code to the repository",
+          "Configure a CloudWatch Events rule to send a message to SES which will trigger an email to be sent whenever a user pushes code to the repository",
+          "Create a new SNS topic and configure it to poll for CodeCommit events. Ask all your users subscribe to the topic to recieve notifications"
+        ],
+        "correctAnswer": ["Configure Notifications in the console, this will create a CloudWatch Events rule to send a notification to an SNS topic which will trigger an email to be sent to the user"]
+
+  "question": "Which AWS service can be used to fully automate your entire release process?",
+      "answers": [
+        "CodeCommit",
+        "CodePipeline",
+        "CodeDeploy",
+        "CodeBuild"
+      ],
+      "correctAnswer": ["CodePipeline"]
+
+  "question": "Part of your CloudFormation deployment fails due to a misconfiguration, by default what will happen?",
+      "answers": [
+        "CloudFormation will rollback the entire stack",
+        "CloudFormation will ask you if you want to continue with the deployment",
+        "CloudFormation will rollback only the failed components",
+        "Failed components will remain available for debugging purposes"
+      ],
+      "correctAnswer": ["CloudFormation will rollback the entire stack"]
+
+  "question": "You have some code located in an S3 bucket for a lambda function that you want to reference in your CloudFormation template. Which section of the template can you use to define this?",
+      "answers": [
+        "Transforms",
+        "Resources",
+        "Files",
+        "Inputs"
+      ],
+      "correctAnswer": ["Transforms"]
+
+  "question": "How can you prevent CloudFormation from deleting your entire stack on failure? (Choose 2)",
+      "answers": [
+        "Use the --enable-termination-protection flag with the AWS CLI",
+        "Use the --disable-rollback flag with the AWS CLI",
+        "Set Termination Protection to Enabled in the CloudFormation console",
+        "Set the Rollback on failure radio button to No in the CloudFormation console"
+      ],
+      "correctAnswer": ["Set the Rollback on failure radio button to No in the CloudFormation console",
+        "Use the --disable-rollback flag with the AWS CLI"]
+
+    "question": "You are using CloudFormation to create a new S3 bucket, which of the following sections would you use to define the properties of your bucket?",
+        "answers": [
+          "Outputs",
+          "Conditions",
+          "Resources",
+          "Parameters"
+        ],
+        "correctAnswer": ["Resources"]
+
+    "question": "Which two things can you define using the Transforms section of the CloudFormation template for a lambda function? (Choose 2)",
+       "answers": [
+         "To transform API responses to a supported format",
+         "To re-use code located in S3",
+         "To specify the use of the Serverless Application Model for Lambda deployments",
+         "To convert between YAML and JSON format templates"
+       ],
+       "correctAnswer": ["To re-use code located in S3",
+         "To specify the use of the Serverless Application Model for Lambda deployments"]
+
+     "question": "Which AWS service can be used to compile source code, run tests and package code?",
+       "answers": [
+         "CodeDeploy",
+         "CodeBuild",
+         "CodePipeline",
+         "CodeCommit"
+       ],
+       "correctAnswer": ["CodeBuild"]
+
+   "question": "Your company has moved to AWS so it can use scripted infrastructure. You would like to apply version control to your infrastructure, so that you can roll back infrastructure to a previous stable version if needed. You would also like to quickly deploy testing and staging environments in multiple regions. What services should you use to achieve this?",
+     "answers": [
+       "Elastic BeanStalk, plus a version control system such as GitHub.",
+       "CloudFormation, plus a version control system such as GitHub.",
+       "Opsworks, plus a version control system such as GitHub.",
+       "CloudWatch, plus a version control system such as GitHub."
+     ],
+     "correctAnswer": ["CloudFormation, plus a version control system such as GitHub."]
+
+   "question": "Which of the following approaches allows you to reuse pieces of CloudFormation code in multiple templates, for common use cases like provisioning a load balancer or web server?",
+       "answers": [
+         "copy and paste the code into the template each time you need to use it",
+         "Share the code using an EBS volume",
+         "Store the code you want to reuse in an AMI and reference the AMI from within your CloudFormation template",
+         "Use a CloudFormation nested stack"
+       ],
+       "correctAnswer": ["Use a CloudFormation nested stack"]
+
+   "question": "Which of the following practices allows multiple developers working on the same application to merge code changes frequently, without impacting each other and enables the identification of bugs early on in the release process?",
+     "answers": [
+       "Continuous Integration",
+       "Continuous Delivery",
+       "Continuous Development",
+       "Continuous Deployment"
+     ],
+     "correctAnswer": ["Continuous Integration"]
+
+   "question": "Which AWS service can be used automatically install your application code onto EC2, on premises systems and Lambda?",
+       "answers": [
+         "CodeBuild",
+         "CodeDeploy",
+         "X-Ray",
+         "CodeCommit"
+       ],
+       "correctAnswer": ["CodeDeploy"]
+
+   "question": "When deploying application code to EC2, the AppSpec file can be written in which language?",
+     "answers": [
+       "XML",
+       "YAML",
+       "JSON",
+       "JSON or YAML"
+     ],
+     "correctAnswer": ["YAML"]
+
+   "question": "You are deploying a number of EC2 and RDS instances using CloudFormation. Which section of the CloudFormation template would you use to define these?",
+       "answers": [
+         "Outputs",
+         "Resources",
+         "Instances",
+         "Transforms"
+       ],
+       "correctAnswer": ["Resources"]
+
+   "question": "Which AWS service can be used to centrally store and version control your application source code, binaries and libraries?",
+      "answers": [
+        "CodePipeline",
+        "ElasticFileSystem",
+        "CodeCommit",
+        "CodeBuild"
+      ],
+      "correctAnswer": ["CodeCommit"]
+
+  "question": "In the CodeDeploy AppSpec file, what are hooks used for?",
+      "answers": [
+        "Hooks are reserved for future use",
+        "To specify files that you want to copy during the deployment",
+        "To specify code, scripts or functions that you want to run at set points in the deployment lifecycle",
+        "To reference AWS resources that will be used during the deployment"
+      ],
+      "correctAnswer": ["To specify code, scripts or functions that you want to run at set points in the deployment lifecycle"]
+
+  "question": "You want to use the output of your CloudFormation stack as input to another CloudFormation stack. Which section of the CloudFormation template would you use to help you configure this?",
+      "answers": [
+        "Exports",
+        "Transforms",
+        "Resources",
+        "Outputs"
+      ],
+      "correctAnswer": ["Outputs"]
+
+  "question": "When deploying application code to Lambda, the AppSpec file can be written in which languages? (Choose 2)",
+      "answers": [
+        "Python",
+        "YAML",
+        "JSON",
+        "XML"
+      ],
+      "correctAnswer": ["YAML",
+      "JSON"]
+
+Web Identity Federation (START HERE)
+  - 
