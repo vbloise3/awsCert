@@ -1,0 +1,475 @@
+[
+  {
+    "id": "985",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "______ lets you give your users access to AWS resources after they have successfully authenticated with a web-based identity provider like Amazon, Facebook, or Google",
+      "answers": [
+        "Web Identity Federation",
+        "STS",
+        "JWT",
+        "SAML"
+      ],
+      "correctAnswer": ["Web Identity Federation"]
+    }
+  },
+  {
+    "id": "986",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Following successful authentication, the user receives an authentication token from the Web ID provider, which they can trade for ______",
+      "answers": [
+        "temporary AWS security credentials",
+        "persistent AWS security credentials",
+        "temporary AWS security login",
+        "persistent AWS security login"
+      ],
+      "correctAnswer": ["temporary AWS security credentials"]
+    }
+  },
+  {
+    "id": "987",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 5",
+      "question": "Cognito provides web identity federation with which of these features?",
+      "answers": [
+        "sign-up and sign-in to your apps",
+        "access for guest users",
+        "acts as an identity broker between your app web ID providers, so you do not need to write any additional code",
+        "synchronizes user data for multiple devices",
+        "recommended for all mobile applications which run on AWS services",
+        "recommended for all AWS services access"
+      ],
+      "correctAnswer": ["sign-up and sign-in to your apps",
+        "access for guest users",
+        "acts as an identity broker between your app web ID providers, so you do not need to write any additional code",
+        "synchronizes user data for multiple devices",
+        "recommended for all mobile applications which run on AWS services"]
+    }
+  },
+  {
+    "id": "988",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Cognito is the recommended approach for ______ using social media accounts like Facebook",
+      "answers": [
+        "web identity federation",
+        "web user access",
+        "web single sign on",
+        "web administration"
+      ],
+      "correctAnswer": ["web identity federation"]
+    }
+  },
+  {
+    "id": "989",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Cognito brokers between your app and Facebook or Google to provide ______ which map to an IAM role allowing access to the required resources",
+      "answers": [
+        "temporary credentials",
+        "persistent credentials",
+        "ephemeral credentials",
+        "permanent credentials"
+      ],
+      "correctAnswer": ["temporary credentials"]
+    }
+  },
+  {
+    "id": "990",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "Cognito allows you to get which two of these benefits?",
+      "answers": [
+        "no need for your app to embed or store AWS credentials locally on the device",
+        "gives a seamless experience across all mobile devices",
+        "gives user id rotation",
+        "gives permanent credentials"
+      ],
+      "correctAnswer": ["no need for your app to embed or store AWS credentials locally on the device",
+        "gives a seamless experience across all mobile devices"]
+    }
+  },
+  {
+    "id": "991",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "User pools are user directories used to manage ______ for mobile and web applications",
+      "answers": [
+        "user sign-up and sign-in functionality",
+        "user permissions",
+        "group permissions",
+        "user roles"
+      ],
+      "correctAnswer": ["user sign-up and sign-in functionality"]
+    }
+  },
+  {
+    "id": "992",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Users can sign-in directly to the user pool, or indirectly via an ______ like Facebook, Amazon, or Google",
+      "answers": [
+        "identity provider",
+        "social media provider",
+        "identity manager",
+        "user provider"
+      ],
+      "correctAnswer": ["identity provider"]
+    }
+  },
+  {
+    "id": "993",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Cognito acts as an ______ between the ID provider and AWS",
+      "answers": [
+        "identity provider",
+        "identity broker",
+        "identity manager",
+        "user provider"
+      ],
+      "correctAnswer": ["identity broker"]
+    }
+  },
+  {
+    "id": "994",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Successful authentication via an identity broker like Cognito generates a number of ______",
+      "answers": [
+        "JSON web tokens (JWTs)",
+        "identity tokens",
+        "access codes",
+        "user codes"
+      ],
+      "correctAnswer": ["JSON web tokens (JWTs)"]
+    }
+  },
+  {
+    "id": "995",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "______ enable you to create unique identities for your users and authenticate them with identity providers",
+      "answers": [
+        "identity pools",
+        "identity tokens",
+        "access codes",
+        "user pools"
+      ],
+      "correctAnswer": ["identity pools"]
+    }
+  },
+  {
+    "id": "996",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "With an identity, you can obtain temporary, limited-privilege AWS credentials to access ______",
+      "answers": [
+        "other AWS services",
+        "other AWS accounts",
+        "user pools",
+        "IAM policies"
+      ],
+      "correctAnswer": ["other AWS services"]
+    }
+  },
+  {
+    "id": "997",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Cognito tracks the association between user identity and the ______",
+      "answers": [
+        "various different devices they sign-in from",
+        "user resources",
+        "user policies",
+        "user roles"
+      ],
+      "correctAnswer": ["various different devices they sign-in from"]
+    }
+  },
+  {
+    "id": "998",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "In order to provide a seamless user experience for your application, Cognito uses ______ user data across multiple devices",
+      "answers": [
+        "push synchronization to push updates and synchronize",
+        "pull synchronization to pull updates and synchronize",
+        "push synchronization to push changes",
+        "pull synchronization to pull changes"
+      ],
+      "correctAnswer": ["push synchronization to push updates and synchronize"]
+    }
+  },
+  {
+    "id": "999",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "______ is used to send a silent push notification to all the devices associated with a given user identity whenever data stored in the cloud changes",
+      "answers": [
+        "SNS",
+        "SQS",
+        "SES",
+        "lambda"
+      ],
+      "correctAnswer": ["SNS"]
+    }
+  },
+  {
+    "id": "1000",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "What are the three different types of IAM policies?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies"]
+    }
+  },
+  {
+    "id": "1001",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy which is created and administered by AWS?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies"]
+    }
+  },
+  {
+    "id": "1002",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy provides policies for common use cases based on job function?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies"]
+    }
+  },
+  {
+    "id": "1003",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy allows you to assign appropriate permissions to your users groups, and roles without having to write the policy yourself?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies"]
+    }
+  },
+  {
+    "id": "1004",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "A single ______ can be attached to multiple users, groups, or roles within the same AWS account and across different accounts",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies"]
+    }
+  },
+  {
+    "id": "1005",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "You cannot change the permissions defined in this type of policy",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Managed Policies"]
+    }
+  },
+  {
+    "id": "1006",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy is a stand alone policy that you create and administer inside your own AWS account?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Customer Managed Policies"]
+    }
+  },
+  {
+    "id": "1007",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy can you attach to multiple users, groups, and roles, but only within your account?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Customer Managed Policies"]
+    }
+  },
+  {
+    "id": "1008",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy that in order to create it, you can copy and existing AWS managed policy and customize it to fit the requirements of your organization?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Customer Managed Policies"]
+    }
+  },
+  {
+    "id": "1009",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy is recommended for use cases where the existing AWS manged policies do not meet the needs of your environment?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Customer Managed Policies"]
+    }
+  },
+  {
+    "id": "1010",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy is an IAM policy which is actually embedded within the user, group, or role to which it applies?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Inline Policies"]
+    }
+  },
+  {
+    "id": "1011",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy has a strict 1-to-1 relationship between the entity and the policy?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Inline Policies"]
+    }
+  },
+  {
+    "id": "1012",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy that when you delete the user, group, or role in which it is embedded, the policy will also be deleted?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Inline Policies"]
+    }
+  },
+  {
+    "id": "1013",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "Which type of policy is an IAM policy that is useful when you want to be sure that the permissions in a policy are not inadvertently assigned to any other user, group, or role than the one for which they are intended?",
+      "answers": [
+        "Managed Policies",
+        "Customer Managed Policies",
+        "Inline Policies",
+        "Default Policies"
+      ],
+      "correctAnswer": ["Inline Policies"]
+    }
+  }
+]

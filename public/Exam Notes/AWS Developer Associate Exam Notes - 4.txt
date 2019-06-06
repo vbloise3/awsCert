@@ -361,5 +361,50 @@ Dev Theory Quiz
       "correctAnswer": ["YAML",
       "JSON"]
 
-Web Identity Federation (START HERE)
+Web Identity Federation
+  - lets you give your users access to AWS resources after they have successfully authenticated with a web-based identity provider like Amazon, Facebook, or Google
+  - following successful authentication, the user receives an authentication token from the Web ID provider, which they can trade for temporary AWS security credentials
+  - Cognito provides web identity federation with these features:
+    - sign-up and sign-in to your apps
+    - access for guest users
+    - acts as an identity broker between your app web ID providers, so you do not need to write any additional code
+    - synchronizes user data for multiple devices
+    - recommended for all mobile applications which run on AWS services
+  - Cognito is the recommended approach for web identity federation using social media accounts like Facebook
+  - Cognito brokers between your app and Facebook or Google to provide temporary credentials which map to an IAM role allowing access to the required resources
+  - no need for your app to embed or store AWS credentials locally on the device and it gives a seamless experience across all mobile devices
+Cognito User Pools
+  - user pools are user directories used to manage user sign-up and sign-in functionality for mobile and web applications
+  - users can sign-in directly to the user pool, or indirectly via an identity provider like Facebook, Amazon, or Google
+  - Cognito acts as an identity broker between the ID provider and AWS
+  - successful authentication generates a number of JSON web tokens (JWTs)
+  - identity pools enable you to create unique identities for your users and authenticate them with identity providers
+  - with an identity, you can obtain temporary, limited-privilege AWS credentials to access other AWS services
+  - Cognito tracks the association between user identity and the various different devices they sign-in from
+  - in order to provide a seamless user experience for your application, Cognito uses push synchronization to push updates and synchronize user data across multiple devices
+  - SNS is used to send a silent push notification to all the devices associated with a given user identity whenever data stored in the cloud changes
+Inline Policies versus Managed Policies versus Custom Policies
+  - IAM is used to define user access permissions within AWS
+  - three different types of IAM policies
+    - Managed Policies
+      - a managed policy is an IAM policy which is created and administered by AWS
+      - AWS provides managed policies for common use cases based on job function
+        - AmazonDynamoDBFullAccess
+        - AWSCodeCommitPowerUser
+        - AmazonEC2ReadOnlyAccess
+      - these AWS provided policies allow you to assign appropriate permissions to your users groups, and roles without having to write the policy yourself
+      - a single managed policy can be attached to multiple users, groups, or roles within the same AWS account and across different accounts
+      - you cannot change the permissions defined in an AWS managed policy
+    - Customer Managed Policies
+      - a stand alone policy that you create and administer inside your own AWS account
+      - you can attach this policy to multiple users, groups, and roles, but only within your account
+      - in order to create a customer managed policy, you can copy and existing AWS managed policy and customize it to fit the requirements of your organization
+      - recommended for use cases where the existing AWS manged policies do not meet the needs of your environment
+    - Inline Policies
+      - an IAM policy which is actually embedded within the user, group, or role to which it applies
+      - there is a strict 1-to-1 relationship between the entity and the policy
+      - when you delete the user, group, or role in which the inline policy is embedded, the policy will also be deleted
+      - in most cases AWS recommends using managed policies over inline policies
+      - inline policies are useful when you want to be sure that the permissions in a policy are not inadvertently assigned to any other user, group, or role than the one for which they are intended
+STS AssumeRoleWithWebIdentity
   - 

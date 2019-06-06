@@ -121,11 +121,11 @@
       "question": "Which two things can you define using the Transforms section of the CloudFormation template for a lambda function? (Choose 2)",
       "answers": [
         "To transform API responses to a supported format",
-        "To re-use code located in S3",
+        "To reuse code located in S3",
         "To specify the use of the Serverless Application Model for Lambda deployments",
         "To convert between YAML and JSON format templates"
       ],
-      "correctAnswer": ["To re-use code located in S3",
+      "correctAnswer": ["To reuse code located in S3",
         "To specify the use of the Serverless Application Model for Lambda deployments"]
     }
   },
