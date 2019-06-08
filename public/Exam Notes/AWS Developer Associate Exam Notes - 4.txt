@@ -415,5 +415,179 @@ STS AssumeRoleWithWebIdentity
   - returns a session token, an access key, and secret access key which expire in 1 hour by default
   - once the user has been authenticated, the application makes the assume-role-with-web-identity API call
   - returns an AssumedRoleUser ARN and an AssumedRoleID, which are used to programmatically reference the temporary credentials, not an IAM role or user
-Cross-Account Access (START HERE)
-  -
+Cross-Account Access
+  - allows you to work productively within a multi-account (such as dev, test, prod) (or multi-role) by making it easy for you to switch roles
+  - can manage multiple accounts with your one IAM user
+
+Advanced IAM Quiz
+
+"question": "When using Web Identity Federation to allow a user to access an AWS service (such as an S3 bucket), which of the following is the correct order of steps?",
+    "answers": [
+      "A user logs in to the AWS platform using their facebook credentials. AWS authenticate with facebook to check the credentials. Temporary Security Access is granted to AWS.",
+      "A user authenticates with facebook first. They are then given an ID token by facebook, which they can then trade for temporary security credentials.",
+      "A user makes the AssumeRoleWithWebIdentity API Call. The user is then redirected to facebook to authenticate. Once authenticated, the user is given an ID token. The user is then granted temporary access to the AWS platform.",
+      "Users cannot use Facebook credentials to access the AWS platform."
+    ],
+    "correctAnswer": ["A user authenticates with facebook first. They are then given an ID token by facebook, which they can then trade for temporary security credentials."]
+
+"question": "Which of the following features of IAM allows you to have your users Authenticate using Facebook, Google or Amazon?",
+      "answers": [
+        "Web Identity Federation",
+        "Multi-Factor Authentication",
+        "AWS Single Sign-On (SSO)",
+        "The IAM HTTPS API"
+      ],
+      "correctAnswer": ["Web Identity Federation"]
+
+"question": "Which of the following API calls can be used to enable a user authenticated by Facebook to access your web application hosted in AWS?",
+      "answers": [
+        "STS assume-role",
+        "STS assume-role-with-web-identity",
+        "STS assume-role-with-saml",
+        "STS get-federation-token"
+      ],
+      "correctAnswer": ["STS assume-role-with-web-identity"]
+
+"question": "How can you allow a user from one AWS account to access and manage resources in another AWS account?",
+      "answers": [
+        "Configure cross origin resource sharing",
+        "Configure Cognito",
+        "Configure cross account access",
+        "Configure web identity federation"
+      ],
+      "correctAnswer": ["Configure cross account access"]
+
+"question": "What does Cognito use to manage sign-up and sign-in functionality for mobile and web applications?",
+      "answers": [
+        "IAM Users",
+        "Identity Pools",
+        "IAM Groups",
+        "User Pools"
+      ],
+      "correctAnswer": ["User Pools"]
+
+"question": "Which of the following applies to an AWS Managed Policy? (Choose 3)",
+      "answers": [
+        "AWS occasionally updates the permissions defined in an AWS managed policy",
+        "It is available for use by any AWS account",
+        "It can be assigned to multiple users, groups or roles",
+        "It can only be assigned to a single user, group or role in your account",
+        "You can change the default permissions defined in the policy"
+      ],
+      "correctAnswer": ["AWS occasionally updates the permissions defined in an AWS managed policy",
+        "It is available for use by any AWS account",
+        "It can be assigned to multiple users, groups or roles"]
+
+"question": "Which statement best describes IAM?",
+      "answers": [
+        "IAM allows you to manage permissions for AWS resources only.",
+        "IAM stands for Improvised Application Management, and it allows you to deploy and manage applications in the AWS Cloud.",
+        "IAM allows you to manage users' passwords only. AWS staff must create new users for your organization. This is done by raising a ticket.",
+        "IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform."
+      ],
+      "correctAnswer": ["IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform."]
+
+"question": "What is the name of the service that allows users to use their social media account to gain temporary access to the AWS platform?",
+      "answers": [
+        "Facebook Sign In Service",
+        "Web Confederation Services",
+        "Active Directory Authentication Services",
+        "Web Identity Federation"
+      ],
+      "correctAnswer": ["Web Identity Federation"]
+
+"question": "What does Cognito use to create unique identities for users and authenticate them with Web ID providers?",
+      "answers": [
+        "Identity Pools",
+        "User Pools",
+        "IAM Groups",
+        "IAM Users"
+      ],
+      "correctAnswer": ["Identity Pools"]
+
+"question": "You are developing a new mobile application to share photos, which AWS technology can you use to ensure your users have a seamless experience across all their devices?",
+      "answers": [
+        "Multi-Factor Authentication",
+        "IAM",
+        "Cognito",
+        "Web Identity Federation"
+      ],
+      "correctAnswer": ["Cognito"]
+
+"question": "Which of the following correctly describes an Inline Policy? (Choose 2)",
+      "answers": [
+        "The policy will be deleted if you delete the user, group or role it is associated with",
+        "You cannot change the permissions defined in the policy",
+        "It can be attached to multiple users and groups within your AWS account",
+        "It is embedded in a user, group or role"
+      ],
+      "correctAnswer": ["The policy will be deleted if you delete the user, group or role it is associated with",
+        "It is embedded in a user, group or role"]
+
+"question": "Which of the following are provided by AWS to allow you to easily assign IAM permissions to your users based on pre-defined common use cases?",
+      "answers": [
+        "Custom Policy",
+        "Inline Policy",
+        "Managed Policy",
+        "Common Policy"
+      ],
+      "correctAnswer": ["Managed Policy"]
+
+"question": "Amazon Cognito is recommended for which use case?",
+      "answers": [
+        "Anonymous access to AWS resources",
+        "Web Identity Federation for mobile applications",
+        "Secure storage of database connection strings",
+        "Identity Federation with Active Directory"
+      ],
+      "correctAnswer": ["Web Identity Federation for mobile applications"]
+
+"question": "You are working on a mobile phone app for an online retailer which stores customer data in DynamoDB. You would like to allow new users to sign-up using their Facebook credentials. What is the recommended approach?",
+      "answers": [
+        "After the user has successfully logged in to Facebook and received an authentication token, Cognito should be used to exchange the token for temporary access to DynamoDB",
+        "Write your own custom code which allows the user to log in via Facebook and receive an authentication token, then calls the AssumeRoleWithWebIdentity API and exchanges the authentication tokens for temporary access to DynamoDB",
+        "Embed encrypted AWS credentials into the application code, so that the application can access DynamoDB on the users behalf.",
+        "After the user has authenticated with Facebook, allow them to download encrypted AWS credentials to their device so that the mobile app can access DynamoDB"
+      ],
+      "correctAnswer": ["After the user has successfully logged in to Facebook and received an authentication token, Cognito should be used to exchange the token for temporary access to DynamoDB"]
+
+"question": "Which of the following services can be used to securely store confidential information like credentials and license codes so that they can be accessed by EC2 instances?",
+      "answers": [
+        "IAM",
+        "Systems Manager Parameter Store",
+        "DynamoDB",
+        "KMS"
+      ],
+      "correctAnswer": ["Systems Manager Parameter Store"]
+
+"question": "When would you use an Inline Policy over a Managed Policy?",
+      "answers": [
+        "To add IAM permissions that can be applied to multiple AWS accounts that you own",
+        "When you want to manage the policy yourself",
+        "To add permissions that are only ever intended to be used for a single user in your account",
+        "To add IAM permissions for common use cases like giving your DBAs full access to DynamoDB"
+      ],
+      "correctAnswer": ["To add permissions that are only ever intended to be used for a single user in your account"]
+
+"question": "Amazon Cognito provides Web Identity Federation with which of the following features? (Choose 2)",
+      "answers": [
+        "Single sign-on for Active Directory users",
+        "Sign-up and sign-in to your applications",
+        "Synchronization of user data across multiple device types",
+        "Multi-Factor Authentication"
+      ],
+      "correctAnswer": ["Sign-up and sign-in to your applications",
+        "Synchronization of user data across multiple device types"]
+
+"question": "Which of the following correctly describes a Customer Managed Policy? (Choose 2)",
+      "answers": [
+        "It is managed by you",
+        "The policy will be deleted if you delete the user, group or role it is associated with",
+        "It is created and administered by AWS",
+        "It can be assigned to multiple users, groups or roles in your account"
+      ],
+      "correctAnswer": ["It is managed by you",
+        "It can be assigned to multiple users, groups or roles in your account"]
+
+Introduction to CloudWatch (START HERE)
+  - 

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +58,7 @@
       <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
+            <state relative-caret-position="172">
               <caret line="88" column="67" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -85,20 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Advanced_IAM_1_dev.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_1_dev.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="473" column="3" lean-forward="true" selection-start-line="458" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Advanced_IAM_2_dev.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+            <state relative-caret-position="586">
+              <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -383,12 +373,12 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="67801000" />
+      <workItem from="1558570060616" duration="70206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170010000" />
+    <option name="totallyTimeSpent" value="172415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -398,9 +388,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32815966" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -779,9 +769,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_1_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="473" column="3" lean-forward="true" selection-start-line="458" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
+        <state relative-caret-position="172">
           <caret line="88" column="67" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
@@ -806,17 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="473" column="3" lean-forward="true" selection-start-line="458" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+        <state relative-caret-position="586">
+          <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
         </state>
       </provider>
     </entry>
