@@ -1,0 +1,298 @@
+[
+  {
+    "id": "1041",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "______ monitors your AWS resources and the applications you run on AWS",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "Config",
+        "Inspector"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "1042",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "Which of these does CloudWatch NOT monitor?",
+      "answers": [
+        "Auto-Scaling Groups",
+        "Elastic Load Balancers",
+        "Rout53 health checks",
+        "EBS volumes",
+        "Storage Gateways",
+        "CloudFront",
+        "DynamoDB",
+        "Elasticache nodes",
+        "RDS instances",
+        "Elastic MapReduce job flows",
+        "Redshift",
+        "SNS topics",
+        "SQS queues",
+        "OpsWorks",
+        "CloudWatch logs",
+        "Estimated charges on your AWS bill",
+        "Kinesis Firehose"
+      ],
+      "correctAnswer": ["Kinesis Firehose"]
+    }
+  },
+  {
+    "id": "1043",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 4",
+      "question": "With CloudWatch, host level metrics for EC2 consist of which of these?",
+      "answers": [
+        "CPU",
+        "Network",
+        "Disk throughput",
+        "Status Check of EC2 host",
+        "Disk space",
+        "Memory utilization"
+      ],
+      "correctAnswer": ["CPU",
+        "Network",
+        "Disk throughput",
+        "Status Check of EC2 host"]
+    }
+  },
+  {
+    "id": "1044",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch, you can retrieve data using the ______ API or by using third-party tools",
+      "answers": [
+        "GetMetricStatistics",
+        "GetStatistics",
+        "GetMetrics",
+        "MetricStatistics"
+      ],
+      "correctAnswer": ["GetMetricStatistics"]
+    }
+  },
+  {
+    "id": "1045",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "CloudWatch will store your logs ______ by default",
+      "answers": [
+        "indefinitely",
+        "for 12 days",
+        "for 1 day",
+        "for 1 year"
+      ],
+      "correctAnswer": ["indefinitely"]
+    }
+  },
+  {
+    "id": "1046",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch, you can not retrieve data from any terminated EC2 or ELB instance after its termination",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["false"]
+    }
+  },
+  {
+    "id": "1047",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch, you can change the retention for each log group at any time",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "1048",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch, for custom metrics, the minimum granularity that you can have is ______",
+      "answers": [
+        "1 minute",
+        "5 minutes",
+        "1 second",
+        "2 minutes"
+      ],
+      "correctAnswer": ["1 minute"]
+    }
+  },
+  {
+    "id": "1049",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "You can create ______ to monitor any CloudWatch metric",
+      "answers": [
+        "alarms",
+        "rules",
+        "definitions",
+        "CloudTrail rules"
+      ],
+      "correctAnswer": ["alarms"]
+    }
+  },
+  {
+    "id": "1050",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch, you can set thresholds and what actions to take if an alarm threshold is reached",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "1051",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "CloudWatch can be used on premise as well, just need to download and install the SSM agent and CloudWatch agent",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correctAnswer": ["true"]
+    }
+  },
+  {
+    "id": "1052",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "CloudWatch monitors ______",
+      "answers": [
+        "performance",
+        "API calls in AWS",
+        "state of your AWS environment"
+      ],
+      "correctAnswer": ["performance"]
+    }
+  },
+  {
+    "id": "1053",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "CloudTrail monitors ______",
+      "answers": [
+        "performance",
+        "API calls in AWS",
+        "state of your AWS environment"
+      ],
+      "correctAnswer": ["API calls in AWS"]
+    }
+  },
+  {
+    "id": "1054",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Monitoring",
+      "questionType": "multiple choice 1",
+      "question": "Config records the ______ and can notify you of changes",
+      "answers": [
+        "performance",
+        "API calls in AWS",
+        "state of your AWS environment"
+      ],
+      "correctAnswer": ["state of your AWS environment"]
+    }
+  },
+  {
+    "id": "1055",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following services can you use to monitor all API activity in your AWS account?",
+      "answers": [
+        "IAM",
+        "CloudWatch",
+        "CloudTrail",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["CloudTrail"]
+    }
+  },
+  {
+    "id": "1056",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following tools can you use to monitor CPU utilization metrics for your EC2 instances?",
+      "answers": [
+        "CloudFormation",
+        "CloudTrail",
+        "X-Ray",
+        "CloudWatch",
+        "It can only be assigned to a single user, group or role in your account"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "1057",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following tools can be used to determine who provisioned an EC2 instance and what time they made the API call?",
+      "answers": [
+        "CloudTrail",
+        "CloudWatch",
+        "CloudFormation",
+        "IAM"
+      ],
+      "correctAnswer": ["CloudTrail"]
+    }
+  },
+  {
+    "id": "1058",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following services can you use to monitor and report on performance metrics for your AWS Infrastructure?",
+      "answers": [
+        "CloudTrail",
+        "CloudWatch",
+        "CloudFormation",
+        "X-Ray"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  }
+]
