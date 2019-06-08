@@ -407,4 +407,13 @@ Inline Policies versus Managed Policies versus Custom Policies
       - in most cases AWS recommends using managed policies over inline policies
       - inline policies are useful when you want to be sure that the permissions in a policy are not inadvertently assigned to any other user, group, or role than the one for which they are intended
 STS AssumeRoleWithWebIdentity
-  - 
+  - assume-role-with-web-identity is an API provided by STS (Security Token Service)
+  - returns temporary security credentials for users authenticated by a mobile or web application using a Web ID provider like Amazon, Facebook, Google, etc.
+  - allows access to AWS resources
+  - for mobile applications, Cognito is recommended (Cognito makes the assume-role-with-web-identity API call on your behalf)
+  - regular web applications can use the STS assume-role-with-web-identity API
+  - returns a session token, an access key, and secret access key which expire in 1 hour by default
+  - once the user has been authenticated, the application makes the assume-role-with-web-identity API call
+  - returns an AssumedRoleUser ARN and an AssumedRoleID, which are used to programmatically reference the temporary credentials, not an IAM role or user
+Cross-Account Access (START HERE)
+  -

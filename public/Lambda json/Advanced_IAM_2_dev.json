@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1014",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "assume-role-with-web-identity is an API provided by ______",
+      "answers": [
+        "STS (Security Token Service)",
+        "Cognito",
+        "Config",
+        "KMS (Key Management Service)"
+      ],
+      "correctAnswer": ["STS (Security Token Service)"]
+    }
+  },
+  {
+    "id": "1015",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "______ API call returns temporary security credentials for users authenticated by a mobile or web application using a Web ID provider like Amazon, Facebook, Google, etc.",
+      "answers": [
+        "assume-role-with-web-identity",
+        "assume-role-identity",
+        "assume-iam-role-with-web-identity",
+        "assume-role-with-iam-identity"
+      ],
+      "correctAnswer": ["assume-role-with-web-identity"]
+    }
+  },
+  {
+    "id": "1016",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "assume-role-with-web-identity API call allows access to ______",
+      "answers": [
+        "AWS resources",
+        "Identity Providers",
+        "Identity Brokers",
+        "Web or Mobile applications"
+      ],
+      "correctAnswer": ["AWS resources"]
+    }
+  },
+  {
+    "id": "1017",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 3",
+      "question": "assume-role-with-web-identity API call returns which of these?",
+      "answers": [
+        "session token",
+        "access key",
+        "secret access key",
+        "IAM role"
+      ],
+      "correctAnswer": ["session token",
+        "access key",
+        "secret access key"]
+    }
+  },
+  {
+    "id": "1018",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "The session token, access key, and secret access key returned by a call to the assume-role-with-web-identity API expire in ______ by default",
+      "answers": [
+        "1 hour",
+        "4 hours",
+        "1 day",
+        "30 seconds"
+      ],
+      "correctAnswer": ["1 hour"]
+    }
+  },
+  {
+    "id": "1019",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 1",
+      "question": "When does the application make the assume-role-with-web-identity API call?",
+      "answers": [
+        "once the user has been authenticated",
+        "before the user has been authenticated",
+        "before retrieving the JWT token",
+        "after retrieving their temporary credentials"
+      ],
+      "correctAnswer": ["once the user has been authenticated"]
+    }
+  },
+  {
+    "id": "1020",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "The assume-role-with-web-identity API call returns ______, which are used to programmatically reference the temporary credentials",
+      "answers": [
+        "AssumedRoleUser ARN",
+        "AssumedRoleID",
+        "AssumeRoleUser ARN",
+        "AssumeRoleID",
+        "AssumedIAMUser",
+        "AssumedIAMID"
+      ],
+      "correctAnswer": ["AssumedRoleUser ARN",
+        "AssumedRoleID"]
+    }
+  },
+  {
+    "id": "1021",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "IAM",
+      "questionType": "multiple choice 2",
+      "question": "The assume-role-with-web-identity API call returns ______, which are used to programmatically reference the temporary credentials",
+      "answers": [
+        "AssumedRoleUser ARN",
+        "AssumedRoleID",
+        "AssumeRoleUser ARN",
+        "AssumeRoleID",
+        "AssumedIAMUser",
+        "AssumedIAMID"
+      ],
+      "correctAnswer": ["AssumedRoleUser ARN",
+        "AssumedRoleID"]
+    }
+  }
+]
