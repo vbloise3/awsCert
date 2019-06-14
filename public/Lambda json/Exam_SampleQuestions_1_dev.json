@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1059",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just started developing an application on your On-premise network. This application will interact with the Simple Storage Service and some DynamoDB tables. How would you as the developer ensure that your SDK can interact with the AWS services on the cloud?",
+      "answers": [
+        "Create an IAM Role with the required permissions and add it to your workstation",
+        "Create an IAM Role with the required permissions and make a call to the STS service",
+        "Create an IAM user, generate the access keys, to interact with AWS services on the cloud",
+        "Create an IAM User , generate a security token. Use the Security Token from within your program."
+      ],
+      "correctAnswer": ["Create an IAM user, generate the access keys, to interact with AWS services on the cloud"]
+    }
+  },
+  {
+    "id": "1060",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to move an existing development environment on the AWS Cloud. This environment consists mainly of Docker based containers. You need to ensure that minimum effort is taken during the migration process. Which of the following step would you consider for this requirement?",
+      "answers": [
+        "Create an Opswork stack and deploy the Docker containers",
+        "Create an application and Environment for the Docker containers in the Elastic Beanstalk service",
+        "Create an EC2 Instance. Install Docker and deploy the necessary containers.",
+        "Create an EC2 Instance. Install Docker and deploy the necessary containers. Add an Autoscaling Group for scalability of the containers."
+      ],
+      "correctAnswer": ["Create an application and Environment for the Docker containers in the Elastic Beanstalk service"]
+    }
+  },
+  {
+    "id": "1061",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have currently developed an application which makes use of AWS RDS MySQL service. During the testing phase , you can see that the database is taking a performance hit. After further investigation, you can see that the same queries are causing the performance bottleneck on the application. Which of the following development steps should be taken to resolve this issue?",
+      "answers": [
+        "Use the Multi-AZ feature for the underlying database",
+        "Change the underlying instance type for the database",
+        "Use SQS queues to store the results of the query for faster access",
+        "Use AWS ElastiCache to store the results of the query for faster access"
+      ],
+      "correctAnswer": ["Use AWS ElastiCache to store the results of the query for faster access"]
+    }
+  },
+  {
+    "id": "1062",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have written an application that uploads objects onto an S3 bucket. The size of the object varies between 200 - 500 MB. You have seen that the application sometimes takes a longer than expected time to upload the object. You want to improve the performance of the application. Which of the following would you consider?",
+      "answers": [
+        "Create multiple threads and upload the objects in the multiple threads",
+        "Write the items in batches for better performance",
+        "Use the Multipart upload API",
+        "Enable versioning on the Bucket"
+      ],
+      "correctAnswer": ["Use the Multipart upload API"]
+    }
+  },
+  {
+    "id": "1063",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team lead has finished creating a build project in the console. You have access to run the build but not to access the project. You want to specify a different source location for the build. How can you achieve this?",
+      "answers": [
+        "Issue the update project command and specify the new location of the build",
+        "Specify the new location of the build in the buildspec.yml file and issue the update-project command",
+        "Specify the new location of the build in the buildspec.yml file and use the start-build command",
+        "Specify the new location of the build in the buildspec.yml file and use the update-build command"
+      ],
+      "correctAnswer": ["Specify the new location of the build in the buildspec.yml file and use the start-build command"]
+    }
+  },
+  {
+    "id": "1064",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just created an AWS Lambda function. You are running the function, but the output of the function is not as expected. You need to check and see what is the issue? Which of the following can help the developer debug the issue with the Lambda function?",
+      "answers": [
+        "Check Cloudwatch logs",
+        "Check VPC Flow Logs",
+        "Check AWS Trusted Advisor",
+        "Check AWS Inspector"
+      ],
+      "correctAnswer": ["Check Cloudwatch logs"]
+    }
+  },
+  {
+    "id": "1065",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer for a company that is developing a .net based application. This application will be hosted in AWS. There is a need to encrypt data. Currently the company does not have a key store for managing encryption. Which of the following could the developer use in this code for encrypting data?",
+      "answers": [
+        "Use S3 Server-side encryption to work with encryption keys",
+        "Use the AWS KMS service to generate data keys",
+        "Use the AWS Config service to generate data keys",
+        "Use S3 client-side encryption to work with encryption keys"
+      ],
+      "correctAnswer": ["Use the AWS KMS service to generate data keys"]
+    }
+  },
+  {
+    "id": "1066",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been hired as a developer to work on an application. This application will be making use of an AWS RDS database and ElastiCache. A requirement is present which states that the cache should always have the most recent data that is present in the database and should not contain stale data. What strategy for ElastiCache can the Developer use to implement this?",
+      "answers": [
+        "Lazy loading",
+        "Write-through",
+        "Error retries",
+        "Exponential backoff"
+      ],
+      "correctAnswer": ["Write-through"]
+    }
+  },
+  {
+    "id": "1067",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just deployed an AWS Lambda function. This Lambda function would be invoked via the API gateway service. You want to know if there were any errors while the Lambda function was being invoked. Which of the following service would allow you to check the performance of your underlying Lambda function?",
+      "answers": [
+        "VPC Flow Logs",
+        "Cloudwatch",
+        "Cloudtrail",
+        "AWS Trusted Advisor"
+      ],
+      "correctAnswer": ["Cloudwatch"]
+    }
+  },
+  {
+    "id": "1068",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have created REST API using API Gateway. Which of the following mechanism can be used to deny specific IP Address from accessing API Gateway?",
+      "answers": [
+        "Lambda Authorizers",
+        "IAM Policy",
+        "Resource policies",
+        "AWS WAF"
+      ],
+      "correctAnswer": ["Resource policies"]
+    }
+  },
+  {
+    "id": "1069",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A developer is using Amazon API Gateway as an HTTP proxy to a backend endpoint. There are three separate environments: Development, Testing, Production and three corresponding stages in the API gateway. How should traffic be directed to different backend endpoints for each of these stages without creating a separate API for each?",
+      "answers": [
+        "Add a model to the API and add a schema to differentiate different backend endpoints.",
+        "Use stage variables and configure the stage variables in the HTTP integration Request of the API",
+        "Use API Custom Authorizers to create an authorizer for each of the different stages.",
+        "Update the Integration Response of the API to add different backend endpoints."
+      ],
+      "correctAnswer": ["Use stage variables and configure the stage variables in the HTTP integration Request of the API"]
+    }
+  },
+  {
+    "id": "1070",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is publishing a custom CloudWatch metric any time an HTTP 504 error appears in the application error logs. These errors are being received intermittently. There is a CloudWatch Alarm for this metric and the Developer would like the alarm to trigger only if it breaches two evaluation periods or more. What should be done to meet these requirements?",
+      "answers": [
+        "Update the CloudWatch Alarm to send a custom notification depending on results",
+        "Publish the value zero whenever there are no HTTP 504 errors",
+        "Use high-resolution metrics to get data pushed to CloudWatch more frequently",
+        "Aggregate the data before sending it to CloudWatch by using statistic sets."
+      ],
+      "correctAnswer": ["Aggregate the data before sending it to CloudWatch by using statistic sets."]
+    }
+  },
+  {
+    "id": "1071",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Developer has been asked to create an AWS Elastic Beanstalk environment for a production web application which needs to handle thousands of requests. Currently, the dev environment is running on a t1.micro instance and the developer needs to use an m4.large instance for the production environment. How can this change be implemented cost-effectively?",
+      "answers": [
+        "Use CloudFormation to migrate the Amazon EC2 instance type of the environment from t1 micro to m4.large.",
+        "Create a saved configuration file in Amazon S3 with the instance type as m4.large and use the same during environment creation.",
+        "Change the instance type to m4.large in the configuration details page of the Create New Environment page.",
+        "Change the instance type value for the environment to m4.large by using update autoscaling group CLI command."
+      ],
+      "correctAnswer": ["Create a saved configuration file in Amazon S3 with the instance type as m4.large and use the same during environment creation."]
+    }
+  },
+  {
+    "id": "1072",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A developer is writing an application that will store data in a DynamoDB table. The ratio of reads operations to write operations will be 1000 to 1, with the same data being accessed frequently. What should the Developer enable on the DynamoDB table to optimize performance and minimize costs?",
+      "answers": [
+        "AmazonDynamoDB auto scaling",
+        "AmazonDynamoDB cross-region replication",
+        "AmazonDynamoDB Streams",
+        "AmazonDynamoDB Accelerator"
+      ],
+      "correctAnswer": ["AmazonDynamoDB Accelerator"]
+    }
+  }
+]
