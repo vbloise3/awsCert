@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1073",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been hired as a developer to work on an application. This application is hosted on an EC2 Instance and interacts with an SQS queue. It has been noticed that when messages are being pulled by the application, a lot of empty responses are being returned. What change can you make to ensure that the application uses the SQS queue effectively?",
+      "answers": [
+        "Use long polling",
+        "Set a custom visibility timeout",
+        "Use short polling",
+        "Implement exponential backoff."
+      ],
+      "correctAnswer": ["Use long polling"]
+    }
+  }
+]

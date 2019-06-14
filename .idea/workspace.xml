@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_1_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -112,11 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exam_SampleQuestions_1_dev.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exam_SampleQuestions_1_dev.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_1_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
+            <state relative-caret-position="541">
+              <caret line="224" column="3" lean-forward="true" selection-start-line="209" selection-start-column="2" selection-end-line="224" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exam_SampleQuestions_2_dev.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -167,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chalicelib/cdaQuestions.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" />
         <option value="$PROJECT_DIR$/public/Lambda json/IAM_1_dev.json" />
@@ -218,6 +225,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/Monitoring_dev.json" />
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_1_dev.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json" />
       </list>
     </option>
   </component>
@@ -401,12 +409,12 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="74654000" />
+      <workItem from="1558570060616" duration="75829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176863000" />
+    <option name="totallyTimeSpent" value="178038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -456,13 +464,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="171" column="2" lean-forward="true" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/IAM_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3921">
@@ -860,8 +861,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_1_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
+        <state relative-caret-position="541">
+          <caret line="224" column="3" lean-forward="true" selection-start-line="209" selection-start-column="2" selection-end-line="224" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
