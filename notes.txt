@@ -10,9 +10,11 @@ Typescript version 3.4.5
 ng update @angular/cli @angular/core
 npm uninstall @angular-devkit/build-angular
 npm install @angular-devkit/build-angular
-ng update --all
+
 
 npm update @angular/cli @angular/cdk rxjs
 npm install -S @angular/material @angular/cdk @angular/animations
 npm uninstall @angular/core
 npm install -S @angular/core
+
+ng update --all --force

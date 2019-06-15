@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { DynamoDbserviceService, Movie, QandA, Answer } from '../services/dynamo-dbservice';
 import { NgForm, FormBuilder, FormGroup, FormControl } from '@angular/forms';
-import { MatCheckbox } from '@angular/material';
+import { MatCheckbox } from '@angular/material/checkbox';
 import { NgClass } from '@angular/common';
 import { Router, Routes, RouterModule } from '@angular/router';
 
