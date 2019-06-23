@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Exam Notes/2 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,22 +105,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exam_SampleQuestions_2_dev.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
+      <file leaf-file-name="Exam_SampleQuestions_3_dev.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="1072" column="3" lean-forward="true" selection-start-line="1057" selection-start-column="2" selection-end-line="1072" selection-end-column="3" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exam_SampleQuestions_3_dev.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-            </state>
-          </provider>
+      <file leaf-file-name="2 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Exam Notes/2 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -414,12 +409,12 @@
       <workItem from="1553167872953" duration="590000" />
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
-      <workItem from="1558570060616" duration="91492000" />
+      <workItem from="1558570060616" duration="92250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193701000" />
+    <option name="totallyTimeSpent" value="194459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -469,13 +464,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/EC2_2_dev.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -814,6 +802,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="1072" column="3" lean-forward="true" selection-start-line="1057" selection-start-column="2" selection-end-line="1072" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -868,19 +863,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="1072" column="3" lean-forward="true" selection-start-line="1057" selection-start-column="2" selection-end-line="1072" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/Exam Notes/2 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
