@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1138",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following is correct way of passing a stage variable to an HTTP URL ? (Select TWO.)",
+      "answers": [
+        "http://example.com/${<variable_name>}/prod",
+        "http://example.com/${stageVariables.<variable_name>}/prod",
+        "http://${stageVariables.<variable_name>}.example.com/dev/operation",
+        "http://${stageVariables}.example.com/dev/operation",
+        "http://${<variable_name>}.example.com/dev/operation",
+        "http://example.com/${stageVariables}/prod"
+      ],
+      "correctAnswer": ["http://example.com/${stageVariables.<variable_name>}/prod",
+        "http://${stageVariables.<variable_name>}.example.com/dev/operation"]
+    }
+  }
+]
