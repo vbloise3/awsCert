@@ -1,0 +1,535 @@
+[
+  {
+    "id": "1139",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer at a company that needs to deploy an application using Elastic Beanstalk. There is a requirement to place a healthcheck.config file for the environment. In which of the following location should this config file be placed to ensure it is part of the elastic beanstalk environment?",
+      "answers": [
+        "In the application root folder",
+        "In the config folder",
+        "In the packages folder",
+        "In the .ebextensions folder"
+      ],
+      "correctAnswer": ["In the .ebextensions folder"]
+    }
+  },
+  {
+    "id": "1140",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Lambda function has been developed with the default settings and is using Node.js. The function makes calls to a DynamoDB table. The code was first tested and executed on an EC2 Instance in the same language and took 300 seconds to execute. When the lambda function is executed , it is not adding the required rows to the DynamoDB table. What needs to be changed in order to ensure that the Lambda function works as desired?",
+      "answers": [
+        "Ensure that the underlying programming language is changed to python",
+        "Change the timeout for the function",
+        "Change the memory assigned to the function to 1 GB",
+        "Assignan IAM user to the Lambda function"
+      ],
+      "correctAnswer": ["Change the timeout for the function"]
+    }
+  },
+  {
+    "id": "1141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You need to setup a RESTful API service in AWS that would be serviced via the following url: https://democompany.com/customers. Which of the following combination of services can be used for development and hosting of the RESTful service? Choose 2 answers from the options below",
+      "answers": [
+        "AWS Lambda and AWS API gateway",
+        "AWS S3 and Cloudfront",
+        "AWS EC2 and AWS Elastic Load Balancer",
+        "AWS SQS and Cloudfront"
+      ],
+      "correctAnswer": ["AWS Lambda and AWS API gateway",
+        "AWS EC2 and AWS Elastic Load Balancer"]
+    }
+  },
+  {
+    "id": "1142",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on a POC for a new gaming application in us-east-1 region which will be using Amazon Cognito Events to execute AWS Lambda function. AWS Lambda function will issue a winning badge for a player post reaching every new level. You are getting error as LambdaThrottledException for certain cases when you are performing application testing with large number of players. Which of the following action needs to be implemented to resolve this error message?",
+      "answers": [
+        "Make sure Lambda Function responds in 5 sec.",
+        "Make sure Amazon Cognito provides all records in a dataset as input to the function.",
+        "Retry sync operation.",
+        "Make sure you are updating datasetRecords field and not any other fields."
+      ],
+      "correctAnswer": ["Retry sync operation."]
+    }
+  },
+  {
+    "id": "1143",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application needs to make use of a messaging system. The messages need to be processed in the order they are received and also no duplicates should be allowed. Which of the following would you use for this purpose?",
+      "answers": [
+        "Enable FIFO on an existing SQS Standard Queue.",
+        "Add the .fifo extension to the Standard SQS Queue",
+        "Consider using SNS",
+        "Use the FIFO SQS Queues"
+      ],
+      "correctAnswer": ["Use the FIFO SQS Queues"]
+    }
+  },
+  {
+    "id": "1144",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following is the right sequence of hooks that get called in AWS CodeDeploy?",
+      "answers": [
+        "Application Stop-BeforeInstall-After Install-Application Start",
+        "BeforeInstall-After Install-Application Stop-Application Start",
+        "BeforeInstall-After Install-Validate Service-Application Start",
+        "BeforeInstall-Application Stop-Validate Service-Application Start"
+      ],
+      "correctAnswer": ["Application Stop-BeforeInstall-After Install-Application Start"]
+    }
+  },
+  {
+    "id": "1145",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "As a developer, you have created a Lambda function that is used to work with a bucket in Amazon S3. The Lambda function is not working as expected. You need to debug the issue and understand what is the underlying issue. How can you accomplish this in an easily understandable way?",
+      "answers": [
+        "Use AWS Cloudwatch metrics",
+        "Put logging statements in your code",
+        "Set the Lambda function debugging level to verbose",
+        "Use AWS Cloudtrail logs"
+      ],
+      "correctAnswer": ["Put logging statements in your code"]
+    }
+  },
+  {
+    "id": "1146",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a function that will be hosted in AWS Lambda. The function will be developed in .Net. There are a number of external libraries that are needed for the code to run. Which of the following is the best practise when it comes to working with external dependencies for AWS Lambda?",
+      "answers": [
+        "Make sure that the dependencies are put in the root folder",
+        "Selectively only include the libraries that are required",
+        "Make sure the libraries are installed in the beginning of the function",
+        "Place the entire SDK dependencies in Amazon S3"
+      ],
+      "correctAnswer": ["Selectively only include the libraries that are required"]
+    }
+  },
+  {
+    "id": "1147",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has a Code Commit repository in your account. You need to give developers in another account access to your Code Commit repository. Which of the following is the most effective way to grant access?",
+      "answers": [
+        "Create IAM users for each developer and provide access to the repository",
+        "Create an IAM Group , add the IAM users and then provide access to the repository",
+        "Create a cross account role , give the role the privileges. Provide the role ARN to the developers.",
+        "Enable public access for the repository."
+      ],
+      "correctAnswer": ["Create a cross account role , give the role the privileges. Provide the role ARN to the developers."]
+    }
+  },
+  {
+    "id": "1148",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a lambda function that is processed asynchronously. You need a way to check and debug issues if the function fails? How could you accomplish this?",
+      "answers": [
+        "Use AWS Cloudwatch metrics",
+        "Assign a dead letter queue",
+        "Configure SNS notifications",
+        "Use AWS Cloudtrail logs"
+      ],
+      "correctAnswer": ["Assign a dead letter queue"]
+    }
+  },
+  {
+    "id": "1149",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are planning to use AWS Kinesis streams for an application being developed for a company. The company policy mandates that all data is encrypted at rest. How can you accomplish this in the easiest way possible for Kinesis streams?",
+      "answers": [
+        "Use the SDK for Kinesis to encrypt the data before being stored at rest",
+        "Enable server-side encryption for Kinesis streams",
+        "Enable client-side encryption for Kinesis streams",
+        "Use the AWS CLI to encrypt the data"
+      ],
+      "correctAnswer": ["Enable server-side encryption for Kinesis streams"]
+    }
+  },
+  {
+    "id": "1150",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing an application that is going to make use of Amazon Kinesis. Due to the high throughput, you decide to have multiple shards for the streams. Which of the following is TRUE when it comes to processing data across multiple shards?",
+      "answers": [
+        "You cannot guarantee the order of data across multiple shards. Its possible only within a shard",
+        "Order of data is possible across all shards in a stream",
+        "Order of data is not possible at all in Kinesis streams",
+        "You need to use Kinesis firehose to guarantee the order of data"
+      ],
+      "correctAnswer": ["You cannot guarantee the order of data across multiple shards. Its possible only within a shard"]
+    }
+  },
+  {
+    "id": "1151",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is planning on developing an application that is going to make use of a DynamoDB table. The structure of the table is given as follows: Product ID Number ID of product, Review ID Number Automatically generated, Product Name String Name of the product, Product Description String. Which of the following should be chosen as the partition key to ensure the MOST effective distribution of keys?",
+      "answers": [
+        "Product ID",
+        "Review ID",
+        "Product Name",
+        "Production Description"
+      ],
+      "correctAnswer": ["Review ID"]
+    }
+  },
+  {
+    "id": "1152",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your company is planning on using the Simple Storage service to host objects that will be accessed by users. There is a speculation that there would be roughly 6000 GET requests per second. Which of the following could be used to ensure optimal performance? Choose 2 answers from the options given below?",
+      "answers": [
+        "Use a Cloudfront distribution in front of the S3 bucket",
+        "Use hash key prefixes for the object keys",
+        "Enable versioning for the objects",
+        "Enable Cross Region Replication for the bucket"
+      ],
+      "correctAnswer": ["Use a Cloudfront distribution in front of the S3 bucket",
+      "Use hash key prefixes for the object keys"]
+    }
+  },
+  {
+    "id": "1153",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company currently stores its objects in S3. The current request rate is around 11000 GET requests per second. There is now a mandate for objects to be encrypted at rest. So you enable encryption using KMS. There are now performance issues being encountered. What could be the main reason behind this?",
+      "answers": [
+        "Amazon S3 will now throttle the requests since they are now being encrypted using KMS",
+        "You need to also enable versioning to ensure optimal performance",
+        "You are now exceeding the throttle limits for KMS API calls",
+        "You need to also enable CORS to ensure optimal performance"
+      ],
+      "correctAnswer": ["You are now exceeding the throttle limits for KMS API calls"]
+    }
+  },
+  {
+    "id": "1154",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is planning on using the Simple Storage service to host objects that will be accessed by users. There is a speculation that there would be roughly 6000 GET requests per second. Which of the following is the right way to use object keys for optimal performance?",
+      "answers": [
+        "exampleawsbucket/2019-14-03-15-00-00/photo1.jpg",
+        "exampleawsbucket/sample/232a-2019-14-03-15-00-00photo1.jpg",
+        "exampleawsbucket/232a-2019-14-03-15-00-00/photo1.jpg",
+        "exampleawsbucket/sample/photo1.jpg"
+      ],
+      "correctAnswer": ["exampleawsbucket/232a-2019-14-03-15-00-00/photo1.jpg"]
+    }
+  },
+  {
+    "id": "1155",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on an application which uses Amazon Cognito. Data in Amazon Cognito needs to be further analysed using Amazon Redshift. You are planning to use Kinesis streams for this purpose. Which of the following can be performed to have Amazon Cognito Events push events to Kinesis streams to get analysed data from Amazon Redshift?",
+      "answers": [
+        "Only use an existing Kinesis Stream and create an IAM role which grants Amazon Cognito permission to publish to this existing Stream.",
+        "Use an existing Kinesis Stream or Create a new Kinesis Stream and create an IAM role which grants Amazon Cognito permission to publish to Stream.",
+        "Create a new Kinesis Stream instead of using existing Kinesis Stream and create an IAM role which grants Amazon Cognito permission to publish to this new Stream.",
+        "Create a new Kinesis Stream &amp; enable an Amazon Cognito Streams which will automatically start putting events in the selected stream."
+      ],
+      "correctAnswer": ["Use an existing Kinesis Stream or Create a new Kinesis Stream and create an IAM role which grants Amazon Cognito permission to publish to Stream."]
+    }
+  },
+  {
+    "id": "1156",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have developed a Lambda function and are now in the process of debugging it. You add the necessary print statements in the code to assist in the debugging. You go to Cloudwatch logs, but you see no logs for the lambda function. Which of the following could be the underlying issue for this?",
+      "answers": [
+        "You have not enabled versioning for the Lambda function",
+        "The IAM Role assigned to the Lambda function does not have the necessary permission to create Logs",
+        "There is not enough memory assigned to the function",
+        "There is not enough time assigned to the function"
+      ],
+      "correctAnswer": ["The IAM Role assigned to the Lambda function does not have the necessary permission to create Logs"]
+    }
+  },
+  {
+    "id": "1157",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your company has asked you to maintain an application using Elastic Beanstalk. They have mentioned that when updates are made to the application, that the infrastructure maintains its full capacity. Which of the following deployment methods should you use for this requirement? Please select 2 correct options.",
+      "answers": [
+        "All at once",
+        "Rolling",
+        "Immutable",
+        "Rolling with additional batch"
+      ],
+      "correctAnswer": ["Immutable",
+        "Rolling with additional batch"]
+    }
+  },
+  {
+    "id": "1158",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company has asked you to maintain an application using Elastic Beanstalk. At times, you normally hit the application version limit when deploying new versions of the application. Which of the following is the most effective way to manage this issue?",
+      "answers": [
+        "Create multiple environments and deploy the different versions to different environments",
+        "Create an application lifecycle policy",
+        "Create multiple applications and deploy the different versions to different applications",
+        "Delete the application versions manually"
+      ],
+      "correctAnswer": ["Create an application lifecycle policy"]
+    }
+  },
+  {
+    "id": "1159",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A DynamoDB table is set with a Read Throughput capacity of 5 RCU. Which of the following read configuration will provide us the maximum read throughput?",
+      "answers": [
+        "Read capacity set to 5 for 4KB reads of data at strong consistency",
+        "Read capacity set to 5 for 4KB reads of data at eventual consistency",
+        "Read capacity set to 15 for 1KB reads of data at strong consistency",
+        "Read capacity set to 5 for 1KB reads of data at eventual consistency"
+      ],
+      "correctAnswer": ["Read capacity set to 5 for 4KB reads of data at eventual consistency"]
+    }
+  },
+  {
+    "id": "1160",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team is developing a solution that will make use of DynamoDB tables. Due to the nature of the application, the data is needed across a couple of regions across the world. Which of the following would help reduce the latency of requests to DynamoDB from different regions?",
+      "answers": [
+        "Enable Multi-AZ for the DynamoDB table",
+        "Enable global tables for DynamoDB",
+        "Enable Indexes for the table",
+        "Increase the read and write throughput for the table"
+      ],
+      "correctAnswer": ["Enable global tables for DynamoDB"]
+    }
+  },
+  {
+    "id": "1161",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your team is developing a solution that will make use of DynamoDB tables. Currently, the application is designed to perform scans on the entire table. Which of the following can be done to improve the performance of the application when it interacts with the DynamoDB table? Choose 2 answers from the options given below",
+      "answers": [
+        "Consider using parallel scans",
+        "Consider using large tables",
+        "Consider using string partition keys",
+        "Consider using queries"
+      ],
+      "correctAnswer": ["Consider using parallel scans",
+      "Consider using queries"]
+    }
+  },
+  {
+    "id": "1162",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company has a large set of data sets that need to be streamed directly into Amazon S3. Which of the following would be perfect for such a requirement?",
+      "answers": [
+        "Kinesis Streams",
+        "Kinesis Data Firehose",
+        "AWS Redshift",
+        "AWS DynamoDB"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "1163",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is planning on using Amazon Kinesis firehose to stream data into an S3 bucket. They need the data to be transformed first before it can be sent to the S3 bucket. Which of the following would be used for the transformation process?",
+      "answers": [
+        "AWS SQS",
+        "AWS Lambda",
+        "AWS EC2",
+        "AWS API Gateway"
+      ],
+      "correctAnswer": ["AWS Lambda"]
+    }
+  },
+  {
+    "id": "1164",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is hosting a static web site in S3. The code has recently been changed wherein Javascript calls are being made to the web pages in the same bucket via the FQDN. But the browser is blocking the requests. What should be done to alleviate the issue?",
+      "answers": [
+        "Enable CORS on the bucket",
+        "Enable versioning on the bucket",
+        "Enable CRR on the bucket",
+        "Enable encryption the bucket"
+      ],
+      "correctAnswer": ["Enable CORS on the bucket"]
+    }
+  },
+  {
+    "id": "1165",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is storing sensitive data in their S3 bucket. The company policy states that all objects in the S3 bucket need to be encrypted at rest. Which of the following help ensure this policy is met?",
+      "answers": [
+        "Deny permission to upload an object if the header does not include x-amz-server-side-encryption",
+        "Deny permission to upload an object if the header includes x-amz-server-side-encryption",
+        "Deny permission to upload an object if the header does not include x-allow-encryption",
+        "Deny permission to upload an object if the header includes x-allow-encryption"
+      ],
+      "correctAnswer": ["Deny permission to upload an object if the header does not include x-amz-server-side-encryption"]
+    }
+  },
+  {
+    "id": "1166",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "As a developer, you have enabled server logging on an S3 bucket. You have a simple static web page with CSS pages uploaded to the bucket which is 1 MB in total size. After a duration of 2 weeks, you come back and see that the size of the bucket has increased to 50MB. Which of the following could be a reason for this?",
+      "answers": [
+        "You have enabled CRR on the bucket as well , that is why the space is being consumed",
+        "You have enabled Encryption on the bucket as well , that is why the space is being consumed",
+        "Server access logs are configured to be delivered to the same bucket as the source bucket.",
+        "Monitoring has been enabled for the bucket"
+      ],
+      "correctAnswer": ["Server access logs are configured to be delivered to the same bucket as the source bucket."]
+    }
+  },
+  {
+    "id": "1167",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your application is developed to pick up metrics from several servers and push them off to Cloudwatch. At times, the application gets client 429 errors. Which of the following can be done from the programming side to resolve such errors?",
+      "answers": [
+        "Use the AWS CLI instead of the SDK to push the metrics",
+        "Ensure that all metrics have a timestamp before sending them across",
+        "Use exponential backoff in your requests",
+        "Enable encryption for the requests"
+      ],
+      "correctAnswer": ["Use exponential backoff in your requests"]
+    }
+  },
+  {
+    "id": "1168",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company currently allows access to their APIs to customers via the API gateway. Currently all clients have a 6-month period to move from using the older APIs to newer versions of the APIs. The code for the API is hosted in AWS Lambda. Which of the following is the ideal strategy to employ in such a situation?",
+      "answers": [
+        "Create another AWS Lambda version and give the link to that version to the customers.",
+        "Create another AWS Lambda ALIAS and give the link to that version to the customers.",
+        "Create another stage in the API gateway",
+        "Create a deployment package that would automatically change the link to the new Lambda version"
+      ],
+      "correctAnswer": ["Create another stage in the API gateway"]
+    }
+  },
+  {
+    "id": "1169",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are using Amazon Cognito identity pools to assign authenticated SAML users a temporary access for downloading data from Amazon S3 buckets. For this you have created multiple rules for each role which gets assigned to users. Which of the following criteria is matched for evaluating these rules?",
+      "answers": [
+        "Rules are evaluated in sequential order and rule with lower value is preferred.",
+        "Rules are evaluated in sequential order and IAM role for first matching rule is used ,unless a standard attribute is specified to override the order.",
+        "Rules are evaluated in sequential order and rule with higher value is preferred.",
+        "Rules are evaluated in sequential order and IAM role for first matching rule is used, unless a CustomRoleArn is specified to override the order."
+      ],
+      "correctAnswer": ["Rules are evaluated in sequential order and IAM role for first matching rule is used, unless a CustomRoleArn is specified to override the order."]
+    }
+  },
+  {
+    "id": "1170",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has a cloudformation template that is used to create a huge list of resources. It creates a VPC, subnets , EC2 Instances , Autoscaling Groups , Load Balancers etc. Which of the following should be considered when designing such Cloudformation templates?",
+      "answers": [
+        "Ensure to create one entire stack from the template",
+        "Look towards breaking the templates into smaller manageable templates",
+        "Package the templates together and use the cloudformation deploy command",
+        "Package the templates together and use the cloudformation package command"
+      ],
+      "correctAnswer": ["Look towards breaking the templates into smaller manageable templates"]
+    }
+  },
+  {
+    "id": "1171",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have the following YAML file given to you which is required to deploy a Lambda function using serverless deployment: AWSTemplateFormatVersion: 2010-09-09, Transform: AWS::Serverless-2016-10-31, Resources: TestFunction:, Type: AWS::Serverless::Function, Properties:, Handler: index.handler, Runtime: nodejs6.10, Environment:, Variables:, S3_BUCKET: demobucket. Which of the following is required to ensure the deployment can take place?",
+      "answers": [
+        "Use the cloudformation package command to package the deployment",
+        "Use the cloudformation package command to deploy the template",
+        "Place the function code at the root level of the working directory along with the YAML file",
+        "Place the function code in the .eb extensions folder"
+      ],
+      "correctAnswer": ["Use the cloudformation package command to package the deployment",
+        "Place the function code at the root level of the working directory along with the YAML file"]
+    }
+  }
+]
