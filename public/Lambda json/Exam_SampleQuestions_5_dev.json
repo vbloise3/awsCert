@@ -252,7 +252,7 @@
       "questionType": "multiple choice 2",
       "question": "You have deployed an application on an EC2 Instance. This application makes calls to a DynamoDB service. There are numerous performance issues present in the application. You decide to use the XRay service to debug the performance issues. You are not able to see the trails in the XRay service. Which of the following could be the underlying issue? Choose 2 answers from the options given below",
       "answers": [
-        "Define a customer master key in KMS",
+        "The X-Ray daemon is not installed on the EC2 Instance",
         "The right AMI is not chosen for the EC2 Instance",
         "Ensure that the IAM Role attached to the Instance has permission to upload data onto X-Ray",
         "Ensure that the IAM Role attached to the Instance has permission to upload data onto Cloudwatch"
