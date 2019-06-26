@@ -1,0 +1,528 @@
+[
+  {
+    "id": "1172",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a common lambda function that will be used across several environments such as staging, development etc. The lambda function needs to interact with each of these environments. What is the best way to develop the Lambda function?",
+      "answers": [
+        "Create a Lambda function for each environment so that each function can point to its respective environment.",
+        "Create one Lambda function and use environment variables for each environment to interact.",
+        "Create one Lambda function and create several versions for each environment.",
+        "Create one Lambda function and create several ALIAS for each environment."
+      ],
+      "correctAnswer": ["Create one Lambda function and use environment variables for each environment to interact."]
+    }
+  },
+  {
+    "id": "1173",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "As a developer you have been told to create an API gateway stage that will directly interact with DynamoDB tables. Which of the following feature of the API Gateway must be used to fulfill this requirement?",
+      "answers": [
+        "Ensure to create an Integration request",
+        "Ensure to enable CORS",
+        "Ensure to enable DAX",
+        "Enable Binary payloads"
+      ],
+      "correctAnswer": ["Ensure to create an Integration request"]
+    }
+  },
+  {
+    "id": "1174",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have recently developed an AWS Lambda function to be used as a backend technology for an API gateway instance. You need to give the API gateway URL to a set of users for testing. What must be done before the users can test the API?",
+      "answers": [
+        "Ensure that a deployment is created in the API gateway",
+        "Ensure that CORS is enabled for the API gateway",
+        "Generate the SDK for the API",
+        "Enable support for binary payloads"
+      ],
+      "correctAnswer": ["Ensure that a deployment is created in the API gateway"]
+    }
+  },
+  {
+    "id": "1175",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You just developed code in AWS Lambda that makes use of recursive functions. After several invocations, you are beginning to see throttling errors in the metrics. Which of the following should be done to resolve this issue?",
+      "answers": [
+        "Place the recursive function in a separate package",
+        "Use versioning for the recursive function",
+        "Avoid using recursive code altogether",
+        "Use the API gateway to call the recursive code."
+      ],
+      "correctAnswer": ["Avoid using recursive code altogether"]
+    }
+  },
+  {
+    "id": "1176",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is making a request to AWS STS for temporary access credentials. Following is the response being received: AssumeRoleResponse xmlns=https://sts.amazonaws.com/doc/2011-06-15/ AssumeRoleResult Credentials SessionToken wEXAMPLEtc764bNrC9SAPBSM22wDOk4x4HIZ8j4FZTwdQW SecretAccessKey wJalrXUtnFEMI AccessKeyId AKIAIOSFODNN7EXAMPLE AssumedRoleUser arn:aws:sts::123456789012:assumed-role/demo/lambda ResponseMetadata RequestId c6104cbe-af31-11e0-8154-cbc7ccf896c7. Which of the following is TRUE with regards to the above response?",
+      "answers": [
+        "The SecretAccessKey can be used like Access keys to make request to resources",
+        "The application will assume the role of arn:aws:sts::123456789012:assumed-role/demo/lambda",
+        "The session token will be valid for the lifetime of the application",
+        "The Request ID can be used to make requests to access other AWS resources"
+      ],
+      "correctAnswer": ["The application will assume the role of arn:aws:sts::123456789012:assumed-role/demo/lambda"]
+    }
+  },
+  {
+    "id": "1177",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have an application that is hosted on an EC2 Instance. This application is part of a custom domain www.demo.com. The application has been changed to make calls to the API gateway. But the browser is not rendering the responses and Javascript errors are being seen in the developer console. What must be done to ensure that this issue can be resolved?",
+      "answers": [
+        "Make the application call a Lambda function instead.",
+        "There is an issue with the stage defined on the API gateway, hence define a new stage",
+        "Make use of Cognito user pools",
+        "Enable CORS for the API gateway"
+      ],
+      "correctAnswer": ["Enable CORS for the API gateway"]
+    }
+  },
+  {
+    "id": "1178",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "You have define a DynamoDB table with a read capacity of 5 and a write capacity of 5. Which of the following statements are TRUE? Choose 3 answers from the options given below",
+      "answers": [
+        "Strong consistent reads of a maximum of 20 KB per second",
+        "Eventual consistent reads of a maximum of 20 KB per second",
+        "Strong consistent reads of a maximum of 40 KB per second",
+        "Eventual consistent reads of a maximum of 40 KB per second",
+        "Maximum writes of 5KB per second"
+      ],
+      "correctAnswer": ["Strong consistent reads of a maximum of 20 KB per second",
+        "Eventual consistent reads of a maximum of 40 KB per second",
+        "Maximum writes of 5KB per second"]
+    }
+  },
+  {
+    "id": "1179",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is currently in production that makes calls to an AWS RDS Instance. The application consists of a reporting module and a transactional system. During high load times, the response time for the application used to get very high. This was being attributed to the number of queries being fired against the database system. Which of the following can be used to resolve the response time for the application?",
+      "answers": [
+        "Place a cloudfront distribution in front of the database",
+        "Enable Read Replicas for the database",
+        "Move the database to DynamoDB",
+        "Enable Multi-AZ for the database"
+      ],
+      "correctAnswer": ["Enable Read Replicas for the database"]
+    }
+  },
+  {
+    "id": "1180",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is currently in production that makes calls to an AWS RDS Instance. The database has recently been facing performance problems. It has been noticed that the same queries are putting a strain on the database. Which of the following can be used to resolve the issue?",
+      "answers": [
+        "Place a cloudfront distribution in front of the database",
+        "Enable Multi-AZ for the database",
+        "Place an SQS queue in front of the database",
+        "Place an ElastiCache in front of the database"
+      ],
+      "correctAnswer": ["Place an ElastiCache in front of the database"]
+    }
+  },
+  {
+    "id": "1181",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is planning on using a cache service for their application. An important requirement is that trying to recover data lost in cache is an expensive affair for the company, which they would want to avoid. Which of the following should be used for this purpose?",
+      "answers": [
+        "Amazon SQS queues",
+        "Amazon ElastiCache Memcached",
+        "Amazon ElastiCache Redis",
+        "Amazon Lambda"
+      ],
+      "correctAnswer": ["Amazon ElastiCache Redis"]
+    }
+  },
+  {
+    "id": "1182",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have docker containers which are going to be deployed in the AWS Elastic Container Service. You need to ensure that instances of containers cannot access each other since these different instances are going to be used by individual customers. How can you accomplish this?",
+      "answers": [
+        "Place IAM Roles for the underlying EC2 Instances",
+        "Place the access keys in the Docker containers",
+        "Place the access keys in the EC2 Instances",
+        "Configure the Security Groups of the instances to allow only required traffic."
+      ],
+      "correctAnswer": ["Configure the Security Groups of the instances to allow only required traffic."]
+    }
+  },
+  {
+    "id": "1183",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application needs to use an authentication in AWS. Users need to have MFA enabled when trying to log into the application. Which of the following can be used for this purpose?",
+      "answers": [
+        "Create an IAM user with public access",
+        "Create an IAM group with public access",
+        "Use AWS Cognito with MFA",
+        "Use AWS STS with SAML"
+      ],
+      "correctAnswer": ["Use AWS Cognito with MFA"]
+    }
+  },
+  {
+    "id": "1184",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "When calling an API operation on an EC2 Instance, the following error message was returned: A client error (UnauthorizedOperation) occurred when calling the RunInstances operation: You are not authorized to perform this operation. Encoded authorization failure message: oGsbAaIV7wlfj8zUqebHUANHzFbmkzILlxyj__y9xwhIHk99U_cUq1FIeZnskWDjQ1wSHStVfdCEyZILGoccGpC iCIhORceWF9rRwFTnEcRJ3N9iTrPAE1WHveC5Z54ALPaWlEjHlLg8wCaB8d8lCKmxQuylCm0r1Bf2fHJRU jAYopMVmga8olFmKAl9yn_Z5rI120Q9p5ZIMX28zYM4dTu1cJQUQjosgrEejfiIMYDda8l7Ooko9H6VmGJX S62KfkRa5l7yE6hhh2bIwA6tpyCJy2LWFRTe4bafqAyoqkarhPA4mGiZyWn4gSqbO8oSIvWYPwea KGkampa0arcFR4gBD7Ph097WYBkzX9hVjGppLMy4jpXRvjeA5o7TembBR-Jvowq6mNim0. Which of the following can be used to get a human-readable error message?",
+      "answers": [
+        "Use the command aws sts decode-authorization-message",
+        "Use the command aws get authorization-message",
+        "Use the IAM Policy simulator, enter the error message to get the human readble format",
+        "Use the command aws set authorization-message"
+      ],
+      "correctAnswer": ["Use the command aws sts decode-authorization-message"]
+    }
+  },
+  {
+    "id": "1185",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have defined some custom policies in AWS. You need to test out the permissions assigned to those policies. Which of the following can be used for this purpose via the CLI? Choose 2 answers from the options given below",
+      "answers": [
+        "Get the context keys first",
+        "Use the aws iam simulate-custom-policy command",
+        "Get the AWS IAM Access keys first",
+        "Use the aws iam get-custom-policy command"
+      ],
+      "correctAnswer": ["Get the context keys first",
+        "Use the aws iam simulate-custom-policy command"]
+    }
+  },
+  {
+    "id": "1186",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have been instructed to use the CodePipeline service for the CI/CD automation in your company. Due to security reasons, the resources that would be part of the deployment are placed in another account. Which of the following steps need to be carried out to accomplish this deployment? Choose 2 answers from the options given below",
+      "answers": [
+        "Define a customer master key in KMS",
+        "Create a reference Code Pipeline instance in the other account",
+        "Add a cross account role",
+        "Embed the access keys in the codepipeline process"
+      ],
+      "correctAnswer": ["Define a customer master key in KMS",
+        "Add a cross account role"]
+    }
+  },
+  {
+    "id": "1187",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have deployed an application on an EC2 Instance. This application makes calls to a DynamoDB service. There are numerous performance issues present in the application. You decide to use the XRay service to debug the performance issues. You are not able to see the trails in the XRay service. Which of the following could be the underlying issue? Choose 2 answers from the options given below",
+      "answers": [
+        "Define a customer master key in KMS",
+        "The right AMI is not chosen for the EC2 Instance",
+        "Ensure that the IAM Role attached to the Instance has permission to upload data onto X-Ray",
+        "Ensure that the IAM Role attached to the Instance has permission to upload data onto Cloudwatch"
+      ],
+      "correctAnswer": ["The X-Ray daemon is not installed on the EC2 Instance",
+        "Ensure that the IAM Role attached to the Instance has permission to upload data onto X-Ray"]
+    }
+  },
+  {
+    "id": "1188",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is hosting a set of resources on the AWS Cloud. There is now a security requirement that states that all requests to the STS service be monitored. How can you accomplish this requirement?",
+      "answers": [
+        "Monitor the Cloudwatch logs service",
+        "View logs in CloudTrail",
+        "Use the STS logging service",
+        "Use Cloudwatch metrics"
+      ],
+      "correctAnswer": ["View logs in CloudTrail"]
+    }
+  },
+  {
+    "id": "1189",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has developed an application that makes use of AWS resources. In order to provide frequent releases to the customer, you are required to automate the CI/CD process. Which of the following can be used for this purpose?",
+      "answers": [
+        "Create a pipeline using AWS Code deploy. Configure a stage for Unit testing as well in the pipeline",
+        "Use AWS CodeCommit to host your code repository. Use the build tool in AWS CodeCommit to build your pipeline",
+        "Create a Pipeline in the AWS CodeBuild Service",
+        "Create a pipeline using AWS Code pipeline along with AWS Code Star service"
+      ],
+      "correctAnswer": ["Create a pipeline using AWS Code pipeline along with AWS Code Star service"]
+    }
+  },
+  {
+    "id": "1190",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are using the AWS CodeDeploy service to deploy an application onto AWS. The application uses secure parameters which are stored in the AWS Systems Manager Parameter store. Which of the following must be done, so that the deployment can be automated via CodeDeploy? Choose 2 answers from the options given below.",
+      "answers": [
+        "Use the aws ssm get-parameters with the --with-decryption option",
+        "Use the aws ssm get-parameters with the --with-no-decryption option",
+        "Give permissions to the AWS Code Deploy service via AWS Access Keys",
+        "Give permissions to the AWS Code Deploy service via an IAM Role"
+      ],
+      "correctAnswer": ["Use the aws ssm get-parameters with the --with-decryption option",
+      "Give permissions to the AWS Code Deploy service via an IAM Role"]
+    }
+  },
+  {
+    "id": "1191",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is currently accessing a DynamoDB table. Currently the tables queries are performing well. Changes have been made to the application and now the performance of the application is starting to degrade. After looking at the changes, you see that the queries are making use of an attribute which is not the partition key? Which of the following would be the adequate change to make to resolve the issue?",
+      "answers": [
+        "Add a Global Secondary Index to the DynamoDB table",
+        "Change all the queries to ensure they use the partition key",
+        "Enable global tables for DynamoDB",
+        "Change the read capacity on the table"
+      ],
+      "correctAnswer": ["Add a Global Secondary Index to the DynamoDB table"]
+    }
+  },
+  {
+    "id": "1192",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team developed and deployed an application on an EC2 Instance. To test the application, you were given access credentials which also included the rights to write to an S3 bucket. Once the testing was confirmed, an IAM Role was assigned to the Instance. This role only has permissions to read from the bucket. But you notice that the application still has access to write to the S3 bucket. Why is this the case?",
+      "answers": [
+        "You need to restart the instance for the Role settings to take effect",
+        "The Environment variables which were set for CLI access are taking priority",
+        "The CLI is corrupted , hence the credentials are not being revoked",
+        "The EBS Volume needs to be reattached again for the Instance profile to take effecte"
+      ],
+      "correctAnswer": ["The Environment variables which were set for CLI access are taking priority"]
+    }
+  },
+  {
+    "id": "1193",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are planning on deploying an application to the worker role in Elastic Beanstalk. Moreover, this worker application is going to run the periodic tasks. Which of the following is a must have as part of the deployment?",
+      "answers": [
+        "An appspec.yaml file",
+        "A cron.yaml file",
+        "A cron.config file",
+        "An appspec.json file"
+      ],
+      "correctAnswer": ["A cron.yaml file"]
+    }
+  },
+  {
+    "id": "1194",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing a Java based application that needs to make use of the AWS KMS service for encryption. Which of the following must be done for the encryption and decryption process? Choose 2 answers from the options given below.",
+      "answers": [
+        "Use the Customer master key to encrypt the data",
+        "Use the Customer master key to generate a data key for the encryption process",
+        "Use the Customer master key to decrypt the data",
+        "Use the generated data key to decrypt the data"
+      ],
+      "correctAnswer": ["Use the Customer master key to generate a data key for the encryption process",
+      "Use the generated data key to decrypt the data"]
+    }
+  },
+  {
+    "id": "1195",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have developed a Web based application which makes calls to backend API. Which of the following headers are required by Web browsers to be set up in each API method which has CORS enabled.(Select TWO.)",
+      "answers": [
+        "Access-Control-Allow-Headers",
+        "Access-Control-Allow-CORS",
+        "Access-Control-Expose-Headers",
+        "Access-Control-Expose-Origin",
+        "Access-Control-Allow-Origin"
+      ],
+      "correctAnswer": ["Access-Control-Allow-Headers",
+        "Access-Control-Allow-Origin"]
+    }
+  },
+  {
+    "id": "1196",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a legacy application that works via XML messages. You need to place the application behind the API gateway in order for customers to make API calls. Which of the following would you need to configure?",
+      "answers": [
+        "Enable Payload compression",
+        "You will need to work with the Request and Response Data mapping",
+        "Enable CORS",
+        "Enable multiple stages"
+      ],
+      "correctAnswer": ["You will need to work with the Request and Response Data mapping"]
+    }
+  },
+  {
+    "id": "1197",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are planning on using the Serverless Application model which will be used to deploy a serverless application consisting of a Node.js function. Which of the following steps need to be carried out? Choose 2 answers from the options given below.",
+      "answers": [
+        "Use the Lambda package command",
+        "Use the SAM package command",
+        "Use the Lambda deploy command",
+        "Use the sam deploy command"
+      ],
+      "correctAnswer": ["Use the SAM package command",
+      "Use the sam deploy command"]
+    }
+  },
+  {
+    "id": "1198",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your application currently points to several Lambda functions in AWS. A change is being made to one of the Lambda functions. You need to ensure that application traffic is shifted slowly from one Lambda function to the other. Which of the following steps would you carry out?",
+      "answers": [
+        "Create an ALIAS with the -routing-config parameter",
+        "Update the ALIAS with the -routing-config parameter",
+        "Create a version with the -routing-config parameter",
+        "Update the version with the -routing-config parameter",
+        "Update the function with the -config parameter"
+      ],
+      "correctAnswer": ["Create an ALIAS with the -routing-config parameter",
+        "Update the ALIAS with the -routing-config parameter"]
+    }
+  },
+  {
+    "id": "1199",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application needs to make use of an SQS queue for working with messages. An SQS queue has been created with the default settings. The application needs 60 seconds to process each message. Which of the following step need to be carried out by the application.",
+      "answers": [
+        "Change the VisibilityTimeout for each message and then delete the message after processing is completed.",
+        "Delete the message and change the visibility timeout.",
+        "Process the message, change the visibility timeout. Delete the message",
+        "Process the message and delete the message"
+      ],
+      "correctAnswer": ["Change the VisibilityTimeout for each message and then delete the message after processing is completed."]
+    }
+  },
+  {
+    "id": "1200",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application currently makes use of DynamoDB tables. There are a thousand requests made per second on the DynamoDB table. Another application takes the changes to the items in the DynamoDB table, for further analytics processing. Which of the following can be effectively used to manage this requirement?",
+      "answers": [
+        "Enable a scan on the entire table to check for changes",
+        "Create a query to check for changes",
+        "Enable global tables for DynamoDB",
+        "Enable streams for DynamoDB"
+      ],
+      "correctAnswer": ["Enable streams for DynamoDB"]
+    }
+  },
+  {
+    "id": "1201",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "AWS CodeDeploy deployment fails to start and generates the following error code, HEALTH_CONSTRAINTS_INVALID, Which of the following can be used to eliminate this error?",
+      "answers": [
+        "Make sure the minimum number of healthy instances is equal to the total number of instances in the deployment group.",
+        "Increase the number of healthy instances required during deployment.",
+        "Reduce number of healthy instances required during deployment.",
+        "Make sure the minimum number of healthy instances is greater than than the number of instances in the deployment group."
+      ],
+      "correctAnswer": ["Reduce number of healthy instances required during deployment."]
+    }
+  },
+  {
+    "id": "1202",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing an application that would be used to upload images from users. You need to effectively store the images and also the name of the user who uploaded the image. How would you accomplish this? Choose 2 answers from the options given below.",
+      "answers": [
+        "Store the images in DynamoDB",
+        "Store the images in S3",
+        "Store the name of the user in S3",
+        "Store the name of the user in DynamoDB"
+      ],
+      "correctAnswer": ["Store the images in S3",
+      "Store the name of the user in DynamoDB"]
+    }
+  },
+  {
+    "id": "1203",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your application must write to an SQS queue. Your corporate security policies require that AWS credentials are always encrypted and are rotated at least once a week. How can you securely provide credentials that allow your application to write to the queue?",
+      "answers": [
+        "Have the application fetch an access key from an Amazon S3 bucket at run time.",
+        "Launch the applications Amazon EC2 instance with an IAM role.",
+        "Embed the Access keys in the application",
+        "Create environment variables in the EC2 Instance with the Access Keys"
+      ],
+      "correctAnswer": ["Launch the applications Amazon EC2 instance with an IAM role."]
+    }
+  }
+]
