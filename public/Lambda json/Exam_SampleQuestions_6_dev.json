@@ -1,0 +1,563 @@
+[
+  {
+    "id": "1204",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are a developer for a company. You have been asked to deploy an application for development purposes onto an Elastic beanstalk environment. You need to ensure that custom software is installed on the backend Linux servers that are launched as part of the Elastic Beanstalk environment. Which of the following can be used to achieve this? Choose 2 answers from the options given below",
+      "answers": [
+        "Create an XML file with the required package names to be installed on the server",
+        "Create an YAML file with the required package names to be installed on the server",
+        "Place the file in the .ebextensions folder in your Application Source Bundle",
+        "Place the file in the .config folder in your Application Source Bundle"
+      ],
+      "correctAnswer": ["Create an YAML file with the required package names to be installed on the server",
+        "Place the file in the .ebextensions folder in your Application Source Bundle"]
+    }
+  },
+  {
+    "id": "1205",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on a decoupled application which uses Amazon SQS for storing messages before being processed by another application deployed on Amazon EC2 instance. You are observing a surge in the number of messages being processed by this application, most of which are duplicate messages. What change needs to be done if your application takes approximately 45 secs to process each message?",
+      "answers": [
+        "Configure Amazon SQS Visibility timeout to 43200 seconds.",
+        "Configure Amazon SQS Visibility timeout to 0 seconds.",
+        "Configure Amazon SQS Visibility timeout to 60 seconds.",
+        "Configure Amazon SQS Visibility timeout to default to 30 seconds."
+      ],
+      "correctAnswer": ["Configure Amazon SQS Visibility timeout to 60 seconds."]
+    }
+  },
+  {
+    "id": "1206",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on a decoupled application which uses Amazon SQS for storing messages before being processed by another application deployed on Amazon EC2 instance. You are observing a surge in the number of messages being processed by this application, most of which are duplicate messages. What change needs to be done if your application takes approximately 45 secs to process each message?",
+      "answers": [
+        "Configure Amazon SQS Visibility timeout to 43200 seconds.",
+        "Configure Amazon SQS Visibility timeout to 0 seconds.",
+        "Configure Amazon SQS Visibility timeout to 60 seconds.",
+        "Configure Amazon SQS Visibility timeout to default to 30 seconds."
+      ],
+      "correctAnswer": ["Configure Amazon SQS Visibility timeout to 60 seconds."]
+    }
+  },
+  {
+    "id": "1207",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is planning on developing an application that is going to make use of a DynamoDB table. The structure of the table is given as follows: Customer ID String Automatically generated GUID, Customer Name String Name of the Customer, Location String Place-Area, Interests String Wish list of products. Which of the following should be chosen as the partition key to ensure the MOST effective distribution of keys?",
+      "answers": [
+        "Customer ID",
+        "Customer Name",
+        "Location",
+        "Interests"
+      ],
+      "correctAnswer": ["Customer ID"]
+    }
+  },
+  {
+    "id": "1208",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer that has been hired to lead the application development for a company. The application needs to interact with a backend data store. The application would need to perform many complex join operations on the data store. Which of the following would be the ideal data store for the application?",
+      "answers": [
+        "AWS DynamoDB",
+        "AWS RDS",
+        "AWS Redshift",
+        "AWS S3"
+      ],
+      "correctAnswer": ["AWS RDS"]
+    }
+  },
+  {
+    "id": "1209",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is planning on storing documents in an S3 bucket. The documents are sensitive, and employees should use Multi Factor authentication when trying to access documents. Which of the following must be done to fulfil this requirement?",
+      "answers": [
+        "Ensure that Encryption is enabled the bucket AWS server-side encryption",
+        "Ensure that Encryption is enabled the bucket using KMS keys",
+        "Ensure that the a bucket policy is in place with a condition of aws:MultiFactorAuthPresent:false with a Deny policy",
+        "Ensure that the a bucket policy is in place with a condition of aws:MultiFactorAuthPresent:true with a Deny policy"
+      ],
+      "correctAnswer": ["Ensure that the a bucket policy is in place with a condition of aws:MultiFactorAuthPresent:false with a Deny policy"]
+    }
+  },
+  {
+    "id": "1210",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "AWS CodeDeploy is used to configure a deployment group to automatically roll-back to last known good revision when a deployment fails. During roll-back, files required for deployment to earlier revision cannot be retrieved by AWS CodeDeploy. Which of the following actions can be executed for successful roll-back? Choose 2 correct options.",
+      "answers": [
+        "Use Manual Roll Back instead of Automatic Roll-Back.",
+        "Manually Add required files to Instance.",
+        "Use an existing application revision.",
+        "Map CodeDeploy to access those files from S3 buckets.",
+        "Create a new application revision."
+      ],
+      "correctAnswer": ["Manually Add required files to Instance.",
+        "Create a new application revision."]
+    }
+  },
+  {
+    "id": "1211",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is being designed to make use of DynamoDB. As per the requirements, the table will accept items which are of 6 KB of size per second. The number of requests per second is estimated to be around 10. If strong consistency is required, what should be the read capacity set for the table?",
+      "answers": [
+        "5",
+        "10",
+        "20",
+        "40"
+      ],
+      "correctAnswer": ["20"]
+    }
+  },
+  {
+    "id": "1212",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have created a Lambda function with the default settings. You add code to this function which makes calls to DynamoDB. You try to test the function. But the function is not completing its execution. Which of the following might be probable causes for this? Choose 2 answers from the options given below",
+      "answers": [
+        "The IAM Role attached to the function does not have access to DynamoDB",
+        "The timeout of the function has been reached.",
+        "You need to deploy the function first",
+        "You need to create a version for the function first"
+      ],
+      "correctAnswer": ["The IAM Role attached to the function does not have access to DynamoDB",
+      "The timeout of the function has been reached."]
+    }
+  },
+  {
+    "id": "1213",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just configured a Lambda function that sits behind the API gateway service. When you try to invoke the Lambda function via the API gateway service from Javascript in your HTML page, you receive the following error. No Access-Control-Allow-Origin header is present on the requested resource. Origin null is therefore not allowed access. What can be done to resolve this error?",
+      "answers": [
+        "Enable CORS for the lambda function",
+        "Enable CORS for the methods in the API gateway",
+        "Change the IAM policy for the Lambda function to enable anonymous access",
+        "Change the IAM policy for the API gateway to enable anonymous access"
+      ],
+      "correctAnswer": ["Enable CORS for the methods in the API gateway"]
+    }
+  },
+  {
+    "id": "1214",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a legacy application which process message from SQS Queue. Application uses a single thread to poll multiple queues, which of the following poling timeout will be best option to avoid latency in processing messages?",
+      "answers": [
+        "Use Short Polling with default visibility timeout values.",
+        "Use Long Polling with higher visibility timeout values.",
+        "Use Long Polling with lower visibility timeout values.",
+        "Use Short Polling with higher visibility timeout values."
+      ],
+      "correctAnswer": ["Use Short Polling with default visibility timeout values."]
+    }
+  },
+  {
+    "id": "1215",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "You are planning on hosting a static web site using the features available with S3. Which of the following steps need to be carried out in order to ensure that you can host your static web site in S3. Choose 3 answers from the options given below",
+      "answers": [
+        "Enable WebSite hosting",
+        "Enable versioning for the bucket",
+        "Configure an Index document",
+        "Ensure that permissions are set for Website access"
+      ],
+      "correctAnswer": ["Enable WebSite hosting",
+      "Configure an Index document",
+      "Ensure that permissions are set for Website access"]
+    }
+  },
+  {
+    "id": "1216",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing an application which will make use of Kinesis Firehose for streaming the records onto the Simple Storage Service. Your company policy mandates that all data needs to be encrypted at rest. How can you achieve this with Kinesis Firehose? Choose 2 answers for the options given below.",
+      "answers": [
+        "Enable Encryption for a Kinesis Data Firehose",
+        "Install an SSL certificate in Kinesis Data Firehose",
+        "Ensure that all data records are transferred via SSL",
+        "Ensure that Kinesis streams are used to transfer the data from the producers"
+      ],
+      "correctAnswer": ["Enable Encryption for a Kinesis Data Firehose",
+        "Ensure that Kinesis streams are used to transfer the data from the producers"]
+    }
+  },
+  {
+    "id": "1217",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are the team lead for an application. You have been instructed to make using Jenkins in your CI/CD pipeline and other AWS Services for deployment purposes. Which of the following would you consider fulfilling this requirement? Select 2 options",
+      "answers": [
+        "Configure an EC2 Instance with Jenkins Installed",
+        "Configure the Access Keys on the EC2 Instance to access Code Pipeline",
+        "Configure an IAM Role for EC2 to access Code Pipeline",
+        "Use the AWS CodeBuild service"
+      ],
+      "correctAnswer": ["Configure an EC2 Instance with Jenkins Installed",
+        "Configure an IAM Role for EC2 to access Code Pipeline"]
+    }
+  },
+  {
+    "id": "1218",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing a system that will be sending messages to an SQS queue. Another application will be running on an EC2 Instance that will be used to process the messages. Which of the following are BEST practices when it comes to making COST effective use of the SQS queues? Choose 2 answers from the options given below",
+      "answers": [
+        "Use short polling for SQS queues",
+        "Use long polling for SQS queues",
+        "Group the SQS API operations in batches",
+        "Use single queue operations"
+      ],
+      "correctAnswer": ["Use long polling for SQS queues",
+        "Group the SQS API operations in batches"]
+    }
+  },
+  {
+    "id": "1219",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have created a new provisioned table in DynamoDB. You want to read 60 items per second from this table with each item having 6 KB size. Also, you want to write 80 items per second with each item 1.5 KB in size. Which of the following will provisioned read capacity units for strongly consistent read per second and write capacity units will be set to avoid request throttling? (Select Two.)",
+      "answers": [
+        "240 WCU",
+        "120 RCU",
+        "80 WCU",
+        "60 RCU",
+        "160 WCU"
+      ],
+      "correctAnswer": ["120 RCU",
+        "160 WCU"]
+    }
+  },
+  {
+    "id": "1220",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your application is making requests to a DynamoDB table. Due to the certain surge of requests, you are now getting throttling errors in your application. Which of the following can be used to resolve such errors? Choose 2 answers from the options given below.",
+      "answers": [
+        "Use exponential backoff in your requests from the application",
+        "Consider using multiple sort keys",
+        "Change the throughput capacity on the tables",
+        "Consider using global tables"
+      ],
+      "correctAnswer": ["Use exponential backoff in your requests from the application",
+        "Change the throughput capacity on the tables"]
+    }
+  },
+  {
+    "id": "1221",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is developing an application that will primarily be used by users on their mobile devices. The users need to have the ability to authenticate themselves via identity providers through Security Assertion Markup Language 2.0. Which of the following service should be used for user management?",
+      "answers": [
+        "AWS STS with IAM",
+        "AWS Cognito User pools",
+        "AWS Security pools",
+        "AWS IAM pools"
+      ],
+      "correctAnswer": ["AWS Cognito User pools"]
+    }
+  },
+  {
+    "id": "1222",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been told to make use of Cloudformation templates for deploying applications on EC2 Instances. These Instances need to be preconfigured with the NGINX web server to host the application. How could you accomplish this with Cloudformation?",
+      "answers": [
+        "Use the cfn-init helper script in Cloudformation",
+        "Use the Output resource type in Cloudformation",
+        "Use the Parameter resource type in Cloudformation",
+        "Use SAML to deploy the template"
+      ],
+      "correctAnswer": ["Use the cfn-init helper script in Cloudformation"]
+    }
+  },
+  {
+    "id": "1223",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have developed an AWS Lambda function but are running into a lot of performance issues. You decide to use the AWS X-Ray service to diagnose the issues. Which of the following must be done to ensure that you can use the X-Ray service with your Lambda function?",
+      "answers": [
+        "Ensure that the X-Ray daemon process is installed with the Lambda function",
+        "Ensure that the Lambda function is registered with X-Ray",
+        "Ensure that the IAM Role assigned to the Lambda function has access to the X-Ray service",
+        "Ensure that the IAM Role assigned to the X-Ray function has access to the Lambda function"
+      ],
+      "correctAnswer": ["Ensure that the IAM Role assigned to the Lambda function has access to the X-Ray service"]
+    }
+  },
+  {
+    "id": "1224",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your application is currently hosted in an Elastic Beanstalk environment. Configuration changes need to be made to the environment. You have been told that the changes should not affect the current environment since downtime needs to be minimized and also the code needs to be deployed only to the new instances. Which of the following Elastic Deployment mechanisms would you consider using?",
+      "answers": [
+        "All at Once",
+        "Rolling",
+        "Rolling with Additional Batch",
+        "Immutable"
+      ],
+      "correctAnswer": ["Immutable"]
+    }
+  },
+  {
+    "id": "1225",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have deployed an application using AWS Lambda and the API gateway service. You need to deploy a newer version of the application. Management has instructed that the newer version be tested by a few users first before being fully deployed. How can you accomplish this in the easiest way possible?",
+      "answers": [
+        "Create a new Lambda function and a new API gateway. Give the users the new URL",
+        "Create a new version of the existing Lambda function and a new API gateway. Give the users the new URL",
+        "Create a canary release in the API gateway service",
+        "Create another resource and method. Deploy the API. Give the users the new URL"
+      ],
+      "correctAnswer": ["Create a canary release in the API gateway service"]
+    }
+  },
+  {
+    "id": "1226",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing an application that is going to be hosted in AWS Lambda. The function will make calls to a database. The security mandate is that all connection strings should be kept secure. Which of the following is the MOST secure way to implement this?",
+      "answers": [
+        "Use Lambda Environment variables",
+        "Put the database connection string in the app.json file",
+        "Lambda needs to reference the AWS Systems Manager Parameter Store for the database connection string",
+        "Place the database connection string in the AWS Lambda function itself since all lambda functions are encrypted at rest"
+      ],
+      "correctAnswer": ["Lambda needs to reference the AWS Systems Manager Parameter Store for the database connection string"]
+    }
+  },
+  {
+    "id": "1227",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on building microservices using Amazon ECS. This ECS will be deployed in an Amazon EC2 instance along with its Amazon ECS container agent. After successful launching of the EC2 instance, Amazon ECS container agent has registered this instance in a cluster. What would be the status of container instance and its corresponding agent connection, when an EC2 instance is stopped?",
+      "answers": [
+        "Container instance status remains as ACTIVE and Agent connection status as TRUE.",
+        "Container instance status remains as ACTIVE and Agent connection status as FALSE.",
+        "Container instance changes status as INACTIVE and Agent connection status as FALSE.",
+        "Container instance changes status as INACTIVE and Agent connection status as TRUE."
+      ],
+      "correctAnswer": ["Container instance status remains as ACTIVE and Agent connection status as FALSE."]
+    }
+  },
+  {
+    "id": "1228",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have created an Amazon DynamoDB table with Global Secondary Index. Which of the following can be used to get the latest results quickly with least impact on RCU (Read Capacity Unit)?",
+      "answers": [
+        "Query with ConsistentRead",
+        "Scan with ConsistentRead",
+        "Query with EventualRead",
+        "Scan with EventualRead"
+      ],
+      "correctAnswer": ["Query with EventualRead"]
+    }
+  },
+  {
+    "id": "1229",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have created a local Java based Lambda function. You then package and upload the function to AWS. You try to run the function with the default settings, but the function does not run as expected. Which of the following could be the reasons for the issue? Choose 2 answers from the options given below.",
+      "answers": [
+        "The name assigned to the function is not correct.",
+        "The amount of CPU assigned to the function is not enough.",
+        "The amount of memory assigned to the function is not enough.",
+        "The timeout specified for the function is too short."
+      ],
+      "correctAnswer": ["The amount of memory assigned to the function is not enough.",
+        "The timeout specified for the function is too short."]
+    }
+  },
+  {
+    "id": "1230",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You need to set up a RESTful API service in AWS that would be serviced via the following URL: https://democompany.com/customers?ID=1. So customers should be able to get their details whilst providing the ID to the API. Which of the following would you define to fulfill this requirement? Choose 2 answers from the options given below",
+      "answers": [
+        "A Lambda function and expose the Lambda function to the customers. Pass the ID as a parameter to the function",
+        "An API gateway with a Lambda function to process the customer information",
+        "Expose the GET method in the API Gateway",
+        "Expose the GET method in the Lambda function"
+      ],
+      "correctAnswer": ["An API gateway with a Lambda function to process the customer information",
+        "Expose the GET method in the API Gateway"]
+    }
+  },
+  {
+    "id": "1231",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are currently managing deployments for a Lambda application via Code Deploy. You have a new version of the Lambda function in place. You have been told that all traffic needs to be shifted instantaneously to the new function. Which deployment technique would you employ in CodeDeploy?",
+      "answers": [
+        "Canary",
+        "Gradual",
+        "Linear",
+        "All-at-Once"
+      ],
+      "correctAnswer": ["All-at-Once"]
+    }
+  },
+  {
+    "id": "1232",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have an application that needs to encrypt data using the KMS service. The company has already defined the customer master key in AWS for usage in the application. Which of the following steps must be followed in the encryption process? Choose 2 answers from the options given below",
+      "answers": [
+        "Use the GenerateDataKey to get the data key to encrypt the data",
+        "Use CustomerMaster Key to encrypt the data",
+        "Delete the plaintext data encryption key after the data is encrypted",
+        "Delete the Customer Master Key after the data is encrypted"
+      ],
+      "correctAnswer": ["Use the GenerateDataKey to get the data key to encrypt the data",
+      "Delete the plaintext data encryption key after the data is encrypted"]
+    }
+  },
+  {
+    "id": "1232",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your team is currently working on source code that is defined in a Subversion repository. The company has just started using AWS tools for their CI-CD process and has now mandated that source code be migrated to AWS CodeCommit. Which of the following steps would you perform to fulfil this requirement. Choose 2 answers from the options given below.",
+      "answers": [
+        "Migrate the code as it is to the AWS Code Commit Repository",
+        "Migrate the code to a Git Repository first",
+        "Migrate Git code to AWS Code Commit",
+        "Ensure to clone the current repository before committing it to AWS Code Commit"
+      ],
+      "correctAnswer": ["Migrate the code to a Git Repository first",
+        "Migrate Git code to AWS Code Commit"]
+    }
+  },
+  {
+    "id": "1233",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company currently has an application that works with DynamoDB. The application is a high revenue generating application for the company. Their current response time for their read workloads is in the order of milliseconds. But to bump up hits to their pages, they want to reduce the response time to microseconds. Which of the following would you suggest to fulfil this requirement?",
+      "answers": [
+        "Consider deploying an ElastiCache in front of DynamoDB",
+        "Consider using DynamoDB global tables",
+        "Consider using DynamoDB accelerator",
+        "Consider using a higher throughput for the tables"
+      ],
+      "correctAnswer": ["Consider using DynamoDB accelerator"]
+    }
+  },
+  {
+    "id": "1234",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "To enhance browser security, you are planning to enable CORS. To enable CORS on a resource using API gateway for GET method, which of the following action needs to be performed for all types of response except 200 response in case of Lambda custom integration?",
+      "answers": [
+        "Backend devices will be responsible to return Access-Control-Allow-Origin header with * or specific origins to fulfil pre-flight handshakes.",
+        "An OPTIONS method is added to the resource which is automatically configured to return the three Access-Control-Allow-* headers to fulfil pre-flight handshakes.",
+        "Check if all Methods are added in AllowMethods along with GET.",
+        "Manually configure to return Access-Control-Allow-Origin header with * or specific origins to fulfil pre-flight handshakes."
+      ],
+      "correctAnswer": ["Manually configure to return Access-Control-Allow-Origin header with * or specific origins to fulfil pre-flight handshakes."]
+    }
+  },
+  {
+    "id": "1235",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is planning on using the Simple Storage service to host objects that will be accessed by users. In order to ensure optimal performance when requests are made to get the objects from the bucket, which of the following is the right way to define the keys for optimal performance?",
+      "answers": [
+        "demoawsbucket/2019-14-03-15-00-00/Image1.jpg",
+        "demoawsbucket/sample/232a-2019-14-03-15-00-00Image1.jpg",
+        "demoawsbucket/232a-2019-14-03-15-00-00/Image1.jpg",
+        "demoawsbucket/sample/ Image1.jpg"
+      ],
+      "correctAnswer": ["demoawsbucket/232a-2019-14-03-15-00-00/Image1.jpg"]
+    }
+  },
+  {
+    "id": "1236",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are a team lead for the development of an application that will be hosted in AWS. The application will consist of a front end which will allow users to upload files. Part of the application will consist of sending and processing of messages by a backend service. You have been told to reduce the cost for the backend service, but also ensure efficiency. Which of the following would you consider in the implementation of the backend service? Choose 2 answers from the options given below",
+      "answers": [
+        "Create an SQS queue to handle the processing of messages",
+        "Create an SNS topics to handle the processing of messages",
+        "Create a Lambda function to process the messages from the queue",
+        "Create an EC2 Instance to process the messages from the queue"
+      ],
+      "correctAnswer": ["Create an SQS queue to handle the processing of messages",
+      "Create a Lambda function to process the messages from the queue"]
+    }
+  }
+]
