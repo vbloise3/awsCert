@@ -1,0 +1,521 @@
+[
+  {
+    "id": "1237",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are using Amazon DynamoDB for storing all product details for an online Furniture store. Which of the following expression can be used to return Colour and Size Attribute of the table during query operations?",
+      "answers": [
+        "Update Expressions",
+        "Condition Expressions",
+        "Projection Expressions",
+        "Expression Attribute Names"
+      ],
+      "correctAnswer": ["Projection Expressions"]
+    }
+  },
+  {
+    "id": "1238",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Which of the following is true with respect to strongly consistent request from an application to a DynamoDB with a DAX cluster?",
+      "answers": [
+        "All requests are forwarded to DynamoDB and results are cached.",
+        "All requests are forwarded to DynamoDB and results are store in Item Cache before passing to application.",
+        "All requests are forwarded to DynamoDB and results are store in Query Cache before passing to application.",
+        "All requests are forwarded to DynamoDB and results are not cached."
+      ],
+      "correctAnswer": ["All requests are forwarded to DynamoDB and results are not cached."]
+    }
+  },
+  {
+    "id": "1239",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A DynamoDB table is set to have a Read capacity of 10. Which of the following will give the maximum read throughput for the table?",
+      "answers": [
+        "Read capacity set to 10 for 4KB reads of data at strong consistency",
+        "Read capacity set to 10 for 4KB reads of data at eventual consistency",
+        "Read capacity set to 5 for 1KB reads of data at strong consistency",
+        "Write capacity set to 10 for 1KB reads of data at eventual consistency"
+      ],
+      "correctAnswer": ["Read capacity set to 10 for 4KB reads of data at eventual consistency"]
+    }
+  },
+  {
+    "id": "1240",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing an application that is working with a DynamoDB table. You need to create a query which has a search criterion. Which of the following must be done in order to work with search queries? Choose 2 answers from the options given below",
+      "answers": [
+        "Specify a key condition expression in the query",
+        "Specify a partition key name and value in the equality condition",
+        "Specify a sort key name and value in the equality condition",
+        "Specify a filter expression"
+      ],
+      "correctAnswer": ["Specify a key condition expression in the query",
+      "Specify a partition key name and value in the equality condition"]
+    }
+  },
+  {
+    "id": "1241",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on an application which saves strings in DynamoDB table. For strings with size more than 400KB, you are getting item size exceeded error. Which of the following is a recommended option to store strings with larger size?",
+      "answers": [
+        "Compress large size strings to fit in DynamoDB table.",
+        "Split strings between multiple tables.",
+        "Save string object in S3 with object identifiers in DynamoDB.",
+        "Open a ticket with AWS support to increase Item size to more than 400 KB."
+      ],
+      "correctAnswer": ["Save string object in S3 with object identifiers in DynamoDB."]
+    }
+  },
+  {
+    "id": "1242",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are the team lead for an application that is already in production and making use of S3 buckets. Users from another country have now started actively using the objects in the S3 bucket. Which of the following can be done to reduce the latency of access to objects for the new users?",
+      "answers": [
+        "Enable cross region replication for the bucket",
+        "Enable Encryption for the bucket",
+        "Host a static web site",
+        "Change the storage class"
+      ],
+      "correctAnswer": ["Enable cross region replication for the bucket"]
+    }
+  },
+  {
+    "id": "1242",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are creating a Lambda function that will be accessing a database. Due to compliance reasons, all database connecting strings must be stored encrypted at rest. How can you accomplish this in the Lambda function? Choose 2 answers from the options given below",
+      "answers": [
+        "Put the database connection string in the Lambda function",
+        "Put the database connecting string as an environment variable",
+        "Encrypt the entire Lambda function",
+        "Encrypt the environment variable"
+      ],
+      "correctAnswer": ["Put the database connecting string as an environment variable",
+      "Encrypt the environment variable"]
+    }
+  },
+  {
+    "id": "1243",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer for your company. You are working on creating Cloudformation templates for different environments. You want to be able to base the creation of the environments on the values passed at runtime to the template. How can you achieve this?",
+      "answers": [
+        "Specify an Outputs section",
+        "Specify a parameters section",
+        "Specify a metadata section",
+        "Specify a transform section"
+      ],
+      "correctAnswer": ["Specify a parameters section"]
+    }
+  },
+  {
+    "id": "1244",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "You are a developer for your company who is responsible for the development and deployment of AWS Lambda functions. You have been told to start the automated deployment of Lambda based applications. Which of the following collated services can be used for automated deployment? Choose 3 answers from the options given below",
+      "answers": [
+        "AWS API gateway",
+        "AWS Code Pipeline",
+        "AWS Code Build",
+        "AWS Code Deploy"
+      ],
+      "correctAnswer": ["AWS Code Pipeline",
+      "AWS Code Build",
+      "AWS Code Deploy"]
+    }
+  },
+  {
+    "id": "1245",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "An Amazon DynamoDB table is populated with a large amount of data from an application capturing client data from various servers across various regions. Which of the following is a preferred option for deletion of old items in a DynamoDB table?",
+      "answers": [
+        "Schedule a cron Job during off peak hours to delete unwanted items.",
+        "Run Periodic jobs to delete old items.",
+        "Pre-Create a DynamoDB table with specific time.",
+        "Enable TTL on each item to automatically delete old items."
+      ],
+      "correctAnswer": ["Enable TTL on each item to automatically delete old items."]
+    }
+  },
+  {
+    "id": "1246",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing an application that is going to make use of Docker containers. Traffic needs to be routed based on demand to the application. Dynamic host port mapping would be used for the docker containers. Which of the following would you use for distribution of traffic to the docker containers?",
+      "answers": [
+        "AWS Application Load Balancer",
+        "AWS Network Load Balancer",
+        "AWS Route 53",
+        "AWS Classic Load Balancer"
+      ],
+      "correctAnswer": ["AWS Application Load Balancer"]
+    }
+  },
+  {
+    "id": "1247",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working on an application which provide an online Car booking service using Amazon DynamoDB. This is a read heavy application which reads car and driver locations details and provides a latest position to prospective car booking customers. Which of the following can be used to have consistent data writes and avoid unpredictable spikes in DynamoDB requests during peak hours?",
+      "answers": [
+        "Write Around Cache using DynamoDB DAX.",
+        "Write Through Cache using DynamoDB DAX.",
+        "Use Side Cache using Redis along with DynamoDB.",
+        "Write Through Cache using Redis along with DynamoDB."
+      ],
+      "correctAnswer": ["Write Through Cache using DynamoDB DAX."]
+    }
+  },
+  {
+    "id": "1248",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a set of Lambda functions for your application. The company mandates that all calls to Lambda functions be recorded. Which of the below service can help achieve this?",
+      "answers": [
+        "AWS Cloudwatch",
+        "AWS CloudTrail",
+        "AWS VPC Flow Logs",
+        "AWS Trusted Advisor"
+      ],
+      "correctAnswer": ["AWS CloudTrail"]
+    }
+  },
+  {
+    "id": "1249",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "As an API developer, you have just configured an API with the AWS API gateway service. You are testing out the API and get the following response whenever an action is made to an undefined API resource. { message: Missing Authentication Token } You want to customize the error response and make it more user readable. How can you achieve this?",
+      "answers": [
+        "By setting up the appropriate method in the API gateway",
+        "By setting up the appropriate method integration request in the API gateway",
+        "By setting up the appropriate gateway response in the API gateway",
+        "By setting up the appropriate gateway request in the API gateway"
+      ],
+      "correctAnswer": ["By setting up the appropriate gateway response in the API gateway"]
+    }
+  },
+  {
+    "id": "1250",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A company is developing an application which interacts with an existing DynamoDB table. There is now a security mandate that all data must be encrypted at rest. How can you achieve this requirement? Choose 2 answers from the options given below",
+      "answers": [
+        "Enable encryption using AWS owned CMK",
+        "Enable encryption using AWS managed CMK",
+        "Enable encryption using client keys",
+        "Enable your application to use the SDK to decrypt the data"
+      ],
+      "correctAnswer": ["Enable encryption using AWS owned CMK",
+      "Enable encryption using AWS managed CMK"]
+    }
+  },
+  {
+    "id": "1251",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a .Net Core application that is going to be hosted in an Elastic beanstalk environment. The application is going to make backend calls to a database. You need to increase the performance of the application during the testing phase. How can you diagnose any performance issues in the easiest way possible?",
+      "answers": [
+        "Place a Load balancer in front of Elastic beanstalk",
+        "Place instrumentation calls in your code",
+        "Make use of traces using the X-Ray service",
+        "Use Cloudwatch logs to debug issues"
+      ],
+      "correctAnswer": ["Make use of traces using the X-Ray service"]
+    }
+  },
+  {
+    "id": "1252",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are planning on using the AWS CodeDeploy tool for deployment of your application. Which of the following is used to specify how your application will be deployed to the underlying instances?",
+      "answers": [
+        "appConfig.json",
+        "DeploymentGroup",
+        "appConfig.YAML",
+        "AppSpec.json"
+      ],
+      "correctAnswer": ["AppSpec.json"]
+    }
+  },
+  {
+    "id": "1253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are currently deploying an application that needs to have a sign-up and sign-in functionality added. As much as possible, you would want to reduce the coding effort required for these modules. You also need to ensure that code is executed automatically after the sign-in process is complete. How can you achieve this? Choose 2 answers from the options below.",
+      "answers": [
+        "Use the AWS Cognito service to provide the sign-up and sign-in functionality",
+        "Use the AWS IAM service to provide the sign-up and sign-in functionality",
+        "Use AWS Cloudwatch events to trigger code that will be run after the user sign-in process is complete",
+        "Trigger a lambda function to execute the code associated with the post authentication event."
+      ],
+      "correctAnswer": ["Use the AWS Cognito service to provide the sign-up and sign-in functionality",
+      "Trigger a lambda function to execute the code associated with the post authentication event."]
+    }
+  },
+  {
+    "id": "1254",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company is planning on using the AWS CodePipeline service for their CI-CD process. They have their own propriety build process that needs to be incorporated in CodePipeline. How can you achieve this?",
+      "answers": [
+        "Create a default action for your Pipeline",
+        "Create a custom action for your Pipeline",
+        "Create a primary action for your Pipeline",
+        "Create a secondary action for your Pipeline"
+      ],
+      "correctAnswer": ["Create a custom action for your Pipeline"]
+    }
+  },
+  {
+    "id": "1255",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just started developing an application on your On-premise network. This application will interact with the Simple Storage Service and some DynamoDB tables. How would you as the developer ensure that your SDK can interact with the AWS services on the cloud?",
+      "answers": [
+        "Create an IAM Role with the required permissions and add it to your workstation",
+        "Create an IAM Role with the required permissions and make a call to the STS service",
+        "Create an IAM User, generate the access keys. Use the Access keys from within your program.",
+        "Create an IAM User, generate a security token. Use the Security Token from within your program."
+      ],
+      "correctAnswer": ["Create an IAM User, generate the access keys. Use the Access keys from within your program."]
+    }
+  },
+  {
+    "id": "1256",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to move an existing development environment on the AWS Cloud. This environment consists mainly of Docker based containers. You need to ensure that minimum effort is taken during the migration process. Which of the following step would you consider for this requirement?",
+      "answers": [
+        "Create an Opswork stack and deploy the Docker containers",
+        "Create an application and Environment for the Docker containers in the Elastic Beanstalk service",
+        "Create an EC2 Instance. Install Docker and deploy the necessary containers.",
+        "Create an EC2 Instance. Install Docker and deploy the necessary containers. Add an Autoscaling Group for scalability of the containers."
+      ],
+      "correctAnswer": ["Create an application and Environment for the Docker containers in the Elastic Beanstalk service"]
+    }
+  },
+  {
+    "id": "1257",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have currently developed an application which makes use of AWS RDS MySQL service. During the testing phase, you can see that the database is taking a performance hit. After further investigation, you can see that the same queries are causing the performance bottleneck on the application. Which of the following development steps should be taken to resolve this issue?",
+      "answers": [
+        "Use the Multi-AZ feature for the underlying database",
+        "Change the underlying instance type for the database",
+        "Use SQS queues to store the results of the query for faster access",
+        "Use AWS ElastiCache to store the results of the query for faster access"
+      ],
+      "correctAnswer": ["Use AWS ElastiCache to store the results of the query for faster access"]
+    }
+  },
+  {
+    "id": "1258",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have written an application that uploads objects onto an S3 bucket. The size of the object varies between 200 and 500 MB. You have seen that the application sometimes takes a longer than expected time to upload the object. You want to improve the performance of the application. Which of the following would you consider?",
+      "answers": [
+        "Create multiple threads and upload the objects in the multiple threads",
+        "Write the items in batches for better performance",
+        "Use the Multipart upload API",
+        "Enable versioning on the Bucket"
+      ],
+      "correctAnswer": ["Use the Multipart upload API"]
+    }
+  },
+  {
+    "id": "1259",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team lead has finished creating a build project in the console. You have access to run the build but not to access the project. You want to specify a different source location for the build. How can you achieve this?",
+      "answers": [
+        "Issue the update project command and specify the new location of the build",
+        "Specify the new location of the build in the buildspec.yml file and issue the update-project command",
+        "Specify the new location of the build in the buildspec.yml file and use the start-build command",
+        "Specify the new location of the build in the buildspec.yml file and use the update-build command"
+      ],
+      "correctAnswer": ["Specify the new location of the build in the buildspec.yml file and use the start-build command"]
+    }
+  },
+  {
+    "id": "1260",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are working as a team lead for your company. You have been told to manage the Blue Green Deployment methodology for one of the applications. Which of the following are some of the approaches for implementing this methodology? Choose 2 answers from the options given below",
+      "answers": [
+        "Using Autoscaling Groups to scale on demands for both deployments",
+        "Using Route 53 with Weighted Routing policies",
+        "Using Route 53 with Latency Routing policies",
+        "Using Elastic Beanstalk with the swap URL feature"
+      ],
+      "correctAnswer": ["Using Route 53 with Weighted Routing policies",
+      "Using Elastic Beanstalk with the swap URL feature"]
+    }
+  },
+  {
+    "id": "1261",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have a set of developers that need to work with applications hosted on the Elastic Beanstalk environment. You need to ensure they can work with the beanstalk environments but not give them access to the AWS Console. How can you achieve this in the BEST way possible?",
+      "answers": [
+        "Ask them to manage the environments via the SDK",
+        "Ask them to manage the environments via the EB CLI",
+        "Ask them to manage the environments via an EC2 Instance",
+        "Ask them to manage the environments via an ECS cluster"
+      ],
+      "correctAnswer": ["Ask them to manage the environments via the EB CLI"]
+    }
+  },
+  {
+    "id": "1262",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are defining a Redis cluster using the AWS Elasticache service. You need to define common values across the nodes for memory usage and item sizes. Which of the following components of the ElastiCache service allows you to define this?",
+      "answers": [
+        "Endpoints",
+        "Parameter Groups",
+        "Security Groups",
+        "Subnet Groups"
+      ],
+      "correctAnswer": ["Parameter Groups"]
+    }
+  },
+  {
+    "id": "1263",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just created an AWS Lambda function. You are running the function, but the output of the function is not as expected. You need to check and see what is the issue? Which of the following can help the developer debug the issue with the Lambda function?",
+      "answers": [
+        "Check Cloudwatch logs",
+        "Check VPC Flow Logs",
+        "Check AWS Trusted Advisor",
+        "Check AWS Inspector"
+      ],
+      "correctAnswer": ["Check Cloudwatch logs"]
+    }
+  },
+  {
+    "id": "1264",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer for a company that is developing a .net based application. This application will be hosted in AWS. There is a need to encrypt data. Currently the company does not have a key store for managing encryption. Which of the following could the developer use in this code for encrypting data?",
+      "answers": [
+        "Use S3 Server-side encryption to work with encryption keys",
+        "Use the AWS KMS service to generate data keys",
+        "Use the AWS Config service to generate data keys",
+        "Use S3 client-side encryption to work with encryption keys"
+      ],
+      "correctAnswer": ["Use the AWS KMS service to generate data keys"]
+    }
+  },
+  {
+    "id": "1265",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been hired as a developer to work on an application. This application will be making use of an AWS RDS database and ElastiCache. A requirement is present which states that the cache should always have the most recent data that is present in the database and should not contain stale data. What strategy for ElastiCache can the Developer use to implement this?",
+      "answers": [
+        "Lazy loading",
+        "Write-through",
+        "Error retries",
+        "Exponential backoff"
+      ],
+      "correctAnswer": ["Write-through"]
+    }
+  },
+  {
+    "id": "1266",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been hired as a developer to work on an application. This application is hosted on an EC2 Instance and interacts with an SQS queue. It has been noticed that when messages are being pulled by the application, a lot of empty responses are being returned. What change can you make to ensure that the application uses the SQS queue effectively.",
+      "answers": [
+        "Use long polling",
+        "Set a custom visibility timeout",
+        "Use short polling",
+        "Implement exponential backoff."
+      ],
+      "correctAnswer": ["Use long polling"]
+    }
+  },
+  {
+    "id": "1267",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just deployed an AWS Lambda function. This Lambda function would be invoked via the API gateway service. You want to know if there were any errors while the Lambda function was being invoked. Which of the following service would allow you to check the performance of your underlying Lambda function.",
+      "answers": [
+        "VPC Flow Logs",
+        "Cloudwatch",
+        "Cloudtrail",
+        "AWS Trusted Advisor"
+      ],
+      "correctAnswer": ["Cloudwatch"]
+    }
+  }
+]
