@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,8 +91,8 @@
       <file leaf-file-name="Exam_SampleQuestions_8_dev.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="1073" column="33" selection-start-line="1073" selection-start-column="33" selection-end-line="1073" selection-end-column="33" />
+            <state relative-caret-position="384">
+              <caret line="390" column="146" selection-start-line="390" selection-start-column="146" selection-end-line="390" selection-end-column="146" />
             </state>
           </provider>
         </entry>
@@ -396,18 +395,18 @@
       <workItem from="1553810246493" duration="5612000" />
       <workItem from="1557188289107" duration="29538000" />
       <workItem from="1558570060616" duration="118177000" />
-      <workItem from="1561911082707" duration="10641000" />
+      <workItem from="1561911082707" duration="10932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231027000" />
+    <option name="totallyTimeSpent" value="231318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16240682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16240682" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -416,7 +415,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22838138" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="aws.explorer" order="3" side_tool="true" />
@@ -2026,8 +2025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="1073" column="33" selection-start-line="1073" selection-start-column="33" selection-end-line="1073" selection-end-column="33" />
+        <state relative-caret-position="384">
+          <caret line="390" column="146" selection-start-line="390" selection-start-column="146" selection-end-line="390" selection-end-column="146" />
         </state>
       </provider>
     </entry>

@@ -383,12 +383,12 @@
       "questionType": "multiple choice 1",
       "question": "There is a new Lambda Function developed using AWS CloudFormation Templates. Which of the following attributes can be used to test new Function with migrating 5% of traffic to new version?",
       "answers": [
-        "aws lambda create-alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights={2=0.05}",
-        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights={2=5}",
-        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights={2=0.5}",
-        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights={2=5%}"
+        "aws lambda create-alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights= 2=0.05",
+        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights= 2=5",
+        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights= 2=0.5",
+        "aws lambda create -alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights= 2=5 percent"
       ],
-      "correctAnswer": ["aws lambda create-alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights={2=0.05}"]
+      "correctAnswer": ["aws lambda create-alias --name alias name --function-name function-name --routing-config AdditionalVersionWeights= 2=0.05"]
     }
   },
   {
