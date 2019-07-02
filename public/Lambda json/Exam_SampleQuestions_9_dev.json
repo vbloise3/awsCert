@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1334",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are a developer for a company that is planning on using the AWS RDS service. Your Database administrator spins up a new MySQL RDS Instance in AWS. You now need to connect to that instance. How can you achieve this? Choose 2 answers from the options given below.",
+      "answers": [
+        "Use the DescribeDBInstances API and get the endpoint for the database instance",
+        "Use the DescribeDBInstances API and get the IP address for the database instance",
+        "Request the DBA for the endpoint of the instance",
+        "Request the DBA for the IP address of the instance"
+      ],
+      "correctAnswer": ["Use the DescribeDBInstances API and get the endpoint for the database instance",
+      "Request the DBA for the endpoint of the instance"]
+    }
+  }
+]
