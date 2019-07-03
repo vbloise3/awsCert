@@ -1,4 +1,4 @@
 {
-  ":v1": {"S": "You have deployed an application on an EC2 Instance. This application makes calls to a DynamoDB service. There are numerous performance issues present in the application. You decide to use the XRay service to debug the performance issues. You are not able to see the trails in the XRay service. Which of the following could be the underlying issue? Choose 2 answers from the options given below"}
+  ":v1": {"S": "Your development team is currently working with an application that interacts with a DynamoDB table. Due to the proposed extensive use of the application, the underlying DynamoDB table would undergo a steady growth in size. Which of the following preferred options should be used for retrieving the data? Choose 3 answers from the options given below"}
 
 }

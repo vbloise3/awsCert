@@ -109,7 +109,7 @@
         "Use the GetItem API command",
         "Use the BatchGetItem API command"
       ],
-      "correctAnswer": ["AWS RDS",
+      "correctAnswer": ["Use the query operation",
         "Use the GetItem API command",
         "Use the BatchGetItem API command"]
     }
