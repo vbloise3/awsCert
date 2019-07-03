@@ -15,5 +15,531 @@
       "correctAnswer": ["Use the DescribeDBInstances API and get the endpoint for the database instance",
       "Request the DBA for the endpoint of the instance"]
     }
+  },
+  {
+    "id": "1335",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer for a company that has been given the responsibility to debug performance issues for an existing application. The application connects to a MySQL RDS Instance in AWS. There is a suspicion that there are performance issues in the underlying queries. Which of the following can help diagnose these issues?",
+      "answers": [
+        "The Cloudtrail logs for the region",
+        "Get the slow query logs for the RDS service",
+        "Use the AWS Config service to diagnose the problem areas",
+        "Use the AWS Inspector service to diagnose the problem areas"
+      ],
+      "correctAnswer": ["Get the slow query logs for the RDS service"]
+    }
+  },
+  {
+    "id": "1336",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has an application deployed using the Elastic Beanstalk service. A Web environment has been configured for the production environment. There is now a requirement to perform a Blue Green deployment for a new version of the application. How can you achieve this?",
+      "answers": [
+        "Create a new application and swap the application environments.",
+        "Create a new application version and upload the new application version",
+        "Create a new environment in the application with the updated application version and perform a swap",
+        "Create a new environment in the application and Load the configuration of an existing environment"
+      ],
+      "correctAnswer": ["Create a new environment in the application with the updated application version and perform a swap"]
+    }
+  },
+  {
+    "id": "1337",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing an application that consists of the following architecture: A set of EC2 Instances hosting a web layer, A database hosting a MySQL instance. You need to add a layer that can be used to ensure that the most frequently accessed data from the database is fetched in a more fast and efficient manner from the database. Which of the following can be used to accomplish this requirement?",
+      "answers": [
+        "An SQS queue to store the frequently accessed data",
+        "An SNS topic to store the frequently accessed data",
+        "A Cloudfront distribution to store the frequently accessed data",
+        "A Elasticache instance to store the frequently accessed data"
+      ],
+      "correctAnswer": ["A Elasticache instance to store the frequently accessed data"]
+    }
+  },
+  {
+    "id": "1338",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have just started development on an application that will make use of the ElastiCache service. You need to ensure that objects are cached but not kept inadvertently for a long time. Which of the following cache maintenance strategy would you employ for the cache service?",
+      "answers": [
+        "TTL",
+        "Lazy Loading",
+        "Write Through",
+        "Read Through"
+      ],
+      "correctAnswer": ["TTL"]
+    }
+  },
+  {
+    "id": "1339",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has been tasked with the development of an application. The backend store needs to store data on which ad-hoc queries can run and table joins are required. Which of the following would you use to host the underlying data store?",
+      "answers": [
+        "AWS RDS",
+        "AWS DynamoDB",
+        "AWS S3",
+        "AWS Athena"
+      ],
+      "correctAnswer": ["AWS RDS"]
+    }
+  },
+  {
+    "id": "1340",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "Your development team is currently working with an application that interacts with a DynamoDB table. Due to the proposed extensive use of the application, the underlying DynamoDB table would undergo a steady growth in size. Which of the following preferred options should be used for retrieving the data? Choose 3 answers from the options given below",
+      "answers": [
+        "Use the query operation",
+        "Use the Scan operation",
+        "Use the GetItem API command",
+        "Use the BatchGetItem API command"
+      ],
+      "correctAnswer": ["AWS RDS",
+        "Use the GetItem API command",
+        "Use the BatchGetItem API command"]
+    }
+  },
+  {
+    "id": "1340",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "Your development team is planning on building an application based on the Microservice architecture pattern. Docker containers would be used to build the application. Which of the following services should be considered if orchestration is also needed. Choose 3 answers from the options given below?",
+      "answers": [
+        "AWS EC2",
+        "AWS ECS",
+        "Application Load balancer",
+        "Classic Load balancer"
+      ],
+      "correctAnswer": ["AWS EC2",
+        "AWS ECS",
+        "Application Load balancer"]
+    }
+  },
+  {
+    "id": "1340",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has an application being served out of AWS S3. There is a surge of increased number of GET requests. After monitoring using Cloudwatch metrics you can see the rate of GET requests going close to 5000 requests per second. Which of the following can be used to ensure the performance and cost are optimized?",
+      "answers": [
+        "Add an Elasticache in front of the S3 bucket",
+        "Use DynamoDB instead of using S3",
+        "Place a Cloudfront distribution in front of the S3 bucket",
+        "Place an Elastic Load balancer in front of the S3 bucket"
+      ],
+      "correctAnswer": ["Place a Cloudfront distribution in front of the S3 bucket"]
+    }
+  },
+  {
+    "id": "1341",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team is planning on creating a Lambda function which will interact with a DynamoDB stream. Which of the following would need to be in place to ensure the Lambda function can interact with the DynamoDB table.",
+      "answers": [
+        "Access Keys for an IAM user embedded in the function",
+        "IAM Role with required permissions to access DynamoDB",
+        "The password for an IAM user in the environment variable for the Lambda function",
+        "A Security group rule to allow egress traffic into DynamoDB"
+      ],
+      "correctAnswer": ["IAM Role with required permissions to access DynamoDB"]
+    }
+  },
+  {
+    "id": "1342",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your team is looking into the Serverless deployment of an AWS lambda function. The function will be deployed using the Serverless application model. To test this out, you first create a sample function created as follows: var AWS = require(aws-sdk) exports.handler = function(event, context, callback) var bucketName = Demobucket callback(null, bucketName) What should be the next steps in the serverless deployment? Choose 2 answers from the options given below",
+      "answers": [
+        "Create a YAML file with the deployment specifics and package that along with the function file.",
+        "Upload the application function file onto an S3 bucket.",
+        "Upload the function on AWS Lambda",
+        "Upload the complete package onto an S3 bucket"
+      ],
+      "correctAnswer": ["Create a YAML file with the deployment specifics and package that along with the function file.",
+        "Upload the complete package onto an S3 bucket"]
+    }
+  },
+  {
+    "id": "1343",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have created a Lambda State Function which is generating error ServiceException, Which of the following is a best practice to handle this exception with a Lambda State Function?",
+      "answers": [
+        "Use Lambda Catch code with only ErrorEquals string.",
+        "Use Lambda Retry code with only BackoffRate string",
+        "Use Lambda Retry code with only ErrorEquals string.",
+        "Use Lambda Catch code with only ResultPath string."
+      ],
+      "correctAnswer": ["Use Lambda Retry code with only ErrorEquals string."]
+    }
+  },
+  {
+    "id": "1344",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team is using the AWS CodeBuild service for an application build. As part of Integration testing during the build phase, the application needs to access an RDS instance in a private subnet. How can you ensure this is possible?",
+      "answers": [
+        "Create a VPC Endpoint and ensure the codebuild project configuration is modified with the endpoint information",
+        "Provide additional VPC-specific configuration information as part of your AWS CodeBuild project",
+        "Mark the subnet as a public subnet during the time of the Integration tests",
+        "Use a NAT gateway to relay the requests from AWS CodeBuild to the RDS Instance"
+      ],
+      "correctAnswer": ["Provide additional VPC-specific configuration information as part of your AWS CodeBuild project"]
+    }
+  },
+  {
+    "id": "1345",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have created a web-application which saves all data in Amazon S3 buckets. If you have created 3 prefixes in a S3 bucket, what will be PUT and GET read performance you will get per second?",
+      "answers": [
+        "3,500 PUT and 5,500 GET requests per second.",
+        "7,000 PUT and 11,000 GET requests per second.",
+        "10,500 GET and 16,500 PUT requests per second.",
+        "10,500 PUT and 16,500 GET requests per second."
+      ],
+      "correctAnswer": ["10,500 PUT and 16,500 GET requests per second."]
+    }
+  },
+  {
+    "id": "1346",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team has developed an application that will be launched on EC2 Instances that are part of the an Autoscaling Group. It needs to be ensured that the application can get the IP address of the Instance. How can you achieve this?",
+      "answers": [
+        "Make the application query the Instance Metadata",
+        "Make the application query the Instance Userdata",
+        "Make the application query the Autoscaling Group",
+        "Make the application query the Launch configuration"
+      ],
+      "correctAnswer": ["Make the application query the Instance Metadata"]
+    }
+  },
+  {
+    "id": "1347",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are in charge for creating a cloudformation template. This template needs to create resources for multiple types of environment. The template needs to be flexible so that it can create resources based on the type of environment. How can you achieve this? Choose 2 answers from the options given below.",
+      "answers": [
+        "Create an Input Parameter to take in the type of environment.",
+        "Use the Outputs section to define the type of environment",
+        "Use the Custom Resources feature to create resources based on the type of environment",
+        "Use the Conditions section to create resources based on the type of environment"
+      ],
+      "correctAnswer": ["Create an Input Parameter to take in the type of environment.",
+      "Use the Conditions section to create resources based on the type of environment"]
+    }
+  },
+  {
+    "id": "1348",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "Your team is working on an API definition which will be deployed using the API gateway service. You then need to ensure that control is established on who can access the various resources within the API gateway. Which of the following can help ensure this security requirement is met? Choose 3 Options",
+      "answers": [
+        "Key Policies",
+        "IAM Policies",
+        "Resource Policies",
+        "IAM Roles"
+      ],
+      "correctAnswer": ["IAM Policies",
+        "Resource Policies", "IAM Roles"]
+    }
+  },
+  {
+    "id": "1349",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a developer for a company. You are planning to use the X-Ray service to trace all incoming HTTP requests for an application being developed. In the X-Ray SDK which of the following feature would you use to fulfill this requirement?",
+      "answers": [
+        "Interceptors",
+        "Client handlers",
+        "Server handlers",
+        "Daemon service"
+      ],
+      "correctAnswer": ["Interceptors"]
+    }
+  },
+  {
+    "id": "1350",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are planning on using the DataPipeline service to transfer data from Amazon S3 to Redshift. You need to define the source and destination locations. Which of the following part of the DataPipeline service allows you to define these locations?",
+      "answers": [
+        "Data Nodes",
+        "Task Runner",
+        "Activities",
+        "Resources"
+      ],
+      "correctAnswer": ["Data Nodes"]
+    }
+  },
+  {
+    "id": "1351",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "As a database developer, you have started working with Redshift. Your IT administrator has provisioned a Redshift cluster. You now need to load data into the Redshift cluster from S3. Which of the following command should you use for this activity?",
+      "answers": [
+        "GET",
+        "COPY",
+        "MERGE",
+        "PUT"
+      ],
+      "correctAnswer": ["COPY"]
+    }
+  },
+  {
+    "id": "1352",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "Your company has a development application that needs to interact with an S3 bucket. There is a requirement that all data in the bucket is encrypted at rest. You also need to ensure that the keys are managed by you. Which of the following can you use for this purpose? Choose 3 answers from the options given below",
+      "answers": [
+        "Server-Side Encryption with AWS Managed Keys",
+        "Server-Side Encryption with AWS KMS Keys",
+        "Server-Side Encryption with Customer-Provided Keys",
+        "Client-Side Encryption"
+      ],
+      "correctAnswer": ["Server-Side Encryption with AWS KMS Keys",
+      "Server-Side Encryption with Customer-Provided Keys", "Client-Side Encryption"]
+    }
+  },
+  {
+    "id": "1353",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are developing an application that is going to make use of AWS Cognito. The default sign-in and sign-up features of the AWS Cognito service will be used. There is a security requirement to ensure that if the users credentials are compromised, then they would need to use a new password. Which of the following needs to be in place for this? Choose 2 answers from the options given below",
+      "answers": [
+        "Ensure to create a user pool in AWS Cognito",
+        "Ensure to Block use for compromised credentials in the Advanced Security section",
+        "Ensure to Block use for compromised credentials in the Basic Security section",
+        "Verify sign-in operation on Cognito using Secure Remote Password"
+      ],
+      "correctAnswer": ["Ensure to create a user pool in AWS Cognito",
+        "Ensure to Block use for compromised credentials in the Advanced Security section"]
+    }
+  },
+  {
+    "id": "1354",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are currently a Business Intelligence developer for a company. A lot of data sources that are defined for the Logistics team in your company is hosted in AWS. They are now looking for a quick solution to build visualization screens around the data hosted in AWS. Which of the following can be used to fulfil this requirement?",
+      "answers": [
+        "AWS Redshift",
+        "AWS Quicksight",
+        "AWS Glue",
+        "AWS DynamoDB"
+      ],
+      "correctAnswer": ["AWS Quicksight"]
+    }
+  },
+  {
+    "id": "1355",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your team is currently publishing items to an S3 bucket. You need to record the size of the objects in a separate DynamoDB table. How can you ensure that each uploaded object triggers a record in the DynamoDB table in an ideal manner? Choose 2 answers from the options given below.",
+      "answers": [
+        "Create a new SQS queue",
+        "Create a new Lambda function",
+        "Add the SQS queue to the source event for the S3 bucket",
+        "Add the Lambda function to the source event for the S3 bucket"
+      ],
+      "correctAnswer": ["Create a new Lambda function",
+      "Add the Lambda function to the source event for the S3 bucket"]
+    }
+  },
+  {
+    "id": "1356",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are working on a system that will make use of AWS Kinesis, and it is getting data from various log sources. You are looking at creating an initial number of shards for the Kinesis stream. Which of the following can be used in the calculation of initial number of shards for the Kinesis stream? Choose 2 answers from the options given below.",
+      "answers": [
+        "Incoming write bandwidth",
+        "Outgoing write bandwidth",
+        "Incoming read bandwidth",
+        "Outgoing read bandwidth"
+      ],
+      "correctAnswer": ["Incoming read bandwidth",
+        "Outgoing write bandwidth"]
+    }
+  },
+  {
+    "id": "1357",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your development team has developed a series of Docker containers that will be part of an application. The deployment team is looking at using the Elastic Container service for hosting these containers. Which of the following are 2 possible data sources for storing the Docker based images?",
+      "answers": [
+        "On the EC2 Instances",
+        "In Docker Hub",
+        "In the Elastic Container Registry",
+        "Store them as Amazon Machine Images"
+      ],
+      "correctAnswer": ["In Docker Hub",
+        "In the Elastic Container Registry"]
+    }
+  },
+  {
+    "id": "1358",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are setting out policies for allowing users access to objects in an S3 bucket. You have configured a policy for testing which currently works as intended. You try to create a more restrictive policy but find out that the changes are not working as intended. What can you do to resolve the issue in the EASIEST way possible?",
+      "answers": [
+        "Delete the current version of the policy and recreate the older one",
+        "Revert back to the previous version of the policy",
+        "Recreate the IAM users again",
+        "Use the recycle bin to get the deleted policies back"
+      ],
+      "correctAnswer": ["Revert back to the previous version of the policy"]
+    }
+  },
+  {
+    "id": "1359",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your developers have been given access to a CodeCommit Repository. You need to ensure that if any changes are made to a repository, notifications are sent accordingly. Which of the below 2 destinations can be used for the notifications.",
+      "answers": [
+        "AWS Lambda",
+        "AWS SNS",
+        "AWS Config",
+        "AWS IAM"
+      ],
+      "correctAnswer": ["AWS Lambda",
+        "AWS SNS"]
+    }
+  },
+  {
+    "id": "1360",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your development team is planning on using the AWS Batch service to process a high number of intensive performance computing jobs. Which of the following integration services with AWS Batch will allow you to monitor the progress of the jobs?",
+      "answers": [
+        "AWS Cloudtrail",
+        "AWS Cloudwatch Events",
+        "AWS Config",
+        "AWS SQS"
+      ],
+      "correctAnswer": ["AWS Cloudwatch Events"]
+    }
+  },
+  {
+    "id": "1361",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your team is working on an application that is going to work with a DynamoDB table. At the design stage, you are trying to find out the optimum way to define partition keys and secondary indexes. Which of the following are recommendations for defining secondary indexes? Choose 2 answers from the options given below.",
+      "answers": [
+        "Keep the number of indexes to a minimum",
+        "Define as many indexes as possible to maximize performance",
+        "Avoid indexing tables that experience heavy write activity",
+        "Add indexes to tables that experience heavy write activity"
+      ],
+      "correctAnswer": ["Keep the number of indexes to a minimum",
+      "Avoid indexing tables that experience heavy write activity"]
+    }
+  },
+  {
+    "id": "1362",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your team is working on an application that will connect to a MySQL RDS Instance. The security mandate is that the connection to the database from the application should be encrypted. How can you accomplish this?",
+      "answers": [
+        "By using Access Keys assigned to an IAM user",
+        "By using Private Key pairs",
+        "By using SSL",
+        "By using KMS Keys"
+      ],
+      "correctAnswer": ["By using SSL"]
+    }
+  },
+  {
+    "id": "1363",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are planning on developing and deploying a Node.js Lambda function. The code has a dependency on a lot of third-party libraries. Which of the following needs to be done to ensure the code can be executed in the AWS Lambda service?",
+      "answers": [
+        "Install the third-party libraries in the Lambda service",
+        "Create a deployment package with your code and the third-party libraries",
+        "Use Cloudformation templates to deploy the third-party libraries",
+        "Use an IAM Role with the required permissions on those libraries"
+      ],
+      "correctAnswer": ["Create a deployment package with your code and the third-party libraries"]
+    }
+  },
+  {
+    "id": "1364",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have to create a DynamoDB table called Customers which will have 2 attributes. One is the ID which will be the partition key and the other is the Name which will be the sort key. Which of the following is the right definition for the CLI command that would be used to create the table?",
+      "answers": [
+        "aws dynamodb create-table --table-name Customers --attribute-definitions AttributeName=ID,AttributeType=N AttributeName=Name,AttributeType=S --key-schema AttributeName=ID,KeyType=HASH AttributeName=Name,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5",
+        "aws dynamodb create-table --table-name Customers --attribute-definitions AttributeName=ID,AttributeType=N AttributeName=Name,AttributeType=S --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5",
+        "aws dynamodb create-table --table-name Customers --attribute-definitions AttributeName=ID,AttributeType=N AttributeName=Name,AttributeType=S --key-schema AttributeName=Name,KeyType=HASH AttributeName=ID,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5",
+        "aws dynamodb set-table --table-name Customers --attribute-definitions AttributeName=ID,AttributeType=N AttributeName=Name,AttributeType=S --key-schema AttributeName=ID,KeyType=HASH AttributeName=Name,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5"
+      ],
+      "correctAnswer": ["aws dynamodb create-table --table-name Customers --attribute-definitions AttributeName=ID,AttributeType=N AttributeName=Name,AttributeType=S --key-schema AttributeName=ID,KeyType=HASH AttributeName=Name,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5"]
+    }
   }
 ]
