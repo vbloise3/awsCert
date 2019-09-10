@@ -1,0 +1,34 @@
+About the Exam
+
+ - Exam released as a beta exam in Mid-November, 2018
+ - First version of exam released to the public in March, 2019
+ - 180 minutes, 65 Questions
+ - Minimum passing score of 750 out of 1,000
+ - Covers SageMaker, Glue, and Kinesis
+ - Look at the AWS Certification Preparation Guide (a course on ACG)
+
+Data Collection
+
+Data Collection Concepts
+ - should have at least 10 times as many data points as the total number of features
+General Data Terminology
+ - Dataset: a collection of data
+   - dataset = input data = training/testing data
+   - column = attribute = feature
+   - row = observation = sample = data point
+ - Structured data
+   - has a defined schema, the schema is the information needed to interpret the data, including attribute names and their assigned data types
+ - Unstructured data
+   - has no defined schema or structural properties. Makes up majority of data collected
+ - Semi-structured data
+   - It is too unstructured to for relational data, but has some organizational structure. Usually in the form of CSV, JSON, or XML
+ - Data Warehouse: usually has some pre-processing done before data is loaded into it
+   - processing done on import (schema-on-write)
+   - data classified /stored with user in mind
+   - ready to be used with BI tools (query and analysis)
+ - Data Lake: no pre-processing before data is loaded into it
+   - processing done on export (schema-on-read)
+   - many different sources and formats
+   - raw data may not be ready for use
+Machine Learning Data Terminology
+ - 

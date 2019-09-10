@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -111,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/awsCertUi/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -400,16 +397,15 @@
       <workItem from="1562529109346" duration="852000" />
       <workItem from="1564343132309" duration="1914000" />
       <workItem from="1566681011213" duration="725000" />
-      <workItem from="1567554903425" duration="948000" />
+      <workItem from="1567554903425" duration="2270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248697000" />
+    <option name="totallyTimeSpent" value="250019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1903" height="998" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22729716" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -834,7 +830,7 @@
     <entry file="file://$PROJECT_DIR$/awsCertUi/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
