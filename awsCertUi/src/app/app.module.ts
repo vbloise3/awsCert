@@ -33,6 +33,7 @@ import { C2pQuestionComponent } from './c2p-question/c2p-question.component';
 import { Ca2QuestionComponent } from './ca2-question/ca2-question.component';
 import {DataService} from "./data.service";
 import { CdaQuestionComponent } from './cda-question/cda-question.component';
+import { CmlQuestionComponent } from './cml-question/cml-question.component';
 
 const appRoutes: Routes = [
   {
@@ -50,6 +51,10 @@ const appRoutes: Routes = [
   {
     path: 'cdapractice',
     component: CdaQuestionComponent
+  },
+  {
+    path: 'cmlpractice',
+    component: CmlQuestionComponent
   },
   {
     path: '',
@@ -76,6 +81,10 @@ const appRoutes: Routes = [
     component: CdaQuestionComponent
   },
   {
+    path: '5',
+    component: CmlQuestionComponent
+  },
+  {
     path: '',
     redirectTo: '',
     pathMatch: 'full'
@@ -94,7 +103,8 @@ const appRoutes: Routes = [
     OnlyNumberDirective,
     C2pQuestionComponent,
     Ca2QuestionComponent,
-    CdaQuestionComponent
+    CdaQuestionComponent,
+    CmlQuestionComponent
   ],
   imports: [
     BrowserModule,

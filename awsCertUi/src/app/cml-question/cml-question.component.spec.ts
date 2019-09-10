@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CdaQuestionComponent } from './cda-question.component';
+import { CmlQuestionComponent } from './cml-question.component';
 
 describe('CmlQuestionComponent', () => {
-  let component: CdaQuestionComponent;
-  let fixture: ComponentFixture<CdaQuestionComponent>;
+  let component: CmlQuestionComponent;
+  let fixture: ComponentFixture<CmlQuestionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CdaQuestionComponent ]
+      declarations: [ CmlQuestionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CdaQuestionComponent);
+    fixture = TestBed.createComponent(CmlQuestionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
