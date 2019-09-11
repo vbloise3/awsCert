@@ -31,4 +31,7 @@ General Data Terminology
    - many different sources and formats
    - raw data may not be ready for use
 Machine Learning Data Terminology
- - 
+ - labeled data
+   - data where we already know what the target attribute is
+ - unlabeled data
+   - data that has been collected with no target attribute

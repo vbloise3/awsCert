@@ -20,7 +20,7 @@
           <div *ngIf="currentPath != '/cdapractice'"><td><span class="smallTextBottom"><a [routerLink]="['/cdapractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Developer Associate</a></span></td></div>
         </tr>
         <tr>
-          <div *ngIf="currentPath == '/cmlpractice'"><td><span class="smallTextBottom"><a [routerLink]="['/4']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Machine Learning Specialist</a></span></td></div>
+          <div *ngIf="currentPath == '/cmlpractice'"><td><span class="smallTextBottom"><a [routerLink]="['/5']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Machine Learning Specialist</a></span></td></div>
           <div *ngIf="currentPath != '/cmlpractice'"><td><span class="smallTextBottom"><a [routerLink]="['/cmlpractice']" target="_top" style="color: blue"><i class="material-icons md-18 iconBottom">directions_bike</i>Certified Machine Learning Specialist</a></span></td></div>
         </tr>
       </table>
@@ -44,152 +44,19 @@
         <div style="display: inline-block">
                    &nbsp;&nbsp;&nbsp;&nbsp;
           <mat-checkbox
-            name="IAM"
-            value="IAM"
-            (change)="updateSubcategoriesChecked($event, 'IAM')">
+            name="Data Collection"
+            value="Data Collection"
+            (change)="updateSubcategoriesChecked($event, 'Data Collection')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">IAM</mat-label>
+          <mat-label style="padding: 0.5em;">Data Collection</mat-label>
           &nbsp;&nbsp;
           <mat-checkbox
-            name="EC2"
-            value="EC2"
-            (change)="updateSubcategoriesChecked($event, 'EC2')">
+            name="Machine Learning Data Terminology"
+            value="Machine Learning Data Terminology"
+            (change)="updateSubcategoriesChecked($event, 'Machine Learning Data Terminology')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">EC2</mat-label>
+          <mat-label style="padding: 0.5em;">Machine Learning Data Terminology</mat-label>
           &nbsp;&nbsp;
-          <mat-checkbox
-            name="ELB"
-            value="ELB"
-            (change)="updateSubcategoriesChecked($event, 'ELB')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">ELB</mat-label>
-
-          <mat-checkbox
-            name="Route 53"
-            value="Route 53"
-            (change)="updateSubcategoriesChecked($event, 'Route 53')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Route 53</mat-label>
-
-          <mat-checkbox
-            name="RDS"
-            value="RDS"
-            (change)="updateSubcategoriesChecked($event, 'RDS')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">RDS</mat-label>
-
-          <mat-checkbox
-            name="ElastiCache"
-            value="ElastiCache"
-            (change)="updateSubcategoriesChecked($event, 'ElastiCache')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">ElastiCache</mat-label>
-
-          <mat-checkbox
-            name="Test Example Questions"
-            value="Test Example Questions"
-            (change)="updateSubcategoriesChecked($event, 'Test Example Questions')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Test Example Questions</mat-label>
-
-          <mat-checkbox
-            name="S3"
-            value="S3"
-            (change)="updateSubcategoriesChecked($event, 'S3')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">S3</mat-label>
-
-          <mat-checkbox
-            name="CloudFront"
-            value="CloudFront"
-            (change)="updateSubcategoriesChecked($event, 'CloudFront')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">CloudFront</mat-label>
-
-          <mat-checkbox
-            name="Lambda"
-            value="Lambda"
-            (change)="updateSubcategoriesChecked($event, 'Lambda')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Lambda</mat-label>
-
-          <mat-checkbox
-            name="API Gateway"
-            value="API Gateway"
-            (change)="updateSubcategoriesChecked($event, 'API Gateway')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">API Gateway</mat-label>
-
-          <mat-checkbox
-            name="Step Functions & X-Ray"
-            value="Step Functions & X-Ray"
-            (change)="updateSubcategoriesChecked($event, 'Step Functions & X-Ray')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Step Functions & X-Ray</mat-label>
-
-          <mat-checkbox
-            name="DynamoDB"
-            value="DynamoDB"
-            (change)="updateSubcategoriesChecked($event, 'DynamoDB')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">DynamoDB</mat-label>
-
-          <mat-checkbox
-            name="KMS"
-            value="KMS"
-            (change)="updateSubcategoriesChecked($event, 'KMS')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">KMS</mat-label>
-
-          <mat-checkbox
-            name="SQS"
-            value="SQS"
-            (change)="updateSubcategoriesChecked($event, 'SQS')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">SQS</mat-label>
-
-          <mat-checkbox
-            name="SNS"
-            value="SNS"
-            (change)="updateSubcategoriesChecked($event, 'SNS')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">SNS</mat-label>
-
-          <mat-checkbox
-            name="Kinesis"
-            value="Kinesis"
-            (change)="updateSubcategoriesChecked($event, 'Kinesis')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Kinesis</mat-label>
-
-          <mat-checkbox
-            name="Elastic Beanstalk"
-            value="Elastic Beanstalk"
-            (change)="updateSubcategoriesChecked($event, 'Elastic Beanstalk')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Elastic Beanstalk</mat-label>
-
-          <mat-checkbox
-            name="Developer Theory"
-            value="Developer Theory"
-            (change)="updateSubcategoriesChecked($event, 'Developer Theory')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Developer Theory</mat-label>
-
-          <mat-checkbox
-            name="Monitoring"
-            value="Monitoring"
-            (change)="updateSubcategoriesChecked($event, 'Monitoring')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Monitoring</mat-label>
-
-          <mat-checkbox
-            name="Exam Questions"
-            value="Exam Questions"
-            (change)="updateSubcategoriesChecked($event, 'Exam Questions')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Exam Questions</mat-label>
-
           &nbsp;&nbsp;
           <button mat-button type="submit" color="primary">Submit</button>
         </div>
