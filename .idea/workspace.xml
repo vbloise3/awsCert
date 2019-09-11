@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aws_machine_learning_specialty.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalicelib/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/chalicelib/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Exam Notes/AWS Machine Learning Exam Notes - 1" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/AWS Machine Learning Exam Notes - 1" afterDir="false" />
-    </list>
+    <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,69 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Data_Collection_1_ml.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Data_Collection_1_ml.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="690">
               <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cda-question.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-              <folding>
-                <element signature="n#style#0;n#mat-label#1;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#2;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#3;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#4;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#5;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#6;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#7;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#8;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#9;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#10;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#11;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#12;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#13;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#14;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#15;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#16;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#17;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#18;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#19;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mat-label#20;n#div#0;n#form#0;n#mat-card#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ca2-question.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c2p-question.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -299,12 +229,12 @@
       <workItem from="1562529109346" duration="852000" />
       <workItem from="1564343132309" duration="1914000" />
       <workItem from="1566681011213" duration="725000" />
-      <workItem from="1567554903425" duration="6990000" />
+      <workItem from="1567554903425" duration="7337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254739000" />
+    <option name="totallyTimeSpent" value="255086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1903" height="998" extended-state="0" />
@@ -314,9 +244,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.281909" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.281909" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32741398" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22729716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22729716" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -714,14 +644,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
@@ -757,17 +687,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
+        <state relative-caret-position="690">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
         </state>
       </provider>
     </entry>
