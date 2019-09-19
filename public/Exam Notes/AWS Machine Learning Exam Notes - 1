@@ -35,3 +35,23 @@ Machine Learning Data Terminology
    - data where we already know what the target attribute is
  - unlabeled data
    - data that has been collected with no target attribute
+ - Supervised learning is mostly used with labeled data
+ - Unsupervised learning is mostly used with unlabeled data
+ - Feature types
+   - Categorical
+     - associated with a group
+     - qualitative
+     - discrete
+   - Continuous
+     - expressed as a measurable number
+     - quantitative
+     - infinite in number
+ - Corpus Data is text data
+ - Ground Truth datasets refers to factual data that has been observed or measured, has been successfully labeled
+ - SageMaker Ground Truth is a tool that helps build ground truth datasets by allowing different types of tagging/labeling processes
+   - Easily creates labeled data
+ - Image data
+   - datasets with tagged images
+ - Time Series Data
+   - refers to datasets that capture changes over time
+ -  
