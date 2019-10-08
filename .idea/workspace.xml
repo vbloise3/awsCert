@@ -3,27 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Data_Collection_1_ml.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,16 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,108 +41,14 @@
       <path value="$PROJECT_DIR$/awsCertUi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="width" value="1903" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectId" id="1QfMRIS82bYRWP2vabDVKeoa3e8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="c2p-question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ca2-question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="cda-question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="cml-question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambda json" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -233,39 +114,12 @@
       <workItem from="1564343132309" duration="1914000" />
       <workItem from="1566681011213" duration="725000" />
       <workItem from="1567554903425" duration="16351000" />
-      <workItem from="1569782236483" duration="3940000" />
+      <workItem from="1569782236483" duration="4731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268040000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30829757" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3504155" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="aws.explorer" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="8" visible="true" weight="0.32741398" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
+    <option name="totallyTimeSpent" value="268831000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -301,327 +155,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_3_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="705" column="3" lean-forward="true" selection-start-line="690" selection-start-column="2" selection-end-line="705" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_4_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="279" column="3" lean-forward="true" selection-start-line="263" selection-start-column="2" selection-end-line="279" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_5_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="183" column="3" lean-forward="true" selection-start-line="168" selection-start-column="2" selection-end-line="183" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_6_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="307" column="3" lean-forward="true" selection-start-line="291" selection-start-column="2" selection-end-line="307" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="473" column="3" lean-forward="true" selection-start-line="458" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Advanced_IAM_2_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="443" column="3" lean-forward="true" selection-start-line="427" selection-start-column="2" selection-end-line="443" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Monitoring_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="296" column="3" lean-forward="true" selection-start-line="281" selection-start-column="2" selection-end-line="296" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/buildDeploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="81" selection-start-line="16" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="225" column="1" lean-forward="true" selection-start-line="225" selection-start-column="1" selection-end-line="225" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_2_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="1072" column="3" lean-forward="true" selection-start-line="1057" selection-start-column="2" selection-end-line="1072" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/2 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160590">
-          <caret line="10706" lean-forward="true" selection-start-line="10706" selection-end-line="10706" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/1 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_4_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="533" column="3" lean-forward="true" selection-start-line="517" selection-start-column="2" selection-end-line="533" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_3_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/3 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4136">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/4 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153495">
-          <caret line="10509" lean-forward="true" selection-start-line="10509" selection-end-line="10509" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_7_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="504" column="3" lean-forward="true" selection-start-line="504" selection-start-column="3" selection-end-line="504" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_6_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="537" column="50" lean-forward="true" selection-start-line="537" selection-start-column="50" selection-end-line="537" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_5_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="436" column="49" selection-start-line="436" selection-start-column="35" selection-end-line="436" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_8_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="385" column="97" selection-start-line="385" selection-start-column="83" selection-end-line="385" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_9_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="524" column="8" lean-forward="true" selection-start-line="524" selection-start-column="8" selection-end-line="524" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/AWS Developer Associate Exam Notes - 4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/5 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18418">
-          <caret line="10409" selection-start-line="10409" selection-end-line="10409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/expression-attributes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="321" selection-start-line="1" selection-start-column="321" selection-end-line="1" selection-end-column="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/example_query_cli">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Exam_SampleQuestions_10_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="484" column="34" selection-start-line="484" selection-start-column="8" selection-end-line="484" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="292" column="19" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Developer_Theory_1_dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/c2p-question/c2p-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/ca2-question/ca2-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/Data_Collection_1_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
