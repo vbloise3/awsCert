@@ -43,7 +43,7 @@
       <path value="$PROJECT_DIR$/awsCertUi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1903" />
     <option name="height" value="996" />
@@ -136,17 +136,17 @@
       <workItem from="1566681011213" duration="725000" />
       <workItem from="1567554903425" duration="16351000" />
       <workItem from="1569782236483" duration="4731000" />
-      <workItem from="1570496246343" duration="856000" />
+      <workItem from="1570496246343" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269687000" />
+    <option name="totallyTimeSpent" value="269954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="0" y="23" width="1903" height="996" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33261803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986567" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -155,7 +155,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4099723" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
