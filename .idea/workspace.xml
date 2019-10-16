@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ElasticBeanstalkConfig-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ElasticBeanstalkConfig-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ElasticBeanstalkOneEc2 - final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ElasticBeanstalkOneEc2 - original.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,12 +135,12 @@
       <workItem from="1566681011213" duration="725000" />
       <workItem from="1567554903425" duration="16351000" />
       <workItem from="1569782236483" duration="4731000" />
-      <workItem from="1570496246343" duration="2541000" />
+      <workItem from="1570496246343" duration="2836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271372000" />
+    <option name="totallyTimeSpent" value="271667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1903" height="996" extended-state="0" />
