@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Exam Notes/Third set of ML questions - WL.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +43,7 @@
       <path value="$PROJECT_DIR$/awsCertUi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="996" />
@@ -137,15 +138,15 @@
       <workItem from="1569782236483" duration="4731000" />
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
-      <workItem from="1571504063734" duration="841000" />
+      <workItem from="1571504063734" duration="1010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273688000" />
+    <option name="totallyTimeSpent" value="273857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="996" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="996" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3397231" />
       <window_info anchor="bottom" id="TODO" order="6" />
