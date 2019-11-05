@@ -1,0 +1,631 @@
+[
+  {
+    "id": "18",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Data where we already know what the target attribute is",
+      "answers": [
+        "labeled data",
+        "unlabeled data",
+        "formatted data",
+        "unformatted data"
+      ],
+      "correctAnswer": ["labeled data"]
+    }
+  },
+  {
+    "id": "19",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Data that has been collected with no target attribute",
+      "answers": [
+        "labeled data",
+        "unlabeled data",
+        "formatted data",
+        "unformatted data"
+      ],
+      "correctAnswer": ["unlabeled data"]
+    }
+  },
+  {
+    "id": "20",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning is mostly used with  ______",
+      "answers": [
+        "labeled data",
+        "unlabeled data",
+        "formatted data",
+        "unformatted data"
+      ],
+      "correctAnswer": ["labeled data"]
+    }
+  },
+  {
+    "id": "21",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised learning is mostly used with  ______",
+      "answers": [
+        "labeled data",
+        "unlabeled data",
+        "formatted data",
+        "unformatted data"
+      ],
+      "correctAnswer": ["unlabeled data"]
+    }
+  },
+  {
+    "id": "22",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 3",
+      "question": "Which describe the categorical feature type?",
+      "answers": [
+        "associated with a group",
+        "qualitative",
+        "discrete",
+        "expressed as a measurable number",
+        "quantitative",
+        "infinite in number"
+      ],
+      "correctAnswer": ["associated with a group",
+        "qualitative",
+        "discrete"]
+    }
+  },
+  {
+    "id": "23",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 3",
+      "question": "Which describe the continuous feature type?",
+      "answers": [
+        "associated with a group",
+        "qualitative",
+        "discrete",
+        "expressed as a measurable number",
+        "quantitative",
+        "infinite in number"
+      ],
+      "correctAnswer": ["expressed as a measurable number",
+        "quantitative",
+        "infinite in number"]
+    }
+  },
+  {
+    "id": "24",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Text data is ______ data",
+      "answers": [
+        "corpus",
+        "qualitative",
+        "discrete",
+        "quantitative"
+      ],
+      "correctAnswer": ["corpus"]
+    }
+  },
+  {
+    "id": "25",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "______ datasets refers to factual data that has been observed or measured, has been successfully labeled",
+      "answers": [
+        "ground truth",
+        "qualitative",
+        "discrete",
+        "quantitative"
+      ],
+      "correctAnswer": ["ground truth"]
+    }
+  },
+  {
+    "id": "26",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "A tool that helps build ground truth datasets by allowing different types of tagging/labeling processes",
+      "answers": [
+        "SageMaker Ground Truth",
+        "Amazon Streams",
+        "SageMaker Jupyter Notebooks",
+        "SageMaker Hosting Service"
+      ],
+      "correctAnswer": ["SageMaker Ground Truth"]
+    }
+  },
+  {
+    "id": "27",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "As of September 2020, new path for S3 is ______",
+      "answers": [
+        "https://bucketname.s3.amazonaws.com/",
+        "https://s3.bucketname.amazonaws.com/",
+        "https://amazonaws.bucketname.s3.com/",
+        "https://bucketname.regionname.s3.amazonaws.com/"
+      ],
+      "correctAnswer": ["https://bucketname.s3.amazonaws.com/"]
+    }
+  },
+  {
+    "id": "28",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "______ allows you to query data directly from S3",
+      "answers": [
+        "Redshift Spectrum",
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Elastic Map Reduce cluster"
+      ],
+      "correctAnswer": ["Redshift Spectrum"]
+    }
+  },
+  {
+    "id": "29",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Managed time-series data store",
+      "answers": [
+        "Redshift",
+        "Timestream",
+        "DocumentDB",
+        "DynamoDB"
+      ],
+      "correctAnswer": ["Timestream"]
+    }
+  },
+  {
+    "id": "30",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Place to migrate MongoDB data",
+      "answers": [
+        "Redshift",
+        "Timestream",
+        "DocumentDB",
+        "DynamoDB"
+      ],
+      "correctAnswer": ["DocumentDB"]
+    }
+  },
+  {
+    "id": "31",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Transfer data from on prem to AWS, or between AWS services",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  },
+  {
+    "id": "32",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Uses activity types, for example CopyActivity, EmrActivity, etc.",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  },
+  {
+    "id": "33",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Can also be used as a transformation resource",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  },
+  {
+    "id": "34",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Migrate data between different databases, or output results onto S3",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["DMS"]
+    }
+  },
+  {
+    "id": "35",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Can do heterogeneous migration or homogeneous",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["DMS"]
+    }
+  },
+  {
+    "id": "36",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Does not do transformation",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["DMS"]
+    }
+  },
+  {
+    "id": "37",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Managed ETL service",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "38",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Creates table in a data catalog using metadata",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "39",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Craws the data to determine the schema of the data",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "40",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Uses classifiers to identify the schema for your data",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "41",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Can create custom classifier using this service",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "42",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Can move data from S3, DynamoDB, RDS, RedShift, Database on EC2 to Athena, EMR, S3, Redshift",
+      "answers": [
+        "Data Pipeline",
+        "DMS",
+        "Glue",
+        "EMR"
+      ],
+      "correctAnswer": ["Glue"]
+    }
+  },
+  {
+    "id": "43",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "With Glue which of these are NOT a valid output format?",
+      "answers": [
+        "avro",
+        "csv",
+        "ion",
+        "groklog",
+        "json",
+        "orc",
+        "parquet",
+        "xml",
+        "protobuf"
+      ],
+      "correctAnswer": ["protobuf"]
+    }
+  },
+  {
+    "id": "44",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Managed hadoop cluster ecosystem that runs on multiple EC2 instances",
+      "answers": [
+        "EMR",
+        "ECS",
+        "Athena",
+        "EKS"
+      ],
+      "correctAnswer": ["EMR"]
+    }
+  },
+  {
+    "id": "45",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Run distributed workloads over many EC2 instances using many tools (Spark, Hive, presto, TensorFlow, mxnet, jupyter, etc.) processing petabytes of data",
+      "answers": [
+        "EMR",
+        "ECS",
+        "Athena",
+        "EKS"
+      ],
+      "correctAnswer": ["EMR"]
+    }
+  },
+  {
+    "id": "46",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Serverless platform that allows you to run sql queries on your S3 data",
+      "answers": [
+        "EMR",
+        "ECS",
+        "Athena",
+        "EKS"
+      ],
+      "correctAnswer": ["Athena"]
+    }
+  },
+  {
+    "id": "47",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which is NOT a difference between Redshift Spectrum and Athena",
+      "answers": [
+        "Both query S3 data",
+        "Athena does not need a Redshift cluster",
+        "Athena is for customers who do not have Redshift or do not want to use it to quickly query S3 data",
+        "None of the above"
+      ],
+      "correctAnswer": ["None of the above"]
+    }
+  },
+  {
+    "id": "48",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool should you use when migrating a PostgreSQL instance with training data?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Pipeline"]
+    }
+  },
+  {
+    "id": "49",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool should you use when migrating unstructured log files in S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Glue"]
+    }
+  },
+  {
+    "id": "50",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 2",
+      "question": "Which migration tool should you use when migrating clustered Redshift data?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Pipeline",
+        "AWS Glue"]
+    }
+  },
+  {
+    "id": "51",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool should you use when migrating an on-premise MySQL instance with training data?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Migration Service"]
+    }
+  },
+  {
+    "id": "52",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool do you use when migrating by specifying a SQLActivity query and placing the output to S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Pipeline"]
+    }
+  },
+  {
+    "id": "53",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool do you use when migrating by creating a custom classifier and outputting the results to S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Glue"]
+    }
+  },
+  {
+    "id": "54",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool do you use when migrating by using the unload command to return the results of a query to a CSV file in S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Pipeline"]
+    }
+  },
+  {
+    "id": "55",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "Which migration tool do you use when migrating by creating a data catalog describing data and loading it into S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Glue"]
+    }
+  },
+  {
+    "id": "56",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Collection",
+      "questionType": "multiple choice 1",
+      "question": "______ can load data in CSV format to S3?",
+      "answers": [
+        "AWS Data Pipeline",
+        "AWS Glue",
+        "AWS Data Migration Service"
+      ],
+      "correctAnswer": ["AWS Data Migration Service"]
+    }
+  }
+]

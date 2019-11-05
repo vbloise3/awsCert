@@ -3,7 +3,7 @@
     "id": "1",
     "category": "Cloud Concepts",
     "info": {
-      "subcategory": "Machine Learning Concepts",
+      "subcategory": "Data Collection",
       "questionType": "multiple choice 1",
       "question": "You should have at least ______ times as many data points as the total number of features",
       "answers": [
