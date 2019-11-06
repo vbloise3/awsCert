@@ -37,7 +37,7 @@
     "info": {
       "subcategory": "Streaming Data",
       "questionType": "multiple choice 1",
-      "question": "After receiving data from ______, consumers can then send the data to a data store such as S3, DynamoDB, Redshift, or BI Tools)",
+      "question": "After receiving data from ______, consumers can then send the data to a data store such as S3, DynamoDB, Redshift, or BI Tools",
       "answers": [
         "Kinesis Data Streams",
         "Kinesis Data Firehose",
@@ -53,7 +53,7 @@
     "info": {
       "subcategory": "Streaming Data",
       "questionType": "multiple choice 1",
-      "question": "When using ______, if you want to store your data off to S3 for example, you have to use some intermediate service such as lambda to take the data and put it on S3 (can use Kinesis Firehose to place data directly onto S3))",
+      "question": "When using ______, if you want to store your data off to S3 for example, you have to use some intermediate service such as lambda to take the data and put it on S3 (can use Kinesis Firehose to place data directly onto S3)",
       "answers": [
         "Kinesis Data Streams",
         "Kinesis Data Firehose",
@@ -614,7 +614,7 @@
     "info": {
       "subcategory": "Streaming Data",
       "questionType": "multiple choice 1",
-      "question": "Data can go directly from producers through ______ to the data store (don’t have to use lambda preprocessor)",
+      "question": "Data can go directly from producers through ______ to the data store (do not have to use lambda preprocessor)",
       "answers": [
         "Kinesis Data Streams",
         "Kinesis Data Firehose",
@@ -710,7 +710,7 @@
     "info": {
       "subcategory": "Streaming Data",
       "questionType": "multiple choice 1",
-      "question": "When data retention is not important, i.e. if you lose a few records it’s OK you should use ______",
+      "question": "When data retention is not important, i.e. if you lose a few records it is OK you should use ______",
       "answers": [
         "Kinesis Data Streams",
         "Kinesis Data Firehose",
