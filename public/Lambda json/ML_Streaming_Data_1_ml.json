@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "57",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ gets data from data producers (such as app log files, social media streams) usually with a json payload, then loads the data into AWS",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "58",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ uses shards to move the data to data consumers (such as EC2, lambda, Kinesis Data Analytics, EMR cluster that uses Apache Spark to process the data)",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "59",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "After receiving data from ______, consumers can then send the data to a data store such as S3, DynamoDB, Redshift, or BI Tools)",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "60",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When using ______, if you want to store your data off to S3 for example, you have to use some intermediate service such as lambda to take the data and put it on S3 (can use Kinesis Firehose to place data directly onto S3))",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "61",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When using ______, if you want to store your data off to S3 for example, you have to use some intermediate service such as lambda to take the data and put it on S3 (can use Kinesis Firehose to place data directly onto S3)",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "62",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is NOT true about Kinesis Data Streams shards?",
+      "answers": [
+        "Contains the streaming data we want to load into AWS",
+        "Each shard has a unique partition key",
+        "All shards share a common partition key",
+        "Each payload that moves through the shard has a sequence number"
+      ],
+      "correctAnswer": ["All shards share a common partition key"]
+    }
+  },
+  {
+    "id": "63",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is NOT true about Kinesis Data Streams shards?",
+      "answers": [
+        "Can use from 1 to 500 shards, but can request an increase to unlimited shards",
+        "Each data record can be ingested at a rate of 1,000 records per second",
+        "Shards are a transient data store - retention period for the records is default 1 hour but can be increased up to 1 day",
+        "Each payload (data blob) can be up to 1 MB",
+        "Shards are a transient data store - retention period for the records is default 24 hours but can be increased up to 7 days"
+      ],
+      "correctAnswer": ["Shards are a transient data store - retention period for the records is default 1 hour but can be increased up to 1 day"]
+    }
+  },
+  {
+    "id": "64",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Library that allows you to write to a Kinesis Data Stream",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "65",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Once the data is in Kinesis Data Streams you can use ______",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Client Library (KCL)"]
+    }
+  },
+  {
+    "id": "66",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Directly interacts with the KPL to consume and process data from the Kinesis Data Stream",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Client Library (KCL)"]
+    }
+  },
+  {
+    "id": "67",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Can do everything you can do with KCL and KPL, but used for low-level api operations and manual configurations",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "68",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Provides a layer of abstraction specifically for ingesting data",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "69",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Has automatic and configurable retry mechanism",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "70",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Additional processing delay can occur for higher packing efficiencies and better performance",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "71",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Is a Java wrapper",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "72",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Has low level API calls (PutRecords and GetRecords)",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "73",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Stream creations, resharding, and putting and getting records are manually handled",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "74",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "No delays in processing",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "75",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Can be used with any AWS SDK",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "76",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "If you need your data stream immediately available within milliseconds, it may be better to use ______",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "77",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ is a java wrapper, so you have to use it with java code",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis Producer Library (KPL)"]
+    }
+  },
+  {
+    "id": "78",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ can be used with any of the AWS SDKs such as C# or JS",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "79",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "To adapt to changes in the rate of data flow through the Data Stream, you can create an application that monitors the metrics from the producers and consumers and makes a ______ call to add or remove shards as needed (called resharding)",
+      "answers": [
+        "Kinesis Producer Library (KPL)",
+        "Kinesis Data Library (KDL)",
+        "Kinesis Client Library (KCL)",
+        "Kinesis Retention Library (KRL)",
+        "Kinesis API"
+      ],
+      "correctAnswer": ["Kinesis API"]
+    }
+  },
+  {
+    "id": "80",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When data needs to be processed by consumers you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "81",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to do some transformation or analytics run on your data or need to feed the data into another AWS service you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "82",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need real-time analytics you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "83",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to feed other services in real-time you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "84",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When some action needs to occur on your data you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "85",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When storing data is optional you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "86",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When data retention is important you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "87",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Can use this to reprocess data within the stream if there is an issue with process, i.e. retry processing within the retention period",
+      "answers": [
+        "Kinesis Data Streams data retention (hold on to the data for 24 hours by default, can extend up to 7 days)",
+        "Kinesis Data Firehose data reprocessing",
+        "Kinesis Video Streams reanalyze",
+        "Kinesis Data Analytics reprocessing"
+      ],
+      "correctAnswer": ["Kinesis Data Streams data retention (hold on to the data for 24 hours by default, can extend up to 7 days)"]
+    }
+  },
+  {
+    "id": "88",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "For process and evaluate logs use case, you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "89",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "For use case where you analyze system and application logs continuously and process within seconds, you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "90",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "For real-time data analytics use case, you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "91",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "For use case where you run real-time analytics on click stream data and process within seconds, you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "92",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Uses processing tools (optional), using lambda instead of shards, to preprocess the producer data, functioning as an ETL service",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "93",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "With this streaming service a lambda function can put the data directly onto a data store such as S3 or Redshift, ElasticSearch, and splunk",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "94",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Data can go directly from producers through ______ to the data store (don’t have to use lambda preprocessor)",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "95",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ can use S3 events to put data into DynamoDB",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "96",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ has no retention because it streams data directly onto data stores like S3",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "97",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to easily collect streaming data you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "98",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When processing is optional you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "99",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When the final destination is S3 (or some other data store) you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "100",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When data retention is not important, i.e. if you lose a few records it’s OK you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "101",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to stream and store data from devices you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "102",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you are capturing important data from IoT devices, embedded systems, consumer applications and storing it into a data lake you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "103",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to create ETL jobs on streaming data you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "104",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you are running ETL jobs on streaming data before it is stored into a data warehouse you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "105",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Build real-time video processing applications such as ML models",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "106",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Has data producers such as web cams or security cameras or audio feeds or images or radar data",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "107",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to process real-time streaming video data (audio, images, radar) you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "108",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to batch-process and store streaming video you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "109",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to feed streaming video data into other AWS services like SageMaker to run ML models as testing or training data you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "110",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Amazon CloudCam is an example of a use case for ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "111",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Use sql queries to process the incoming streaming data and produce output data from the query",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "112",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "Gets its streaming input data from services like Kinesis Data Streams and Kinesis Data Firehose",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "113",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "After running sql queries on the stream you can output to S3, Redshift, or visualization and BI tools",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "114",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to run sql queries on streaming data (can also use Apache Flink instead of sql) you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "115",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to construct applications that provide insight to your data (these sit on top of ______) you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "116",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to create metrics, dashboards, monitoring, notifications, and alarms you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "117",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to output query results into S3 or AWS data sources you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "118",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want responsive real-time analytics you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "119",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to send real-time alarms or notifications when certain metrics reach predefined thresholds you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "120",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to stream ETL jobs you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "121",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you want to stream raw sensor data then, clean, organize, and transform it before it lands into a data warehouse or data lake you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "122",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to stream Apache log files directly from (100) EC2 instances and store them into Redshift you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "123",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ is for easily streaming data directly to a final destination. For example, first data is loaded into S3, then it is copied into Redshift",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "124",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When loading log files from EC2 instances to Redshift using ______, first data is loaded into S3, then it is copied into Redshift",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "125",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to stream live video coverage of a sporting event to distribute to customers in near real-time you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Video Streams"]
+    }
+  },
+  {
+    "id": "126",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to transform real-time streaming data and immediately feed it into custom ML application you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "127",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ allows for streaming huge amounts of data, process/transform it, and then store it or feed it into custom applications or other AWS services",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Streams"]
+    }
+  },
+  {
+    "id": "128",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "When you need to query real-time data, create metric graphs, and store output into S3 you should use ______",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "129",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 1",
+      "question": "______ gives you the ability to run SQL queries on streaming data, then store or feed the output into other AWS services",
+      "answers": [
+        "Kinesis Data Streams",
+        "Kinesis Data Firehose",
+        "Kinesis Video Streams",
+        "Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Kinesis Data Analytics"]
+    }
+  },
+  {
+    "id": "130",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 2",
+      "question": "With Kinesis Data Firehose, you can ______ or ______ to deliver data faster",
+      "answers": [
+        "lower buffer size (MB - 1 to 128 MB)",
+        "lower buffer interval (seconds - 60 to 900 seconds)",
+        "increase buffer interval (seconds - 60 to 900 seconds)",
+        "increase buffer size (MB - 1 to 128 MB)"
+      ],
+      "correctAnswer": ["lower buffer size (MB - 1 to 128 MB)",
+        "lower buffer interval (seconds - 60 to 900 seconds)"]
+    }
+  },
+  {
+    "id": "131",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 2",
+      "question": "With Kinesis Data Firehose, you can ______ or ______ output to S3",
+      "answers": [
+        "compress",
+        "encrypt",
+        "serialize",
+        "parallelize"
+      ],
+      "correctAnswer": ["compress",
+        "encrypt"]
+    }
+  },
+  {
+    "id": "132",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Streaming Data",
+      "questionType": "multiple choice 2",
+      "question": "Kinesis Analytics query can output in either ______ or ______",
+      "answers": [
+        "json",
+        "CSV",
+        "XML",
+        "YAML"
+      ],
+      "correctAnswer": ["json",
+        "CSV"]
+    }
+  }
+]
