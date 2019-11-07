@@ -1,0 +1,676 @@
+[
+  {
+    "id": "133",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which data preparation technique involves converting categorical values into numeric values using mappings and one-hot techniques",
+      "answers": [
+        "categorical encoding",
+        "feature engineering",
+        "handling missing values"
+      ],
+      "correctAnswer": ["categorical encoding"]
+    }
+  },
+  {
+    "id": "134",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which data preparation technique involves transforming features so they are ready for ML algorithms",
+      "answers": [
+        "categorical encoding",
+        "feature engineering",
+        "handling missing values"
+      ],
+      "correctAnswer": ["feature engineering"]
+    }
+  },
+  {
+    "id": "135",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which data preparation technique involves ensuring the relevant features are used for the problem at hand",
+      "answers": [
+        "categorical encoding",
+        "feature engineering",
+        "handling missing values"
+      ],
+      "correctAnswer": ["feature engineering"]
+    }
+  },
+  {
+    "id": "136",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which data preparation technique involves removing incomplete, incorrectly formatted, irrelevant or duplicated data",
+      "answers": [
+        "categorical encoding",
+        "feature engineering",
+        "handling missing values"
+      ],
+      "correctAnswer": ["handling missing values"]
+    }
+  },
+  {
+    "id": "137",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "What is a tool to use for ad-hoc cleaning and transforming?",
+      "answers": [
+        "SageMaker and jupyter notebook",
+        "ETL jobs in AWS Glue",
+        "SparkML",
+        "SageMaker Neo"
+      ],
+      "correctAnswer": ["SageMaker and jupyter notebook"]
+    }
+  },
+  {
+    "id": "138",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "What is a tool to use for reusable transformation and cleaning?",
+      "answers": [
+        "SageMaker and jupyter notebook",
+        "ETL jobs in AWS Glue",
+        "SparkML",
+        "SageMaker Neo"
+      ],
+      "correctAnswer": ["ETL jobs in AWS Glue"]
+    }
+  },
+  {
+    "id": "139",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "The process of manipulating categorical values when ML algorithms expect numerical values as inputs",
+      "answers": [
+        "categorical encoding",
+        "feature engineering",
+        "handling missing values"
+      ],
+      "correctAnswer": ["categorical encoding"]
+    }
+  },
+  {
+    "id": "139",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "A categorical feature is a ______",
+      "answers": [
+        "discrete feature",
+        "indiscreet feature",
+        "continuous feature",
+        "numerical feature"
+      ],
+      "correctAnswer": ["discrete feature"]
+    }
+  },
+  {
+    "id": "140",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When predicting the price of a home you should use the ______ algorithm and encoding is ______",
+      "answers": [
+        "Linear Regression, necessary",
+        "Naive Bayes, not necessary",
+        "Convolutional Network, necessary",
+        "Convolutional Network, not necessary"
+      ],
+      "correctAnswer": ["Linear Regression, necessary"]
+    }
+  },
+  {
+    "id": "141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When determining whether a given text is about sports or not you should use the ______ algorithm and encoding is ______",
+      "answers": [
+        "Linear Regression, necessary",
+        "Naive Bayes, not necessary",
+        "Convolutional Network, necessary",
+        "Convolutional Network, not necessary"
+      ],
+      "correctAnswer": ["Naive Bayes, not necessary"]
+    }
+  },
+  {
+    "id": "142",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When detecting malignancy is radiology images or not you should use the ______ algorithm and encoding is ______",
+      "answers": [
+        "Linear Regression, necessary",
+        "Naive Bayes, not necessary",
+        "Convolutional Network, necessary",
+        "Convolutional Network, not necessary"
+      ],
+      "correctAnswer": ["Convolutional Network, necessary"]
+    }
+  },
+  {
+    "id": "143",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When using the term ordinal",
+      "answers": [
+        "order matters, for example large > medium > small",
+        "order is immaterial",
+        "order does not matter, for example blue, green, red",
+        "order is random"
+      ],
+      "correctAnswer": ["order matters, for example large > medium > small"]
+    }
+  },
+  {
+    "id": "144",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When using the term nominal",
+      "answers": [
+        "order matters, for example large > medium > small",
+        "order is immaterial",
+        "order does not matter, for example blue, green, red",
+        "order is random"
+      ],
+      "correctAnswer": ["order does not matter, for example blue, green, red"]
+    }
+  },
+  {
+    "id": "145",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When encoding nominal values use ______",
+      "answers": [
+        "one-hot-encoding",
+        "imputation",
+        "binning",
+        "feature splits"
+      ],
+      "correctAnswer": ["one-hot-encoding"]
+    }
+  },
+  {
+    "id": "146",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ transforms nominal categorical features and creates new binary columns for each observation",
+      "answers": [
+        "one-hot-encoding",
+        "imputation",
+        "binning",
+        "feature splits"
+      ],
+      "correctAnswer": ["one-hot-encoding"]
+    }
+  },
+  {
+    "id": "147",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ adds columns to your data set (one for each encoded feature) containing 1s and 0s",
+      "answers": [
+        "one-hot-encoding",
+        "imputation",
+        "binning",
+        "feature splits"
+      ],
+      "correctAnswer": ["one-hot-encoding"]
+    }
+  },
+  {
+    "id": "148",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ is not always a good choice when there are many categories to encode",
+      "answers": [
+        "one-hot-encoding",
+        "imputation",
+        "binning",
+        "feature splits"
+      ],
+      "correctAnswer": ["one-hot-encoding"]
+    }
+  },
+  {
+    "id": "149",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Using techniques like ______ by similarity could create fewer overall categories before encoding",
+      "answers": [
+        "grouping",
+        "imputation",
+        "binning",
+        "feature splits"
+      ],
+      "correctAnswer": ["grouping"]
+    }
+  },
+  {
+    "id": "150",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Mapping ______ to ‘other’ can help reduce the overall number of new columns created",
+      "answers": [
+        "rare values",
+        "repeating",
+        "unique",
+        "common values"
+      ],
+      "correctAnswer": ["rare values"]
+    }
+  },
+  {
+    "id": "151",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique tokenizes raw text and creates a statistical representation of the text",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Bag-of-Words"]
+    }
+  },
+  {
+    "id": "152",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique is an extension of Bag-of-Words which produces groups of words of n size",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["N-Gram"]
+    }
+  },
+  {
+    "id": "153",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique breaks up text by white space into groups of words",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["N-Gram"]
+    }
+  },
+  {
+    "id": "154",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique creates groups of words of size n and outputs every pair of words that includes the first word",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Orthogonal Sparse Bigram (OSB)"]
+    }
+  },
+  {
+    "id": "155",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique creates groups of words that always include the first word",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Orthogonal Sparse Bigram (OSB)"]
+    }
+  },
+  {
+    "id": "156",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique represents how important a word or words are to a given set of text by providing appropriate weights to terms that are common and less common",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Term Frequency-Inverse Document Frequency (tf-idf)"]
+    }
+  },
+  {
+    "id": "157",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text feature engineering technique shows us the popularity of a word or words in text data by making common words like the or and less important",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Term Frequency-Inverse Document Frequency (tf-idf)"]
+    }
+  },
+  {
+    "id": "158",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "When matching phrases in spam emails, use the ______ text transformation",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["N-Gram"]
+    }
+  },
+  {
+    "id": "159",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation makes it easier to compare phrases like click here now or you are a winner?",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["N-Gram"]
+    }
+  },
+  {
+    "id": "160",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 2",
+      "question": "When determining the subject matter of multiple PDFs, use the ______ or ______ text transformation",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Term Frequency-Inverse Document Frequency (tf-idf)",
+      "Orthogonal Sparse Bigram (OSB)"]
+    }
+  },
+  {
+    "id": "161",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation filters less important words in PDFs?",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Term Frequency-Inverse Document Frequency (tf-idf)"]
+    }
+  },
+  {
+    "id": "162",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation helps you find common word combinations repeated throughout PDFs?",
+      "answers": [
+        "Bag-of-Words",
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)"
+      ],
+      "correctAnswer": ["Orthogonal Sparse Bigram (OSB)"]
+    }
+  },
+  {
+    "id": "163",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 2",
+      "question": "To determine the subject matter of multiple PDFs, which of these would you do to find subject of each document?",
+      "answers": [
+        "first use tf-idf to filter out less important words through the PDFs",
+        "then use orthogonal sparse bigram to find common word combinations that are repeated throughout the PDFs",
+        "first use orthogonal sparse bigram to find common word combinations that are repeated throughout the PDFs",
+        "then use tf-idf to filter out less important words through the PDFs"
+      ],
+      "correctAnswer": ["first use tf-idf to filter out less important words through the PDFs",
+        "then use orthogonal sparse bigram to find common word combinations that are repeated throughout the PDFs"]
+    }
+  },
+  {
+    "id": "164",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique creates a new feature from the combination of two or more text or categorical values?",
+      "answers": [
+        "cartesian product transformation",
+        "cartesian tree transformation",
+        "cartesian oval transformation",
+        "cartesian morphism transformation"
+      ],
+      "correctAnswer": ["cartesian product transformation"]
+    }
+  },
+  {
+    "id": "165",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique combines sets of words together?",
+      "answers": [
+        "cartesian product transformation",
+        "cartesian tree transformation",
+        "cartesian oval transformation",
+        "cartesian morphism transformation"
+      ],
+      "correctAnswer": ["cartesian product transformation"]
+    }
+  },
+  {
+    "id": "166",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique splits text by whitespace with a window size of n?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["N-Gram"]
+    }
+  },
+  {
+    "id": "167",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique splits text by keeping first word and uses delimeter with remaining whitespaces between second word with window size n?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["Orthogonal Sparse Bigram (OSB)"]
+    }
+  },
+  {
+    "id": "168",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique helps us determine how important words are within multiple documents?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["Term Frequency-Inverse Document Frequency (tf-idf)"]
+    }
+  },
+  {
+    "id": "169",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique removes punctuation from text?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["removing punctuation"]
+    }
+  },
+  {
+    "id": "170",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique lowercase all words in the text?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["lowercase"]
+    }
+  },
+  {
+    "id": "171",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique combines words together to create a new feature?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["cartesian product"]
+    }
+  },
+  {
+    "id": "172",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Which text transformation technique extracts information from dates and creates new features?",
+      "answers": [
+        "N-Gram",
+        "Orthogonal Sparse Bigram (OSB)",
+        "Term Frequency-Inverse Document Frequency (tf-idf)",
+        "removing punctuation",
+        "lowercase",
+        "cartesian product",
+        "feature engineering dates"
+      ],
+      "correctAnswer": ["feature engineering dates"]
+    }
+  }
+]
