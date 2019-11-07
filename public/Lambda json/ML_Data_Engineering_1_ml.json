@@ -288,7 +288,7 @@
     "info": {
       "subcategory": "Data Engineering",
       "questionType": "multiple choice 1",
-      "question": "Mapping ______ to ‘other’ can help reduce the overall number of new columns created",
+      "question": "Mapping ______ to other can help reduce the overall number of new columns created",
       "answers": [
         "rare values",
         "repeating",
@@ -565,7 +565,7 @@
     "info": {
       "subcategory": "Data Engineering",
       "questionType": "multiple choice 1",
-      "question": "Which text transformation technique splits text by keeping first word and uses delimeter with remaining whitespaces between second word with window size n?",
+      "question": "Which text transformation technique splits text by keeping first word and uses delimiter with remaining whitespaces between second word with window size n?",
       "answers": [
         "N-Gram",
         "Orthogonal Sparse Bigram (OSB)",
