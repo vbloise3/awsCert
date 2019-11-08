@@ -5,14 +5,430 @@
     "info": {
       "subcategory": "Exploratory Data Analysis",
       "questionType": "multiple choice 1",
-      "question": "Process and move data between AWS compute services",
+      "question": "Do we want to find important relationships within our data?",
       "answers": [
-        "EMR",
-        "Athena",
-        "Data Pipeline",
-        "Glue"
+        "Relationships",
+        "Comparisons",
+        "Distributions",
+        "Compositions"
       ],
-      "correctAnswer": ["Data Pipeline"]
+      "correctAnswer": ["Relationships"]
+    }
+  },
+  {
+    "id": "212",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Are we comparing different values within our data?",
+      "answers": [
+        "Relationships",
+        "Comparisons",
+        "Distributions",
+        "Compositions"
+      ],
+      "correctAnswer": ["Comparisons"]
+    }
+  },
+  {
+    "id": "213",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Do we want to know more about the distributions of our data?",
+      "answers": [
+        "Relationships",
+        "Comparisons",
+        "Distributions",
+        "Compositions"
+      ],
+      "correctAnswer": ["Distributions"]
+    }
+  },
+  {
+    "id": "214",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Do we want to know what makes up our data?",
+      "answers": [
+        "Relationships",
+        "Comparisons",
+        "Distributions",
+        "Compositions"
+      ],
+      "correctAnswer": ["Compositions"]
+    }
+  },
+  {
+    "id": "215",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 2",
+      "question": "Which are NOT developer tools for visualizing data?",
+      "answers": [
+        "SageMaker",
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "Jupyter notebooks",
+        "R",
+        "Tableau",
+        "Amazon QuickSight"
+      ],
+      "correctAnswer": ["Tableau",
+        "Amazon QuickSight"]
+    }
+  },
+  {
+    "id": "216",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 2",
+      "question": "Which are business intelligence tools for visualizing data?",
+      "answers": [
+        "SageMaker",
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "Jupyter notebooks",
+        "R",
+        "Tableau",
+        "Amazon QuickSight"
+      ],
+      "correctAnswer": ["Tableau",
+        "Amazon QuickSight"]
+    }
+  },
+  {
+    "id": "217",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "These graphs plot points along the x and y axis for two values",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  },
+  {
+    "id": "218",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "These graphs plot points along the x and y axis for three values, bubble size is the third value",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Bubble plots"]
+    }
+  },
+  {
+    "id": "219",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Is there any relationship between the size of a home and the price?",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  },
+  {
+    "id": "220",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Can use ______ to show positive correlation (lower left diagonal to upper right), negative correlation (upper left diagonal to lower right), or no correlation (all over the place)",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  },
+  {
+    "id": "221",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Are there any relationships between the size of a home, the age of the home, and the price",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Bubble plots"]
+    }
+  },
+  {
+    "id": "222",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "______ are graphs that use lines (bars) to mark single variable values",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Bar charts"]
+    }
+  },
+  {
+    "id": "223",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "______ are graphs that use lines to show one or more variables changing over time",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Line charts"]
+    }
+  },
+  {
+    "id": "224",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Comparing the number of star ratings for a mobile application in the app store",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Bar charts"]
+    }
+  },
+  {
+    "id": "225",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Plotting the price of bitcoin over the past 3 years",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Line charts"]
+    }
+  },
+  {
+    "id": "226",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "These graphs put values into buckets or bins and determine a measurement (amount, frequency, duration, density, etc.)",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Histograms"]
+    }
+  },
+  {
+    "id": "227",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "You can see things like the lowest and highest values, outliers, and where most of the values fall",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Box plots"]
+    }
+  },
+  {
+    "id": "228",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Show the top quartile (max line to top of box: 75th percentile), middle quartile (the box: 50th percentile), and bottom quartile (min line to bottom of box 25th percentile)",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Box plots"]
+    }
+  },
+  {
+    "id": "229",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Aka candlestick charts",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Box plots"]
+    }
+  },
+  {
+    "id": "230",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Can show clustering and distribution of your data",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  },
+  {
+    "id": "231",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 2",
+      "question": "Showing the distribution of test scores for a given exam",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Histograms",
+        "Box plots"]
+    }
+  },
+  {
+    "id": "232",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Showing the return on investment (ROI) for the amount of money spent and the total time invested",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  },
+  {
+    "id": "233",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Showing the return on investment (ROI) for the amount of money spent and the total time invested",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
     }
   }
 ]

@@ -150,7 +150,7 @@
     "info": {
       "subcategory": "Data Engineering",
       "questionType": "multiple choice 1",
-      "question": "Rescales values from 0 to 1 but doesn’t handle outliers very well",
+      "question": "Rescales values from 0 to 1 but does not handle outliers very well",
       "answers": [
         "Binning",
         "Normalization",
