@@ -431,7 +431,7 @@
     "info": {
       "subcategory": "Modeling",
       "questionType": "multiple choice 1",
-      "question": "Use this algorithm with a number or list of numbers which yields some other number … the answer you are after. You can use it to predict a specific value or a threshold for a grouping process",
+      "question": "Use this algorithm with a number or list of numbers which yields some other number, the answer you are after. You can use it to predict a specific value or a threshold for a grouping process",
       "answers": [
         "Linear Learner",
         "Factorization Machines",
@@ -482,7 +482,7 @@
     "info": {
       "subcategory": "Modeling",
       "questionType": "multiple choice 1",
-      "question": "Use a number or a list of numbers which yields some other number … the answer you are after. You can use it to predict a specific value or a threshold for placing into one of two groups. It is a good choice when you have holes in your data.",
+      "question": "Use a number or a list of numbers which yields some other number, the answer you are after. You can use it to predict a specific value or a threshold for placing into one of two groups. It is a good choice when you have holes in your data.",
       "answers": [
         "Linear Learner",
         "Factorization Machines",

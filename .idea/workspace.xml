@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6165">
-              <caret line="411" column="40" lean-forward="true" selection-start-line="411" selection-start-column="40" selection-end-line="411" selection-end-column="40" />
+              <caret line="411" column="40" selection-start-line="411" selection-start-column="40" selection-end-line="411" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,8 @@
       <file leaf-file-name="ML_Modeling_1_ml.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Modeling_1_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="1059" column="63" selection-start-line="1059" selection-start-column="63" selection-end-line="1059" selection-end-column="63" />
+            <state relative-caret-position="-1974">
+              <caret line="484" column="84" selection-start-line="484" selection-start-column="84" selection-end-line="484" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -256,12 +256,12 @@
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
-      <workItem from="1573001792875" duration="18019000" />
+      <workItem from="1573001792875" duration="18740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293723000" />
+    <option name="totallyTimeSpent" value="294444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="996" extended-state="0" />
@@ -342,17 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6165">
-          <caret line="411" column="40" lean-forward="true" selection-start-line="411" selection-start-column="40" selection-end-line="411" selection-end-column="40" />
+          <caret line="411" column="40" selection-start-line="411" selection-start-column="40" selection-end-line="411" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -363,10 +356,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Modeling_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="1059" column="63" selection-start-line="1059" selection-start-column="63" selection-end-line="1059" selection-end-column="63" />
+        <state relative-caret-position="-1974">
+          <caret line="484" column="84" selection-start-line="484" selection-start-column="84" selection-end-line="484" selection-end-column="84" />
         </state>
       </provider>
     </entry>
