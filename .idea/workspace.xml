@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_2_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +25,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ML_Data_Engineering_1_ml.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ML_Data_Engineering_1_ml.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-785">
-              <caret line="290" column="42" lean-forward="true" selection-start-line="290" selection-start-column="42" selection-end-line="290" selection-end-column="42" />
+            <state relative-caret-position="448">
+              <caret line="674" column="3" lean-forward="true" selection-start-line="656" selection-start-column="2" selection-end-line="674" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ML_Data_Engineering_2_ml.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_2_ml.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="615" column="3" lean-forward="true" selection-start-line="600" selection-start-column="2" selection-end-line="615" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ML_Exploratory_Data_Analysis_1_ml.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="64" column="61" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="61" />
+            <state relative-caret-position="319">
+              <caret line="71" column="70" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -61,8 +82,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Streaming_Data_1_ml.json" />
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_2_ml.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json" />
+        <option value="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" />
       </list>
     </option>
   </component>
@@ -226,37 +249,37 @@
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
-      <workItem from="1573001792875" duration="9976000" />
+      <workItem from="1573001792875" duration="13344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285680000" />
+    <option name="totallyTimeSpent" value="289048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32925472" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="TypeScript" order="2" weight="0.32925472" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
+      <window_info anchor="right" id="R Packages" order="2" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,17 +328,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="64" column="61" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="61" />
+        <state relative-caret-position="448">
+          <caret line="674" column="3" lean-forward="true" selection-start-line="656" selection-start-column="2" selection-end-line="674" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_1_ml.json">
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Engineering_2_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785">
-          <caret line="290" column="42" lean-forward="true" selection-start-line="290" selection-start-column="42" selection-end-line="290" selection-end-column="42" />
+        <state relative-caret-position="448">
+          <caret line="615" column="3" lean-forward="true" selection-start-line="600" selection-start-column="2" selection-end-line="615" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Exploratory_Data_Analysis_1_ml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="71" column="70" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
         </state>
       </provider>
     </entry>

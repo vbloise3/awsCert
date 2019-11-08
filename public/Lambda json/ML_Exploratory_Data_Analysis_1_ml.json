@@ -1,0 +1,18 @@
+[
+  {
+    "id": "211",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Exploratory Data Analysis",
+      "questionType": "multiple choice 1",
+      "question": "Process and move data between AWS compute services",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  }
+]

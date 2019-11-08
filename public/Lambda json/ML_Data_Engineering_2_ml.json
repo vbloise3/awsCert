@@ -1,0 +1,617 @@
+[
+  {
+    "id": "173",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Changes numeric values so all values are on the same scale",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Feature Scaling"]
+    }
+  },
+  {
+    "id": "174",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 2",
+      "question": "What are ways to change numeric values so all values are on the same scale",
+      "answers": [
+        "Normalization",
+        "Standardization",
+        "Binning",
+        "Polarization"
+      ],
+      "correctAnswer": ["Normalization",
+        "Standardization"]
+    }
+  },
+  {
+    "id": "175",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Changes numeric values into groups or buckets of similar values",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Binning"]
+    }
+  },
+  {
+    "id": "176",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ aims to assign the same number of features to each bin",
+      "answers": [
+        "Quantile Binning",
+        "Binning",
+        "Quantitative Binning",
+        "Qualitative Binning"
+      ],
+      "correctAnswer": ["Quantile Binning"]
+    }
+  },
+  {
+    "id": "177",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Scaling = Feature Scaling = ______",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Normalization"]
+    }
+  },
+  {
+    "id": "178",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Outliers can throw off ______",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Normalization"]
+    }
+  },
+  {
+    "id": "179",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Helps smooth outliers",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Standardization"]
+    }
+  },
+  {
+    "id": "180",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Average value at 0 and other values scaled by their z-score",
+      "answers": [
+        "Feature Scaling",
+        "Binning",
+        "Normalization",
+        "Standardization"
+      ],
+      "correctAnswer": ["Standardization"]
+    }
+  },
+  {
+    "id": "181",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ is required for many algorithms like linear/non-linear regression, clustering, neural networks, and more",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Scaling Features"]
+    }
+  },
+  {
+    "id": "182",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Rescales values from 0 to 1 but doesn’t handle outliers very well",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Normalization"]
+    }
+  },
+  {
+    "id": "183",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Rescales values by making the values of each feature in the data have zero mean and is much less affected by outliers",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Standardization"]
+    }
+  },
+  {
+    "id": "184",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Grouping things by equal parts",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Quantile Binning",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Quantile Binning"]
+    }
+  },
+  {
+    "id": "185",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ is used to group together values to reduce the effects of minor observations",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Quantile Binning",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Binning"]
+    }
+  },
+  {
+    "id": "186",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "From 0 to 1, 0 - minimum value, 1 - maximum value",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Quantile Binning",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Normalization"]
+    }
+  },
+  {
+    "id": "187",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "0 is the average, value is the z-score",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Quantile Binning",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Standardization"]
+    }
+  },
+  {
+    "id": "188",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Creates equal number of bins",
+      "answers": [
+        "Binning",
+        "Normalization",
+        "Quantile Binning",
+        "Standardization",
+        "Scaling Features"
+      ],
+      "correctAnswer": ["Quantile Binning"]
+    }
+  },
+  {
+    "id": "189",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data",
+      "answers": [
+        "Missing at Random (MAR)",
+        "Missing Completely at Ransom (MCAR)",
+        "Missing not at Random (MNAR)"
+      ],
+      "correctAnswer": ["Missing at Random (MAR)"]
+    }
+  },
+  {
+    "id": "190",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "The fact that a certain value is missing has nothing to do with its hypothetical value and with the values of other variables",
+      "answers": [
+        "Missing at Random (MAR)",
+        "Missing Completely at Ransom (MCAR)",
+        "Missing not at Random (MNAR)"
+      ],
+      "correctAnswer": ["Missing Completely at Ransom (MCAR)"]
+    }
+  },
+  {
+    "id": "191",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Two possible reasons are that the missing value depends on the hypothetical value or missing value is dependent on some other variables value",
+      "answers": [
+        "Missing at Random (MAR)",
+        "Missing Completely at Ransom (MCAR)",
+        "Missing not at Random (MNAR)"
+      ],
+      "correctAnswer": ["Missing not at Random (MNAR)"]
+    }
+  },
+  {
+    "id": "192",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "You can use ______ to handle missing values which predicts missing values based on the values of other features",
+      "answers": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Semi-supervised learning",
+        "Reinforcement learning"
+      ],
+      "correctAnswer": ["Supervised learning"]
+    }
+  },
+  {
+    "id": "193",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "You can use ______, the average value, to handle missing values",
+      "answers": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Mean"]
+    }
+  },
+  {
+    "id": "194",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "You can use ______, orders values then chooses the value in the middle, to handle missing values",
+      "answers": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Median"]
+    }
+  },
+  {
+    "id": "195",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "You can use ______, the most common value, to handle missing values",
+      "answers": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Mode"]
+    }
+  },
+  {
+    "id": "196",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "You can use ______, which removes missing values, to handle missing values",
+      "answers": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Dropping rows"]
+    }
+  },
+  {
+    "id": "197",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ is the most difficult way to handle missing values but may yield best results",
+      "answers": [
+        "Supervised learning",
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Supervised learning"]
+    }
+  },
+  {
+    "id": "198",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 3",
+      "question": "______ are the quick and easy ways to handle missing values but results may vary",
+      "answers": [
+        "Supervised learning",
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Mean",
+        "Median",
+        "Mode"]
+    }
+  },
+  {
+    "id": "199",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "______ is the easiest way to handle missing values but can dramatically change datasets",
+      "answers": [
+        "Supervised learning",
+        "Mean",
+        "Median",
+        "Mode",
+        "Dropping rows"
+      ],
+      "correctAnswer": ["Dropping rows"]
+    }
+  },
+  {
+    "id": "200",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "An unsupervised learning algorithm that reduces the number of features while still retaining as much information as possible",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning"
+      ],
+      "correctAnswer": ["Principal Component Analysis (PCA)"]
+    }
+  },
+  {
+    "id": "201",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Reduces the total number of features in a dataset",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning",
+        "Feature Selection"
+      ],
+      "correctAnswer": ["Principal Component Analysis (PCA)"]
+    }
+  },
+  {
+    "id": "202",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Data is too large due to the large number of features",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning",
+        "Feature Selection"
+      ],
+      "correctAnswer": ["Principal Component Analysis (PCA)"]
+    }
+  },
+  {
+    "id": "203",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Algorithm that reduces total number of features",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning",
+        "Feature Selection"
+      ],
+      "correctAnswer": ["Principal Component Analysis (PCA)"]
+    }
+  },
+  {
+    "id": "204",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Remove useless features that do not help solve the ML problem",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning",
+        "Feature Selection"
+      ],
+      "correctAnswer": ["Feature Selection"]
+    }
+  },
+  {
+    "id": "205",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Remove features that do not help solve the ML problem",
+      "answers": [
+        "Supervised learning",
+        "Principal Component Analysis (PCA)",
+        "Semi-supervised learning",
+        "Feature Selection"
+      ],
+      "correctAnswer": ["Feature Selection"]
+    }
+  },
+  {
+    "id": "206",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Useful when transforming huge datasets - petabytes",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["EMR"]
+    }
+  },
+  {
+    "id": "207",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Can run the entire machine learning process within ______",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["EMR"]
+    }
+  },
+  {
+    "id": "208",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Run sql queries on S3 data",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["Athena"]
+    }
+  },
+  {
+    "id": "209",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Process and move data between AWS compute services",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  },
+  {
+    "id": "210",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Data Engineering",
+      "questionType": "multiple choice 1",
+      "question": "Process and move data between AWS compute services",
+      "answers": [
+        "EMR",
+        "Athena",
+        "Data Pipeline",
+        "Glue"
+      ],
+      "correctAnswer": ["Data Pipeline"]
+    }
+  }
+]
