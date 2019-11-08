@@ -1,0 +1,21 @@
+[
+  {
+    "id": "234",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Showing the return on investment (ROI) for the amount of money spent and the total time invested",
+      "answers": [
+        "Scatter plots",
+        "Bubble plots",
+        "Bar charts",
+        "Line charts",
+        "Distributions",
+        "Histograms",
+        "Box plots"
+      ],
+      "correctAnswer": ["Scatter plots"]
+    }
+  }
+]
