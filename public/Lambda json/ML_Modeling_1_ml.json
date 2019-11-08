@@ -5,17 +5,1088 @@
     "info": {
       "subcategory": "Modeling",
       "questionType": "multiple choice 1",
-      "question": "Showing the return on investment (ROI) for the amount of money spent and the total time invested",
+      "question": "A(n) ______ generalizes or creates generalizations",
       "answers": [
-        "Scatter plots",
-        "Bubble plots",
-        "Bar charts",
-        "Line charts",
-        "Distributions",
-        "Histograms",
-        "Box plots"
+        "model",
+        "algorithm",
+        "inference",
+        "transformation"
       ],
-      "correctAnswer": ["Scatter plots"]
+      "correctAnswer": ["model"]
+    }
+  },
+  {
+    "id": "235",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using discrete data in supervised learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["classification"]
+    }
+  },
+  {
+    "id": "236",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using discrete data in unsupervised learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["clustering"]
+    }
+  },
+  {
+    "id": "237",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using discrete data in reinforcement learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["simulation-based optimization"]
+    }
+  },
+  {
+    "id": "238",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using continuous data in supervised learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["regression"]
+    }
+  },
+  {
+    "id": "239",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using continuous data in unsupervised learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["reduction of dimensionality"]
+    }
+  },
+  {
+    "id": "240",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "If you are using continuous data in reinforcement learning",
+      "answers": [
+        "classification",
+        "clustering",
+        "simulation-based optimization",
+        "regression",
+        "reduction of dimensionality",
+        "autonomous devices"
+      ],
+      "correctAnswer": ["autonomous devices"]
+    }
+  },
+  {
+    "id": "241",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Detect whether a financial transaction is fraudulent",
+      "answers": [
+        "Binary Classification",
+        "Heuristic Approach (No ML needed)",
+        "Simulation-based Reinforcement Learning",
+        "Multi-class Classification"
+      ],
+      "correctAnswer": ["Binary Classification"]
+    }
+  },
+  {
+    "id": "242",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Predict the rate of deceleration of a car when the brakes are applied",
+      "answers": [
+        "Binary Classification",
+        "Heuristic Approach (No ML needed)",
+        "Simulation-based Reinforcement Learning",
+        "Multi-class Classification"
+      ],
+      "correctAnswer": ["Heuristic Approach (No ML needed)"]
+    }
+  },
+  {
+    "id": "243",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Determine the most efficient path of surface travel for a robotic lunar rover",
+      "answers": [
+        "Binary Classification",
+        "Heuristic Approach (No ML needed)",
+        "Simulation-based Reinforcement Learning",
+        "Multi-class Classification"
+      ],
+      "correctAnswer": ["Simulation-based Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "244",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Determine the breed of dog in a photograph",
+      "answers": [
+        "Binary Classification",
+        "Heuristic Approach (No ML needed)",
+        "Simulation-based Reinforcement Learning",
+        "Multi-class Classification"
+      ],
+      "correctAnswer": ["Multi-class Classification"]
+    }
+  },
+  {
+    "id": "245",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 4",
+      "question": "Cascade these tasks: Remove outliers; Identify relevant attributes; Cluster into groups; Predict basket size",
+      "answers": [
+        "Random-cut forest",
+        "Principal Component Analysis (PCA)",
+        "K-Means",
+        "Linear Learner",
+        "K-Nearest-Neighbor",
+        "XGBoost",
+        "K-Fold Cross-Validation"
+      ],
+      "correctAnswer": ["Random-cut forest",
+        "Principal Component Analysis (PCA)",
+        "K-Means",
+        "Linear Learner"]
+    }
+  },
+  {
+    "id": "246",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which of these is not a step in the K-Fold Cross-Validation process?",
+      "answers": [
+        "Determine how many times are you going to fold the data",
+        "Train on each fold",
+        "Then look at the error rates of each round",
+        "If the error rates of each round are roughly the same then we are fairly confident that the data is well randomized",
+        "If the error rates are not relatively the same, then the data is not as randomized as we thought",
+        "Train on groups of folds"
+      ],
+      "correctAnswer": ["Train on groups of folds"]
+    }
+  },
+  {
+    "id": "247",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 4",
+      "question": "To submit jobs to SageMaker there are 4 different options",
+      "answers": [
+        "SageMaker console",
+        "Jupyter notebooks",
+        "SageMaker SDK",
+        "Apache Spark",
+        "Glue Crawler",
+        "EMR Query Cluster"
+      ],
+      "correctAnswer": ["SageMaker console",
+        "Jupyter notebooks",
+        "SageMaker SDK",
+        "Apache Spark"]
+    }
+  },
+  {
+    "id": "248",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 2",
+      "question": "Most SageMaker algorithms accept CSV that should have these two properties",
+      "answers": [
+        "The target value should be in the first column with no header",
+        "The target value should be in the first column with a header",
+        "The metadata Content-Type is identified as text/csv in S3",
+        "The metadata Content-Type is identified as protobuf-io in S3",
+        "The metadata Content-Type is identified as text/json in S3"
+      ],
+      "correctAnswer": ["The target value should be in the first column with no header",
+        "The metadata Content-Type is identified as text/csv in S3"]
+    }
+  },
+  {
+    "id": "249",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "For unsupervised algorithms we specify the absence of labels by",
+      "answers": [
+        "The metadata Content-type is identified as text/csv;label_size=0",
+        "The metadata Content-type is identified as text/csv;label_size=1",
+        "The metadata Content-Type is identified as text/json;label_size=0"
+      ],
+      "correctAnswer": ["The metadata Content-type is identified as text/csv;label_size=0"]
+    }
+  },
+  {
+    "id": "250",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Using this format we can take advantage of Pipe mode",
+      "answers": [
+        "protobuf recordIO format",
+        "protobuf format",
+        "text/csv",
+        "text/json"
+      ],
+      "correctAnswer": ["protobuf recordIO format"]
+    }
+  },
+  {
+    "id": "251",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Values set before the learning process",
+      "answers": [
+        "hyperparameter",
+        "parameter",
+        "argv",
+        "argument"
+      ],
+      "correctAnswer": ["hyperparameter"]
+    }
+  },
+  {
+    "id": "252",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Values derived via the learning process",
+      "answers": [
+        "hyperparameter",
+        "parameter",
+        "argv",
+        "argument"
+      ],
+      "correctAnswer": ["parameter"]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Math oriented processor types on a performance capability line: most performant",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["ASIC"]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Math oriented processor types on a performance capability line: second most performant",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["GPU"]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Math oriented processor types on a performance capability line: third most performant",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["FPGA"]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Math oriented processor types on a performance capability line: least performant",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["CPU"]
+    }
+  },
+  {
+    "id": "254",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "XGBoost can only be used with a ______; it is optimized for ______s",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["CPU"]
+    }
+  },
+  {
+    "id": "255",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "XGBoost can only be used with a ______; it is optimized for ______s",
+      "answers": [
+        "ASIC",
+        "GPU",
+        "FPGA",
+        "CPU"
+      ],
+      "correctAnswer": ["CPU"]
+    }
+  },
+  {
+    "id": "256",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use this algorithm with a number or list of numbers which yields some other number … the answer you are after. You can use it to predict a specific value or a threshold for a grouping process",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Linear Learner"]
+    }
+  },
+  {
+    "id": "257",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Adjusts to minimize error",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Linear Learner"]
+    }
+  },
+  {
+    "id": "258",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Captures interaction between features with high dimensional sparse data sets",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "259",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use a number or a list of numbers which yields some other number … the answer you are after. You can use it to predict a specific value or a threshold for placing into one of two groups. It is a good choice when you have holes in your data.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "260",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Only analyzes the relationships of two pairs of features at a time",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "261",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Does not support CSV",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "262",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Does not work for multiclass problems, only works for binary classification or regression",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "263",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Because of the sparseness of the data, the algorithm needs lots of data, between 10,000 and 10,000,000 observations",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "264",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "CPUs work better for this algorithm",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "265",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Do not perform well on dense data",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "266",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised algorithm that attempts to find discrete groupings within data, where members of a group are as similar as possible to one another and as different as possible from members of other groups.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "267",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "The Euclidean distance between these points represents the similarity of the corresponding observations",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "268",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Takes in a list of things with attributes. You specify which attributes indicate similarity and the algorithm will attempt to group them together such that they are with other similar things. Similarity is calculated based on the distance between the identifying attributes.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "269",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Expects tabular data",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "270",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Rows represent the observations that you want to cluster and columns represent attributes of the observations",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "271",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You must know enough about the data set to propose attributes that will define similarity. If you have no idea, there are ways around this as well.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "272",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "CPU instances recommended, GPU instances can be used but can only use 1 GPU",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "273",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You define number of Features and Clusters",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "274",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You must define the number of features for the algorithm to analyze and the number of clusters you want.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["K-means"]
+    }
+  },
+  {
+    "id": "275",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "An index-based, non-parametric method for classification or regression.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "276",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "For classification, the algorithm queries the k points that are closest to the sample point and returns the most frequently used label as the predicted label.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "277",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "For regression, the algorithm queries the k closest points to the sample point and returns the average of the feature values as the predicted value.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "278",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Predicts the value or classification based on that which you are closest. It can be used to classify or to predict a value (average value of nearest neighbors).",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "279",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "______ is a lazy algorithm",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "280",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Does not use training data points to generalize but rather uses them to figure out who is nearby",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "281",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "The training data stays in memory",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "282",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Does not learn but rather uses the training dataset to decide on similar samples",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "283",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can be used for these use cases: credit ratings, product recommendations, redlining",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["k-Nearest Neighbor"]
+    }
+  },
+  {
+    "id": "283",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Uses a convolutional neural network (RestNet) that can be trained from scratch or make use of transfer learning.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm"
+      ],
+      "correctAnswer": ["Image Classification algorithm"]
+    }
+  },
+  {
+    "id": "284",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Detects specific objects in an image and assigns a classification with a confidence score.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Object Detection"]
+    }
+  },
+  {
+    "id": "285",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Uses bounding boxes",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Object Detection"]
+    }
+  },
+  {
+    "id": "286",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Low level analysis of individual pixels and identifies shapes within an image",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "287",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Uses edge detection",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "288",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Accepts a png file as input",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "289",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You can submit files for training or inference in uncompressed PNG format",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "290",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Only supports GPU instances for training, due to heavy computational power required, GPU instances must be used for training",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "291",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can deploy on either CPU or GPU instances, after training is done, model artifacts are output to S3. The model can be deployed as an endpoint with either CPU or GPU instances.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "292",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can deploy on either CPU or GPU instances, after training is done, model artifacts are output to S3. The model can be deployed as an endpoint with either CPU or GPU instances.",
+      "answers": [
+        "Linear Learner",
+        "Factorization Machines",
+        "K-means",
+        "k-Nearest Neighbor",
+        "Image Classification algorithm",
+        "Object Detection",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
     }
   }
 ]
