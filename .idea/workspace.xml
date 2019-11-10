@@ -34,8 +34,8 @@
       <file leaf-file-name="ML_Data_Collection_3_ml.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Collection_3_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="496" column="46" lean-forward="true" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
+            <state relative-caret-position="403">
+              <caret line="1128" column="22" selection-start-line="1128" selection-start-column="22" selection-end-line="1128" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="62" column="74" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="74" />
+            <state relative-caret-position="387">
+              <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -60,8 +60,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'</find>
       <find>8.2.5</find>
+      <find>'</find>
     </findStrings>
     <replaceStrings>
       <replace>8.2.13</replace>
@@ -244,12 +244,12 @@
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
-      <workItem from="1573001792875" duration="24959000" />
+      <workItem from="1573001792875" duration="30244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300663000" />
+    <option name="totallyTimeSpent" value="305948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="996" extended-state="0" />
@@ -360,15 +360,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="62" column="74" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="74" />
+        <state relative-caret-position="387">
+          <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Data_Collection_3_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="496" column="46" lean-forward="true" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
+        <state relative-caret-position="403">
+          <caret line="1128" column="22" selection-start-line="1128" selection-start-column="22" selection-end-line="1128" selection-end-column="22" />
         </state>
       </provider>
     </entry>
