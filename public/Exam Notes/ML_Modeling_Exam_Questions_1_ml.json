@@ -1,0 +1,290 @@
+[
+  {
+    "id": "358",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Detect anomalous data points within a set, like spikes in time series data, breaks in periodicity or unclassifiable points",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "359",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Useful way to find outliers when it is not feasible to plot graphically",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "360",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "______ is designed to work with n-dimensional input",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "361",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Find occurrences in the data that are significantly beyond normal (usually more than 3 standard deviations) that could mess up your model training",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "362",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Gives an anomaly score to data points where a low score indicates the data point is normal and a high score indicates an anomaly",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "363",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Scales well with respect to number of features, data set size and number of instances",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "364",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Does not benefit from GPU, AWS recommends using normal compute instances (ml.m4, ml.m5)",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "365",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Quality control use case: Analyze an audio test pattern played by a high-end speaker system for any unusual frequencies",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "366",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Fraud detection use case: If a financial transaction occurs for an unusual amount, unusual time, or from an unusual place, flag the transaction for a closer look",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["Random Cut Forest"]
+    }
+  },
+  {
+    "id": "367",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Learns usage patterns for IPv4 addresses by capturing associations between IP addresses and various entities such as user IDs or account numbers",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "368",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can potentially flag odd online behavior that might require a closer look",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "369",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Ingests Entity/IP address pairs, historic data can be used to learn baseline patterns",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "370",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Returns inferences via a score, when queried, the model will return a score that indicates how anomalous the entity/IP address combination is, based on the baseline",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "371",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Uses a neural network to learn latent vector representations for entities and IP addresses (learns patterns)",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "372",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Generally, GPUs are recommended for training but if the dataset is large, distributed CPU instances might be more cost effective",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "373",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "CPUs recommended for inference, does not require costly GPUs for normal inference activities",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "374",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Tiered authentication model use case: if a user tries to log into a website from an anomalous IP address, you might dynamically trigger an additional two-factor authentication routine",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "375",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Fraud detection use case: on a banking website, only permit certain activities if the IP address is unusual for a given user login",
+      "answers": [
+        "Random Cut Forest",
+        "IP Insights",
+        "Image Analysis",
+        "Semantic Segmentation"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  }
+]
