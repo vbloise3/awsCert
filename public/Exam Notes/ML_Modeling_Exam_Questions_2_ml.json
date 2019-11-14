@@ -1,0 +1,597 @@
+[
+  {
+    "id": "376",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised learning algorithm that attempts to describe a set of observations as a mixture of distinct categories",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "377",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Most commonly used to discover a user-specified number of topics shared by documents within a text corpus",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "378",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "With this algorithm each observation is a document, the features are the presence (or occurrence count) of each word, and the categories are the topics",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "379",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Used to figure out how similar documents are based on the frequency of similar words",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "380",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Article recommendation: recommended articles on similar topics which you might read or rated in the past",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "381",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Musical influence modeling: Explore which musical artists over time were truly innovative and those who were influenced by those innovators",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "382",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised learning algorithm that is used to organize a corpus of documents into topics that contain word groupings based on their statistical distribution",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Neural Topic Model"]
+    }
+  },
+  {
+    "id": "383",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can be used to classify or summarize documents based on the topics detected or to retrieve information or recommend content based on topic similarities",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Neural Topic Model"]
+    }
+  },
+  {
+    "id": "384",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning algorithm where the input is a sequence of tokens (for example text, audio) and the output generated is another sequence of tokens",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "385",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Think a language translation engine that can take in some text and predict what that text might be in another language",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "386",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Must supply training data and vocabulary",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "387",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Steps consist of embedding, encoding and decoding - using a neural network model (RNN and CNN), the algorithm uses layers for embedding, encoding, and decoding into the target",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "388",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Commonly initialized with pre-trained word libraries - a standard practice is initializing the embedding layer with a pre-trained word vector like FastText or Glove or to initialize it randomly and learn the parameters during training",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "389",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Only GPU instances are supported - Currently Amazon SageMaker ______ is only supported on GPU instance types and is only set up to train on a single machine. But it does also offer support for multiple GPUs",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "390",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Language translation: Using a vocabulary, predict the translation of a sentence into another language",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "391",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Speech text: Given an audio vocabulary, predict the textual representation of spoken words",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Sequence to sequence"]
+    }
+  },
+  {
+    "id": "392",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Supervised and Unsupervised algorithm - highly optimized implementations of the Word2Vec and text classification algorithms",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "393",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "The ______ algorithm is useful for many downstream natural language processing (NLP) tasks, such as sentiment analysis, named entity recognition, machine translation etc",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "394",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Really, really optimized way to determine contextual semantic relationships between words in a body of text",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "395",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Two modes: Word2Vec: unsupervised; Text Classification: supervised",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "396",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Expects single pre-processed text file - Each line in the file should contain a single sentence",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "397",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Expects single pre-processed text file - If you need to train on multiple text files, concatenate them into one file and upload it in the respective channel",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "398",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Highly scalable - Improves on traditional Word2Vec algorithm by supporting scale-out for multiple CPU instances",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "399",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Highly scalable - FastText classifier can leverage GPU acceleration",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "400",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Around 20x faster than FastText - Supports pre-trained FastText models but also can perform training about 20x faster than FastText",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "401",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Sentiment analysis: Evaluate customer comments in social media posts to evaluate whether they have a positive or negative sentiment (Encapsulated in Comprehend)",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "402",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Document classification: Review a large collection of documents and detect whether the document should be classified as containing sensitive data like personal information or trade secrets (Encapsulated in Macie)",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Blazing text"]
+    }
+  },
+  {
+    "id": "403",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning algorithm - General-purpose neural network embedding algorithm that can learn low-dimensional dense embeddings of high-dimensional objects while preserving the semantics of the relationship between the pairs in the original embedding space",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "404",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "A way to map out things in a d-dimensional space to figure out how similar they might be to one another",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "405",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Expects pairs of things - Looking for pairs of items whether they are positive or negative from a relationship standpoint",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "406",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Expects pairs of things - Accepts categorical labels or rating/score-based labels",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "407",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Feature engineering - Embedding can be used for downstream supervised tasks like classification or regression",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "408",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Training data required - Officially, ______ requires labeled data for training, but there are ways to generate the relationship labels from natural clustering",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "409",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Movie Rating Prediction: Predict the rating a person is likely to give a movie based on similarity to other’s movie ratings",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "410",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Document Classification: Determine which genre a book is based on its similarity to known genres (history, thriller, biography, etc.)",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  }
+]

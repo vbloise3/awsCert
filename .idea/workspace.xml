@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_1_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_2_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ML_Modeling_Exam_Questions_1_ml.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_1_ml.json">
+      <file leaf-file-name="ML_Modeling_Exam_Questions_2_ml.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_2_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="279" column="74" selection-start-line="279" selection-start-column="74" selection-end-line="279" selection-end-column="74" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -44,10 +44,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>8.2.5</find>
-      <find>'</find>
       <find>%</find>
       <find>hello cloud</find>
       <find>n-gram</find>
+      <find>'</find>
     </findStrings>
     <replaceStrings>
       <replace>8.2.13</replace>
@@ -69,6 +69,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Data_Collection_3_ml.json" />
         <option value="$PROJECT_DIR$/public/Exam Notes/ML_Exam_Questions_1_ml.json" />
         <option value="$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_1_ml.json" />
+        <option value="$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_2_ml.json" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <path value="$PROJECT_DIR$/awsCertUi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="996" />
@@ -232,23 +233,24 @@
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
-      <workItem from="1573001792875" duration="35216000" />
+      <workItem from="1573001792875" duration="37765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310920000" />
+    <option name="totallyTimeSpent" value="313469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="996" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="996" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="TypeScript" order="2" weight="0.32925472" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
       <window_info anchor="right" id="R Packages" order="2" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="0" />
@@ -373,8 +375,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="279" column="74" selection-start-line="279" selection-start-column="74" selection-end-line="279" selection-end-column="74" />
+        <state relative-caret-position="448">
+          <caret line="288" column="3" lean-forward="true" selection-start-line="273" selection-start-column="2" selection-end-line="288" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Exam Notes/ML_Modeling_Exam_Questions_2_ml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
