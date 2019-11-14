@@ -566,7 +566,7 @@
     "info": {
       "subcategory": "Modeling",
       "questionType": "multiple choice 1",
-      "question": "Use case - Movie Rating Prediction: Predict the rating a person is likely to give a movie based on similarity to other’s movie ratings",
+      "question": "Use case - Movie Rating Prediction: Predict the rating a person is likely to give a movie based on similarity to others movie ratings",
       "answers": [
         "Latent Dirichlet Allocation (LDA)",
         "Neural Topic Model",

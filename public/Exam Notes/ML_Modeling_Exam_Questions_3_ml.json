@@ -1,0 +1,325 @@
+[
+  {
+    "id": "411",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning forecasting algorithm for scalar time series using recurrent neural networks (RNN)",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "412",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning technique that attempts to learn a strategy, called a policy, that optimizes for an agent acting in an environment",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "413",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Well suited for solving problems where an agent can make autonomous decisions",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "414",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Find the path to the greatest reward",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "415",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Autonomous vehicles - a self-driving car can learn to stay on the road through iterations of trial and error in a simulation. Once the model is good enough, it can be tested in a real vehicle on a test track.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "416",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case - Intelligent HVAC control - an RL model can learn patterns and routines of building occupants, impact of sunlight as it transitions across the sky and equipment efficiency to optimize temperature control for lowest energy consumption",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["Reinforcement Learning"]
+    }
+  },
+  {
+    "id": "417",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Outperforms standard autoregressive integrated moving average (ARIMA) and exponential smoothing (ETS) by training a single model over multiple time series as opposed to each individual time series.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "418",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Can predict both point-in-time values and estimated values over a timeframe by using multiple sets of historic data.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "419",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Two types of forecasts: Point forecast: number of sneakers sold in a week is X, and Probabilistic forecast: Number of sneakers sold in a week is between X and Y with Z% probability",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "420",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Support for various time series - Time series can be numbers, counts, or values in an interval (such as temperature readings between 0 and 100)",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "421",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "More time series are better - Recommend training a model on as many time series as are available.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "422",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "More time series are better - really shines with hundreds of related time series.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "423",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Must supply at least 300 observations - requires a minimum number of observations across all time series",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "424",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You must supply some hyperparameters - Context length, epochs, prediction length, and time frequency are required hyperparameters",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "425",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Automatic evaluation of the model - Uses a backtest after training to evaluate the accuracy of the model automatically",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "426",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case: Forecasting new product performance - incorporate historical data from other products to create a model that can predict performance of a newly released product.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "427",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Use case: Predict labor needs for special events - use labor utilization rates at other distribution centers to predict the required level of staffing for a brand new distribution center.",
+      "answers": [
+        "Latent Dirichlet Allocation (LDA)",
+        "Neural Topic Model",
+        "Sequence to sequence",
+        "Blazing text",
+        "Object2Vec",
+        "DeepAR",
+        "Reinforcement Learning"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  }
+]
