@@ -1,1 +1,1 @@
-aws dynamodb scan --table-name CDAQandA --region us-west-2 --filter-expression "info.question = :v1" --expression-attribute-values file://expression-attributes.json
+aws dynamodb scan --table-name CMLQandA --region us-west-2 --filter-expression "info.subcategory = :v1" --expression-attribute-values file://expression-attributes.json
