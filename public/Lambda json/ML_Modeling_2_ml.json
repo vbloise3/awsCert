@@ -5,7 +5,7 @@
     "info": {
       "subcategory": "Modeling",
       "questionType": "multiple choice 3",
-      "question": "When evaluating your model, what are the steps?",
+      "question": "When evaluating your model, what are the three steps?",
       "answers": [
         "Define evaluation",
         "Evaluate",
@@ -17,6 +17,234 @@
       "correctAnswer": ["Define evaluation",
         "Evaluate",
         "Tune"]
+    }
+  },
+  {
+    "id": "454",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which of these describe the task of defining the evaluation of your model?",
+      "answers": [
+        "Decide what metric or metrics we should use to decide if the algorithm is good enough",
+        "Review the metrics during or after the training process. This might be manual or automatic, depending on the algorithm",
+        "Adjust the hyperparameters, data, the evaluation strategy or even the entire algorithm to bring us closer to the desired results",
+        "Validation done using test sets of data",
+        "Validation under real world conditions"
+      ],
+      "correctAnswer": ["Decide what metric or metrics we should use to decide if the algorithm is good enough"]
+    }
+  },
+  {
+    "id": "455",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which of these describe the task of evaluating your model?",
+      "answers": [
+        "Decide what metric or metrics we should use to decide if the algorithm is good enough",
+        "Review the metrics during or after the training process. This might be manual or automatic, depending on the algorithm",
+        "Adjust the hyperparameters, data, the evaluation strategy or even the entire algorithm to bring us closer to the desired results",
+        "Validation done using test sets of data",
+        "Validation under real world conditions"
+      ],
+      "correctAnswer": ["Review the metrics during or after the training process. This might be manual or automatic, depending on the algorithm"]
+    }
+  },
+  {
+    "id": "456",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which of these describe the task of tuning your model?",
+      "answers": [
+        "Decide what metric or metrics we should use to decide if the algorithm is good enough",
+        "Review the metrics during or after the training process. This might be manual or automatic, depending on the algorithm",
+        "Adjust the hyperparameters, data, the evaluation strategy or even the entire algorithm to bring us closer to the desired results",
+        "Validation done using test sets of data",
+        "Validation under real world conditions"
+      ],
+      "correctAnswer": ["Adjust the hyperparameters, data, the evaluation strategy or even the entire algorithm to bring us closer to the desired results"]
+    }
+  },
+  {
+    "id": "457",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which type of validation is done using test sets of data?",
+      "answers": [
+        "Offline validation",
+        "Online validation",
+        "Recursive validation",
+        "Reinforcement validation"
+      ],
+      "correctAnswer": ["Offline validation"]
+    }
+  },
+  {
+    "id": "458",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which type of validation is under real world conditions?",
+      "answers": [
+        "Offline validation",
+        "Online validation",
+        "Recursive validation",
+        "Reinforcement validation"
+      ],
+      "correctAnswer": ["Online validation"]
+    }
+  },
+  {
+    "id": "459",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which is an example of online validation?",
+      "answers": [
+        "validation sets and K-Fold validation",
+        "canary deployments or A/B testing",
+        "fail-over testing",
+        "hyperparameter tuning"
+      ],
+      "correctAnswer": ["canary deployments or A/B testing"]
+    }
+  },
+  {
+    "id": "460",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which is an example of offline validation?",
+      "answers": [
+        "validation sets and K-Fold validation",
+        "canary deployments or A/B testing",
+        "fail-over testing",
+        "hyperparameter tuning"
+      ],
+      "correctAnswer": ["validation sets and K-Fold validation"]
+    }
+  },
+  {
+    "id": "462",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 2",
+      "question": "Which describe underfitting?",
+      "answers": [
+        "Your model is not very reflective of the underlying data shape",
+        "May need more variables to help train the model and achieve a better fit",
+        "The model is too dependent on the specific data that we used to train",
+        "When the model sees new data, accuracy will likely be poor unless the data is identical to the training data",
+        "The algorithm has been trained to memorize rather than generalize"
+      ],
+      "correctAnswer": ["Your model is not very reflective of the underlying data shape",
+        "May need more variables to help train the model and achieve a better fit"]
+    }
+  },
+  {
+    "id": "463",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "Which describe overfitting?",
+      "answers": [
+        "Your model is not very reflective of the underlying data shape",
+        "May need more variables to help train the model and achieve a better fit",
+        "The model is too dependent on the specific data that we used to train",
+        "When the model sees new data, accuracy will likely be poor unless the data is identical to the training data",
+        "The algorithm has been trained to memorize rather than generalize"
+      ],
+      "correctAnswer": ["The model is too dependent on the specific data that we used to train",
+        "When the model sees new data, accuracy will likely be poor unless the data is identical to the training data",
+        "The algorithm has been trained to memorize rather than generalize"]
+    }
+  },
+  {
+    "id": "464",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "Which are ways to prevent underfitting?",
+      "answers": [
+        "Sometimes more data will provide enough additional entropy to steer the algorithm away from ______.",
+        "Train longer, the algorithm needs more iterations with the data to minimize error.",
+        "Early stopping, terminate the training process before it has the chance to over train. Many algorithms include this option as a hyperparameter",
+        "Sprinkle in some noise, training data could be too clean so you might need to introduce some noise to generalize the model.",
+        "Regularization forces the model to be more general by creating constraints around weights or smoothing the input data",
+        "Ensembles, combine different models together to either amplify individual weaker models (boosting) or smooth out strong models (bagging)",
+        "Remove some features, aka feature selection; too many irrelevant features can influence the model in a negative way by drowning out the signal with noise"
+      ],
+      "correctAnswer": ["Sometimes more data will provide enough additional entropy to steer the algorithm away from ______.",
+        "Train longer, the algorithm needs more iterations with the data to minimize error."]
+    }
+  },
+  {
+    "id": "464",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 6",
+      "question": "Which are ways to prevent underfitting?",
+      "answers": [
+        "Sometimes more data will provide enough additional entropy to steer the algorithm away from ______.",
+        "Train longer, the algorithm needs more iterations with the data to minimize error.",
+        "Early stopping, terminate the training process before it has the chance to over train. Many algorithms include this option as a hyperparameter",
+        "Sprinkle in some noise, training data could be too clean so you might need to introduce some noise to generalize the model.",
+        "Regularization forces the model to be more general by creating constraints around weights or smoothing the input data",
+        "Ensembles, combine different models together to either amplify individual weaker models (boosting) or smooth out strong models (bagging)",
+        "Remove some features, aka feature selection; too many irrelevant features can influence the model in a negative way by drowning out the signal with noise"
+      ],
+      "correctAnswer": ["Sometimes more data will provide enough additional entropy to steer the algorithm away from ______.",
+        "Early stopping, terminate the training process before it has the chance to over train. Many algorithms include this option as a hyperparameter",
+        "Sprinkle in some noise, training data could be too clean so you might need to introduce some noise to generalize the model.",
+        "Regularization forces the model to be more general by creating constraints around weights or smoothing the input data",
+        "Ensembles, combine different models together to either amplify individual weaker models (boosting) or smooth out strong models (bagging)",
+        "Remove some features, aka feature selection; too many irrelevant features can influence the model in a negative way by drowning out the signal with noise"]
+    }
+  },
+  {
+    "id": "465",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Which of these represents an overfitting situation?",
+      "answers": [
+        "Training error: low; Testing error: low",
+        "Training error: low; Testing error: high",
+        "Training error: high; Testing error: high",
+        "Training error: high; Testing error: low"
+      ],
+      "correctAnswer": ["Training error: low; Testing: high"]
+    }
+  },
+  {
+    "id": "466",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "A measure of the distance between an actual observation and predicted value. Lower ______ is better",
+      "answers": [
+        "Root Mean Square Error (RMSE)",
+        "Mean Squared Error (MSE)",
+        "Mean Absolute Error (MAE)",
+        "Mean Average Precision (MAP)"
+      ],
+      "correctAnswer": ["Root Mean Square Error (RMSE)"]
     }
   }
 ]
