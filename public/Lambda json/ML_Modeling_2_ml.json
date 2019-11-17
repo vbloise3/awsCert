@@ -379,5 +379,53 @@
         "Feature processing: Provide additional quality variables or refine the existing variables so they are more representative.",
         "Model parameter tuning: Adjust the hyperparameters used by your training algorithm"]
     }
+  },
+  {
+    "id": "475",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Regression accuracy is measured by ______",
+      "answers": [
+        "Root Mean Square Error (RMSE)",
+        "Mean Squared Error (MSE)",
+        "Mean Absolute Error (MAE)",
+        "Mean Average Precision (MAP)"
+      ],
+      "correctAnswer": ["Root Mean Square Error (RMSE)"]
+    }
+  },
+  {
+    "id": "476",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "For binary clasification, you want your AUC to be closer to ______ because this means your model is more accurate",
+      "answers": [
+        "1",
+        "0",
+        "10",
+        "infinity"
+      ],
+      "correctAnswer": ["1"]
+    }
+  },
+  {
+    "id": "477",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "What is the macro-averaged F1-score?",
+      "answers": [
+        "an arithmetic mean of the per-class F1-scores",
+        "an arithmetic mode of the per-class F1-scores",
+        "an arithmetic max of the per-class F1-scores",
+        "an arithmetic min of the per-class F1-scores"
+      ],
+      "correctAnswer": ["an arithmetic mean of the per-class F1-scores"]
+    }
   }
 ]
