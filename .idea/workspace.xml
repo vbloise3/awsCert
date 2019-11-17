@@ -25,8 +25,8 @@
       <file leaf-file-name="ML_Modeling_2_ml.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Modeling_2_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
+            <state relative-caret-position="433">
+              <caret line="379" column="92" selection-start-line="379" selection-start-column="92" selection-end-line="379" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -217,12 +217,12 @@
       <workItem from="1570496246343" duration="3820000" />
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
-      <workItem from="1573001792875" duration="45757000" />
+      <workItem from="1573001792875" duration="47344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321461000" />
+    <option name="totallyTimeSpent" value="323048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="996" extended-state="6" />
@@ -232,9 +232,9 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="TypeScript" order="2" weight="0.32925472" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
       <window_info anchor="right" id="R Packages" order="2" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="0" />
@@ -423,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Modeling_2_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
+        <state relative-caret-position="433">
+          <caret line="379" column="92" selection-start-line="379" selection-start-column="92" selection-end-line="379" selection-end-column="92" />
         </state>
       </provider>
     </entry>

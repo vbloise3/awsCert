@@ -246,5 +246,138 @@
       ],
       "correctAnswer": ["Root Mean Square Error (RMSE)"]
     }
+  },
+  {
+    "id": "467",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Binary classification Type 1 error",
+      "answers": [
+        "false positive",
+        "false negative",
+        "true negative",
+        "true positive"
+      ],
+      "correctAnswer": ["false positive"]
+    }
+  },
+  {
+    "id": "468",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "Binary classification Type 2 error",
+      "answers": [
+        "false positive",
+        "false negative",
+        "true negative",
+        "true positive"
+      ],
+      "correctAnswer": ["false negative"]
+    }
+  },
+  {
+    "id": "469",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "What is the formula for Recall",
+      "answers": [
+        "true positive/(true positive + false negative)",
+        "true positive/(true positive + false positive)",
+        "(2 * (precision * recall))/(precision + recall)",
+        "true negative/(true negative + false negative)"
+      ],
+      "correctAnswer": ["true positive/(true positive + false negative)"]
+    }
+  },
+  {
+    "id": "470",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "What is the formula for Precision",
+      "answers": [
+        "true positive/(true positive + false negative)",
+        "true positive/(true positive + false positive)",
+        "(2 * (precision * recall))/(precision + recall)",
+        "true negative/(true negative + false negative)"
+      ],
+      "correctAnswer": ["true positive/(true positive + false positive)"]
+    }
+  },
+  {
+    "id": "471",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "What is the formula for F1",
+      "answers": [
+        "true positive/(true positive + false negative)",
+        "true positive/(true positive + false positive)",
+        "(2 * (precision * recall))/(precision + recall)",
+        "true negative/(true negative + false negative)"
+      ],
+      "correctAnswer": ["(2 * (precision * recall))/(precision + recall)"]
+    }
+  },
+  {
+    "id": "472",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "As recall ______, precision ______",
+      "answers": [
+        "increases, decreases",
+        "decreases, increases",
+        "increases, increases",
+        "decreases, decreases"
+      ],
+      "correctAnswer": ["increases, decreases"]
+    }
+  },
+  {
+    "id": "473",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "F1 score: the balance between precision and recall. A ______ value indicates better predictive accuracy",
+      "answers": [
+        "larger",
+        "smaller",
+        "zero",
+        "negative",
+        "positive"
+      ],
+      "correctAnswer": ["larger"]
+    }
+  },
+  {
+    "id": "474",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "With multiclass classification, how do you increase model accuracy?",
+      "answers": [
+        "Collect data: Increase the number of training examples available to the model. More good data usually means a more accurate model.",
+        "Feature processing: Provide additional quality variables or refine the existing variables so they are more representative.",
+        "Model parameter tuning: Adjust the hyperparameters used by your training algorithm",
+        "Model parameter tuning: Adjust the hyperparameters used by your inference algorithm",
+        "Feature processing: Provide additional quality observations or refine the existing observations so they are more representative.",
+        "Collect data: Increase the number of inference examples available to the model. More good data usually means a more accurate model."
+      ],
+      "correctAnswer": ["Collect data: Increase the number of training examples available to the model. More good data usually means a more accurate model.",
+        "Feature processing: Provide additional quality variables or refine the existing variables so they are more representative.",
+        "Model parameter tuning: Adjust the hyperparameters used by your training algorithm"]
+    }
   }
 ]
