@@ -427,5 +427,254 @@
       ],
       "correctAnswer": ["an arithmetic mean of the per-class F1-scores"]
     }
+  },
+  {
+    "id": "478",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "Which of the following metrics are recommended for tuning a Linear Learner model so that we can help avoid overfitting? (Choose 3)",
+      "answers": [
+        "test:precision",
+        "validation:recall",
+        "test:objective_loss",
+        "validation:objective_loss",
+        "test:recall",
+        "validation:precision"
+      ],
+      "correctAnswer": ["validation:recall",
+        "validation:objective_loss",
+        "validation:precision"]
+    }
+  },
+  {
+    "id": "479",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "After training and validation sessions, we notice that the error rate is higher than we want for both sessions. What might we do? (Choose 3)",
+      "answers": [
+        "Run a random cut forest algorithm on the data.",
+        "Run training for a longer period of time.",
+        "Encode the data using Laminar Flow Step-up.",
+        "Gather more data for our training process.",
+        "Reduce the dimensions of the data.",
+        "Add more variables to the dataset."
+      ],
+      "correctAnswer": ["Run training for a longer period of time.",
+        "Gather more data for our training process.",
+        "Add more variables to the dataset."]
+    }
+  },
+  {
+    "id": "480",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You are preparing for a first training run using a custom algorithm that you have prepared in a docker container. What should you do to ensure that the training metrics are visible to CloudWatch?",
+      "answers": [
+        "Create a Lambda function to scrape the logs in the custom algorithm container and deposit them into CloudWatch via API.",
+        "Enable CloudTrail for the respective container to capture the relevant training metrics from the custom algorithm.",
+        "When defining the training job, ensure that the metric_definitions section is populated with relevant metrics from the stdout and stderr streams in the container.",
+        "Enable Kinesis Streams to capture the log stream emitting from the custom algorithm containers.",
+        "Do nothing. SageMaker will automatically parse training logs for custom algorithms and carry those over to CloudWatch."
+      ],
+      "correctAnswer": ["Do nothing. SageMaker will automatically parse training logs for custom algorithms and carry those over to CloudWatch."]
+    }
+  },
+  {
+    "id": "481",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You are preparing for a first training run using a custom algorithm that you have prepared in a docker container. What should you do to ensure that the training metrics are visible to CloudWatch?",
+      "answers": [
+        "Create a Lambda function to scrape the logs in the custom algorithm container and deposit them into CloudWatch via API.",
+        "Enable CloudTrail for the respective container to capture the relevant training metrics from the custom algorithm.",
+        "When defining the training job, ensure that the metric_definitions section is populated with relevant metrics from the stdout and stderr streams in the container.",
+        "Enable Kinesis Streams to capture the log stream emitting from the custom algorithm containers.",
+        "Do nothing. SageMaker will automatically parse training logs for custom algorithms and carry those over to CloudWatch."
+      ],
+      "correctAnswer": ["When defining the training job, ensure that the metric_definitions section is populated with relevant metrics from the stdout and stderr streams in the container."]
+    }
+  },
+  {
+    "id": "482",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "In your first training job of a regression problem, you observe an RMSE of 3.4. You make some adjustments and run the training job again, which results in an RMSE of 2.2. What can you conclude from this?",
+      "answers": [
+        "The adjustments had no effect on your model accuracy.",
+        "The adjustments improved your model recall.",
+        "The adjustments made your model recall worse.",
+        "The adjustments made your model accuracy worse.",
+        "The adjustments improved your model accuracy."
+      ],
+      "correctAnswer": ["The adjustments improved your model accuracy."]
+    }
+  },
+  {
+    "id": "483",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 3",
+      "question": "After training and validation sessions, we notice that the accuracy rate for training is acceptable but the accuracy rate for validation is very poor. What might we do? (Choose 3)",
+      "answers": [
+        "Reduce dimensionality.",
+        "Add an early stop.",
+        "Gather more data for our training process.",
+        "Run training for a longer period of time.",
+        "Encode the data using Laminar Flow Step-up.",
+        "Increase the learning rate."
+      ],
+      "correctAnswer": ["Reduce dimensionality.",
+        "Add an early stop.",
+        "Gather more data for our training process."]
+    }
+  },
+  {
+    "id": "484",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "A colleague is preparing for their very first training job using the XGBoost algorithm. They ask you how they can ensure that training metrics are captured during the training job. How do you direct them?",
+      "answers": [
+        "Enable CloudWatch logging for Jupyter Notebook and the IAM user.",
+        "Do nothing. Sagemakers built-in algorithms are already configured to send training metrics to CloudTrail.",
+        "Do nothing. Sagemakers built-in algorithms are already configured to send training metrics to CloudWatch.",
+        "Enable CloudTrail logging for the SageMaker API service.",
+        "Do nothing. Use SageMakers built-in logging to DynamoDB Streams.",
+        "Do nothing. Use SageMakers built-in logging feature and view the logs using Quicksight."
+      ],
+      "correctAnswer": ["Do nothing. Sagemakers built-in algorithms are already configured to send training metrics to CloudWatch."]
+    }
+  },
+  {
+    "id": "485",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "We want to perform automatic model tuning on our linear learner model. We have chosen the tunable hyperparameter we want to use. What is our next step?",
+      "answers": [
+        "Submit the tuning job via the console or CLI.",
+        "Decide what hyperparameter we want SageMaker to tune in the tuning process.",
+        "Choose a target objective metric we want SageMaker to use in the tuning process.",
+        "Enable CloudTrail logging for the SageMaker API service.",
+        "Choose a range of values which SageMaker will sweep through during the tuning process."
+      ],
+      "correctAnswer": ["Choose a range of values which SageMaker will sweep through during the tuning process."]
+    }
+  },
+  {
+    "id": "486",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "After multiple training runs, you notice that the the loss function settles on different but similar values. You believe that there is potential to improve the model through adjusting hyperparameters. What might you try next?",
+      "answers": [
+        "Increase the learning rate.",
+        "Decrease the objective rate.",
+        "Decrease the learning rate.",
+        "Change to another algorithm.",
+        "Change from a CPU instances to a GPU instance."
+      ],
+      "correctAnswer": ["Decrease the learning rate."]
+    }
+  },
+  {
+    "id": "487",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "In a regression problem, if we plot the residuals in a histogram and observe a distribution heavily skewed to the right of zero indicating mostly positive residuals, what does this mean?",
+      "answers": [
+        "Our model is consistent underestimating.",
+        "Our model is sufficient with regard to RMSE.",
+        "Our model is sufficient with regard to aggregate residual.",
+        "Our model is consistently overestimating."
+      ],
+      "correctAnswer": ["Our model is consistent underestimating."]
+    }
+  },
+  {
+    "id": "488",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "In a binary classification problem, you observe that precision is poor. Which of the following most contribute to poor precision?",
+      "answers": [
+        "Type IV Error",
+        "Type III Error",
+        "Type V Error",
+        "Type II Error",
+        "Type I Error"
+      ],
+      "correctAnswer": ["Type I Error"]
+    }
+  },
+  {
+    "id": "489",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 2",
+      "question": "In your first training job of a binary classification problem, you observe an F1 score of 0.996. You make some adjustments and rerun the training job again, which results in an F1 score of 0.034. What can you conclude from this? (Choose 2)",
+      "answers": [
+        "Our accuracy has decreased.",
+        "The adjustments drastically improved our model.",
+        "The adjustments drastically worsened our model.",
+        "Our RMSE has improved greatly.",
+        "Nothing can be concluded from an F1 score by itself."
+      ],
+      "correctAnswer": ["The adjustments drastically worsened our model.",
+        "Our accuracy has decreased."]
+    }
+  },
+  {
+    "id": "490",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "We have just completed a validation job for a multi-class classification model that attempts to classify books into one of five genres. In reviewing the validation metrics, we observe a Macro Average F1 score of 0.28 with one genre, historic fiction, having an F1 score of 0.9. What can we conclude from this?",
+      "answers": [
+        "We must have a very high Type II error rate.",
+        "We might try a linear regression model instead of a multi-class classification.",
+        "We cannot conclude anything for certain with just an F1 score.",
+        "Our training data might be biased toward historic fiction and lacking in examples of other genres.",
+        "Our model is very poor at predicting historic fiction but quite good at the other genres given the Macro F1 Score."
+      ],
+      "correctAnswer": ["Our training data might be biased toward historic fiction and lacking in examples of other genres."]
+    }
+  },
+  {
+    "id": "491",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 2",
+      "question": "You are designing a testing plan for an update release of your companys mission critical loan approval model. Due to regulatory compliance, it is critical that the updates are not used in production until regression testing has shown that the updates perform as good as the existing model. Which validation strategy would you choose? (Choose 2)",
+      "answers": [
+        "Use a rolling upgrade to determine if the model is ready for production.",
+        "Use an A/B test to expose the updates to real-world traffic.",
+        "Use a canary deployment to collect data on whether the model is ready for production.",
+        "Use a K-Fold validation method.",
+        "Make use of backtesting with historic data."
+      ],
+      "correctAnswer": ["Use a K-Fold validation method.",
+        "Make use of backtesting with historic data."]
+    }
   }
 ]
