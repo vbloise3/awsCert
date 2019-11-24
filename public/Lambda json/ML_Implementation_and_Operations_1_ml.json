@@ -4,17 +4,576 @@
     "category": "Cloud Concepts",
     "info": {
       "subcategory": "ML Implementation and Operations",
-      "questionType": "multiple choice 1",
-      "question": "You are designing a testing plan for an update release of your companys mission critical loan approval model. Due to regulatory compliance, it is critical that the updates are not used in production until regression testing has shown that the updates perform as good as the existing model. Which validation strategy would you choose? (Choose 2)",
+      "questionType": "multiple choice 2",
+      "question": "SageMaker deployments have two types of usage (select 2)",
       "answers": [
-        "Use a rolling upgrade to determine if the model is ready for production.",
-        "Use an A/B test to expose the updates to real-world traffic.",
-        "Use a canary deployment to collect data on whether the model is ready for production.",
-        "Use a K-Fold validation method.",
-        "Make use of backtesting with historic data."
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
       ],
-      "correctAnswer": ["Use a K-Fold validation method.",
-        "Make use of backtesting with historic data."]
+      "correctAnswer": ["Offline usage",
+        "Online usage"]
+    }
+  },
+  {
+    "id": "493",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Make inferences on datasets in batch and return results as a set",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Offline usage"]
+    }
+  },
+  {
+    "id": "494",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Entire dataset is needed for inferences; pre-process data before using as an input for another model",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Offline usage"]
+    }
+  },
+  {
+    "id": "495",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Used for predictive models with large historic dataset inputs",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Offline usage"]
+    }
+  },
+  {
+    "id": "496",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Used for feature engineering for a follow-on model",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Offline usage"]
+    }
+  },
+  {
+    "id": "497",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Make inferences on demand as the model is called and return results immediately",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Online usage"]
+    }
+  },
+  {
+    "id": "498",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Need instance response when endpoint is called via an app or service",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Online usage"]
+    }
+  },
+  {
+    "id": "499",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Used for real-time fraud detection",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Online usage"]
+    }
+  },
+  {
+    "id": "500",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Used for autonomous machines",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Online usage"]
+    }
+  },
+  {
+    "id": "501",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 3",
+      "question": "The 3 types of ML deployments (Choose 3)",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Big bang",
+        "Phased rollout",
+        "Parallel adoption"]
+    }
+  },
+  {
+    "id": "502",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Short time, High risk, Cost: function(Risk, Time)",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Big bang"]
+    }
+  },
+  {
+    "id": "503",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Long time, Low risk, Cost: function(Risk, Time)",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Phased rollout"]
+    }
+  },
+  {
+    "id": "504",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Longest time, Low risk, Cost: function(Risk, Time)",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Parallel adoption"]
+    }
+  },
+  {
+    "id": "505",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Sometimes risk is amplified due to concurrency such as data synchronization issues, multiple processes, temporary integrations, etc",
+      "answers": [
+        "Offline usage",
+        "Online usage",
+        "Big bang",
+        "Phased rollout",
+        "Parallel adoption"
+      ],
+      "correctAnswer": ["Parallel adoption"]
+    }
+  },
+  {
+    "id": "506",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Natural Language Processing service",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Comprehend"]
+    }
+  },
+  {
+    "id": "507",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Combines time-series data with other variables to deliver highly accurate forecasts (DeepAR)",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Forecast"]
+    }
+  },
+  {
+    "id": "508",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Build conversational interfaces that can understand the intent and context of natural speech",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Lex"]
+    }
+  },
+  {
+    "id": "509",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Create a customer service chatbot to automatically handle routine requests",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Lex"]
+    }
+  },
+  {
+    "id": "510",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Recommendation engine as a service based on demographic and behavioral data",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Personalize"]
+    }
+  },
+  {
+    "id": "511",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Provide potential upsell products at checkout during a web transaction",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Personalize"]
+    }
+  },
+  {
+    "id": "512",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Text-to-Speech service supporting multiple languages, accents and voices",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Polly"]
+    }
+  },
+  {
+    "id": "513",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Provide dynamically generated personalized voice response for inbound callers",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Polly"]
+    }
+  },
+  {
+    "id": "514",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Image and video analysis to parse and recognize objects, people, activities, and facial expressions",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Rekognition"]
+    }
+  },
+  {
+    "id": "515",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Provide an additional form of employee authentication through facial recognition as they scan an access badge",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Rekognition"]
+    }
+  },
+  {
+    "id": "516",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Extract text, content and metadata from scanned documents",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Textrack"]
+    }
+  },
+  {
+    "id": "517",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Automatically digitize and process physical paper forms",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Textrack"]
+    }
+  },
+  {
+    "id": "518",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Speech-to-Text as a service",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Transcribe"]
+    }
+  },
+  {
+    "id": "519",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Automatically create transcripts of recorded presentations",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Transcribe"]
+    }
+  },
+  {
+    "id": "520",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Translate text to and from many different languages",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Translate"]
+    }
+  },
+  {
+    "id": "521",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Dynamically create localized web content for users based on their geography",
+      "answers": [
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon Lex",
+        "Amazon Personalize",
+        "Amazon Polly",
+        "Amazon Rekognition",
+        "Amazon Textrack",
+        "Amazon Transcribe",
+        "Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Translate"]
     }
   }
 ]
