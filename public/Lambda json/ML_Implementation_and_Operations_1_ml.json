@@ -3,8 +3,8 @@
     "id": "492",
     "category": "Cloud Concepts",
     "info": {
-      "subcategory": "Modeling",
-      "questionType": "multiple choice 2",
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
       "question": "You are designing a testing plan for an update release of your companys mission critical loan approval model. Due to regulatory compliance, it is critical that the updates are not used in production until regression testing has shown that the updates perform as good as the existing model. Which validation strategy would you choose? (Choose 2)",
       "answers": [
         "Use a rolling upgrade to determine if the model is ready for production.",
