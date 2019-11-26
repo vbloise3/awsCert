@@ -1,0 +1,445 @@
+[
+  {
+    "id": "522",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "What is the method used for offline usage of a SageMaker model",
+      "answers": [
+        "Batch Transform",
+        "Hosting Services",
+        "Endpoint Configuration",
+        "Inference Pipeline"
+      ],
+      "correctAnswer": ["Batch Transform"]
+    }
+  },
+  {
+    "id": "523",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "What is the method used for online usage of a SageMaker model",
+      "answers": [
+        "Batch Transform",
+        "Hosting Services",
+        "Endpoint Configuration",
+        "Inference Pipeline"
+      ],
+      "correctAnswer": ["Hosting Services"]
+    }
+  },
+  {
+    "id": "524",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "What is the output format of online usage of a SageMaker model",
+      "answers": [
+        "JSON string",
+        "YAML string",
+        "Varies depending on algorithm",
+        "protobuf"
+      ],
+      "correctAnswer": ["JSON string"]
+    }
+  },
+  {
+    "id": "525",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 3",
+      "question": "What the three SageMaker Hosting Services steps (Select 3)",
+      "answers": [
+        "Create a model",
+        "Create an endpoint configuration",
+        "Create an endpoint",
+        "Create an Elastic Interface",
+        "Create an Autosmatic Scaling Group"
+      ],
+      "correctAnswer": ["Create a model",
+        "Create an endpoint configuration",
+        "Create an endpoint"]
+    }
+  },
+  {
+    "id": "526",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "This is the inference engine that will provide predictions for your endpoint",
+      "answers": [
+        "Model",
+        "Endpoint Configuration",
+        "Endpoint",
+        "Elastic Interface",
+        "Automatic Scaling Group"
+      ],
+      "correctAnswer": ["Model"]
+    }
+  },
+  {
+    "id": "527",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Defines the model to use, inference type, instance count, variant name and weight. Also called a production variant",
+      "answers": [
+        "Model",
+        "Endpoint Configuration",
+        "Endpoint",
+        "Elastic Interface",
+        "Automatic Scaling Group"
+      ],
+      "correctAnswer": ["Endpoint Configuration"]
+    }
+  },
+  {
+    "id": "528",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Publishes the model via the endpoint configuration to be called by the SageMaker API InvokeEndpoint() method",
+      "answers": [
+        "Model",
+        "Endpoint Configuration",
+        "Endpoint",
+        "Elastic Interface",
+        "Automatic Scaling Group"
+      ],
+      "correctAnswer": ["Endpoint"]
+    }
+  },
+  {
+    "id": "529",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "With endpoint configuration, this controls the amount of traffic going to a particular production variant",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Initial Weight"]
+    }
+  },
+  {
+    "id": "530",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Percent of traffic = (Variant weight)/(Sum of all weights)",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Initial Weight"]
+    }
+  },
+  {
+    "id": "531",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "A SageMaker model composed of a sequence of two to five containers which can pass data as a flow. These can be built-in algorithms or your own custom algorithms in docker containers",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Inference pipeline"]
+    }
+  },
+  {
+    "id": "532",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Can be used for both real-time inference and batch transform",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Inference pipeline"]
+    }
+  },
+  {
+    "id": "533",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "All containers deployed to the same EC2 instance for local speed",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Inference pipeline"]
+    }
+  },
+  {
+    "id": "534",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Enables a simplified way to optimize machine learning models for a variety of computing architectures such as ARM, Intel, and nVidia processors",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["SageMaker Neo"]
+    }
+  },
+  {
+    "id": "535",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Consists of a compiler to convert the machine learning model into an optimized binary and a runtime to execute the model on the target architecture",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["SageMaker Neo"]
+    }
+  },
+  {
+    "id": "536",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Speeds up throughput and decreases latency of real-time inferences deployed on SageMaker Hosting Services using only CPU-based instances but much more cost-effective than a full GPU instance",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Elastic Interface"]
+    }
+  },
+  {
+    "id": "537",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Must be configured when you create a deployable mode and its EI is not available for all algorithms yet",
+      "answers": [
+        "Initial Weight",
+        "Inference pipeline",
+        "SageMaker Neo",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Elastic Interface"]
+    }
+  },
+  {
+    "id": "538",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Dynamically add and remove instances to a production variant based on changes in workload",
+      "answers": [
+        "Automatic Scaling",
+        "Cooldown period",
+        "High Availability",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Automatic Scaling"]
+    }
+  },
+  {
+    "id": "539",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You define and apply a scaling policy that uses a CloudWatch metric and target value such as InvocationsPerInstance",
+      "answers": [
+        "Automatic Scaling",
+        "Cooldown period",
+        "High Availability",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Automatic Scaling"]
+    }
+  },
+  {
+    "id": "540",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Provide our landscape with a chance to stabilize before adding or removing instances",
+      "answers": [
+        "Automatic Scaling",
+        "Cooldown period",
+        "High Availability",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["Cooldown period"]
+    }
+  },
+  {
+    "id": "541",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Use the InstanceCount Endpoint Configuration variable set to 2 or greater to get SageMaker to deploy your container host to more than one AZ",
+      "answers": [
+        "Automatic Scaling",
+        "Cooldown period",
+        "High Availability",
+        "Elastic Interface"
+      ],
+      "correctAnswer": ["High Availability"]
+    }
+  },
+  {
+    "id": "542",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 4",
+      "question": "Other ways to deploy SageMaker models for inference (Select 4)",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises"]
+    }
+  },
+  {
+    "id": "543",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Other ways to deploy SageMaker models for inference: Use Spark to deploy to ______",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["EMR cluster"]
+    }
+  },
+  {
+    "id": "544",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Other ways to deploy SageMaker models for inference: Use existing Spark pipelines for pre-processing data",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["EMR cluster"]
+    }
+  },
+  {
+    "id": "545",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Other ways to deploy SageMaker models for inference: Potentially more cost-effective for non-GPU workloads",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["EMR cluster"]
+    }
+  },
+  {
+    "id": "546",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Other ways to deploy SageMaker models for inference: Leverage existing Hadoop landscape and resources",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["EMR cluster"]
+    }
+  },
+  {
+    "id": "547",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Other ways to deploy SageMaker models for inference: used with Mxnet and TensorFlow",
+      "answers": [
+        "ECS",
+        "EC2",
+        "EMR cluster",
+        "On-Premises",
+        "Lambda",
+        "Elastic Beanstalk",
+        "CloudFormation"
+      ],
+      "correctAnswer": ["On-Premises"]
+    }
+  }
+]
