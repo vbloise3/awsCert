@@ -1,0 +1,180 @@
+[
+  {
+    "id": "557",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Which captures a wide variety of metrics?",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "stderr",
+        "stdout"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "558",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Which captures endpoint invocation, endpoint instance, training, transformation and Ground Truth metrics available in addition to algorithmic-specific metrics?",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "stderr",
+        "stdout"
+      ],
+      "correctAnswer": ["CloudWatch"]
+    }
+  },
+  {
+    "id": "559",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch most SageMaker-specific metrics are available at ______ frequency for quick reactions",
+      "answers": [
+        "1-minute",
+        "5-minute",
+        "10-minute",
+        "1-hour"
+      ],
+      "correctAnswer": ["1-minute"]
+    }
+  },
+  {
+    "id": "560",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch statistics are kept for ______ to provide plenty of historical information on model performance and trends",
+      "answers": [
+        "15 months",
+        "15 minutes",
+        "1 month",
+        "5 months"
+      ],
+      "correctAnswer": ["15 months"]
+    }
+  },
+  {
+    "id": "561",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch metrics have a ______ on the console",
+      "answers": [
+        "2 week limit",
+        "1 week limit",
+        "2 day limit",
+        "1 day limit"
+      ],
+      "correctAnswer": ["2 week limit"]
+    }
+  },
+  {
+    "id": "562",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "With CloudWatch metrics are collected and sent every ______ for training and prediction jobs on the console",
+      "answers": [
+        "5 minutes",
+        "1 minute",
+        "2 minutes",
+        "10 minutes"
+      ],
+      "correctAnswer": ["5 minutes"]
+    }
+  },
+  {
+    "id": "563",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 3",
+      "question": "Any stdout or stderr messages from ______, ______, or ______ is sent to CloudWatch logs (Select 3)",
+      "answers": [
+        "notebook instances",
+        "algorithm containers",
+        "model containers",
+        "inference containers"
+      ],
+      "correctAnswer": ["notebook instances",
+        "algorithm containers",
+        "model containers"]
+    }
+  },
+  {
+    "id": "564",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Captures any API calls made by or on behalf of SageMaker within your account",
+      "answers": [
+        "CloudWatch",
+        "CloudTrail",
+        "S3",
+        "stdout"
+      ],
+      "correctAnswer": ["CloudTrail"]
+    }
+  },
+  {
+    "id": "565",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "By default, the last ______ of events are visible in CloudTrail Event History",
+      "answers": [
+        "90 days",
+        "30 days",
+        "10 days",
+        "20 days"
+      ],
+      "correctAnswer": ["90 days"]
+    }
+  },
+  {
+    "id": "566",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You can set up a CloudTrail to store logs on ______ to reference for as long as you would like, as well as practice lifecycle processes like archive to ______",
+      "answers": [
+        "S3, Glacier",
+        "CloudWatch, EBS volumes",
+        "CloudWatch, EFS",
+        "S3, EFS"
+      ],
+      "correctAnswer": ["S3, Glacier"]
+    }
+  },
+  {
+    "id": "567",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "For advanced queries of your CloudWatch logs, once you have stored your logs on S3 you can use ______ to query and analyze data directly from S3",
+      "answers": [
+        "Athena",
+        "ElasticSearch",
+        "SQL",
+        "Hadoop"
+      ],
+      "correctAnswer": ["Athena"]
+    }
+  }
+]
