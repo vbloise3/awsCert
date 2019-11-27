@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ML_Implementation_and_Operations_2_ml.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ML_Implementation_and_Operations_2_ml.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="431" column="81" selection-start-line="431" selection-start-column="81" selection-end-line="431" selection-end-column="81" />
+            <state relative-caret-position="448">
+              <caret line="443" column="3" lean-forward="true" selection-start-line="425" selection-start-column="2" selection-end-line="443" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ML_Implementation_and_Operations_3_ml.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2610">
+              <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -72,6 +81,7 @@
         <option value="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" />
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_1_ml.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json" />
       </list>
     </option>
   </component>
@@ -231,12 +241,12 @@
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
       <workItem from="1573001792875" duration="52889000" />
-      <workItem from="1574621616259" duration="4565000" />
+      <workItem from="1574621616259" duration="5754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333158000" />
+    <option name="totallyTimeSpent" value="334347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="997" extended-state="6" />
@@ -327,8 +337,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="431" column="81" selection-start-line="431" selection-start-column="81" selection-end-line="431" selection-end-column="81" />
+        <state relative-caret-position="448">
+          <caret line="443" column="3" lean-forward="true" selection-start-line="425" selection-start-column="2" selection-end-line="443" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
         </state>
       </provider>
     </entry>

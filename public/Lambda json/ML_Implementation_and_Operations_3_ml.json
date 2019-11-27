@@ -1,0 +1,193 @@
+[
+  {
+    "id": "548",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "A way to access other AWS services using the AWS network without having to send traffic over the public internet",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["VPC Endpoint"]
+    }
+  },
+  {
+    "id": "549",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "______ increase security and allow AWS services to communicate privately and reliably",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["VPC Endpoint"]
+    }
+  },
+  {
+    "id": "550",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 2",
+      "question": "Two types of VPC endpoints (Select 2)",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["Interface endpoint",
+        "Gateway endpoint"]
+    }
+  },
+  {
+    "id": "550",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "This type of VPC endpoint uses a private DNS entry",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["Interface endpoint"]
+    }
+  },
+  {
+    "id": "551",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "This type of VPC endpoint is also known as PrivateLink",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["Interface endpoint"]
+    }
+  },
+  {
+    "id": "552",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "This type of VPC endpoint is only available for DynamoDB and S3",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["Gateway endpoint"]
+    }
+  },
+  {
+    "id": "553",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "This type of VPC endpoint uses a route table entry",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "NACL",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["Gateway endpoint"]
+    }
+  },
+  {
+    "id": "554",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "______ are internet enabled by default",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "SageMaker Notebook Instances",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["SageMaker Notebook Instances"]
+    }
+  },
+  {
+    "id": "555",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Internet enabled, ______ are allowed to download and access to popular packages and libraries",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "SageMaker Notebook Instances",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["SageMaker Notebook Instances"]
+    }
+  },
+  {
+    "id": "556",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Internet enabled, ______ are allowed to download and access to popular packages and libraries",
+      "answers": [
+        "VPC Endpoint",
+        "VPC",
+        "Interface endpoint",
+        "Gateway endpoint",
+        "SageMaker Notebook Instances",
+        "NAT Gateway",
+        "Internet Gateway"
+      ],
+      "correctAnswer": ["SageMaker Notebook Instances"]
+    }
+  }
+]
