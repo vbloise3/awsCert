@@ -1,0 +1,204 @@
+[
+  {
+    "id": "568",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "To make use of your published model in a custom application, what must you do?",
+      "answers": [
+        "Create an entry in Route 53 to point your desired DNS name to the endpoint.",
+        "Use a Lambda function to perform the inferences for your application.",
+        "Use the SageMaker API InvokeEndpoint() method via SDK.",
+        "Use the CloudTrail API to monitor for inference requests and trigger the SageMaker model endpoint.",
+        "Instruct SageMaker to generate a unique endpoint URL for your application."
+      ],
+      "correctAnswer": ["Use the SageMaker API InvokeEndpoint() method via SDK."]
+    }
+  },
+  {
+    "id": "569",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Your company has just established a policy that says all data must be encrypted at rest. You are currently using SageMaker to host Jupyter Notebook instances for your data scientists. What is the most direct path for you to ensure you are compliant?",
+      "answers": [
+        "Require the data scientists to use Amazon VPN when connecting to their Notebook instances.",
+        "Create an IAM resource policy that requires encryption of all data.",
+        "Recreate the Notebook Instance and select an encryption key from Amazon Certificate Manager.",
+        "Recreate the Notebook Instances and select an encryption key from KMS.",
+        "Migrate the Notebooks into CodeCommit and redeploy the Notebook instances on-prem using encrypted storage."
+      ],
+      "correctAnswer": ["Recreate the Notebook Instances and select an encryption key from KMS."]
+    }
+  },
+  {
+    "id": "570",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You are preparing to release an updated version of your latest machine learning model. It is provided to about 3,000 customers who use it in a SaaS capacity. You want to minimize customer disruption, minimize risk and be sure the new model is stable before full deployment. What is the best course of action?",
+      "answers": [
+        "Use a continuous integration process to preserve the stability of the new model and deploy in a Big Bang manner.",
+        "Use a canary deployment to evaluate the new model then distribute the new production URL to your customers.",
+        "Perform offline validation then cut over all at once to the new version to minimize risk.",
+        "Conduct an A/B test first then use a phased rollout."
+      ],
+      "correctAnswer": ["Conduct an A/B test first then use a phased rollout."]
+    }
+  },
+  {
+    "id": "571",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Your newly deployed model gets heavy usage on Monday then no usage the rest of the week. To accomodate this heavy usage, you make use of auto-scaling to adjust to the inbound request load. After several weeks in production, you notice a large number of scaled resources going unused and thus consuming money for no good reason. What might you do to resolve this?",
+      "answers": [
+        "Change the cooldown period for scale-in to a higher value.",
+        "Change the cooldown period for scale-out to a lower value.",
+        "Change the cooldown period for scale-in to a lower value.",
+        "Change the type of instance that you are deployed onto something more common.",
+        "Manually adjust the maximum autoscale instances down to force a scale-in."
+      ],
+      "correctAnswer": ["Manually adjust the maximum autoscale instances down to force a scale-in."]
+    }
+  },
+  {
+    "id": "572",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You want to deploy an XGBoost-backed model to a fleet of traffic sensors using Raspberry Pis as the local compute component. Will this work?",
+      "answers": [
+        "Yes, you can deploy the model using Amazon Robomaker using the native ARM support.",
+        "No, XGBoost cannot be compiled to run on an ARM processor. It can only run on x86 architectures.",
+        "Yes, you can use SageMaker Neo to compile the model into a format that is optimized for the ARM processor on the Raspberry Pi.",
+        "No, a Raspberry Pi is not powerful enough to run an ML model using XGBoost.",
+        "No, best practice says that you should not deploy ML models into the field but rather use a centralized inference landscape."
+      ],
+      "correctAnswer": ["Yes, you can use SageMaker Neo to compile the model into a format that is optimized for the ARM processor on the Raspberry Pi."]
+    }
+  },
+  {
+    "id": "573",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "Your company has just discovered a security breach occurred in a division separate from yours but has ordered a full review of all access logs. You have been asked to provide the last 180 days of access to the three SageMaker Hosted Service models that you manage. When you set up these deployments, you left everything default. How will you be able to respond?",
+      "answers": [
+        "Use CloudWatch along with IPInsights to analyse the logs for suspicious activity from the past 180 days then download these records.",
+        "Use CloudTrail to pull a list of all access to the ML models for the last 180 days.",
+        "Use SageMaker Detailed Logging to produce a CSV file of access from the past 180 days.",
+        "Use CloudTrail to pull a list of all access to the models for the last 90 days. Any data beyond 90 days is unavailable.",
+        "Use CloudWatch to pull a list of all access records for the ML models. Make use of a Python library to parse out only the access records."
+      ],
+      "correctAnswer": ["Use CloudTrail to pull a list of all access to the models for the last 90 days. Any data beyond 90 days is unavailable."]
+    }
+  },
+  {
+    "id": "574",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You have decided to use SageMaker Hosting Services to deploy your newly created model. What is the next required set after you have created your model?",
+      "answers": [
+        "Create an endpoint configuration.",
+        "Create an endpoint.",
+        "Configure Route 53 to point your desired DNS name to the endpoint.",
+        "Turn on CloudWatch logging for your model.",
+        "Nothing additional is required. SageMaker Hosting Services is enabled with every model created on SageMaker."
+      ],
+      "correctAnswer": ["Create an endpoint configuration."]
+    }
+  },
+  {
+    "id": "575",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to build an automated chatbot for customer service. If the initial interaction with the customer seems negative or the customer is upset or unhappy, you want to immediately transfer that chat session over to a live human. What is the simplest way to implement this feature?",
+      "answers": [
+        "Use IPInsights to identify the customer by their IP address. If they have had a recent bad experience as logged in the CRM system, direct them to a live customer support person.",
+        "Use Amazon Comprehend to take in the customer's initial comments, then process them through Amazon Personalize to determine sentiment. If sentiment is negative, hand the chat session over to a live customer support person.",
+        "Use XGBoost to create a binary classification model to decide if a customer's initial comments are negative or positive. If negative, redirect the chat session over to a live customer support person.",
+        "Use LDA to create an NLP model that can understand the sentiment of the customer's comments. Create a Lambda function to redirect the chat session over to a live customer support person.",
+        "Use Amazon Lex to take in the customers initial comments, then process them through Amazon Comprehend to determine sentiment. If sentiment is negative, hand the chat session over to a live customer support person."
+      ],
+      "correctAnswer": ["Use Amazon Lex to take in the customers initial comments, then process them through Amazon Comprehend to determine sentiment. If sentiment is negative, hand the chat session over to a live customer support person."]
+    }
+  },
+  {
+    "id": "576",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You need to chain together three different algorithms for a model you are creating. You need to run PCA, RCF, and LDA in succession. What is the recommended way to do this?",
+      "answers": [
+        "Use an Inference Pipeline to link together these algorithms.",
+        "Use Lambda Step Functions to link together the separate training jobs.",
+        "You cannot run SageMaker built-in algorithms together. You will need to create individual training jobs and manually execute them via SDK or Console.",
+        "Use AWS Batch to create a script that will trigger each algorithm in sequence."
+      ],
+      "correctAnswer": ["Use an Inference Pipeline to link together these algorithms."]
+    }
+  },
+  {
+    "id": "577",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You are helping a client design a landscape for their mission critical ML model based on DeepAR deployed using SageMaker Hosting Services. Which of the following would you recommend they do to ensure high availability?",
+      "answers": [
+        "Create a duplicate endpoint in another region using Amazon Forecast.",
+        "Keep a copy of all the DeepAR code in a Glacier Vault for safekeeping.",
+        "Include Elastic Inference in the endpoint configuration.",
+        "Recommend that they deploy using EKS in addition to the SageMaker Hosting deployment.",
+        "Ensure that InitialInstanceCount is at least 2 or more in the endpoint production variant."
+      ],
+      "correctAnswer": ["Ensure that InitialInstanceCount is at least 2 or more in the endpoint production variant."]
+    }
+  },
+  {
+    "id": "578",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You are helping a digital asset media company create a system which can automatically extract metadata from photographs submitted by freelance photographers. They want a solution that is robust, cost-effective and flexible but they do not want to manage lots of infrastructure. What would you recommend?",
+      "answers": [
+        "Build a model using Image Analysis to extract metadata from images and host it using Lambda and the API Gateway.",
+        "Make use of Amazon Comprehend to extract metadata from the images.",
+        "Build a model using Object Detection to extract metadata from images and host it using EC2.",
+        "Build a model using the Semantic Segmentation algorithm and host it using SageMaker Hosting Services.",
+        "Make use of Amazon Rekognition for metadata extraction."
+      ],
+      "correctAnswer": ["Make use of Amazon Rekognition for metadata extraction."]
+    }
+  },
+  {
+    "id": "579",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Implementation and Operations",
+      "questionType": "multiple choice 1",
+      "question": "You need to increase the performance of your Image Classification inference endpoint and want to do so in the most cost-effective manner. What should you choose?",
+      "answers": [
+        "Redeploy the endpoint using Elastic Inference added to the production variant.",
+        "Create an additional production variant which is the same as the original variant and direct 50% of the traffic to that variant.",
+        "Create a new production variant that uses a multi-GPU instance.",
+        "Offload some traffic to a less costly AWS region.",
+        "Create a new endpoint deployment that uses a single-CPU instance given the algorithm being used."
+      ],
+      "correctAnswer": ["Redeploy the endpoint using Elastic Inference added to the production variant."]
+    }
+  }
+]
