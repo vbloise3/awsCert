@@ -1,0 +1,19 @@
+[
+  {
+    "id": "580",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Modeling",
+      "questionType": "multiple choice 1",
+      "question": "You need to increase the performance of your Image Classification inference endpoint and want to do so in the most cost-effective manner. What should you choose?",
+      "answers": [
+        "Redeploy the endpoint using Elastic Inference added to the production variant.",
+        "Create an additional production variant which is the same as the original variant and direct 50% of the traffic to that variant.",
+        "Create a new production variant that uses a multi-GPU instance.",
+        "Offload some traffic to a less costly AWS region.",
+        "Create a new endpoint deployment that uses a single-CPU instance given the algorithm being used."
+      ],
+      "correctAnswer": ["Redeploy the endpoint using Elastic Inference added to the production variant."]
+    }
+  }
+]

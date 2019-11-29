@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ML_Implementation_and_Operations_5_ml.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ML_Implementation_and_Operations_5_ml.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="200" column="103" selection-start-line="200" selection-start-column="103" selection-end-line="200" selection-end-column="103" />
+            <state relative-caret-position="448">
+              <caret line="202" column="3" lean-forward="true" selection-start-line="186" selection-start-column="2" selection-end-line="202" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ML_Algorithms_1_ml.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -35,8 +44,8 @@
       <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="85" column="77" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+            <state relative-caret-position="344">
+              <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -75,6 +84,7 @@
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json" />
         <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json" />
+        <option value="$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json" />
       </list>
     </option>
   </component>
@@ -234,12 +244,12 @@
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
       <workItem from="1573001792875" duration="52889000" />
-      <workItem from="1574621616259" duration="10017000" />
+      <workItem from="1574621616259" duration="10449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338610000" />
+    <option name="totallyTimeSpent" value="339042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="997" extended-state="6" />
@@ -314,13 +324,6 @@
     <entry file="file://$PROJECT_DIR$/awsCertUi/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="85" column="77" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_1_ml.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -342,6 +345,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="202" column="3" lean-forward="true" selection-start-line="186" selection-start-column="2" selection-end-line="202" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -349,10 +359,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
+    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="200" column="103" selection-start-line="200" selection-start-column="103" selection-end-line="200" selection-end-column="103" />
+        <state relative-caret-position="344">
+          <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
