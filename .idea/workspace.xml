@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Course-Outline-ML-Vincent.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -244,24 +243,23 @@
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
       <workItem from="1573001792875" duration="52889000" />
-      <workItem from="1574621616259" duration="10449000" />
+      <workItem from="1574621616259" duration="10813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339042000" />
+    <option name="totallyTimeSpent" value="339406000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="997" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.076677315" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.9233227" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.9233227" visible="true" weight="0.4125" />
       <window_info anchor="bottom" id="TypeScript" sideWeight="0.49946752" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" />
