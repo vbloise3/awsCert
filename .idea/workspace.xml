@@ -247,23 +247,23 @@
       <workItem from="1571502830484" duration="196000" />
       <workItem from="1571504063734" duration="2857000" />
       <workItem from="1573001792875" duration="52889000" />
-      <workItem from="1574621616259" duration="13217000" />
+      <workItem from="1574621616259" duration="13500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341810000" />
+    <option name="totallyTimeSpent" value="342093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="997" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.076677315" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.9233227" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.9233227" visible="true" weight="0.4125" />
       <window_info anchor="bottom" id="TypeScript" sideWeight="0.49946752" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" />
