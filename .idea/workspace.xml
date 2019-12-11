@@ -5,51 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ML_Implementation_and_Operations_4_ml.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2670">
-              <caret line="178" column="3" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ML_Implementation_and_Operations_5_ml.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3030">
-              <caret line="202" column="3" selection-start-line="186" selection-start-column="2" selection-end-line="202" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ML_Algorithms_1_ml.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cml-question.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,19 +32,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_1_ml.json" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json" />
-        <option value="$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -116,68 +62,6 @@
   <component name="ProjectId" id="1QfMRIS82bYRWP2vabDVKeoa3e8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="awsCertUi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="cml-question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awsCert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awsCert" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambda json" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -250,37 +134,11 @@
       <workItem from="1571504063734" duration="2857000" />
       <workItem from="1573001792875" duration="52889000" />
       <workItem from="1574621616259" duration="13686000" />
-      <workItem from="1575936092805" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342531000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="999" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33919063" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.076677315" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.9233227" visible="true" weight="0.41241685" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.49946752" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
+    <option name="totallyTimeSpent" value="342279000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -304,106 +162,11 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="178" column="3" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="202" column="3" selection-start-line="186" selection-start-column="2" selection-end-line="202" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/awsCertUi/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_1_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="577" column="3" selection-start-line="557" selection-start-column="2" selection-end-line="577" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_2_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="443" column="3" selection-start-line="425" selection-start-column="2" selection-end-line="443" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_3_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="191" column="3" selection-start-line="173" selection-start-column="2" selection-end-line="191" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_5_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="202" column="3" selection-start-line="186" selection-start-column="2" selection-end-line="202" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Implementation_and_Operations_4_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="178" column="3" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="66" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Exam Notes/1 - Whizlabs Online Certification Training Courses for Professionals (AWS, Java, PMP).html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Lambda json/ML_Algorithms_1_ml.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
