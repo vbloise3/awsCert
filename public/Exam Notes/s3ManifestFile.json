@@ -1,8 +1,8 @@
 {
   "fileLocations": [
     {
-      "URIPrefixes": [
-        "s3://machine-learning-exam/"
+      "URIs": [
+        "s3://machine-learning-exam/FAO-database.csv"
       ]
     }
   ],
