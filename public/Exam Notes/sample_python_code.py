@@ -14,3 +14,12 @@
 #                             3:"three",
 #                             4:"four"},
 #                             inplace = True)
+
+#from prettytable import PrettyTable
+#imp_mean = SimpleImputer( strategy='median') #for options other than mean imputation replace 'mean' with 'median', 'most_frequent', or 'constant'
+#imp_mean.fit(train)
+#imputed_train_df = imp_mean.transform(train)
+#x = PrettyTable(imputed_train_df.dtype.names)
+#for row in imputed_train_df:
+#    x.add_row(row)
+#print(x[:10])
