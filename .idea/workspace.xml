@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +27,6 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="997" />
   </component>
   <component name="ProjectId" id="1QfMRIS82bYRWP2vabDVKeoa3e8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,7 +115,7 @@
       <workItem from="1573001792875" duration="52889000" />
       <workItem from="1574621616259" duration="13686000" />
       <workItem from="1577070278157" duration="128000" />
-      <workItem from="1577116594383" duration="292000" />
+      <workItem from="1577116594383" duration="2220000" />
     </task>
     <servers />
   </component>

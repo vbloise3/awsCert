@@ -9,10 +9,11 @@ const serviceUpdateOneItem = '/api/updateQandA';
 const serviceDeleteOneItem = '/api/deleteQandA';
 const serviceDeleteTable = '/api/deleteTable';
 const serviceListBucketContents = '/api/listBucketContents';
-const serviceGetAllItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsC2p';
-const serviceGetAllArchItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsArch';
-const serviceGetAllDevItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsDev';
-const serviceGetAllMLItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsML';
+//const serviceGetAllItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsC2p';
+const serviceGetAllItems = 'https://nx4mzo1d9f.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsC2p';
+const serviceGetAllArchItems = 'https://nx4mzo1d9f.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsArch';
+const serviceGetAllDevItems = 'https://nx4mzo1d9f.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsDev';
+const serviceGetAllMLItems = 'https://nx4mzo1d9f.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsML';
 
 
 export interface QandA {
