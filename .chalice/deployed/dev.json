@@ -1,23 +1,23 @@
 {
-  "schema_version": "2.0",
   "resources": [
     {
-      "role_name": "awsCert-dev-api_handler",
-      "role_arn": "arn:aws:iam::001178231653:role/awsCert-dev-api_handler",
       "name": "api_handler_role",
-      "resource_type": "iam_role"
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::001178231653:role/awsCert-dev-api_handler",
+      "role_name": "awsCert-dev-api_handler"
     },
     {
-      "lambda_arn": "arn:aws:lambda:us-east-1:001178231653:function:awsCert-dev",
       "name": "api_handler",
-      "resource_type": "lambda_function"
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:001178231653:function:awsCert-dev"
     },
     {
       "name": "rest_api",
+      "resource_type": "rest_api",
       "rest_api_id": "ts44kzo19l",
-      "rest_api_url": "https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/",
-      "resource_type": "rest_api"
+      "rest_api_url": "https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/"
     }
   ],
+  "schema_version": "2.0",
   "backend": "api"
 }

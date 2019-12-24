@@ -6,7 +6,8 @@ import chalicelib.questions
 import chalicelib.cdaQuestions
 from boto3.dynamodb.conditions import Key, Attr
 import json
-from urllib import unquote
+#from urllib import unquote
+from urllib.parse import unquote
 
 
 app = chalice.Chalice(app_name='awsCert')
