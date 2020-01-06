@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Split data between training and test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,7 @@
       <workItem from="1573001792875" duration="52889000" />
       <workItem from="1574621616259" duration="13686000" />
       <workItem from="1577070278157" duration="128000" />
-      <workItem from="1577116594383" duration="8144000" />
+      <workItem from="1577116594383" duration="8536000" />
     </task>
     <servers />
   </component>
