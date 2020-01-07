@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Data Visualization-QuickSight.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Exam Notes/1-Introduction.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,7 @@
       <workItem from="1573001792875" duration="52889000" />
       <workItem from="1574621616259" duration="13686000" />
       <workItem from="1577070278157" duration="128000" />
-      <workItem from="1577116594383" duration="8536000" />
+      <workItem from="1577116594383" duration="8961000" />
     </task>
     <servers />
   </component>
