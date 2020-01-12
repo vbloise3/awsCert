@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Autoscaling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Create VPC CLI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Create VPC Console.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Create VPC SDK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/DynamoDB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/EC2 Systems Manager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Elastic Load Balancer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Kinesis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/S3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Service Catalog.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +114,7 @@
       <workItem from="1574621616259" duration="13686000" />
       <workItem from="1577070278157" duration="128000" />
       <workItem from="1577116594383" duration="8961000" />
-      <workItem from="1578346842037" duration="863000" />
+      <workItem from="1578346842037" duration="1144000" />
     </task>
     <servers />
   </component>
