@@ -139,5 +139,8 @@
       }
     }
   },
-  "defaultProject": "awsCertUi"
+  "defaultProject": "awsCertUi",
+  "cli": {
+    "analytics": "e82b3864-0362-4aaf-917c-3c59f3a76df4"
+  }
 }
