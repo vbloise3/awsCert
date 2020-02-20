@@ -119,6 +119,7 @@
       <workItem from="1579972299310" duration="1652000" />
       <workItem from="1580691632575" duration="296000" />
       <workItem from="1580926801007" duration="3136000" />
+      <workItem from="1581651991169" duration="333000" />
     </task>
     <servers />
   </component>
@@ -127,14 +128,14 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.js" />
+        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.d.ts" />
+        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.js" />
+        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.d.ts" />
+        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.js" />
+        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.d.ts" />
+        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.js" />
+        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.js" />
       </list>
     </option>
   </component>
