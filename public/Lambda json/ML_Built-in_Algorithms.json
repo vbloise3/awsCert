@@ -1,0 +1,495 @@
+[
+  {
+    "id": "580",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Provides highly optimized implementations of the Word2vec and text classification algorithms",
+      "answers": [
+        "Blazing Text",
+        "DeepAR Forecasting",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "581",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN)",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "582",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Extension of a linear model that is designed to capture interactions between features within high dimensional sparse datasets economically",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "583",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Takes an image as input and outputs one or more labels assigned to that image",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Image Classification"]
+    }
+  },
+  {
+    "id": "584",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Designed to capture associations between IPv4 addresses and various entities, such as user IDs or account numbers",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["IP Insights"]
+    }
+  },
+  {
+    "id": "585",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Find discrete groupings within data, where members of a group are as similar as possible to one another and as different as possible from members of other groups",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["K-Means"]
+    }
+  },
+  {
+    "id": "586",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Index-based algorithm. It uses a non-parametric method for classification or regression. For classification problems, the algorithm queries the k points that are closest to the sample point and returns the most frequently used label of their class as the predicted label",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["K-Nearest Neighbors"]
+    }
+  },
+  {
+    "id": "587",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Attempts to describe a set of observations as a mixture of distinct categories. Most commonly used to discover a user-specified number of topics shared by documents within a text corpus",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Latent Dirichlet Allocation (LDA)"]
+    }
+  },
+  {
+    "id": "588",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning algorithms used for solving either classification or regression problems. For input, you give the model labeled examples (x, y). x is a high-dimensional vector and y is a numeric label. For binary classification problems, the label must be either 0 or 1. For multiclass classification problems, the labels must be from 0 to num_classes - 1. For regression problems, y is a real number.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Linear Learner"]
+    }
+  },
+  {
+    "id": "589",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised learning algorithm that is used to organize a corpus of documents into topics that contain word groupings based on their statistical distribution",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Neural Topic Model (NTM)"]
+    }
+  },
+  {
+    "id": "590",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "General-purpose neural embedding algorithm that is highly customizable. It can learn low-dimensional dense embeddings of high-dimensional objects. The embeddings are learned in a way that preserves the semantics of the relationship between pairs of objects in the original space in the embedding space.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Object2Vec"]
+    }
+  },
+  {
+    "id": "591",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Detects and classifies objects in images using a single deep neural network. It is a supervised learning algorithm that takes images as input and identifies all instances of objects within the image scene.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Object Detection"]
+    }
+  },
+  {
+    "id": "592",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised machine learning algorithm that attempts to reduce the dimensionality (number of features) within a dataset while still retaining as much information as possible.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Principal Component Analysis (PCA)"]
+    }
+  },
+  {
+    "id": "593",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Unsupervised algorithm for detecting anomalous data points within a data set. These are observations which diverge from otherwise well-structured or patterned data.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Random Cut Forest (RCF)"]
+    }
+  },
+  {
+    "id": "594",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Provides a fine-grained, pixel-level approach to developing computer vision applications. It tags every pixel in an image with a class label from a predefined set of classes.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  },
+  {
+    "id": "595",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning algorithm where the input is a sequence of tokens (for example, text, audio) and the output generated is another sequence of tokens.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Sequence-to-Sequence"]
+    }
+  },
+  {
+    "id": "596",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Supervised learning algorithm that attempts to accurately predict a target variable by combining an ensemble of estimates from a set of simpler, weaker models. ",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["XGBoost"]
+    }
+  }
+]
