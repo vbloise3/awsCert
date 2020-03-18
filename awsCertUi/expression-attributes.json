@@ -1,4 +1,4 @@
 {
-  ":v1": {"S": "ML Built-in Algorithms"}
+  ":v1": {"S": "______ provides enriched Word Vectors with Subword Information by learning vector representations for character n-grams. This approach enables BlazingText to generate meaningful vectors for out-of-vocabulary (OOV) words by representing their vectors as the sum of the character n-gram (subword) vectors."}
 
 }
