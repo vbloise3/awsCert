@@ -1,0 +1,234 @@
+[
+  {
+    "id": "597",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "Provides the Skip-gram and continuous bag-of-words (CBOW) training architectures",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "598",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______s implementation of the supervised multi-class, multi-label text classification algorithm extends the fastText text classifier to use GPU acceleration with custom CUDA kernels.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "599",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "With ______ you can train a model on more than a billion words in a couple of minutes using a multi-core CPU or a GPU. And, you achieve performance on par with the state-of-the-art deep learning text classification algorithms.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "600",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______ provides accelerated training of the fastText text classifier on multi-core CPUs or a GPU and Word2Vec on GPUs using highly optimized CUDA kernels. ",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "601",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______ provides enriched Word Vectors with Subword Information by learning vector representations for character n-grams. This approach enables BlazingText to generate meaningful vectors for out-of-vocabulary (OOV) words by representing their vectors as the sum of the character n-gram (subword) vectors.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "602",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______ provides a batch_skipgram mode for the Word2Vec algorithm that allows faster training and distributed computation across multiple CPU nodes. ",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "603",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______  expects a single preprocessed text file with space-separated tokens. Each line in the file should contain a single sentence. If you need to train on multiple text files, concatenate them into one file and upload the file in the respective channel.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "604",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Built-in Algorithms",
+      "questionType": "multiple choice 1",
+      "question": "______  expects a single preprocessed text file with space-separated tokens. Each line in the file should contain a single sentence. If you need to train on multiple text files, concatenate them into one file and upload the file in the respective channel.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  }
+]
