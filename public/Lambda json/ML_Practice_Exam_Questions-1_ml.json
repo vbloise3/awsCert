@@ -332,7 +332,7 @@
     "info": {
       "subcategory": "ML Exam Practice Questions",
       "questionType": "multiple choice 1",
-      "question": "A term frequency-inverse document frequency (tf-idf) matrix using trigrams is built from a text corpus consisting of the following three documents: { Hold please }, { Please try again }, { Please call us back }. What are the dimensions of the tf-idf vector/matrix?",
+      "question": "A term frequency–inverse document frequency (tf–idf) matrix using trigrams is built from a text corpus consisting of the following three documents: { Hold please }, { Please try again }, { Please call us back }. What are the dimensions of the tf–idf vector/matrix?",
       "answers": [
         "(3, 3)",
         "(3, 16)",

@@ -1,4 +1,4 @@
 {
-  ":v1": {"S": "______ provides enriched Word Vectors with Subword Information by learning vector representations for character n-grams. This approach enables BlazingText to generate meaningful vectors for out-of-vocabulary (OOV) words by representing their vectors as the sum of the character n-gram (subword) vectors."}
+  ":v1": {"S": "You are consulting for a large intelligence organization that has very strict rules around how data must be handled. One such rule is that data cannot be allowed to transit the public internet. What might you suggest as they are setting up SageMaker Notebook instances?"}
 
 }

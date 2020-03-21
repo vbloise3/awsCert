@@ -1,5 +1,6 @@
 import chalice
 import boto3
+import botocore
 import chalicelib.constants
 import chalicelib.ca2Questions
 import chalicelib.questions
@@ -27,7 +28,16 @@ def index():
 
 @app.route('/email/{email}/password/{password}', cors=True)
 def hello_email_password(email, password):
+    #bucketname = 's3-ats-migration-test.s3.eu-west-3.amazonaws.com'
+    bucketname = 'atstestbucketvb'
+    #itemname = 'test.jpg'
+    itemname = 'notes.txt'
+    s3 = boto3.resource('s3')
+    obj = s3.Object(bucketname, itemname)
+    data = obj.get()['Body'].read()
+    print(data)
     return {'email': email, 'password': password}
+    #return {'email': email, 'password': data}
 
 
 @app.route('/questions/{question_id}', cors=True)

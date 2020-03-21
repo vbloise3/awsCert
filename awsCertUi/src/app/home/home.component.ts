@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {DataService} from "../data.service";
 import { Router, Routes, RouterModule } from '@angular/router';
+import {placeholdersToParams} from "@angular/compiler/src/render3/view/i18n/util";
 
 declare function test(): any;
 
@@ -25,13 +26,18 @@ export class HomeComponent implements OnInit {
     this.data.getRootInfo().subscribe(data => {
         this.rootStuff = data;
         console.log(this.rootStuff);
+        console.log('in root call');
+
       }
     );
-    this.data.getRootInfoWithParams('yo', 'dude').subscribe(data => {
+    let theReturnedJSON: any;
+    theReturnedJSON = this.data.getRootInfoWithParams('yo', 'dude').subscribe(data => {
         this.rootStuff = data;
         console.log(this.rootStuff);
+        console.log('in email call');
       }
     );
+    console.log(theReturnedJSON);
   }
 
   getCurrentPath() {
