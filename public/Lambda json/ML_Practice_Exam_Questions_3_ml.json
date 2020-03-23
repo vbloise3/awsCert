@@ -1,0 +1,587 @@
+[
+  {
+    "id": "755",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working on an on-premise Hadoop cluster with thousands of Apache Parquet files. You have successfully loaded these files into Amazon S3 and now need to run SQL queries on these files. Which solution allows you to do this with the least amount of setup?",
+      "answers": [
+        "AWS Glue Data Catalog and Athena",
+        "EMR and Presto",
+        "Data Pipeline and RDS",
+        "Redshift and Redshift Spectrum"
+      ],
+      "correctAnswer": ["AWS Glue Data Catalog and Athena"]
+    }
+  },
+  {
+    "id": "756",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have been tasked with determining whether a given dataset has anomalous data associated with it. Which algorithm is a good fit and how can you ensure incorrectly detected anomalies are minimized?",
+      "answers": [
+        "Principal Component Analysis (PCA) algorithm and increase the mini_batch_size hyperparameter",
+        "Use QuickSight and the ML-Powered Anomaly Detection built-in feature",
+        "Random Cut Forest (RCF) algorithm and increase/decrease the num_samples_per_tree hyperparameter",
+        "Random Cut Forest (RCF) algorithm and increase/decrease the num_trees hyperparameter",
+        "Principal Component Analysis (PCA) algorithm and decrease the mini_batch_size hyperparameter"
+      ],
+      "correctAnswer": ["Random Cut Forest (RCF) algorithm and increase/decrease the num_samples_per_tree hyperparameter",
+        "Random Cut Forest (RCF) algorithm and increase/decrease the num_trees hyperparameter"]
+    }
+  },
+  {
+    "id": "757",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 3",
+      "question": "You are preparing plain text corpus data to use in a NLP process. Which of the following is/are one of the important step(s) to pre-process the text in NLP based projects?",
+      "answers": [
+        "Stemming",
+        "Add random text noise",
+        "Word standardization",
+        "Congregate all of the plain text corpus data into a single document",
+        "Stop word removal",
+        "One-hot encode ordinal n-gram values"
+      ],
+      "correctAnswer": ["Stemming",
+        "Word standardization",
+        "Stop word removal"]
+    }
+  },
+  {
+    "id": "758",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are apply standardization techniques to a feature in your dataset. The column has the following values {5, 20, 15}. The standard deviation is 6.23 and the mean of the feature 13.33. When we apply standardization what will the respective output results be?",
+      "answers": [
+        "{1.33, 1.06, 0.26}",
+        "{0, 0.66, 1}",
+        "{0, 1, 0.66}",
+        "{-1.33, 1.06, 0.26}",
+        "{1, 0, 1}"
+      ],
+      "correctAnswer": ["{-1.33, 1.06, 0.26}"]
+    }
+  },
+  {
+    "id": "759",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are working with a dataset with many categorical features to use with the Amazon XGBoost built-in algorithm. Youve been instructed the dataset is random, so you decide not to randomize the dataset. Next, you apply one hot encoding on the categorical features and split the dataset into training (80%) and testing datasets (20%) before using the training dataset to train your machine learning model. What challenge might you face with this approach?",
+      "answers": [
+        "Since randomization was assumed, other techniques like orthogonal sparse bigram (OSB) must be applied along with one hot encoding techniques.",
+        "Since randomization was assumed, frequency distribution of categories may be different in training dataset as compared to the testing dataset.",
+        "One hot encoding techniques are not valid input types for categorical features for the Amazon XGBoost built-in algorithm.",
+        "Since randomization was assumed, some categories of categorical variables may not be present in the test dataset.",
+        "All categorical features must be normalized before applying one hot encoding techniques with the Amazon XGBoost built-in algorithm."
+      ],
+      "correctAnswer": ["Since randomization was assumed, frequency distribution of categories may be different in training dataset as compared to the testing dataset.",
+        "Since randomization was assumed, some categories of categorical variables may not be present in the test dataset."]
+    }
+  },
+  {
+    "id": "760",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working with several scikit-learn libraries to preprocess and prepare your data. You also have created a script that trains your model using scikit-learn. You have been tasked with using SageMaker to train your model using this custom code. What can be done to run scikit-learn jobs directly in Amazon SageMaker?",
+      "answers": [
+        "Include your training script within a Notebook instance on Amazon SageMaker. Install scikit-learn inside a Docker container that run your script. Upload container to ECR and use within Amazon SageMaker notebook instance.",
+        "Include your training script within a Notebook instance on Amazon SageMaker. Construct a sagemaker.sklearn.estimator.sklearn estimator. Train the model using the pre-build container provided by the Estimator.",
+        "Upload your training script to a Deep Learning AMI with scikit-learn pre-installed. Use Deep Learning AMI to train your model.",
+        "Upload your training script to Amazon S3. Use a Notebook instance in Amazon SageMaker to run the code from whatever instance type you need."
+      ],
+      "correctAnswer": ["Include your training script within a Notebook instance on Amazon SageMaker. Construct a sagemaker.sklearn.estimator.sklearn estimator. Train the model using the pre-build container provided by the Estimator."]
+    }
+  },
+  {
+    "id": "761",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working for a credit card company and trying to determine if transactions are fraudulent or non-fraudulent. The features of the data collected include things like customer name, customer type, transaction location, transaction amount, and transaction type. The transaction type is classified as regular and irregular. What data preparation action should the machine learning specialist take?",
+      "answers": [
+        "Drop both the customer type and the transaction type before training the model",
+        "Drop the transaction type and perform label encoding on the customer type before training the model",
+        "Drop the customer name and perform label encoding on the transaction type before training the model",
+        "Perform label encoding on the transaction type before training the model"
+      ],
+      "correctAnswer": ["Drop the customer name and perform label encoding on the transaction type before training the model"]
+    }
+  },
+  {
+    "id": "762",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You work for a company that is spinning up a new machine learning team. You need to setup a machine learning environment that will be accessed by multiple Data Scientists. Each new Data Scientist on the team needs to have their own Jupyter Notebook instance in Amazon SageMaker. How should you manage access to SageMaker Notebook instances?",
+      "answers": [
+        "Attach an IAM policy to the Data Scientists IAM users that allows access to their personal notebook instances only",
+        "Set Up an ACL (Access Control List) for each notebook instance. Attach each Data Scientist role to the ACL associated with their personal notebook instance",
+        "Ensure that each IAM policy associated with the Data Scientists role and their respective notebook instance has the iam:PassRole denied",
+        "Setup a VPC for each notebook instance with an egress rule with IP addresses associated with the respective Data Scientists who are allowed access",
+        "Use Amazon CloudWatch to trigger a Lambda function that restricts unauthorized access"
+      ],
+      "correctAnswer": ["Attach an IAM policy to the Data Scientists IAM users that allows access to their personal notebook instances only"]
+    }
+  },
+  {
+    "id": "763",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is the best way to split time series data when using Amazon Machine Learning?",
+      "answers": [
+        "Split before upload",
+        "Allow Amazon Machine Learning to split sequentially",
+        "Allow Amazon Machine Learning to trigger a Lambda function to split on upload",
+        "Allow Amazon Machine Learning to randomize and split"
+      ],
+      "correctAnswer": ["Allow Amazon Machine Learning to split sequentially"]
+    }
+  },
+  {
+    "id": "764",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are designing a binary classification model using the XGBoost algorithm. Which of the following would you most likely use as an objective for evaluating the model?",
+      "answers": [
+        "Area Under the Curve approaches 1.",
+        "Root Square Mean Error approaches 1.",
+        "Root Square Mean Error approaches 0.",
+        "Area Under the Curve approaches 0.",
+        "Macro F1 score approaches 0."
+      ],
+      "correctAnswer": ["Area Under the Curve approaches 1."]
+    }
+  },
+  {
+    "id": "765",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "What is a good target metric to use in general when comparing different binary classification models?",
+      "answers": [
+        "Recall",
+        "Area under the curve (AUC)",
+        "Root Square Mean Error approaches 0.",
+        "Mean squared root error (MSRE)",
+        "F1 score"
+      ],
+      "correctAnswer": ["Area under the curve (AUC)"]
+    }
+  },
+  {
+    "id": "766",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are trying to classify a number of items based on different features into one of 6 groups (books, electronics, movies, etc.) based on features. Which algorithm would be best suited for this type of problem?",
+      "answers": [
+        "Use a stochastic approach when choosing target parameters and recommended ranges",
+        "Use XGBoost with objective set to multi:softmax",
+        "Use K-Means algorithm with k set to the number of classes",
+        "Use Linear Learner with predictor set to regressor",
+        "Use regression forest with the number of trees set to the number of categories"
+      ],
+      "correctAnswer": ["Use XGBoost with objective set to multi:softmax"]
+    }
+  },
+  {
+    "id": "767",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "A binary classification model has been created to sort parts on an assembly line into acceptable or unacceptable, based on a complex array of readings. The model incorrectly decides that some flawed parts are acceptable when they should have been marked as unacceptable. Which of the following correctly defines this type of result?",
+      "answers": [
+        "False Positive",
+        "Type II Error",
+        "True Positive",
+        "Type I Error",
+        "True Negative",
+        "False Negative"
+      ],
+      "correctAnswer": ["Type II Error",
+        "False Negative"]
+    }
+  },
+  {
+    "id": "768",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working with a colleague in your company on creating some documentation for using SageMaker internally with XGBoost. Your colleague is based in France while you are based in Canada. You are reviewing her documentation and notice that the training image registry path does not match the path that you have recorded in your version. What is the most likely reason for this?",
+      "answers": [
+        "You selected a training image while your colleague selected an inference image.",
+        "You both are using different regions.",
+        "Built-in algorithm registry paths are randomly generated for each account.",
+        "Your colleague has selected the wrong version of XGBoost."
+      ],
+      "correctAnswer": ["You both are using different regions."]
+    }
+  },
+  {
+    "id": "769",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "After a training and testing session, you notice that your training accuracy is 98% while you accuracy during testing was only 67%. What might you do to improve the model?",
+      "answers": [
+        "Change the approach from Linear Regression to Logistic Regression.",
+        "Reduce the amount of data in the training and testing dataset.",
+        "Reduce the number of features being analyzed in the model.",
+        "Rerun the training process with a larger learning rate.",
+        "Ensure the data was properly randomized before the split."
+      ],
+      "correctAnswer": ["Reduce the number of features being analyzed in the model.",
+        "Ensure the data was properly randomized before the split."]
+    }
+  },
+  {
+    "id": "770",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been brought in to help a Data Science group within a large manufacturing company migrate their existing ML processes to AWS. They currently use a pre-trained word vector model using fastText for text classification. What would be the most efficient path using as much of the AWS platform as possible?",
+      "answers": [
+        "Deploy EMR with Mahout to use the fastText model.",
+        "Use the built-in algorithms provided by SageMaker to host the model.",
+        "Deploy TensorFlow on EC2 spot instances to use the pre-trained model.",
+        "Create a Docker container for the fastText algorithm and upload to the ECR.",
+        "Install the Apache Spark libraries and use the model with SageMaker."
+      ],
+      "correctAnswer": ["Use the built-in algorithms provided by SageMaker to host the model."]
+    }
+  },
+  {
+    "id": "771",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "An ML model that is designed to identify vehicles that are speeding along a segment of highway incorrectly flags a car as speeding when it was not. Which of the following correctly defines this type of result?",
+      "answers": [
+        "Type I Error",
+        "Type III Error",
+        "True Negative",
+        "Type II Error",
+        "False Negative",
+        "False Positive"
+      ],
+      "correctAnswer": ["Type I Error",
+        "False Positive"]
+    }
+  },
+  {
+    "id": "772",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "What method does Amazon SageMaker uses to facilitate hyperparameter tuning?",
+      "answers": [
+        "Gaussian Optimization",
+        "Random Search",
+        "Bayesian Optimization",
+        "Matrix Search",
+        "Stochastic Search"
+      ],
+      "correctAnswer": ["Bayesian Optimization"]
+    }
+  },
+  {
+    "id": "773",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are designing a security approach for ensuring only members of certain projects can access notebook instances for their own projects. DevTeam1 should only access Project1 notebooks while DevTeam2 should only access Project2 notebooks. What is a valid way to implement this restriction?",
+      "answers": [
+        "Implement Federation using LDAP and SAML over SSH. Ensure that all DEV team members use MFA upon each attempt to access their respective project notebooks.",
+        "Create a VPC Gateway Endpoint and route all traffic from each team member to only the S3 buckets containing their respective project models.",
+        "Use the ResourceTag condition and add a Project tag to each notebook.",
+        "Created shared accounts for the DEV teams and record all activities using CloudTrail. Use CloudTrail alarms to notify if a team access a notebook they are not authorized to access."
+      ],
+      "correctAnswer": ["Use the ResourceTag condition and add a Project tag to each notebook."]
+    }
+  },
+  {
+    "id": "774",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to help design a customer service bot that can help answer the most common customer service questions posed on a public chat service. Which of the following might meet the need and do so with the minimum overhead?",
+      "answers": [
+        "Amazon Lex",
+        "SageMaker BotOps",
+        "SageMaker BlazingText",
+        "Amazon Polly",
+        "SageMaker Object2Vec",
+        "SageMaker Seq2Seq"
+      ],
+      "correctAnswer": ["Amazon Lex"]
+    }
+  },
+  {
+    "id": "775",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "To satisfy an external security auditor, you need to demonstrate that you can monitor all traffic going in and out of your VPC containing your deployed SageMaker model. What would you show the auditor to satisfy this audit requirement?",
+      "answers": [
+        "CloudWatch Events",
+        "CloudWatch Alerts",
+        "CloudTrail Logs",
+        "SageMaker Logs",
+        "VPC Flow Logs"
+      ],
+      "correctAnswer": ["VPC Flow Logs"]
+    }
+  },
+  {
+    "id": "776",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been working on a machine learning model for several iterations and feel that it is ready for production and allow real users to begin making inferences to it. You want to ensure that the models are ran on multiple instances in different availability zones. What steps can you take to ensure this occurs?",
+      "answers": [
+        "Use Amazon SageMaker hosting services and specify a single instance. Use Route53 with failover routing policy to ensure users are routed to different availability zone if the instance becomes unreachable",
+        "Use Amazon SageMaker hosting services and specify two or more instances. Amazon SageMaker launches them in multiple availability zones automatically",
+        "Use Amazon SageMaker hosting services, deploy two different variants of the model routing 50% of the traffic to one availability zone and the other 50% to the other availability zone",
+        "Use Amazon SageMaker hosting services, specify two or more instances and specify multiple availability zones you want to launch models in"
+      ],
+      "correctAnswer": ["Use Amazon SageMaker hosting services and specify two or more instances. Amazon SageMaker launches them in multiple availability zones automatically"]
+    }
+  },
+  {
+    "id": "777",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company provides a medical image analysis service as a SaaS to customers. Given some upcoming trade show, you want to be sure that your service will remain performant. How might you do this in the most cost-effective way?",
+      "answers": [
+        "Redeploy the endpoint using Elastic Inference added to the production variant.",
+        "Create a new production variant that uses a multi-GPU instance.",
+        "Offload some traffic to a less costly AWS region.",
+        "Create an additional production variant which is the same as the original variant and direct 50% of the traffic to that variant.",
+        "Add an Elastic Inference module to the existing EC2 instance hosting the model."
+      ],
+      "correctAnswer": ["Redeploy the endpoint using Elastic Inference added to the production variant."]
+    }
+  },
+  {
+    "id": "778",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are preparing for the deployment of an ML model based on DeepAR deployed using SageMaker Hosting Services. This model is used for real-time inferences in the financial sector. Management is concerned about a damaged reputation if the service suffers an outage. Which of the following should you do to increase fault-tolerance?",
+      "answers": [
+        "Keep a copy of all the DeepAR code in a Glacier Vault for safe keeping.",
+        "Include Elastic Inference in the endpoint configuration.",
+        "Ensure that InitialInstanceCount is at least 2 or more in the endpoint production variant.",
+        "Recommend that they deploy using EKS in addition to the SageMaker Hosting deployment.",
+        "Create a duplicate endpoint in another region using Amazon Forecast."
+      ],
+      "correctAnswer": ["Ensure that InitialInstanceCount is at least 2 or more in the endpoint production variant."]
+    }
+  },
+  {
+    "id": "779",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "After you have been running your SageMaker Linear Learner binary classification model in production for a while, you want to evaluate the confidence statistics of your model. What service will best help you analyze confidence scores of a published model?",
+      "answers": [
+        "CloudTrail Logs",
+        "CloudSentry Logs",
+        "CloudSentry Events",
+        "CloudWatch Events",
+        "CloudWatch Logs",
+        "CloudTrail Events"
+      ],
+      "correctAnswer": ["CloudWatch Logs"]
+    }
+  },
+  {
+    "id": "780",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked by a client, a large regional hospital chain, to help streamline the processing of inbound paper documents through automated workflow. Which of the following might be MOST useful?",
+      "answers": [
+        "Amazon Textract",
+        "Amazon Medical Services",
+        "Amazon Rekognition",
+        "SageMaker Image Recognition",
+        "Amazon Comprehend Medical",
+        "SageMaker Object Detection"
+      ],
+      "correctAnswer": ["Amazon Textract"]
+    }
+  },
+  {
+    "id": "781",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is working with a dataset to create a model using a supervised learning algorithm. The specialist initially splits the data into two different sets, one for training and reserves the other for testing. The ratio of the dataset is broken into 80% training and 20% testing. After training the model the evaluation is yielding odd results. The model is 95% accurate for the training data and 64% accurate for the testing data. What is the reason for these odd results and what action needs to be taken to resolve issue?",
+      "answers": [
+        "The model is currently overfitting on the dataset and does not know how to generalize for new data seen. This can be fixed by changing the hyperparameters to make the model (plus/minus the learning rate), then retrain.",
+        "Use accuracy as the objective metric for the training set and use a different objective metric to measure accuracy on the training set (F1, Precision, Recall).",
+        "The model is currently underfitting on the dataset and does not know how to generalize for new data seen. This can be fixed by changing the hyperparameters to make the model (plus/minus the learning rate), then retrain.",
+        "The testing dataset has highly imbalanced labels. Reshuffle the data more evenly across both training and testing datasets."
+      ],
+      "correctAnswer": ["The testing dataset has highly imbalanced labels. Reshuffle the data more evenly across both training and testing datasets."]
+    }
+  },
+  {
+    "id": "782",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 3",
+      "question": "A machine learning model is being created using Amazons Factorization Machines algorithm to help make click predictions and item recommendations for new customers. Which of the following would be candidates during the training process?",
+      "answers": [
+        "Using sparse data in recordIO-protobuf format with Float32 tensors as training data.",
+        "Creating a regression model where the testing dataset is scored using Root Mean Square Error (RMSE).",
+        "Creating a binary classification model where the testing dataset is scored using Binary Cross Entropy (Log Loss), Accuracy, and F1 Score.",
+        "Creating a multi-classification model where the testing dataset is scored using Area Under The Curve (AUC).",
+        "Using sparse data in CSV format as training data.",
+        "Making inferences to the model in application/csv format."
+      ],
+      "correctAnswer": ["Using sparse data in recordIO-protobuf format with Float32 tensors as training data.",
+        "Creating a regression model where the testing dataset is scored using Root Mean Square Error (RMSE).",
+        "Creating a binary classification model where the testing dataset is scored using Binary Cross Entropy (Log Loss), Accuracy, and F1 Score."]
+    }
+  },
+  {
+    "id": "783",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have been tasked with transforming data that is stored in Amazon Relational Database Service (RDS) into Amazon S3. Currently you have Multi-AZ RDS enabled and setup inside a private VPC subnet with no access to the outside internet. You have setup an AWS Glue job to run using JDBC connection running in the same private VPC. Which of the following steps will occur or be applied to enable your transformation job to run successfully and securely?",
+      "answers": [
+        "Setup VPC peering for the RDS instance inside the private VPC",
+        "Setup a VPC Gateway Endpoint to access S3 as your data destination",
+        "Setup Internet Gateway attached to private VPC blocking all outside connections",
+        "Setup a routing table enabling RDS instance inside the private VPC to access S3 as data destination",
+        "Setup a Network Address Translation (NAT) gateway inside the VPC.",
+        "AWS Glue sets up elastic network interfaces that enable your jobs to connect securely to RDS within your VPC"
+      ],
+      "correctAnswer": ["Setup a VPC Gateway Endpoint to access S3 as your data destination",
+        "AWS Glue sets up elastic network interfaces that enable your jobs to connect securely to RDS within your VPC"]
+    }
+  },
+  {
+    "id": "784",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working for a company with strict compliance and data security requirements that requires that data is encrypted at all times, including at rest and in transit within the AWS cloud. You have been tasked with setting up a streaming data pipeline to move their data into the AWS cloud. What combination of tools allows this to be implemented with minimum amount of custom code?",
+      "answers": [
+        "Use SHA-256 custom managed keys to encrypt data before using the PutRecord or PutRecords API call. Use Kinesis Data Analytics to transform and decrypt data before using Kinesis Firehose to output results into Amazon S3",
+        "Kinesis only supports encryption of data once it is loaded into AWS cloud. Use Kinesis Data Analytics and a KMS key to transform and decrypt data before using Kinesis Firehose to output results into Amazon S3",
+        "Encrypt data with Amazon Kinesis Consumer Library (KCL), decrypt data with the Amazon Kinesis Producer Library (KPL), and use AWS KMS to manage keys",
+        "Encrypt data with the Amazon Kinesis Producer Library (KPL), decrypt data with Amazon Kinesis Consumer Library (KCL), and use AWS KMS to manage keys"
+      ],
+      "correctAnswer": ["Encrypt data with the Amazon Kinesis Producer Library (KPL), decrypt data with Amazon Kinesis Consumer Library (KCL), and use AWS KMS to manage keys"]
+    }
+  },
+  {
+    "id": "785",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning engineer working for mortgage lender who loans out money to people who are buying a new home. You need to stream line to application process using historical data from past applications. The historic data consists of attributes like applicants name, job status, marital status, loan amount, and final status (whether the application was approved or denied). What are some data preparation techniques you need to take before training the model?",
+      "answers": [
+        "Drop both the applicants name and final status.",
+        "Drop the applicants name and perform one-hot encoding on job status, marital status and final status.",
+        "Drop the applicants name and perform one-hot encoding on job status, marital status and loan amount.",
+        "Drop the job and marital status and perform one-hot encoding on the customer type."
+      ],
+      "correctAnswer": ["Drop the applicants name and perform one-hot encoding on job status, marital status and final status."]
+    }
+  },
+  {
+    "id": "786",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist building a model to determine the location (latitude and longitude) from different images taken and posted on a social media site. Youve been provided with millions of images to use for training stored in Amazon S3. Youve written a Java script to read the images from Amazon S3, extract pixels, latitude and longitude data into CSV format to train the model with. Which service is the best candidate to distribute the workload and create the training dataset?",
+      "answers": [
+        "Amazon EMR",
+        "SageMaker GroundTruth",
+        "Amazon Athena",
+        "AWS Glue"
+      ],
+      "correctAnswer": ["Amazon EMR"]
+    }
+  },
+  {
+    "id": "787",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are a data scientist that has been tasked with setting up an Amazon Elastic Map Reduce (EMR) cluster to host your organizations data lake. You also need to setup this cluster for machine learning processes and it has been decided to use Amazon SageMaker libraries as the machine learning platform. What steps do you need to take to start using SageMaker with your EMR cluster data lake?",
+      "answers": [
+        "Run your SageMaker Spark application on EMR by submitting your Spark application jar and any additional dependencies your Spark application uses",
+        "Download the aws-sagemaker-spark-sdk component along with Spark on your EMR cluster",
+        "Use Apache Mahout within an EMR Notebook to train and infer your model",
+        "Convert EMR DataFrame to CSV and use that to train and infer your model",
+        "Ensure the EMR cluster and SageMaker hosted model are in the same region to make successful inferences"
+      ],
+      "correctAnswer": ["Run your SageMaker Spark application on EMR by submitting your Spark application jar and any additional dependencies your Spark application uses",
+        "Download the aws-sagemaker-spark-sdk component along with Spark on your EMR cluster"]
+    }
+  },
+  {
+    "id": "788",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are currently working on a system that uses batch processes to stream application server log files into Amazon S3, which consist of a cron job running every 30 minutes. You have been tasked with streamlining this process to create a near real-time streaming of the application server logs into Amazon S3. Which architecture would help you solve this process with minimal setup?",
+      "answers": [
+        "Install the CloudWatch agent onto the application server to log the files into CloudWatch. Create a Lambda function that periodically checks the CloudWatch logs for new events. Trigger the Lambda function to store the CloudWatch logs into Amazon S3 if changes are detected.",
+        "Install the Amazon Kinesis agent on the application server. Configure it by specifying the log files to monitor and the Kinesis Firehose delivery stream to stream the data to Amazon S3.",
+        "Create a Python program that uses the Kinesis API to call the PutRecords API call. Specify the Kinesis Streams to ingest the data and the Kinesis Firehose delivery stream to stream the data to Amazon S3. Use the forever command to run the Python program on the application server log files.",
+        "Create a Python program that uses the Kinesis API to call the PutRecords API call. Specify the Kinesis Firehose delivery stream to stream the data to Amazon S3. Use the forever command to run the Python program on the application server log files."
+      ],
+      "correctAnswer": ["Install the Amazon Kinesis agent on the application server. Configure it by specifying the log files to monitor and the Kinesis Firehose delivery stream to stream the data to Amazon S3."]
+    }
+  }
+]

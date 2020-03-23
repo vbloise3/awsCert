@@ -1,0 +1,194 @@
+[
+  {
+    "id": "744",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Machine Learning Specialist is designing a system for improving sales for a company. The objective is to use the large amount of information the company has on users behavior and product preferences to predict which products users would like based on the users similarity to other users. What should the Specialist do to meet this objective?",
+      "answers": [
+        "Build a content-based filtering recommendation engine with Apache Spark ML on Amazon EMR.",
+        "Build a collaborative filtering recommendation engine with Apache Spark ML on Amazon EMR.",
+        "Build a model-based filtering recommendation engine with Apache Spark ML on Amazon EMR.",
+        "Build a combinative filtering recommendation engine with Apache Spark ML on Amazon EMR."
+      ],
+      "correctAnswer": ["Build a collaborative filtering recommendation engine with Apache Spark ML on Amazon EMR."]
+    }
+  },
+  {
+    "id": "745",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Mobile Network Operator is building an analytics platform to analyze and optimize a companys operations using Amazon Athena and Amazon S3. The source systems send data in .CSV format in real time. The Data Engineering team wants to transform the data to the Apache Parquet format before storing it on Amazon S3. Which solution takes the LEAST effort to implement?",
+      "answers": [
+        "Ingest .CSV data using Apache Kafka Streams on Amazon EC2 instances and use Kafka Connect S3 to serialize data as Parquet.",
+        "Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Glue to convert data into Parquet.",
+        "Ingest .CSV data using Apache Spark Structured Streaming in an Amazon EMR cluster and use Apache Spark to convert data into Parquet.",
+        "Ingest .CSV data from Amazon Kinesis Data Streams and use Amazon Kinesis Data Firehose to convert data into Parquet."
+      ],
+      "correctAnswer": ["Ingest .CSV data using Apache Spark Structured Streaming in an Amazon EMR cluster and use Apache Spark to convert data into Parquet."]
+    }
+  },
+  {
+    "id": "746",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Machine Learning team has several large CSV datasets in Amazon S3. Historically, models built with the Amazon SageMaker Linear Learner algorithm have taken hours to train on similar-sized datasets. The teams leaders need to accelerate the training process. What can a Machine Learning Specialist do to address this concern?",
+      "answers": [
+        "Use Amazon SageMaker Pipe mode",
+        "Use Amazon Machine Learning to train the models.",
+        "Use Amazon Kinesis to stream the data to Amazon SageMaker.",
+        "Use AWS Glue to transform the CSV dataset to the JSON format."
+      ],
+      "correctAnswer": ["Use Amazon SageMaker Pipe mode"]
+    }
+  },
+  {
+    "id": "747",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A term frequency-inverse document frequency (tf-idf) matrix using both unigrams and bigrams is<br />built from a text corpus consisting of the following two sentences: 1. Please call the number below. and 2. Please do not call us. What are the dimensions of the tf-idf matrix?",
+      "answers": [
+        "(2, 16)",
+        "(2, 8)",
+        "(2, 10)",
+        "(8, 10)"
+      ],
+      "correctAnswer": ["(2, 16)"]
+    }
+  },
+  {
+    "id": "748",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is setting up a system to manage all of the datasets it stores in Amazon S3. The company<br />would like to automate running transformation jobs on the data and maintaining a catalog of the<br />metadata concerning the datasets. The solution should require the least amount of setup and<br />maintenance. Which solution will allow the company to achieve its goals?",
+      "answers": [
+        "Create an Amazon EMR cluster with Apache Hive installed. Then, create a Hive metastore and a script to<br />run transformation jobs on a schedule.",
+        "Create an AWS Glue crawler to populate the AWS Glue Data Catalog. Then, author an AWS Glue ETL<br />job, and set up a schedule for data transformation jobs.",
+        "Create an Amazon EMR cluster with Apache Spark installed. Then, create an Apache Hive metastore<br />and a script to run transformation jobs on a schedule.",
+        "Create an AWS Data Pipeline that transforms the data. Then, create an Apache Hive metastore and a<br />script to run transformation jobs on a schedule."
+      ],
+      "correctAnswer": ["Create an AWS Glue crawler to populate the AWS Glue Data Catalog. Then, author an AWS Glue ETL<br />job, and set up a schedule for data transformation jobs."]
+    }
+  },
+  {
+    "id": "748",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Data Scientist is working on optimizing a model during the training process by varying multiple<br />parameters. The Data Scientist observes that, during multiple runs with identical parameters, the loss<br />function converges to different, yet stable, values.<br />What should the Data Scientist do to improve the training process?",
+      "answers": [
+        "Increase the learning rate. Keep the batch size the same.",
+        "Reduce the batch size. Decrease the learning rate.",
+        "Keep the batch size the same. Decrease the learning rate.",
+        "Do not change the learning rate. Increase the batch size."
+      ],
+      "correctAnswer": ["Reduce the batch size. Decrease the learning rate."]
+    }
+  },
+  {
+    "id": "749",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Data Scientist is evaluating different binary classification models. A false positive result is 5 times<br />more expensive (from a business perspective) than a false negative result.<br />The models should be evaluated based on the following criteria:<br />1) Must have a recall rate of at least 80%<br />2) Must have a false positive rate of 10% or less<br />3) Must minimize business costs<br />After creating each binary classification model, the Data Scientist generates the corresponding<br />confusion matrix.<br />Which confusion matrix represents the model that satisfies the requirements?",
+      "answers": [
+        "TN = 91, FP = 9<br />FN = 22, TP = 78",
+        "TN = 99, FP = 1<br />FN = 21, TP = 79",
+        "TN = 96, FP = 4<br />FN = 10, TP = 90",
+        "TN = 98, FP = 2<br />FN = 18, TP = 82"
+      ],
+      "correctAnswer": ["TN = 98, FP = 2<br />FN = 18, TP = 82"]
+    }
+  },
+  {
+    "id": "750",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Data Scientist uses logistic regression to build a fraud detection model. While the model accuracy<br />is 99%, 90% of the fraud cases are not detected by the model.<br />What action will definitively help the model detect more than 10% of fraud cases?",
+      "answers": [
+        "Using undersampling to balance the dataset",
+        "Decreasing the class probability threshold",
+        "Using regularization to reduce overfitting",
+        "Using oversampling to balance the dataset"
+      ],
+      "correctAnswer": ["Decreasing the class probability threshold"]
+    }
+  },
+  {
+    "id": "751",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is interested in building a fraud detection model. Currently, the Data Scientist does not<br />have a sufficient amount of information due to the low number of fraud cases.<br />Which method is MOST likely to detect the GREATEST number of valid fraud cases?",
+      "answers": [
+        "Oversampling using bootstrapping",
+        "Undersampling",
+        "Oversampling using SMOTE",
+        "Class weight adjustment"
+      ],
+      "correctAnswer": ["Oversampling using SMOTE"]
+    }
+  },
+  {
+    "id": "752",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Machine Learning Engineer is preparing a data frame for a supervised learning task with the<br />Amazon SageMaker Linear Learner algorithm. The ML Engineer notices the target label classes are<br />highly imbalanced and multiple feature columns contain missing values. The proportion of missing<br />values across the entire data frame is less than 5%.<br />What should the ML Engineer do to minimize bias due to missing values?",
+      "answers": [
+        "Replace each missing value by the mean or median across non-missing values in same row",
+        "Delete observations that contain missing values because these represent less than 5% of the data",
+        "Replace each missing value by the mean or median across non-missing values in the same column",
+        "For each feature, approximate the missing values using supervised learning based on other features"
+      ],
+      "correctAnswer": ["For each feature, approximate the missing values using supervised learning based on other features"]
+    }
+  },
+  {
+    "id": "753",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has collected customer comments on its products, rating them as safe or unsafe, using<br />decision trees. The training dataset has the following features: id, date, full review, full review<br />summary, and a binary safe/unsafe tag. During training, any data sample with missing features was<br />dropped. In a few instances, the test set was found to be missing the full review text field.<br />For this use case, which is the most effective course of action to address test data samples with<br />missing features?",
+      "answers": [
+        "Drop the test samples with missing full review text fields, and then run through the test set.",
+        "Copy the summary text fields and use them to fill in the missing full review text fields, and then run<br />through the test set.",
+        "Use an algorithm that handles missing data better than decision trees.",
+        "Generate synthetic data to fill in the fields that are missing data, and then run through the test set."
+      ],
+      "correctAnswer": ["Copy the summary text fields and use them to fill in the missing full review text fields, and then run<br />through the test set."]
+    }
+  },
+  {
+    "id": "754",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "An insurance company needs to automate claim compliance reviews because human reviews are<br />expensive and error-prone. The company has a large set of claims and a compliance label for each.<br />Each claim consists of a few sentences in English, many of which contain complex related<br />information. Management would like to use Amazon SageMaker built-in algorithms to design a<br />machine learning supervised model that can be trained to read each claim and predict if the claim is<br />compliant or not.<br />Which approach should be used to extract features from the claims to be used as inputs for the<br />downstream supervised task?",
+      "answers": [
+        "Derive a dictionary of tokens from claims in the entire dataset. Apply one-hot encoding to tokens found in<br />each claim of the training set. Send the derived features space as inputs to an Amazon SageMaker builtin supervised learning algorithm.",
+        "Apply Amazon SageMaker BlazingText in Word2Vec mode to claims in the training set. Send the derived<br />features space as inputs for the downstream supervised task.",
+        "Apply Amazon SageMaker BlazingText in classification mode to labeled claims in the training set to<br />derive features for the claims that correspond to the compliant and non-compliant labels, respectively.",
+        "Apply Amazon SageMaker Object2Vec to claims in the training set. Send the derived features space as<br />inputs for the downstream supervised task."
+      ],
+      "correctAnswer": ["Apply Amazon SageMaker Object2Vec to claims in the training set. Send the derived features space as<br />inputs for the downstream supervised task."]
+    }
+  }
+]
