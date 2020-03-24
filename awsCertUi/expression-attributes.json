@@ -1,4 +1,4 @@
 {
-  ":v1": {"S": "A Machine Learning Specialist is designing a system for improving sales for a company. The objective is to use the large amount of information the company has on users behavior and product preferences to predict which products users would like based on the users similarity to other users. What should the Specialist do to meet this objective?"}
+  ":v1": {"S": "An insurance company needs to automate claim compliance reviews because human reviews are<br />expensive and error-prone. The company has a large set of claims and a compliance label for each.<br />Each claim consists of a few sentences in English, many of which contain complex related<br />information. Management would like to use Amazon SageMaker built-in algorithms to design a<br />machine learning supervised model that can be trained to read each claim and predict if the claim is<br />compliant or not.<br />Which approach should be used to extract features from the claims to be used as inputs for the<br />downstream supervised task?"}
 
 }
