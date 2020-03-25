@@ -40,7 +40,7 @@
       "question": "A Machine Learning team has several large CSV datasets in Amazon S3. Historically, models built with the Amazon SageMaker Linear Learner algorithm have taken hours to train on similar-sized datasets. The teams leaders need to accelerate the training process. What can a Machine Learning Specialist do to address this concern?",
       "answers": [
         "Use Amazon SageMaker Pipe mode",
-        "Use Amazon Machine Learning to train the models.",
+        "Use Amazon Machine Learning to train the models",
         "Use Amazon Kinesis to stream the data to Amazon SageMaker.",
         "Use AWS Glue to transform the CSV dataset to the JSON format."
       ],
