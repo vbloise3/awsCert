@@ -1,0 +1,293 @@
+[
+  {
+    "id": "789",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You have been tasked with using Polly to translate speech to text in the company announcements that launch weekly. The problem you are encountering is how Polly is incorrectly translating the companies acronyms. What can be done for future tasks to help prevent this?",
+      "answers": [
+        "Use SSML tags in documents",
+        "Use Amazon Comprehend to pull parts of speech and use to help pronounce acronyms",
+        "Create dictionary lexicon",
+        "Use Amazon Transcribe to first map the acronyms to pronunciations then include them in the Amazon polly pipeline",
+        "Use speech marks for input text documents"
+      ],
+      "correctAnswer": ["Use SSML tags in documents",
+        "Create dictionary lexicon"]
+    }
+  },
+  {
+    "id": "780",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to provide some objective analysis of whether customers like or dislike a companys recent product launches by reviewing social media posts. What is the most efficient way to provide this analysis?",
+      "answers": [
+        "SageMaker Neo",
+        "Amazon Compilation",
+        "SageMaker BlazingText",
+        "Amazon Comprehend",
+        "Amazon Textract",
+        "SageMaker Seq2Seq"
+      ],
+      "correctAnswer": ["Amazon Comprehend"]
+    }
+  },
+  {
+    "id": "781",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are preparing a large set of CSV data for a training job using K-Means. Which of the following are NOT actions that you should expect to take in this scenario?",
+      "answers": [
+        "Convert the data to protobuf RecordIO format.",
+        "Use a mean or median strategy to populate any missing label data.",
+        "Ensure that your IAM role has the iam:PassRole action.",
+        "Decide on the value you want to assign to k.",
+        "Decide on the number of clusters you want to target."
+      ],
+      "correctAnswer": ["Use a mean or median strategy to populate any missing label data."]
+    }
+  },
+  {
+    "id": "782",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 3",
+      "question": "After training and validation sessions, you notice that the error rate is higher than expected for both sessions. What could you do to reduce the error rates for your model?",
+      "answers": [
+        "Run a random cut forest algorithm on the data.",
+        "Add more variables to the dataset.",
+        "Gather more data for your training process.",
+        "Encode the data using Laminar Flow Step-up.",
+        "Run training for a longer period of time.",
+        "Reduce the dimensions of the data."
+      ],
+      "correctAnswer": ["Add more variables to the dataset.",
+        "Gather more data for your training process.",
+        "Run training for a longer period of time."]
+    }
+  },
+  {
+    "id": "783",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working with AWS SageMaker through the process of a model based on Linear Learner. What does SageMaker do next after you issue the CreateModel API?",
+      "answers": [
+        "SageMaker launches an appropriate inference container for the algorithm selected from the regional container repository.",
+        "SageMaker launches an appropriate inference container for the algorithm selected from the global container repository.",
+        "Sagemaker provisions an EC2 instances using the appropriate AMI for the algorithm selected from the global container registry.",
+        "SageMaker provisions an EMR cluster and prepares a Spark script for the training job.",
+        "SageMaker launches an appropriate training container from the algorithm selected from the regional container repository."
+      ],
+      "correctAnswer": ["SageMaker launches an appropriate inference container for the algorithm selected from the regional container repository."]
+    }
+  },
+  {
+    "id": "784",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working with a machine learning team training an image classification model using MXNet on Amazon SageMaker. The requirements state that the model should be at least 85% accurate. The data appears to be of good quality, but the accuracy is around 48% during training with the test data. Most of the time wrong labels are being predicted. What should be done to help increase the accuracy of the model?",
+      "answers": [
+        "Use Amazon SageMakers automatic model tuning. Use AWS Batch to run multiple batches of the training data with different hyper parameters specified during the autotuning job.",
+        "Use Amazon SageMakers automatic model tuning. Take the best performing hyperparameters and manually adjust them to meet your requirements.",
+        "Use Amazon SageMakers automatic model tuning. Take the best performing hyperparameters and run multiple training jobs in parallel using Apache Spark and Spark ML.",
+        "Use Amazon SageMakers automatic model tuning. Specify the object metric and take the best performing parameters suggested by the service to use when training the model."
+      ],
+      "correctAnswer": ["Use Amazon SageMakers automatic model tuning. Specify the object metric and take the best performing parameters suggested by the service to use when training the model."]
+    }
+  },
+  {
+    "id": "785",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You notice that your hyperparameter tuning job for a model that uses Linear Learning with the objective metric of objective_loss has been running for several hours without improvement. What would you have done to ensure the most efficient use of resources?",
+      "answers": [
+        "Enable early stopping",
+        "Choose the XGBoost algorithm instead",
+        "Enable more GPU instances for training",
+        "Run the training job on Spot Instances during nighttime hours",
+        "Reform the problem as Logistic Regression"
+      ],
+      "correctAnswer": ["Enable early stopping"]
+    }
+  },
+  {
+    "id": "786",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You have been asked to consult on a project that intends to build a model for predicting new home prices based on similar home sales historically. How would you frame this problem?",
+      "answers": [
+        "Supervised Learning Problem",
+        "Reinforcement Learning Problem",
+        "Unsupervised Learning Problem",
+        "Logistic Regression Problem",
+        "Multi-class Classification Problem"
+      ],
+      "correctAnswer": ["Supervised Learning Problem"]
+    }
+  },
+  {
+    "id": "787",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A financial institution is seeking a way to improve security by implementing two-factor authentication (2FA). However, management is concerned about customer satisfaction by being forced to authenticate via 2FA for every login. The company is seeking your advice. What is your recommendation?",
+      "answers": [
+        "Create a ML model that uses IP Insights to detect anomalies in client activity. Only if anomalies are detected, force a 2FA step.",
+        "Create a binary classifier model using Object2Vec to detect unusual activity for customer logins. If unusual activity is detected, trigger an SNS notification to the Fraud Department.",
+        "Create an ML model using Linear Learner that can evaluate whether a customer is truly a human or some scripted bot typical of hacking attempts. Hold off on implementing 2FA until there is sufficient data to support its need.",
+        "Recommend that the company invests in customer education on why 2FA is important to their well-being. Train customer support staff on properly handling customer complaints.",
+        "Recommend that the company create a custom login page for their website where customers can login by simply enabling their webcam. Use Amazon Rekognition to detect whether the face is of the customer and authenticate them into their account."
+      ],
+      "correctAnswer": ["Create a ML model that uses IP Insights to detect anomalies in client activity. Only if anomalies are detected, force a 2FA step."]
+    }
+  },
+  {
+    "id": "788",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You want to build a recommendation engine that can predict if people might like new jelly bean flavors based on their shared preferences for other jellybeans they have sampled. You have data from hundreds of thousands of customers, but out of the thousand flavors in your database, the large majority of customers have only sampled a small percentage of flavors. What algorithm would you choose to provide the best results for your recommendation engine?",
+      "answers": [
+        "DeepAR",
+        "Factorization Machines",
+        "Random Cut Forest",
+        "Linear Learner"
+      ],
+      "correctAnswer": ["Factorization Machines"]
+    }
+  },
+  {
+    "id": "789",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You are consulting for a logistics company who wants to implement a very specific algorithm for warehouse storage optimization. The algorithm is not part of the currently available SageMaker built-in algorithms. What are your options?",
+      "answers": [
+        "Build the algorithm in a docker container and use that custom algorithm for training and inference in SageMaker.",
+        "Use a series of existing algorithms to simulate the actions of the unavailable algorithm.",
+        "Search the AWS Marketplace for the algorithm. If it exists, deploy it using SageMaker for inferences.",
+        "Wait until the algorithm is available in SageMaker before further work.",
+        "Post an incendiary message to Twitter hoping to shame AWS into adopting the specialized algorithm."
+      ],
+      "correctAnswer": ["Build the algorithm in a docker container and use that custom algorithm for training and inference in SageMaker.",
+        "Search the AWS Marketplace for the algorithm. If it exists, deploy it using SageMaker for inferences."]
+    }
+  },
+  {
+    "id": "790",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are designing an image classification model that will detect objects in provided pictures. Which neural network approach would be most likely in this use case?",
+      "answers": [
+        "Recurrent Neural Network",
+        "Object detection is not a good use-case for neural networks.",
+        "Decepticon Neural Network",
+        "Convolutional Neural Network",
+        "Stochastic Neural Network"
+      ],
+      "correctAnswer": ["Convolutional Neural Network"]
+    }
+  },
+  {
+    "id": "791",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working for a government body classifying topics shared by different documents within your organization. Your plan is to run these documents through a machine learning process and analyze how the algorithm describes these as a mixture of topics. You would also like to use the topics as input for another supervised algorithm such as a document classifier down the road. What are the steps to take to prepare your documents and achieve this process?",
+      "answers": [
+        "Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into recordIO-wrapped-protobuf format as training data within the Neural Topic Model (NTM) algorithm. Finally, allow the algorithm to classify the documents into the document classifiers you specify.",
+        "Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into recordIO-wrapped-protobuf as training data within the Latent Dirichlet Allocation (LDA) algorithm. Finally, use the latent representations as input for your document classifier in a supervised learning algorithm.",
+        "Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into JSON format as training data within the Neural Topic Model (NTM) algorithm. Finally, allow the algorithm to classify the documents into the document classifiers you specify.",
+        "Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into JSON format as training data within the Latent Dirichlet Allocation (LDA) algorithm. Finally, use the latent representations as input for your document classifier in a supervised learning algorithm.",
+        "Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into CSV format as training data within the Neural Topic Model (NTM) algorithm. Finally, allow the algorithm to classify the documents into the document classifiers you specify."
+      ],
+      "correctAnswer": ["Transform the documents into vectors of integers representing the word counts (bag-of-words representation). Next, transform the vectors into recordIO-wrapped-protobuf as training data within the Latent Dirichlet Allocation (LDA) algorithm. Finally, use the latent representations as input for your document classifier in a supervised learning algorithm."]
+    }
+  },
+  {
+    "id": "792",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist analyzing a large dataset with 20 features. What visualization can be used to show all 20 features and the correlation they have with all other features?",
+      "answers": [
+        "Box Plot",
+        "Bubble Chart",
+        "Heatmap",
+        "Histogram",
+        "Bar Chart"
+      ],
+      "correctAnswer": ["Heatmap"]
+    }
+  },
+  {
+    "id": "793",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are apply normalization techniques to a column in your dataset. The column has the following values {1, 5, 7}. When we apply normalization what will the respective output results be?",
+      "answers": [
+        "{-1.33, 0.26, 1.06}",
+        "{0.00, 0.66, 1.00}",
+        "{-1.00, 0.66, 1.00}",
+        "{0.00, -0.66, 1.00}",
+        "{-1.00, -0.66, 0.00}"
+      ],
+      "correctAnswer": ["{0.00, 0.66, 1.00}"]
+    }
+  },
+  {
+    "id": "794",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A major police station is needing to track parking in the downtown area of the city. The station is wanting to ingest videos of the cars parking in near-real time, use machine learning to identify license plates, and store that data in an AWS data store. Which solution meets these requirements with the least amount of development effort?",
+      "answers": [
+        "Use Amazon Kinesis Data Streams to ingest videos in near-real time. Call Amazon Rekognition to identify license plate information, and then store results in DynamoDB.",
+        "Use Amazon Kinesis Video Streams to ingest the videos in near-real time. Integrate Kinesis Video Streams with Amazon Rekognition Video to identify the license plate information, then store the results in DynamoDB.",
+        "Use Amazon Kinesis Firehose to ingest the video in near-real time, and outputs results onto S3. Setup a Lambda function that triggers when a new video is PUT onto S3 to send results to Amazon Rekognition to identify license plate information, and then store results in DynamoDB.",
+        "Use Amazon Kinesis Data Streams to ingest the video in near-real time. Use the Kinesis Data Streams consumer integrated with Amazon Rekognition Video to process the license plate information, and then store results in DynamoDB."
+      ],
+      "correctAnswer": ["Use Amazon Kinesis Video Streams to ingest the videos in near-real time. Integrate Kinesis Video Streams with Amazon Rekognition Video to identify the license plate information, then store the results in DynamoDB."]
+    }
+  },
+  {
+    "id": "795",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You work for a company that has many datasets stored in Amazon S3. There are several different transformations that need to occur on the data before it is ready for a Machine Learning process. The company wants to automate this transformation process and keep a catalog of the metadata about the datasets. What is a good solution that requires the least amount of setup and maintenance?",
+      "answers": [
+        "Create a Kinesis Data Stream to continuously stream S3 data into Kinesis Analytics. Author a query that transforms the data. Next, create a Kinesis Firehose delivery stream to output the results onto S3.",
+        "Create an Amazon EMR cluster with Apache Hive installed. Next, create a Hive metastore and author a script to run transformation jobs on a schedule.",
+        "Create an AWS Data Pipeline that transforms the data. Then, create an Apache Hive metastore and a script to run transformation jobs on a schedule.",
+        "Setup an AWS Glue crawler to populate the AWS Glue Data Catalog. Next, create an AWS Glue ETL job on a schedule for the data transformation jobs."
+      ],
+      "correctAnswer": ["Setup an AWS Glue crawler to populate the AWS Glue Data Catalog. Next, create an AWS Glue ETL job on a schedule for the data transformation jobs."]
+    }
+  }
+]
