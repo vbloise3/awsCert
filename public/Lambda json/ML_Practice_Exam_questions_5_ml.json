@@ -14,5 +14,130 @@
       ],
       "correctAnswer": ["Create a Kinesis Data Firehose that reads data from the Kinesis Data Stream, and then writes buffered data to partitioned Parquet files stored in the data lake."]
     }
+  },
+  {
+    "id": "797",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company wants to design a process where they can group customers into similar groups to create special targeted advertising campaigns. How would you frame this problem?",
+      "answers": [
+        "Linear Regression Problem",
+        "Supervised Learning Problem",
+        "Reinforcement Learning Problem",
+        "Binomial Classification Problem",
+        "Unsupervised Learning Problem"
+      ],
+      "correctAnswer": ["Unsupervised Learning Problem"]
+    }
+  },
+  {
+    "id": "798",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "Which of the following could be used in an API to determine if a used cars price is within market value or not?",
+      "answers": [
+        "Logistic Regression",
+        "Binary Classification",
+        "One-Hot Encoding",
+        "Multi-class Classification",
+        "Historic Forecasting",
+        "Polynomial Synthesis",
+        "Linear Regression"
+      ],
+      "correctAnswer": ["Logistic Regression",
+        "Binary Classification"]
+    }
+  },
+  {
+    "id": "799",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist needs to create a model for detecting whether a person is sleeping or meditating. The dataset consists of different features of brainwaves that have been collected over a 5 year span. Since true meditation is very difficult to achieve the data is highly imbalanced. Less than 2% of the dataset was labeled as true meditation. Which solution provides the optimal predictive power for classifying a person as sleeping or meditating?",
+      "answers": [
+        "Resample the dataset using oversample/undersampling and use accuracy as the objective metric. Finally, apply the XGBoost algorithm.",
+        "Undersample the majority class in the dataset using a cluster technique and use precision as the objective metric. Finally, apply the Random Cut Forest algorithm.",
+        "Resample the dataset using oversampling/undersampling and use the F beta (F1) score as the objective metric. Finally, apply the XGBoost algorithm.",
+        "Oversample the dataset using a clustering technique and use accuracy as the objective metric. Finally, apply Random Cut Forest (RCF) algorithm."
+      ],
+      "correctAnswer": ["Resample the dataset using oversampling/undersampling and use the F beta (F1) score as the objective metric. Finally, apply the XGBoost algorithm."]
+    }
+  },
+  {
+    "id": "800",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 2",
+      "question": "You work for a team that has a model being used in production, for which the data it is sent to perform inferences on is coming from a different source. The model was built to work well for cleaned data inputs. How do you ensure that the models performance in production will be similar?",
+      "answers": [
+        "Ensure bias is introduced to the data being used in production since it is from another data source.",
+        "Never allow input data for a production model come from another data source.",
+        "Review counts, data durations, and the precision of the data inputs compared to training data.",
+        "Ensuring that the data is accurate for data inputs and training data.",
+        "Create a Lambda function that replaces missing values with the mean value on the data source before it is used in production.",
+        "Use Data Pipeline workflows to compare the data source and the data used to train the model."
+      ],
+      "correctAnswer": ["Review counts, data durations, and the precision of the data inputs compared to training data.",
+        "Ensuring that the data is accurate for data inputs and training data."]
+    }
+  },
+  {
+    "id": "801",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 3",
+      "question": "You are a Data Scientist working on a model that predicts fraudulent and non fraudulent transactions. You notice that 90% of the samples are non fraudulent which makes up the majority of the dataset. What are some methods you can use to address this issue in the data?",
+      "answers": [
+        "Try a different algorithm or a combination of algorithms on your dataset",
+        "Drop all fraudulent transaction before training the model",
+        "Use K-means cluster to find outliers for non fraudulent transactions and use those as fraudulent samples",
+        "Resample the dataset to correct imbalances of each transaction type",
+        "Apply Principal Component Analysis (PCA) to undersample non fraudulent transactions",
+        "Combine dataset with a public dataset that have a majority of fraudulent transactions",
+        "Collect more data to even the imbalances in the dataset"
+      ],
+      "correctAnswer": ["Try a different algorithm or a combination of algorithms on your dataset",
+        "Resample the dataset to correct imbalances of each transaction type",
+        "Collect more data to even the imbalances in the dataset"]
+    }
+  },
+  {
+    "id": "802",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You work with a non-profit museum that would like to create audio guides that visitors can download to their mobile devices and play as they walk through the exhibits. You want to offer the audio guides in as many languages as possible but you have no budget for hiring people to create the narrations. What is a possible solution?",
+      "answers": [
+        "Use Amazon Personalize to create unique narrations for each museum visitor on-demand. Personalize will automatically convert the narration to the visitors native language.",
+        "Use Amazon Polly to create a narration from the script and then Amazon Lex to dynamically adjust the audio to a variety of languages based on visitor preference.",
+        "Use Amazon Textract to analyze the script and extract key themes. Use Amazon Comprehend to convert the themes into native-language narrations. Upload the files to S3 for easy downloading.",
+        "Use Amazon Translate to translate the script into multiple languages and then Amazon Polly to create native language audio recordings of the audio guide."
+      ],
+      "correctAnswer": ["Use Amazon Translate to translate the script into multiple languages and then Amazon Polly to create native language audio recordings of the audio guide."]
+    }
+  },
+  {
+    "id": "803",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Exam Practice Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are working for a hot new startup that calculates different metrics about their customers depending on how much money they spend on a weekly, quarterly, and yearly basis. These metrics are classified as elite, novice, and beginner. Depending on their ranking they get more/less discounts and placed in higher/lower priority for customer support. Your machine learning model should take this ordering into consideration. The algorithm you have chosen expects all numerical inputs. What can be done to handle these classification values?",
+      "answers": [
+        "Use one-hot encoding techniques to map values for each classification",
+        "Use one-hot encoding techniques to map values for each classification dropping the original classification feature",
+        "Apply random numbers to each classification value and apply gradient descent until the values converge to expect results",
+        "Experiment with mapping different values for each status and see which works best"
+      ],
+      "correctAnswer": ["Experiment with mapping different values for each status and see which works best"]
+    }
   }
 ]
