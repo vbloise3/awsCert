@@ -132,12 +132,12 @@
       "questionType": "multiple choice 1",
       "question": "You are working for a hot new startup that calculates different metrics about their customers depending on how much money they spend on a weekly, quarterly, and yearly basis. These metrics are classified as elite, novice, and beginner. Depending on their ranking they get more/less discounts and placed in higher/lower priority for customer support. Your machine learning model should take this ordering into consideration. The algorithm you have chosen expects all numerical inputs. What can be done to handle these classification values?",
       "answers": [
-        "Use one-hot encoding techniques to map values for each classification.",
-        "Use one-hot encoding techniques to map values for each classification dropping the original classification feature.",
-        "Apply random numbers to each classification value and apply gradient descent until the values converge to expect results.",
-        "Experiment with mapping different values for each status and see which works best."
+        "Use one-hot encoding techniques to map values for each classification",
+        "Use one-hot encoding techniques to map values for each classification dropping the original classification feature",
+        "Apply random numbers to each classification value and apply gradient descent until the values converge to expect results",
+        "Experiment with mapping different values for each status and see which works best"
       ],
-      "correctAnswer": ["Experiment with mapping different values for each status and see which works best."]
+      "correctAnswer": ["Experiment with mapping different values for each status and see which works best"]
     }
   }
 ]
