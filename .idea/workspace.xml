@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Practice_Exam_questions_6_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,7 @@
       <workItem from="1589804254121" duration="5335000" />
       <workItem from="1590696945555" duration="601000" />
       <workItem from="1590760678417" duration="2409000" />
-      <workItem from="1591107641264" duration="2082000" />
+      <workItem from="1591107641264" duration="5224000" />
     </task>
     <servers />
   </component>
@@ -142,14 +142,14 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
-        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.d.ts" />
-        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.js" />
-        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.d.ts" />
-        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.js" />
-        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.d.ts" />
-        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.js" />
-        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.d.ts" />
-        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.js" />
+        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.d.ts" />
+        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.js" />
+        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.d.ts" />
+        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.js" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.js" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.js" />
       </list>
     </option>
   </component>
