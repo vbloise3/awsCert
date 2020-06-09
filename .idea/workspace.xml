@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Practice_Exam_questions_6_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Practice_Exam_questions_7_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +55,17 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/awsCertUi/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Lambda json" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/Exam Notes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/Lambda json" />
       <recent name="$PROJECT_DIR$/awsCertUi/src/app" />
       <recent name="$PROJECT_DIR$/chalicelib" />
       <recent name="$PROJECT_DIR$/.chalice" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/Lambda json" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/public/Exam Notes" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -133,7 +134,7 @@
       <workItem from="1589804254121" duration="5335000" />
       <workItem from="1590696945555" duration="601000" />
       <workItem from="1590760678417" duration="2409000" />
-      <workItem from="1591107641264" duration="5224000" />
+      <workItem from="1591107641264" duration="6459000" />
     </task>
     <servers />
   </component>
