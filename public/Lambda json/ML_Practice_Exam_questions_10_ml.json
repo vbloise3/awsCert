@@ -1,0 +1,164 @@
+[
+  {
+    "id": "873",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are training an XGBoost model on SageMaker with millions of rows of training data, and you wish to use Apache Spark to pre-process this data at scale. What is the simplest architecture that achieves this?",
+      "answers": [
+        "Use Amazon EMR to pre-process your data using Spark, and use the same EMR instances to host your SageMaker notebook.",
+        "Use sagemaker_pyspark and XGBoostSageMakerEstimator to use Spark to pre-process, train, and host your model using Spark on SageMaker.",
+        "Use Amazon EMR to pre-process your data using Spark, and then use AWS Data Pipelines to transfer the processed training data to SageMaker",
+        "Use Sparkmagic to pre-process your data within a SageMaker notebook, transform the resulting Spark DataFrames into RecordIO format, and then use Sparks XGBoost algorithm to train the model."
+      ],
+      "correctAnswer": ["Use sagemaker_pyspark and XGBoostSageMakerEstimator to use Spark to pre-process, train, and host your model using Spark on SageMaker."]
+    }
+  },
+  {
+    "id": "874",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A system designed to classify financial transactions into fraudulent and non-fraudulent transactions results in the confusion matrix below. What is the recall of this model? Predicted Pos Actual Pos: 90; Predicted Pos Actual Neg: 45; Predicted Neg Actual Pos: 10; Predicted Neg Actual Neg: 20",
+      "answers": [
+        "50%",
+        "66.67%",
+        "74%",
+        "90%"
+      ],
+      "correctAnswer": ["90%"]
+    }
+  },
+  {
+    "id": "875",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You wish to use a SageMaker notebook within a VPC. SageMaker notebook instances are Internet-enabled, creating a potential security hole in your VPC. How would you use SageMaker within a VPC without opening up Internet access?",
+      "answers": [
+        "Uncheck the option for Internet access when creating your notebook instance, and it will handle the rest automatically.",
+        "Use IAM to restrict Internet access from the notebook instance.",
+        "Disable direct Internet access when specifying the VPC for your notebook instance, and use VPC interface endpoints (PrivateLink) to allow the connections needed to train and host your model. Modify your instances security group to allow outbound connections for training and hosting.",
+        "No action is required, the VPC will block the notebook instances from accessing the Internet."
+      ],
+      "correctAnswer": ["Disable direct Internet access when specifying the VPC for your notebook instance, and use VPC interface endpoints (PrivateLink) to allow the connections needed to train and host your model. Modify your instances security group to allow outbound connections for training and hosting."]
+    }
+  },
+  {
+    "id": "876",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A large news website needs to produce personalized recommendations for articles to its readers, by training a machine learning model on a daily basis using historical click data. The influx of this data is fairly constant, except during major elections when traffic to the site spikes considerably. Which system would provide the most cost-effective and reliable solution?",
+      "answers": [
+        "Publish click data into Amazon S3 using Kinesis Firehose, and process the data nightly using Apache Spark and MLLib using reserved instances in an EMR cluster. Publish the models results to DynamoDB for producing recommendations in real-time.",
+        "Publish click data into Amazon S3 using Kinesis Firehose, and process the data nightly using Apache Spark and MLLib using spot instances in an EMR cluster. Publish the models results to DynamoDB for producing recommendations in real-time.",
+        "Publish click data into Amazon Elasticsearch using Kinesis Firehose, and query the Elasticsearch data to produce recommendations in real-time.",
+        "Publish click data into Amazon S3 using Kinesis Streams, and process the data in real time using Splunk on an EMR cluster with spot instances added as needed. Publish the models results to DynamoDB for producing recommendations in real-time."
+      ],
+      "correctAnswer": ["Publish click data into Amazon S3 using Kinesis Firehose, and process the data nightly using Apache Spark and MLLib using spot instances in an EMR cluster. Publish the models results to DynamoDB for producing recommendations in real-time."]
+    }
+  },
+  {
+    "id": "877",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Your company wishes to monitor social media, and perform sentiment analysis on Tweets to classify them as positive or negative sentiment. You are able to obtain a data set of past Tweets about your company to use as training data for a machine learning system, but they are not classified as positive or negative.  How would you build such a system?",
+      "answers": [
+        "Use RANDOM_CUT_FOREST to automatically identify negative tweets as outliers.",
+        "Use Amazon Machine Learning with a binary classifier to assign positive or negative sentiments to the past Tweets, and use those labels to train a neural network on an EMR cluster.",
+        "Use SageMaker Ground Truth to label past Tweets as positive or negative, and use those labels to train a neural network on SageMaker.",
+        "Stream both old and new tweets into an Amazon Elasticsearch Service cluster, and use Elasticsearch machine learning to classify the tweets."
+      ],
+      "correctAnswer": ["Use SageMaker Ground Truth to label past Tweets as positive or negative, and use those labels to train a neural network on SageMaker."]
+    }
+  },
+  {
+    "id": "878",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "After training a deep neural network over 100 epochs, it achieved high accuracy on your training data, but lower accuracy on your test data, suggesting the resulting model is overfitting. What are TWO techniques that may help resolve this problem?",
+      "answers": [
+        "Use early stopping",
+        "Use more layers in the network",
+        "Use dropout regularization",
+        "Employ gradient checking",
+        "Use more features in the training data"
+      ],
+      "correctAnswer": ["Use early stopping", "Use dropout regularization"]
+    }
+  },
+  {
+    "id": "879",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a machine learning model to predict house sale prices based on features of a house. 10% of the houses in your training data are missing the number of square feet in the home. Your training data set is not very large. Which technique would allow you to train your model while achieving the highest accuracy?",
+      "answers": [
+        "Impute the missing square footage values using kNN",
+        "Drop all rows that contain missing data",
+        "Impute the missing values using deep learning, based on other features such as number of bedrooms",
+        "Impute the missing values using the mean square footage of all homes"
+      ],
+      "correctAnswer": ["Impute the missing square footage values using kNN"]
+    }
+  },
+  {
+    "id": "880",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing an autonomous vehicle that must classify images of street signs with extremely low latency, processing thousands of images per second. What AWS-based architecture would best meet this need?",
+      "answers": [
+        "Use Amazon Rekognition on AWS DeepLens to identify specific street signs in a self-contained manner.",
+        "Develop your classifier with TensorFlow, and compile it for an NVIDIA Jetson edge device using SageMaker Neo, and run it on the edge with IoT GreenGrass.",
+        "Develop your classifier using SageMaker Object Detection, and use Elastic Inference to accelerate the models endpoints called over the air from the vehicle.",
+        "Use Amazon Rekognition in edge mode"
+      ],
+      "correctAnswer": ["Develop your classifier with TensorFlow, and compile it for an NVIDIA Jetson edge device using SageMaker Neo, and run it on the edge with IoT GreenGrass."]
+    }
+  },
+  {
+    "id": "881",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Your automatic hyperparameter tuning job in SageMaker is consuming more resources than you would like, and coming at a high cost. What are TWO techniques that might reduce this cost?",
+      "answers": [
+        "Use less concurrency while tuning",
+        "Use inference pipelines",
+        "Use more concurrency while tuning",
+        "Use logarithmic scales on your parameter ranges",
+        "Use linear scales on your parameter ranges"
+      ],
+      "correctAnswer": ["Use less concurrency while tuning", "Use logarithmic scales on your parameter ranges"]
+    }
+  },
+  {
+    "id": "882",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are developing a computer vision system that can classify every pixel in an image based on its image type, such as people, buildings, roadways, signs, and vehicles. Which SageMaker algorithm would provide you with the best starting point for this problem?",
+      "answers": [
+        "Rekognition",
+        "Semantic Segmentation",
+        "Object Detection",
+        "Object2Vec"
+      ],
+      "correctAnswer": ["Semantic Segmentation"]
+    }
+  }
+]
