@@ -1,0 +1,375 @@
+[
+  {
+    "id": "853",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "51. A manufacturing company has a large set of labeled historical sales data. The manufacturer would like to predict how many units of a particular part should be produced each quarter. Which machine learning approach should be used to solve this problem?",
+      "answers": [
+        "Logistic regression",
+        "Random Cut Forest (RCF)",
+        "Principal component analysis (PCA)",
+        "Linear regression"
+      ],
+      "correctAnswer": ["Linear regression"]
+    }
+  },
+  {
+    "id": "854",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "52. A financial services company is building a robust serverless data lake on Amazon S3. The data lake should be flexible and meet the following requirements: Support querying old and new data on Amazon S3 through Amazon Athena and Amazon Redshift Spectrum. Support event-driven ETL pipelines. Provide a quick and easy way to understand metadata. Which approach meets these requirements?",
+      "answers": [
+        "Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Glue ETL job, and an AWS Glue Data catalog to search and discover metadata.",
+        "Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Batch job, and an external Apache Hive metastore to search and discover metadata.",
+        "Use an AWS Glue crawler to crawl S3 data, an Amazon CloudWatch alarm to trigger an AWS Batch job, and an AWS Glue Data Catalog to search and discover metadata.",
+        "Use an AWS Glue crawler to crawl S3 data, an Amazon CloudWatch alarm to trigger an AWS Glue ETL job, and an external Apache Hive metastore to search and discover metadata."
+      ],
+      "correctAnswer": ["Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Glue ETL job, and an AWS Glue Data catalog to search and discover metadata."]
+    }
+  },
+  {
+    "id": "855",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "53. A company's Machine Learning Specialist needs to improve the training speed of a time-series forecasting model using TensorFlow. The training is currently implemented on a single-GPU machine and takes approximately 23 hours to complete. The training needs to be run daily. The model accuracy is acceptable, but the company anticipates a continuous increase in the size of the training data and a need to update the model on an hourly, rather than a daily, basis. The company also wants to minimize coding effort and infrastructure changes. What should the Machine Learning Specialist do to the training solution to allow it to scale for future demand?",
+      "answers": [
+        "Do not change the TensorFlow code. Change the machine to one with a more powerful GPU to speed up the training.",
+        "Change the TensorFlow code to implement a Horovod distributed framework supported by Amazon SageMaker. Parallelize the training to as many machines as needed to achieve the business goals.",
+        "Switch to using a built-in AWS SageMaker DeepAR model. Parallelize the training to as many machines as needed to achieve the business goals.",
+        "Move the training to Amazon EMR and distribute the workload to as many machines as needed to achieve the business goals."
+      ],
+      "correctAnswer": ["Change the TensorFlow code to implement a Horovod distributed framework supported by Amazon SageMaker. Parallelize the training to as many machines as needed to achieve the business goals."]
+    }
+  },
+  {
+    "id": "856",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "54. Which of the following metrics should a Machine Learning Specialist generally use to compare/evaluate machine learning classification models against each other?",
+      "answers": [
+        "Recall",
+        "Misclassification rate",
+        "Mean absolute percentage error (MAPE)",
+        "Area Under the ROC Curve (AUC)"
+      ],
+      "correctAnswer": ["Area Under the ROC Curve (AUC)"]
+    }
+  },
+  {
+    "id": "857",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "55. A company is running a machine learning prediction service that generates 100 TB of predictions every day. A Machine Learning Specialist must generate a visualization of the daily precision-recall curve from the predictions, and forward a read-only version to the Business team. Which solution requires the LEAST coding effort?",
+      "answers": [
+        "Run daily Amazon EMR workflow to generate precision-recall data, and save the results in Amazon S3. Give the Business team read-only access to S3.",
+        "Generate daily precision-recall data in Amazon QuickSight, and publish the results in a dashboard shared with the Business team.",
+        "Run a daily Amazon EMR workflow to generate precision-recall data, and save the results in Amazon S3. Visualize the arrays in Amazon QuickSight, and publish them in a dashboard shared with the Business team.",
+        "Generate daily precision-recall data in Amazon ES, and publish the results in a dashboard shared with the Business team."
+      ],
+      "correctAnswer": ["Run a daily Amazon EMR workflow to generate precision-recall data, and save the results in Amazon S3. Visualize the arrays in Amazon QuickSight, and publish them in a dashboard shared with the Business team."]
+    }
+  },
+  {
+    "id": "858",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "56. A Machine Learning Specialist is preparing data for training on Amazon SageMaker. The Specialist is using one of the SageMaker built-in algorithms for the training. The dataset is stored in .CSV format and is transformed into a numpy.array, which appears to be negatively affecting the speed of the training. What should the Specialist do to optimize the data for training on SageMaker?",
+      "answers": [
+        "Use the SageMaker batch transform feature to transform the training data into a DataFrame.",
+        "Use AWS Glue to compress the data into the Apache Parquet format.",
+        "Transform the dataset into the RecordIO protobuf format.",
+        "Use the SageMaker hyperparameter optimization feature to automatically optimize the data."
+      ],
+      "correctAnswer": ["Transform the dataset into the RecordIO protobuf format."]
+    }
+  },
+  {
+    "id": "859",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "57. A Machine Learning Specialist is required to build a supervised image-recognition model to identify a cat. The ML Specialist performs some tests and records the following results for a neural network-based image classifier: Total number of images available = 1,000. Test set images = 100 (constant test set). The ML Specialist notices that, in over 75% of the misclassified images, the cats were held upside down by their owners. Which techniques can be used by the ML Specialist to improve this specific test error?",
+      "answers": [
+        "Increase the training data by adding variation in rotation for training images.",
+        "Increase the number of epochs for model training",
+        "Increase the number of layers for the neural network.",
+        "Increase the dropout rate for the second-to-last layer."
+      ],
+      "correctAnswer": ["Increase the training data by adding variation in rotation for training images."]
+    }
+  },
+  {
+    "id": "860",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "58. A Machine Learning Specialist needs to be able to ingest streaming data and store it in Apache Parquet files for exploration and analysis. Which of the following services would both ingest and store this data in the correct format?",
+      "answers": [
+        "AWS DMS",
+        "Amazon Kinesis Data Streams",
+        "Amazon Kinesis Data Firehose",
+        "Amazon Kinesis Data Analytics"
+      ],
+      "correctAnswer": ["Amazon Kinesis Data Firehose"]
+    }
+  },
+  {
+    "id": "861",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "59. A Data Scientist is developing a machine learning model to classify whether a financial transaction is fraudulent. The labeled data available for training consists of 100,000 non-fraudulent observations and 1,000 fraudulent observations. The Data Scientist applies the XGBoost algorithm to the data, resulting in the following confusion matrix when the trained model is applied to a previously unseen validation dataset. The accuracy of the model is 99.1%, but the Data Scientist has been asked to reduce the number of false negatives. Predicted Actual 0: 99,966; Predicted Actual 1: 123; Predicted 1 Actual 0: 34; Predicted 0 Actual 1: 877. Which combination of steps should the Data Scientist take to reduce the number of false positive predictions by the model? (Choose two.)",
+      "answers": [
+        "Change the XGBoost eval_metric parameter to optimize based on rmse instead of error.",
+        "Increase the XGBoost scale_pos_weight parameter to adjust the balance of positive and negative weights.",
+        "Increase the XGBoost max_depth parameter because the model is currently underfitting the data.",
+        "Change the XGBoost eval_metric parameter to optimize based on AUC instead of error.",
+        "Decrease the XGBoost max_depth parameter because the model is currently overfitting the data."
+      ],
+      "correctAnswer": ["Increase the XGBoost scale_pos_weight parameter to adjust the balance of positive and negative weights.", "Change the XGBoost eval_metric parameter to optimize based on AUC instead of error."]
+    }
+  },
+  {
+    "id": "862",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "60. A Machine Learning Specialist is assigned a TensorFlow project using Amazon SageMaker for training, and needs to continue working for an extended period with no Wi-Fi access. Which approach should the Specialist use to continue working?",
+      "answers": [
+        "Install Python 3 and boto3 on their laptop and continue the code development using that environment.",
+        "Download the TensorFlow Docker container used in Amazon SageMaker from GitHub to their local environment, and use the Amazon SageMaker Python SDK to test the code.",
+        "Download TensorFlow from tensorflow.org to emulate the TensorFlow kernel in the SageMaker environment.",
+        "Download the SageMaker notebook to their local environment, then install Jupyter Notebooks on their laptop and continue the development in a local notebook."
+      ],
+      "correctAnswer": ["Download the TensorFlow Docker container used in Amazon SageMaker from GitHub to their local environment, and use the Amazon SageMaker Python SDK to test the code."]
+    }
+  },
+  {
+    "id": "863",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "61. A Machine Learning Specialist is working with a large cybersecurity company that manages security events in real time for companies around the world. The cybersecurity company wants to design a solution that will allow it to use machine learning to score malicious events as anomalies on the data as it is being ingested. The company also wants be able to save the results in its data lake for later processing and analysis. What is the MOST efficient way to accomplish these tasks?",
+      "answers": [
+        "Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.",
+        "Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with k-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR with a replication factor of three as the data lake.",
+        "Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a k-means model using TensorFlow on the data in Amazon S3.",
+        "Ingest the data and store it in Amazon S3. Have an AWS Glue job that is triggered on demand transform the new data. Then use the built-in Random Cut Forest (RCF) model within Amazon SageMaker to detect anomalies in the data."
+      ],
+      "correctAnswer": ["Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3."]
+    }
+  },
+  {
+    "id": "864",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "62. A Data Scientist wants to gain real-time insights into a data stream of GZIP files. Which solution would allow the use of SQL to query the stream with the LEAST latency?",
+      "answers": [
+        "Amazon Kinesis Data Analytics with an AWS Lambda function to transform the data.",
+        "AWS Glue with a custom ETL script to transform the data",
+        "An Amazon Kinesis Client Library to transform the data and save it to an Amazon ES cluster.",
+        "Amazon Kinesis Data Firehose to transform the data and put it into an Amazon S3 bucket."
+      ],
+      "correctAnswer": ["Amazon Kinesis Data Analytics with an AWS Lambda function to transform the data."]
+    }
+  },
+  {
+    "id": "865",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "63. A retail company intends to use machine learning to categorize new products. A labeled dataset of current products was provided to the Data Science team. The dataset includes 1,200 products. The labeled dataset has 15 features for each product such as title dimensions, weight, and price. Each product is labeled as belonging to one of six categories such as books, games, electronics, and movies. Which model should be used for categorizing new products using the provided dataset for training?",
+      "answers": [
+        "An XGBoost model where the objective parameter is set to multi:softmax",
+        "A deep convolutional neural network (CNN) with a softmax activation function for the last layer",
+        "A regression forest where the number of trees is set equal to the number of product categories",
+        "A DeepAR forecasting model based on a recurrent neural network (RNN)"
+      ],
+      "correctAnswer": ["An XGBoost model where the objective parameter is set to multi:softmax"]
+    }
+  },
+  {
+    "id": "866",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "64. A Data Scientist is working on an application that performs sentiment analysis. The validation accuracy is poor, and the Data Scientist thinks that the cause may be a rich vocabulary and a low average frequency of words in the dataset. Which tool should be used to improve the validation accuracy?",
+      "answers": [
+        "Amazon Comprehend syntax analysis and entity detection",
+        "Amazon SageMaker BlazingText cbow mode",
+        "Natural Language Toolkit (NLTK) stemming and stop word removal",
+        "Scikit-leam term frequency-inverse document frequency (TF-IDF) vectorizer"
+      ],
+      "correctAnswer": ["Amazon Comprehend syntax analysis and entity detection"]
+    }
+  },
+  {
+    "id": "867",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "65. Machine Learning Specialist is building a model to predict future employment rates based on a wide range of economic factors. While exploring the data, the Specialist notices that the magnitude of the input features vary greatly. The Specialist does not want variables with a larger magnitude to dominate the model. What should the Specialist do to prepare the data for model training?",
+      "answers": [
+        "Apply quantile binning to group the data into categorical bins to keep any relationships in the data by replacing the magnitude with distribution.",
+        "Apply the Cartesian product transformation to create new combinations of fields that are independent of the magnitude.",
+        "Apply normalization to ensure each field will have a mean of 0 and a variance of 1 to remove any significant magnitude.",
+        "Apply the orthogonal sparse bigram (OSB) transformation to apply a fixed-size sliding window to generate new features of a similar magnitude."
+      ],
+      "correctAnswer": ["Apply normalization to ensure each field will have a mean of 0 and a variance of 1 to remove any significant magnitude."]
+    }
+  },
+  {
+    "id": "868",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 1. A Machine Learning Specialist must build out a process to query a dataset on Amazon S3 using Amazon Athena. The dataset contains more than 800,000 records stored as plaintext CSV files. Each record contains 200 columns and is approximately 1.5 MB in size. Most queries will span 5 to 10 columns only. How should the Machine Learning Specialist transform the dataset to minimize query runtime?",
+      "answers": [
+        "Convert the records to Apache Parquet format.",
+        "Convert the records to JSON format.",
+        "Convert the records to GZIP CSV format.",
+        "Convert the records to XML format."
+      ],
+      "correctAnswer": ["Convert the records to Apache Parquet format."]
+    }
+  },
+  {
+    "id": "869",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 2. A Machine Learning Specialist is developing a daily ETL workflow containing multiple ETL jobs. The workflow consists of the following processes:  - Start the workflow as soon as data is uploaded to Amazon S3.  - When all the datasets are available in Amazon S3, start an ETL job to join the uploaded datasets with multiple terabyte-sized datasets already stored in Amazon S3.  - Store the results of joining datasets in Amazon S3.  - If one of the jobs fails, send a notification to the Administrator.  Which configuration will meet these requirements?",
+      "answers": [
+        "Use AWS Lambda to trigger an AWS Step Functions workflow to wait for dataset uploads to complete in Amazon S3. Use AWS Glue to join the datasets. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Develop the ETL workflow using AWS Lambda to start an Amazon SageMaker notebook instance. Use a lifecycle configuration script to join the datasets and persist the results in Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Develop the ETL workflow using AWS Batch to trigger the start of ETL jobs when data is uploaded to Amazon S3. Use AWS Glue to join the datasets in Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Use AWS Lambda to chain other Lambda functions to read and join the datasets in Amazon S3 as soon as the data is uploaded to Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure."
+      ],
+      "correctAnswer": ["Use AWS Lambda to trigger an AWS Step Functions workflow to wait for dataset uploads to complete in Amazon S3. Use AWS Glue to join the datasets. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure."]
+    }
+  },
+  {
+    "id": "869",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Topic 2 - 3. An agency collects census information within a country to determine healthcare and social program needs by province and city. The census form collects responses for approximately 500 questions from each citizen. Which combination of algorithms would provide the appropriate insights? (Select TWO.)",
+      "answers": [
+        "The factorization machines (FM) algorithm",
+        "The Latent Dirichlet Allocation (LDA) algorithm",
+        "The principal component analysis (PCA) algorithm",
+        "The k-means algorithm",
+        "The Random Cut Forest (RCF) algorithm"
+      ],
+      "correctAnswer": ["The principal component analysis (PCA) algorithm",
+        "The k-means algorithm"]
+    }
+  },
+  {
+    "id": "869",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 4. A large consumer goods manufacturer has the following products on sale: - 34 different toothpaste variants - 48 different toothbrush variants - 43 different mouthwash variants The entire sales history of all these products is available in Amazon S3. Currently, the company is using custom-built autoregressive integrated moving average (ARIMA) models to forecast demand for these products. The company wants to predict the demand for a new product that will soon be launched. Which solution should a Machine Learning Specialist apply?",
+      "answers": [
+        "Train a custom ARIMA model to forecast demand for the new product.",
+        "Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product.",
+        "Train an Amazon SageMaker k-means clustering algorithm to forecast demand for the new product.",
+        "Train a custom XGBoost model to forecast demand for the new product."
+      ],
+      "correctAnswer": ["Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product."]
+    }
+  },
+  {
+    "id": "869",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 5. A Machine Learning Specialist must build out a process to query a dataset on Amazon S3 using Amazon Athena. The dataset contains more than 800,000 records stored as plaintext CSV files. Each record contains 200 columns and is approximately 1.5 MB in size. Most queries will span 5 to 10 columns only. How should the Machine Learning Specialist transform the dataset to minimize query runtime?",
+      "answers": [
+        "Convert the records to Apache Parquet format.",
+        "Convert the records to JSON format.",
+        "Convert the records to GZIP CSV format.",
+        "Convert the records to XML format."
+      ],
+      "correctAnswer": ["Convert the records to Apache Parquet format."]
+    }
+  },
+  {
+    "id": "870",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 6. A Machine Learning Specialist is developing a daily ETL workflow containing multiple ETL jobs. The workflow consists of the following processes: - Start the workflow as soon as data is uploaded to Amazon S3. - When all the datasets are available in Amazon S3, start an ETL job to join the uploaded datasets with multiple terabyte-sized datasets already stored in Amazon S3. - Store the results of joining datasets in Amazon S3. - If one of the jobs fails, send a notification to the Administrator. Which configuration will meet these requirements?",
+      "answers": [
+        "Use AWS Lambda to trigger an AWS Step Functions workflow to wait for dataset uploads to complete in Amazon S3. Use AWS Glue to join the datasets. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Develop the ETL workflow using AWS Lambda to start an Amazon SageMaker notebook instance. Use a lifecycle configuration script to join the datasets and persist the results in Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Develop the ETL workflow using AWS Batch to trigger the start of ETL jobs when data is uploaded to Amazon S3. Use AWS Glue to join the datasets in Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure.",
+        "Use AWS Lambda to chain other Lambda functions to read and join the datasets in Amazon S3 as soon as the data is uploaded to Amazon S3. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure."
+      ],
+      "correctAnswer": ["Use AWS Lambda to trigger an AWS Step Functions workflow to wait for dataset uploads to complete in Amazon S3. Use AWS Glue to join the datasets. Use an Amazon CloudWatch alarm to send an SNS notification to the Administrator in the case of a failure."]
+    }
+  },
+  {
+    "id": "871",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "Topic 2 - 7. An agency collects census information within a country to determine healthcare and social program needs by province and city. The census form collects responses for approximately 500 questions from each citizen. Which combination of algorithms would provide the appropriate insights? (Select TWO.)",
+      "answers": [
+        "The factorization machines (FM) algorithm",
+        "The Latent Dirichlet Allocation (LDA) algorithm",
+        "The principal component analysis (PCA) algorithm",
+        "The k-means algorithm",
+        "The Random Cut Forest (RCF) algorithm"
+      ],
+      "correctAnswer": ["The principal component analysis (PCA) algorithm",
+        "The k-means algorithm"]
+    }
+  },
+  {
+    "id": "872",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "Topic 2 - 8. A large consumer goods manufacturer has the following products on sale: - 34 different toothpaste variants - 48 different toothbrush variants - 43 different mouthwash variants The entire sales history of all these products is available in Amazon S3. Currently, the company is using custom-built autoregressive integrated moving average (ARIMA) models to forecast demand for these products. The company wants to predict the demand for a new product that will soon be launched. Which solution should a Machine Learning Specialist apply?",
+      "answers": [
+        "Train a custom ARIMA model to forecast demand for the new product.",
+        "Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product.",
+        "Train an Amazon SageMaker k-means clustering algorithm to forecast demand for the new product.",
+        "Train a custom XGBoost model to forecast demand for the new product."
+      ],
+      "correctAnswer": ["Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product."]
+    }
+  }
+]
