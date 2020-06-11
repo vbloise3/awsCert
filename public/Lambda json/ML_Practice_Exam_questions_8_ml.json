@@ -457,7 +457,7 @@
         "Increase feature combinations.",
         "Decrease feature combinations."
       ],
-      "correctAnswer": ["Increase regularization.", "Increase regularization.", "Decrease feature combinations."]
+      "correctAnswer": ["Increase regularization.", "Increase dropout.", "Decrease feature combinations."]
     }
   },
   {
