@@ -1,0 +1,18 @@
+[
+  {
+    "id": "8883",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "1. A large mobile network operating company is building a machine learning model to predict customers who are likely to unsubscribe from the service. The company plans to offer an incentive for these customers as the cost of churn is far greater than the cost of the incentive.\nThe model produces the following confusion matrix after evaluating on a test dataset of 100 customers: Predicted Churn Actual Churn YES: 10; Predicted Churn YES Actual Churn NO: 10; Predicted Churn NO Actual Churn YES: 4; Predicted Churn Actual Churn NO: 76. Based on the model evaluation results, why is this a viable model for production?",
+      "answers": [
+        "The model is 86% accurate and the cost incurred by the company as a result of false negatives is less than the false positives.",
+        "The precision of the model is 86%, which is less than the accuracy of the model.",
+        "The model is 86% accurate and the cost incurred by the company as a result of false positives is less than the false negatives.",
+        "The precision of the model is 86%, which is greater than the accuracy of the model."
+      ],
+      "correctAnswer": ["The model is 86% accurate and the cost incurred by the company as a result of false positives is less than the false negatives."]
+    }
+  }
+]
