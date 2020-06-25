@@ -1,0 +1,118 @@
+[
+  {
+    "id": "8884",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A manufacturer has deployed an array of 50000 sensors throughout its plant to predict failures in components. Data Scientists have built a long short-term memory (LSTM) model in Gluon and are training it using the Amazon SageMaker API. The Data Scientists are training the model using a time series with 10 million examples. Training is currently taking 100 hours and Data Scientists are attempting to speed it up by using multiple GPUs. However, when they modified the code to use 8 GPUs, it is running slightly slower than on 1 GPU. The current hyperparameter settings are: Hyperparameter Value, Batch size 128, Clip gradient 10, Autoregressive window 160, Learning rate 0.01, Epochs 80. Which of the following changes together are recommended to speed up training on 8 GPUs while maintaining test accuracy? (Select TWO)",
+      "answers": [
+        "Increase the batch size by a factor of 8",
+        "Increase the clip gradient by 8",
+        "Increase the autoregressive window by a factor of 8",
+        "Increase the learning rate by a factor of 8",
+        "Decrease the number of epochs by 20"
+      ],
+      "correctAnswer": ["Increase the batch size by a factor of 8", "Increase the learning rate by a factor of 8"]
+    }
+  },
+  {
+    "id": "8885",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Data Scientist needs to create a model for fraud detection The dataset is composed of 2 years' worth of logged transactions, each with a small set of features All of the transactions in the dataset were manually labeled. Since fraud does not occur frequently, the dataset is highly imbalanced Less than 2% of the dataset was labeled as fraudulent. Which solution provides the optimal predictive power for classifying fraudulent activity?",
+      "answers": [
+        "Oversample the dataset using a clustering technique, use accuracy as the objective metric, and apply Random Cut Forest (RCF).",
+        "Undersample the majority class in the dataset using a clustering technique, use precision as the objective metric, and apply Random Cut Forest (RCF).",
+        "Resample the dataset (oversamplinglundersampling), use the F1 score as the objective metric, and apply XGBoost.",
+        "Resample the dataset (oversamplinglundersampling), use accuracy as the objective metric, and apply XGBoost."
+      ],
+      "correctAnswer": ["Resample the dataset (oversamplinglundersampling), use the F1 score as the objective metric, and apply XGBoost."]
+    }
+  },
+  {
+    "id": "8886",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Machine Learning Specialist is training a model using a supervised learning algorithm. The Specialist split the dataset to use 80% of the data for training and reserved 20% of the data for testing. While evaluating the model the Specialist discovers that the mode is 97% accurate for the training dataset and 75% accurate for the test dataset. What is the reason for the discrepancy and what action should the Specialist take?",
+      "answers": [
+        "The high accuracy for the larger amount of training data means that the model is finished. Deploy the model to production.",
+        "The mode is currently overfitting the training data and not performing as well as it should on data it has not seen before. Change the hyperparameters to simplify and generalize the model, then retrain.",
+        "Additional data in the test set is needed to balance the scoring of the model. Redistribute the data more evenly across training and test sets.",
+        "The mode is currently underfitting and does not have enough complexity to capture the full scope of the dataset. Change the hyperparameters to make the model more specific and complex, then retrain."
+      ],
+      "correctAnswer": ["Additional data in the test set is needed to balance the scoring of the model. Redistribute the data more evenly across training and test sets."]
+    }
+  },
+  {
+    "id": "8887",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A Machine Learning Specialist is developing a mode that classifies defective parts from a manufacturing process into one of eight defect types. The training data consists of 100,000 images per defect type. During the initial training of the image classification model, the Specialist notices that the validation accuracy is 89.5% while the training accuracy is 90%. It is known that human-level performance for this type of image classification is around 97%. What should the Specialist consider to improve the performance of the model? (Select TWO.)",
+      "answers": [
+        "A longer training time",
+        "Data augmentation",
+        "Getting more training data",
+        "A different optimizer",
+        "L2 regularization"
+      ],
+      "correctAnswer": ["Data augmentation", "A different optimizer"]
+    }
+  },
+  {
+    "id": "8888",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Machine Learning Specialist is developing a regression model to predict ticket sales for an upcoming concert. The historical ticket sales data consists of more than 1,000 records containing 20 numerical variables. During the exploratory data analysis phase, the Specialist discovered 33 records have values for a numerical variable in the far right of the box plot's upper quartile. The Specialist confirmed with a business user that those values are unusual, but plausible. There are also 70 records where another numerical variable is blank. What should the Specialist do to correct these problems?",
+      "answers": [
+        "Drop the unusual records and replace the blank values with the mean value",
+        "Normalize unusual data and create a separate Boolean variable for blank values",
+        "Drop the unusua records and fill in the blank values with 0.",
+        "Use unusual data and create a separate Boolean variable for blank values"
+      ],
+      "correctAnswer": ["Drop the unusual records and replace the blank values with the mean value"]
+    }
+  },
+  {
+    "id": "8889",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A Data Scientist is working on a predictive maintenance mode and received a company's dataset with 500,000 measurements of machine behavior during both normal operations and failures. In the dataset 98% of the samples were collected during normal operations and 2% were collected during failures. Which of the following actions should address the imbalance while minimizing information loss? (Select TWO.)",
+      "answers": [
+        "Request more data from the company, focusing on failure samples.",
+        "Use an approach to create synthetic samples, such as oversampling.",
+        "Remove normal operations samples until the sample amount matches the number of failure samples.",
+        "Run a Latent Dirichlet Allocation (LDA) algorithm on the dataset.",
+        "Remove all failure samples and perform classification training using the normal operations samples only."
+      ],
+      "correctAnswer": ["Request more data from the company, focusing on failure samples.",
+        "Use an approach to create synthetic samples, such as oversampling."]
+    }
+  },
+  {
+    "id": "8890",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has a 1,000 sentences with sentiments categorized as positive, neutral, or negative. Which modeling technique should a Machine Learing Specialist select for training a baseline sentiment model?",
+      "answers": [
+        "K-means",
+        "Multinomial logistic regression",
+        "Recurrent neura network (RNN)",
+        "Transfer learning"
+      ],
+      "correctAnswer": ["Recurrent neura network (RNN)"]
+    }
+  }
+]
