@@ -1,0 +1,325 @@
+[
+  {
+    "id": "8891",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is training a model using a supervised learning algorithm. The specialtist split the dataset to use 80% of the data for training and reserved 20% of the data for testing. While evaluating the model, the specialist discovers that the model is 97% accurate for the training dataset and 75% accurate for the test dataset. What is the reason for the discrepancy and what action should the specialist take?",
+      "answers": [
+        "The high accuracy for the larger amount of training data means that the model is finished. Deploy the model to production.",
+        "The model is currently overfitting the training data and not performing as well asa it should on data it has not seen before. Change the hyperparameters to simplify and generalize the model, then retrain.",
+        "Additional data in the test dataset is needed to balance the scoring of the model. Redistribute the data more evenly across trainning and test datasets.",
+        "The model is currently underfitting and does not have enough complexity to capture the full scope of the dataset. Change the hyperparameters to make the model more specific and complex, then retrain."
+      ],
+      "correctAnswer": ["Additional data in the test dataset is needed to balance the scoring of the model. Redistribute the data more evenly across trainning and test datasets."]
+    }
+  },
+  {
+    "id": "8892",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist needs to monitor Amazon SageMaker in a production environment by analyzing performance metrics, setting alarms, and automatically reacting to changes in production traffic. Which service should the specialist use to meet these needs?",
+      "answers": [
+        "AWS CloudTrial",
+        "Amazon CloudWatch",
+        "AWS Systems Manager",
+        "AWWS Config"
+      ],
+      "correctAnswer": ["Amazon CloudWatch"]
+    }
+  },
+  {
+    "id": "8893",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist has 1 TB of files and the associated metadata stored in a data lake within an S3 bucket. The specialist wants to search the metadata to better evaluate the dataset. The specialist expects to search through the metadata multiple times. Which solution meets the requirements with the LEAST amount of effort?",
+      "answers": [
+        "Enable S3 analytics, and then review and search through the file metadata",
+        "Use Amazon Athena to review and query the file metadata",
+        "Deploy an Amazon EMR cluster to process and search through the metadata on the data lake",
+        "Use AWS Lambda to send the metadata to Amazon Kinesis Data Streams,and and use Amazon Kinesis Data Analytics to run searches on the metadata"
+      ],
+      "correctAnswer": ["Use Amazon Athena to review and query the file metadata"]
+    }
+  },
+  {
+    "id": "8894",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A data scientist needs to create a model for fraud detection. The dataset is composed of two years' worth of logged transactions, each with a small set of features. All of the transactions in the dataset were manually labeled. Since fraud does not occur frequently, the dataset is highly imbalanced. Less than 2% of the dataset was labeled as fraudulent. Which solution provides the optimal predictive power for classifying fraudulent activity?",
+      "answers": [
+        "Oversample the dataset using a clustering technique, use accuracy as the objective metric, and apply Random Cut Forest (RCF)",
+        "Undersample the majority class in the dataset using a clustering technique, use precision as the objective metric, and apply Random Cut Forest (RCF)",
+        "Resample the dataset (oversampling/undersampling) use the F1 score as the objective metric, and apply XGBoost.",
+        "Resample the dataset (oversampling/undersampling) use accuracy as the objective metric, and apply XGBoost."
+      ],
+      "correctAnswer": ["Resample the dataset (oversampling/undersampling) use the F1 score as the objective metric, and apply XGBoost."]
+    }
+  },
+  {
+    "id": "8895",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is approached by a customer with an MP3 audio file of a press conference recorded in Spanish. The company wants to provide a report of the press conference to English-speaking senior managers that details the questions asked, the timestamp of each question, and the sentiment of each person who asked a question. What is the MOST efficient order of AWS machine learning technologies that should be used to accomplish this?",
+      "answers": [
+        "Amazon Translate -> Amazon Comprehend -> Amazon Transcribe",
+        "Amazon Transcribe -> Amazon Comprehend -> Amazon Translate",
+        "Amazon Translate -> Amazon Comprehend -> Amazon Transcribe -> Amazon Translate",
+        "Amazon Transcribe -> Amazon Translate -> Amazon Comprehend -> Amazon Translate"
+      ],
+      "correctAnswer": ["Amazon Transcribe -> Amazon Comprehend -> Amazon Translate"]
+    }
+  },
+  {
+    "id": "8896",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A digital newspaper owns a large collection of articles and human-written associated article summaries. The summaries are used as headers for each article posted online, and the newspaper editors would like to find a way to produce the summaries automatically. A machine learning specialist needs to apply machine learning to automate the summary-generation process. Which solution addresses this need?",
+      "answers": [
+        "Apply a neural topic model on the raw article sequence formatted as a bag of words",
+        "Project articles to a low-dimensional, compact representation by average word2vec embeddings of article words",
+        "Downsample article words to desired summary size with the word dropout probability inverse to the word term frequency-inverse document frequency (TF-IDF)",
+        "Apply seq2seq recurrent neural networks (RNNs) under the encoder-decoder framework"
+      ],
+      "correctAnswer": ["Apply a neural topic model on the raw article sequence formatted as a bag of words"]
+    }
+  },
+  {
+    "id": "8897",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A data scientist is working on a predictive maintenance and received a company's dataset with 500,000 measurements of machine behavior during both normal operations and failures. In the dataset, 98% of the samples were collected during normal operations and 2% were collected during failures. Which of the following actions should address the imbalance while minimizing information loss? (Select TWO)",
+      "answers": [
+        "Request more data from the company, focusing on the failure samples",
+        "Use an approach to create synthetic samples, such as oversampling",
+        "Remove normal operational samples until the sample amount matches the number of failure samples",
+        "Run a Latent Dirichlet Allocation (LDA) algorithm on the dataset",
+        "Remove all failure samples and perform classification training using the normal operations samples only"
+      ],
+      "correctAnswer": ["Request more data from the company, focusing on the failure samples", "Use an approach to create synthetic samples, such as oversampling"]
+    }
+  },
+  {
+    "id": "8898",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is building a new model and wants to test multiple production variants using live data in a beta environment, were customers interact with the model. Based on the interactions, the specialist will A/B test the models, then select and deploy the best model. What is the SIMPLEST method for testing the multiple model variants?",
+      "answers": [
+        "Deploy multiple versions of the model on different Amazon EC2 instances using the AWS deep learning AMI, evaluate the model performance, and terminate the instances that are not hosting the best-performing model.",
+        "Use Amazon SageMaker to deploy different versions of the model behind a single endpoint and route a percentage of traffic to each, select the best performing model, and route 100% of traffic to that model.",
+        "Use Amazon SageMaker to deploy an endpoint for each model and the use an Application Load Balancer to route a percentage of traffic to each model, and gradually route 100% of traffic to the best model.",
+        "Use Amazon SageMaker to deploy an endpoint for each model and then use a Network Load Balancer to route a percentage of traffic to each model, and gradually route 100% of traffic to the best model."
+      ],
+      "correctAnswer": ["Use Amazon SageMaker to deploy different versions of the model behind a single endpoint and route a percentage of traffic to each, select the best performing model, and route 100% of traffic to that model."]
+    }
+  },
+  {
+    "id": "8899",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is setting up a machine learning pipeline. The goal is to enable the ETL part of the pipeline to trigger machine learning training jobs in Amazon SageMaker. In particular, the specialist intends to use an Amazon EMR cluster to handle the ETL tasks, and would like it to interface with Amazon SageMaker without writting code specifically to connect Amazon SageMaker and the EMR cluster. Which framework enables this goal?",
+      "answers": [
+        "Apache Hive",
+        "Apache Flink",
+        "Apache Spark",
+        "Apache Pig"
+      ],
+      "correctAnswer": ["Apache Spark"]
+    }
+  },
+  {
+    "id": "8900",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has 1,000 sentences with sentiments categorized as positive, neutral, or negative. Which modeling technique should a machine learning specialist select for training a baseline sentiment model?",
+      "answers": [
+        "k-means",
+        "Multinomial logistic regression",
+        "Recurrent Neural Network (RNN)",
+        "Transfer learning"
+      ],
+      "correctAnswer": ["Recurrent Neural Network (RNN)"]
+    }
+  },
+  {
+    "id": "8901",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning model performed well during experiments, but immediately failed to generalize when placed in a production environment. What should a machine learning specialist do to address this issue?",
+      "answers": [
+        "Apply dimensionality reduction",
+        "Add additional features",
+        "Add regularization",
+        "Modify the learning rate"
+      ],
+      "correctAnswer": ["Add regularization"]
+    }
+  },
+  {
+    "id": "8902",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist has a large number of everyday voice recordings in English stored in Amazon S3 that need to be analyzed for their conversation topics. How should the specialist accomplish this with the LEAST amount of effort?",
+      "answers": [
+        "Run an Amazon Transcribe job, then apply a custom natural language processing (NLP) algorithm with Amazon SageMaker to the Transcribe output.",
+        "Apply the Amazon SageMaker BlazingText algorithm, then run an Amazon Transcribe job.",
+        "Apply a custom natural language processing (NLP) algorithm with Amazon SageMaker, then run an Amazon Transcribe job.",
+        "Run an Amazon Transcribe job, then execute an Amazon Comprehend job on the Transcribe output."
+      ],
+      "correctAnswer": ["Run an Amazon Transcribe job, then execute an Amazon Comprehend job on the Transcribe output."]
+    }
+  },
+  {
+    "id": "8903",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A machine learning specialist is developing a model that classifies defective parts from a manufacturing process into one of eight defect types. The training data consists of 100,000 images per defect type. During the initial trining of the image classification model, the specialist notices that the validation accuracy is 89.5%, while the training accuracy is 90%. It is known that human-level performance for this type of image classification is around 97%. What should the specialist consider to improve the performance of the model? (Select TWO)",
+      "answers": [
+        "A longer training time",
+        "Data augmentation",
+        "Getting more training data",
+        "A different optimizer",
+        "L2 regularization"
+      ],
+      "correctAnswer": ["Data augmentation", "A different optimizer"]
+    }
+  },
+  {
+    "id": "8904",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is developing a regression model to predict ticket sales for an upcomming concert. The historical ticket sales data consists of more than 1,000 records containing 20 numerical variables. During the exploratory data analysis phase, the specialist discovered 33 records have values for a numerical variable in the far right of the box plot's upper quartile. The specialist confirmed with a business user that those values are unusual, but plausible. There are also 70 records where another numerical variable is blank. What should the specialist do to correct these problems?",
+      "answers": [
+        "Drop the unusual records and replace the blank values with the mean value",
+        "Normalize unusual data and create a separate Boolean variable for blank values",
+        "Drop the unusual records and fill in the blank values with 0",
+        "Use unusual data and create a separate Boolean variable for blank values"
+      ],
+      "correctAnswer": ["Drop the unusual records and replace the blank values with the mean value"]
+    }
+  },
+  {
+    "id": "8905",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning team is trying to train a model on image classification using TensorFlow on Amazon SageMaker. The business objectives are to have a small model size and a greater than 80% accuracy. The data quality is good and sufficiently large for the use case; however, the team has been experiencing low accuracy on the test data during training. The confidence score is below 40% and, most of the time, the wrong labels are being produced. What should be done to increase the accuracy of the model?",
+      "answers": [
+        "Use automatic model tuning in Amazon SageMaker. Specify the business objectives in the tuning API to optimize for these requirements. Take the best performing parameters suggested by the service and use them for training the final model.",
+        "Use automatic model tuning in Amazon SageMaker. Take the best performing parameters suggested by the service and manually fine-tune the parameters to meet the business objectives.",
+        "Use automatic model tuning in Amazon SageMaker. Take the best performing parameters and use those to run many training jobs in parallel with different number of machines using AWS batch.",
+        "Use a greater capacity of compute resources to spin up many training jobs with randomly initialized hyperparameters. Use the AWS Deep Learning AMI for experimentation. Once the best parameters are identified, use those in Amazon SageMaker."
+      ],
+      "correctAnswer": ["Use automatic model tuning in Amazon SageMaker. Take the best performing parameters suggested by the service and manually fine-tune the parameters to meet the business objectives."]
+    }
+  },
+  {
+    "id": "8906",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A city government wants to track cars in its parking lots for automatic payment. The city is looking to ingest videos of cars parking in near-real time, use machine learning to identify license plates, and store the results in a database. Which solution meets these requirements with the LEAST amount of development effort?",
+      "answers": [
+        "Use Amazon Kinesis Data Streams to ingest the videos in near-real time, use the Kinesis Data Stream consumer integration with Amazon Rekognition Video to identify license plate information, and the store the results in Amazon DynamoDB.",
+        "Use Amazon Kinesis Video Streams to ingest the videos in near-real time, use the Kinesis Video Streams integration with Amazon Rekognition Video to identify license plate information, and the store the results in Amazon DynamoDB.",
+        "Use Amazon Kinesis Data Streams to ingest the videos in near-real time, call Amazon Rekognition to identify license plate information, and the store the results in Amazon DynamoDB.",
+        "Use Amazon S3 to ingest the videos in near-real time, trigger AWS Lambda with S3 event notifications to make a call to Amazon Rekognition Video to identify license plate information, and the store the results in Amazon DynamoDB."
+      ],
+      "correctAnswer": ["Use Amazon Kinesis Video Streams to ingest the videos in near-real time, use the Kinesis Video Streams integration with Amazon Rekognition Video to identify license plate information, and the store the results in Amazon DynamoDB."]
+    }
+  },
+  {
+    "id": "8907",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "A manufacturer has deployed an array of 50,000 sensors throughout its plant to predict failures in components. Data scientists have built a long short-term memory (LSTM) model in Gluon and are training it using the Amazon SageMaker Python API. The data scientists are training the model using a time series with 10 million examples. Training is currently taking 100 hours and data scientists are attempting to speed it up by using multiple GPUs. However, when they modified the code to use 8 GPUs, it is running slightly slower than on 1 GPU. The current hyperparameter settings are: Batch Size: 128; C;lip gradient: 10; Autoregressive window: 160; Learning rate: 0.01; Epochs: 80. Which of the following changes together are recommended to speed up training on 8 GPUs while maintaining test accuracy? (Select TWO)",
+      "answers": [
+        "Increase the batch size by a factor of 8",
+        "Increase the clip gradient by 8",
+        "Increase the autoregressive window by a factor of 8",
+        "Increase the learning rate by a factor of 8",
+        "Decrease the number of epochs by 20"
+      ],
+      "correctAnswer": ["Increase the batch size by a factor of 8", "Increase the learning rate by a factor of 8"]
+    }
+  },
+  {
+    "id": "8908",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is building a website that offers a variety of comedy content for adults and children. The company intends to automate the process of ingesting the content and tagging it as safe for viewing by children. Showing inapropriate content to children would cause severe harm to the company's reputation. Which is the MOST relevant metric when evaluating the machine learning model for this risk?",
+      "answers": [
+        "Recall",
+        "Accuracy",
+        "AUC/ROC",
+        "Precision"
+      ],
+      "correctAnswer": ["Precision"]
+    }
+  },
+  {
+    "id": "8909",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is setting up a machine learning environment that will be accessed by multiple data scientists. The specialist will deploy one Amazon SageMaker notebook for each data scientist and needs to ensure that each data scientist has access to the personal instance only. How should the specialist manage access to the SageMaker notebook instances?",
+      "answers": [
+        "Attach an IAM policy to the data scientists' IAM users that grants access to their personal notebook instance only.",
+        "Use port forwarding to prevent all internet traffic from being forwarded to the notebook instances.",
+        "Use Amazon CloudWatch to trigger an AWS Lambda function that restricts unauthorized access.",
+        "Attach an Amazon S3 bucket policy to restrict access to the buckets that contain other users' notebook instances."
+      ],
+      "correctAnswer": ["Attach an IAM policy to the data scientists' IAM users that grants access to their personal notebook instance only."]
+    }
+  },
+  {
+    "id": "8910",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A machine learning specialist is optimizing a solution to define whether or not online payment transactions are fraudulent. The historical data of manually classified transactions includes the customer name, customer type, transaction amount, customer tenure, and transaction type. The transaction type is either normal or abnormal. What data preprocessing action should the specialist take?",
+      "answers": [
+        "Drop both the customer type and the transaction type before beginning to train the model.",
+        "Drop the customer name and perform label encoding on the transaction type before beginning to train the model.",
+        "Drop the transaction type and perform label encoding on the customer type before beginning to train the model",
+        "Train the model normally as the data is ready to be used - without any preprocessing tasks - during the model training phase."
+      ],
+      "correctAnswer": ["Drop the customer name and perform label encoding on the transaction type before beginning to train the model."]
+    }
+  }
+]
