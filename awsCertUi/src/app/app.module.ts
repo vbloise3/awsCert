@@ -34,6 +34,7 @@ import { Ca2QuestionComponent } from './ca2-question/ca2-question.component';
 import {DataService} from "./data.service";
 import { CdaQuestionComponent } from './cda-question/cda-question.component';
 import { CmlQuestionComponent } from './cml-question/cml-question.component';
+import {CdanQuestionComponent} from "./cdan-question/cdan-question.component";
 
 const appRoutes: Routes = [
   {
@@ -55,6 +56,10 @@ const appRoutes: Routes = [
   {
     path: 'cmlpractice',
     component: CmlQuestionComponent
+  },
+  {
+    path: 'cdanpractice',
+    component: CdanQuestionComponent
   },
   {
     path: '',
@@ -85,6 +90,10 @@ const appRoutes: Routes = [
     component: CmlQuestionComponent
   },
   {
+    path: '6',
+    component: CdanQuestionComponent
+  },
+  {
     path: '',
     redirectTo: '',
     pathMatch: 'full'
@@ -104,7 +113,8 @@ const appRoutes: Routes = [
     C2pQuestionComponent,
     Ca2QuestionComponent,
     CdaQuestionComponent,
-    CmlQuestionComponent
+    CmlQuestionComponent,
+    CdanQuestionComponent
   ],
   imports: [
     BrowserModule,

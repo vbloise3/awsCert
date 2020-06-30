@@ -1,0 +1,53 @@
+[
+  {
+    "id": "8911",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "A ski equipment company is trying to predict the expected sales from a line of ski goggles. They have never sold this type of product before, but they do have some historic sales data for other products which they believe have similar market adoption curves. What would be your first algorithm of choice among the built-in SageMaker algorithms for this use-case?",
+      "answers": [
+        "K-Nearest Neighbor",
+        "Factorization Machines",
+        "XGBoost",
+        "Linear Learner",
+        "DeepAR"
+      ],
+      "correctAnswer": ["DeepAR"]
+    }
+  },
+  {
+    "id": "8912",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "How might you frame an ML approach for predicting if a random number generator will return a 1 or 0 given that the number generator is perfectly random and you are provided with 1000 prior number selections?",
+      "answers": [
+        "Forecasting",
+        "Machine Learning not needed",
+        "Logical Regression",
+        "Binary Classification",
+        "Linear Regression"
+      ],
+      "correctAnswer": ["Machine Learning not needed"]
+    }
+  },
+  {
+    "id": "8913",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning engineer on a team that is designing a deep sea exploration robot which will explore areas never before visited. The robot will be so deep that its impractical to send commands for every motion. Rather then robot needs to know how to navigate among obstacles itself while collecting data. How would you frame this problem?",
+      "answers": [
+        "Reinforcement Learning Problem",
+        "Object Detection Problem",
+        "Heuristic Learning Problem",
+        "Supervised Learning Problem",
+        "This problem is not suitable for machine learning."
+      ],
+      "correctAnswer": ["Reinforcement Learning Problem"]
+    }
+  }
+]

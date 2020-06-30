@@ -2,38 +2,32 @@ mat-sidenav-container.m2app-dark {
   background: black;
 }
 
+
 .app-content {
   padding: 20px;
 }
-
 .app-content mat-card {
   margin: 20px;
 }
-
 .shadowCard {
   z-index: 2;
   margin-bottom: 1em;
 }
-
 .app-sidenav {
   padding: 10px;
   min-width: 100px;
   border-right-style: inset;
 }
-
 .app-content mat-checkbox {
   margin: 10px;
 }
-
 .app-toolbar-filler {
   flex: 1 1 auto;
 }
-
 .app-toolbar-menu {
   padding: 0 14px 0 14px;
   color: white;
 }
-
 .app-icon-button {
   box-shadow: none;
   user-select: none;
@@ -50,14 +44,12 @@ mat-sidenav-container.m2app-dark {
   text-align: left;
   text-decoration: none;
 }
-
 .app-action {
   display: inline-block;
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
-
 .app-spinner {
   height: 30px;
   width: 30px;
@@ -78,17 +70,12 @@ mat-sidenav-container.m2app-dark {
   margin: 20px;
 }
 
-/*.card img {
-    width: 100px;
-    height: 150px;
-}*/
 .mdCardImg {
   width: 65px;
   height: 78px;
   margin: 1em;
   margin-top: 0.75em;
 }
-
 .mdCertImg {
   width: 286px;
   height: 42px;
@@ -112,7 +99,6 @@ mat-sidenav-container.m2app-dark {
 mat-toolbar {
   /*background-color: blue !important;*/
 }
-
 .textBottom {
   position: relative;
   bottom: -0.25em;
@@ -149,17 +135,14 @@ mat-toolbar {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-
 .cardPosition {
   z-index: 2;
 }
-
 *::-ms-backdrop, .iconWhite {
   position: relative;
   color: white;
   bottom: -0.25em;
 }
-
 .iconPositionHeader {
   position: relative;
   padding-right: 0.25em;
@@ -179,7 +162,6 @@ mat-toolbar {
 .largeFont {
   font-size: large;
 }
-
 .centerText {
   position: relative;
   left: 5em;
@@ -230,7 +212,6 @@ ul {
   width: 35em;
   font-style: italic;
 }
-
 .centerIt {
   margin: auto;
   /*width: 50%;
@@ -251,7 +232,6 @@ ul {
   margin-left: -1.7em;
   margin-top: -1.7em;
 }
-
 .blueSpan {
   width: 17.5em;
   border: 1px solid blue;
@@ -259,7 +239,6 @@ ul {
   color: white;
   background-color: blue;
 }
-
 .inlineDiv {
   display: inline-block;
 }
@@ -274,50 +253,12 @@ ul {
   content: url("../../../../public/images/VinceBloiseTransparent.png");
 }
 
-.c2pGuideLogoPic {
-  content: url("../../../../public/images/cloud_practitioner_guide_logo.jpeg");
-}
-
-.c2pCertifiedBadgePic {
-  content: url("../../../../public/images/certified_cloud_practitioner_badge.png");
-}
-
-.archCertifiedLogoPic {
-  content: url("../../../../public/images/architect_associate_logo.png");
-}
-
-.devCertifiedLogoPic {
-  content: url("../../../../public/images/certified_developer_associate.png");
-}
-
-.mlCertifiedLogoPic {
-  content: url("../../../../public/images/aws_machine_learning_specialty.jpeg");
-}
-
-.danCertifiedLogoPic {
-  content: url("../../../../public/images/DAN_Cert.jpeg");
-}
-
-.awsCertificationsPic {
-  content: url("../../../../public/images/aws-certifications.png");
-}
-
 .certPic {
   content: url("../../../../public/images/AWS_Certified_Logo_294x230_Color.png");
 }
 
-.centerPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.centerCertLogoPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+.wrap-mat-radio-label {
+  white-space: normal;
 }
 
 /* ------------------fxLayout Example Styles----------------------- */
@@ -402,3 +343,77 @@ div.colored > div:nth-child(7), .seven {
   background-color: #FF5722;
 }
 /* ------------------End fxLayout Example Styles----------------------- */
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.example-container form {
+  margin-bottom: 20px;
+}
+
+.example-container form > * {
+  margin: 5px 0;
+}
+
+.example-container .mat-radio-button {
+  margin: 0 5px;
+}
+
+.colorBlue {
+  color: blue;
+}
+
+.largerText {
+  font-size: larger;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.displayOnNewLine::before {
+  content: "\A";
+  white-space: pre;
+  margin: 0.5em;
+}
+
+.correctAnswer {
+  color: white;
+  background-color: green;
+}
+
+.wrongAnswer {
+  color: white;
+  background-color: red;
+}
+
+.gradeText {
+  font-family: Baskerville, serif;
+}
+
+.percentPassing {
+  color: green;
+}
+
+.percentFailing {
+  color: red;
+}
+
+.wideInput {
+  width: 300px;
+}
+
+.questionWidth {
+  display: block;
+  /*width: 300px;*/
+}
+
+.question-card {
+  /*max-width: 400px;*/
+}

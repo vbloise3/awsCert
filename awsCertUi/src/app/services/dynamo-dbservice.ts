@@ -15,6 +15,7 @@ const serviceGetAllItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.c
 const serviceGetAllArchItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsArch';
 const serviceGetAllDevItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsDev';
 const serviceGetAllMLItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsML';
+const serviceGetAllDANItems = 'https://ts44kzo19l.execute-api.us-east-1.amazonaws.com/dev/getAllQandAsDAN';
 
 
 export interface QandA {
@@ -162,6 +163,29 @@ export class DynamoDbserviceService {
   getAllMLItems(subcategories) {
     let resultData;
     let url = serviceGetAllMLItems + '/';
+    // add parameters to url
+    // url = url + '/S3/CloudFront/IAM';
+    subcategories.forEach(function (subcategoryItem) {
+      /*url = url + '/' + encodeURI(subcategoryItem);*/
+      url = url + encodeURI(subcategoryItem) + ':';
+    });
+    // remove last :
+    // url = url.substring(0, url.length - 1);
+    // alert('getting this url: ' + url);
+    let headers = new HttpHeaders();
+    /*headers = headers.set('If-Modified-Since', '0');
+    headers = headers.append('Cache-control', 'no-cache');
+    headers = headers.append('Cache-control', 'no-store');
+    headers = headers.append('Expires', '0');
+    headers = headers.append('Pragma', 'no-cache');*/
+    resultData = this.http.get(url, { headers: headers });
+    // alert('loadInitialData service result: ' + JSON.stringify(resultData));
+    return resultData;
+  }
+
+  getAllDANItems(subcategories) {
+    let resultData;
+    let url = serviceGetAllDANItems + '/';
     // add parameters to url
     // url = url + '/S3/CloudFront/IAM';
     subcategories.forEach(function (subcategoryItem) {
