@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Exam Notes/Course-Outline-Data-Analytics-Vincent.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,7 @@
       <workItem from="1590760678417" duration="2409000" />
       <workItem from="1591107641264" duration="26625000" />
       <workItem from="1592332409735" duration="21455000" />
-      <workItem from="1593537323951" duration="2107000" />
+      <workItem from="1593537323951" duration="2546000" />
     </task>
     <servers />
   </component>
