@@ -1,0 +1,178 @@
+[
+  {
+    "id": "8914",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for an oil refinery company. Your team is working on a machine learning problem where you need to determine the relationship between oil well depth and oil well production. In order to select the appropriate machine learning algorithm to use to attempt to solve the oil well production problem, you need to gain a better understanding of your data. For example, what is the correlation between your oil well depth data and your oil well production data? When you examine your data visually using the python matplotlib library, you find that your data has what looks like a non-Gaussian distribution of oil well depth and oil well production: graph showing hump shaped scatter plot data. Which correlation coefficient would you use to best summarize the strength of the correlation between your oil well depth and oil well production?",
+      "answers": [
+        "Covariance correlation coefficient",
+        "Pearsons correlation coefficient",
+        "Spearmans correlation coefficient",
+        "Polychoric correlation coefficient"
+      ],
+      "correctAnswer": ["Spearmans correlation coefficient"]
+    }
+  },
+  {
+    "id": "8915",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a clothing manufacturer. You have been tasked with building a machine learning model to determine the return on investment (ROI) for advertising a specific clothing line on social media based on the labeled data of past social media campaigns for similar clothing lines. You decide to run a Pearsons correlation coefficient to better understand your data correlation. When you calculate your Pearsons correlation coefficient of social media advertising ROI you get a value of 0.35. What conclusions can you draw from this result?",
+      "answers": [
+        "There is a favorable relationship between your past social media advertising and corresponding campaign ROI.",
+        "There is an unfavorable relationship between your past social media advertising and corresponding campaign ROI.",
+        "There is no correlation between past social media advertising and the associated ROI.",
+        "You cannot declare a notable correlation with confidence based on the resulting coefficient."
+      ],
+      "correctAnswer": ["You cannot declare a notable correlation with confidence based on the resulting coefficient."]
+    }
+  },
+  {
+    "id": "8916",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for the social media software development division of your company. The social media features of your web applications allow users to post text messages and pictures about their experiences with your companys products. You need to be able to quickly block posts that contain inappropriate words. You have defined a vocabulary of words deemed inappropriate for your site. Which algorithm is best suited to your task?",
+      "answers": [
+        "Multinomial Naive Bayes",
+        "Bernoulli Naive Bayes",
+        "Gaussian Naive Bayes",
+        "Polychoric Naive Bayes"
+      ],
+      "correctAnswer": ["Bernoulli Naive Bayes"]
+    }
+  },
+  {
+    "id": "8917",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for the social media software development division of your company. The social media features of your web applications allow users to post text messages and pictures about their experiences with your companys products. You need to be able to quickly block posts that contain inappropriate words. You have defined a vocabulary of words deemed inappropriate for your site. Which algorithm is best suited to your task?",
+      "answers": [
+        "Multinomial Naive Bayes",
+        "Bernoulli Naive Bayes",
+        "Gaussian Naive Bayes",
+        "Polychoric Naive Bayes"
+      ],
+      "correctAnswer": ["Bernoulli Naive Bayes"]
+    }
+  },
+  {
+    "id": "8918",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a government agency that uses a series of web application forms to gather citizen data for census purposes. You have been tasked with finding novel user entries as they are entered by your citizens. Where a novel user entry is defined as an outlier compared to the established set of citizen entries in your datastore. You have cleaned your citizen datastore to remove any existing outliers. You now need to build a model to determine whether new entries on your web application are novel. Which algorithm best fits these requirements?",
+      "answers": [
+        "Multinomial Naive Bayes",
+        "Bernoulli Naive Bayes",
+        "Principal Component Analysis",
+        "Support Vector Machine"
+      ],
+      "correctAnswer": ["Support Vector Machine"]
+    }
+  },
+  {
+    "id": "8919",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a translation service company. Your company offers several mobile applications used for translation on smartphones and tablets. As a new feature of one of your translation apps, your company is offering a feature to generate handwritten notes from spoken text. Which algorithm is the best choice for your new feature?",
+      "answers": [
+        "Long Short-Term Memory (LSTM)",
+        "Convolutional Neural Network",
+        "Multilayer Perceptron",
+        "Support Vector Machine"
+      ],
+      "correctAnswer": ["Long Short-Term Memory (LSTM)"]
+    }
+  },
+  {
+    "id": "8920",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a healthcare company where you are building a cancer detection model using a linear regression algorithm. You have gathered your data of hundreds of thousands of patients with over 100 features. However, when you train your model you notice that it appears to be over-fitting your data. Which technique can you use to simultaneously correct the over-fitting and reduce your model complexity by removing less relevant features?",
+      "answers": [
+        "Use Ridge Regression",
+        "Use Lasso Regression",
+        "Use Stochastic Gradient Descent",
+        "Use a Gaussian Process"
+      ],
+      "correctAnswer": ["Use Lasso Regression"]
+    }
+  },
+  {
+    "id": "8921",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a sports gambling company where you are responsible for building a machine learning model to predict the point spread and over/under of NCAA and NFL games. You have built your custom deep learning model using TensorFlow in SageMaker. You have attempted to train your model on a single GPU but you have noticed that the amount of game data you need to train with exceeds the single GPU capacity. How can you change your machine learning code to get it to use multiple GPUs with the least amount of effort on your part?",
+      "answers": [
+        "Rewrite your model to use the Factorization Machines algorithm",
+        "Rewrite your code in PySpark and use spark to run your code across multiple GPUs",
+        "Add Horovod to your code and use its distributed deep learning training framework for TensorFlow",
+        "Rewrite your model to use the DeepAR Forecasting algorithm"
+      ],
+      "correctAnswer": ["Add Horovod to your code and use its distributed deep learning training framework for TensorFlow"]
+    }
+  },
+  {
+    "id": "8922",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a credit card company where you are building a fraud detection model. You have your model built using the XGBoost algorithm and you are now attempting to find the best version of your model by performing automatic model tuning. You are creating your hyperparameter tuning job and you need to select the appropriate technique the job will use to find your best hyperparameters. You wish to run the least number of hyperparameter tuning training jobs as possible. Which hyperparameter tuning technique is best suited to your requirements?",
+      "answers": [
+        "Bayesian optimization",
+        "Bayesian classification",
+        "Random search",
+        "Logistic regression"
+      ],
+      "correctAnswer": ["Bayesian optimization"]
+    }
+  },
+  {
+    "id": "8923",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a social media company where your team is responsible for building a machine learning model to classify the images that your users submit to your service. You have built a neural network to classify the images. You are now performing mini-batch training of the neural network and you see that your resulting training accuracy is oscillating. What is a likely reason for this issue?",
+      "answers": [
+        "The epochs hyperparameter is set too low",
+        "The momentum hyperparameter is set to 0.9",
+        "The dropout hyperparameter is set to 0",
+        "The learning_rate hyperparameter is set too high"
+      ],
+      "correctAnswer": ["The learning_rate hyperparameter is set too high"]
+    }
+  },
+  {
+    "id": "8924",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "ML Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "You are a machine learning specialist working for a retail clothing conglomerate. Your company sells many lines of clothing, such as budget casual wear, office casual wear, office formal wear, etc. For each of your existing products in these categories you have been using autoregressive integrated moving average (ARIMA) models to forecast demand. You now wish to forecast demand for a new product based on the collective historical time series data from your existing products. Which approach should you take to forecast demand for your new product?",
+      "answers": [
+        "Forecast demand for your new product using the XGBoost algorithm",
+        "Forecast demand for your new product using the DeepAR algorithm",
+        "Forecast demand for your new product using an ARIMA model",
+        "Forecast demand for your new product using k-means clustering"
+      ],
+      "correctAnswer": ["Forecast demand for your new product using the DeepAR algorithm"]
+    }
+  }
+]
