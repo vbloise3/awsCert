@@ -109,9 +109,16 @@
             (change)="updateSubcategoriesChecked($event, 'ML Simulated Exam Questions')">
           </mat-checkbox>
           <mat-label style="padding: 0.5em;">ML Simulated Exam Questions</mat-label>
+
+          <mat-checkbox
+            name="Built-in Algorithms Inputs"
+            value="Built-in Algorithms Inputs"
+            (change)="updateSubcategoriesChecked($event, 'Built-in Algorithms Inputs')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Built-in Algorithms Inputs</mat-label>
           &nbsp;&nbsp;
           &nbsp;&nbsp;
-          <button mat-button type="submit" color="primary">Submit</button>
+          <button mat-button style="margin: 1em;" type="submit" color="primary">Submit</button>
         </div>
       </form>
       <h1 class="h1Blue">Answer the following question:</h1>

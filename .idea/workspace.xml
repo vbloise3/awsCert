@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Practice_Exam_questions_15_ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/ML_Built_In_Algorithms_1_ml.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/expression-attributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/expression-attributes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,7 @@
       <workItem from="1591107641264" duration="26625000" />
       <workItem from="1592332409735" duration="21455000" />
       <workItem from="1593537323951" duration="8267000" />
-      <workItem from="1594760635788" duration="1677000" />
+      <workItem from="1594760635788" duration="8399000" />
     </task>
     <servers />
   </component>

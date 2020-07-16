@@ -1,0 +1,681 @@
+[
+  {
+    "id": "8925",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 1",
+      "question": "______ expects a single preprocessed text file with space-separated tokens. Each line in the file should contain a single sentence.",
+      "answers": [
+        "Blazing Text",
+        "DeepAR",
+        "Factorization Machines",
+        "Image Classification",
+        "IP Insights",
+        "K-Means",
+        "K-Nearest Neighbors",
+        "Latent Dirichlet Allocation (LDA)",
+        "Linear Learner",
+        "Neural Topic Model (NTM)",
+        "Object2Vec",
+        "Object Detection",
+        "Principal Component Analysis (PCA)",
+        "Random Cut Forest (RCF)",
+        "Semantic Segmentation",
+        "Sequence-to-Sequence",
+        "XGBoost"
+      ],
+      "correctAnswer": ["Blazing Text"]
+    }
+  },
+  {
+    "id": "8926",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 1",
+      "question": "DeepAR expects training and test datasets in ______ format. Files can be in gzip or Parquet file format.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["JSON Lines"]
+    }
+  },
+  {
+    "id": "8927",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 1",
+      "question": "DeepAR expects files can be in ______ file format.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["gzip or Parquet"]
+    }
+  },
+  {
+    "id": "8928",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "For inference, Factorization Machines support the ______ and ______ formats.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/json", "x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8929",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "The Amazon SageMaker Image Classification algorithm supports both ______ and ______ content types for training in file mode, and supports the ______ content type for training in pipe mode. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["RecordIO (application/x-recordio)", "image (image/png, image/jpeg, and application/x-image)", "RecordIO (application/x-recordio)"]
+    }
+  },
+  {
+    "id": "8930",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 1",
+      "question": "IP Insights expects training and validation data content types need to be in ______ format. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv"]
+    }
+  },
+  {
+    "id": "8931",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference, IP Insights supports ______, ______, and ______ data content types. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/json", "application/jsonlines"]
+    }
+  },
+  {
+    "id": "8932",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "K-Means supports both ______ and ______ formats for training.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["recordIO-wrapped-protobuf","text/csv"]
+    }
+  },
+  {
+    "id": "8933",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference, K-Means supports ______, ______, and ______ .",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/json", "application/x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8934",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "For training inputs, K-Nearest Neighbors supports ______ and ______ data formats.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8935",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference inputs, K-Nearest Neighbors supports the ______, ______, and ______ data formats. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/json", "application/x-recordio-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8936",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "Latent Dirichlet Allocation (LDA) supports both ______ (dense and sparse) and ______ file formats.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["recordIO-wrapped-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8937",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference, Latent Dirichlet Allocation (LDA) supports ______, ______, and ______ content types. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/json", "application/x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8938",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "For training, the Linear Learner algorithm supports both ______ and ______ formats. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["recordIO-wrapped-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8939",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference, the Linear Learner algorithm supports the ______, ______, and ______ formats. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/json", "application/x-recordio-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8940",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "The train, validation, and test data channels for Neural Topic Model (NTM) support both ______ (dense and sparse) and ______ file formats. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["recordIO-wrapped-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8941",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 4",
+      "question": "For inference, Neural Topic Model (NTM) supports ______, ______, ______, and ______ content types.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/json", "application/jsonlines", "application/x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8943",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "The Amazon SageMaker Object Detection algorithm supports both ______ and ______ content types.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["RecordIO (application/x-recordio)", "image (image/png, image/jpeg, and application/x-image)"]
+    }
+  },
+  {
+    "id": "8944",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "Principal Component Analysis (PCA) supports both ______ and ______ formats are supported.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["recordIO-wrapped-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8945",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 3",
+      "question": "For inference, Principal Component Analysis (PCA) supports ______, ______, and ______. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/csv", "application/json", "application/x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8946",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "For Random Cut Forest (RCF), train and test data content types can be either ______ or ______ formats. ",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/x-recordio-protobuf", "text/csv"]
+    }
+  },
+  {
+    "id": "8947",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "Semantic Segmentation supports the augmented manifest image format ______ for training in Pipe input mode straight from Amazon S3. For inference, an endpoint accepts images with an ______ content type.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/x-image", "image/jpeg"]
+    }
+  },
+  {
+    "id": "8948",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 1",
+      "question": "Amazon SageMaker Sequence-to-Sequence expects data in ______ format. However, the tokens are expected as integers, not as floating points, as is usually the case.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8949",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "With Sequence-to-Sequence, for hosted endpoints, inference supports two data formats. To perform inference using space separated text tokens, use the ______ format. Otherwise, use the ______ format to work with the integer encoded data.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["application/json", "x-recordio-protobuf"]
+    }
+  },
+  {
+    "id": "8950",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "With XGBoost, for Training ContentType, valid inputs are ______ (default) or ______.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/libsvm", "text/csv"]
+    }
+  },
+  {
+    "id": "8951",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Built-in Algorithms Inputs",
+      "questionType": "multiple choice 2",
+      "question": "With XGBoost, for Inference ContentType, valid inputs are text/libsvm (default) or text/csv.",
+      "answers": [
+        "JSON Lines",
+        "recordIO-protobuf",
+        "x-recordio-protobuf",
+        "application/json",
+        "RecordIO (application/x-recordio)",
+        "image (image/png, image/jpeg, and application/x-image)",
+        "text/csv",
+        "text/libsvm",
+        "application/jsonlines",
+        "recordIO-wrapped-protobuf",
+        "application/x-recordio-protobuf",
+        "application/x-image",
+        "image/jpeg",
+        "gzip or Parquet"
+      ],
+      "correctAnswer": ["text/libsvm", "text/csv"]
+    }
+  }
+]
