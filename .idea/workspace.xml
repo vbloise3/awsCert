@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_2_dan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,13 @@
       <workItem from="1593537323951" duration="8267000" />
       <workItem from="1594760635788" duration="8672000" />
       <workItem from="1594952503914" duration="154000" />
-      <workItem from="1595088109859" duration="1197000" />
+      <workItem from="1595088109859" duration="1648000" />
+      <workItem from="1595419289417" duration="312000" />
+      <workItem from="1596037153768" duration="631000" />
+      <workItem from="1598538268655" duration="234000" />
+      <workItem from="1598540204957" duration="352000" />
+      <workItem from="1598988072974" duration="407000" />
+      <workItem from="1599569340075" duration="4071000" />
     </task>
     <servers />
   </component>
@@ -148,14 +154,14 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
-        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.d.ts" />
-        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.js" />
-        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.d.ts" />
-        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.js" />
-        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.d.ts" />
-        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.js" />
-        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.d.ts" />
-        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.js" />
+        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.d.ts" />
+        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.js" />
+        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.d.ts" />
+        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.js" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.js" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.js" />
       </list>
     </option>
   </component>
@@ -173,12 +179,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1593530620345">
-      <screen x="0" y="23" width="1920" height="997" />
+    <state x="616" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598987994115">
+      <screen x="0" y="23" width="1920" height="999" />
     </state>
-    <state x="653" y="358" key="com.intellij.ide.util.TipDialog/0.23.1920.1001@0.23.1920.1001" timestamp="1586437026116" />
-    <state x="653" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1589804270971" />
-    <state x="653" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.996@0.23.1920.996" timestamp="1584892200508" />
+    <state x="616" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.999@0.23.1920.999" timestamp="1598987994115" />
+    <state x="653" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1598987986527">
+      <screen x="0" y="23" width="1920" height="999" />
+    </state>
     <state x="653" y="358" key="com.intellij.ide.util.TipDialog/0.23.1920.997@0.23.1920.997" timestamp="1593530620345" />
+    <state x="653" y="359" key="com.intellij.ide.util.TipDialog/0.23.1920.999@0.23.1920.999" timestamp="1598987986527" />
   </component>
 </project>

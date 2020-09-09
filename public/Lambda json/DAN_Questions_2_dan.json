@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You are a data engineer in a marketing company that is designing a data warehouse to hold client and marketing campaign information. Their idea is to build a data-driven marketing campaign data store. To build out one of the BI queries for your campaign reporting you need to build a query of your customers table. The Customers table has a CustomerID column, which is the primary key of the Customers table, and a CampaignID, which is the primary key of the Campaigns table. You also have a CampaignID column of your Customers table, acting as a foreign key. Your foreign key is defined in the Customers table as such: CREATE TABLE Customers (CustomerId int NOT NULL, CampaignID int NOT NULL, CustomerName, CustomerAddress, PRIMARY KEY (CustomerId), FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID)); You have defined primary key and foreign key constraints between these two tables in Redshift. How will these constraints be enforced through your data retrieval patterns?",
+      "answers": [
+        "Redshift will enforce the primary key and foreign key constraints as you have defined them in your CREATE TABLE SQL logic in Redshift: create table Customers ( ... foreign key(CampaignID) references Campaigns(CampaignID) ...)",
+        "You will need to define the primary and foreign key constraints in your application code SQL",
+        "Redshift will enforce the constraints if you select the enforce constraints option when creating the table in Redshift.",
+        "Primary key and foreign key constraints are only defined to optimize query performance in Redshift."
+      ],
+      "correctAnswer": ["You will need to define the primary and foreign key constraints in your application code SQL"]
+    }
+  }
+]
