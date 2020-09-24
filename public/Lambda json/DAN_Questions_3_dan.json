@@ -1,0 +1,18 @@
+[
+  {
+    "id": "3",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You are a data engineer in a mobile software company that is building a data lake to hold information about bike rentals in cities where you have fleets of bikes to rent. Your data lake needs to hold the bike rental information captured from the bike rental mobile app and from sensors on the rental bikes. Your management team wants to do historical analysis on the bike rental data so a daily ingestion frequency works for your scenario. You have decided to stream this data into your data processing system via Kinesis Data Streams. You have written a KCL module to write your mobile app and sensor data in CSV format to an S3 bucket in batches on a daily basis. You now need to operationalize the remainder of your data lake components. Which of the following will allow you to orchestrate your data processing flow in the most efficient and performant way?",
+      "answers": [
+        "Use an AWS Step Functions state machine to orchestrate steps that 1) crawl your ingested CSV data, 2) run a Glue ETL job to convert the CSV to Parquet, 3) in parallel to steps 1 and 2 run a step to start up your EMR ingestion cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store, 4) in parallel to steps 1, 2 and 3 run a step to start up your query EMR cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store, 5) a synchronous step to run after steps 3 and 4 complete to terminate the ingestion EMR cluster",
+        "Use a Glue Workflow to complete these tasks: crawl the CSV data, run an ETL job to convert the CVS data to Parquet data, crawl the Parquet data. Then on completion of the Glue Workflow event, run a Step Functions state machine to orchestrate a step that starts up your query EMR cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store",
+        "Use a Glue Workflow to complete these tasks: crawl the CSV data. Then on completion of the Glue Workflow event, run a Step Functions state machine to orchestrate steps that 1) run a Glue ETL job to convert the CSV to Parquet, 2) after step one completes, start up your query EMR cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store",
+        "Use an AWS Step Functions state machine to orchestrate steps that 1) crawl your ingested CSV data, 2) run a Glue ETL job to convert the CSV to Parquet, 3) run a Glue crawler to crawl the Parquet data, 4) in parallel to steps 1,  2, and 3 run a step to start up your EMR ingestion cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store, 5) in parallel to steps 1, 2, 3, and 4 run a step to start up your query EMR cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store, 6) a synchronous step to run after steps 3, 4, and 5 complete to terminate the ingestion EMR cluster"
+      ],
+      "correctAnswer": ["Use a Glue Workflow to complete these tasks: crawl the CSV data, run an ETL job to convert the CVS data to Parquet data, crawl the Parquet data. Then on completion of the Glue Workflow event, run a Step Functions state machine to orchestrate a step that starts up your query EMR cluster with Hadoop, Hive, Presto, and Hue installed as applications and with the Glue data Catalog as the hive meta store"]
+    }
+  }
+]
