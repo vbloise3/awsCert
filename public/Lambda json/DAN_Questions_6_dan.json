@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a financial services company that has several relational databases, data warehouses, and NoSQL databases that hold transactional information about their financial trades and operational activities. The company wants to manage their financial counterparty risk through using their real-time trading/operational data to perform risk analysis and build risk management dashboards. You need to build a data repository that combines all of these disparate data sources so that your company can perform their Business Intelligence (BI) analysis work on the complete picture of their risk exposure. What collection system best fits this use case?",
+      "answers": [
+        "Financial data sources data -> Kinesis Data Firehose -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "Financial data sources data -> Kinesis Data Firehose -> Kinesis Data Analytics -> Kinesis Data Firehose -> Redshift -> QuickSight",
+        "Financial data sources data -> Database Migration Service -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "Financial data sources data -> Kinesis Data Streams -> Kinesis Data Analytics -> S3 Data Lake -> QuickSight"
+      ],
+      "correctAnswer": ["Financial data sources data -> Database Migration Service -> S3 -> Glue -> S3 Data Lake -> Athena"]
+    }
+  },
+  {
+    "id": "7",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Collection",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working on a project where you have two large tables (orders and products) that you need to load into Redshift from one of your S3 buckets. Your table files, which are both several million rows large, are currently on an EBS volume of one of your EC2 instances in a directory titled $HOME/myredshiftdata. Since your table files are so large, what is the most efficient approach to first copy them to S3 from your EC2 instance?",
+      "answers": [
+        "Load your orders.tbl and products.tbl using the command: aws s3 cp $HOME/myredshiftdata s3://dataanalytics/myredshiftdata --recursive",
+        "Load your orders.tbl and products.tbl by first splitting each tbl file into smaller parts using the command: split -d -l 5000000 -a 4 orders.tbl orders.tbl and split -d -l 10000000 -a 4 products.tbl products.tbl",
+        "Load your orders.tbl and products.tbl by first getting a count of the number of rows in each using the commands: wc -l orders.tbl and wc -l products.tbl. Then splitting each tbl file into smaller parts using the command: split -d -l # -a 4 orders.tbl orders.tbl and split -d -l # -a 4 products.tbl products.tbl where # is replaced by the result of your wc command divided by 4.",
+        "Load your orders.tbl and products.tbl by first getting a count of the number of rows in each using the commands: wc -l orders.tbl and wc -l products.tbl. Then splitting each tbl file into smaller parts using the command: split -d -l # -a 4 orders.tbl orders.tbl- and split -d -l # -a 4 products.tbl products.tbl- where # is replaced by the result of your wc command divided by 4."
+      ],
+      "correctAnswer": ["Load your orders.tbl and products.tbl by first getting a count of the number of rows in each using the commands: wc -l orders.tbl and wc -l products.tbl. Then splitting each tbl file into smaller parts using the command: split -d -l # -a 4 orders.tbl orders.tbl- and split -d -l # -a 4 products.tbl products.tbl- where # is replaced by the result of your wc command divided by 4."]
+    }
+  },
+  {
+    "id": "8",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You are working on a project where you need to perform real-time analytics on your application server logs. Your application is split across several EC2 servers in an auto-scaling group and is behind an application load balancer as depicted in this diagram: EC2 instances in public subnets in two different regions with RDS MySQL databases in private subnets in the different regions with S3, Auto Scaling and Load Balancing. You need to perform some transformation on the log data, such as joining rows of data, before you stream the data to your real-time dashboard. What is the most efficient and performant solution to aggregate your application logs?",
+      "answers": [
+        "Install the Kinesis Agent on your application servers to watch your logs and use Kinesis Data Firehose to stream the logs directly to S3. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
+        "Write a Kinesis Data Streams producer application that reads the application logs and pushes the data directly into your Kinesis data stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
+        "Install the Kinesis Agent on your application servers to watch your logs and ingest the log data. Write a Kinesis Data Analytics application that reads the application log data from the agent, performs the required transformations, and pushes the data into your Kinesis data output stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
+        "Use a CloudWatch dashboard that uses your application’s CloudWatch logs as the data source."
+      ],
+      "correctAnswer": ["Install the Kinesis Agent on your application servers to watch your logs and ingest the log data. Write a Kinesis Data Analytics application that reads the application log data from the agent, performs the required transformations, and pushes the data into your Kinesis data output stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard."]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "4",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Analysis and Visualization",
+      "questionType": "multiple choice 1",
+      "question": "You are a data engineer building a data lake for your corporation. You need to build an analysis and visualization solution to depict your company performance based on metrics gathered from the data stores in your data lake. Which type of visualization would you use to best present your analysis?",
+      "answers": [
+        "Relationships",
+        "Comparisons",
+        "Distributions",
+        "Compositions",
+        "KPIs"
+      ],
+      "correctAnswer": ["KPIs"]
+    }
+  }
+]

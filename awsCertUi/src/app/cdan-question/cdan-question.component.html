@@ -128,7 +128,7 @@
               <mat-radio-group layout="row" formControlName="selectedAnswer">
               <span class="displayOnNewLine">
                 <mat-placeholder></mat-placeholder>
-                <mat-radio-button ng-style="{'display':'inline-block'}" *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
+                <mat-radio-button  *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
                   <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
                 </mat-radio-button>
               </span>

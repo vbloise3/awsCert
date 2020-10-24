@@ -1,0 +1,18 @@
+[
+  {
+    "id": "5",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data engineer building a data lake for your corporation using the EMR service from AWS. You need to build your analytics solution so that it makes use of the appropriate encryption and access control services to make your EMR cluster as secure as possible. One of the strategies your management team wishes to use is using corporate credentials to control access to your data lake data catalog and the underlying data stores. Which security configuration/technique gives you this access control capability?",
+      "answers": [
+        "Kerberos authentication with cluster dedicated KDC",
+        "IAM roles for EMRFS",
+        "Lake Formation integration",
+        "Kerberos authentication with an external KDC"
+      ],
+      "correctAnswer": ["Lake Formation integration"]
+    }
+  }
+]
