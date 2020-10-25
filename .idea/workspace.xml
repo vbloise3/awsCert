@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_4_dan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_5_dan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_6_dan.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cdan-question/cdan-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cdan-question/cdan-question.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_3_dan.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_3_dan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_6_dan.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/DAN_Questions_6_dan.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,8 @@
       <workItem from="1600996793777" duration="197000" />
       <workItem from="1601023202280" duration="92000" />
       <workItem from="1602439727131" duration="1075000" />
-      <workItem from="1602764385503" duration="3167000" />
+      <workItem from="1602764385503" duration="3810000" />
+      <workItem from="1603626488668" duration="1456000" />
     </task>
     <servers />
   </component>
@@ -163,14 +160,14 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.js" />
+        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.d.ts" />
+        <option value="$USER_HOME$/hello-cdk/bin/hello-cdk.js" />
+        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.d.ts" />
+        <option value="$USER_HOME$/hello-cdk/lib/hello-cdk-stack.js" />
+        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.d.ts" />
+        <option value="$USER_HOME$/cdk-workshop/bin/cdk-workshop.js" />
+        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$USER_HOME$/cdk-workshop/lib/cdk-workshop-stack.js" />
       </list>
     </option>
   </component>

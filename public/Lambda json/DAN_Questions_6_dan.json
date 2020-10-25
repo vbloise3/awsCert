@@ -42,9 +42,127 @@
         "Install the Kinesis Agent on your application servers to watch your logs and use Kinesis Data Firehose to stream the logs directly to S3. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
         "Write a Kinesis Data Streams producer application that reads the application logs and pushes the data directly into your Kinesis data stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
         "Install the Kinesis Agent on your application servers to watch your logs and ingest the log data. Write a Kinesis Data Analytics application that reads the application log data from the agent, performs the required transformations, and pushes the data into your Kinesis data output stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard.",
-        "Use a CloudWatch dashboard that uses your application’s CloudWatch logs as the data source."
+        "Use a CloudWatch dashboard that uses your applications CloudWatch logs as the data source."
       ],
       "correctAnswer": ["Install the Kinesis Agent on your application servers to watch your logs and ingest the log data. Write a Kinesis Data Analytics application that reads the application log data from the agent, performs the required transformations, and pushes the data into your Kinesis data output stream. Use Kinesis Data Analytics queries to build your real-time analytics dashboard."]
+    }
+  },
+  {
+    "id": "9",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist on a team where you are responsible for ingesting IoT streamed data into a data lake for use in an EMR cluster. The data in the data lake will be used to allow your company to do business intelligence analytics on the IoT data. Due to the large amount of data being streamed to your application you will need to compress the data on the fly as you process it into your EMR cluster. How would you most efficiently collect the data from your IoT devices?",
+      "answers": [
+        "Use the Kinesis REST API to get the IoT device records from the IoT devices and stream the data to your data lake through Kinesis Data Streams, then use Apache DistCp to move the data from S3 to your EMR cluster.",
+        "Use the AWS IoT service to get the device data from the IoT devices, use Kinesis Data Firehose to stream the data to your data lake, then use S3DistCp to move the data from S3 to your EMR cluster.",
+        "Use the Kinesis Producer Library to create a Kinesis producer application that reads the data from the IoT devices and stream the data to your data lake through Kinesis Data Streams, then use S3DistCp to move the data from S3 to your EMR cluster.",
+        "Use the Kinesis Client Library to get the device data from the IoT devices, use Kinesis Data Firehose to stream the data to your data lake, then use Apache DistCp to move the data from S3 to your EMR cluster."
+      ],
+      "correctAnswer": ["Use the AWS IoT service to get the device data from the IoT devices, use Kinesis Data Firehose to stream the data to your data lake, then use S3DistCp to move the data from S3 to your EMR cluster."]
+    }
+  },
+  {
+    "id": "10",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Collection",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a rental car company that has fleets of rental cars across the globe. Each car is equipped with IoT sensors that report important information about the cars functioning, location, service levels, mileage, etc. You have been tasked with determining how rental efficiency has changed over time for fleets in certain cities across the US. This solution requires you to look back at several years of historical data collected by your IoT sensors. Your management team wishes to perform Key Performance Indicator (KPI) analysis on the rental car data through visualization using business intelligence (BI) tools. They will use this analysis and visualization to make management decisions on how to keep their fleet of rental cars at optimum levels of service and use. They will also use the KPI analysis to assess the performance of their regional management teams for each city for which you collect data. What collection system best fits this use case?",
+      "answers": [
+        "IoT device sensor data -> Kinesis Data Firehose -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "IoT device sensor data -> Kinesis Data Firehose -> Kinesis Data Analytics -> Kinesis Data Firehose -> Redshift -> QuickSight",
+        "IoT device sensor data -> RDS -> Database Migration Service -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "IoT device sensor data -> Kinesis Data Streams -> Kinesis Data Analytics -> S3 Data Lake -> QuickSight"
+      ],
+      "correctAnswer": ["IoT device sensor data -> Kinesis Data Firehose -> S3 -> Glue -> S3 Data Lake -> Athena"]
+    }
+  },
+  {
+    "id": "11",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Collection",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a mobile gaming company that is developing a new mobile gaming app that will need to handle thousands of messages per second arriving in your application data store. Due to the user interactivity of your game, all changes to the game datastore must be recorded with a before-change and after-change view of the data record. These data store changes will be used to deliver a near-real-time usage dashboard of the app for your management team. What application collection system infrastructure best delivers these capabilities in the most performant and cost effective way?",
+      "answers": [
+        "Kinesis Firehose -> S3 -> EMR with Spark -> S3 -> Redshift -> QuickSight",
+        "DynamoDB -> DynamoDB Streams -> Lambda -> Kinesis Firehose -> Redshift -> QuickSight",
+        "Kinesis Firehose -> Aurora MySQL -> Lambda -> Kinesis Firehose -> Redshift -> QuickSight",
+        "Kinesis Data Streams -> Aurora MySQL -> Lambda->Kinesis Firehose -> Redshift -> QuickSight"
+      ],
+      "correctAnswer": ["DynamoDB -> DynamoDB Streams -> Lambda -> Kinesis Firehose -> Redshift -> QuickSight"]
+    }
+  },
+  {
+    "id": "12",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for an online retail electronics chain. Their website receives very heavy traffic during certain months of the year, but these heavy traffic periods fluctuate over time. Your firm wants to get a better understanding of these patterns. Therefore, they have decided to build a traffic prediction machine learning model based on click-stream data. Your task is to capture the click-stream data and store it in S3 for use as training and inference data in the machine learning model. You have built a streaming data capture system using Kinesis Data Streams and its Kinesis Producer Library (KPL) for your click-stream data capture component. You are using collection batching in your KPL code to improve performance of your collection system. Exception and failure handling is very important to your collection process, since losing click-stream data will compromise the integrity of your machine learning model data. How can you best handle failures in your KPL component?",
+      "answers": [
+        "For each record processed by your KPL component trigger a Lambda function that ensures proper sequencing of the records processed",
+        "Kinesis Data Streams synchronously replicates your data across three availability zones. Take advantage of this to recover from failed record processing with retry logic.",
+        "With the KPL PutRecords operation, if a put fails, the record is automatically put back into the KPL buffer and retried.",
+        "With the KPL PutRecords operation, if a put fails, the record is automatically rolled back, giving you the option to use retry logic in your KPL code."
+      ],
+      "correctAnswer": ["With the KPL PutRecords operation, if a put fails, the record is automatically put back into the KPL buffer and retried."]
+    }
+  },
+  {
+    "id": "13",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Analysis and Visualization",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a large city that has implemented an electric scooter ride sharing system. Each electric scooter is equipped with IoT sensors that report the scooters location, whether it is currently rented out, current renter, battery level, speed of travel, etc. You have been tasked with determining scooter density of location throughout the city and redistributing scooters if some areas of the city are overpopulated with scooters while other areas are underpopulated. This solution requires real-time IoT data to be ingested into your data collection system. Your management team wishes to perform real-time analysis on the scooter data through visualization using business intelligence (BI) tools. They will use this analysis and visualization to make management decisions on how to keep their fleet of scooters at optimum levels of service and use. What collection system best fits this use case?",
+      "answers": [
+        "IoT device sensor data -> Kinesis Data Firehose -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "IoT device sensor data -> Kinesis Data Firehose -> Kinesis Data Analytics -> Kinesis Data Firehose -> Redshift -> QuickSight",
+        "IoT device sensor data -> RDS -> Database Migration Service -> S3 -> Glue -> S3 Data Lake -> Athena",
+        "IoT device sensor data -> Kinesis Data Streams -> Kinesis Data Analytics -> S3 Data Lake -> QuickSight"
+      ],
+      "correctAnswer": ["IoT device sensor data -> Kinesis Data Firehose -> Kinesis Data Analytics -> Kinesis Data Firehose -> Redshift -> QuickSight"]
+    }
+  },
+  {
+    "id": "14",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 2",
+      "question": "You are a data scientist working for a medical services company that has a suite of apps available for patients and their doctors to share their medical data. These apps are used to share patient details, MRI and XRAY images, appointment schedules, etc. Because of the importance of this data and its inherent Personally Identifiable Information (PII), your data collection system needs to be secure and the system cannot suffer lost data, process data out of order, or duplicate data. Which data collection system(s) gives you the security and data integrity your requirements demand? (SELECT 2)",
+      "answers": [
+        "Apache Kafka/Amazon MSK",
+        "SQS (FIFO)",
+        "SQS (Standard)",
+        "Kinesis Data Firehose",
+        "Kinesis Data Streams",
+        "DynamoDB Streams"
+      ],
+      "correctAnswer": ["SQS (FIFO)",
+        "DynamoDB Streams"]
+    }
+  },
+  {
+    "id": "15",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You work for a ski resort corporation. Your company is developing a lift ticket system for mobile devices that allows skiers and snowboarders to use their phone as their lift ticket. The ski resort corporation owns many resorts around the world. The lift ticketing system needs to handle users who move from resort to resort throughout any given time period. Resort customers can also purchase packages where they can ski or snowboard at a defined list (a subset of the total) of several different resorts across the globe as part of their package. The storage system for the lift ticket mobile application has to handle large fluctuations in volume. The data collected from the devices and stored in the data store is small in size, but the system must provide the data at low latency and high throughput. It also has to authenticate users through their mobile device registered facial recognition service, so that users cant share a lift ticket by sharing their mobile devices. What storage system is the best fit for this system?",
+      "answers": [
+        "Neptune",
+        "RDS",
+        "SQS (Standard)",
+        "DynamoDB",
+        "ElastiCache",
+        "Redshift",
+        "S3"
+      ],
+      "correctAnswer": ["DynamoDB"]
     }
   }
 ]
