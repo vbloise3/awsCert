@@ -1,0 +1,199 @@
+[
+  {
+    "id": "16",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You work for a mobile gaming company that has developed a word puzzle game that allows multiple users to challenge each other to complete a crossword puzzle type of game board. This interactive game works on mobile devices and web browsers. You have a world-wide user base that can play against each other no matter where each player is located. You now need to create a leaderboard component of the game architecture where players can look at the daily point leaders for the day, week, or other timeframes. Each time a player accumulates points, the points counter for that player needs to be updated in real-time. This leaderboard data is transient in that it only needs to be stored for a limited duration. Which of the following architectures best suits your data access and retrieval patterns using the simplest, most efficient approach?",
+      "answers": [
+        "Data sources -> Kinesis Data Streams -> Spark Streaming on EMR -> ElastiCache Redis -> DynamoDB",
+        "Data Sources -> Kinesis Data Firehose -> S3 -> Athena",
+        "Data sources -> Kinesis Data Streams -> Spark Streaming on EMR -> ElastiCache Memcached -> DynamoDB",
+        "Data sources -> Kinesis Data Streams -> Spark Streaming on EMR -> ElastiCache Redis",
+        "Data sources -> Kinesis Data Firehose -> Spark Streaming on EMR -> ElastiCache Redis -> S3"
+      ],
+      "correctAnswer": ["Data sources -> Kinesis Data Streams -> Spark Streaming on EMR -> ElastiCache Redis"]
+    }
+  },
+  {
+    "id": "17",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You work for a car manufacturer who has implemented many sensors into their vehicles such as GPS, lane-assist, braking-assist, temperature/humidity, etc. These cars continuously transmit their structured and unstructured sensor data. You need to build a data collection system to capture their data for use in ad-hoc analytics applications to understand the performance of the cars, the locations traveled to and from, the effectiveness of the lane and brake assist features, etc. You also need to filter and transform the sensor data depending on rules based on parameters such as temperature readings. The sensor data needs to be stored indefinitely, however you only wish to pay for the analytics processing when you use it.Which of the following architectures best suits your data lifecycle and usage patterns using the simplest, most efficient approach?",
+      "answers": [
+        "Sensor data -> Kinesis Data Streams -> IoT Core -> S3 -> Athena",
+        "Sensor data -> Kinesis Data Firehose -> IoT Core -> S3 -> Athena",
+        "Sensor data -> Kinesis Data Streams -> IoT Core -> Kinesis Data Firehose -> RedShift ->  QuickSight",
+        "Sensor data -> IoT Core -> S3 -> Athena",
+        "Sensor data -> Kinesis Data Firehose -> S3 -> Athena"
+      ],
+      "correctAnswer": ["Sensor data -> IoT Core -> S3 -> Athena"]
+    }
+  },
+  {
+    "id": "18",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Analysis and Visualization",
+      "questionType": "multiple choice 1",
+      "question": "You work for a public health governmental organization where you are responsible for building out a data warehouse to hold infectious disease information based on the data found at the World Health Organization’s Global Health Observatory data repository. You expect your initial data warehouse to hold less than TBs of data. However, you expect that the data stored in your warehouse will grow rapidly based on the state of world-wide infectious disease progression in the near future.Your organization plans to use the data stored in your data warehouse to visualize disease progression across the various states in your country as infectious diseases progress through their lifecycle. These analyses will be used to make important decisions about citizen interaction and mobility.Which of the following data warehouse configurations best suits your data analysis scenario using the simplest, most cost effective approach?",
+      "answers": [
+        "Redshift with RA3 nodes",
+        "Redshift with DC2 nodes",
+        "S3 with SSD volumes",
+        "S3 with HDD volumes",
+        "Redshift with DS2 nodes"
+      ],
+      "correctAnswer": ["Redshift with RA3 nodes"]
+    }
+  },
+  {
+    "id": "19",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You work for a large city police department as a data scientist. You have been given the task of tracking crime by city district for each criminal committing the given crime. You have created a DynamoDB table to track the crimes across your city’s districts. The table has this configuration: for each crime the table contains a CriminalId (the partition key), CityDistrict, and CrimeDate the crime was reported. Your police department wants to create a dashboard of the crimes reported by district and date. What is the most cost effective way to retrieve the crime data from your DynamoDB table to build your crimes reported by district and date?",
+      "answers": [
+        "Create a local secondary index with CriminalId as the partition key and CrimeDate as the sort key",
+        "Create a global secondary index with CityDistrict as the partition key and CrimeDate as the sort key",
+        "Scan the table and use the ProjectionExpression parameter to return the crimes reported by district and date",
+        "Scan the secondary index and use the ProjectionExpression parameter to return the crimes reported by district and date"
+      ],
+      "correctAnswer": ["Create a global secondary index with CityDistrict as the partition key and CrimeDate as the sort key"]
+    }
+  },
+  {
+    "id": "20",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You work for a large retail and wholesale business with a significant ecommerce web presence. Your company has just acquired a new ecommerce clothing line and needs to build a data warehouse for this new line of business. The acquired ecommerce business sells clothing to a niche market of men’s casual and business attire. You have chosen to use Amazon Redshift for your data warehouse. The data that you’ll initially load into the warehouse will be relatively small. However, you expect the warehouse data to grow as the niche customer base expands once the parent company makes a significant investment in advertising. What is the most cost effective and best performing Redshift strategy that you should use when you create your initial tables in Redshift?",
+      "answers": [
+        "Use the KEY distribution strategy",
+        "Use the EVEN distribution strategy",
+        "Use the ALL distribution strategy",
+        "Use the AUTO distribution strategy"
+      ],
+      "correctAnswer": ["Use the AUTO distribution strategy"]
+    }
+  },
+  {
+    "id": "21",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a multinational conglomerate corporation that has many data stores for which you need to provide a common repository. All of your company’s systems need to use this common repository to store and retrieve metadata to work with the data stored in all of the data siolos throughout the organization. You also need to provide the ability to query and transform the data in the organization’s data silos. This common repository will be used for data analytics by your data scientist team to produce dashboards and KPIs for your management team.You are using AWS Glue to build your common repository as depicted in this diagram: data stores (S3, DynamoDB, Redshift, RDS) crawled by Glue crawler, loading Glue data catalog which is used by Athena, Redshift Spectrum, and EMR. As you begin to create this common repository you notice that you aren’t getting the inferred schema for some of your data stores. You have run your crawler against your data stores using your custom classifiers. What might be the problem with your process?",
+      "answers": [
+        "The username you provided to your JDBC connection to your S3 buckets does not have SELECT permission to retrieve metadata from the S3 bucket data store",
+        "The username you provided to your JDBC connection to your Redshift clusters does not have SELECT permission to retrieve metadata from the Redshift data store",
+        "You did not use the Glue built-in classifiers in your crawler job",
+        "The username you provided to your JDBC connection to your DynamoDB tables does not have SELECT permission to retrieve metadata from the DynamoDB data store"
+      ],
+      "correctAnswer": ["The username you provided to your JDBC connection to your Redshift clusters does not have SELECT permission to retrieve metadata from the Redshift data store"]
+    }
+  },
+  {
+    "id": "22",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Storage and Data Management",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a retail chain that stores information about their supply chain partners (partner metadata) and their interaction with these partners (products produced, payments processed, competing partners, etc.). You are tasked with building a data store and associated data lifecycle management system for this partner data. The data will be used for analytics in managing these partners to maximize profitability for your supply chain. You need to manage the data lifecycle according to the various access patterns defined for each type while maintaining storage cost efficiency. The partner metadata is less frequently accessed than the partner interaction data. You need to manage your storage costs so that high frequency accessed data (such as your partner interaction data) is available at very fast response times (sub-second), less frequently accessed data (such as your partner metadata) is available in minutes, and your rarely accessed data (such as historical data on former partners) is available within hours.Which storage lifecycle best fits your usage patterns and business requirements?",
+      "answers": [
+        "Partner interaction data (sub-second response) stored in Redshift, partner metadata (minutes response) stored in S3 Standard, and former partner data (hours response) in S3 Intelligent-Tiering.",
+        "Use a Redshift cluster for all of your data. Create RA3 nodes in your cluster for your partner interaction data (sub-second response), create DC2 nodes for your partner metadata (minutes response), and DS2 nodes for your former partner data (hours response).",
+        "Partner interaction data (sub-second response) stored in Redshift, partner metadata (minutes response) stored in S3 Standard, and former partner data (hours response) in S3 Glacier.",
+        "Partner interaction data (sub-second response) stored in RDS Aurora, partner metadata (minutes response) stored in S3 Standard, and former partner data (hours response) in S3 Glacier."
+      ],
+      "correctAnswer": ["Partner interaction data (sub-second response) stored in Redshift, partner metadata (minutes response) stored in S3 Standard, and former partner data (hours response) in S3 Glacier."]
+    }
+  },
+  {
+    "id": "23",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You are a data analyst working for a scientific research and data science company that is building a large scale data lake on EMR to house research data for ongoing research projects. Some of the projects have data processing requirements that need hot data set access, while others require less-hot data set access. For example, analysis for political polling related projects requires hot data set access due to the pressing nature of understanding political analytics and trends in real-time. Infrastructure and materials projects have less-hot data set access requirements since these projects have the option of producing their analysis on a daily basis versus a real-time basis.Additionally, the real-time analytics projects require fast performance, their data is considered timely but temporary. However, the less-hot data projects don’t require real-time analytics, they require persistent data storage. Which data processing solution best fits your usage patterns and business requirements?",
+      "answers": [
+        "S3 BFS for the hot data sets, S3 Glacier for the less-hot data sets",
+        "S3 EMRFS for the hot data sets, HDFS for the less-hot data sets",
+        "HDFS for the hot data sets, S3 EMRFS for the less-hot data sets",
+        "S3 BFS for the hot data sets, HDFS for the less-hot data sets"
+      ],
+      "correctAnswer": ["HDFS for the hot data sets, S3 EMRFS for the less-hot data sets"]
+    }
+  },
+  {
+    "id": "24",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 2",
+      "question": "You are a data scientist working for a large transportation company that manages its distribution data across all of its distribution lines: trucking, shipping, airfreight, etc. This data is stored in a data warehouse in Redshift. The company ingests all of the distribution data into an EMR cluster before loading the data into their data warehouse in Redshift. The data is loaded from EMR to Redshift on a schedule, once per day.How might you lower the operational costs of running your EMR cluster? (Select TWO)",
+      "answers": [
+        "EMR Transient Cluster",
+        "EMR Long-running Cluster",
+        "EMR Core Nodes as spot instances",
+        "EMR Task Nodes as spot instances",
+        "EMR cluster launched via AWS CLI using defaults"
+      ],
+      "correctAnswer": ["EMR Transient Cluster",
+      "EMR Task Nodes as spot instances"]
+    }
+  },
+  {
+    "id": "25",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for an online retail company that wishes to catalog all of their products in a data lake. They also want to load their product data from their data lake into a data warehouse that they can use for business intelligence (BI) dashboards and analytics with QuickSight. How would you automate and operationalize the data processing to get the company’s product data from their data lake to their data warehouse in the most efficient, cost effective manner?",
+      "answers": [
+        "Product data put to S3 data lake -triggers-> Lambda -runs-> Glue Crawler -> on completion CloudWatch event rule -triggers-> Lambda which runs Glue ETL job that transforms data to JSON -> S3 -triggers-> Lambda which runs COPY command to move data to Redshift",
+        "Product data put to S3 data lake -triggers-> Lambda -runs-> Glue Crawler -> on completion CloudWatch event rule -triggers-> Lambda which runs Glue ETL job that transforms data to Parquet -> S3 -triggers-> Lambda which runs COPY command to move data to Redshift",
+        "Product data put to S3 data lake -triggers-> Lambda -runs-> Glue Crawler -> on completion CloudWatch event rule -triggers-> Lambda which runs Glue ETL job that transforms data to JSON -> S3 -triggers-> Lambda which runs COPY command to move data to RDS Aurora",
+        "Product data put to S3 data lake -triggers-> Lambda -runs-> Glue Crawler -> on completion CloudWatch event rule -triggers-> Lambda which runs Glue ETL job that transforms data to CSV -> S3 -triggers-> Lambda which runs COPY command to move data to Redshift"
+      ],
+      "correctAnswer": ["Product data put to S3 data lake -triggers-> Lambda -runs-> Glue Crawler -> on completion CloudWatch event rule -triggers-> Lambda which runs Glue ETL job that transforms data to Parquet -> S3 -triggers-> Lambda which runs COPY command to move data to Redshift"]
+    }
+  },
+  {
+    "id": "26",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You work as a data scientist at a large hedge fund. Your firm produces analytics dashboard data for all of its traders. The data that you use is extracted from several trading systems, then transformed by removing canceled trades and classifying trades that remain open as pending. Quite often there are exotic trade types that your analytics application has not processed in past runs. When this happens your data processing solution needs to handle these new types of trades without having to modify the transformation code or the downstream data store.This process is run at the end of each trading day for each trader in the firm. How would you automate and operationalize this data processing flow in the most efficient, cost effective manner?",
+      "answers": [
+        "A Glue schedule trigger runs at the end of the day which starts two Glue transformation jobs: remove_canceled_trades and classify_open_trades_as_pending. When both of these jobs have completed an event trigger starts a Glue crawler that crawls the transformed data and updates the schema. Upon completion of the crawler schema update, a Glue ETL job runs and uses the COPY command to move the data to Redshift. Analytics dashboards are built using Redshift data.",
+        "A Glue schedule trigger runs at the end of the day which starts two Glue transformation jobs: remove_canceled_trades and classify_open_trades_as_pending. When both of these jobs have completed an event trigger starts a Glue crawler that crawls the transformed data and updates the schema. Upon completion of the crawler schema update, a Glue ETL job runs and uses the UNLOAD command to move the data to Redshift. Analytics dashboards are built using Redshift data.",
+        "A cron job schedule trigger runs at the end of the day which starts two Glue transformation jobs: remove_canceled_trades and classify_open_trades_as_pending. When both of these jobs have completed a cron job schedule trigger starts a Glue crawler that crawls the transformed data and updates the schema. Upon completion of the crawler schema update, a Glue ETL job runs and uses the COPY command to move the data to Redshift. Analytics dashboards are built using Redshift data.",
+        "A Glue schedule trigger runs at the end of the day which starts two Glue transformation jobs: remove_canceled_trades and classify_open_trades_as_pending. When both of these jobs have completed an event trigger starts a Glue crawler that crawls the transformed data and updates the schema. Upon completion of the crawler schema update, a Glue ETL job runs and uses the PUT command to move the data to Redshift. Analytics dashboards are built using Redshift data."
+      ],
+      "correctAnswer": ["A Glue schedule trigger runs at the end of the day which starts two Glue transformation jobs: remove_canceled_trades and classify_open_trades_as_pending. When both of these jobs have completed an event trigger starts a Glue crawler that crawls the transformed data and updates the schema. Upon completion of the crawler schema update, a Glue ETL job runs and uses the COPY command to move the data to Redshift. Analytics dashboards are built using Redshift data."]
+    }
+  },
+  {
+    "id": "27",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You work as a data scientist at a large global bank. Your bank receives loan information in the form of weekly files from several different loan processing and credit verification agencies. You need to automate and operationalize a data processing solution to take these weekly files, transform them and then finish up by combining them into one file to be ingested into your Redshift data warehouse. The files arrive at different times every week, but the delivering agencies attempt to meet their service level agreement (SLA) of 1:00 AM to 4:00 AM. Unfortunately, the agencies frequently miss their SLAs. You have a tight batch time frame into which you have to squeeze all of this processing.How would you build a data processing system that allows you to gather the agency files and process them for your data warehouse in the most efficient manner and in the shortest time frame?",
+      "answers": [
+        "Agency files arrive on an S3 bucket. An ETL Lambda function is triggered as each file arrives. The ETL Lambda function transforms the data and writes the transformed file to another S3 bucket. After all of the agency files have been processed by the ETL Lambda function, another Lambda function is triggered to combine the agency file data into one parquet file and write it to another S3 bucket. Then a last Lambda function is triggered to run the COPY command to load the parquet file data into Redshift.",
+        "Agency files arrive on an S3 bucket. Use CloudWatch events to schedule a weekly Step Functions state machine. The Step Functions state machine calls a Lambda function to verify that the agency files have arrived. The state machine then starts several Glue ETL jobs in parallel to transform the agency data. Once the agency file transformation jobs have completed the state machine starts another Glue ETL job to combine the transformed agency files and convert the data to a parquet file. The parquet file is written to an S3 bucket. Then the state machine finally runs a last Glue ETL job to run the COPY command to load the parquet file data into Redshift.",
+        "Agency files arrive on an S3 bucket. An ETL Lambda function is triggered as each file arrives. The ETL Lambda function transforms the data and writes the transformed file to another S3 bucket. After all of the agency files have been processed by the ETL Lambda function, another Lambda function is triggered to combine the agency file data into one CSV file and write it to another S3 bucket. Then a last Lambda function is triggered to run the UNLOAD command to load the CSV file data into Redshift.",
+        "Agency files arrive on an S3 bucket. Use CloudWatch events to schedule a weekly Step Functions state machine. The Step Functions state machine calls a Lambda function to verify that the agency files have arrived. The state machine then starts several Glue ETL jobs in parallel to transform the agency data. Once the agency file transformation jobs have completed the state machine starts another Glue ETL job to combine the transformed agency files and convert the data to an ORC file. The ORC file is written to an S3 bucket. Then the state machine finally runs a last Glue ETL job to run the UNLOAD command to load the ORC file data into Redshift."
+      ],
+      "correctAnswer": ["Agency files arrive on an S3 bucket. Use CloudWatch events to schedule a weekly Step Functions state machine. The Step Functions state machine calls a Lambda function to verify that the agency files have arrived. The state machine then starts several Glue ETL jobs in parallel to transform the agency data. Once the agency file transformation jobs have completed the state machine starts another Glue ETL job to combine the transformed agency files and convert the data to a parquet file. The parquet file is written to an S3 bucket. Then the state machine finally runs a last Glue ETL job to run the COPY command to load the parquet file data into Redshift."]
+    }
+  }
+]
