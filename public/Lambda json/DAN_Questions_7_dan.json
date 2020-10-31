@@ -195,5 +195,218 @@
       ],
       "correctAnswer": ["Agency files arrive on an S3 bucket. Use CloudWatch events to schedule a weekly Step Functions state machine. The Step Functions state machine calls a Lambda function to verify that the agency files have arrived. The state machine then starts several Glue ETL jobs in parallel to transform the agency data. Once the agency file transformation jobs have completed the state machine starts another Glue ETL job to combine the transformed agency files and convert the data to a parquet file. The parquet file is written to an S3 bucket. Then the state machine finally runs a last Glue ETL job to run the COPY command to load the parquet file data into Redshift."]
     }
+  },
+  {
+    "id": "28",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You work as a cloud architect for a cloud consultancy practice at a major IT consulting firm. Your latest client has a series of data processing Apache Spark ELT jobs that they want to run in a pipeline on EMR. Thay have asked you which set of data processing tools and techniques will best suit their pipeline needs. The jobs have a specified sequence. Your client wants to manage their costs. Therefore, they want to keep the solution simple, they don’t want to build an application to run these jobs, and they don’t want to incur any additional costs on virtual servers to run their pipeline. Also, they plan on integrating their Apache Spark pipeline with other AWS services in the future.Which orchestration tool set best suits your client’s pipeline requirements?",
+      "answers": [
+        "Apache Oozie to schedule and run the Spark jobs",
+        "Apache Airflow to schedule and run the Spark jobs",
+        "AWS Step Functions to schedule and run the Spark jobs",
+        "AWS Lambda to schedule and run the Spark jobs",
+        "AWS DMS to schedule and run the Spark jobs"
+      ],
+      "correctAnswer": ["AWS Step Functions to schedule and run the Spark jobs"]
+    }
+  },
+  {
+    "id": "29",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You work as a cloud architect for a gaming company that is building an analytics platform for their gaming data. This analytics platform will ingest game data from current games being played by users of their mobile game platform. The game data needs to be loaded into a data lake where business intelligence (BI) tools will be used to build analytics views of key performance indicators (KPIs). You load your data lake from an EMR cluster where you run Glue ETL jobs to perform the transformation of the incoming game data to the parquet file format. Once transformed, the parquet files are stored in your S3 data lake. From there you can run BI tools, such as Athena, to build your KPIs.You want to handle EMR step through recovery logic. What is the simplest way to build retry logic into your data processing solution?",
+      "answers": [
+        "CloudTrail event rule sends a text message via a Simple Notification Service (SNS) topic, a support engineer reruns the failed EMR step.",
+        "CloudWatch event rule sends a text message via a Simple Notification Service (SNS) topic, a support engineer reruns the failed EMR step.",
+        "CloudTrail event rule triggers a Lambda function via a Simple Notification Service (SNS) topic which retries the EMR step.",
+        "CloudWatch event rule triggers a Lambda function via a Simple Notification Service (SNS) topic which retries the EMR step.",
+        "CloudWatch event rule triggers a retry of the Spark step via a Simple Notification Service (SNS) topic."
+      ],
+      "correctAnswer": ["CloudWatch event rule triggers a Lambda function via a Simple Notification Service (SNS) topic which retries the EMR step."]
+    }
+  },
+  {
+    "id": "30",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You work as a cloud security architect for a financial services company. Your company has an EMR cluster that is integrated with their AWS Lake Formation managed data lake. You use the Lake Formation service to enforce column-level access control driven by policies you have defined. You need to implement a real-time alert and notification system if authenticated users run the TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps actions within EMR.How would you implement this real-time alert mechanism in the simplest way possible?",
+      "answers": [
+        "Create a CloudTrail trail and enable continuous delivery of events to an S3 bucket. Use the aws cloudtrail create-trail CLI command to create an SNS topic. When an event occurs a Simple Queue Service (SQS) queue that subscribes to the SNS topic will receive the message. Use a Lambda function triggered by SQS to filter the messages for the TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps actions. The Lambda function will notify security alert subscribers via another SNS topic.",
+        "Create a CloudWatch event and enable continuous delivery of events to an S3 bucket. Use the aws cloudwatch create-event CLI command to create an SNS topic. When an event occurs for the TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps actions subscribers to the SNS topic will be notified.",
+        "Create a Lambda function that subscribes to an SNS topic that you define. The Lambda function will be triggered every time a TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps action is written to the EMR logs.",
+        "Create a CloudTrail trail and enable continuous delivery of events to an S3 bucket. Use the aws cloudtrail create-trail CLI command to create an SNS topic. When an event occurs for the TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps actions SNS will notify security alert subscribers."
+      ],
+      "correctAnswer": ["Create a CloudTrail trail and enable continuous delivery of events to an S3 bucket. Use the aws cloudtrail create-trail CLI command to create an SNS topic. When an event occurs a Simple Queue Service (SQS) queue that subscribes to the SNS topic will receive the message. Use a Lambda function triggered by SQS to filter the messages for the TerminateJobFlows, DeleteSecurityConfiguration, or CancelSteps actions. The Lambda function will notify security alert subscribers via another SNS topic."]
+    }
+  },
+  {
+    "id": "31",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Processing",
+      "questionType": "multiple choice 1",
+      "question": "You work as a data scientist for a medical data processing company. Your company receives patient data via file feeds into one of your S3 buckets. The data is formatted as a nested JSON document similar to this: JSON with id, category, infor with nested subcategory, questionType, question, answers, correctAnswer. After performing data engineering on some sample files you have noticed occasional inconsistencies in the data types in the JSON. What is the most performant and cost effective way to clean your semi-structured JSON data?",
+      "answers": [
+        "Run an AWS Batch job that uses the dirtyjson library",
+        "Use an EMR job that uses the Spark native DataFrame API",
+        "Trigger a Lambda function that uses the json.load and json.loads libraries",
+        "Run a Glue job that uses the DynamicFrame extension"
+      ],
+      "correctAnswer": ["Run a Glue job that uses the DynamicFrame extension"]
+    }
+  },
+  {
+    "id": "32",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Collection",
+      "questionType": "multiple choice 1",
+      "question": "You work as a data scientist for a rideshare company. Rideshare request data is collected in one of the company’s S3 buckets (inbound bucket). This data needs to be processed (transformed) very quickly, within seconds of being put onto the S3 bucket. Once transformed, the rideshare request data must be put into another S3 bucket (transformed bucket) where it will be processed to link rideshare drivers with rideshare requesters. You have already written Spark jobs to do the transformation. You need to control costs and minimize data latency for the rideshare request transformation operationalization of your data collection system. Which option best meets your requirements?",
+      "answers": [
+        "Lambda function triggered when the rideshare data request is put onto the inbound S3 bucket. Lambda sends an SNS topic to an SQS queue. Another Lambda function polls the queue every minute and when it finds a message it launches an EMR cluster and submits a Spark job to process the request.",
+        "Lambda function triggered when the rideshare data request is put onto the inbound S3 bucket. The Lambda function passes the request data to a Spark job in Glue.",
+        "Lambda function triggered when the rideshare data request is put onto the inbound S3 bucket. The Lambda function launches an EMR cluster and submits the job using the EMR Steps API to process the request.",
+        "Build an EMR cluster that runs Apache Livy. Lambda function triggered when the rideshare data request is put onto the inbound S3 bucket. The Lambda function passes the request data to a Spark job on the EMR cluster."
+      ],
+      "correctAnswer": ["Build an EMR cluster that runs Apache Livy. Lambda function triggered when the rideshare data request is put onto the inbound S3 bucket. The Lambda function passes the request data to a Spark job on the EMR cluster."]
+    }
+  },
+  {
+    "id": "33",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Analysis and Visualization",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working on a preventative health research project using the Global Health Observatory data repository. This repository contains the Body Mass Index (BMI) dataset which is based on several thousand observations from around the globe from 1975 to 2016. You need to analyze this dataset using QuickSite. One of the visuals you’ve been asked to create is to show the prevalence of thinness by country across the globe from 1975 to 2016 at 5-year increments. What is the best visual type to use to display this data?",
+      "answers": [
+        "Geospatial chart",
+        "Bubble chart",
+        "Heat map",
+        "Tree map"
+      ],
+      "correctAnswer": ["Geospatial chart"]
+    }
+  },
+  {
+    "id": "34",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Analysis and Visualization",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for the Fédération Internationale de Football Association (FIFA). Your management team has asked you to select the appropriate data analysis solution to analyze streaming football data in near real-time. You need to use this data to build interactive results through graphics and interactive charts for the FIFA management team. The football streaming events are based on time series that are unordered and may frequently be duplicated. You also need to transform the football data before you store it.  You’ve been instructed to focus on providing high quality functionality based on fast data access. Which solution best fits your needs?",
+      "answers": [
+        "Kinesis data firehose -> ORC files -> S3 -> Athena",
+        "Kinesis data firehose -> Lambda -> Elasticsearch Cluster -> Kibana",
+        "Kinesis data firehose -> RDS -> QuickSight",
+        "Kinesis Data Streams -> parquet files -> S3 -> Redshift Spectrum"
+      ],
+      "correctAnswer": ["Kinesis data firehose -> Lambda -> Elasticsearch Cluster -> Kibana"]
+    }
+  },
+  {
+    "id": "35",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a large bank where you are building out an EMR cluster for their customer information data lake. Due to the Personally Identifiable Information (PII) stored in the data lake, you need to lock down all environments (dev, engineering, test, perf, prod) to make sure only the appropriate users and user groups have access to the data lake.To accomplish this goal you have created this IAM policy and attached it to your users and user groups who will be working with your EMR cluster: policy with an Effect of Allow for all elasticmapreduce actions with a Condition of StringEquals ResourceTag/department of dev and eng. How does this policy protect your EMR cluster that contains the company’s customer PII data?",
+      "answers": [
+        "It prevents users from performing the actions listed in the Action part of the Statement",
+        "It allows users to perform only the actions listed in the Action part of the Statement",
+        "It only allows users to perform the actions listed in the Action part of the Statement if the EMR cluster they are attempting to access is tagged as department of dev or eng",
+        "It only allows users to perform the actions listed in the Action part of the Statement if the EMR cluster they are attempting to access is NOT tagged as department of dev or eng"
+      ],
+      "correctAnswer": ["It only allows users to perform the actions listed in the Action part of the Statement if the EMR cluster they are attempting to access is tagged as department of dev or eng"]
+    }
+  },
+  {
+    "id": "36",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 2",
+      "question": "You are a data scientist working for a financial services firm where you are building out an EMR cluster used to house the data lake used for your company’s proprietary machine learning models that predict market movement in global markets. The data in this data lake is considered to be a fundamental part of the company’s knowledge capital so it can only be accessed by users in the Quantitative Equity Group defined within IAM. You need to lock down all environments (dev, engineering, test, perf, prod) to make sure only the users in the Quantitative Equity Group have access to the data lake.To accomplish this goal you have created this IAM policy and attached it to your users in the Quantitative Equity Group IAM group who will be working with your confidential EMR cluster:  policy with an Effect of Allow for all elasticmapreduce actions with a Condition of StringEquals ResourceTag/department of dev, eng, test, perf, prod. You then created this policy and attached it to all users to further lockdown the EMR cluster environments: policy with Effect of Deny of AddTags and RemoveTags actions with a Condition of StringEquals ResourceTag/department of dev, eng, test, perf, prod. What further protection does this policy give you (SELECT TWO)?",
+      "answers": [
+        "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving themselves access to the EMR cluster by adding a tag to the cluster that their user profile allows",
+        "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving anyone access to the EMR cluster by adding tags to the cluster, opening up access to any user",
+        "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving themselves access to the EMR cluster by removing the tags on the cluster, opening up access to any user even if they aren’t in the Quantitative Equity Group IAM group",
+        "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving themselves access to the EMR cluster by removing a tag on the cluster, opening up access to any user who is allowed to act on resources with that tag",
+        "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from creating a new EMR cluster by cloning the Quantitative Equity Group owned cluster into the new cluster"
+      ],
+      "correctAnswer": ["It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving themselves access to the EMR cluster by adding a tag to the cluster that their user profile allows",
+      "It prevents users from adding or removing tags on an EMR cluster that is tagged with the department of dev, eng, test, perf, or prod. This prevents users from giving themselves access to the EMR cluster by removing the tags on the cluster, opening up access to any user even if they aren’t in the Quantitative Equity Group IAM group"]
+    }
+  },
+  {
+    "id": "37",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a medical services firm where you are building out an EMR cluster used to house the data lake used for your company’s client healthcare protected health information (PHI) data. The storage of this type of data is highly regulated through the Health Insurance Portability and Accountability Act (HIPAA). Specifically, HIPAA requires that  healthcare companies, like your company, encrypt their client’s PHI data using encryption technology.You have set up your EMR cluster to use the default of using the EMRFS to read and write your client’s PHI data to and from S3. You need to encrypt your client’s PHI data before you send it to S3.Which option is the best encryption technique to use for your EMR cluster configuration?",
+      "answers": [
+        "SSE-S3",
+        "SSE-KMS",
+        "CSE-KMS",
+        "SSE-C"
+      ],
+      "correctAnswer": ["CSE-KMS"]
+    }
+  },
+  {
+    "id": "38",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a retail clothing manufacturer that has a large online presence through their retail website. The website gathers Personally Identifiable Information (PII), such as credit card numbers, when customers complete their purchases on the website. Therefore, your company must adhere to the Payment Card Industry Data Security Standard (PCI DSS). Your company wishes to store the client data and purchase information data gathered through these transactions in their data warehouse, running on Redshift, where they intend to build Key Performance Indicator (KPI) dashboards using QuickSight. You and your security department know that your data collection system needs to obfuscate the PII (credit card) data, gathered through your data collection system. How should you protect the highly sensitive credit card data in order to meet the PCI DSS requirements while keeping your data collection system as efficient and cost effective as possible?",
+      "answers": [
+        "AWS Shield Advanced for website traffic",
+        "AWS WAF for website traffic",
+        "Tokenization PII data",
+        "Use GuardDuty for website traffic",
+        "KMS encryption in transit and at rest"
+      ],
+      "correctAnswer": ["Tokenization PII data"]
+    }
+  },
+  {
+    "id": "39",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a sports gambling company that produces sports betting data for inclusion in mainstream sports websites. Your company’s data is proprietary and needs to be protected for copyright purposes. You have been tasked with creating a data lake on S3 and also loading a relational database that stores your sports data. Any parameters (such as database connection information) used when building analytics applications used to access the data lake and/or database need to be stored in a secure service that encrypts the parameters. Your management team also has the requirement that parameters like database connection information be rotated automatically. What AWS service should you use to protect the media content and metadata?",
+      "answers": [
+        "AWS IAM",
+        "AWS Systems Manager Parameter Store",
+        "KMS encryption",
+        "AWS Secrets Manager"
+      ],
+      "correctAnswer": ["AWS Secrets Manager"]
+    }
+  },
+  {
+    "id": "40",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Security",
+      "questionType": "multiple choice 1",
+      "question": "You are a data scientist working for a healthcare company that needs to comply with Health Insurance Portability and Accountability Act (HIPAA) regulations. Your company needs to take all of their patient’s data, including test diagnostic data, wearable sensor data, diagnostic data from all doctor visits, etc. and store it in a data lake. They then want to use Athena and other Business Intelligence (BI) tools to query the patient data to enable their healthcare providers to give optimal service to their patients. In order to apply the appropriate data governance and compliance controls, what AWS service(s) will allow you to provide the appropriate (HIPAA) reports? Also, what AWS service(s) will allow you to monitor changes to your data lake S3 bucket ACLs and bucket policies to scan for public read/write access violations?",
+      "answers": [
+        "CloudTrail to gather the data for the Business Associate Addendum (BAA) HIPAA compliance report. Use custom rules in AWS Config to track and report on S3 ACL and/or bucket policy changes that violate your security policies.",
+        "CloudWatch to gather the data for the Business Associate Addendum (BAA) HIPAA compliance report. Use custom rules in AWS Resource Access Manager to track and report on S3 ACL and/or bucket policy changes that violate your security policies.",
+        "AWS Artifact to retrieve the Business Associate Addendum (BAA) HIPAA compliance report. Use custom rules in AWS Config to track and report on S3 ACL and/or bucket policy changes that violate your security policies.",
+        "AWS Artifact to retrieve the Business Associate Addendum (BAA) HIPAA compliance report. Use custom rules in AWS Resource Access Manager to track and report on S3 ACL and/or bucket policy changes that violate your security policies."
+      ],
+      "correctAnswer": ["AWS Artifact to retrieve the Business Associate Addendum (BAA) HIPAA compliance report. Use custom rules in AWS Config to track and report on S3 ACL and/or bucket policy changes that violate your security policies."]
+    }
   }
 ]
