@@ -1,0 +1,18 @@
+[
+  {
+    "id": "109",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "41. A company has developed several AWS Glue jobs to validate and transform its data from Amazon S3 and load it into Amazon RDS for MySQL in batches once every day. The ETL jobs read the S3 data using a DynamicFrame. Currently, the ETL developers are experiencing challenges in processing only the incremental data on every run, as the AWS Glue job processes all the S3 input data on each run.Which approach would allow the developers to solve the issue with minimal coding effort?",
+      "answers": [
+        "Have the ETL jobs read the data from Amazon S3 using a DataFrame.",
+        "Enable job bookmarks on the AWS Glue jobs.",
+        "Create custom logic on the ETL jobs to track the processed S3 objects.",
+        "Have the ETL jobs delete the processed objects or data from Amazon S3 after each run."
+      ],
+      "correctAnswer": ["Enable job bookmarks on the AWS Glue jobs."]
+    }
+  }
+]

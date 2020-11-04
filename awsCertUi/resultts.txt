@@ -1,0 +1,31 @@
+{
+    "Items": [
+        {
+            "id": {
+                "S": "4OfAxG62DwQIy6M9e0JhP2jQgDLWYia6"
+            },
+            "info": {
+                "M": {
+                    "question": {
+                        "S": "A Machine Learning Specialist at a company sensitive to security is preparing a dataset for model training. The dataset is stored in Amazon S3 and contains\nPersonally Identifiable Information (PII). The dataset: Must be accessible from a VPC only. Must not traverse the public internet. How can these requirements be satisfied?"
+                    }
+                }
+            }
+        },
+        {
+            "id": {
+                "S": "HZ2rjtbpZIy5L7mm5xCdp6N81Xjthw9u"
+            },
+            "info": {
+                "M": {
+                    "question": {
+                        "S": "15. A Machine Learning Specialist at a company sensitive to security is preparing a dataset for model training. The dataset is stored in Amazon S3 and contains\nPersonally Identifiable Information (PII). The dataset: Must be accessible from a VPC only. Must not traverse the public internet. How can these requirements be satisfied?"
+                    }
+                }
+            }
+        }
+    ],
+    "Count": 2,
+    "ScannedCount": 1098,
+    "ConsumedCapacity": null
+}

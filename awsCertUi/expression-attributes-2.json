@@ -1,0 +1,4 @@
+{
+  ":v1": {"S": "A manufacturer has deployed an array of 50,000 sensors throughout its plant to predict failures in components. Data scientists have built a long short-term memory (LSTM) model in Gluon and are training it using the Amazon SageMaker Python API. The data scientists are training the model using a time series with 10 million examples. Training is currently taking 100 hours and data scientists are attempting to speed it up by using multiple GPUs. However, when they modified the code to use 8 GPUs, it is running slightly slower than on 1 GPU. The current hyperparameter settings are: Batch Size: 128; C;lip gradient: 10; Autoregressive window: 160; Learning rate: 0.01; Epochs: 80. Which of the following changes together are recommended to speed up training on 8 GPUs while maintaining test accuracy? (Select TWO)"}
+
+}
