@@ -5,14 +5,494 @@
     "info": {
       "subcategory": "DA Simulated Exam Questions",
       "questionType": "multiple choice 1",
-      "question": "41. A company has developed several AWS Glue jobs to validate and transform its data from Amazon S3 and load it into Amazon RDS for MySQL in batches once every day. The ETL jobs read the S3 data using a DynamicFrame. Currently, the ETL developers are experiencing challenges in processing only the incremental data on every run, as the AWS Glue job processes all the S3 input data on each run.Which approach would allow the developers to solve the issue with minimal coding effort?",
+      "question": "41. A mortgage company has a microservice for accepting payments. This microservice uses the Amazon DynamoDB encryption client with AWS KMS managed keys to encrypt the sensitive data before writing the data to DynamoDB. The finance team should be able to load this data into Amazon Redshift and aggregate the values within the sensitive fields. The Amazon Redshift cluster is shared with other data analysts from different business units.Which steps should a data analyst take to accomplish this task efficiently and securely?",
       "answers": [
-        "Have the ETL jobs read the data from Amazon S3 using a DataFrame.",
-        "Enable job bookmarks on the AWS Glue jobs.",
-        "Create custom logic on the ETL jobs to track the processed S3 objects.",
-        "Have the ETL jobs delete the processed objects or data from Amazon S3 after each run."
+        "Create an AWS Lambda function to process the DynamoDB stream. Decrypt the sensitive data using the same KMS key. Save the output to a restricted S3 bucket for the finance team. Create a finance table in Amazon Redshift that is accessible to the finance team only. Use the COPY command to load the data from Amazon S3 to the finance table.",
+        "Create an AWS Lambda function to process the DynamoDB stream. Save the output to a restricted S3 bucket for the finance team. Create a finance table in Amazon Redshift that is accessible to the finance team only. Use the COPY command with the IAM role that has access to the KMS key to load the data from S3 to the finance table.",
+        "Create an Amazon EMR cluster with an EMR_EC2_DefaultRole role that has access to the KMS key. Create Apache Hive tables that reference the data stored in DynamoDB and the finance table in Amazon Redshift. In Hive, select the data from DynamoDB and then insert the output to the finance table in Amazon Redshift.",
+        "Create an Amazon EMR cluster. Create Apache Hive tables that reference the data stored in DynamoDB. Insert the output to the restricted Amazon S3 bucket for the finance team. Use the COPY command with the IAM role that has access to the KMS key to load the data from Amazon S3 to the finance table in Amazon Redshift."
       ],
-      "correctAnswer": ["Enable job bookmarks on the AWS Glue jobs."]
+      "correctAnswer": ["Create an AWS Lambda function to process the DynamoDB stream. Save the output to a restricted S3 bucket for the finance team. Create a finance table in Amazon Redshift that is accessible to the finance team only. Use the COPY command with the IAM role that has access to the KMS key to load the data from S3 to the finance table."]
+    }
+  },
+  {
+    "id": "110",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "42. A company is building a data lake and needs to ingest data from a relational database that has time-series data. The company wants to use managed services to accomplish this. The process needs to be scheduled daily and bring incremental data only from the source into Amazon S3.What is the MOST cost-effective approach to meet these requirements?",
+      "answers": [
+        "Use AWS Glue to connect to the data source using JDBC Drivers. Ingest incremental records only using job bookmarks.",
+        "Use AWS Glue to connect to the data source using JDBC Drivers. Store the last updated key in an Amazon DynamoDB table and ingest the data using the updated key as a filter.",
+        "Use AWS Glue to connect to the data source using JDBC Drivers and ingest the entire dataset. Use appropriate Apache Spark libraries to compare the dataset, and find the delta.",
+        "Use AWS Glue to connect to the data source using JDBC Drivers and ingest the full data. Use AWS DataSync to ensure the delta only is written into Amazon S3."
+      ],
+      "correctAnswer": ["Use AWS Glue to connect to the data source using JDBC Drivers. Ingest incremental records only using job bookmarks."]
+    }
+  },
+  {
+    "id": "111",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "43. An Amazon Redshift database contains sensitive user data. Logging is necessary to meet compliance requirements. The logs must contain database authentication attempts, connections, and disconnections. The logs must also contain each query run against the database and record which database user ran each query.Which steps will create the required logs?",
+      "answers": [
+        "Enable Amazon Redshift Enhanced VPC Routing. Enable VPC Flow Logs to monitor traffic.",
+        "Allow access to the Amazon Redshift database using AWS IAM only. Log access using AWS CloudTrail.",
+        "Enable audit logging for Amazon Redshift using the AWS Management Console or the AWS CLI.",
+        "Enable and download audit reports from AWS Artifact."
+      ],
+      "correctAnswer": ["Enable audit logging for Amazon Redshift using the AWS Management Console or the AWS CLI."]
+    }
+  },
+  {
+    "id": "112",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "44. A company that monitors weather conditions from remote construction sites is setting up a solution to collect temperature data from the following two weather stations. - Station A, which has 10 sensors - Station B, which has five sensors. These weather stations were placed by onsite subject-matter experts.Each sensor has a unique ID. The data collected from each sensor will be collected using Amazon Kinesis Data Streams.Based on the total incoming and outgoing data throughput, a single Amazon Kinesis data stream with two shards is created. Two partition keys are created based on the station names. During testing, there is a bottleneck on data coming from Station A, but not from Station B. Upon review, it is confirmed that the total stream throughput is still less than the allocated Kinesis Data Streams throughput.How can this bottleneck be resolved without increasing the overall cost and complexity of the solution, while retaining the data collection quality requirements?",
+      "answers": [
+        "Increase the number of shards in Kinesis Data Streams to increase the level of parallelism.",
+        "Create a separate Kinesis data stream for Station A with two shards, and stream Station A sensor data to the new stream.",
+        "Modify the partition key to use the sensor ID instead of the station name.",
+        "Reduce the number of sensors in Station A from 10 to 5 sensors."
+      ],
+      "correctAnswer": ["Modify the partition key to use the sensor ID instead of the station name."]
+    }
+  },
+  {
+    "id": "113",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "45. Once a month, a company receives a 100 MB .csv file compressed with gzip. The file contains 50,000 property listing records and is stored in Amazon S3 Glacier.The company needs its data analyst to query a subset of the data for a specific vendor.What is the most cost-effective solution?",
+      "answers": [
+        "Load the data into Amazon S3 and query it with Amazon S3 Select.",
+        "Query the data from Amazon S3 Glacier directly with Amazon Glacier Select.",
+        "Load the data to Amazon S3 and query it with Amazon Athena.",
+        "Load the data to Amazon S3 and query it with Amazon Redshift Spectrum."
+      ],
+      "correctAnswer": ["Load the data into Amazon S3 and query it with Amazon S3 Select."]
+    }
+  },
+  {
+    "id": "114",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "46. A retail company is building its data warehouse solution using Amazon Redshift. As a part of that effort, the company is loading hundreds of files into the fact table created in its Amazon Redshift cluster. The company wants the solution to achieve the highest throughput and optimally use cluster resources when loading data into the company's fact table.How should the company meet these requirements?",
+      "answers": [
+        "Use multiple COPY commands to load the data into the Amazon Redshift cluster.",
+        "Use S3DistCp to load multiple files into the Hadoop Distributed File System (HDFS) and use an HDFS connector to ingest the data into the Amazon Redshift cluster.",
+        "Use LOAD commands equal to the number of Amazon Redshift cluster nodes and load the data in parallel into each node.",
+        "Use a single COPY command to load the data into the Amazon Redshift cluster."
+      ],
+      "correctAnswer": ["Use a single COPY command to load the data into the Amazon Redshift cluster."]
+    }
+  },
+  {
+    "id": "115",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "47. A data analyst is designing a solution to interactively query datasets with SQL using a JDBC connection. Users will join data stored in Amazon S3 in Apache ORC format with data stored in Amazon Elasticsearch Service (Amazon ES) and Amazon Aurora MySQL.Which solution will provide the MOST up-to-date results?",
+      "answers": [
+        "Use AWS Glue jobs to ETL data from Amazon ES and Aurora MySQL to Amazon S3. Query the data with Amazon Athena.",
+        "Use Amazon DMS to stream data from Amazon ES and Aurora MySQL to Amazon Redshift. Query the data with Amazon Redshift.",
+        "Query all the datasets in place with Apache Spark SQL running on an AWS Glue developer endpoint.",
+        "Query all the datasets in place with Apache Presto running on Amazon EMR."
+      ],
+      "correctAnswer": ["Query all the datasets in place with Apache Presto running on Amazon EMR."]
+    }
+  },
+  {
+    "id": "116",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "48. A company developed a new elections reporting website that uses Amazon Kinesis Data Firehose to deliver full logs from AWS WAF to an Amazon S3 bucket.The company is now seeking a low-cost option to perform this infrequent data analysis with visualizations of logs in a way that requires minimal development effort.Which solution meets these requirements?",
+      "answers": [
+        "Use an AWS Glue crawler to create and update a table in the Glue data catalog from the logs. Use Athena to perform ad-hoc analyses and use Amazon QuickSight to develop data visualizations.",
+        "Create a second Kinesis Data Firehose delivery stream to deliver the log files to Amazon Elasticsearch Service (Amazon ES). Use Amazon ES to perform text- based searches of the logs for ad-hoc analyses and use Kibana for data visualizations.",
+        "Create an AWS Lambda function to convert the logs into .csv format. Then add the function to the Kinesis Data Firehose transformation configuration. Use Amazon Redshift to perform ad-hoc analyses of the logs using SQL queries and use Amazon QuickSight to develop data visualizations.",
+        "Create an Amazon EMR cluster and use Amazon S3 as the data source. Create an Apache Spark job to perform ad-hoc analyses and use Amazon QuickSight to develop data visualizations."
+      ],
+      "correctAnswer": ["Use an AWS Glue crawler to create and update a table in the Glue data catalog from the logs. Use Athena to perform ad-hoc analyses and use Amazon QuickSight to develop data visualizations."]
+    }
+  },
+  {
+    "id": "117",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "49. A large company has a central data lake to run analytics across different departments. Each department uses a separate AWS account and stores its data in anAmazon S3 bucket in that account. Each AWS account uses the AWS Glue Data Catalog as its data catalog. There are different data lake access requirements based on roles. Associate analysts should only have read access to their departmental data. Senior data analysts can have access in multiple departments including theirs, but for a subset of columns only.Which solution achieves these required access patterns to minimize costs and administrative tasks?",
+      "answers": [
+        "Consolidate all AWS accounts into one account. Create different S3 buckets for each department and move all the data from every account to the central data lake account. Migrate the individual data catalogs into a central data catalog and apply fine-grained permissions to give to each user the required access to tables and databases in AWS Glue and Amazon S3.",
+        "Keep the account structure and the individual AWS Glue catalogs on each account. Add a central data lake account and use AWS Glue to catalog data from various accounts. Configure cross-account access for AWS Glue crawlers to scan the data in each departmental S3 bucket to identify the schema and populate the catalog. Add the senior data analysts into the central account and apply highly detailed access controls in the Data Catalog and Amazon S3.",
+        "Set up an individual AWS account for the central data lake. Use AWS Lake Formation to catalog the cross-account locations. On each individual S3 bucket, modify the bucket policy to grant S3 permissions to the Lake Formation service-linked role. Use Lake Formation permissions to add fine-grained access controls to allow senior analysts to view specific tables and columns.",
+        "Set up an individual AWS account for the central data lake and configure a central S3 bucket. Use an AWS Lake Formation blueprint to move the data from the various buckets into the central S3 bucket. On each individual bucket, modify the bucket policy to grant S3 permissions to the Lake Formation service-linked role. Use Lake Formation permissions to add fine-grained access controls for both associate and senior analysts to view specific tables and columns."
+      ],
+      "correctAnswer": ["Set up an individual AWS account for the central data lake. Use AWS Lake Formation to catalog the cross-account locations. On each individual S3 bucket, modify the bucket policy to grant S3 permissions to the Lake Formation service-linked role. Use Lake Formation permissions to add fine-grained access controls to allow senior analysts to view specific tables and columns."]
+    }
+  },
+  {
+    "id": "118",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "50. A company wants to improve user satisfaction for its smart home system by adding more features to its recommendation engine. Each sensor asynchronously pushes its nested JSON data into Amazon Kinesis Data Streams using the Kinesis Producer Library (KPL) in Java. Statistics from a set of failed sensors showed that, when a sensor is malfunctioning, its recorded data is not always sent to the cloud.The company needs a solution that offers near-real-time analytics on the data from the most updated sensors.Which solution enables the company to meet these requirements?",
+      "answers": [
+        "Set the RecordMaxBufferedTime property of the KPL to \"-1\" to disable the buffering on the sensor side. Use Kinesis Data Analytics to enrich the data based on a company-developed anomaly detection SQL script. Push the enriched data to a fleet of Kinesis data streams and enable the data transformation feature to flatten the JSON file. Instantiate a dense storage Amazon Redshift cluster and use it as the destination for the Kinesis Data Firehose delivery stream.",
+        "Update the sensors code to use the PutRecord/PutRecords call from the Kinesis Data Streams API with the AWS SDK for Java. Use Kinesis Data Analytics to enrich the data based on a company-developed anomaly detection SQL script. Direct the output of KDA application to a Kinesis Data Firehose delivery stream, enable the data transformation feature to flatten the JSON file, and set the Kinesis Data Firehose destination to an Amazon Elasticsearch Service cluster.",
+        "Set the RecordMaxBufferedTime property of the KPL to \"0\" to disable the buffering on the sensor side. Connect for each stream a dedicated Kinesis Data Firehose delivery stream and enable the data transformation feature to flatten the JSON file before sending it to an Amazon S3 bucket. Load the S3 data into an Amazon Redshift cluster.",
+        "Update the sensors code to use the PutRecord/PutRecords call from the Kinesis Data Streams API with the AWS SDK for Java. Use AWS Glue to fetch and process data from the stream using the Kinesis Client Library (KCL). Instantiate an Amazon Elasticsearch Service cluster and use AWS Lambda to directly push data into it."
+      ],
+      "correctAnswer": ["Update the sensors code to use the PutRecord/PutRecords call from the Kinesis Data Streams API with the AWS SDK for Java. Use Kinesis Data Analytics to enrich the data based on a company-developed anomaly detection SQL script. Direct the output of KDA application to a Kinesis Data Firehose delivery stream, enable the data transformation feature to flatten the JSON file, and set the Kinesis Data Firehose destination to an Amazon Elasticsearch Service cluster."]
+    }
+  },
+  {
+    "id": "119",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "51. A global company has different sub-organizations, and each sub-organization sells its products and services in various countries. The company's senior leadership wants to quickly identify which sub-organization is the strongest performer in each country. All sales data is stored in Amazon S3 in Parquet format.Which approach can provide the visuals that senior leadership requested with the least amount of effort?",
+      "answers": [
+        "Use Amazon QuickSight with Amazon Athena as the data source. Use heat maps as the visual type.",
+        "Use Amazon QuickSight with Amazon S3 as the data source. Use heat maps as the visual type.",
+        "Use Amazon QuickSight with Amazon Athena as the data source. Use pivot tables as the visual type.",
+        "Use Amazon QuickSight with Amazon S3 as the data source. Use pivot tables as the visual type."
+      ],
+      "correctAnswer": ["Use Amazon QuickSight with Amazon Athena as the data source. Use heat maps as the visual type."]
+    }
+  },
+  {
+    "id": "120",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "52. A company has 1 million scanned documents stored as image files in Amazon S3. The documents contain typewritten application forms with information including the applicant first name, applicant last name, application date, application type, and application text. The company has developed a machine learning algorithm to extract the metadata values from the scanned documents. The company wants to allow internal data analysts to analyze and find applications using the applicant name, application date, or application text. The original images should also be downloadable. Cost control is secondary to query performance.Which solution organizes the images and metadata to drive insights while meeting the requirements?",
+      "answers": [
+        "For each image, use object tags to add the metadata. Use Amazon S3 Select to retrieve the files based on the applicant name and application date.",
+        "Index the metadata and the Amazon S3 location of the image file in Amazon Elasticsearch Service. Allow the data analysts to use Kibana to submit queries to the Elasticsearch cluster.",
+        "Store the metadata and the Amazon S3 location of the image file in an Amazon Redshift table. Allow the data analysts to run ad-hoc queries on the table.",
+        "Store the metadata and the Amazon S3 location of the image files in an Apache Parquet file in Amazon S3, and define a table in the AWS Glue Data Catalog. Allow data analysts to use Amazon Athena to submit custom queries."
+      ],
+      "correctAnswer": ["Index the metadata and the Amazon S3 location of the image file in Amazon Elasticsearch Service. Allow the data analysts to use Kibana to submit queries to the Elasticsearch cluster."]
+    }
+  },
+  {
+    "id": "121",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "53. A mobile gaming company wants to capture data from its gaming app and make the data available for analysis immediately. The data record size will be approximately 20 KB. The company is concerned about achieving optimal throughput from each device. Additionally, the company wants to develop a data stream processing application with dedicated throughput for each consumer.Which solution would achieve this goal?",
+      "answers": [
+        "Have the app call the PutRecords API to send data to Amazon Kinesis Data Streams. Use the enhanced fan-out feature while consuming the data.",
+        "Have the app call the PutRecordBatch API to send data to Amazon Kinesis Data Firehose. Submit a support case to enable dedicated throughput on the account.",
+        "Have the app use Amazon Kinesis Producer Library (KPL) to send data to Kinesis Data Firehose. Use the enhanced fan-out feature while consuming the data.",
+        "Have the app call the PutRecords API to send data to Amazon Kinesis Data Streams. Host the stream-processing application on Amazon EC2 with Auto Scaling."
+      ],
+      "correctAnswer": ["Have the app call the PutRecords API to send data to Amazon Kinesis Data Streams. Use the enhanced fan-out feature while consuming the data."]
+    }
+  },
+  {
+    "id": "122",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "54. A marketing company wants to improve its reporting and business intelligence capabilities. During the planning phase, the company interviewed the relevant stakeholders, and discovered that: - The operations team reports are run hourly for the current month's data. - The sales team wants to use multiple Amazon QuickSight dashboards to show a rolling view of the last 30 days based on several categories. The sales team also wants to view the data as soon as it reaches the reporting backend. - The finance team's reports are run daily for last month's data and once a month for the last 24 months of data.Currently, there is 400 TB of data in the system with an expected additional 100 TB added every month. The company is looking for a solution that is as cost- effective as possible.Which solution meets the company's requirements?",
+      "answers": [
+        "Store the last 24 months of data in Amazon Redshift. Configure Amazon QuickSight with Amazon Redshift as the data source.",
+        "Store the last 2 months of data in Amazon Redshift and the rest of the months in Amazon S3. Set up an external schema and table for Amazon Redshift Spectrum. Configure Amazon QuickSight with Amazon Redshift as the data source.",
+        "Store the last 24 months of data in Amazon S3 and query it using Amazon Redshift Spectrum. Configure Amazon QuickSight with Amazon Redshift Spectrum as the data source.",
+        "Store the last 2 months of data in Amazon Redshift and the rest of the months in Amazon S3. Use a long-running Amazon EMR with Apache Spark cluster to query the data as needed. Configure Amazon QuickSight with Amazon EMR as the data source."
+      ],
+      "correctAnswer": ["Store the last 2 months of data in Amazon Redshift and the rest of the months in Amazon S3. Set up an external schema and table for Amazon Redshift Spectrum. Configure Amazon QuickSight with Amazon Redshift as the data source."]
+    }
+  },
+  {
+    "id": "123",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "55. A media company wants to perform machine learning and analytics on the data residing in its Amazon S3 data lake. There are two data transformation requirements that will enable the consumers within the company to create reports: - Daily transformations of 300 GB of data with different file formats landing in Amazon S3 at a scheduled time. - One-time transformations of terabytes of archived data residing in the S3 data lake.Which combination of solutions cost-effectively meets the company's requirements for transforming the data? (Choose three.)",
+      "answers": [
+        "For daily incoming data, use AWS Glue crawlers to scan and identify the schema.",
+        "For daily incoming data, use Amazon Athena to scan and identify the schema.",
+        "For daily incoming data, use Amazon Redshift to perform transformations.",
+        "For daily incoming data, use AWS Glue workflows with AWS Glue jobs to perform transformations.",
+        "For archived data, use Amazon EMR to perform data transformations.",
+        "For archived data, use Amazon SageMaker to perform data transformations."
+      ],
+      "correctAnswer": ["For daily incoming data, use AWS Glue crawlers to scan and identify the schema.",
+      "For daily incoming data, use AWS Glue workflows with AWS Glue jobs to perform transformations.",
+      "For archived data, use Amazon EMR to perform data transformations."]
+    }
+  },
+  {
+    "id": "124",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "56. A hospital uses wearable medical sensor devices to collect data from patients. The hospital is architecting a near-real-time solution that can ingest the data securely at scale. The solution should also be able to remove the patient's protected health information (PHI) from the streaming data and store the data in durable storage.Which solution meets these requirements with the least operational overhead?",
+      "answers": [
+        "Ingest the data using Amazon Kinesis Data Streams, which invokes an AWS Lambda function using Kinesis Client Library (KCL) to remove all PHI. Write the data in Amazon S3.",
+        "Ingest the data using Amazon Kinesis Data Firehose to write the data to Amazon S3. Have Amazon S3 trigger an AWS Lambda function that parses the sensor data to remove all PHI in Amazon S3.",
+        "Ingest the data using Amazon Kinesis Data Streams to write the data to Amazon S3. Have the data stream launch an AWS Lambda function that parses the sensor data and removes all PHI in Amazon S3.",
+        "Ingest the data using Amazon Kinesis Data Firehose to write the data to Amazon S3. Implement a transformation AWS Lambda function that parses the sensor data to remove all PHI."
+      ],
+      "correctAnswer": ["Ingest the data using Amazon Kinesis Data Firehose to write the data to Amazon S3. Implement a transformation AWS Lambda function that parses the sensor data to remove all PHI."]
+    }
+  },
+  {
+    "id": "125",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "57. A company is migrating its existing on-premises ETL jobs to Amazon EMR. The code consists of a series of jobs written in Java. The company needs to reduce overhead for the system administrators without changing the underlying code. Due to the sensitivity of the data, compliance requires that the company use root device volume encryption on all nodes in the cluster. Corporate standards require that environments be provisioned though AWS CloudFormation when possible.Which solution satisfies these requirements?",
+      "answers": [
+        "Install open-source Hadoop on Amazon EC2 instances with encrypted root device volumes. Configure the cluster in the CloudFormation template.",
+        "Use a CloudFormation template to launch an EMR cluster. In the configuration section of the cluster, define a bootstrap action to enable TLS.",
+        "Create a custom AMI with encrypted root device volumes. Configure Amazon EMR to use the custom AMI using the CustomAmild property in the CloudFormation template.",
+        "Use a CloudFormation template to launch an EMR cluster. In the configuration section of the cluster, define a bootstrap action to encrypt the root device volume of every node."
+      ],
+      "correctAnswer": ["Create a custom AMI with encrypted root device volumes. Configure Amazon EMR to use the custom AMI using the CustomAmild property in the CloudFormation template."]
+    }
+  },
+  {
+    "id": "126",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "58. A transportation company uses IoT sensors attached to trucks to collect vehicle data for its global delivery fleet. The company currently sends the sensor data in small .csv files to Amazon S3. The files are then loaded into a 10-node Amazon Redshift cluster with two slices per node and queried using both Amazon Athena and Amazon Redshift. The company wants to optimize the files to reduce the cost of querying and also improve the speed of data loading into the AmazonRedshift cluster.Which solution meets these requirements?",
+      "answers": [
+        "Use AWS Glue to convert all the files from .csv to a single large Apache Parquet file. COPY the file into Amazon Redshift and query the file with Athena from Amazon S3.",
+        "Use Amazon EMR to convert each .csv file to Apache Avro. COPY the files into Amazon Redshift and query the file with Athena from Amazon S3.",
+        "Use AWS Glue to convert the files from .csv to a single large Apache ORC file. COPY the file into Amazon Redshift and query the file with Athena from Amazon S3.",
+        "Use AWS Glue to convert the files from .csv to Apache Parquet to create 20 Parquet files. COPY the files into Amazon Redshift and query the files with Athena from Amazon S3."
+      ],
+      "correctAnswer": ["Use AWS Glue to convert the files from .csv to Apache Parquet to create 20 Parquet files. COPY the files into Amazon Redshift and query the files with Athena from Amazon S3."]
+    }
+  },
+  {
+    "id": "127",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "59. An online retail company with millions of users around the globe wants to improve its ecommerce analytics capabilities. Currently, clickstream data is uploaded directly to Amazon S3 as compressed files. Several times each day, an application running on Amazon EC2 processes the data and makes search options and reports available for visualization by editors and marketers. The company wants to make website clicks and aggregated data available to editors and marketers in minutes to enable them to connect with users more effectively.Which options will help meet these requirements in the MOST efficient way? (Choose two.)",
+      "answers": [
+        "Use Amazon Kinesis Data Firehose to upload compressed and batched clickstream records to Amazon Elasticsearch Service.",
+        "Upload clickstream records to Amazon S3 as compressed files. Then use AWS Lambda to send data to Amazon Elasticsearch Service from Amazon S3.",
+        "Use Amazon Elasticsearch Service deployed on Amazon EC2 to aggregate, filter, and process the data. Refresh content performance dashboards in near-real time.",
+        "Use Kibana to aggregate, filter, and visualize the data stored in Amazon Elasticsearch Service. Refresh content performance dashboards in near-real time.",
+        "Upload clickstream records from Amazon S3 to Amazon Kinesis Data Streams and use a Kinesis Data Streams consumer to send records to Amazon Elasticsearch Service."
+      ],
+      "correctAnswer": ["Use Amazon Kinesis Data Firehose to upload compressed and batched clickstream records to Amazon Elasticsearch Service.",
+      "Use Kibana to aggregate, filter, and visualize the data stored in Amazon Elasticsearch Service. Refresh content performance dashboards in near-real time."]
+    }
+  },
+  {
+    "id": "128",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "60. A company is streaming its high-volume billing data (100 MBps) to Amazon Kinesis Data Streams. A data analyst partitioned the data on account_id to ensure that all records belonging to an account go to the same Kinesis shard and order is maintained. While building a custom consumer using the Kinesis Java SDK, the data analyst notices that, sometimes, the messages arrive out of order for account_id. Upon further investigation, the data analyst discovers the messages that are out of order seem to be arriving from different shards for the same account_id and are seen when a stream resize runs.What is an explanation for this behavior and what is the solution?",
+      "answers": [
+        "There are multiple shards in a stream and order needs to be maintained in the shard. The data analyst needs to make sure there is only a single shard in the stream and no stream resize runs.",
+        "The hash key generation process for the records is not working correctly. The data analyst should generate an explicit hash key on the producer side so the records are directed to the appropriate shard accurately.",
+        "The records are not being received by Kinesis Data Streams in order. The producer should use the PutRecords API call instead of the PutRecord API call with the SequenceNumberForOrdering parameter.",
+        "The consumer is not processing the parent shard completely before processing the child shards after a stream resize. The data analyst should process the parent shard completely first before processing the child shards."
+      ],
+      "correctAnswer": ["The consumer is not processing the parent shard completely before processing the child shards after a stream resize. The data analyst should process the parent shard completely first before processing the child shards."]
+    }
+  },
+  {
+    "id": "129",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "61. A media analytics company consumes a stream of social media posts. The posts are sent to an Amazon Kinesis data stream partitioned on user_id. An AWSLambda function retrieves the records and validates the content before loading the posts into an Amazon Elasticsearch cluster. The validation process needs to receive the posts for a given user in the order they were received. A data analyst has noticed that, during peak hours, the social media platform posts take more than an hour to appear in the Elasticsearch cluster.What should the data analyst do reduce this latency?",
+      "answers": [
+        "Migrate the validation process to Amazon Kinesis Data Firehose.",
+        "Migrate the Lambda consumers from standard data stream iterators to an HTTP/2 stream consumer.",
+        "Increase the number of shards in the stream.",
+        "Configure multiple Lambda functions to process the stream."
+      ],
+      "correctAnswer": ["Configure multiple Lambda functions to process the stream."]
+    }
+  },
+  {
+    "id": "130",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "62. A company launched a service that produces millions of messages every day and uses Amazon Kinesis Data Streams as the streaming service.The company uses the Kinesis SDK to write data to Kinesis Data Streams. A few months after launch, a data analyst found that write performance is significantly reduced. The data analyst investigated the metrics and determined that Kinesis is throttling the write requests. The data analyst wants to address this issue without significant changes to the architecture.Which actions should the data analyst take to resolve this issue? (Choose two.)",
+      "answers": [
+        "Increase the Kinesis Data Streams retention period to reduce throttling.",
+        "Replace the Kinesis API-based data ingestion mechanism with Kinesis Agent.",
+        "Increase the number of shards in the stream using the UpdateShardCount API.",
+        "Choose partition keys in a way that results in a uniform record distribution across shards.",
+        "Customize the application code to include retry logic to improve performance."
+      ],
+      "correctAnswer": ["Increase the number of shards in the stream using the UpdateShardCount API.",
+      "Choose partition keys in a way that results in a uniform record distribution across shards."]
+    }
+  },
+  {
+    "id": "131",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "63. A smart home automation company must efficiently ingest and process messages from various connected devices and sensors. The majority of these messages are comprised of a large number of small files. These messages are ingested using Amazon Kinesis Data Streams and sent to Amazon S3 using a Kinesis data stream consumer application. The Amazon S3 message data is then passed through a processing pipeline built on Amazon EMR running scheduled PySpark jobs.The data platform team manages data processing and is concerned about the efficiency and cost of downstream data processing. They want to continue to usePySpark.Which solution improves the efficiency of the data processing jobs and is well architected?",
+      "answers": [
+        "Send the sensor and devices data directly to a Kinesis Data Firehose delivery stream to send the data to Amazon S3 with Apache Parquet record format conversion enabled. Use Amazon EMR running PySpark to process the data in Amazon S3.",
+        "Set up an AWS Lambda function with a Python runtime environment. Process individual Kinesis data stream messages from the connected devices and sensors using Lambda.",
+        "Launch an Amazon Redshift cluster. Copy the collected data from Amazon S3 to Amazon Redshift and move the data processing jobs from Amazon EMR to Amazon Redshift.",
+        "Set up AWS Glue Python jobs to merge the small data files in Amazon S3 into larger files and transform them to Apache Parquet format. Migrate the downstream PySpark jobs from Amazon EMR to AWS Glue."
+      ],
+      "correctAnswer": ["Set up AWS Glue Python jobs to merge the small data files in Amazon S3 into larger files and transform them to Apache Parquet format. Migrate the downstream PySpark jobs from Amazon EMR to AWS Glue."]
+    }
+  },
+  {
+    "id": "132",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "64. A large financial company is running its ETL process. Part of this process is to move data from Amazon S3 into an Amazon Redshift cluster. The company wants to use the most cost-efficient method to load the dataset into Amazon Redshift.Which combination of steps would meet these requirements? (Choose two.)",
+      "answers": [
+        "Use the COPY command with the manifest file to load data into Amazon Redshift.",
+        "Use S3DistCp to load files into Amazon Redshift.",
+        "Use temporary staging tables during the loading process.",
+        "Use the UNLOAD command to upload data into Amazon Redshift.",
+        "Use Amazon Redshift Spectrum to query files from Amazon S3."
+      ],
+      "correctAnswer": ["Use the COPY command with the manifest file to load data into Amazon Redshift.",
+      "Use temporary staging tables during the loading process."]
+    }
+  },
+  {
+    "id": "133",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "65. A university intends to use Amazon Kinesis Data Firehose to collect JSON-formatted batches of water quality readings in Amazon S3. The readings are from 50 sensors scattered across a local lake. Students will query the stored data using Amazon Athena to observe changes in a captured metric over time, such as water temperature or acidity. Interest has grown in the study, prompting the university to reconsider how data will be stored.Which data format and partitioning choices will MOST significantly reduce costs? (Choose two.)",
+      "answers": [
+        "Store the data in Apache Avro format using Snappy compression.",
+        "Partition the data by year, month, and day.",
+        "Store the data in Apache ORC format using no compression.",
+        "Store the data in Apache Parquet format using Snappy compression.",
+        "Partition the data by sensor, year, month, and day."
+      ],
+      "correctAnswer": ["Partition the data by year, month, and day.",
+        "Store the data in Apache Parquet format using Snappy compression."]
+    }
+  },
+  {
+    "id": "134",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q1. A healthcare company uses AWS data and analytics tools to collect, ingest, and store electronic health record (EHR) data about its patients. The raw EHR data is stored in Amazon S3 in JSON format partitioned by hour, day, and year and is updated every hour. The company wants to maintain the data catalog and metadata in an AWS Glue Data Catalog to be able to access the data using Amazon Athena or Amazon Redshift Spectrum for analytics.When defining tables in the Data Catalog, the company has the following requirements: - Choose the catalog table name and do not rely on the catalog table naming algorithm. - Keep the table updated with new partitions loaded in the respective S3 bucket prefixes.Which solution meets these requirements with minimal effort?",
+      "answers": [
+        "Run an AWS Glue crawler that connects to one or more data stores, determines the data structures, and writes tables in the Data Catalog.",
+        "Use the AWS Glue console to manually create a table in the Data Catalog and schedule an AWS Lambda function to update the table partitions hourly.",
+        "Use the AWS Glue API CreateTable operation to create a table in the Data Catalog. Create an AWS Glue crawler and specify the table as the source.",
+        "Create an Apache Hive catalog in Amazon EMR with the table schema definition in Amazon S3, and update the table partition with a scheduled job. Migrate the Hive catalog to the Data Catalog."
+      ],
+      "correctAnswer": ["Use the AWS Glue API CreateTable operation to create a table in the Data Catalog. Create an AWS Glue crawler and specify the table as the source."]
+    }
+  },
+  {
+    "id": "135",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q2. A large university has adopted a strategic goal of increasing diversity among enrolled students. The data analytics team is creating a dashboard with data visualizations to enable stakeholders to view historical trends. All access must be authenticated using Microsoft Active Directory. All data in transit and at rest must be encrypted.Which solution meets these requirements?",
+      "answers": [
+        "Amazon QuickSight Standard edition configured to perform identity federation using SAML 2.0. and the default encryption settings.",
+        "Amazon QuickSight Enterprise edition configured to perform identity federation using SAML 2.0 and the default encryption settings.",
+        "Amazon QuckSight Standard edition using AD Connector to authenticate using Active Directory. Configure Amazon QuickSight to use customer-provided keys imported into AWS KMS.",
+        "Amazon QuickSight Enterprise edition using AD Connector to authenticate using Active Directory. Configure Amazon QuickSight to use customer-provided keys imported into AWS KMS."
+      ],
+      "correctAnswer": ["Amazon QuickSight Enterprise edition configured to perform identity federation using SAML 2.0 and the default encryption settings."]
+    }
+  },
+  {
+    "id": "136",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 3",
+      "question": "2-Q3. An airline has been collecting metrics on flight activities for analytics. A recently completed proof of concept demonstrates how the company provides insights to data analysts to improve on-time departures. The proof of concept used objects in Amazon S3, which contained the metrics in .csv format, and used AmazonAthena for querying the data. As the amount of data increases, the data analyst wants to optimize the storage solution to improve query performance.Which options should the data analyst use to improve performance as the data lake grows? (Choose three.)",
+      "answers": [
+        "Add a randomized string to the beginning of the keys in S3 to get more throughput across partitions.",
+        "Use an S3 bucket in the same account as Athena.",
+        "Compress the objects to reduce the data transfer I/O.",
+        "Use an S3 bucket in the same Region as Athena.",
+        "Preprocess the .csv data to JSON to reduce I/O by fetching only the document keys needed by the query.",
+        "Preprocess the .csv data to Apache Parquet to reduce I/O by fetching only the data blocks needed for predicates."
+      ],
+      "correctAnswer": ["Compress the objects to reduce the data transfer I/O.",
+      "Use an S3 bucket in the same Region as Athena.",
+      "Preprocess the .csv data to Apache Parquet to reduce I/O by fetching only the data blocks needed for predicates."]
+    }
+  },
+  {
+    "id": "137",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q4. A company uses the Amazon Kinesis SDK to write data to Kinesis Data Streams. Compliance requirements state that the data must be encrypted at rest using a key that can be rotated. The company wants to meet this encryption requirement with minimal coding effort.How can these requirements be met?",
+      "answers": [
+        "Create a customer master key (CMK) in AWS KMS. Assign the CMK an alias. Use the AWS Encryption SDK, providing it with the key alias to encrypt and decrypt the data.",
+        "Create a customer master key (CMK) in AWS KMS. Assign the CMK an alias. Enable server-side encryption on the Kinesis data stream using the CMK alias as the KMS master key.",
+        "Create a customer master key (CMK) in AWS KMS. Create an AWS Lambda function to encrypt and decrypt the data. Set the KMS key ID in the function's environment variables.",
+        "Enable server-side encryption on the Kinesis data stream using the default KMS key for Kinesis Data Streams."
+      ],
+      "correctAnswer": ["Create a customer master key (CMK) in AWS KMS. Assign the CMK an alias. Enable server-side encryption on the Kinesis data stream using the CMK alias as the KMS master key."]
+    }
+  },
+  {
+    "id": "138",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q5. A company wants to enrich application logs in near-real-time and use the enriched dataset for further analysis. The application is running on Amazon EC2 instances across multiple Availability Zones and storing its logs using Amazon CloudWatch Logs. The enrichment source is stored in an Amazon DynamoDB table.Which solution meets the requirements for the event collection and enrichment?",
+      "answers": [
+        "Use a CloudWatch Logs subscription to send the data to Amazon Kinesis Data Firehose. Use AWS Lambda to transform the data in the Kinesis Data Firehose delivery stream and enrich it with the data in the DynamoDB table. Configure Amazon S3 as the Kinesis Data Firehose delivery destination.",
+        "Export the raw logs to Amazon S3 on an hourly basis using the AWS CLI. Use AWS Glue crawlers to catalog the logs. Set up an AWS Glue connection for the DynamoDB table and set up an AWS Glue ETL job to enrich the data. Store the enriched data in Amazon S3.",
+        "Configure the application to write the logs locally and use Amazon Kinesis Agent to send the data to Amazon Kinesis Data Streams. Configure a Kinesis Data Analytics SQL application with the Kinesis data stream as the source. Join the SQL application input stream with DynamoDB records, and then store the enriched output stream in Amazon S3 using Amazon Kinesis Data Firehose.",
+        "Export the raw logs to Amazon S3 on an hourly basis using the AWS CLI. Use Apache Spark SQL on Amazon EMR to read the logs from Amazon S3 and enrich the records with the data from DynamoDB. Store the enriched data in Amazon S3."
+      ],
+      "correctAnswer": ["Use a CloudWatch Logs subscription to send the data to Amazon Kinesis Data Firehose. Use AWS Lambda to transform the data in the Kinesis Data Firehose delivery stream and enrich it with the data in the DynamoDB table. Configure Amazon S3 as the Kinesis Data Firehose delivery destination."]
     }
   }
 ]
