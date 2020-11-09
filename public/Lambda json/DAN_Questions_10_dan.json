@@ -494,5 +494,55 @@
       ],
       "correctAnswer": ["Use a CloudWatch Logs subscription to send the data to Amazon Kinesis Data Firehose. Use AWS Lambda to transform the data in the Kinesis Data Firehose delivery stream and enrich it with the data in the DynamoDB table. Configure Amazon S3 as the Kinesis Data Firehose delivery destination."]
     }
+  },
+  {
+    "id": "139",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q6. A banking company wants to collect large volumes of transactional data using Amazon Kinesis Data Streams for real-time analytics. The company usesPutRecord to send data to Amazon Kinesis, and has observed network outages during certain times of the day. The company wants to obtain exactly once semantics for the entire processing pipeline.What should the company do to obtain these characteristics?",
+      "answers": [
+        "Design the application so it can remove duplicates during processing be embedding a unique ID in each record.",
+        "Rely on the processing semantics of Amazon Kinesis Data Analytics to avoid duplicate processing of events.",
+        "Design the data producer so events are not ingested into Kinesis Data Streams multiple times.",
+        "Rely on the exactly one processing semantics of Apache Flink and Apache Spark Streaming included in Amazon EMR."
+      ],
+      "correctAnswer": ["Design the application so it can remove duplicates during processing be embedding a unique ID in each record."]
+    }
+  },
+  {
+    "id": "140",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 2",
+      "question": "2-Q7. A marketing company is using Amazon EMR clusters for its workloads. The company manually installs third-party libraries on the clusters by logging in to the master nodes. A data analyst needs to create an automated solution to replace the manual process.Which options can fulfill these requirements? (Choose two.)",
+      "answers": [
+        "Place the required installation scripts in Amazon S3 and execute them using custom bootstrap actions.",
+        "Place the required installation scripts in Amazon S3 and execute them through Apache Spark in Amazon EMR.",
+        "Install the required third-party libraries in the existing EMR master node. Create an AMI out of that master node and use that custom AMI to re-create the EMR cluster.",
+        "Use an Amazon DynamoDB table to store the list of required applications. Trigger an AWS Lambda function with DynamoDB Streams to install the software.",
+        "Launch an Amazon EC2 instance with Amazon Linux and install the required third-party libraries on the instance. Create an AMI and use that AMI to create the EMR cluster."
+      ],
+      "correctAnswer": ["Place the required installation scripts in Amazon S3 and execute them using custom bootstrap actions.",
+      "Launch an Amazon EC2 instance with Amazon Linux and install the required third-party libraries on the instance. Create an AMI and use that AMI to create the EMR cluster."]
+    }
+  },
+  {
+    "id": "141",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "DA Simulated Exam Questions",
+      "questionType": "multiple choice 1",
+      "question": "2-Q8. A company wants to research user turnover by analyzing the past 3 months of user activities. With millions of users, 1.5 TB of uncompressed data is generated each day. A 30-node Amazon Redshift cluster with 2.56 TB of solid state drive (SSD) storage for each node is required to meet the query performance goals.The company wants to run an additional analysis on a year's worth of historical data to examine trends indicating which features are most popular. This analysis will be done once a week.What is the MOST cost-effective solution?",
+      "answers": [
+        "Increase the size of the Amazon Redshift cluster to 120 nodes so it has enough storage capacity to hold 1 year of data. Then use Amazon Redshift for the additional analysis.",
+        "Keep the data from the last 90 days in Amazon Redshift. Move data older than 90 days to Amazon S3 and store it in Apache Parquet format partitioned by date. Then use Amazon Redshift Spectrum for the additional analysis.",
+        "Keep the data from the last 90 days in Amazon Redshift. Move data older than 90 days to Amazon S3 and store it in Apache Parquet format partitioned by date. Then provision a persistent Amazon EMR cluster and use Apache Presto for the additional analysis.",
+        "Resize the cluster node type to the dense storage node type (DS2) for an additional 16 TB storage capacity on each individual node in the Amazon Redshift cluster. Then use Amazon Redshift for the additional analysis."
+      ],
+      "correctAnswer": ["Keep the data from the last 90 days in Amazon Redshift. Move data older than 90 days to Amazon S3 and store it in Apache Parquet format partitioned by date. Then use Amazon Redshift Spectrum for the additional analysis."]
+    }
   }
 ]
