@@ -5,14 +5,14 @@
     "info": {
       "subcategory": "EC2 and VPC",
       "questionType": "multiple choice 1",
-      "question": "A data engineer in a manufacturing company is designing a data processing platform that receives a large volume of unstructured data. The data engineer must populate a well-structured star schema in Amazon Redshift. What is the most efficient architecture strategy for this purpose?",
+      "question": "A solutions architect is designing a high performance computing (HPC) workload on Amazon EC2. The EC2 instances need to communicate to each other frequently and require network performance with low latency and high throughput. Which EC2 configuration meets these requirements?",
       "answers": [
-        "Transform the unstructured data using Amazon EMR and generate CSV data. COPY the CSV data into the analysis schema within Redshift.",
-        "Load the unstructured data into Redshift, and use string parsing functions to extract structured data for inserting into the analysis schema.",
-        "When the data is saved to Amazon S3, use S3 Event Notifications and AWS Lambda to transform the file contents. Insert the data into the analysis schema on Redshift.",
-        "Normalize the data using an AWS Marketplace ETL tool, persist the results to Amazon S3, and use AWS Lambda to INSERT the data into Redshift."
+        "Launch the EC2 instances in a cluster placement group in one Availability Zone.",
+        "Launch the EC2 instances in a spread placement group in one Availability Zone.",
+        "Launch the EC2 instances in an Auto Scaling group in two Regions and peer the VPCs.",
+        "Launch the EC2 instances in an Auto Scaling group spanning multiple Availability Zones."
       ],
-      "correctAnswer": ["Transform the unstructured data using Amazon EMR and generate CSV data. COPY the CSV data into the analysis schema within Redshift."]
+      "correctAnswer": ["Launch the EC2 instances in a cluster placement group in one Availability Zone."]
     }
   }
 ]
