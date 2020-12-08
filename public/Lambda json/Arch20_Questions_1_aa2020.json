@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "EC2 and VPC",
+      "questionType": "multiple choice 1",
+      "question": "A data engineer in a manufacturing company is designing a data processing platform that receives a large volume of unstructured data. The data engineer must populate a well-structured star schema in Amazon Redshift. What is the most efficient architecture strategy for this purpose?",
+      "answers": [
+        "Transform the unstructured data using Amazon EMR and generate CSV data. COPY the CSV data into the analysis schema within Redshift.",
+        "Load the unstructured data into Redshift, and use string parsing functions to extract structured data for inserting into the analysis schema.",
+        "When the data is saved to Amazon S3, use S3 Event Notifications and AWS Lambda to transform the file contents. Insert the data into the analysis schema on Redshift.",
+        "Normalize the data using an AWS Marketplace ETL tool, persist the results to Amazon S3, and use AWS Lambda to INSERT the data into Redshift."
+      ],
+      "correctAnswer": ["Transform the unstructured data using Amazon EMR and generate CSV data. COPY the CSV data into the analysis schema within Redshift."]
+    }
+  }
+]

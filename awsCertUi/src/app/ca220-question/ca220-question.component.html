@@ -40,7 +40,7 @@
       </button>
       <img class="mdCardImg md-card-sm-image transparentProfilePic">
 
-      <span class="textBottom xxLargerFont">AWS Certified Data Analytics Specialist Exam Practice Questions</span>
+      <span class="textBottom xxLargerFont">AWS Certified Architect Associate Exam 2020 Practice Questions</span>
 
       <span class="app-toolbar-filler"></span>
       <!--span class="smallTextBottom"><i class="material-icons md-18 iconBottom">home</i>&nbsp;261 Swedesford Rd., Malvern, PA 19355&nbsp;<a href="tel:484-433-3269" style="color: white"><i class="material-icons md-18 iconBottom">phone_iphone</i>484-433-3269</a>
@@ -50,56 +50,102 @@
     <mat-card class="shadowCard" style="margin-bottom: 1em;margin-top: 1em;">
       <form #QandACategoriesForm="ngForm" class="example-container" (ngSubmit)="submitSubcategories(QandACategoriesForm)" [formGroup]="options">
         <div style="display: inline-block">
-          &nbsp;&nbsp;&nbsp;&nbsp;
           <mat-checkbox
-            name="Collection"
-            value="Collection"
-            (change)="updateSubcategoriesChecked($event, 'Collection')">
+            name="S3"
+            value="S3"
+            (change)="updateSubcategoriesChecked($event, 'S3')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Collection</mat-label>
+          <mat-label style="padding: 0.5em;">S3</mat-label>
           &nbsp;&nbsp;
           <mat-checkbox
-            name="Processing"
-            value="Processing"
-            (change)="updateSubcategoriesChecked($event, 'Processing')">
+            name="EC2 and VPC"
+            value="EC2 and VPC"
+            (change)="updateSubcategoriesChecked($event, 'EC2 and VPC')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Processing</mat-label>
-
+          <mat-label style="padding: 0.5em;">EC2 and VPC</mat-label>
+          &nbsp;&nbsp;
           <mat-checkbox
-            name="Storage and Data Management"
-            value="Storage and Data Management"
-            (change)="updateSubcategoriesChecked($event, 'Storage and Data Management')">
+            name="IAM"
+            value="IAM"
+            (change)="updateSubcategoriesChecked($event, 'IAM')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Storage and Data Management</mat-label>
-
+          <mat-label style="padding: 0.5em;">IAM</mat-label>
+          &nbsp;&nbsp;
           <mat-checkbox
-            name="Analysis and Visualization"
-            value="Analysis and Visualization"
-            (change)="updateSubcategoriesChecked($event, 'Analysis and Visualization')">
+            name="Cloud Foundation"
+            value="Cloud Foundation"
+            (change)="updateSubcategoriesChecked($event, 'Cloud Foundation')">
           </mat-checkbox>
-          <mat-label style="padding: 0.5em;">Analysis and Visualization</mat-label>
-
+          <mat-label style="padding: 0.5em;">Cloud Foundation</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Define AWS Cloud"
+            value="Define AWS Cloud"
+            (change)="updateSubcategoriesChecked($event, 'Define AWS Cloud')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Define AWS Cloud</mat-label>
+          &nbsp;&nbsp;
           <mat-checkbox
             name="Security"
             value="Security"
             (change)="updateSubcategoriesChecked($event, 'Security')">
           </mat-checkbox>
           <mat-label style="padding: 0.5em;">Security</mat-label>
-
-          <mat-checkbox
-            name="DA Exam Practice Questions"
-            value="DA Exam Practice Questions"
-            (change)="updateSubcategoriesChecked($event, 'DA Exam Practice Questions')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">DA Exam Practice Questions</mat-label>
-
-          <mat-checkbox
-            name="DA Simulated Exam Questions"
-            value="DA Simulated Exam Questions"
-            (change)="updateSubcategoriesChecked($event, 'DA Simulated Exam Questions')">
-          </mat-checkbox>
-          <mat-label style="padding: 0.5em;">DA Simulated Exam Questions</mat-label>
           &nbsp;&nbsp;
+          <mat-checkbox
+            name="EC2"
+            value="EC2"
+            (change)="updateSubcategoriesChecked($event, 'EC2')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">EC2</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Lambda"
+            value="Lambda"
+            (change)="updateSubcategoriesChecked($event, 'Lambda')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Lambda</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Route 53"
+            value="Route 53"
+            (change)="updateSubcategoriesChecked($event, 'Route 53')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Route 53</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Databases"
+            value="Databases"
+            (change)="updateSubcategoriesChecked($event, 'Databases')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Databases</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="VPC"
+            value="VPC"
+            (change)="updateSubcategoriesChecked($event, 'VPC')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">VPC</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Application Services"
+            value="Application Services"
+            (change)="updateSubcategoriesChecked($event, 'Application Services')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Application Services</mat-label>
+          &nbsp;&nbsp;
+          <mat-checkbox
+            name="Architecture"
+            value="Architecture"
+            (change)="updateSubcategoriesChecked($event, 'Architecture')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Architecture</mat-label>&nbsp;&nbsp;
+          <mat-checkbox
+            name="Test Example Questions"
+            value="Test Example Questions"
+            (change)="updateSubcategoriesChecked($event, 'Test Example Questions')">
+          </mat-checkbox>
+          <mat-label style="padding: 0.5em;">Test Example Questions</mat-label>
           &nbsp;&nbsp;
           <button mat-button type="submit" color="primary">Submit</button>
         </div>
@@ -132,7 +178,7 @@
               <mat-radio-group layout="row" formControlName="selectedAnswer">
               <span class="displayOnNewLine">
                 <mat-placeholder></mat-placeholder>
-                <mat-radio-button  *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
+                <mat-radio-button ng-style="{'display':'inline-block'}" *ngFor="let answerValue of getAnswers; let i = index" value="{{answerValue}}">
                   <p [ngClass]="{'correctAnswer': correctOrNot[i]}">{{answerValue}}</p>
                 </mat-radio-button>
               </span>

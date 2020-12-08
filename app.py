@@ -3,6 +3,7 @@ import boto3
 import botocore
 import chalicelib.constants
 import chalicelib.ca2Questions
+import chalicelib.ca220Questions
 import chalicelib.questions
 import chalicelib.cdaQuestions
 import chalicelib.cdanQuestions
@@ -16,6 +17,7 @@ app = chalice.Chalice(app_name='awsCert')
 
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
 ca2_table = dynamodb.Table(chalicelib.constants.CA2QUESTIONS_TABLE_NAME)
+ca220_table = dynamodb.Table(chalicelib.constants.CA220QUESTIONS_TABLE_NAME)
 c2p_table = dynamodb.Table(chalicelib.constants.C2PQUESTIONS_TABLE_NAME)
 cda_table = dynamodb.Table(chalicelib.constants.CDAQUESTIONS_TABLE_NAME)
 cml_table = dynamodb.Table(chalicelib.constants.CMLQUESTIONS_TABLE_NAME)
@@ -130,6 +132,36 @@ def get_all_q_and_as_ca2(parameters):
     )
     while 'LastEvaluatedKey' in responses:
         responses = ca2_table.scan(
+            # ProjectionExpression=pe,
+            FilterExpression=fe,
+            # ExpressionAttributeNames=ean,
+            ExclusiveStartKey=responses['LastEvaluatedKey']
+        )
+    items = responses['Items']
+    returned_items = json.dumps(items, separators=(',', ':'))
+    return returned_items
+
+@app.route('/getAllQandAs20Arch/{parameters}', cors=True)
+def get_all_q_and_as_ca220(parameters):
+    # now need to parse parameters and use in fe
+    parameters = unquote(parameters)
+    # print("splitting parameters: " + parameters[0] + ' ' + parameters[1])
+    parsed_parameters = parameters.split(":")
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    # remove last empty list item
+    del parsed_parameters[-1]
+    # print("the parsed parameters " + parsed_parameters[0] + ' ' + parsed_parameters[1])
+    print("parsed_parameters.length " + str(len(parsed_parameters)))
+    # fe = Attr('info.subcategory').is_in(['Application Services', 'EC2', 'Test Example Questions'])
+    fe = Attr('info.subcategory').is_in(parsed_parameters)
+    responses = ca220_table.scan(
+        Select='ALL_ATTRIBUTES',
+        FilterExpression=fe,
+        # ProjectionExpression=pe,
+        # ExpressionAttributeNames=ean
+    )
+    while 'LastEvaluatedKey' in responses:
+        responses = ca220_table.scan(
             # ProjectionExpression=pe,
             FilterExpression=fe,
             # ExpressionAttributeNames=ean,
