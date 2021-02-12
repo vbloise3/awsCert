@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_1_aa2020.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_1_aa2020.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +158,17 @@
       <workItem from="1605392649392" duration="320000" />
       <workItem from="1605535459345" duration="546000" />
       <workItem from="1605619925733" duration="2412000" />
-      <workItem from="1606916606930" duration="21899000" />
+      <workItem from="1606916606930" duration="22241000" />
+      <workItem from="1607807761574" duration="575000" />
+      <workItem from="1608905689524" duration="645000" />
+      <workItem from="1609626650470" duration="502000" />
+      <workItem from="1609683061297" duration="134000" />
+      <workItem from="1610054002797" duration="283000" />
+      <workItem from="1611262447781" duration="587000" />
+      <workItem from="1611623752627" duration="299000" />
+      <workItem from="1612446847085" duration="310000" />
+      <workItem from="1612791315269" duration="235000" />
+      <workItem from="1613137338806" duration="1121000" />
     </task>
     <servers />
   </component>
