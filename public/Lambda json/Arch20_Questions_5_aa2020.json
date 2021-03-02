@@ -1,0 +1,326 @@
+[
+  {
+    "id": "82",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A companys operations teams have an existing Amazon S3 bucket configured to notify an Amazon SQS queue when new object is created within the bucket. The development team also wants to receive events when new objects are created. The existing operations team workflow must remain intact. Which solution would satisfy these requirements?",
+      "answers": [
+        "Create another SQS queue. Update the S3 events in bucket to also update the new queue when a new object is created.",
+        "Create a new SQS queue that only allows Amazon S3 to access the queue. Update Amazon S3 update this queue when a new object is created.",
+        "Create an Amazon SNS topic and SQS queue for the Update. Update the bucket to send events to the new topic. Updates both queues to poll Amazon SNS.",
+        "Create an Amazon SNS topic and SQS queue for the bucket updates. Update the bucket to send events to the new topic Add subscription for both queue in the topic."
+      ],
+      "correctAnswer": ["Create an Amazon SNS topic and SQS queue for the bucket updates. Update the bucket to send events to the new topic Add subscription for both queue in the topic."]
+    }
+  },
+  {
+    "id": "83",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application runs on Amazon EC2 instances in private subnets. The application needs to access an Amazon DynamoDB table. What is the MOST secure way to access the table while ensuring that the traffic does not leave the AWS network? ",
+      "answers": [
+        "Use a VPC endpoint for DynamoDB.",
+        "Use a NAT gateway in a public subnet.",
+        "Use a NAT instance in a private subnet.",
+        "Use the internet gateway attached to the VPC."
+      ],
+      "correctAnswer": ["Use a VPC endpoint for DynamoDB."]
+    }
+  },
+  {
+    "id": "84",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company built an application that lets users check in to places they visit, rank the places, and add reviews about their experiences. The application is successful with a rapid increase in the number of users every month. The chief technology officer fears the database supporting the current Infrastructure may not handle the new load the following month because the single Amazon RDS for MySQL instance has triggered alarms related to resource exhaustion due to read requests. What can a solutions architect recommend to prevent service Interruptions at the database layer with minimal changes to code?",
+      "answers": [
+        "Create RDS read replicas and redirect read-only traffic to the read replica endpoints. Enable a Multi-AZ deployment.",
+        "Create an Amazon EMR cluster and migrate the data to a Hadoop Distributed File System (HDFS) with a replication factor of 3.",
+        "Create an Amazon ElastiCache cluster and redirect all read-only traffic to the cluster. Set up the cluster to be deployed in three Availability Zones.",
+        "Create an Amazon DynamoDB table to replace the RDS instance and redirect all read-only traffic to the DynamoDB table Enable DynamoDB Accelerator to offload traffic from the main table."
+      ],
+      "correctAnswer": ["Create RDS read replicas and redirect read-only traffic to the read replica endpoints. Enable a Multi-AZ deployment."]
+    }
+  },
+  {
+    "id": "85",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is looking for a solution that can store video archives in AWS from old news footage. The company needs to minimize costs and will rarely need to restore these files. When the files are needed, they must be available in a maximum of five minutes. What is the MOST cost-effective solution?",
+      "answers": [
+        "Store the video archives in Amazon S3 Glacier and use Expedited retrievals.",
+        "Store the video archives in Amazon S3 Glacier and use Standard retrievals.",
+        "Store the video archives in Amazon S3 Standard-Infrequent Access (S3 Standard-IA).",
+        "Store the video archives in Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)."
+      ],
+      "correctAnswer": ["Store the video archives in Amazon S3 Glacier and use Expedited retrievals."]
+    }
+  },
+  {
+    "id": "86",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has created a VPC with multiple private subnets in multiple Availability Zones (AZs) and one public subnet in one of the AZs. The public subnet is used to launch a NAT gateway. There is instance in the private subnet that use a NAT gateway to connect to the internet. In case of an AZ failure, the company wants to ensure that the instance is not all experiencing internet connectivity issues and that there is a backup plan ready. Which solution should a solutions architect recommend that is MOST highly available? ",
+      "answers": [
+        "Create a new public subnet with a NAT gateway in the same AZ. Distribute the traffic between the two NAT gateways.",
+        "Create an Amazon EC2 NAT instance in a now public subnet. Distribute the traffic between the NAT gateway and the NAT instance.",
+        "Create public subnets. In each AZ and launch a NAT gateway in each subnet. Configure the traffic from the private subnets in each AZ to the respective NAT gateway.",
+        "Create an Amazon EC2 NAT instance in the same public subnet. Replace the NAT gateway with the NAT instance and associate the instance with an Auto Scaling group with an appropriate scaling policy."
+      ],
+      "correctAnswer": ["Create public subnets. In each AZ and launch a NAT gateway in each subnet. Configure the traffic from the private subnets in each AZ to the respective NAT gateway."]
+    }
+  },
+  {
+    "id": "87",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A healthcare company stores highly sensitive patient records. Compliance requires that multiple copies be stored in different locations. Each record must be stored for 7 years. The company has a service level agreement (SLA) to provide records to government agencies immediately for the first 30 days and then within 4 hours of a request thereafter. What should a solutions architect recommend?",
+      "answers": [
+        "Use Amazon S3 with cross-Region replication enabled. After 30 days, transition the data to Amazon S3 Glacier using lifecycle policy.",
+        "Use Amazon S3 with cross-origin resource sharing (CORS) enabled. After 30 days, transition the data to Amazon S3 Glacier using a lifecycle policy.",
+        "Use Amazon S3 with cross-Region replication enabled. After 30 days, transition the data to Amazon S3 Glacier Deep Achieve using a lifecycle policy.",
+        "Use Amazon S3 with cross-origin resource sharing (CORS) enabled. After 30 days, transition the data to Amazon S3 Glacier Deep Archive using a lifecycle policy."
+      ],
+      "correctAnswer": ["Use Amazon S3 with cross-Region replication enabled. After 30 days, transition the data to Amazon S3 Glacier using lifecycle policy."]
+    }
+  },
+  {
+    "id": "88",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company recently deployed a new auditing system to centralize information about operating system versions, patching, and installed software for Amazon EC2 instances. A solutions architect must ensure all instances provisioned through EC2 Auto Scaling groups successfully send reports to the auditing system as soon as they are launched and terminated. Which solution achieves these goals MOST efficiently?",
+      "answers": [
+        "Use a scheduled AWS Lambda function and execute a script remotely on all EC2 instances to send data to the audit system.",
+        "Use EC2 Auto Scaling lifecycle hooks to execute a custom script to send data to the audit system when instances are launched and terminated.",
+        "Use an EC2 Auto Scaling launch configuration to execute a custom script through user data to send data to the audit system when instances are launched and terminated.",
+        "Execute a custom script on the instance operating system to send data to the audit system. Configure the script to be executed by the EC2 Auto Scaling group when the instance starts and is terminated."
+      ],
+      "correctAnswer": ["Use EC2 Auto Scaling lifecycle hooks to execute a custom script to send data to the audit system when instances are launched and terminated."]
+    }
+  },
+  {
+    "id": "89",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company recently implemented hybrid cloud connectivity using AWS Direct Connect and is migrating data to Amazon S3. The company is looking for a fully managed solution that will automate and accelerate the replication of data between the on-premises storage systems and AWS storage services. Which solution should a solutions architect recommend to keep the data private? ",
+      "answers": [
+        "Deploy an AWS DataSync agent tor the on-premises environment. Configure a sync job to replicate the data and connect it with an AWS service endpoint.",
+        "Deploy an AWS DataSync agent for the on-premises environment. Schedule a batch job to replicate point-ln-time snapshots to AWS.",
+        "Deploy an AWS Storage Gateway volume gateway for the on-premises environment. Configure it to store data locally, and asynchronously back up point-in- time snapshots to AWS.",
+        "Deploy an AWS Storage Gateway file gateway for the on-premises environment. Configure it to store data locally, and asynchronously back up point-in-lime snapshots to AWS."
+      ],
+      "correctAnswer": ["Deploy an AWS DataSync agent tor the on-premises environment. Configure a sync job to replicate the data and connect it with an AWS service endpoint."]
+    }
+  },
+  {
+    "id": "90",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has 150 TB of archived image data stored on-premises that needs to be mowed to the AWS Cloud within the next month. The companys current network connection allows up to 100 Mbps uploads for this purpose during the night only. What is the MOST cost-effective mechanism to move this data and meet the migration deadline?",
+      "answers": [
+        "Use AWS Snowmobile to ship the data to AWS.",
+        "Order multiple AWS Snowball devices to ship the data to AWS.",
+        "Enable Amazon S3 Transfer Acceleration and securely upload the data.",
+        "Create an Amazon S3 VPC endpoint and establish a VPN to upload the data."
+      ],
+      "correctAnswer": ["Order multiple AWS Snowball devices to ship the data to AWS."]
+    }
+  },
+  {
+    "id": "91",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "A public-facing web application queries a database hosted on an Amazon EC2 instance in a private subnet. A large number of queries involve multiple table joins, and the application performance has been degrading due to an increase in complex queries. The application team will be performing updates to improve performance. What should a solutions architect recommend to the application team? (Choose two.)",
+      "answers": [
+        "Cache query data in Amazon SQS",
+        "Create a read replica to offload queries",
+        "Migrate the database to Amazon Athena",
+        "Implement Amazon DynamoDB Accelerator to cache data.",
+        "Migrate the database to Amazon RDS"
+      ],
+      "correctAnswer": ["Create a read replica to offload queries",
+        "Migrate the database to Amazon RDS"]
+    }
+  },
+  {
+    "id": "92",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is seeing access requests by some suspicious IP addresses. The security team discovers the requests are from different IP addresses under the same CIDR range. What should a solutions architect recommend to the team?",
+      "answers": [
+        "Add a rule in the inbound table of the security to deny the traffic from that CIDR range.",
+        "Add a rule in the outbound table of the security group to deny the traffic from that CIDR range.",
+        "Add a deny rule in the inbound table of the network ACL with a lower number than other rules.",
+        "Add a deny rule in the outbound table of the network ACL with a lower rule number than other rules."
+      ],
+      "correctAnswer": ["Add a deny rule in the inbound table of the network ACL with a lower number than other rules."]
+    }
+  },
+  {
+    "id": "93",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company recently expanded globally and wants to make its application accessible to users in those geographic locations. The application is deploying on Amazon EC2 instances behind an Application Load balancer in an Auto Scaling group. The company needs the ability shift traffic from resources in one region to another. What should a solutions architect recommend?",
+      "answers": [
+        "Configure an Amazon Route 53 latency routing policy.",
+        "Configure an Amazon Route 53 geolocation routing policy.",
+        "Configure an Amazon Route 53 geoproximity fouling policy.",
+        "Configure an Amazon Route 53 multivalue answer routing policy."
+      ],
+      "correctAnswer": ["Configure an Amazon Route 53 geoproximity fouling policy."]
+    }
+  },
+  {
+    "id": "94",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company wants to replicate its data to AWS to recover in the event of a disaster. Today, a system administrator has scripts that copy data to a NFS share Individual backup files need to be accessed with low latency by application administrators to deal with errors in processing. What should a solutions architect recommend to meet these requirements?",
+      "answers": [
+        "Modify the script to copy data to an Amazon S3 bucket instead of the on-premises NFS share.",
+        "Modify the script to copy data to an Amazon S3 Glacier Archive instead of the on-premises NFS share.",
+        "Modify the script to copy data to an Amazon Elastic File System (Amazon EFS) volume instead of the on-premises NFS share.",
+        "Modify the script to copy data to an AWS Storage Gateway for File Gateway virtual appliance instead of the on-premises NFS share."
+      ],
+      "correctAnswer": ["Modify the script to copy data to an AWS Storage Gateway for File Gateway virtual appliance instead of the on-premises NFS share."]
+    }
+  },
+  {
+    "id": "95",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application requires a development environment (DEV) and production environment (PROD) for several years. The DEV instances will run for 10 hours each day during normal business hours, while the PROD instances will run 24 hours each day. A solutions architect needs to determine a compute instance purchase strategy to minimize costs. Which solution is the MOST cost-effective?",
+      "answers": [
+        "DEV with Spot Instances and PROD with On-Demand Instances",
+        "DEV with On-Demand Instances and PROD with Spot Instances",
+        "DEV with Scheduled Reserved Instances and PROD with Reserved Instances",
+        "DEV with On-Demand Instances and PROD with Scheduled Reserved Instances"
+      ],
+      "correctAnswer": ["DEV with Scheduled Reserved Instances and PROD with Reserved Instances"]
+    }
+  },
+  {
+    "id": "96",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company runs multiple Amazon EC2 Linux instances in a VPC with applications that use a hierarchical directory structure. The applications need to rapidly and concurrently read and write to shared storage. How can this be achieved?",
+      "answers": [
+        "Create an Amazon EFS file system and mount it from each EC2 instance.",
+        "Create an Amazon S3 bucket and permit access from all the EC2 instances in the VPC.",
+        "Create a file system on an Amazon EBS Provisioned IOPS SSD (101) volume. Attach the volume to all the EC2 instances.",
+        "Create file systems on Amazon EBS volumes attached to each EC2 instance. Synchronize the Amazon EBS volumes across the different EC2 instances."
+      ],
+      "correctAnswer": ["Create an Amazon EFS file system and mount it from each EC2 instance."]
+    }
+  },
+  {
+    "id": "97",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect observes that a nightly batch processing job is automatically scaled up for 1 hour before the desired Amazon EC2 capacity is reached. The peak capacity is the same every night and the batch jobs always start at 1 AM. The solutions architect needs to find a cost-effective solution that will allow for the desired EC2 capacity to be reached quickly and allow the Auto Scaling group to scale down after the batch jobs are complete. What should the solutions architect do to meet these requirements?",
+      "answers": [
+        "Increase the minimum capacity for the Auto Scaling group.",
+        "Increase the maximum capacity for the Auto Scaling group.",
+        "Configure scheduled scaling to scale up to the desired compute level.",
+        "Change the scaling policy to add more EC2 instances during each scaling operation."
+      ],
+      "correctAnswer": ["Configure scheduled scaling to scale up to the desired compute level."]
+    }
+  },
+  {
+    "id": "98",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A Solutions Architect must design a web application that will be hosted on AWS, allowing users to purchase access to premium, shared content that is stored in an S3 bucket. Upon payment, content will be available for download for 14 days before the user is denied access. Which of the following would be the LEAST complicated implementation?",
+      "answers": [
+        "Use an Amazon CloudFront distribution with an origin access identity (OAI). Configure the distribution with an Amazon S3 origin to provide access to the file through signed URLs. Design a Lambda function to remove data that is older than 14 days.",
+        "Use an S3 bucket and provide direct access to the tile Design the application to track purchases in a DynamoDH table. Configure a Lambda function to remove data that is older than 14 days based on a query to Amazon DynamoDB.",
+        "Use an Amazon CloudFront distribution with an OAI. Configure the distribution with an Amazon S3 origin to provide access to the file through signed URLs. Design the application to sot an expiration of 14 days for the URL.",
+        "Use an Amazon CloudFront distribution with an OAI. Configure the distribution with an Amazon S3 origin to provide access to the file through signed URLs. Design the application to set an expiration of 60 minutes for the URL and recreate the URL as necessary."
+      ],
+      "correctAnswer": ["Use an Amazon CloudFront distribution with an OAI. Configure the distribution with an Amazon S3 origin to provide access to the file through signed URLs. Design the application to sot an expiration of 14 days for the URL."]
+    }
+  },
+  {
+    "id": "99",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "A solutions architect is designing a mission-critical web application. It will consist of Amazon EC2 instances behind an Application Load Balancer and a relational database. The database should be highly available and fault tolerant. Which database implementations will meet these requirements? (Choose two.)",
+      "answers": [
+        "Amazon Redshift",
+        "Amazon DynamoDB",
+        "Amazon RDS for MySQL",
+        "MySQL-compatible Amazon Aurora Multi-AZ",
+        "Amazon RDS for SQL Server Standard Edition Multi-AZ"
+      ],
+      "correctAnswer": ["MySQL-compatible Amazon Aurora Multi-AZ",
+        "Amazon RDS for SQL Server Standard Edition Multi-AZ"]
+    }
+  },
+  {
+    "id": "100",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A companys web application is running on Amazon EC2 instances behind an Application Load Balancer. The company recently changed its policy, which now requires the application to be accessed from one specific country only. Which configuration will meet this requirement? ",
+      "answers": [
+        "Configure the security group for the EC2 instances.",
+        "Configure the security group on the Application Load Balancer.",
+        "Configure AWS WAF on the Application Load Balancer in a VPC.",
+        "Configure the network ACL for the subnet that contains the EC2 instances."
+      ],
+      "correctAnswer": ["Configure AWS WAF on the Application Load Balancer in a VPC."]
+    }
+  },
+  {
+    "id": "101",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solution architect has created two IAM policies: Policy1 and Policy2. Both policies are attached to an IAM group. Policy 1: Allow iam:Get*, iam:List*, kms:List*, ec2:*, ds:*, logs:Get*, logs:Describe* on Resource: *; Policy 2: Deny ds:Delete* on Resource *. A cloud engineer is added as an IAM user to the IAM group. Which action will the cloud engineer be able to perform?",
+      "answers": [
+        "Deleting IAM users",
+        "Deleting directories",
+        "Deleting Amazon EC2 instances",
+        "Deleting logs from Amazon CloudWatch Logs"
+      ],
+      "correctAnswer": ["Deleting Amazon EC2 instances"]
+    }
+  }
+]
