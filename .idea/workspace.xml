@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_4_aa2020.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_5_aa2020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_6_aa2020.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +171,7 @@
       <workItem from="1613137338806" duration="1830000" />
       <workItem from="1613492795167" duration="5848000" />
       <workItem from="1613514270148" duration="16073000" />
-      <workItem from="1614695678943" duration="4282000" />
+      <workItem from="1614695678943" duration="11980000" />
     </task>
     <servers />
   </component>
@@ -206,14 +205,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="616" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598987994115">
-      <screen x="0" y="23" width="1920" height="999" />
+    <state x="625" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1614816757047">
+      <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state x="616" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.999@0.23.1920.999" timestamp="1598987994115" />
-    <state x="653" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1598987986527">
-      <screen x="0" y="23" width="1920" height="999" />
-    </state>
-    <state x="653" y="358" key="com.intellij.ide.util.TipDialog/0.23.1920.997@0.23.1920.997" timestamp="1593530620345" />
-    <state x="653" y="359" key="com.intellij.ide.util.TipDialog/0.23.1920.999@0.23.1920.999" timestamp="1598987986527" />
+    <state x="625" y="243" width="670" height="676" key="search.everywhere.popup/0.25.1920.989@0.25.1920.989" timestamp="1614816757047" />
   </component>
 </project>
