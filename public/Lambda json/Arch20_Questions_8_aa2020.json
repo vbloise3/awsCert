@@ -1,0 +1,326 @@
+[
+  {
+    "id": "182",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "A company is hosting multiple websites for several lines of business under its registered parent domain. Users accessing these websites will be routed to appropriate backend Amazon EC2 instances based on the subdomain. The websites host static webpages, images, and server-side scripts like PHP and JavaScript. Some of the websites experience peak access during the first two hours of business with constant usage throughout the rest of the day. A solutions architect needs to design a solution that will automatically adjust capacity to these traffic patterns while keeping costs low. Which combination of AWS services or features will meet these requirements? (Choose two.)",
+      "answers": [
+        "AWS Batch",
+        "Network Load Balancer",
+        "Application Load Balancer",
+        "Amazon EC2 Auto Scaling",
+        "Amazon S3 website hosting"
+      ],
+      "correctAnswer": ["Application Load Balancer",
+        "Amazon EC2 Auto Scaling"]
+    }
+  },
+  {
+    "id": "183",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "A company uses an Amazon S3 bucket to store static images for its website. The company configured permissions to allow access to Amazon S3 objects by privileged users only. What should a solutions architect do to protect against data loss? (Choose two.)",
+      "answers": [
+        "Enable versioning on the S3 bucket.",
+        "Enable access logging on the S3 bucket.",
+        "Enable server-side encryption on the S3 bucket.",
+        "Configure an S3 lifecycle rule to transition objects to Amazon S3 Glacier.",
+        "Use MFA Delete to require multi-factor authentication to delete an object."
+      ],
+      "correctAnswer": ["Enable versioning on the S3 bucket.",
+        "Use MFA Delete to require multi-factor authentication to delete an object."]
+    }
+  },
+  {
+    "id": "184",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application running on AWS uses an Amazon Aurora Multi-AZ deployment for its database. When evaluating performance metrics, a solutions architect discovered that the database reads are causing high I/O and adding latency to the write requests against the database. What should the solutions architect do to separate the read requests from the write requests? ",
+      "answers": [
+        "Enable read-through caching on the Amazon Aurora database.",
+        "Update the application to read from the Multi-AZ standby instance.",
+        "Create a read replica and modify the application to use the appropriate endpoint.",
+        "Create a second Amazon Aurora database and link it to the primary database as a read replica. "
+      ],
+      "correctAnswer": ["Update the application to read from the Multi-AZ standby instance."]
+    }
+  },
+  {
+    "id": "185",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has been storing analytics data in an Amazon RDS instance for the past few years. The company asked a solutions architect to find a solution that allows users to access this data using an API. The expectation is that the application will experience periods of inactivity but could receive bursts of traffic within seconds. Which solution should the solutions architect suggest?",
+      "answers": [
+        "Set up an Amazon API Gateway and use Amazon ECS.",
+        "Set up an Amazon API Gateway and use AWS Elastic Beanstalk.",
+        "Set up an Amazon API Gateway and use AWS Lambda functions.",
+        "Set up an Amazon API Gateway and use Amazon EC2 with Auto Scaling."
+      ],
+      "correctAnswer": ["Set up an Amazon API Gateway and use AWS Lambda functions."]
+    }
+  },
+  {
+    "id": "186",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company must generate sales reports at the beginning of every month. The reporting process launches 20 Amazon EC2 instances on the first of the month. The process runs for 7 days and cannot be interrupted. The company wants to minimize costs. Which pricing model should the company choose?",
+      "answers": [
+        "Reserved Instances",
+        "Spot Block Instances",
+        "On-Demand Instances",
+        "Scheduled Reserved Instances"
+      ],
+      "correctAnswer": ["On-Demand Instances"]
+    }
+  },
+  {
+    "id": "187",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A companys web application is using multiple Linux Amazon EC2 instances and storing data on Amazon EBS volumes. The company is looking for a solution to increase the resiliency of the application in case of a failure and to provide storage that complies with atomicity, consistency, isolation, and durability (ACID). What should a solutions architect do to meet these requirements?",
+      "answers": [
+        "Launch the application on EC2 instances in each Availability Zone. Attach EBS volumes to each EC2 instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Mount an instance store on each EC2 instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data on Amazon EFS and mount a target on each instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data using Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)."
+      ],
+      "correctAnswer": ["Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data on Amazon EFS and mount a target on each instance."]
+    }
+  },
+  {
+    "id": "188",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents in an Amazon EBS volume. For better scalability and availability, the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone, placing both behind an Application Load Balancer. After completing this change, users reported that, each time they refreshed the website, they could see one subset of their documents or the other, but never all of the documents at the same time. What should a solutions architect propose to ensure users see all of their documents at once?",
+      "answers": [
+        "Copy the data so both EBS volumes contain all the documents.",
+        "Configure the Application Load Balancer to direct a user to the server with the documents.",
+        "Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS.",
+        "Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server."
+      ],
+      "correctAnswer": ["Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS."]
+    }
+  },
+  {
+    "id": "189",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect is tasked with transferring 750 TB of data from a network-attached file system located at a branch office Amazon S3 Glacier. The solution must avoid saturating the branch offices low-bandwidth internet connection. What is the MOST cost-effective solution? ",
+      "answers": [
+        "Create a site-to-site VPN tunnel to an Amazon S3 bucket and transfer the files directly. Create a bucket VPC endpoint.",
+        "Order 10 AWS Snowball appliances and select an S3 Glacier vault as the destination. Create a bucket policy to enforce VPC endpoint.",
+        "Mount the network-attached file system to Amazon S3 and copy the files directly. Create a lifecycle policy to S3 objects to Amazon S3 Glacier.",
+        "Order 10 AWS Snowball appliances and select an Amazon S3 bucket as the destination. Create a lifecycle policy to transition the S3 objects to Amazon S3 Glacier."
+      ],
+      "correctAnswer": ["Order 10 AWS Snowball appliances and select an Amazon S3 bucket as the destination. Create a lifecycle policy to transition the S3 objects to Amazon S3 Glacier."]
+    }
+  },
+  {
+    "id": "190",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application running on AWS uses an Amazon Aurora Multi-AZ deployment for its database. When evaluating performance metrics, a solutions architect discovered that the database reads are causing high I/O and adding latency to the write requests against the database. What should the solutions architect do to separate the read requests from the write requests? ",
+      "answers": [
+        "Enable read-through caching on the Amazon Aurora database.",
+        "Update the application to read from the Multi-AZ standby instance.",
+        "Create a read replica and modify the application to use the appropriate endpoint.",
+        "Create a second Amazon Aurora database and link it to the primary database as a read replica."
+      ],
+      "correctAnswer": ["Update the application to read from the Multi-AZ standby instance."]
+    }
+  },
+  {
+    "id": "191",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has been storing analytics data in an Amazon RDS instance for the past few years. The company asked a solutions architect to find a solution that allows users to access this data using an API. The expectation is that the application will experience periods of inactivity but could receive bursts of traffic within seconds. Which solution should the solutions architect suggest?",
+      "answers": [
+        "Set up an Amazon API Gateway and use Amazon ECS.",
+        "Set up an Amazon API Gateway and use AWS Elastic Beanstalk.",
+        "Set up an Amazon API Gateway and use AWS Lambda functions.",
+        "Set up an Amazon API Gateway and use Amazon EC2 with Auto Scaling."
+      ],
+      "correctAnswer": ["Set up an Amazon API Gateway and use AWS Lambda functions."]
+    }
+  },
+  {
+    "id": "192",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company must generate sales reports at the beginning of every month. The reporting process launches 20 Amazon EC2 instances on the first of the month. The process runs for 7 days and cannot be interrupted. The company wants to minimize costs. Which pricing model should the company choose?",
+      "answers": [
+        "Reserved Instances",
+        "Spot Block Instances",
+        "On-Demand Instances",
+        "Scheduled Reserved Instances"
+      ],
+      "correctAnswer": ["On-Demand Instances"]
+    }
+  },
+  {
+    "id": "193",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A companys web application is using multiple Linux Amazon EC2 instances and storing data on Amazon EBS volumes. The company is looking for a solution to increase the resiliency of the application in case of a failure and to provide storage that complies with atomicity, consistency, isolation, and durability (ACID). What should a solutions architect do to meet these requirements?",
+      "answers": [
+        "Launch the application on EC2 instances in each Availability Zone. Attach EBS volumes to each EC2 instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Mount an instance store on each EC2 instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data on Amazon EFS and mount a target on each instance.",
+        "Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data using Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)."
+      ],
+      "correctAnswer": ["Create an Application Load Balancer with Auto Scaling groups across multiple Availability Zones. Store data on Amazon EFS and mount a target on each instance."]
+    }
+  },
+  {
+    "id": "194",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents in an Amazon EBS volume. For better scalability and availability, the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone, placing both behind an Application Load Balancer. After completing this change, users reported that, each time they refreshed the website, they could see one subset of their documents or the other, but never all of the documents at the same time. What should a solutions architect propose to ensure users see all of their documents at once?",
+      "answers": [
+        "Copy the data so both EBS volumes contain all the documents.",
+        "Configure the Application Load Balancer to direct a user to the server with the documents.",
+        "Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS.",
+        "Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server."
+      ],
+      "correctAnswer": ["Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS."]
+    }
+  },
+  {
+    "id": "195",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect is tasked with transferring 750 TB of data from a network-attached file system located at a branch office Amazon S3 Glacier. The solution must avoid saturating the branch offices low-bandwidth internet connection. What is the MOST cost-effective solution?",
+      "answers": [
+        "Create a site-to-site VPN tunnel to an Amazon S3 bucket and transfer the files directly. Create a bucket VPC endpoint.",
+        "Order 10 AWS Snowball appliances and select an S3 Glacier vault as the destination. Create a bucket policy to enforce VPC endpoint.",
+        "Mount the network-attached file system to Amazon S3 and copy the files directly. Create a lifecycle policy to S3 objects to Amazon S3 Glacier.",
+        "Order 10 AWS Snowball appliances and select an Amazon S3 bucket as the destination. Create a lifecycle policy to transition the S3 objects to Amazon S3 Glacier."
+      ],
+      "correctAnswer": ["Order 10 AWS Snowball appliances and select an Amazon S3 bucket as the destination. Create a lifecycle policy to transition the S3 objects to Amazon S3 Glacier."]
+    }
+  },
+  {
+    "id": "196",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An operations team has a standard that states IAM policies should not be applied directly to users. Some new members have not been following this standard. The operation manager needs a way to easily identify the users with attached policies. What should a solutions architect do to accomplish this?",
+      "answers": [
+        "Monitor using AWS CloudTrail.",
+        "Create an AWS Config rule to run daily.",
+        "Publish IAM user changes to Amazon SNS.",
+        "Run AWS Lambda when a user is modified."
+      ],
+      "correctAnswer": ["Create an AWS Config rule to run daily."]
+    }
+  },
+  {
+    "id": "197",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company wants to use an AWS Region as a disaster recovery location for its on-premises infrastructure. The company has 10 TB of existing data, and the on- premise data center has a 1 Gbps internet connection. A solutions architect must find a solution so the company can have its existing data on AWS in 72 hours without transmitting it using an unencrypted channel. Which solution should the solutions architect select?",
+      "answers": [
+        "Send the initial 10 TB of data to AWS using FTP.",
+        "Send the initial 10 TB of data to AWS using AWS Snowball.",
+        "Establish a VPN connection between Amazon VPC and the companys data center.",
+        "Establish an AWS Direct Connect connection between Amazon VPC and the companys data center."
+      ],
+      "correctAnswer": ["Establish a VPN connection between Amazon VPC and the companys data center."]
+    }
+  },
+  {
+    "id": "198",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is building applications in containers. The company wants to migrate its on-premises development and operations services from its on-premises data center to AWS. Management states that production system must be cloud agnostic and use the same configuration and administrator tools across production systems. A solutions architect needs to design a managed solution that will align open-source software. Which solution meets these requirements?",
+      "answers": [
+        "Launch the containers on Amazon EC2 with EC2 instance worker nodes.",
+        "Launch the containers on Amazon Elastic Kubernetes Service (Amazon EKS) and EKS workers nodes.",
+        "Launch the containers on Amazon Elastic Containers service (Amazon ECS) with AWS Fargate instances.",
+        "Launch the containers on Amazon Elastic Container Service (Amazon ECS) with Amazon EC2 instance worker nodes."
+      ],
+      "correctAnswer": ["Launch the containers on Amazon Elastic Kubernetes Service (Amazon EKS) and EKS workers nodes."]
+    }
+  },
+  {
+    "id": "199",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company hosts its website on AWS. To address the highly variable demand, the company has implemented Amazon EC2 Auto Scaling. Management is concerned that the company is over-provisioning its infrastructure, especially at the front end of the three-tier application. A solutions architect needs to ensure costs are optimized without impacting performance. What should the solutions architect do to accomplish this?",
+      "answers": [
+        "Use Auto Scaling with Reserved Instances.",
+        "Use Auto Scaling with a scheduled scaling policy.",
+        "Use Auto Scaling with the suspend-resume feature",
+        "Use Auto Scaling with a target tracking scaling policy."
+      ],
+      "correctAnswer": ["Use Auto Scaling with a target tracking scaling policy."]
+    }
+  },
+  {
+    "id": "200",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solution architect is performing a security review of a recently migrated workload. The workload is a web application that consists of Amazon EC2 instances in an Auto Scaling group behind an Application Load balancer. The solution architect must improve the security posture and minimize the impact of a DDoS attack on resources. Which solution is MOST effective?",
+      "answers": [
+        "Configure an AWS WAF ACL with rate-based rules. Create an Amazon CloudFront distribution that points to the Application Load Balancer. Enable the EAF ACL on the CloudFront distribution.",
+        "Create a custom AWS Lambda function that adds identified attacks into a common vulnerability pool to capture a potential DDoS attack. Use the identified information to modify a network ACL to block access.",
+        "Enable VPC Flow Logs and store then in Amazon S3. Create a custom AWS Lambda functions that parses the logs looking for a DDoS attack. Modify a network ACL to block identified source IP addresses.",
+        "Enable Amazon GuardDuty and, configure findings written 10 Amazon CloudWatch. Create an event with Cloud Watch Events for DDoS alerts that triggers Amazon Simple Notification Service (Amazon SNS). Have Amazon SNS invoke a custom AWS lambda function that parses the logs looking for a DDoS attack. Modify a network ACL to block identified source IP addresses"
+      ],
+      "correctAnswer": ["Configure an AWS WAF ACL with rate-based rules. Create an Amazon CloudFront distribution that points to the Application Load Balancer. Enable the EAF ACL on the CloudFront distribution."]
+    }
+  },
+  {
+    "id": "201",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has multiple AWS accounts, for various departments. One of the departments wants to share an Amazon S3 bucket with all other department. Which solution will require the LEAST amount of effort?",
+      "answers": [
+        "Enable cross-account S3 replication for the bucket.",
+        "Create a pre-signed URL for the bucket and share it with other departments.",
+        "Set the S3 bucket policy to allow cross-account access to other departments.",
+        "Create IAM users for each of the departments and configure a read-only IAM policy."
+      ],
+      "correctAnswer": ["Set the S3 bucket policy to allow cross-account access to other departments."]
+    }
+  }
+]
