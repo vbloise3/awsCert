@@ -1,0 +1,484 @@
+[
+  {
+    "id": "252",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company runs a high performance computing (HPC) workload on AWS. The workload required low-latency network performance and high network throughput with tightly coupled node-to-node communication. The Amazon EC2 instances are properly sized for compute and storage capacity, and are launched using default options. What should a solutions architect propose to improve the performance of the workload?",
+      "answers": [
+        "Choose a cluster placement group while launching Amazon EC2 instances.",
+        "Choose dedicated instance tenancy while launching Amazon EC2 instances.",
+        "Choose an Elastic Inference accelerator while launching Amazon EC2 instances.",
+        "Choose the required capacity reservation while launching Amazon EC2 instances."
+      ],
+      "correctAnswer": ["Choose a cluster placement group while launching Amazon EC2 instances."]
+    }
+  },
+  {
+    "id": "253",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company uses a legacy on-premises analytics application that operates on gigabytes of .csv files and represents months of data. The legacy application cannot handle the growing size of .csv files. New .csv files are added daily from various data sources to a central on-premises storage location. The company wants to continue to support the legacy application while users learn AWS analytics services. To achieve this, a solutions architect wants to maintain two synchronized copies of all the .csv files on-premises and in Amazon S3. Which solution should the solutions architect recommend? ",
+      "answers": [
+        "Deploy AWS DataSync on-premises. Configure DataSync to continuously replicate the .csv files between the company's on-premises storage and the company's S3 bucket.",
+        "Deploy an on-premises file gateway. Configure data sources to write the .csv files to the file gateway. Point the legacy analytics application to the file gateway. The file gateway should replicate the .csv files to Amazon S3.",
+        "Deploy an on-premises volume gateway. Configure data sources to write the .csv files to the volume gateway. Point the legacy analytics application to the volume gateway. The volume gateway should replicate data to Amazon S3.",
+        "Deploy AWS DataSync on-premises. Configure DataSync to continuously replicate the .csv files between on-premises and Amazon Elastic File System (Amazon EFS). Enable replication from Amazon EFS to the company's S3 bucket."
+      ],
+      "correctAnswer": ["Deploy AWS DataSync on-premises. Configure DataSync to continuously replicate the .csv files between the company's on-premises storage and the company's S3 bucket."]
+    }
+  },
+  {
+    "id": "254",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has media and application files that need to be shared internally. Users currently are authenticated using Active Directory and access files from a Microsoft Windows platform. The chief executive officer wants to keep the same user permissions, but wants the company to improve the process as the company is reaching its storage capacity limit. What should a solutions architect recommend?",
+      "answers": [
+        "Set up a corporate Amazon S3 bucket and move all media and application files.",
+        "Configure Amazon FSx for Windows File Server and move all the media and application files.",
+        "Configure Amazon Elastic File System (Amazon EFS) and move all media and application files.",
+        "Set up Amazon EC2 on Windows, attach multiple Amazon Elastic Block Store (Amazon EBS) volumes, and move all media and application files."
+      ],
+      "correctAnswer": ["Configure Amazon FSx for Windows File Server and move all the media and application files."]
+    }
+  },
+  {
+    "id": "255",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is deploying a web portal. The company wants to ensure that only the web portion of the application is publicly accessible. To accomplish this, the VPC was designed with two public subnets and two private subnets. The application will run on several Amazon EC2 instances in an Auto Scaling group. SSL termination must be offloaded from the EC2 instances. What should a solutions architect do to ensure these requirements are met?",
+      "answers": [
+        "Configure the Network Load Balancer in the public subnets. Configure the Auto Scaling group in the private subnets and associate it with the Application Load Balancer.",
+        "Configure the Network Load Balancer in the public subnets. Configure the Auto Scaling group in the public subnets and associate it with the Application Load Balancer.",
+        "Configure the Application Load Balancer in the public subnets. Configure the Auto Scaling group in the private subnets and associate it with the Application Load Balancer.",
+        "Configure the Application Load Balancer in the private subnets. Configure the Auto Scaling group in the private subnets and associate it with the Application Load Balancer."
+      ],
+      "correctAnswer": ["Configure the Application Load Balancer in the public subnets. Configure the Auto Scaling group in the private subnets and associate it with the Application Load Balancer."]
+    }
+  },
+  {
+    "id": "256",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is experiencing growth as demand for its product has increased. The company's existing purchasing application is slow when traffic spikes. The application is a monolithic three-tier application that uses synchronous transactions and sometimes sees bottlenecks in the application tier. A solutions architect needs to design a solution that can meet required application response times while accounting for traffic volume spikes. Which solution will meet these requirements?",
+      "answers": [
+        "Vertically scale the application instance using a larger Amazon EC2 instance size.",
+        "Scale the application's persistence layer horizontally by introducing Oracle RAC on AWS.",
+        "Scale the web and application tiers horizontally using Auto Scaling groups and an Application Load Balancer.",
+        "Decouple the application and data tiers using Amazon Simple Queue Service (Amazon SQS) with asynchronous AWS Lambda calls."
+      ],
+      "correctAnswer": ["Scale the web and application tiers horizontally using Auto Scaling groups and an Application Load Balancer."]
+    }
+  },
+  {
+    "id": "257",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company hosts an application used to upload files to an Amazon S3 bucket. Once uploaded, the files are processed to extract metadata, which takes less than 5 seconds. The volume and frequency of the uploads varies from a few files each hour to hundreds of concurrent uploads. The company has asked a solutions architect to design a cost-effective architecture that will meet these requirements. What should the solutions architect recommend?",
+      "answers": [
+        "Configure AWS CloudTrail trails to log S3 API calls. Use AWS AppSync to process the files.",
+        "Configure an object-created event notification within the S3 bucket to invoke an AWS Lambda function to process the files.",
+        "Configure Amazon Kinesis Data Streams to process and send data to Amazon S3. Invoke an AWS Lambda function to process the files.",
+        "Configure an Amazon Simple Notification Service (Amazon SNS) topic to process the files uploaded to Amazon S3. Invoke an AWS Lambda function to process the files."
+      ],
+      "correctAnswer": ["Configure an object-created event notification within the S3 bucket to invoke an AWS Lambda function to process the files."]
+    }
+  },
+  {
+    "id": "258",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has copied 1 PB of data from a colocation facility to an Amazon S3 bucket in the us-east-1 Region using an AWS Direct Connect link. The company now wants to copy the data to another S3 bucket in the us-west-2 Region. The colocation facility does not allow the use of AWS Snowball. What should a solutions architect recommend to accomplish this?",
+      "answers": [
+        "Order a Snowball Edge device to copy the data from one Region to another Region.",
+        "Transfer contents from the source S3 bucket to a target S3 bucket using the S3 console.",
+        "Use the aws S3 sync command to copy data from the source bucket to the destination bucket.",
+        "Add a cross-Region replication configuration to copy objects across S3 buckets in different Regions."
+      ],
+      "correctAnswer": ["Use the aws S3 sync command to copy data from the source bucket to the destination bucket."]
+    }
+  },
+  {
+    "id": "259",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is using a fleet of Amazon EC2 instances to ingest data from on-premises data sources. The data is in JSON format and ingestion rates can be as high as 1 MB/s. When an EC2 instance is rebooted, the data in-flight is lost. The company's data science team wants to query ingested data in near-real time. Which solution provides near-real-time data querying that is scalable with minimal data loss?",
+      "answers": [
+        "Publish data to Amazon Kinesis Data Streams. Use Kinesis Data Analytics to query the data.",
+        "Publish data to Amazon Kinesis Data Firehose with Amazon Redshift as the destination. Use Amazon Redshift to query the data.",
+        "Store ingested data in an EC2 instance store. Publish data to Amazon Kinesis Data Firehose with Amazon S3 as the destination. Use Amazon Athena to query the data.",
+        "Store ingested data in an Amazon Elastic Block Store (Amazon EBS) volume. Publish data to Amazon ElastiCache for Redis. Subscribe to the Redis channel to query the data."
+      ],
+      "correctAnswer": ["Publish data to Amazon Kinesis Data Firehose with Amazon Redshift as the destination. Use Amazon Redshift to query the data."]
+    }
+  },
+  {
+    "id": "260",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is deploying a multi-instance application within AWS that requires minimal latency between the instances. What should a solutions architect recommend?",
+      "answers": [
+        "Use an Auto Scaling group with a cluster placement group.",
+        "Use an Auto Scaling group with single Availability Zone in the same AWS Region.",
+        "Use an Auto Scaling group with multiple Availability Zones in the same AWS Region.",
+        "Use a Network Load Balancer with multiple Amazon EC2 Dedicated Hosts as the targets."
+      ],
+      "correctAnswer": ["Use an Auto Scaling group with a cluster placement group."]
+    }
+  },
+  {
+    "id": "261",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is developing a mobile game that streams score updates to a backend processor and then posts results on a leaderboard. A solutions architect needs to design a solution that can handle large traffic spikes, process the mobile game updates in order of receipt, and store the processed updates in a highly available database. The company also wants to minimize the management overhead required to maintain the solution. What should the solutions architect do to meet these requirements?",
+      "answers": [
+        "Push score updates to Amazon Kinesis Data Streams. Process the updates in Kinesis Data Streams with AWS Lambda. Store the processed updates in Amazon DynamoDB.",
+        "Push score updates to Amazon Kinesis Data Streams. Process the updates with a fleet of Amazon EC2 instances set up for Auto Scaling. Store the processed updates in Amazon Redshift.",
+        "Push score updates to an Amazon Simple Notification Service (Amazon SNS) topic. Subscribe an AWS Lambda function to the SNS topic to process the updates. Store the processed updates in a SQL database running on Amazon EC2.",
+        "Push score updates to an Amazon Simple Queue Service (Amazon SQS) queue. Use a fleet of Amazon EC2 instances with Auto Scaling to process the updates in the SQS queue. Store the processed updates in an Amazon RDS Multi-AZ DB instance."
+      ],
+      "correctAnswer": ["Push score updates to Amazon Kinesis Data Streams. Process the updates in Kinesis Data Streams with AWS Lambda. Store the processed updates in Amazon DynamoDB."]
+    }
+  },
+  {
+    "id": "262",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is building a document storage application on AWS. The application runs on Amazon EC2 instances in multiple Availability Zones. The company requires the document store to be highly available. The documents need to be returned immediately when requested. The lead engineer has configured the application to use Amazon Elastic Block Store (Amazon EBS) to store the documents, but is willing to consider other options to meet the availability requirement. What should a solutions architect recommend?",
+      "answers": [
+        "Snapshot the EBS volumes regularly and build new volumes using those snapshots in additional Availability Zones.",
+        "Use Amazon EBS for the EC2 instance root volumes. Configure the application to build the document store on Amazon S3.",
+        "Use Amazon EBS for the EC2 instance root volumes. Configure the application to build the document store on Amazon S3 Glacier.",
+        "Use at least three Provisioned IOPS EBS volumes for EC2 instances. Mount the volumes to the EC2 instances in a RAID 5 configuration."
+      ],
+      "correctAnswer": ["Use Amazon EBS for the EC2 instance root volumes. Configure the application to build the document store on Amazon S3."]
+    }
+  },
+  {
+    "id": "263",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect is designing a security solution for a company that wants to provide developers with individual AWS accounts through AWS Organizations, while also maintaining standard security controls. Because the individual developers will have AWS account root user-level access to their own accounts, the solutions architect wants to ensure that the mandatory AWS CloudTrail configuration that is applied to new developer accounts is not modified. Which action meets these requirements?",
+      "answers": [
+        "Create an IAM policy that prohibits changes to CloudTrail, and attach it to the root user.",
+        "Create a new trail in CloudTrail from within the developer accounts with the organization trails option enabled.",
+        "Create a service control policy (SCP) the prohibits changes to CloudTrail, and attach it the developer accounts.",
+        "Create a service-linked role for CloudTrail with a policy condition that allows changes only from an Amazon Resource Name (ARN) in the master account."
+      ],
+      "correctAnswer": ["Create a service control policy (SCP) the prohibits changes to CloudTrail, and attach it the developer accounts."]
+    }
+  },
+  {
+    "id": "264",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company wants to share forensic accounting data that is stored in an Amazon RDS DB instance with an external auditor. The auditor has its own AWS account and requires its own copy of the database. How should the company securely share the database with the auditor?",
+      "answers": [
+        "Create a read replica of the database and configure IAM standard database authentication to grant the auditor access.",
+        "Copy a snapshot of the database to Amazon S3 and assign an IAM role to the auditor to grant access to the object in that bucket.",
+        "Export the database contents to text files, store the files in Amazon S3, and create a new IAM user for the auditor with access to that bucket.",
+        "Make an encrypted snapshot of the database, share the snapshot, and allow access to the AWS Key Management Service (AWS KMS) encryption key."
+      ],
+      "correctAnswer": ["Make an encrypted snapshot of the database, share the snapshot, and allow access to the AWS Key Management Service (AWS KMS) encryption key."]
+    }
+  },
+  {
+    "id": "265",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has an automobile sales website that stores its listings in a database on Amazon RDS. When an automobile is sold, the listing needs to be removed from the website and the data must be sent to multiple target systems. Which design should a solutions architect recommend?",
+      "answers": [
+        "Create an AWS Lambda function triggered when the database on Amazon RDS is updated to send the information to an Amazon Simple Queue Service (Amazon SQS) queue for the targets to consume.",
+        "Create an AWS Lambda function triggered when the database on Amazon RDS is updated to send the information to an Amazon Simple Queue Service (Amazon SQS) FIFO queue for the targets to consume.",
+        "Subscribe to an RDS event notification and send an Amazon Simple Queue Service (Amazon SQS) queue fanned out to multiple Amazon Simple Notification Service (Amazon SNS) topics. Use AWS Lambda functions to update the targets.",
+        "Subscribe to an RDS event notification and send an Amazon Simple Notification Service (Amazon SNS) topic fanned out to multiple Amazon Simple Queue Service (Amazon SQS) queues. Use AWS Lambda functions to update the targets."
+      ],
+      "correctAnswer": ["Subscribe to an RDS event notification and send an Amazon Simple Notification Service (Amazon SNS) topic fanned out to multiple Amazon Simple Queue Service (Amazon SQS) queues. Use AWS Lambda functions to update the targets."]
+    }
+  },
+  {
+    "id": "266",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is building a media sharing application and decides to use Amazon S3 for storage. When a media file is uploaded, the company starts a multi-step process to create thumbnails, identify objects in the images, transcode videos into standard formats and resolutions, and extract and store the metadata to an Amazon DynamoDB table. The metadata is used for searching and navigation. The amount of traffic is variable. The solution must be able to scale to handle spikes in load without unnecessary expenses. What should a solutions architect recommend to support this workload?",
+      "answers": [
+        "Build the processing into the website or mobile app used to upload the content to Amazon S3. Save the required data to the DynamoDB table when the objects are uploaded.",
+        "Trigger AWS Step Functions when an object is stored in the S3 bucket. Have the Step Functions perform the steps needed to process the object and then write the metadata to the DynamoDB table.",
+        "Trigger an AWS Lambda function when an object is stored in the S3 bucket. Have the Lambda function start AWS Batch to perform the steps to process the object. Place the object data in the DynamoDB table when complete.",
+        "Trigger an AWS Lambda function to store an initial entry in the DynamoDB table when an object is uploaded to Amazon S3. Use a program running on an Amazon EC2 instance in an Auto Scaling group to poll the index for unprocessed items, and use the program to perform the processing."
+      ],
+      "correctAnswer": ["Trigger an AWS Lambda function when an object is stored in the S3 bucket. Have the Lambda function start AWS Batch to perform the steps to process the object. Place the object data in the DynamoDB table when complete."]
+    }
+  },
+  {
+    "id": "267",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company provides an API to its users that automates inquiries for tax computations based on item prices. The company experiences a larger number of inquiries during the holiday season only that cause slower response times. A solutions architect needs to design a solution that is scalable and elastic. What should the solutions architect do to accomplish this?",
+      "answers": [
+        "Provide an API hosted on an Amazon EC2 instance. The EC2 instance performs the required computations when the API request is made.",
+        "Design a REST API using Amazon API Gateway that accepts the item names. API Gateway passes item names to AWS Lambda for tax computations.",
+        "Create an Application Load Balancer that has two Amazon EC2 instances behind it. The EC2 instances will compute the tax on the received item names.",
+        "Design a REST API using Amazon API Gateway that connects with an API hosted on an Amazon EC2 instance. API Gateway accepts and passes the item names to the EC2 instance for tax computations."
+      ],
+      "correctAnswer": ["Design a REST API using Amazon API Gateway that accepts the item names. API Gateway passes item names to AWS Lambda for tax computations."]
+    }
+  },
+  {
+    "id": "268",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "An application is running on an Amazon EC2 instance and must have millisecond latency when running the workload. The application makes many small reads and writes to the file system, but the file system itself is small. Which Amazon Elastic Block Store (Amazon EBS) volume type should a solutions architect attach to their EC2 instance? ",
+      "answers": [
+        "Cold HDD (sc1)",
+        "General Purpose SSD (gp2)",
+        "Provisioned IOPS SSD (io1)",
+        "Throughput Optimized HDD (st1)"
+      ],
+      "correctAnswer": ["General Purpose SSD (gp2)"]
+    }
+  },
+  {
+    "id": "269",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect is designing a multi-Region disaster recovery solution for an application that will provide public API access. The application will use Amazon EC2 instances with a userdata script to load application code and an Amazon RDS for MySQL database. The Recovery Time Objective (RTO) is 3 hours and the Recovery Point Objective (RPO) is 24 hours. Which architecture would meet these requirements at the LOWEST cost?",
+      "answers": [
+        "Use an Application Load Balancer for Region failover. Deploy new EC2 instances with the userdata script. Deploy separate RDS instances in each Region.",
+        "Use Amazon Route 53 for Region failover. Deploy new EC2 instances with the userdata script. Create a read replica of the RDS instance in a backup Region.",
+        "Use Amazon API Gateway for the public APIs and Region failover. Deploy new EC2 instances with the userdata script. Create a MySQL read replica of the RDS instance in a backup Region.",
+        "Use Amazon Route 53 for Region failover. Deploy new EC2 instances with the userdata script for APIs, and create a snapshot of the RDS instance daily for a backup. Replicate the snapshot to a backup Region."
+      ],
+      "correctAnswer": ["Use Amazon Route 53 for Region failover. Deploy new EC2 instances with the userdata script for APIs, and create a snapshot of the RDS instance daily for a backup. Replicate the snapshot to a backup Region."]
+    }
+  },
+  {
+    "id": "270",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A solutions architect needs to ensure that all Amazon Elastic Block Store (Amazon EBS) volumes restored from unencrypted EBC snapshots are encrypted. What should the solutions architect do to accomplish this?",
+      "answers": [
+        "Enable EBS encryption by default for the AWS Region.",
+        "Enable EBS encryption by default for the specific volumes.",
+        "Create a new volume and specify the symmetric customer master key (CMK) to use for encryption.",
+        "Create a new volume and specify the asymmetric customer master key (CMK) to use for encryption."
+      ],
+      "correctAnswer": ["Create a new volume and specify the symmetric customer master key (CMK) to use for encryption."]
+    }
+  },
+  {
+    "id": "271",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company runs a static website through its on-premises data center. The company has multiple servers that handle all of its traffic, but on busy days, services are interrupted and the website becomes unavailable. The company wants to expand its presence globally and plans to triple its website traffic. What should a solutions architect recommend to meet these requirements?",
+      "answers": [
+        "Migrate the website content to Amazon S3 and host the website on Amazon CloudFront.",
+        "Migrate the website content to Amazon EC2 instances with public Elastic IP addresses in multiple AWS Regions.",
+        "Migrate the website content to Amazon EC2 instances and vertically scale as the load increases.",
+        "Use Amazon Route 53 to distribute the loads across multiple Amazon CloudFront distributions for each AWS Region that exists globally."
+      ],
+      "correctAnswer": ["Migrate the website content to Amazon S3 and host the website on Amazon CloudFront."]
+    }
+  },
+  {
+    "id": "272",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has a highly dynamic batch processing job that uses many Amazon EC2 instances to complete it. The job is stateless in nature, can be started and stopped at any given time with no negative impact, and typically takes upwards of 60 minutes total to complete. The company has asked a solutions architect to design a scalable and cost-effective solution that meets the requirements of the job. What should the solutions architect recommend?",
+      "answers": [
+        "Implement EC2 Spot Instances.",
+        "Purchase EC2 Reserved Instances.",
+        "Implement EC2 On-Demand Instances.",
+        "Implement the processing on AWS Lambda."
+      ],
+      "correctAnswer": ["Implement EC2 Spot Instances."]
+    }
+  },
+  {
+    "id": "273",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is hosting its static website in an Amazon S3 bucket, which is the origin for Amazon CloudFront. The company has users in the United States, Canada, and Europe and wants to reduce costs. What should a solutions architect recommend?",
+      "answers": [
+        "Adjust the CloudFront caching time to live (TTL) from the default to a longer timeframe.",
+        "Implement CloudFront events with Lambda@Edge to run the website's data processing.",
+        "Modify the CloudFront price class to include only the locations of the countries that are served.",
+        "Implement a CloudFront Secure Sockets Layer (SSL) certificate to push security closer to the locations of the countries that are served."
+      ],
+      "correctAnswer": ["Modify the CloudFront price class to include only the locations of the countries that are served."]
+    }
+  },
+  {
+    "id": "274",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is planning to migrate a commercial off-the-shelf application from its on-premises data center to AWS. The software has a software licensing model using sockets and cores with predictable capacity and uptime requirements. The company wants to use its existing licenses, which were purchased earlier this year. Which Amazon EC2 pricing option is the MOST cost-effective?",
+      "answers": [
+        "Dedicated Reserved Hosts",
+        "Dedicated On-Demand Hosts",
+        "Dedicated Reserved Instances",
+        "Dedicated On-Demand Instances"
+      ],
+      "correctAnswer": ["Dedicated Reserved Hosts"]
+    }
+  },
+  {
+    "id": "275",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company is designing a website that uses an Amazon S3 bucket to store static images. The company wants all future requests to have faster response times while reducing both latency and cost. Which service configuration should a solutions architect recommend?",
+      "answers": [
+        "Deploy a NAT server in front of Amazon S3.",
+        "Deploy Amazon CloudFront in front of Amazon S3.",
+        "Deploy a Network Load Balancer in front of Amazon S3.",
+        "Configure Auto Scaling to automatically adjust the capacity of the website."
+      ],
+      "correctAnswer": ["Deploy Amazon CloudFront in front of Amazon S3."]
+    }
+  },
+  {
+    "id": "276",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has an on-premises MySQL database used by the global sales team with infrequent access patterns. The sales team requires the database to have minimal downtime. A database administrator wants to migrate this database to AWS without selecting a particular instance type in anticipation of more users in the future. Which service should a solutions architect recommend?",
+      "answers": [
+        "Amazon Aurora MySQL",
+        "Amazon Aurora Serverless for MySQL",
+        "Amazon Redshift Spectrum",
+        "Amazon RDS for MySQL"
+      ],
+      "correctAnswer": ["Amazon Aurora Serverless for MySQL"]
+    }
+  },
+  {
+    "id": "277",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company needs to comply with a regulatory requirement that states all emails must be stored and archived externally for 7 years. An administrator has created compressed email files on premises and wants a managed service to transfer the files to AWS storage. Which managed service should a solutions architect recommend?",
+      "answers": [
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon S3 Glacier",
+        "AWS Backup",
+        "AWS Storage Gateway"
+      ],
+      "correctAnswer": ["AWS Storage Gateway"]
+    }
+  },
+  {
+    "id": "278",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company that hosts its web application on AWS wants to ensure all Amazon EC2 instances, Amazon RDS DB instances, and Amazon Redshift clusters are configured with tags. The company wants to minimize the effort of configuring and operating this check. What should a solutions architect do to accomplish this?",
+      "answers": [
+        "Use AWS Config rules to define and detect resources that are not properly tagged.",
+        "Use Cost Explorer to display resources that are not properly tagged. Tag those resources manually.",
+        "Write API calls to check all resources for proper tag allocation. Periodically run the code on an EC2 instance.",
+        "Write API calls to check all resources for proper tag allocation. Schedule an AWS Lambda function through Amazon CloudWatch to periodically run the code."
+      ],
+      "correctAnswer": ["Use AWS Config rules to define and detect resources that are not properly tagged."]
+    }
+  },
+  {
+    "id": "279",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company has a live chat application running on its on-premises servers that use WebSockets. The company wants to migrate the application to AWS. Application traffic is inconsistent, and the company expects there to be more traffic with sharp spikes in the future. The company wants a highly scalable solution with no server maintenance nor advanced capacity planning. Which solution meets these requirements?",
+      "answers": [
+        "Use Amazon API Gateway and AWS Lambda with an Amazon DynamoDB table as the data store. Configure the DynamoDB table for provisioned capacity.",
+        "Use Amazon API Gateway and AWS Lambda with an Amazon DynamoDB table as the data store. Configure the DynamoDB table for on-demand capacity.",
+        "Run Amazon EC2 instances behind an Application Load Balancer in an Auto Scaling group with an Amazon DynamoDB table as the data store. Configure the DynamoDB table for on-demand capacity.",
+        "Run Amazon EC2 instances behind a Network Load Balancer in an Auto Scaling group with an Amazon DynamoDB table as the data store. Configure the DynamoDB table for provisioned capacity."
+      ],
+      "correctAnswer": ["Use Amazon API Gateway and AWS Lambda with an Amazon DynamoDB table as the data store. Configure the DynamoDB table for on-demand capacity."]
+    }
+  },
+  {
+    "id": "280",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 2",
+      "question": "A company hosts its static website content from an Amazon S3 bucket in the us-east-1 Region. Content is made available through an Amazon CloudFront origin pointing to that bucket. Cross-Region replication is set to create a second copy of the bucket in the ap-southeast-1 Region. Management wants a solution that provides greater availability for the website. Which combination of actions should a solutions architect take to increase availability? (Choose two.)",
+      "answers": [
+        "Add both buckets to the CloudFront origin.",
+        "Configure failover routing in Amazon Route 53.",
+        "Create a record in Amazon Route 53 pointing to the replica bucket.",
+        "Create an additional CloudFront origin pointing to the ap-southeast-1 bucket.",
+        "Set up a CloudFront origin group with the us-east-1 bucket as the primary and the ap-southeast-1 bucket as the secondary."
+      ],
+      "correctAnswer": ["Create an additional CloudFront origin pointing to the ap-southeast-1 bucket.",
+        "Set up a CloudFront origin group with the us-east-1 bucket as the primary and the ap-southeast-1 bucket as the secondary."]
+    }
+  },
+  {
+    "id": "281",
+    "category": "Cloud Concepts",
+    "info": {
+      "subcategory": "Test Example Questions",
+      "questionType": "multiple choice 1",
+      "question": "A company hosts a training site on a fleet of Amazon EC2 instances. The company anticipates that its new course, which consists of dozens of training videos on the site, will be extremely popular when it is released in 1 week.\nWhat should a solutions architect do to minimize the anticipated server load?",
+      "answers": [
+        "Store the videos in Amazon ElastiCache for Redis. Update the web servers to serve the videos using the ElastiCache API.",
+        "Store the videos in Amazon Elastic File System (Amazon EFS). Create a user data script for the web servers to mount the EFS volume.",
+        "Store the videos in an Amazon S3 bucket. Create an Amazon CloudFront distribution with an origin access identity (OAI) of that S3 bucket. Restrict Amazon S3 access to the OAI.",
+        "Store the videos in an Amazon S3 bucket. Create an AWS Storage Gateway file gateway to access the S3 bucket. Create a user data script for the web servers to mount the file gateway."
+      ],
+      "correctAnswer": ["Store the videos in an Amazon S3 bucket. Create an Amazon CloudFront distribution with an origin access identity (OAI) of that S3 bucket. Restrict Amazon S3 access to the OAI."]
+    }
+  }
+]
