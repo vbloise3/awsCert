@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/awsCertUi/src/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsCertUi/src/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsCertUi/src/js/userprofile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsCertUi/src/js/verifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_12_aa2020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lambda json/Arch20_Questions_13_aa2020.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +174,7 @@
       <workItem from="1613492795167" duration="5848000" />
       <workItem from="1613514270148" duration="16073000" />
       <workItem from="1614695678943" duration="53814000" />
-      <workItem from="1615470127909" duration="22483000" />
+      <workItem from="1615470127909" duration="34926000" />
     </task>
     <servers />
   </component>
@@ -188,15 +182,11 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/bin/hello-cdk.js" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.d.ts" />
-        <option value="$PROJECT_DIR$/../hello-cdk/lib/hello-cdk-stack.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
         <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.js" />
-        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/bin/cdk-workshop.d.ts" />
         <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.js" />
+        <option value="$PROJECT_DIR$/../cdk-workshop/lib/cdk-workshop-stack.d.ts" />
+        <option value="$PROJECT_DIR$/awsCertUi/node_modules/karma/config.tpl.js" />
       </list>
     </option>
   </component>
@@ -214,9 +204,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="625" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1614816757047">
-      <screen x="0" y="25" width="1920" height="989" />
+    <state x="625" y="245" width="670" height="682" key="search.everywhere.popup" timestamp="1617845025076">
+      <screen x="0" y="25" width="1920" height="997" />
     </state>
     <state x="625" y="243" width="670" height="676" key="search.everywhere.popup/0.25.1920.989@0.25.1920.989" timestamp="1614816757047" />
+    <state x="625" y="245" width="670" height="682" key="search.everywhere.popup/0.25.1920.997@0.25.1920.997" timestamp="1617845025076" />
   </component>
 </project>
