@@ -25,10 +25,12 @@ import { HomeComponent } from './home/home.component';
 import {C2pDynamoDbComponent} from './c2p-dynamo-db/c2p-dynamo-db.component';
 import { OnlyNumberDirective} from './directives/only-number.directive';
 
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule} from '@angular/forms';
 import { BaseComponent } from './base/base.component';
 import { DynamoDbserviceService } from './services/dynamo-dbservice';
+import { PostsService } from './services/posts.service';
 import { C2pQuestionComponent } from './c2p-question/c2p-question.component';
 import { Ca2QuestionComponent } from './ca2-question/ca2-question.component';
 import {DataService} from "./data.service";
@@ -63,11 +65,15 @@ const appRoutes: Routes = [
     component: CdanQuestionComponent
   },
   {
-    path: 'ca220practice',
+    path: 'ca221practice',
     component: Ca220QuestionComponent
   },
   {
     path: '',
+    component: HomeComponent
+  },
+  {
+    path: '404',
     component: HomeComponent
   },
   {
@@ -100,7 +106,32 @@ const appRoutes: Routes = [
   },
   {
     path: '7',
-    component: Ca220QuestionComponent
+    redirectTo: '/2021',
+    pathMatch: 'full'
+    /*component: Ca220QuestionComponent*/
+  },
+  {
+    path: '21',
+    redirectTo: '/2021',
+    pathMatch: 'full'
+    /*component: Ca220QuestionComponent*/
+  },
+  {
+    path: '#!ca220practice',
+    redirectTo: '/2021',
+    pathMatch: 'full'
+    /*component: Ca220QuestionComponent*/
+  },
+  {
+    path: 'c2ppractice',
+    redirectTo: '/c2ppractice',
+    pathMatch: 'full'
+    /*component: Ca220QuestionComponent*/
+  },
+  {
+    path: '',
+    redirectTo: '',
+    pathMatch: 'full'
   },
   {
     path: '',
@@ -144,7 +175,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [DynamoDbserviceService, DataService],
+  providers: [DynamoDbserviceService, DataService, PostsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

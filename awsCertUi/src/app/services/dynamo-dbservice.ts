@@ -41,7 +41,9 @@ export interface  Movie {
   rating: string;
 }
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class DynamoDbserviceService {
 
   constructor(private http: HttpClient) { }

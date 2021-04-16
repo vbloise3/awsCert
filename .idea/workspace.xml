@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c917b741-94cc-4b89-8f7a-905832f4b586" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/awsCertUi/package-11.2.10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsCertUi/src/app/indigo-pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsCertUi/src/assets/indigo-pink.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCertUi/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/buildDeploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/ca220-question/ca220-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/ca220-question/ca220-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cda-question/cda-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cdan-question/cdan-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cdan-question/cdan-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/cml-question/cml-question.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/services/dynamo-dbservice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCertUi/src/app/services/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/app/services/posts.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsCertUi/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/awsCertUi/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/awsCertUi/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/awsCertUi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -58,18 +70,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/awsCertUi/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/awsCertUi/src" />
-      <recent name="$PROJECT_DIR$/awsCertUi" />
-      <recent name="$PROJECT_DIR$/public/Lambda json" />
-      <recent name="$PROJECT_DIR$/awsCertUi/src/app" />
-      <recent name="$PROJECT_DIR$/chalicelib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/awsCertUi/src/js" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/Lambda json" />
       <recent name="$PROJECT_DIR$/public/Exam Notes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/awsCertUi" />
+      <recent name="$PROJECT_DIR$/awsCertUi/src/app" />
+      <recent name="$PROJECT_DIR$/awsCertUi/src/assets" />
+      <recent name="$PROJECT_DIR$/awsCertUi/src" />
+      <recent name="$PROJECT_DIR$/public/Lambda json" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -181,7 +193,7 @@
       <workItem from="1617934852009" duration="607000" />
       <workItem from="1617972913480" duration="1704000" />
       <workItem from="1618420631923" duration="989000" />
-      <workItem from="1618496944647" duration="8953000" />
+      <workItem from="1618496944647" duration="30559000" />
     </task>
     <servers />
   </component>
